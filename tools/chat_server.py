@@ -7,9 +7,13 @@ Usage: python3 tools/chat_server.py [--port 8181]
 
 from __future__ import annotations
 
+import argparse
 import json
+import os
+import socket
 import sys
 import threading
+import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
@@ -17,11 +21,64 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from cognitive_harness import CognitiveHarness
 
+STATE_DEFAULT = "/Users/shehzad/Desktop/mindharness/harness_state.json"
+
+
+def parse_args() -> argparse.Namespace:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--port", type=int, default=8181)
+    ap.add_argument("--snapshot", default=STATE_DEFAULT,
+                    help="harness state file to load on start and save per turn")
+    ap.add_argument("--heartbeat", default=None,
+                    help="keeper heartbeat file: background tick verifies the "
+                         "port accepts connections and reports turn count")
+    return ap.parse_args()
+
+
+ARGS = parse_args()
+
 HARNESS = CognitiveHarness(
     backend="llama", base_url="http://127.0.0.1:8081/v1",
     model="spark-x2.5-4b", name="shehzad-loop")
-HARNESS.load_state("/Users/shehzad/Desktop/mindharness/harness_state.json")
+if os.path.exists(ARGS.snapshot):
+    HARNESS.load_state(ARGS.snapshot)
 LOCK = threading.Lock()
+LAST_TURN_OK = {"ok": True}
+
+
+def heartbeat_tick(port: int, path: str) -> None:
+    time.sleep(5)
+    last_turn = 0
+    while True:
+        try:
+            with socket.create_connection(("127.0.0.1", port), timeout=5):
+                serving = True
+        except OSError:
+            serving = False
+        # Non-blocking read: a slow inference turn may hold LOCK for
+        # minutes; the heartbeat must keep proving liveness through that.
+        if LOCK.acquire(blocking=False):
+            try:
+                last_turn = HARNESS.turn_count
+            finally:
+                LOCK.release()
+        coverage = 1.0 if (serving and LAST_TURN_OK["ok"]) else 0.0
+        hb = {"name": "chat-server", "pid": os.getpid(), "ts": time.time(),
+              "turn": last_turn, "gamma": 0.0, "energy": 1.0,
+              "coverage": coverage, "query_rate": 0.0}
+        tmp = path + ".tmp"
+        try:
+            with open(tmp, "w") as f:
+                json.dump(hb, f)
+            os.replace(tmp, path)
+        except OSError:
+            pass
+        time.sleep(30)
+
+
+if ARGS.heartbeat:
+    threading.Thread(target=heartbeat_tick,
+                     args=(ARGS.port, ARGS.heartbeat), daemon=True).start()
 
 PAGE = """<!doctype html><html><head><meta charset="utf-8">
 <title>mindharness chat (local)</title>
@@ -80,9 +137,13 @@ class Handler(BaseHTTPRequestHandler):
         except (ValueError, KeyError):
             msg = ""
         with LOCK:
-            reply = HARNESS.process_turn(str(msg)[:2000])
-            HARNESS.save_state(
-                "/Users/shehzad/Desktop/mindharness/harness_state.json")
+            try:
+                reply = HARNESS.process_turn(str(msg)[:2000])
+                HARNESS.save_state(ARGS.snapshot)
+                LAST_TURN_OK["ok"] = True
+            except Exception as e:
+                LAST_TURN_OK["ok"] = False
+                reply = f"harness turn failed: {e}"
         self._send(json.dumps({"reply": reply}).encode(),
                    "application/json")
 
@@ -91,6 +152,4 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    port = int(sys.argv[sys.argv.index("--port") + 1]
-               if "--port" in sys.argv else 8181)
-    HTTPServer(("127.0.0.1", port), Handler).serve_forever()
+    HTTPServer(("127.0.0.1", ARGS.port), Handler).serve_forever()

@@ -1,6 +1,6 @@
 {
- "transfer_diff": 0.0409,
- "kept_gap": 0.007000000000000006,
+ "transfer_diff": 0.041683333333333315,
+ "kept_gap": 0.006950000000000123,
  "sweep": {
   "T1_K0.5": true,
   "T1_K1.0": false,
@@ -23,5 +23,15 @@
   "T5_K1.5": false,
   "T5_K2.0": false
  },
- "note": "S126 arm meets transfer rule up to 4%, kept rule only at 0.5%; decisive gaps are scale (964/2000) and replication (37x). Honest sensitivity: rule bites on this arm."
+ "provenance": {
+  "sources": [
+   "experiments/lab_runs_s126_laguna_n12/seeds_partial.json",
+   "experiments/lab_runs_s126_laguna_n12_paid/seeds_partial.json"
+  ],
+  "transfer_n_seeds": 24,
+  "kept_n_seeds": 12,
+  "wiped_n_seeds": 12,
+  "rule": "pass[T,K] = transfer>=T and kept_gap>=K"
+ },
+ "note": "S126 arms: transfer holds to 4%, kept rule only at 0.5%; decisive gaps are scale (964/2000) and replication (37x)."
 }

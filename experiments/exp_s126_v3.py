@@ -119,6 +119,22 @@ def seed_raw(client, given, produce_prompts):
     return history, generated
 
 
+def _write_heartbeat(path, seed_bank, arms, seeds):
+    """Keeper heartbeat for battery runs: coverage = share of planned
+    seed-runs banked. Progress signal, not ledger coverage."""
+    import os
+    import time
+    done = sum(len(v) for v in seed_bank.values())
+    total = max(1, len(arms) * len(seeds))
+    hb = {'name': 'exp_s126_v3', 'pid': os.getpid(), 'ts': time.time(),
+          'turn': done, 'gamma': 0.0, 'energy': 1.0,
+          'coverage': round(done / total, 4), 'query_rate': 1.0}
+    tmp = path + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(hb, f)
+    os.replace(tmp, path)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('--api-key', required=True)
@@ -166,6 +182,10 @@ def main() -> None:
     ap.add_argument('--exploratory', action='store_true',
                     help='skip prereg lock verification and stamp the output '
                          'as exploratory; NEVER use for a confirmatory run')
+    ap.add_argument('--heartbeat', default=None,
+                    help='keeper heartbeat file: after each banked seed-run, '
+                         'write progress (coverage = share of planned '
+                         'seed-runs banked) so a keeper can tend this run')
     args = ap.parse_args()
 
     # Phase B gate handling: --gate state_dependent forces threshold 0.28 and state-dependent detection
@@ -482,6 +502,8 @@ def main() -> None:
                  'seeds': seed_bank}, indent=1))
             print(f"  banked {kind} seed {s}: {rec['attribution_accuracy']}",
                   flush=True)
+            if args.heartbeat:
+                _write_heartbeat(args.heartbeat, seed_bank, arms, seeds)
 
         pooled = round(sum(x['attribution_accuracy']
                            for x in per_seed) / len(per_seed), 4)

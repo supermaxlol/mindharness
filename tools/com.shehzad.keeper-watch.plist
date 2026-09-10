@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.shehzad.keeper-watch</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/bin/python3.13</string>
+        <string>/Users/shehzad/Desktop/mindharness/tools/keeper_run.py</string>
+        <string>--name</string>
+        <string>keeper-watch</string>
+        <string>--own-heartbeat</string>
+        <string>/tmp/keeper-watch-own.json</string>
+        <string>--peer-heartbeat</string>
+        <string>/tmp/keeper-chat-own.json</string>
+        <string>--peer-cmd</string>
+        <string>/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/bin/python3.13 /Users/shehzad/Desktop/mindharness/tools/keeper_run.py --name keeper-chat --own-heartbeat /tmp/keeper-chat-own.json --peer-heartbeat /tmp/keeper-chat-peer.json --peer-cmd /Users/shehzad/Desktop/mindharness/tools/chat_server_launch.sh --events /tmp/keeper-chat-events.jsonl --interval 30 --max-age 120</string>
+        <string>--snapshot</string>
+        <string>/tmp/keeper-chat-own.json</string>
+        <string>--events</string>
+        <string>/tmp/keeper-watch-events.jsonl</string>
+        <string>--interval</string>
+        <string>60</string>
+        <string>--max-age</string>
+        <string>240</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ThrottleInterval</key>
+    <integer>60</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/keeper-watch.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/keeper-watch.log</string>
+</dict>
+</plist>

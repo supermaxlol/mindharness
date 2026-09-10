@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.shehzad.keeper-chat</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/bin/python3.13</string>
+        <string>/Users/shehzad/Desktop/mindharness/tools/keeper_run.py</string>
+        <string>--name</string>
+        <string>keeper-chat</string>
+        <string>--own-heartbeat</string>
+        <string>/tmp/keeper-chat-own.json</string>
+        <string>--peer-heartbeat</string>
+        <string>/tmp/keeper-chat-peer.json</string>
+        <string>--peer-cmd</string>
+        <string>/Users/shehzad/Desktop/mindharness/tools/chat_server_launch.sh</string>
+        <string>--snapshot</string>
+        <string>/Users/shehzad/Desktop/mindharness/harness_state.json</string>
+        <string>--events</string>
+        <string>/tmp/keeper-chat-events.jsonl</string>
+        <string>--interval</string>
+        <string>30</string>
+        <string>--max-age</string>
+        <string>120</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/keeper-chat.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/keeper-chat.log</string>
+</dict>
+</plist>

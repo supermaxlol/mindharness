@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Integration test: irreversible consequences change behavior permanently."""
 import sys
-sys.path.insert(0, ".")
-sys.path.insert(0, "tools")
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 
 from harness_core.agent_harness import AgentHarness
 from harness_core.agent_harness import IrreversibleDamage, wire_irreversibility
