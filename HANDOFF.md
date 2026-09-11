@@ -206,3 +206,9 @@ Disk-derived, same rule as §9: nothing below is carried over, all of it was run
 - **DSH bundles validated without the host** (`dsh` binary is not installed on this machine — `which dsh` empty, no cordis checkout, no install docs). `tools/validate_dsh_bundles.py`: 0 errors / 9 warnings / 15 rows; `tests/test_dsh_bundles.py` 4/4. Open items needing a ruling: `ctx.provenance` + `ctx.embodied` double-claimed across bundles; 7 parliament packages aspirational.
 - **nex-pro screen pending quota.** `lab_runs_s126_nexpro_n2`: raw banked 0.6667×2, then OpenRouter 429 (50/day free wall, reset 2026-09-11 06:00). Resume = re-run the same command (banking resumes automatically); add `--heartbeat` as before.
 - **Tests:** 123/123 across 17 files, run end-to-end tonight. `test_irreversibility.py` fixed to be cwd-independent.
+
+### Addendum 2026-09-11 ~15:30 — reasoning-content fallback (instrument bug, two verdicts invalidated)
+
+- **Bug:** `BackendClient.chat` read `message.content` only. Spark-X2.5 via llama-server emits everything into `reasoning_content` and leaves `content` empty (verified: full 915-char thinking trace, `finish:length` at 200 tokens — the model never reaches its answer). Every battery driven through `BackendClient` against local Spark silently scored empty strings.
+- **Invalidated:** (1) Barzakh live attempt #1 (tagged drift 0.0 = empty-vs-empty, bank deleted, run killed). (2) S126 Spark verdict — `lab_runs_s126_spark_n2` all-arms 0.6667 was scored on empty generations, so "third weak-subject null" is UNSOUND for Spark; the local subject was never actually tested. nexpro 0.6667 stands (OpenRouter returns real content).
+- **Fix:** `reasoning_content` fallback in `backend.py` + `tests/test_backend_reasoning_fallback.py` 3/3. Barzakh live #2 relaunched with `--max-tokens 1200` (Spark needs ~1000 thinking tokens before answering); drift now measures full thinking-traces, documented in run. Spark S126 re-screen queued after Barzakh.

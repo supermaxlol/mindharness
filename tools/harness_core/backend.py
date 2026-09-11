@@ -344,7 +344,13 @@ class BackendClient:
             raise last_err or RuntimeError("exhausted retries")
 
         choice = (data.get("choices") or [{}])[0]
-        content = (choice.get("message") or {}).get("content", "") or ""
+        message = choice.get("message") or {}
+        # Reasoning models (e.g. Spark via llama-server) emit into
+        # reasoning_content and leave content empty; score the thinking
+        # trace rather than an empty string (same fallback as
+        # cognitive_harness response extraction).
+        content = (message.get("content") or
+                   message.get("reasoning_content") or "")
         fingerprint = data.get("system_fingerprint")
 
         # --- fingerprint discipline (Part F) --------------------------------
