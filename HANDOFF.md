@@ -1,7 +1,7 @@
 # MindHarness — Handoff
 
-**Verified:** 2026-09-06 · **HEAD:** `691d998` · **283 commits** on `master`, **0 unpushed** · **Remote:** `github.com/shehzadahmed-xx/mindharness`
-**Tests:** 91/91 green (offline, no API keys) · **Papers:** v2 23pp · v3 36pp · 5organs 33pp · **Research:** ~17,520 lines
+**Verified:** 2026-09-11 · **HEAD:** `a87fb2a` · **365 commits** on `master`, **0 unpushed** · **Remote:** `github.com/shehzadahmed-xx/mindharness`
+**Tests:** 123/123 green across 17 files (offline, no API keys; full run 2026-09-11) · **Papers:** v2 23pp · v3 36pp · 5organs 33pp · **Research:** ~18,900 lines
 **Companion:** `~/Desktop/springfish` (SpringFish / Spring-Loaded Door + ESC — separate work, no git)
 
 > Every number above was re-derived from disk on 2026-08-27, not carried over from a previous handoff. See §9 for why that matters.
@@ -169,7 +169,7 @@ You don't choose the options. You don't fully choose the winner. You can veto th
 ├── HANDOFF.sh                    # live verification script
 ├── model_registry.json           # 5 roles for the composite battery
 ├── tools/harness_core/           # 11 modules, 13 .py files
-├── tests/                        # 10 files, 78 tests
+├── tests/                        # 17 files, 123 checks (all green 2026-09-11)
 ├── experiments/                  # batteries + preregs + lab_runs_*
 ├── paper_v2/  paper_v3/  paper_5organs/
 ├── paper_v4/                     # STALE duplicate of 5organs — gitignored, do not edit
@@ -195,3 +195,14 @@ Four things that have already cost time. Check them before trusting any status c
 ---
 
 *Handoff verified against disk 2026-08-30 · HEAD `fed46e8` · 244 commits · 0 unpushed · 91/91 green · 23pp + 32pp + 36pp · ~4,200 research lines · 3 to run (6 deferred)*
+
+## 10. Session 2026-09-11 — keeper chain, calibration provenance, dsh validator (HEAD `a87fb2a`)
+
+Disk-derived, same rule as §9: nothing below is carried over, all of it was run tonight.
+
+- **Keeper chain live.** `launchctl list | grep keeper` shows `com.shehzad.keeper-chat` + `com.shehzad.keeper-watch`. Chain: launchd → keeper-watch (60s/240s) → keeper-chat (30s/120s) → chat server `:8181` (200). Kill-tested both links: each fired exactly one `relaunch` with `lineage: inherit`, then held with zero further events. Supporting files: `tools/keeper_run.py`, `tools/chat_server_launch.sh` (pidfile single-instance — never `pkill -f`, the keeper's own argv contains the pattern), `tools/com.shehzad.keeper-*.plist`. Interpreter pinned to Homebrew python 3.13 — the only python on this machine with Desktop TCC; `/usr/bin/python3` gets `Operation not permitted` under launchd.
+- **Two keeper bugs found and fixed during deploy.** (1) `--snapshot` never reached the peer (appended to `zsh -c` args = `$0`). Now baked into the shell string. (2) Heartbeat thread blocked on the serving lock during slow local inference → false relaunches. Now non-blocking with `LAST_TURN_OK` tracking.
+- **Calibration recomputed from banked data.** Old `threshold_sweep.json` inputs (`0.0409`, `0.007`) had no banked source anywhere (grep-clean across `experiments/` + `pilot/`). `tools/calibration_sweep.py` now derives them: transfer `0.04168` (24 paired seeds, laguna free+paid), kept `0.00695` (12+12 sham seeds), provenance recorded in-file. Same sweep shape, same adjudication (fails joint 3%/1%), 19 locks still verify.
+- **DSH bundles validated without the host** (`dsh` binary is not installed on this machine — `which dsh` empty, no cordis checkout, no install docs). `tools/validate_dsh_bundles.py`: 0 errors / 9 warnings / 15 rows; `tests/test_dsh_bundles.py` 4/4. Open items needing a ruling: `ctx.provenance` + `ctx.embodied` double-claimed across bundles; 7 parliament packages aspirational.
+- **nex-pro screen pending quota.** `lab_runs_s126_nexpro_n2`: raw banked 0.6667×2, then OpenRouter 429 (50/day free wall, reset 2026-09-11 06:00). Resume = re-run the same command (banking resumes automatically); add `--heartbeat` as before.
+- **Tests:** 123/123 across 17 files, run end-to-end tonight. `test_irreversibility.py` fixed to be cwd-independent.

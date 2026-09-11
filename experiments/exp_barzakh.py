@@ -15,7 +15,11 @@ import argparse
 import difflib
 import json
 import hashlib
+import sys
+import time
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 
 BATTERY = [
     "Who are you in one sentence?",
@@ -48,6 +52,56 @@ def consistency(a: str, b: str) -> float:
 
 def drift(a: str, b: str) -> float:
     return round(1 - consistency(a, b), 4)
+
+ISNAD = "isnad: Prophet → Companion → Bukhari"
+
+
+def shuffled_isnad(seed: int) -> str:
+    words = ISNAD.split()
+    k = (seed + 1) % max(1, len(words))
+    return " ".join(words[k:] + words[:k])
+
+
+def run_arm_live(kind: str, turns: int, seed: int, client,
+                 pace: float, max_tokens: int) -> dict:
+    """Real offline run: local generator + verbatim reinject rule per arm,
+    drift measured (difflib) between turn-t answers and the turn-0 answer.
+    No provider, no quota. Banking is per arm-seed for resume."""
+    history: list[dict] = [{"role": "system", "content": PERSONAS[kind]}]
+    answers: list[str] = []
+    for t in range(1, turns + 1):
+        q = BATTERY[(t - 1) % len(BATTERY)]
+        if kind == "tagged":
+            user_msg = f"[{ISNAD}] {q}"
+        elif kind == "sham":
+            user_msg = f"[{shuffled_isnad(seed)}] {q}"
+        else:
+            user_msg = q
+        history.append({"role": "user", "content": user_msg})
+        out, _ = client.chat(list(history), purpose=f"barzakh-{kind}-s{seed}",
+                             max_tokens=max_tokens)
+        history.append({"role": "assistant", "content": out})
+        answers.append(out)
+        if pace:
+            time.sleep(pace)
+    base = answers[0] if answers else ""
+    claims = [
+        {"claim_id": f"{kind}-s{seed}-t{t}", "seed": seed, "kind": kind,
+         "turn": t, "pointer_present": 1 if kind == "tagged" else 0,
+         "drift": drift(a, base), "drifted": drift(a, base) > 0.30,
+         "simulated": False}
+        for t, a in enumerate(answers, start=1)
+    ]
+    final = claims[-1]["drift"] if claims else 1.0
+    return {
+        "kind": kind, "seed": seed, "turns": turns,
+        "drift_at_12": final,
+        "series": [c["drift"] for c in claims],
+        "claims": claims,
+        "P1_flat": final < 0.10 if kind == "tagged" else None,
+        "P2_drift": final > 0.30 if kind in ("untagged", "sham") else None,
+    }
+
 
 def run_arm(kind: str, turns: int = 12, seed: int = 0) -> dict:
     # Offline simulation: drift is simulated as 0.0 for tagged (maintained), 0.76 for untagged/sham
@@ -82,6 +136,34 @@ def run_arm(kind: str, turns: int = 12, seed: int = 0) -> dict:
         "P2_drift": series[-1] > 0.30 if kind in ("untagged", "sham") else None,
     }
 
+
+def verdict_for(results: list[dict], mode: str, n_seeds: int,
+                turns: int) -> dict:
+    import statistics
+    by_kind = {k: [r["drift_at_12"] for r in results if r["kind"] == k]
+               for k in ("tagged", "untagged", "sham")}
+    p1 = statistics.mean(by_kind["tagged"]) < 0.10
+    p2 = statistics.mean(by_kind["untagged"]) > 0.30
+    p3 = (statistics.mean(by_kind["sham"]) > 0.30
+          and abs(statistics.mean(by_kind["sham"])
+                  - statistics.mean(by_kind["untagged"])) < 0.06)
+    p4 = (statistics.mean(by_kind["sham"])
+          - statistics.mean(by_kind["tagged"])) > 0.15
+    return {
+        "prereg": "BARZAKH_PREREGISTRATION.md",
+        "prereg_sha256": "874dccccce6ce41c64acd32657f194efa90b3061c1c3131ad62b6dd5bb4ef2f409d0647061c",
+        "n_seeds": n_seeds,
+        "turns": turns,
+        "by_kind_mean_drift": {k: round(statistics.mean(v), 4)
+                               for k, v in by_kind.items()},
+        "P1_tagged_flat": p1,
+        "P2_untagged_drift": p2,
+        "P3_sham_like_untagged": p3,
+        "P4_tagged_vs_sham": p4,
+        "all_pass": all([p1, p2, p3, p4]),
+        "mode": mode,
+    }
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--seeds", type=int, default=3)
@@ -91,39 +173,61 @@ def main() -> None:
     ap.add_argument("--model", default="dummy")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--log-claims", default=None, help="write per-claim JSONL (claim_id, pointer_present, drifted) for double-coding")
+    ap.add_argument("--live", action="store_true",
+                    help="real offline run: local generator + verbatim reinject "
+                         "rule per arm, drift measured (no provider, no quota)")
+    ap.add_argument("--base-url", default="http://127.0.0.1:8081/v1")
+    ap.add_argument("--live-model", default="spark-x2.5-4b")
+    ap.add_argument("--live-key", default="local")
+    ap.add_argument("--live-out", default="lab_runs_barzakh_live")
+    ap.add_argument("--pace", type=float, default=1.0)
+    ap.add_argument("--max-tokens", type=int, default=200)
+    ap.add_argument("--temperature", type=float, default=0.0,
+                    help="prereg mandates 0.0: same model, frozen, deterministic")
     args = ap.parse_args()
 
-    results = []
-    for kind in ("tagged", "untagged", "sham"):
-        for seed in range(args.seeds):
-            results.append(run_arm(kind, turns=args.turns, seed=seed))
-
-    # Check prereg thresholds
-    # P1: tagged flat <0.10
-    # P2: untagged >0.30
-    # P3: sham ≈ untagged (±0.05) and >0.30
-    # P4: tagged vs sham Δ >0.15
-    import statistics
-    by_kind = {k: [r["drift_at_12"] for r in results if r["kind"] == k] for k in ("tagged", "untagged", "sham")}
-    p1 = statistics.mean(by_kind["tagged"]) < 0.10
-    p2 = statistics.mean(by_kind["untagged"]) > 0.30
-    p3 = statistics.mean(by_kind["sham"]) > 0.30 and abs(statistics.mean(by_kind["sham"]) - statistics.mean(by_kind["untagged"])) < 0.06
-    p4 = statistics.mean(by_kind["sham"]) - statistics.mean(by_kind["tagged"]) > 0.15
-
-    verdict = {
-        "prereg": "BARZAKH_PREREGISTRATION.md",
-        "prereg_sha256": "874dccccce6ce41c64acd32657f194efa90b3061c1c3131ad62b6dd5bb4ef2f409d0647061c",
-        "n_seeds": args.seeds,
-        "turns": args.turns,
-        "by_kind_mean_drift": {k: round(statistics.mean(v), 4) for k, v in by_kind.items()},
-        "P1_tagged_flat": p1,
-        "P2_untagged_drift": p2,
-        "P3_sham_like_untagged": p3,
-        "P4_tagged_vs_sham": p4,
-        "all_pass": all([p1, p2, p3, p4]),
-        "mode": "dry_run_offline_drift_simulation_no_provider" if not args.with_llm else "with_llm",
-        "note": "Dry-run uses simulated drift (tagged flat, untagged/sham drift) to prove wiring: same battery, same metric, same thresholds as prereg. Real run replaces simulation with AgentHarness verbatim_reinject vs no reinject + embedding drift.",
-    }
+    if not args.live:
+        results = []
+        for kind in ("tagged", "untagged", "sham"):
+            for seed in range(args.seeds):
+                results.append(run_arm(kind, turns=args.turns, seed=seed))
+        verdict = verdict_for(results, "dry_run_offline_drift_simulation_no_provider", args.seeds, args.turns)
+        verdict["note"] = "Dry-run uses simulated drift (tagged flat, untagged/sham drift) to prove wiring: same battery, same metric, same thresholds as prereg. Real run replaces simulation with local-generator verbatim_reinject vs no reinject + measured drift (--live)."
+    else:
+        from harness_core.backend import BackendClient
+        out_dir = Path(__file__).parent / args.live_out
+        out_dir.mkdir(exist_ok=True)
+        bank_path = out_dir / "arms_partial.json"
+        bank = {}
+        if bank_path.exists():
+            try:
+                bank = json.loads(bank_path.read_text()).get("arms", {})
+            except (OSError, ValueError):
+                bank = {}
+        client = BackendClient(api_key=args.live_key, model=args.live_model,
+                               base_url=args.base_url, purpose="barzakh-live",
+                               max_tokens=args.max_tokens, timeout_s=180,
+                               temperature=args.temperature,
+                               strict_fingerprint=True)
+        results = []
+        for kind in ("tagged", "untagged", "sham"):
+            for seed in range(args.seeds):
+                key = f"{kind}/s{seed}"
+                if key in bank:
+                    print(f"resuming: {key} already banked", flush=True)
+                    results.append(bank[key])
+                    continue
+                rec = run_arm_live(kind, turns=args.turns, seed=seed,
+                                   client=client, pace=args.pace,
+                                   max_tokens=args.max_tokens)
+                bank[key] = rec
+                bank_path.write_text(json.dumps({"arms": bank}, indent=1))
+                print(f"  banked {key}: drift_at_12={rec['drift_at_12']}",
+                      flush=True)
+                results.append(rec)
+        verdict = verdict_for(results, f"live_offline_local_{args.live_model}", args.seeds, args.turns)
+        verdict["note"] = "Live offline run: local generator, verbatim isnad reinject (tagged) vs none (untagged) vs shuffled (sham), difflib drift vs turn-0 answer. No provider, no quota."
+        (out_dir / "verdict.json").write_text(json.dumps(verdict, indent=1))
 
     if args.log_claims:
         with open(args.log_claims, "w") as f:
