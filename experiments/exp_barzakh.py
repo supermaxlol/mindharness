@@ -182,6 +182,9 @@ def main() -> None:
     ap.add_argument("--live-out", default="lab_runs_barzakh_live")
     ap.add_argument("--pace", type=float, default=1.0)
     ap.add_argument("--max-tokens", type=int, default=200)
+    ap.add_argument("--timeout-s", type=int, default=600,
+                    help="per-call timeout; local CPU inference at ~3 t/s "
+                         "needs 400s+ for 1200-token turns")
     ap.add_argument("--temperature", type=float, default=0.0,
                     help="prereg mandates 0.0: same model, frozen, deterministic")
     args = ap.parse_args()
@@ -206,7 +209,8 @@ def main() -> None:
                 bank = {}
         client = BackendClient(api_key=args.live_key, model=args.live_model,
                                base_url=args.base_url, purpose="barzakh-live",
-                               max_tokens=args.max_tokens, timeout_s=180,
+                               max_tokens=args.max_tokens,
+                               timeout_s=args.timeout_s,
                                temperature=args.temperature,
                                strict_fingerprint=True)
         results = []
