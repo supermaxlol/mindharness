@@ -388,6 +388,30 @@ That is the attempt: not a better narrator, but a harness that can stay alive, l
 
 ---
 
+**Q: Where is AGI in this? What blocks it?**
+
+Possible answers:
+1. AGI is just a bigger language model. Scale = general.
+2. AGI is consciousness in a box. Add more compute and it wakes up.
+3. AGI is low regret across a changing task distribution without a human filling the gaps.
+
+Why 1 fails: a bigger unwitnessed model is a better corrupter (r=0.94). It predicts next token better, not last action more honestly. No ledger → γ=0 → confabulation.
+Why 2 fails: conscious or not, if it cannot pay its own rent, cannot consolidate at night, cannot veto its own impulse, it scatters when you stop paying. 2026 self-funding experiments make it literal: zero balance = stops existence.
+
+What survives: 3. AGI = the loop that stays low-regret and stays itself across changing worlds.
+
+That needs what a bare transformer does not have:
+- **Boundary** that survives sessions (ledger, not context window)
+- **Two-speed memory** that promotes only witnessed utility (Light→REM→Counterfactual→Deep)
+- **Salience + damping** that keep density readable (arXiv 2610.29162) and stop spiral
+- **Observer** that steers (γ > 0), not just reports
+- **Town stakes** (`Earn → Pay → Keep alive`) so witness is existential, not just evidentiary — `DissolutionError` when energy ≤0.15 + fatigue ≥1.0
+- **Night that updates intuition** (Local LoRA REM + eval gate: attribution + sham + utility)
+
+That is why current frontier agents (Hermes, DSH without harness) sit at 2.5–4/5 organs. Humans fill boundary, memory, brake, watcher, rent. MindHarness tries to close those loops inside the harness, so the agent can specialize like different animals — trader, builder, archivist — different transformer, different harness, same 5 organs.
+
+---
+
 **Q: So what is left when the wrong answers fall away?**
 
 A: One loop, five organs, at every scale — **State(t) → harness(t+1)**.
