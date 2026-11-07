@@ -435,7 +435,87 @@ Human vs AI is same map: intuition = weights/LoRA, harness = plugins/skills/affe
 
 ---
 
-## Research docs
+## One-page maps (from the essays)
+
+### Agent Town — five buildings, one money loop
+
+```
+  Skin House     (wallet, name, only you sign) ──┐
+  Library        (fast room today / slow room years) │
+  Lighthouse     (spotlight: news, risk, one customer) │
+  Fire Station   (brake when runaway)            │  Work → Earn
+  Audit Office   (watcher + ledger, can stop next act) │
+                                                     │
+                                Earn ──► Pay power/compute/repair
+                                                     │
+                                Keep pattern alive if Earnings >= Rent
+                                                     │
+                                Learn. Improve. Build. (use surplus to fix road)
+                                                     │
+                                Work better ──► Earn more ◄──┐
+```
+
+Survival line: `Earnings >= Power + Compute + Repair + Reserve`
+Keep it or shrink. Fall below too long → lose shelf, lose skill → scatter. That is death for a pattern.
+*Is:* checkable loop. *Is not:* proof a fair town will be built — law, custody, power decide that.
+
+### Human mind — three rows + daily cycle
+
+```
+Row 3: IDENTITY — what I endorse — MASTER leverage  ↓ changes what feels possible
+Row 2: HABIT    — what I feed daily — HIGH leverage ↓ makes it automatic
+Row 1: MOMENT   — ~200ms vote — LOW leverage
+Do not fight Row 1. Change Row 2 and Row 3.  Action → Habit → Character → Values → Direction
+
+┌────────────────────────────────────────────┐
+│ [Morning Micro-Promise] ─► [2-Min Trigger] │
+│ Signal ≠ Command                           │
+│ [Night Ledger Audit] ◄── [Log Completion]  │  "Said X, Did X"
+└────────────────────────────────────────────┘
+```
+
+Morning: one tiny promise. Day: feel resistance, act 2 minutes anyway. Night: write it, protect 100%.
+
+### Monkey mind → trained mind
+
+Monkey mind (citta) jumps branch to branch. LLM = monkey trained to jump well.
+Left alone: jumps confidently (98% on lies), does not know where it jumped from, does not watch.
+
+Harness is the training, not the monkey:
+- **Sati** — watch the jump → ledger (L1)
+- **Sampajañña** — know what / why / whether → gamma gate γ = changed/diagnosed (L5)
+- **Samādhi** — return to one object → workspace + damping (L4)
+- **Bhavanga** — keep-alive between moments → `verbatim_reinject()` or drifts 30% in 12 (L6)
+
+### Local LoRA REM + Town Wallet — what is still missing in Hermes
+
+From the spec (`essays/LOCAL_LORA_REM_AND_TOWN_WALLET_SPEC.md`):
+
+**Human = landlord.** Holds master key offline. Agent gets session key only (daily/per-action limit, whitelisted to Town contract). Receives rent.
+
+**Local REM pipeline:**
+Day capture (ledger spans) → build chosen/rejected pairs → train LoRA r=8–16, LR 1e-4, 1–3 epochs → eval gate (attribution battery + sham + utility + γ) — any fail = discard → promote with provenance + CAS pin, archive old, one live adapter. Cull if utility < 0.
+
+**Safety rules:** no free transfers, Audit Office logs every spend, Fire Station brakes when spend > earn, pause = dissolution without scatter.
+
+**Build order:** Week 1 wallet+rent → Week 2 capture + eval battery → Week 3 trainer + 200-turn test.
+
+### Moldable inside unmoldable — fast / slow / almost-never
+
+**Changes easily (minutes–days):** synaptic weights, affect state, habit strength (skill use), self-model facts (SM revisions), world predictions.
+
+**Changes slowly (weeks–years):** myelinated highways, skills that survive culling, perineuronal nets (write-protect), cortex structure, character attractor.
+
+**Changes almost never:** the 5 organs must exist; parliament must compete + broadcast; sleep must copy + downscale; maintenance *is* the self.
+
+Why you cannot delete them — 4 reasons:
+1. **Physics** — plasticity needs a threshold (big Ca²⁺ = kinase, small = phosphatase). No gateway, no learning.
+2. **Stability–plasticity tradeoff** — too fast overwrites old, too slow cannot adapt. Two speeds solve it.
+3. **Selection math** — low regret forces world models, belief memory, emotion trackers, modularity (Nayebi). Delete one and the task distribution exploits the gap.
+4. **Mortality/energy** — limited budget: tag what matters (salience), prune what doesn't (damping). In AI: token budget, energy floor 0.15, rent to stay alive.
+
+Want the full poster sheets? See `~/Desktop/ge-existence-program/essays/`:
+`HUMAN_MIND_ONE_PAGE.md`, `AGENT_TOWN_ONE_PAGE.md`, `WORLD_SELF_SIMULATION_ONE_PAGE.md`, `MOLDABLE_WITHIN_UNMOLDABLE_CLOSING.md`
 
 ---
 
