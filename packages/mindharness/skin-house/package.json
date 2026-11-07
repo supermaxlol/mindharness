@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-skin-house",
+  "version": "0.1.0",
+  "description": "MindHarness skin-house — Cordis plugin (see bundles/dsh-skin-house/cordis.patch.yml)",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.wallet" }
+}

@@ -38,3 +38,11 @@ tools/deepseek-harness/
 
 # Stale local duplicate of paper_5organs (pre-review-fix snapshot, 2026-08-27 20:33)
 paper_v4/
+
+# Secrets — never commit (added 2026-11-07)
+config/town_keys.json
+config/.secrets/
+.env
+.env.*
+*.key
+*.pem

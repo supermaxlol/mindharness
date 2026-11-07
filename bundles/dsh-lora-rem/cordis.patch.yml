@@ -1,0 +1,34 @@
+# dsh-lora-rem — Local LoRA REM (night trainer)
+# Inserts 1 row. Hooks after Consolidator Deep phase. Stack on dsh-base + dsh-mindharness.
+- insert:
+    - id: mindharness.lora-rem
+      name: 'mindharness/lora-rem'
+      service: ctx.lora
+      package: mindharness/lora-rem
+      events: [session/event, agent/turn-stopping]
+      dependsOn: [mindharness.consolidation, mindharness.provenance, mindharness.self-model]
+      description: "Local LoRA REM — train, eval, promote or discard, cull if not paying"
+      config:
+        r: 16
+        lr: 0.0001
+        maxEpochs: 3
+        evalGate: required
+        # Local base model for LoRA training (intuition update)
+        # Weak laptop: default to Ollama qwen2:0.5b (on-disk, 352 MB)
+        # Day reasoning: Groq API (gsk_ via GROQ_API_KEY env) for testing
+        baseModel: "qwen2:0.5b"
+        baseModelPath: ""  # empty = use Ollama runtime; set to ./models/<hf> for PEFT
+        adapterDir: "./adapters"
+        # Day reasoning — Groq API first for testing, Ollama local as cheap fallback
+        # Keys via env (never in repo): LLM_API_KEY, LLM_API_KEY_2, LLM_API_KEY_3
+        fallbackProvider: "groq"
+        fallbackModel: "openai/gpt-oss-120b"
+        apiBaseUrl: "https://api.groq.com/openai/v1"
+        keyEnvVars:
+          - LLM_API_KEY
+          - LLM_API_KEY_2
+          - LLM_API_KEY_3
+        keyLoader: auto-disk-env  # env + config/.secrets/groq_keys.env + neural-shadow/.secrets/keys.env
+        autoRotate: true           # on 429/403 try next key automatically
+        ollamaModel: "qwen2:0.5b"
+        preferLocalForTraining: true

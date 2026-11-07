@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-affect",
+  "version": "0.1.0",
+  "description": "Parliament affect party — Cordis plugin",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.affect" }
+}

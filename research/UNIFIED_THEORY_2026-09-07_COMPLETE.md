@@ -33,7 +33,7 @@
 - /Users/shehzad/Desktop/springfish/SPRING_LOADED_DOOR_NETWORK_LEDGER_V17_README.md, SPRING_LOADED_DOOR_LONG_HORIZON_ARCHITECTURE_V0_2/ — Network ledger, long-horizon sim
 - /Users/shehzad/Desktop/UNIFIED_HANDOFF_2026-09-06.md — unified 13K handoff 2026-09-06 18:30
 - /Users/shehzad/.commandcode/auth.json, /Users/shehzad/.cli-proxy-api/commandcode-go.json — commandcode-go auth and endpoint
-- /Users/shehzad/.local/share/opencode/auth.json — groq gsk_U5p6..., openrouter sk-or-v1-850..., cloudflare cfut_..., kaggle
+- /Users/shehzad/.local/share/opencode/auth.json — [provider keys redacted, see local auth.json] (groq/openrouter/cloudflare/kaggle)
 
 ---
 
@@ -123,7 +123,7 @@
 - **Tests:** 91/91 green offline no API keys (78/78 base + counterfactual 6 + parliament 7)
 - **Papers:** v2 23pp v3 36pp 5organs 33pp 0 errors, consciousness spec 48pp 2747 lines
 - **Locks:** 19 locks (barzakh 874dcc, b2b4 e96ef6, s126 b06ce867 shim 144/arm, etc.) · preregs_drafted 9 → γ_program 2.11 healthy
-- **Providers:** Groq gsk_U5p6... Zen present but OAuth≠API 401, OpenRouter sk-or-v1-850... 100/day shared (minimax hit 3/20 before 429), commandcode user_3dBa... laguna 404 needs cli-proxy :8317, T4 free 16GB via Kaggle/Colab, H100 gated
+- **Providers:** Groq [redacted] Zen present but OAuth≠API 401, OpenRouter [redacted] 100/day shared (minimax hit 3/20 before 429), commandcode [redacted] laguna 404 needs cli-proxy :8317, T4 free 16GB via Kaggle/Colab, H100 gated
 - **Runtime:** Barzakh 20 0.05 vs 0.76 all_pass true 874dcc · sham n=12 midnight scheduled · Kaggle v1 pushed · proxy 5×60 ready
 
 ---

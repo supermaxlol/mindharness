@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-workspace",
+  "version": "0.1.0",
+  "description": "MindHarness parliament workspace — competition salience × utility × habit × affect_gain, broadcast winner",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.workspace" }
+}

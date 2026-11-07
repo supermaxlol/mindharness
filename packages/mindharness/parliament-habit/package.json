@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-habit",
+  "version": "0.1.0",
+  "description": "Parliament habit party — Cordis plugin",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.habit" }
+}

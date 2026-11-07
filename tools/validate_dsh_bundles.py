@@ -25,6 +25,8 @@ REPO = Path(__file__).resolve().parents[1]
 STACK = [
     ("dsh-base", None),  # content not in repo; references to it warn
     ("dsh-mindharness", REPO / "bundles/dsh-mindharness/cordis.patch.yml"),
+    ("dsh-skin-house", REPO / "bundles/dsh-skin-house/cordis.patch.yml"),
+    ("dsh-lora-rem", REPO / "bundles/dsh-lora-rem/cordis.patch.yml"),
     ("dsh-mindharness-parliament",
      REPO / "bundles/dsh-mindharness-parliament/cordis.patch.yml"),
 ]
@@ -44,6 +46,15 @@ PACKAGE_MODULE = {
     # (IrreversibleDamage, DissolutionError) lives in agent_harness.py
     "mindharness/dissolution": "agent_harness.py",
     "mindharness/affect": "affect.py",
+    "mindharness/skin-house": "skin_house.py",
+    "mindharness/lora-rem": "lora_rem.py",
+    "mindharness/parliament-workspace": "parliament_workspace.py",
+    "mindharness/parliament-perception": "parliament.py",
+    "mindharness/parliament-memory": "parliament.py",
+    "mindharness/parliament-affect": "parliament.py",
+    "mindharness/parliament-planner": "parliament.py",
+    "mindharness/parliament-habit": "parliament.py",
+    "mindharness/parliament-narrator": "parliament.py",
 }
 
 

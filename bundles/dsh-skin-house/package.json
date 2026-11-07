@@ -1,0 +1,12 @@
+{
+  "name": "dsh-skin-house",
+  "version": "0.1.0",
+  "description": "Skin House — Town wallet. Agent pays rent from earnings. Session key only, capped, whitelisted.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": ["cordis", "mindharness", "wallet", "town"],
+  "license": "MIT"
+}

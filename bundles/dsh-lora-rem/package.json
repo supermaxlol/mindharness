@@ -1,0 +1,12 @@
+{
+  "name": "dsh-lora-rem",
+  "version": "0.1.0",
+  "description": "Local LoRA REM — night trainer that updates intuition. Learns from counterfactual regret. Promotes only if eval gate passes.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": ["cordis", "mindharness", "lora", "rem", "trainer"],
+  "license": "MIT"
+}

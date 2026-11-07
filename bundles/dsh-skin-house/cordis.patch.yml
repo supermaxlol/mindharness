@@ -1,0 +1,18 @@
+# dsh-skin-house — Town wallet (Skin House)
+# Inserts 1 row over root. Stack on dsh-base + dsh-mindharness.
+- insert:
+    - id: mindharness.skin-house
+      name: 'mindharness/skin-house'
+      service: ctx.wallet
+      package: mindharness/skin-house
+      events: [session/event, agent/pre-step]
+      dependsOn: [mindharness.provenance]
+      description: "Town wallet — earn, pay rent, survive or dissolve"
+      config:
+        townContract: "0x6528c917fbe3f49d1cebbdc6752271315840edfb"  # seeded 2026-11-07, see config/town_seed.json
+        dailyLimit: 50
+        perActionLimit: 5
+        tariffPerSecond: 0.01
+        initialBalance: 100
+        whitelist:
+          - town-rent-contract

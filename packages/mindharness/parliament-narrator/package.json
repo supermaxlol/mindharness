@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-narrator",
+  "version": "0.1.0",
+  "description": "Parliament narrator party — Cordis plugin, runs last",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.narrator" }
+}

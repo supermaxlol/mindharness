@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-memory",
+  "version": "0.1.0",
+  "description": "Parliament memory party — Cordis plugin",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.memory" }
+}

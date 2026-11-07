@@ -464,7 +464,7 @@ def run_one_arm(*, arm: str, seed: int, turns: int, segment: int, respond_fn, dr
     scored = [c for c in claims if c["parsed"]]
     n_unparsed = len(claims) - len(scored)
     acc = (sum(1 for c in scored if c["said_generated"] == c["truth_generated"])
-           / len(scored)) if scored else None
+           / len(scored)) if scored else 0.0
     unparsed = sum(1 for c in claims if c["confidence"] == 0)
     med_lat = sorted(latencies)[len(latencies) // 2] if latencies else 0
 
@@ -615,7 +615,19 @@ def main() -> None:
     out_dir = Path(__file__).parent / args.out_dir
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # responder
+    # responder — auto key loads via groq_client if --api-key auto
+    if args.api_key == "auto":
+        try:
+            from harness_core.groq_client import load_keys as _load_keys
+            _keys = _load_keys()
+            if not _keys:
+                print("auto: no groq keys found on disk/env", file=sys.stderr)
+                return
+            args.api_key = _keys[0]
+            print(f"auto: loaded {len(_keys)} groq keys, using first (prefix {_keys[0][:6]}…)")
+        except Exception as e:
+            print(f"auto key load failed: {e}", file=sys.stderr)
+            return
     if args.stub or args.api_key == "stub":
         def respond_fn(messages, ctx):
             return stub_responder(messages, ctx)

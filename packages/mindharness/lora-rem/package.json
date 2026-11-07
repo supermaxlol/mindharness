@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-lora-rem",
+  "version": "0.1.0",
+  "description": "MindHarness lora-rem — Cordis plugin (see bundles/dsh-lora-rem/cordis.patch.yml)",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.lora" }
+}

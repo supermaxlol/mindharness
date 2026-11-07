@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-planner",
+  "version": "0.1.0",
+  "description": "Parliament planner party — Cordis plugin",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.planner" }
+}

@@ -44,8 +44,8 @@ def test_no_errors() -> None:
 
 def test_row_counts() -> None:
     out = run_validator()
-    assert out["rows"] == 15, out["rows"]
-    assert out["bundles"] == 3, out["bundles"]
+    assert out["rows"] == 17, out["rows"]
+    assert out["bundles"] == 5, out["bundles"]
 
 
 def test_service_collisions_documented() -> None:
@@ -58,7 +58,9 @@ def test_service_collisions_documented() -> None:
 def test_parliament_scaffold_flagged() -> None:
     out = run_validator()
     warns = "\n".join(out["warnings"])
-    assert "aspirational" in warns, warns
+    # Parliament parties now have backing modules (parliament.py / workspace).
+    # No aspirational packages should remain; if one does, flag it.
+    assert "aspirational" not in warns, f"still aspirational: {warns}"
 
 
 if __name__ == "__main__":

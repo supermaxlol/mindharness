@@ -1,0 +1,7 @@
+{
+  "name": "mindharness-parliament-perception",
+  "version": "0.1.0",
+  "description": "Parliament perception party — Cordis plugin",
+  "main": "./src/index.ts",
+  "dsh": { "service": "ctx.perception" }
+}
