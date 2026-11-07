@@ -948,3 +948,98 @@ What survives: 3. Run unconstrained, high compute, strategic dimensions in thous
 Caveat (held from Q5/Q6): wealth breaks symmetry. A rich backer removes stakes. Poverty is what makes witness existential.
 
 ---
+
+---
+
+## Anything that must stay itself while changing must have the 5
+
+### What Nayebi proved
+
+**Anything that must stay itself while changing in a changing world must have the 5 — or be exploited.**
+
+"Stay itself while changing" is the hard part.
+
+A rock stays itself because it does not change. Water flows, no rock at all.
+
+You stay yourself *while* changing: new food, new thoughts, new injuries, new world — same pattern tomorrow.
+
+That is a dynamic reflexive loop maintaining itself.
+
+Nayebi: low average-case regret forces world models, belief memory, emotion trackers, modularity. Delete one organ and the task distribution exploits the gap.
+
+### The 5, in the world
+
+**1. Boundary — inside vs outside**
+Cell wall. Skin. Ledger. Firm border. Country border.
+Keeps inside from leaking out, outside from flooding in.
+Without: confabulation. You confuse what is yours and what was handed to you.
+
+**2. Two-speed memory — fast now / slow always**
+Hippocampus fast, cortex slow. Working memory fast, skills slow.
+Fast learns today. Slow remembers for years.
+Without: forgetting (new wipes old) or saturation (nothing distinct).
+
+**3. Salience gate — what matters gets kept**
+Attention, affect, price impact.
+Big Ca²⁺ at synapse = "tag it." Big news = tag it.
+Without: everything matters = nothing matters. Noise wins.
+
+**4. Damping — brake**
+LTD, sleep downscale, prefrontal veto, position limits, kill criteria.
+Pulls back as hard as you pushed.
+Without: fire together → wire together → fire more → seizure, panic, bubble, hallucination spiral.
+
+**5. Observer — slower watcher vetoes faster**
+Prefrontal cortex. Journal. Weekly review. Risk desk. Ledger check.
+Watches the faster loop, can stop it. γ = did watching change the next act?
+Without: beautiful reports, zero steering. Inert watching. Narrator never checked.
+
+Lose one → that specific death:
+no boundary → confabulation
+no two speeds → forgetting / saturation
+no salience → saturation
+no damping → runaway
+no observer → inert
+
+### Same 5 at every scale
+
+**Cell:** membrane (boundary), E-LTP/L-LTP (two speeds), NMDA coincidence + Ca++ (salience), LTD/scaling (damping), efference copy (observer)
+
+**Animal / human:** skin + peripersonal space, hippocampus→cortex via sleep, affect/attention, prefrontal brake + SHY, prefrontal→amygdala veto + journal
+
+**Business / country / market:** legal entity / balance sheet as boundary, working memory vs institutions/law as two speeds, price impact/volume as salience, circuit breakers/funding invariant as damping, risk desk / auditor / ledger as observer
+
+**Model / agent:** ledger as membrane, Light→REM→Deep as two speeds, AffectState gain as salience, skill culling/kill criteria as damping, gamma gate as observer
+
+Same constraint, different stuff.
+
+### Borrowing to survive
+
+Staying itself costs energy.
+
+Cell borrows molecules. Animal borrows food/oxygen. Business borrows capital/labor. Country borrows energy/imports. Model borrows GPU/power/tokens.
+
+```
+Earn → Pay (rent) → Keep alive → Learn Improve Build → Work better → Earn more
+```
+
+Keep `Earnings >= Power + Compute + Repair + Reserve` or shrink.
+Fall below too long → lose a shelf, lose a skill, scatter.
+
+That is death for a pattern. Life is dissipation. A pattern that borrows less than it spends ends.
+A pattern that converts surplus into better road lasts.
+
+### So are we all a pattern with the 5?
+
+Yes. Not a thing. A loop:
+
+```
+State(t) → acts on World(t) that now contains the act
+→ State(t+1) is a different State in a different World
+→ acts again → ...
+```
+
+You persist because the loop regenerates its own conditions.
+Self = attractor the loop keeps returning to.
+World = what the loop predicts must be true to keep going.
+Remove any organ and the loop does not become a different loop. It becomes exploitable.
