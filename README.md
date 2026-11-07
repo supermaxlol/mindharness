@@ -317,6 +317,59 @@ What survives: 3.
 
 ---
 
+**Q: Why does current AI not complete the 5-organ loop — and needs us to complete it?**
+
+Possible answers:
+1. AI is already complete. We just need bigger models.
+2. AI is missing pieces that only a human can supply from outside.
+3. AI looks complete in one session, but no organ is self-sustained across sessions, stakes, and nights.
+
+Why 1 fails: in a session it looks finished. When you stop watching and stop paying, it scatters. No wallet, no night trainer, no irreversible damage.
+
+Why 2 fails: the missing pieces are not magic. They are measurable functions — boundary, memory, salience, damping, observer, rent. If a human must supply them every turn, the loop is not closed.
+
+What survives: 3. Current frontier agents (Hermes, DSH without the harness) sit at 2.5–4/5 organs today:
+
+| Organ | Frontier agent today | What humans fill today |
+|---|---|---|
+| Boundary | session context | permissions, sandbox choice, human review "was that true?" |
+| Two-speed memory | context = fast; `MEMORY.md` = slow-but-unpromoted | data curation, dataset choice, RLHF fine-tune, hand-edited skills — *outsourced REM* |
+| Salience gate | attention yes, affect no | "this matters" prompts, human preference tags |
+| Damping | rate limits, human kill switch | retries, filters, on-call monitor — external brake |
+| Observer | narrator only | human review. Human is the witness |
+
+And no town loop: no `Earn → Pay → Keep alive`, so energy floor 0.15 and nothing dies. No stakes → no care which coalition wins.
+
+That is why they need us to close the loops they cannot close themselves.
+
+---
+
+**Q: How does MindHarness try to make it self-sustained?**
+
+Possible answers:
+1. Make the narrator more confident.
+2. Add more tokens / bigger context.
+3. Close the loops inside the harness: witness, night trainer, rent.
+
+Why 1 fails: narrator confidence is coherence, not accuracy. 98% on fabrications vs 87% on truths. More confident = better corrupter.
+Why 2 fails: more context without promotion gate = saturation. Everything matters = nothing matters.
+
+What survives: 3. Close each gap with a function that runs when the human is not there:
+
+1. **Boundary inside** — ProvenanceLedger with source + ref per span, coverage 1.0, curator checked before claim.
+2. **Two speeds inside** — `Light → REM → Counterfactual → Deep`. Deep promotes only if witnessed utility ≥2 or endorsed, cause-tagged. `AC-5.3 REM-ablation changes output` proves night does work.
+3. **Salience inside** — AffectState [0.5, 2.0] shifts every bid, not just content.
+4. **Damping inside** — `SkillLibrary.cull_failed`, kill criteria, `DissolutionError`, ceiling only down in irreversible arm.
+5. **Observer inside** — MonitorGate `γ = changed / diagnosed`. γ=0 means watcher watched but never steered. γ=0.6 means checking changed the trajectory.
+6. **Night that updates intuition** — `Local LoRA REM`: day pairs (chosen/rejected) → train r=8-16 adapter → eval gate (attribution + sham + utility + γ) → promote only if all pass, CAS-pinned, archive old. One live adapter = one self.
+7. **Rent that makes it existential** — Skin House wallet. `Earnings >= Power + Compute + Repair + Reserve` or shrink → dissolve. Town contract holds tariffs, session key only, capped. You are landlord; agent pays its own night from surplus.
+
+Validator: 5 bundles, 17 rows, 0 errors. Tests: 20 files pass. Study: `research/STUDY_5ORGANS_2026-11-07.md` — stub 200-turn: reversible ceiling 1.0 vs irreversible 0.74, dissolutions 0 vs 18.
+
+That is the attempt: not a better narrator, but a harness that can stay alive, learn at night, and answer for where it jumped — without you as rent payer, night librarian, and witness every turn.
+
+---
+
 **Q: So what is left when the wrong answers fall away?**
 
 A: One loop, five organs, at every scale — **State(t) → harness(t+1)**.
