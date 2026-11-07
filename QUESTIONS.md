@@ -146,7 +146,7 @@ Why 1 fails: a recorder that never steers has γ=0. Ours measures γ=3/5=0.6. Wa
 Why 2 fails: structure elicits what prose cannot. Ablating REM changes output.
 
 What survives: 3. Mind = harness in flesh.
-L0 Frozen LLM (tongue) · L1 Ledger (boundary) · L2 Affordance · L3 EmbodiedState/AffectState/Memory/Skills/KG/Consolidator/Counterfactual/WorldModel · L4 Workspace · L5 Gamma gate · L6 Self-model · L7 Constitution.
+L0 LLM unfrozen via LoRA (tongue) · L1 Ledger (boundary) · L2 Affordance · L3 EmbodiedState/AffectState/Memory/Skills/KG/Consolidator/Counterfactual/WorldModel · L4 Workspace · L5 Gamma gate · L6 Self-model · L7 Constitution.
 
 ---
 

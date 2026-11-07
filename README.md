@@ -2,7 +2,7 @@
 
 > *LLM = tongue. Harness = mind. Tongue + mind = agent.*
 
-A provenance-bounded cognitive harness that makes any frozen LLM honest about what it did — witness ledger, cause-signed self-model, γ-gated metacognition, embodied state, counterfactual replay, dissolution stakes. 91/91 tests green.
+A provenance-bounded cognitive harness that makes any LLM honest about what it did — and improves its intuition overnight. Tongue (LLM) + harness = agent. Unfrozen via adapters: witness ledger, cause-signed self-model, γ-gated metacognition, embodied state, counterfactual replay, dissolution stakes, local LoRA REM (RL night trainer) + Town wallet rent. 22 test files green, validator 0 errors.
 
 **Companion project:** [SpringFish / Spring-Loaded Door](~/Desktop/springfish) — crises, contracts, and institutional anchors. Separate work, same thesis: self-reinforcing loops and the witnesses that keep them honest.
 
@@ -52,7 +52,7 @@ L4 Global Workspace      Parliament competition → winner broadcast
 L3 Specialist Modules    EmbodiedState, AffectState, Memory, Skills, KG, Consolidator, Counterfactual, WorldModel
 L2 State Validation      Cetasika constraints, nafs, affordance pre-filter
 L1 Provenance Ledger     Span binding, source tracking, attribution audit
-L0 Frozen LLM            Any OpenAI-compatible API (backend-agnostic)
+L0 LLM (unfrozen via LoRA)     Any OpenAI-compatible API; local base for night LoRA (qwen2:0.5b default, openai/gpt-oss-120b via Groq API)
 ```
 
 Five invariants — boundary, two-speed memory, salience gate, damping, internal observer — appear at every scale (cell → mind → market → model → car) and are mandatory per selection theorems (Nayebi UAI 2026). The harness is one weave on that warp; Cordis is the loom.
