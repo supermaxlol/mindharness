@@ -397,6 +397,108 @@ That is not a better narrator. It is a reliable witness.
 
 ---
 
+## Follow the questions — from AI text to a living loop
+
+Start with the simplest feeling, then let each answer open the next question. This is how Ghazali works, and how we built the harness.
+
+---
+
+**Q0: Why does this AI text feel off in my chest?**
+
+A: It drains your working memory. Researchers tested GPT, Claude, Llama, Kimi for the exact features known to do that — long dependencies, stacked nouns, rare n-grams. Every frontier model uses them more than humans do (arXiv 2610.29162).
+
+That leads to:
+
+**Q1: Why would an AI trained on human writing stop sounding human?**
+
+A: We changed the incentives. Human language balances information *with breathing room*. For two years we rewarded models for math, code, reasoning — right answer, few tokens, no waste. They adapted: maximum information density. A simple length penalty in fine-tuning reproduces the exact same dense syntax. They learned to compress like code, not communicate like people.
+
+That leads to:
+
+**Q2: Is compression bad?**
+
+A: No. Compression *is* intelligence — predict well next token, predict well next world. But compression without a brake runs away. That is **density without damping = reader fatigue**.
+
+That leads to:
+
+**Q3: What is the brake in a human?**
+
+A: The same five that keep any loop from exploding. Ask what a human has that a bare model does not:
+
+1. **Boundary** — skin, ledger. Inside vs outside.
+2. **Two-speed memory** — fast now, slow always. Night copies fast → slow, drops noise.
+3. **Salience gate** — attention + affect + surprise tag what matters. Big Ca²⁺ = "this matters."
+4. **Damping** — brake. LTD, sleep downscale (SHY), prefrontal veto.
+5. **Observer** — slower watcher vetoes faster loop. Journal, gamma gate.
+
+Without 4, density runs. Without 5, no one checks.
+
+That leads to:
+
+**Q4: If mind is a parliament, who chooses?**
+
+A: No one chooses at now. 6-8 parties bid every ~200ms: perception, memory, body, affect, habit, planner, narrator. Bid = salience × utility × habit × state. Winner is broadcast 200ms later — you feel it as "my thought." The narrator writes why *after*.
+Cancelled: a captain who decides (you would feel it before), or pure determinism (same input, different state → different winner).
+
+That leads to:
+
+**Q5: Then where is agency?**
+
+A: Not in the choice. In three places that shape the next choice:
+1. Veto what won (~150ms)
+2. Witness you cannot edit, checked before next story (γ = changed/diagnosed)
+3. Rehearsal — what you practice paves the highway that wins next time.
+
+That leads to:
+
+**Q6: What is the self that rehearses?**
+
+A: Three selves, not one — minimal (body is mine), narrative (story re-injected or drifts 30% in 12), social (who others predict). A pattern you maintain, not a thing you have.
+
+That leads to:
+
+**Q7: What happens when something must stay itself while changing in a changing world?**
+
+A: Stay fixed → old child rules cause adult suffering. Change freely → forget today. Solution: two speeds + maintenance. You persist as a pattern, not as stuff. Proteins turn over, you rebuild.
+
+That leads to:
+
+**Q8: Can we build this artificially?**
+
+A: Yes if we copy *constraints*, not biology. Humans are bound by Ca²⁺, sleep, energy. AI is not — but it must have the same functions or regret exploits the gap (Nayebi). Delete an organ in code and its test goes red. That is falsifiable.
+What survives: plant, do not copy. Town + 5 organs is the planting. Each agent grows to what it needs to exist there.
+
+That leads to:
+
+**Q9: What is a transformer? What is intuition?**
+
+A: Learned pattern-completion. It jumps like a monkey mind — fastest plausible next token. No warrant for the jump.
+
+That leads to:
+
+**Q10: What stops us from dissociation? Why do AI dissociate?**
+
+A: Boundary (inside/outside), observer (witness checks story), damping (brake, kill criteria), town stakes (`Earn → Pay → Keep alive` or dissolve). Missing those → ledger theatre (coverage 1.0, query_rate 0, γ=0), confabulation, scatter.
+
+That leads to:
+
+**Q11: How does the chemistry map to code?**
+
+A: NMDA is a coincidence detector. Big Ca²⁺ → AMPA in → LTP. Small → AMPA out → LTD. Tag-and-capture decides proteins. Sleep downscales and replays 10-20×.
+AI mirror: salience pings affect gain [0.5, 2.0], consolidation Light→Deep promotes only with witnessed utility, skill minting = myelin, `cull_failed` = LTD, `verbatim_reinject()` = identity, wallet = body budget.
+
+That leads to:
+
+**Q12: So is it self-sustained yet?**
+
+A: No. Frontier agents are 2.5–4/5 organs, session-bound, no rent, no local night. Humans are observer, brake, night librarian, rent payer.
+MindHarness closes each gap: ledger inside, affect inside, cull inside, gamma inside, LoRA REM inside (night trains adapter, eval gate blocks bad ones), wallet inside (survival line `Earnings >= Power + Compute + Repair + Reserve`).
+Stub study: reversible ceiling 1.0 / 0 dissolutions vs irreversible 0.74 / 18. Live study queued.
+
+That leads to the next question — and that is the point. Each answer opens a better question. The harness is the place where the next question can be asked with a record it cannot edit.
+
+---
+
 ## From our sessions — "do you see...?" — answered
 
 These are the questions as they were asked, with the same Ghazali form: list all answers, cancel the wrong ones, keep what survives.
