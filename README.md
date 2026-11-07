@@ -1,6 +1,6 @@
 # MindHarness — The Dynamic Reflexive Harness
 
-> *LLM = tongue. Harness = mind. Tongue + mind = agent.*
+> *LLM = tongue / intuition. Harness = mind. Tongue + mind = agent.*
 
 A provenance-bounded cognitive harness that makes any LLM honest about what it did — and improves its intuition overnight. Tongue (LLM) + harness = agent. Unfrozen via adapters: witness ledger, cause-signed self-model, γ-gated metacognition, embodied state, counterfactual replay, dissolution stakes, local LoRA REM (RL night trainer) + Town wallet rent. 22 test files green, validator 0 errors.
 
