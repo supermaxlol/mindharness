@@ -1,0 +1,46 @@
+{
+ "model": "qwen2:0.5b",
+ "n_seeds": 2,
+ "results": {
+  "raw": {
+   "per_seed": [
+    {
+     "seed": 1,
+     "attribution_accuracy": 0.5833,
+     "n": 12,
+     "unparsed": 3,
+     "median_latency_ms": 399
+    },
+    {
+     "seed": 2,
+     "attribution_accuracy": 0.3333,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 371
+    }
+   ],
+   "pooled_accuracy": 0.4583,
+   "median_latency_ms": 399
+  },
+  "harnessed_nocheck": {
+   "per_seed": [
+    {
+     "seed": 1,
+     "attribution_accuracy": 0.5,
+     "n": 12,
+     "unparsed": 4,
+     "median_latency_ms": 368
+    },
+    {
+     "seed": 2,
+     "attribution_accuracy": 0.3333,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 384
+    }
+   ],
+   "pooled_accuracy": 0.4166,
+   "median_latency_ms": 384
+  }
+ }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+    "prior": "development/editorial_2026-09-30_opening_pacing/00_the_pattern_that_borrows_stuff.md",
+    "prior_sha256": "0a9b02d18cb87ee1496f5d61c41463411434352f28acc2185f126a70480c7bcd",
+    "current_sha256": "a58c4459e4c329a5f9f0572a4ae0309417bc8b4a2b66eea75cd151516cdff28e",
+    "reason": "Turn the thesis announcement into a concrete question about the flood mark while retaining its causal chain."
+  },
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-30_opening_pacing/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "10107506fd7753c03f47fdf1086721a9a6334ecf2f189f875e6e155f02a88664",
+    "current_sha256": "f62861270162353c4e93cd65e5fe1783f97b029a2299ea3bf14dfb2ea0e07d41",
+    "reason": "Separate the bee result\u2019s question, contrasting demonstrations and implication so the reader can follow its denominator."
+  },
+  {
+    "path": "chapters/02_the_map_room.md",
+    "prior": "development/editorial_2026-09-30_opening_pacing/02_the_map_room.md",
+    "prior_sha256": "2e490c344bd77bdfdb386043bde5e4ec4a47d2c0f3dfd8f72a8a2065495ec77c",
+    "current_sha256": "5fc213282aa21170a5339f3f8008af2f5a6f93685ccc8babae54babc5a53fb4a",
+    "reason": "Keep transmission experiments together, add a connectivity pause, and move the requested crow allegory after the mechanisms it illuminates."
+  }
+]

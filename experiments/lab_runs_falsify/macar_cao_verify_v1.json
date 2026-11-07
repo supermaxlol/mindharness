@@ -1,0 +1,14 @@
+{
+ "macar": {
+  "id": "arXiv:2603.21396",
+  "cite": "Macar/Yang et al., Anthropic Fellows, 18 cites",
+  "numbers": "refusal ablation +53% detection; trained bias vector +75% detection, +55% introspection, held-out concepts, no FP increase",
+  "grade": "measured (PDF held, abstract+\u00a76 verbatim)"
+ },
+ "cao": {
+  "id": "arXiv:2605.14186",
+  "cite": "Cao et al., Sonnet-4.6, 1859 examples",
+  "numbers": "pooled 48.3 -> 56.9, +8.6pp, no fine-tuning",
+  "grade": "measured (PDF held, abstract+Table verbatim)"
+ }
+}

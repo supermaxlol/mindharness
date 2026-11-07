@@ -1,0 +1,16 @@
+{
+ "source": "BIS WS_DSR bulk flat (39K zip, 7182 rows)",
+ "series": "US private non-financial DSR, % of income",
+ "points": {
+  "2006-Q4": 17.9,
+  "2007-Q4": 18.5,
+  "2008-Q4": 17.5,
+  "2009-Q4": 16.7,
+  "2010-Q4": 15.6,
+  "2015-Q4": 14.5,
+  "2020-Q2": 14.6,
+  "2020-Q4": 14.1,
+  "2022-Q4": 14.7
+ },
+ "reading": "Debt-service burden peaked 2007 (18.5) then fell on rates while credit stock stayed high \u2014 flow masked stock. St builds where DSR looks calm."
+}

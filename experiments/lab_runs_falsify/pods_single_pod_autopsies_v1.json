@@ -1,0 +1,95 @@
+{
+  "title": "Single-pod unwind autopsies: two sourced instances",
+  "created": "2026-09-25",
+  "method": "Tavily + Firecrawl/extract via Bloomberg syndication + Hedgeweek/eFinancialCareers mirrors; no invented numbers; paywalled Bloomberg core facts confirmed via Bloomberg Law mirror and trade-press syndication",
+  "instances": [
+    {
+      "id": "Balyasny_Klavdianos_2023",
+      "platform": "Balyasny Asset Management (BAM)",
+      "pm": "George Klavdianos",
+      "role": "London head of event-driven credit; platform book set up ~3 years earlier",
+      "loss": ">$100M including unwind costs (Bloomberg headline figure)",
+      "scale": "~1% of BAM gross assets; event-driven credit sleeve ~5% of AUM (eFinancialCareers contextualizes 5%)",
+      "dates": "Losses in long/short Europe/US credit; liquidation began Sep 2023, team exit Dec 2023",
+      "mechanism": "Central liquidation of pod book Sep-Dec 2023; team departed; positions unwound by risk, not PM",
+      "outcome": "Pod terminated; PM resurfaced at Millennium London (eFinancialCareers 2024) after 3.5y at BAM + 6.5y at Citadel",
+      "breaker_reading": "Pod hit wall and was cut under platform risk rule; validates breaker as feature (~15-20% turnover), not failure",
+      "sources": [
+        {
+          "cite": "Bloomberg 2023-12-12/13: Balyasny Shuts Klavdianos' Trades After $100 Million Loss (Lucca de Paoli, Nishant Kumar, Irene Garcia Perez)",
+          "url": "https://www.bloomberg.com/news/articles/2023-12-12/balyasny-shuts-klavdianos-trades-after-100-million-loss",
+          "mirror": "https://news.bloomberglaw.com/capital-markets/balyasny-shuts-klavdianos-trades-after-100-million-loss",
+          "access": "paywalled; mirror confirms headline + deck: liquidation after >$100M, team left, Sep liquidation start"
+        },
+        {
+          "cite": "eFinancialCareers 2023-12-13: About the $100m loss at Balyasny",
+          "url": "https://www.efinancialcareers.com/news/balyasny-loss",
+          "note": "FCA Register note still at BAM at time of writing; attributes $100M to US credit PM contribution plus Klavdianos sleeve"
+        },
+        {
+          "cite": "eFinancialCareers 2024: Hedge fund Millennium hired Balyasny London PM who left after $100m loss",
+          "url": "https://www.efinancialcareers.com/news/hedge-fund-millennium-hired-balyasny-london-portfolio-manager-who-left-after-100m-loss",
+          "note": "Confirms Dec exit and 2024 rehire at Millennium London"
+        },
+        {
+          "cite": "Hedgeweek brief via Bloomberg: George Klavdianos left Balyasny London Dec following $100m loss",
+          "url": "https://www.hedgeweek.com/news?ap=5&coi=771&cop=main-title&ep=5&hash=60D4AB23DACDC452308FE2453EDED429&mid=9&news_s=2620&npp=5&p=0&pp=0&page=445"
+        }
+      ],
+      "urls_persisted": 3,
+      "grade": "sourced single-pod autopsy; loss figure is Bloomberg-reported >$100M (no P&L filing)"
+    },
+    {
+      "id": "YenCarry_Aug2024_MultiPod_6plus",
+      "trigger": "Yen carry unwind + US recession jitters; Aug 5 2024: Nikkei -12.4% (worst since 1987), TOPIX -12%, VIX intraday >65, USD/JPY 161->142",
+      "closure_window": "Early Aug 2024, reported Aug 30 2024",
+      "count": "At least 6 pods shut across Millennium, Balyasny, BlueCrest (Bloomberg count, Hedgeweek syndication)",
+      "named_pods_managers": [
+        "Millennium Houston: Ryan Fitzgibbon (industrials/energy stocks) — shut after losses",
+        "Millennium Asia HK: Shao Ying (index-rebalancing) — pod closed, manager exit",
+        "Millennium Asia HK: Zachary Corones (index-rebalancing) — pod closed, manager exit",
+        "BlueCrest: Chiga Murayama (JGB trading) + team Yosuke Motegi — pod shut after losses",
+        "Balyasny HK: Mark Cox ('equity guy') — departed"
+      ],
+      "mechanism": "Pod-level liquidation under 5% halve / 7.5% terminate rule (Millennium automatic; peer platforms 7-10% band). Hedgeweek explicates: capital partially withdrawn after 5%, dismissed after ~7%.",
+      "context": "Bloomberg sources: rapid yen carry unwind; Hedgeweek notes funds rebounded by Aug 23 (Schonfeld +1%, LMR +0.9%, Millennium +0.7% month-to-date) — breaker damping worked at platform level",
+      "adjunct": "Bloomberg 2024-06-27: Balyasny closed merger-arb team (Adam Schwartz exit) and Schonfeld cut merger-arb PM Eric Fritz — same quarter, deal-chaos losses; shows pod turnover as feature",
+      "sources": [
+        {
+          "cite": "Bloomberg 2024-08-30: BlueCrest, Millennium Pods Faced Quick Closure After Turmoil (Nishant Kumar, Bei Hu, Takashi Nakamichi)",
+          "url": "https://www.bloomberg.com/news/articles/2024-08-30/bluecrest-millennium-pods-faced-quick-closure-after-turmoil",
+          "mirror": "https://news.bloomberglaw.com/private-equity/bluecrest-millennium-pods-faced-quick-closure-after-turmoil-1"
+        },
+        {
+          "cite": "Hedgeweek 2024-09-02: BlueCrest and Millennium closed pods amid market turmoil (Bloomberg syndication, free)",
+          "url": "https://www.hedgeweek.com/bluecrest-and-millennium-closed-pods-amid-market-turmoil",
+          "note": "Lists Ryan Fitzgibbon, Shao Ying, Zachary Corones, Chiga Murayama, Yosuke Motegi, Mark Cox; states 5% halve / 7% dismiss rule"
+        },
+        {
+          "cite": "MoneyControl 2024-08-26 (Bloomberg syndication): Millennium shuts two trading pods in Asia (Shao Ying, Zachary Corones)",
+          "url": "https://www.moneycontrol.com/news/business/markets/millennium-shuts-two-trading-pods-in-asia-managers-to-leave-12806779.html"
+        },
+        {
+          "cite": "Bloomberg 2024-06-27: Balyasny, Schonfeld Cut Merger Arb Traders After Bad Bets (Adam Schwartz / Eric Fritz)",
+          "url": "https://www.bloomberg.com/news/articles/2024-06-27/balyasny-schonfeld-cut-merger-arb-traders-amid-deal-chaos",
+          "note": "Adjunct single-pod cut, same mechanism"
+        }
+      ],
+      "urls_persisted": 4,
+      "grade": "sourced multi-pod cluster autopsy; validates breaker thresholds as binding (pods were cut at wall), not proof of platform failure"
+    }
+  ],
+  "evidence_grade_update": "Pod breaker thresholds: measured industry fact (Millennium 5%/7.5% automatic; 15-20% turnover; Citadel negotiated equivalents) — pods_goodhart_v1.json. Single-pod unwinds: now sourced (2 instances above, this file). Platform-level unwinds: Balyasny 2018 / Eisler 2025 / Q1-2026 synchronized remain separate (pods_chaebol_instances_v1.json). Remaining analogical: internal backstop structure (cross guarantees/shared funding/rehypothecation) until primary filing.",
+  "limits": "Loss figures are Bloomberg-reported, not audited P&L; no public post-mortem beyond trade press; PM names are public figures per Bloomberg/Hedgeweek (no private data); no P&L breakdowns or unwind-cost split disclosed",
+  "urls_all": [
+    "https://www.bloomberg.com/news/articles/2023-12-12/balyasny-shuts-klavdianos-trades-after-100-million-loss",
+    "https://news.bloomberglaw.com/capital-markets/balyasny-shuts-klavdianos-trades-after-100-million-loss",
+    "https://www.efinancialcareers.com/news/balyasny-loss",
+    "https://www.efinancialcareers.com/news/hedge-fund-millennium-hired-balyasny-london-portfolio-manager-who-left-after-100m-loss",
+    "https://www.bloomberg.com/news/articles/2024-08-30/bluecrest-millennium-pods-faced-quick-closure-after-turmoil",
+    "https://news.bloomberglaw.com/private-equity/bluecrest-millennium-pods-faced-quick-closure-after-turmoil-1",
+    "https://www.hedgeweek.com/bluecrest-and-millennium-closed-pods-amid-market-turmoil",
+    "https://www.moneycontrol.com/news/business/markets/millennium-shuts-two-trading-pods-in-asia-managers-to-leave-12806779.html",
+    "https://www.bloomberg.com/news/articles/2024-06-27/balyasny-schonfeld-cut-merger-arb-traders-amid-deal-chaos"
+  ]
+}

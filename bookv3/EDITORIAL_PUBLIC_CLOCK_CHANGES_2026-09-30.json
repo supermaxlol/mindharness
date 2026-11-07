@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+    "prior": "development/editorial_2026-09-30_public_clock/06_the_cost_that_would_not_stay_buried.md",
+    "prior_sha256": "bede59b3dd1056fbff393edf4f2b0ddd5fc224ea4b7ccaf290f4fb86fafd1779",
+    "current_sha256": "cf4011f8b29f61295f0a275ecfcd6114e429179729d164f5ef6edd0df394a524",
+    "reason": "Added the public equity recovery chronology and the APS threshold incentives, delayed payment, and exit terms."
+  }
+]

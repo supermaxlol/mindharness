@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/14_the_agency_left_to_us.md",
+    "prior": "development/editorial_2026-09-30_agency_practice/14_the_agency_left_to_us.md",
+    "prior_sha256": "cf00680295c2c12e6b6b059e64ec8fc07e57e2fb1ecc5d93c847a9e712368879",
+    "current_sha256": "095150909ec68da998d7470d352b0a7d4eef333688a08695448464f7fa4fbf6f",
+    "reason": "The final scene now tests both action and renewed avoidance against the dated record, completing the handoff to practice."
+  },
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-30_agency_practice/15_the_practice_of_amendment.md",
+    "prior_sha256": "a32459b21c2d872aa56015b2c17c58ebc19b4c7ba64c9cdc6c7e1c5fba2c0af2",
+    "current_sha256": "2cacddfbe91647172c813a415ff238c421df17174da6ec0fb78e6849b85ad73f",
+    "reason": "Four-field chronology corrected; the day-two repair is tested, the temporary-gullibility exercise is translated, and the daily form is copyable."
+  }
+]

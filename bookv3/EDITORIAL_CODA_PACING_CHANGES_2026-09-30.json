@@ -1,0 +1,23 @@
+[
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_coda_pacing/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "5389d1411d5e3cd41d9b0aec069d2aedf2d4d814ce6313b1ac91413e23c96502",
+    "current_sha256": "f2279d8a2788319bfe5f2e72f7032b5fd46f0c08e0a069a47129f3e4e4c41e4f",
+    "reason": "Let each Hamilton example establish its job before moving into cross-domain applications."
+  },
+  {
+    "path": "chapters/14_the_agency_left_to_us.md",
+    "prior": "development/editorial_2026-09-30_coda_pacing/14_the_agency_left_to_us.md",
+    "prior_sha256": "bfd3cc50ac39513e9bea38bb26dce35fec5238f9618ce8f879fe7eb2b0524626",
+    "current_sha256": "c4b8b4d6db2eb6ac8c468fcf0209a1b480a2e4d5bce83967b44517c6f4dc5e06",
+    "reason": "Separate gene regulation, growth signaling and structural framework in the biological walk."
+  },
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-30_coda_pacing/15_the_practice_of_amendment.md",
+    "prior_sha256": "1901b8183261be9a510df7dca2e266deeb96ef681c6318ae33ceb0d97d5db3c6",
+    "current_sha256": "69be22333571bc4249500de279a46c04f2ae45f4170ea649a7b547c9d65fd837",
+    "reason": "Distinguish making a request from obtaining a changed position, consistent with the pending-answer and refusal examples."
+  }
+]

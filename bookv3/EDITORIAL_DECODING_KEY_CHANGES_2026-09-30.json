@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-30_decoding_key/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "12fabe68423f8cbfaf5705da33fa645ef47559f39d450b719a3d5aa27d424116",
+    "current_sha256": "10107506fd7753c03f47fdf1086721a9a6334ecf2f189f875e6e155f02a88664",
+    "reason": "Added the documented Rosetta Stone loss-and-recovery scene and museum source trail as the decoding-key failed walk."
+  }
+]

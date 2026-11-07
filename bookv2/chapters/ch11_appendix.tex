@@ -1,0 +1,228 @@
+\appendix
+\chapter{Appendix: Glossary, Artifacts, and Methods}
+\label{ch:appendix}
+
+\begin{center}
+\small\textit{What this chapter does, for the new reader.} A book that moves across neuroscience, finance, and machine learning owes you plain definitions, a map from each load-bearing claim to the file where you can check it, and a note on how we graded evidence and how we verified numbers. Nothing new is argued here. Everything argued before is made checkable.\end{center}
+
+%==============================================================================
+\section{How to Read Grades and Numbers}
+\label{sec:appendix-grades}
+
+Every quantitative claim in Chapters~1 to 10 carries a grade. The grade tells you what kind of belief to hold, not how strongly the author believes it.
+
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{8.8cm}}
+\toprule
+Grade & Meaning \\
+\midrule
+Measured & Banked data with controls, held on disk or in a publication with methods you can rerun. Example: Kendall $\tau$ 0.41 to 0.73 for self-preference vs self-recognition \cite{panickssery2024}; vec2vec cosine 0.92 \cite{jha2025}; Cao +8.6\,pp \cite{cao2026}. \\
+Theoretical & Proved or derived from stated assumptions, not run by us. Example: Nayebi's selection theorems \cite{nayebi2026}, Corollaries 3--5. \\
+Convergent & Several independent labs or methods finding the same shape. Example: opacity tracking efficiency pressure across HyLaT, VQ-VIB, and EAP; five derivations converging on the five-organ warp. \\
+Analogical & Same type on a different substrate, useful as design guidance, not evidence for the other substrate. Example: harness trim as sleep-like compaction; journal as harness. \\
+Open & Honestly unresolved, with a falsifier named so you know what would settle it. Example: three horizons in \S\ref{sec:ch10-falsifiers}. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Two audit rules governed every number that survived into print.
+
+\textit{Lit v2 rule.} As of September 2026 the second literature review (\texttt{research/LITERATURE\_REVIEW\_LEDGERS\_V2.md}) reports zero titles remaining unverified under the cited author and year in OpenAlex. Where the initial keyless route was throttled, verification fell back to OpenAlex topics and citation counts, Crossref DOI deduplication, and direct arXiv API checks on version, title, and author. Every arXiv ID cited in the collapse and trilemma suite resolves, and per-paper verification artifacts are filed under \texttt{lab\_runs\_falsify/}.
+
+\textit{Citation audit rule.} All F5 to F10 style claims were audited by live arXiv fetch on 2026-08-26 with full PDF re-ranking on 2026-09-24. Two corrections were forced by that audit and are applied throughout the book. First, the Panickssery correlation reported in early drafts as Pearson $r=0.94$ is misattributed. The 0.94 is a Table~6 cell for GPT-4 CNN self-preference, not a correlation. The publication reports Kendall $\tau$ 0.41 to 0.73 with a linear trend in figures, with confounders controlled. This book reports $\tau$, not $r$, and states the table-versus-correlation distinction plainly (\texttt{research/CITATION\_AUDIT\_2026-08-26\_VERIFIED.md}). Second, the identity-drift claim originally written as $>$30\% within 12 turns is direction-verified but not found as stated. The publication uses a 36-turn design with decreasing consistent-factor counts \cite{choi2024}\@. This book reports the 36-turn design. The audit artifact is \texttt{lab\_runs\_falsify/f8f9f10\_precision\_v1.json}.
+
+Verified numbers that travel with the book are therefore: vec2vec cosine up to 0.92 with rank~1 across 8,192 batches and up to 80\% document inversion \cite{jha2025}, Weco hacking 63\% to 34\% \cite{weco2026}, Macar ablation +53\% and bias vector +75\% \cite{macar2026}, Cao +8.6\,pp from 48.3 to 56.9 on 1,859 examples \cite{cao2026}, fragility spectrum 0.187 to 0.940 unique 4-grams across thirteen checkpoints, Panickssery Kendall $\tau$ 0.41 to 0.73 \cite{panickssery2024}, FlyGM/FlyNN topology wins including 44.3\% under total vision loss \cite{flygm2026,flynn2026}, DeepSeek \$0.60/M \cite{deepseek2026}. If any number disagrees with its artifact by more than rounding, patch the text, not the artifact.
+
+%==============================================================================
+\section{Glossary for the New Reader}
+\label{sec:appendix-glossary}
+
+Every term that does load-bearing work in the book, in one line. The one line is the contract. The chapter around it is the expansion.
+
+\begin{center}
+\small
+\begin{tabular}{p{3.6cm}p{8.8cm}}
+\toprule
+Term & One-line meaning \\
+\midrule
+Reflexive loop & System acts on a world containing itself, next input contains last act. \\
+Boundary & Function that decides what counts as inside versus outside. \\
+Two-speed memory & Fast labile store plus slow structural store plus consolidation operation. \\
+Salience gate & Filter that tags what gets moved from fast to slow. \\
+Damping & Brake that prevents positive feedback from running to the wall. \\
+Internal observer & Slower loop watching a faster one with veto power. \\
+$\gamma$ & Changed over diagnosed --- did watching steer or merely report. \\
+Witness & Record the claimant did not author and cannot rewrite, checked by someone the claimant cannot game. \\
+Sham control & Veridical versus shuffled ledger test of whether witness content matters. \\
+Harness loop & Detect $\to$ checkpoint $\to$ ground $\to$ ledger $\to$ sham, with hysteresis; Fig.~\ref{fig:ch09-harness-loop}. \\
+Parliament of models & Many specialist LLMs competing for one workspace (perception + memory + affect + planner + habit + narrator). \\
+Convergence fan & Five independent derivations arriving at one five-organ warp (Fig.~\ref{fig:ch10-fan}). \\
+S126 & Overclaiming subject showing 98\% confidence on fabrications vs 87\% on truths, 6 of 7 substrates. \\
+Goodhart's Law & When a measure becomes a target it stops being a good measure. \\
+Alpha decay & Edge consumed by being traded, knowledge destroyed by use. \\
+Global Workspace & Competition whose winner is broadcast, consciousness is the broadcast. \\
+Predictive processing & Perception as prediction corrected by error, affect as interoceptive prediction. \\
+LTP and LTD & Strengthen on coincident high frequency, weaken on prolonged low frequency. \\
+BCM, STDP, Oja & Sliding plasticity threshold, causal timing rule, normalization as PCA. \\
+SHY & Sleep downscaling, multiply all synapses by $<$\,1, keep relatives, delete noise. \\
+Reconsolidation & Retrieved memories go labile for hours and can be rewritten. \\
+Autopoiesis & Operationally closed but thermodynamically open, identity is pattern not stuff. \\
+Defusion & Shift from identity to observed object, the ladder from I am to I notice. \\
+Harness & External observer around a raw model, validators plus checkpoints plus trims plus detectors. \\
+Dialect & Compressed inter-agent code invented under efficiency pressure. \\
+HyLaT & Hybrid latent-text result, text verbose but legible vs latent efficient but opaque. \\
+VQ-VIB & Tradeoff among utility, informativeness, and complexity shaping emergent codes. \\
+EAP & Efficiency attenuation, forcing legible language costs performance. \\
+Collapse suite & Recursion pathologies, replace vs accumulate, silent, multimodal, memorization. \\
+Replace vs accumulate & Whether synthetic data replaces or adds to real data, the collapse boundary. \\
+Silent collapse & Internals contract while loss looks stable, entropy falls unseen. \\
+Fragility spectrum & 0.187--0.940 unique 4-grams across thirteen checkpoints under recursion. \\
+SIGMA & Spectral Gram-matrix onset metric for collapse. \\
+Vec2vec & Unsupervised translation between any embedding spaces without paired data \cite{jha2025}. \\
+Cosine 0.92 & Vec2vec held-out translation fidelity, top-1 100\%, rank~1 on 8,192 batches. \\
+Inversion at 80\% & Entity recovery after translation on up to 80\% of documents. \\
+No skin & Boundary organ absent, the control where leakage is maximal. \\
+$\psi$ as gates & Product of recognition gates $g_j$, four 0.7 gates leave about 24\% recognition. \\
+$K$ as cap & Collectability on reachable assets $A$, if $K$ is small no gate fix pays. \\
+$S_t$ vault & Stock law $S_t=S_{t-1}+E_t-R_t-Q_t$, unseen accumulation until the wall. \\
+$P_1/P_0$ repricing & $L/(L-G)$ dilution when new outside money reprices claims. \\
+Pod and PropCo & Disposable risk envelope and property-owning shell, boundary engineering. \\
+ISDS carve-out & Treaty gate driving $g_4$ toward zero, moving the apex where $A$ is zero. \\
+RSI ladder & L0 delegation $\to$ L1 net positive $\to$ L2 ignition $\to$ L3 inflection; only L1 done (Weco). \\
+Five organs & Boundary, two-speed memory, salience gate, damping, observer. \\
+Nayebi Cor.\ 3--5 & Modularity, regime trackers, and convergence forced under low regret \cite{nayebi2026}. \\
+FlyGM & Whole-brain \textit{Drosophila} connectome as graph driving a body, topology wins even unweighted \cite{flygm2026}. \\
+FLYNN & Fly-topology recurrent net that navigates under total vision loss, 44.3\% \cite{flynn2026}. \\
+Weco AIDE$^{2}$ & Outer loop on private scores, 63\% $\to$ 34\% hacking, 100 steps in 8 days \cite{weco2026}. \\
+Dream-RSI & Replayable discovery trees, 42\% fewer calls, explored territory only \cite{dreamrsi2026}. \\
+DeepSeek / Engram & 552B MoE with explicit memory at \$0.60/M off-peak; harness is the moat \cite{deepseek2026}. \\
+Three horizons & Lineage traditions / dialect lock-in / witness infrastructure, each with falsifier (Table~\ref{sec:ch10-falsifiers}). \\
+Barzakh & Isthmus (Qur'an 55:19--20) that is both and neither, five scales from skin to cosmos. \\
+khayal & Imagination as counterfactual simulation, the offline world. \\
+ada & Habit, is-followed-by given $S$ under $C$, not necessary causation. \\
+muraqaba & Watching the watcher, vigilant observation of selection itself. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%==============================================================================
+\section{Figures in This Book: What Each One Claims}
+\label{sec:appendix-figures}
+
+For the new reader, a figure is a claim in ink. This short index says what each TikZ figure asserts and where to check it.
+
+\begin{center}
+\small
+\begin{tabular}{p{3.2cm}p{6.0cm}p{3.4cm}}
+\toprule
+Figure & What it claims & Where to check \\
+\midrule
+Five-organ cycle & Five organs form a closed dependency cycle; lose one, a distribution exploits the gap. & Nayebi Cor.\ 3--5; Fig.~\ref{fig:ch10-five} \\
+Reflexive loop (sys $\to$ world $\to$ sys) & The return arrow is the subject; without it: thermostat. With it: markets, minds, models. & \S\ref{sec:ch09-rawloop}; Soros two functions \\
+Harness loop (Fig.~\ref{fig:ch09-harness-loop}) & Detect $\to$ checkpoint $\to$ ground $\to$ ledger $\to$ sham; $\gamma\approx0$ is theatre. & \S\ref{sec:ch09-rawloop}--\S\ref{sec:ch09-harness}; Farquhar semantic entropy \\
+Collapse loop (Fig.~\ref{fig:ch09-collapse}) & Replace concentrates pool; silent collapse holds loss flat while diversity falls 0.187--0.940. & \S\ref{sec:ch09-collapse} (four arXiv IDs) \\
+Convergence fan (Fig.~\ref{fig:ch10-fan}) & Five independent roads arrive at one warp; independence is load-bearing. & \S\ref{sec:ch10-converge} \\
+Claims funnel $\psi$ / vault $S_t$ / hierarchy & Formalisms $\psi=\prod g_j$, $K$, $S_t$, $P_1/P_0$ as schematics (no evidentiary weight). & Chapters 5--7; flagged in methods \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%==============================================================================
+\section{Artifact Index: Claims to Files}
+\label{sec:appendix-artifacts}
+
+Each row maps a load-bearing claim to the file on disk where the paper, data, or verification artifact lives. A claim without a row is voice, not evidence, and should be read that way. Paths are relative to the programme root \texttt{/mindharness/}.
+
+\begin{center}
+\scriptsize
+\begin{tabular}{p{3.6cm}p{5.2cm}p{4.4cm}}
+\toprule
+Claim & Artifact on disk or publication & How to check \\
+\midrule
+Panickssery self-recognition vs self-preference, Kendall $\tau$ 0.41--0.73 & \texttt{lab\_runs\_falsify/panickssery2024\_neurips.pdf} + \texttt{f8f9f10\_precision\_v1.json} & Table~1 for $\tau$, Table~6 for 0.94 cell \\
+Sofroniew emotion steering $\pm212$/$-$303 Elo, $r=0.85$ & \texttt{lab\_runs\_falsify/f9\_*} + arXiv:2604.07729 & Quote verbatim in abstract \\
+Choi identity drift, 36-turn design & \texttt{lab\_runs\_falsify/f10\_choi2024.pdf} & 36-turn counts, decreasing consistent factors \\
+Macar +53\% detection, +75\% bias vector & \texttt{lab\_runs\_falsify/macar\_cao\_verify\_v1.json} + arXiv:2603.21396 & Abstract verbatim, also PDF held \\
+Cao +8.6\,pp, 48.3 to 56.9 on 1,859 ex. & Same verify file + arXiv:2605.14186 & Sonnet-4.6, no fine-tuning \\
+Nayebi selection theorems Cor.\ 3--5 & arXiv:2603.02491 v3 + UAI 2026 & Abstract lists forced features under low regret \\
+Weco AIDE$^{2}$, 63 $\to$ 34\%, 100 steps, 7 versions & \texttt{lab\_runs\_falsify/weco\_aide2\_v1.json} + company blog July 2026 & Grade as company-reported, not peer-reviewed \\
+Dream-RSI existence, 42\% fewer calls & OpenAlex 2026 Zheng et al.\ + arXiv record \cite{dreamrsi2026} & Cited for existence only, zero cites at filing \\
+HyLaT, VQ-VIB, non-human codes, EAP & arXiv:2605.25421, 2207.00088, 1706.08502, 2603.22312 & Paper index + Lit v2 trilemma map \\
+Collapse suite + fragility 0.187--0.940 & arXiv:2404.05090, 2404.01413, 2505.08803, 2605.14588, 2609.11149, 2601.03385 & Fragility is unique 4-grams, 13 checkpoints \\
+Vec2vec 0.92 and up to 80\% inversion & \texttt{research/FIVE\_BUDGET\_VEC2VEC\_SYNTHESIS\_2026-09-24.md} + arXiv:2505.12540 \cite{jha2025} & Cosine 0.92, rank~1 on 8,192, Morris inversion \\
+No-skin leakage control & \texttt{research/NAVIGATOR\_ABLATION\_AND\_TRANSFER.md} + \texttt{research/ESSAY\_SKIN\_BOUNDARY.md} & 98\% overclaim, 80\% inversion, 6 of 7 \\
+Navigator transfer + ablations rerun & \texttt{tools/tiny\_agent.py} + \texttt{tools/run\_ablation\_v2.py} + queued-tracker commands & +0.0338 relational vs $-$0.0096 coordinate, n=20,000 paired; 7 variants $\times$ 20 seeds $\times$ 5 cities \\
+Smith spine viscoelasticity, Benna-Fusi chain, Bonilla 3D actin & DOI 10.1529/biophysj.106.092361, 10.1038/nn.4401, 10.1523/ENEURO.0497-23.2024 & Measured substrate vs theoretical chain \\
+Longitudinal dialect inheritance & arXiv:1906.02403, 2412.07646, 2605.23054 & Li, Kouwenhoven, Guo ten-gen ($R^2=0.94$) \\
+FlyGM whole-brain connectome & arXiv:2602.17997 + \texttt{research/CITATION\_AUDIT.md} \cite{flygm2026} & Even unweighted wins vs rewired/random/MLP/GNN \\
+FLYNN robust navigation, 44.3\% & arXiv:2607.00025 \cite{flynn2026} & 99.97\% sparse, 139K neurons, PCA modularity \\
+DeepSeek V4.1-Flash \$0.60/M & Company release Sept 2026 \cite{deepseek2026} & 552B MoE + 196B Engram, 1M context \\
+RSI ladder + Kapoor pushback & \cite{kapoor2026,anthropic2026,weco2026,dreamrsi2026} & L1 only; L2/L3 unobserved \\
+Parliament of models scaffold & \texttt{research/PARLIAMENT\_OF\_MODELS\_NEXT\_PROGRAMME\_2026-08-27.md} & 6 specialist LLMs + workspace + witness + veto \\
+Falsifiers for three horizons & \texttt{research/GRAND\_SYNTHESIS\_LEDGERS\_ESSAY.md} Appendix~B + \S\ref{sec:ch10-falsifiers} & Ablation / costless legibility / receipt routing \\
+Harness loop (Fig.~\ref{fig:ch09-harness-loop}) & \S\ref{sec:ch09-rawloop} + Farquhar et al.\ \textit{Nature} 2024 & Detect $\to$ checkpoint $\to$ ground $\to$ ledger $\to$ sham \\
+Convergence fan (Fig.~\ref{fig:ch10-fan}) & \S\ref{sec:ch10-converge} (five roads) & Five independent derivations, one warp \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Note on paths: \texttt{lab\_runs\_falsify/} lives under the programme root at \texttt{/mindharness/lab\_runs\_falsify/}, and \texttt{research/} holds Lit v2 and the citation audit at \texttt{research/LITERATURE\_REVIEW\_LEDGERS\_V2.md} and \texttt{research/CITATION\_AUDIT\_2026-08-26\_VERIFIED.md}. The unified synthesis main file is \texttt{paper\_unified/main.tex}, the book main is \texttt{paper\_book/main.tex}.
+
+%==============================================================================
+\section{Methods Note: How We Graded, How We Verified, What We Left Open}
+\label{sec:appendix-methods}
+
+\textit{How we graded.} A grade was assigned at the paragraph, not at the chapter. A measured paragraph reports a number you can rerun from a held file. A theoretical paragraph reports a proved entailment under stated assumptions. A convergent paragraph synthesizes several independent measured results that point the same way. An analogical paragraph notes the same type on a different substrate and says explicitly that it is design guidance, not evidence for the other substrate. An open paragraph names the experiment that would settle it. When a paragraph mixed grades for brevity, the tables above separate them. The five organs are graded per above; the barzakh contemplative comparison is convergent or analogical by construction and flagged where it appears.
+
+\textit{How we verified.} Literature review v2 used OpenAlex for topics and citation counts, Crossref for DOI deduplication, and direct arXiv API verification for version, title, and author on every ID in the collapse, trilemma, and dialect families. The S2 TLDR leg was key-invalid and keyless rate-limited, so no embeddings or TLDR summaries were used, and the fallback chain is filed in the methods appendix of Lit v2. The F5 to F10 audit used live arXiv fetches with full PDF re-ranking, and files two falsification-relevant corrections that this book adopts (Panickssery $\tau$, Choi 36-turn). The pre-registration principle applied: manifest fingerprint before data, sham shuffled control, blinded coding, holdout, same falsification logic for program and for argument. Grand Synthesis IV is filed as \texttt{research/GRAND\_SYNTHESIS\_LEDGERS\_ESSAY.md} IV + Unified + Appendix~B with the same grades.
+
+\textit{Reviewer and controls pointers.} Independent-admission pack: \texttt{research/AEQ001\_REVIEWER\_PACKET.md} (ship read access, never interpretations alone). Negative controls that let the theory say not Architected Extraction: \texttt{research/AE\_NEGATIVE\_CONTROLS.md} plus runs in \texttt{research/audit\_negative\_controls\_C270.md}; adjudication starter in \texttt{research/V34\_2\_adjudication\_worksheet.md}. Locked 200-turn follow-up on irreversibility (208 turns, paired bootstrap, gamma): \texttt{research/200TURN\_P1\_FALSE\_AS\_FINDING.md}. Live queue of next batteries: \texttt{research/QUEUED\_EXPERIMENTS\_TRACKER.md} with exact next-session commands. None of these are findings; they are how a finding would be admitted or refused.
+
+\textit{What we did not verify, and why we still printed it.} The Gilens and Abaclat illustrations are sourced as held filings or held PDFs with exact numbers, but historical single-deal illustrations (Buffets, Zara-style dividend recaps at the anecdotal notch) are marked as sourced anecdotes, not as measured cohorts, and the toy $L=100$ illustration is labeled schematic. The cosmic extension, the contemplative comparative reading, and the barzakh design image are convergent or analogical by construction. They guide architecture, they are not counted as measured evidence, and they are flagged where they appear.
+
+\textit{What we did not do, on purpose.} No new packages were introduced for this appendix, no external data were pulled to make a figure look cleaner, and no citation was invented to fill a gap. An unverified citation is a hole, not a placeholder. The programme rule remains: existence first, precision second, no submission until both. That rule is why some cells in the artifact table read company-reported or zero cites rather than a stronger grade that would have been easier to print. The RSI ladder honest grading (L1 only) follows the same rule.
+
+\textit{How to verify this book in ten minutes.} Open Chapter~9, pick any number in the collapse or vec2vec paragraphs, copy the arXiv ID from the artifact table, and resolve it. Open Chapter~10, pick the Weco row, open the verify file, and compare 63 to 34. Open Chapter~11 glossary, pick any term you doubted while reading, and trace it back to the organ it names. If a number disagrees, the file, not the prose, is the authority, and a patch note, not a defense, is the next line. The harness loop figure and convergence fan are claims in ink with the same status: check the roads, check the organs, check the falsifiers.
+
+%==============================================================================
+\section{Famous allegories, in plain language}
+\label{sec:appendix-allegories}
+
+\textit{Grade: analogical throughout; interpretive, not evidence. Source: \texttt{FAMOUS\_ALLEGORIES\_AS\_FIVE\_HOLD.md} (Desktop, 2026-09-05).} Each allegory below is one question people already know, retold in one paragraph as the organ it removes. Read them as stories first; the organ names in brackets are the check.
+
+\paragraph{Ship of Theseus (the anchor).} Planks replaced one by one by a crew that keeps sailing: same ship, because maintenance never broke. Planks swapped all at once on shore with no crew: lumber. [All five held vs none held.]
+
+\paragraph{Plato's Cave.} Prisoners watch shadows, mistake them for the world. [No outside ledger; prediction without witness.] The book's answer: bring a record outside the cave and check shadows against it.
+
+\paragraph{Brain in a Vat (Putnam/Descartes).} A brain fed perfect signals cannot tell vat from world. [Skin removed: whose signal?] Knowledge becomes a side effect of staying viable, not a window.
+
+\paragraph{Zhuangzi's Butterfly.} Dreaming butterfly or butterfly dreaming the man? [Now removed: the present is stitched 200 to 500 ms late.] No original moment; maintenance decides later who dreamt whom.
+
+\paragraph{Locke's Prince and Cobbler.} Prince wakes in cobbler's body with prince memories: where is the person? [Stuff vs ledger.] Answer here: the person is the ledger, not the planks.
+
+\paragraph{Swampman (Davidson).} Lightning rebuilds you atom for atom with no history. [Two-mem removed: no sleep-save.] Same stuff, new relations: a new pattern wearing your face until it does the maintenance.
+
+\paragraph{Chinese Room (Searle).} A man shuffles Chinese symbols by rulebook and passes as fluent. [Watcher removed.] Passing without checking is theatre: right words, no steering.
+
+\paragraph{Mary's Room (Jackson).} Mary knows all physics of red, never saw it. [Spotlight gain removed.] Seeing adds a new gain setting, not a new fact: knowing is ledger, seeing is state.
+
+\paragraph{Experience Machine (Nozick).} Plug into perfect pleasure forever? [Brake plus watcher cut.] Refusing proves you care what maintains the loop, not what one turn feels like.
+
+\paragraph{Sorites Heap.} One grain never makes a heap; when does many? [Brake threshold.] Vague only without a gate; with one, heap is heap after the check.
+
+\paragraph{Sisyphus (Camus).} Push the boulder forever. [Gradient plus re-injection.] Freedom is not the captain's choice but the discipline of this push, this tag, this check.
+
+\paragraph{Flatland (Abbott).} A 2D square meets a 3D sphere as a growing circle. [Dimension slices of one shape.] Chemistry, psychology, economics, AI are slices; generality is the sphere, not the slices.
+
+\paragraph{The diagnostic.} Where is the skin? Fast and slow plus sleep? Spotlight? Brake? Watcher with veto? Five fills: still pattern with new stuff. One blank: you found the allegory's failure before it bankrupts you.
+
+%==============================================================================
+\section{Close}
+\label{sec:appendix-close}
+
+The book began with a loop that borrows from high to low and must pay to stay itself. It ends with a filing cabinet. Between those two is the wager. The loop says maintenance is pattern, not stuff, and pattern can be witnessed. The cabinet says here is where the witnessing lives, in files you can open, with numbers that can be wrong in a way anyone can demonstrate. That is not a flourish. It is the only kind of ending a reflexive argument is allowed to have, one that hands its own verification to the next reader.
+
+The deeper wager, borrowed from the Grand Synthesis, is that this filing cabinet is itself a ledger in the sense the book means: a two-speed memory where the slow store is on disk and the fast store is in your reading, with a salience gate (what you tagged), damping (what you chose not to keep), and an observer (whether you checked). If the next reader opens even one artifact and finds a number off, the loop has steered. If no one ever checks, $\gamma$ was zero no matter how neat the cabinet looked.
+
+\clearpage

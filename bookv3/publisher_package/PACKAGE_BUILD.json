@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-30",
+  "manuscript_sha256": "e3fe3d83ca295aca257ae0e9e79511180ba8d2e4a2d93cbac846151002b5928e",
+  "main_words": 50323,
+  "with_notes_words": 56388,
+  "author_facts": "project-based biography only; professional/platform/contact details pending",
+  "files": {
+    "AUTHOR_FACTS_TO_COMPLETE.md": {
+      "sha256": "499089c63a4dd513a1bd389c20d8e886567e917a273d55d9891d2aa0461a8547",
+      "words": 115
+    },
+    "COMPARISON_SOURCE_CHECK.md": {
+      "sha256": "2b502d42555fc21049849952b6fc577b1c49a3871656a71ab34436cf741c7887",
+      "words": 192
+    },
+    "EDITOR_BRIEF.md": {
+      "sha256": "39d019d13a4a1a408353919176fb0591cee48078f034be2b88c8ee13a0d9ba05",
+      "words": 831
+    },
+    "MECHANISM_SAMPLES.md": {
+      "sha256": "a50b48fb2ad965915d6b3b6a3d8080ef5098f87190bcf59f000a64e9e68256bb",
+      "words": 6654
+    },
+    "OPENING_SAMPLE.md": {
+      "sha256": "f0b9a8a93a4a2e95f44da64c309d53073a752b061acfe22a92f83ef6635c0d03",
+      "words": 7020
+    },
+    "PROPOSAL.md": {
+      "sha256": "859986f7a6c3ac446c6b046837318efb49246db1282148b4075d38ffb1d339a3",
+      "words": 2608
+    },
+    "QUERY_LETTER.md": {
+      "sha256": "2eb8fe34606eb38da9c79b6292efbb63d3a59bc7b623ca84b4d5afd21d1382e4",
+      "words": 322
+    },
+    "README.md": {
+      "sha256": "e824b4f2ff0b431924f6a9ea9c87c894313dc4631fc3ecd4926bbc897a9afb8f",
+      "words": 178
+    },
+    "SYNOPSIS.md": {
+      "sha256": "27bea54c18fdefa387a482ec28fa3abd1f8de3a4624d106793157abb0397ad97",
+      "words": 1090
+    }
+  }
+}

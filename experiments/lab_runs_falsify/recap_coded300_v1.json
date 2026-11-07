@@ -1,0 +1,80 @@
+{
+ "n": 300,
+ "v4_counts": {
+  "unsecured claim": 218432,
+  "priority claim": 27729,
+  "proof of claim": 676425,
+  "secured claim": 642716,
+  "claim objection": 28608
+ },
+ "chapter_by_query": {
+  "('unsecured claim', 'None')": 45,
+  "('unsecured claim', '11')": 9,
+  "('unsecured claim', '13')": 3,
+  "('unsecured claim', '7')": 3,
+  "('priority claim', '12')": 3,
+  "('priority claim', '11')": 45,
+  "('priority claim', '7')": 9,
+  "('priority claim', '13')": 3,
+  "('proof of claim', 'None')": 9,
+  "('proof of claim', '11')": 21,
+  "('proof of claim', '7')": 27,
+  "('proof of claim', '13')": 3,
+  "('secured claim', '11')": 30,
+  "('secured claim', '7')": 12,
+  "('secured claim', '13')": 18,
+  "('claim objection', 'None')": 18,
+  "('claim objection', '11')": 36,
+  "('claim objection', '7')": 3,
+  "('claim objection', '')": 3
+ },
+ "top_courts": [
+  [
+   "United States Bankruptcy Court, S.D. Texas",
+   39
+  ],
+  [
+   "United States Bankruptcy Court, D. New Hampshire",
+   30
+  ],
+  [
+   "United States Bankruptcy Court, S.D. New York",
+   24
+  ],
+  [
+   "United States Bankruptcy Court, District of Columbia",
+   21
+  ],
+  [
+   "United States Bankruptcy Court, D. Puerto Rico",
+   18
+  ],
+  [
+   "United States Bankruptcy Court, D. Delaware",
+   15
+  ],
+  [
+   "United States Bankruptcy Court, N.D. Texas",
+   12
+  ],
+  [
+   "United States Bankruptcy Court, M.D. Florida",
+   12
+  ],
+  [
+   "United States Bankruptcy Court, S.D. Alabama",
+   6
+  ],
+  [
+   "District Court, S.D. Texas",
+   6
+  ]
+ ],
+ "median_days_to_termination": {
+  "unsecured claim": 1620,
+  "priority claim": 259,
+  "proof of claim": 99,
+  "claim objection": 615
+ },
+ "grade": "measured V4 docket activity (300 dockets, 60/class-query): chapter mix + gate latency. Outcomes (allow/disallow) need document-level coding \u2014 still proxy."
+}

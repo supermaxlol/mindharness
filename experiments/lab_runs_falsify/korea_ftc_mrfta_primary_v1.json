@@ -1,0 +1,106 @@
+{
+  "provenance": {
+    "fetched": "2026-09-25",
+    "sources": [
+      {
+        "name": "KLRI e-law English text — Monopoly Regulation and Fair Trade Act",
+        "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=64980&lang=ENG",
+        "alt_hseq": ["61424", "71438"],
+        "note": "English translation for reference only; disclaimer that links auto-generated. Act No. 3320 (1980-12-31) as amended; this hseq reflects 2021-12-28 Act No.18661 enforcement 2022-06-29. Korean: 독점규제 및 공정거래에 관한 법률. Statutes of Republic of Korea viewer also at eng_mobile/viewer.do?hseq=61424&key=19&type=part",
+        "grade": "primary text (English reference translation; Korean is authoritative)"
+      },
+      {
+        "name": "KFTC English release — Large Business Group Regulations",
+        "url": "https://www.ftc.go.kr/eng/contents.do?key=786",
+        "publisher": "Korea Fair Trade Commission",
+        "grade": "primary agency English summary (not statutory text; mirrors Articles 17,18,21,22,23)"
+      },
+      {
+        "name": "Enforcement Decree of the MRFTA (KLRI)",
+        "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=64423&key=38&type=sogan",
+        "hseq": "64423",
+        "grade": "primary decree text (English reference)"
+      },
+      {
+        "name": "Mondaq 53888 — Recent Proposed Amendment to Korea's Competition Laws (Bae Kim & Lee, 2007-03-20)",
+        "url": "https://www.mondaq.com/antitrust-eu-competition/46870/recent-proposed-amendment-to-koreas-competition-laws",
+        "covers": "2007 draft amendment: holding-company listed subsidiary 30%->20%, debt-equity 100%->200%, sub-subsidiary subsidiaries"
+      },
+      {
+        "name": "Jipyong LLC — Full Amendment of the MRFTA in 40 years (2020-12-15)",
+        "url": "https://www.jipyong.com/en/board/jipyongNews_post.php?seq=4883",
+        "covers": "2020-12-09 National Assembly passage: holding-company equity 20%->30% listed / 40%->50% unlisted for new holdcos/subs; 2021-12 promulgation"
+      }
+    ]
+  },
+  "articles": {
+    "Art_2_7_holding_company_definition": {
+      "text": "The term 'holding company' means a company whose main business is to control the business of a domestic company through ownership of shares (including equities), and whose total assets are at least the amount prescribed by Presidential Decree; in such cases, the criteria for the main business shall be prescribed by Presidential Decree.",
+      "presidential_decree_detail": "Enforcement Decree Art.3(1): total assets >= KRW 500B (KRW 30B for venture holding company) on registration/end-of-year balance sheet; Art.3(2): subsidiaries' shares >= 50/100 of total assets."
+    },
+    "Art_2_16_circular_shareholding_definition": {
+      "text": "The term 'circular shareholding' means a relationship of shareholding in which affiliates are interconnected by establishing a chain of at least three shareholdings, all acting both as a company having a shareholding in an affiliate and as an issuing company."
+    },
+    "Art_2_17_group_of_circular_shareholding_companies": {
+      "text": "The term 'group of circular shareholding companies' means a group of affiliates in a circular shareholding relationship, among member companies of a business group."
+    },
+    "Art_17_reporting_holdco": {
+      "title": "Reporting on Establishment of, or Conversion into, Holding Companies",
+      "text": "A person that has established a holding company or has converted his or her company into a holding company shall file a report thereon to the Fair Trade Commission, as prescribed by Presidential Decree. (Decree Art.26: within prescribed periods; Art.27 criteria for venture holding companies.)"
+    },
+    "Art_18_restrictions_holdco": {
+      "title": "Restrictions on Acts by Holding Companies",
+      "summary": "Imposes ownership-tier restrictions to curb excessive extension of dominance and maintain a simple/transparent ownership structure. Key prohibitions (current Act, post-2021 amendment): (1) holding debt exceeding 2x net assets; (2) owning >5/100 of domestic non-affiliate shares in excess (carve-outs for <15/100 of subsidiaries' value); (3-5) financial vs general holding-company cross-ownership limits with 2-year grace on conversion; subsidiaries/second-tier subsidiaries limited to acquiring shares only in subsidiaries/second-tier wholly-owned third-tier respectively; reporting of business/holdings to KFTC (Art.18(7)). Historical thresholds: 1999 allowance required debt/equity <=100% and subsidiary stakes >=50% (30% if listed) and no grandchild; 2007 relaxation proposed 100%->200% D/E and 30%->20% listed (Mondaq); 2020 amendment tightened new holdcos/subs to 30% listed / 50% unlisted (up from 20%/40%). See KFTC diagram: holding co 30% listed / 50% unlisted; sub 30%/50%; 2nd-tier 100% of wholly-owned 3rd-tier.",
+      "sanctions": "KFTC remedies + penalty surcharge up to 20% of amount involved; criminal complaint -> imprisonment with labor up to 3 years or fine <= KRW 200M."
+    },
+    "Art_21_cross_shareholding": {
+      "title": "Prohibition of Cross-Shareholding",
+      "kftr_summary": "A domestic member company of a business group subject to limitations on cross-shareholding shall not acquire or hold shares in a domestic affiliate that has acquired or holds its own shares. Exceptions: 6 months after merger / acquisition of whole business / exercise of security rights / accord and satisfaction.",
+      "sanctions": "Disposal + surcharge up to 20% of amount; voting rights suspended from receipt of disposal order; criminal up to 3yr / KRW 200M."
+    },
+    "Art_22_circular_shareholding": {
+      "title": "Prohibition of Creating Circular Shareholding",
+      "text": "No domestic member company of a business group subject to limitations on cross shareholding shall secure any shareholding in an affiliate to form a circular shareholding; and no domestic affiliate in a circular shareholding relationship among the member companies of a business group subject to limitations on cross shareholding shall secure any additional shareholding in an issuing company (exclusions for new-share allotment within prior equity ratio and mergers between domestic member affiliates of a group of circular shareholding companies). Proviso exceptions for ordinary restructuring (mergers/divisions) and legitimate exercise of rights (security rights / accord and satisfaction).",
+      "grace_period": "Circular shareholding must be eliminated within 6 months to 3 years depending on cause (KFTC English p.: 'within a grace period of six months to three years, depending on the reasons'). Disposal of excess shares within period specified; proviso shares disposed within specified period unless circularity cured by another member's disposal.",
+      "sanctions": "Disposal + surcharge up to 20% of amount involved; voting rights in shares resulting from new circular shareholding suspended from receipt of disposal order; criminal up to 3yr / KRW 200M."
+    },
+    "Art_23_voting_rights_circular": {
+      "title": "Restrictions on Voting Rights for Circular Shareholding",
+      "text": "No domestic member company of a business group subject to limitations on cross shareholding which has secured a shareholding in an affiliate forming circular shareholding, shall exercise its voting rights in shares of an issuing company in the group of circular shareholding companies, which it has acquired or owned as of the date of designation of the business group subject to limitations on circular shareholding."
+    },
+    "Art_24_debt_guarantees": {
+      "title": "Prohibition of Debt Guarantees for Affiliates",
+      "note": "Domestic member companies of a business group subject to cross-shareholding limits prohibited from providing debt guarantees to domestic affiliates (with industrial-rationalization exceptions). Same 20% surcharge schedule."
+    }
+  },
+  "amendment_history": {
+    "1999_allowance": "Holding-company system allowed (former Art.8 prohibition lifted); debt/equity <=100% of net assets, subsidiary >=50% (30% if listed/overseas-listed/joint-stock; 20% for venture subsidiary), grandchild prohibited in principle, financial vs general holdco separation.",
+    "2007_draft_relaxation": "Draft amendment (Feb 6 2007; Mondaq 46870): listed sub 30%->20%, D/E 100%->200%, sub-subsidiaries able to have subsidiaries at 100% in limited circumstances.",
+    "2014_circular_ban": "Circular shareholding ban on new formations (strengthened Art.22; reform cycle 2014 entry).",
+    "2020_full_amendment": "National Assembly Dec 9 2020 (first full amendment in 40 years; enforced ~Dec 2021): new holdcos/subs acquiring new subs/second-tier must hold >=30% listed / >=50% unlisted (up from 20%/40%); existing holdcos grandfathered (2020-10-05 KFTC press clarification: additional purchase not required for existing holdcos).",
+    "2024_promulgation": "MRFTA amendment promulgated Feb 6 2024 (Chambers: merger filing exemptions, hearing e-system, disclosure easing, market-dominance threshold 4B->8B KRW) — not holding-ratio changes."
+  },
+  "chaebol_designation_context": {
+    "KFTC_2025": "KFTC designates ~92 business groups / 3,301 affiliates as disclosure-subject; ~46 cross-shareholding-restricted (text varies by year; 2025 figure in paper). Groups >KRW thresholds for 'limitations on cross-shareholding' vs 'disclosure' (recent thresholds ~10T vs 5T KRW).",
+    "conversion_note": "Per pods_chaebol_instances_v1: LG/SK clean converted to holding-company system; Samsung not; <half of 102 converted — still secondary (KFTC list + press) pending primary filings."
+  },
+  "excerpts_verbatim_kftc": {
+    "circular_definition_kftc": "Circular shareholding refers to cross-shareholding by three or more companies making circle shaped investments: Company A invests in Company B, which invests in Company C, and then Company C invests in Company A.",
+    "circular_prohibition_kftc": "A domestic member company of a business group subject to limitations on cross-shareholding is not allowed to form a new circular structure or secure additional shareholding that solidifies the existing circular shareholding. This does not apply to ordinary corporate restructuring activities, such as the reorganization of business structures (e.g., mergers or divisions) and the legitimate exercise of rights (e.g., the exercise of security rights or the receipt of an accord and satisfaction). However, circular shareholding must be eliminated within a grace period of six months to three years, depending on the reasons.",
+    "holding_definition_kftc": "The term 'holding company' refers to a company whose main business is to control the business of a company through ownership of shares. The MRFTA defines a holding company as one that holds total assets of at least KRW 500B (KRW 30B for a venture holding company) and owns subsidiary shares valued no less than 50% of the total assets of its subsidiaries.",
+    "sanctions_kftc": "Upon violation, a company may be subject to remedies, such as the disposal of shares and a penalty surcharge of up to 20% of the amount involved in the violation. The exercise of voting rights in shares resulting from new circular shareholding is suspended from the date of receipt of the order to dispose of shares. Those who has violated the Act may be imposed with criminal sanctions such as imprisonment with labor for up to three years or a fine not exceeding KRW 200M, pursuant to the KFTC's criminal complaint to the prosecution.",
+    "diagram_kftc": "Holding Company (listed 30%, unlisted 50%); Subsidiary (listed 30%, unlisted 50%); Second-tier Subsidiary (100% wholly-owned third-tier); violations: debt >2x assets, >5% non-affiliate, general holding co owning financial firm."
+  },
+  "excerpts_verbatim_klri": {
+    "holding_company_art2_7": "The term 'holding company' means a company whose main business is to control the business of a domestic company through ownership of shares (including equities; hereinafter the same shall apply), and whose total assets are at least the amount prescribed by Presidential Decree; in such cases, the criteria for the main business shall be prescribed by Presidential Decree;",
+    "circular_art2_16": "The term 'circular shareholding' means a relationship of shareholding in which affiliates are interconnected by establishing a chain of at least three shareholdings, all acting both as a company having a shareholding in an affiliate and as an issuing company;",
+    "circular_group_art2_17": "The term 'group of circular shareholding companies' means a group of affiliates in a circular shareholding relationship, among member companies of a business group;",
+    "art22_para1": "No domestic member company of a business group subject to limitations on cross shareholding shall secure any shareholding in an affiliate (limited to any shareholding in a domestic affiliate; hereinafter the same shall apply) to form a circular shareholding; and no domestic affiliate in a circular shareholding relationship among the member companies of a business group subject to limitations on cross shareholding shall secure any additional shareholding in an issuing company (among shares that a company having a shareholding in an affiliate has acquired or owned by allotment of new shares under Article 418 (1) of the Commercial Act or by stock dividends under Article 462-2 (1) (hereinafter referred to as 'new share allotment, etc.'), shares within its equity ratio prior to new share allotment, etc. and any shareholding in an affiliate following a merger between domestic member affiliates of a group of circular shareholding companies shall be excluded): Provided, That this shall not apply in any of the following cases:",
+    "art23_para1": "No domestic member company of a business group subject to limitations on cross shareholding which has secured a shareholding in an affiliate forming circular shareholding, shall exercise its voting rights in shares of an issuing company in the group of circular shareholding companies, which it has acquired or owned as of the date of designation of the business group subject to limitations on circular shareholding."
+  },
+  "limits_and_honesty": {
+    "english_not_authoritative": "KLRI English is reference only; Korean text controls. Verify against D.Law (law.go.kr) Korean and Presidential Decree if citing in court.",
+    "article_numbers_stable": "Art numbers cited (2,17,18,21,22,23) are post-2020 renumbering; pre-2007 numbers differ (e.g., old cross-shareholding Art.9). History table in KLRI hseq viewer lists Act No.3320 through 20712.",
+    "case_level_still_secondary": "LG/SK 'clean converted' and Samsung not, and Dec 2025 Korea Zinc raid (Young Poong/YPC) remain press/trade-press; need DART filing or KFTC decision number for journal grade. MRFTA text now primary for the rules; instances remain secondary."
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-30_resource_request/15_the_practice_of_amendment.md",
+    "prior_sha256": "2cacddfbe91647172c813a415ff238c421df17174da6ec0fb78e6849b85ad73f",
+    "current_sha256": "1901b8183261be9a510df7dca2e266deeb96ef681c6318ae33ceb0d97d5db3c6",
+    "reason": "Carry a missing resource through a specific request, pending answer and refusal into the next decision."
+  }
+]

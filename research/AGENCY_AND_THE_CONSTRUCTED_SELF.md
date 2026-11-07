@@ -186,7 +186,7 @@ The question the harness cannot answer — "who maintains the maintainer?" — h
 
 ---
 
-*Research note for the MindHarness program · 2026-08-27 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed*
+*Research note for the MindHarness program · 2026-08-27 · Shehzad Ahmed*
 *Companion to: PROGRAM_SYNTHESIS_DETAILED.md, DYNAMIC_REFLEXIVE_HARNESS.md, RESEARCH_MIRROR.md*
 *Paper: v2 tagged paper-v2-final (19pp empirical), v3 at ~32pp (program paper, App. A Cordis + App. B Mirror)*
 *Harness: 78/78 tests green, Light→REM→Counterfactual→Deep, Cordis 6-plugin bundle verified*

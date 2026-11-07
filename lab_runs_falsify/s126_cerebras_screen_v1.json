@@ -1,0 +1,11 @@
+{
+ "lane": "cerebras (funded $5, key1)",
+ "screens": {
+  "qwen-3.8-27b": 0.6667,
+  "gpt-oss-120b": 0.6667,
+  "zai-glm-4.7": "archived for org",
+  "qwen-3-32b": "not in org allowlist",
+  "deepseek-r1-distill-llama-70b": "not in org allowlist"
+ },
+ "verdict": "No discriminating subject on org roster (only 2 models accessible, both floor). Full sham on either re-confirms nothing per HANDOFF sec4."
+}

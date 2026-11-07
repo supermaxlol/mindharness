@@ -1,0 +1,20 @@
+{
+ "pool": {
+  "secured": 736028,
+  "unsecured": 298775,
+  "priority": 64732
+ },
+ "share": {
+  "secured": 0.669,
+  "unsecured": 0.272,
+  "priority": 0.059
+ },
+ "funnel": {
+  "proofs": 1410962,
+  "objections": 67308,
+  "disallows": 125615,
+  "objection_rate": 0.0477,
+  "disallow_rate": 0.089
+ },
+ "grade": "measured activity shares (full-text hits); outcomes need docket-level coding"
+}

@@ -1,0 +1,50 @@
+{
+  "lock_id": "max",
+  "lock_string": "max|ReflexiveCAS-Max|0.30x1000|N10000|5x3|n12|2026-09-06",
+  "sha256": "c5a1fa200f00bcb8ac5f4c0c38d9147329c52dee827ad5bbfd4c25194aca42b6",
+  "date": "2026-09-06",
+  "coupling": 0.3,
+  "env": "x_{t+1}=0.70*x+0.30*mean(a)+N(0,0.1)",
+  "obs": "s_i=x+N(0,0.5) intact; watcher wiped s_i=N(0,0.5)",
+  "belief": "b_i=0.5*s+0.3*mean(b_-i)+0.2*b_prev (M4)",
+  "action": "a_i=0.5*b_i",
+  "N": 1000,
+  "N_scaling": 10000,
+  "T": 1000,
+  "dt": 1,
+  "n_seeds": 12,
+  "seeds": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "organs": [
+    "brake",
+    "watcher",
+    "memory",
+    "peer",
+    "coupling"
+  ],
+  "modes": [
+    "intact",
+    "wiped",
+    "shuffled"
+  ],
+  "conditions": 15,
+  "sham_protocol": "permutation shuffle of relevant vector before aggregation; peer sham shuffles b each step before mean(b_-i)",
+  "thresholds": {
+    "tipping": 1.5,
+    "hurst_persist": 0.6,
+    "hurst_antipersist": 0.45
+  },
+  "prediction_lock_note": "SHA printed BEFORE first x(0) trajectory"
+}

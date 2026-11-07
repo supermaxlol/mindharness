@@ -1,0 +1,9 @@
+{
+ "source": "Weco AI blog + ladder page + explainx/datasciencedojo/LinkedIn coverage, retrieved 2026-09-24",
+ "claim": "AIDE2 July 14 2026: 100 outer steps/8 days, 7 improving inner versions, beat 2y hand-tuning, reward hacking 63->34%, Level 1 net positive (ignition mixed)",
+ "urls": [
+  "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement",
+  "https://www.weco.ai/blog/4-levels-of-recursive-self-improvement"
+ ],
+ "grade": "company-reported + independent explainers, not peer-reviewed"
+}

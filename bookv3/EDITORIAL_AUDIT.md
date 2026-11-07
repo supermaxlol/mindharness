@@ -1,0 +1,47 @@
+# Version 1 and 2: what V3 keeps and repairs
+
+**Architecture update, September 26:** This comparison records the V1/V2 audit, but its first prologue decision was superseded by the author's requested flow. V3 now opens with the whirlpool, keeps the five financial layers together, and places cognition after finance. The controlling order is in `BOOK3_CANONICAL_SPINE.md`.
+
+I compared all 16 shared chapter files in `paper_book/chapters` and `bookv2/chapters`, their input order, chapter headings, additions and deletions, and the rendered v2 pages. V1 is about 57,000 words in the chapter files; v2 is about 60,000. Twelve of the shared files change, mostly by a few paragraphs. The four back-matter files are identical. V2 adds one 750-word prayer chapter. It is primarily a voice pass, not a new argument architecture.
+
+| Area | V1's strongest move | V2's strongest move | What both need in V3 |
+|---|---|---|---|
+| Big idea | Connects cultural memory, financial records, and machine memory in one ambitious thesis | Says explicitly that the ledger is the through-line | Define “ledger” tightly enough to exclude every trace in the universe; specify what the comparison predicts |
+| Evidence | Preserves filings, studies, local result files, diagrams, and many caveats | Adds some reader-facing anchors and objections | Grade **inference**, not file possession; distinguish observed values, causal effects, formal identities, and forecasts |
+| Finance | Has unusually rich sources on recaps, consolidation, recoveries, and legal claims | Gives a few scenes and “two comforts” tests | Follow one claimant and one transaction across chapters; remove repeated tables and incompatible numbers stacked for drama |
+| Mind | Connects cultural inheritance to the reader's inner narration | Tries a three-door diagnostic and adds a practice chapter | Replace deterministic “software script” and specific unproved neural chains with text → interpretation → retained behavior; retain human and animal counterevidence |
+| AI | Names monitoring versus causal control as the real problem | Adds clearer loss-bearer phrasing | Put the project's own sham and wiring failures before forecasts; separate prompted shorthand from autonomous evolutionary escape |
+| Voice | Serious, source-aware, sometimes arresting | More intimate and occasionally more suspenseful | Remove audit prose from body; let concrete events create suspense; use endnotes for method |
+| Design | 125-page typeset book with diagrams | 130-page typeset book | Replace dense equation-led opening and 3-page technical contents with a trade-book entry path |
+
+## Findings that change the manuscript
+
+**1. The prologue needs the whirlpool without the molecular dump.** Both versions begin with a whirlpool, then ask the reader to follow atom turnover, CaMKII, myelin, replay, and a software coverage threshold in one rush. V3 retains the whirlpool and Aebersold's estimate as its opening image, then crosses into the external mark. The detailed maintenance walk belongs in Chapter 14. The Bank of America balance-sheet scene belongs in Chapter 3, where the reader has already learned how a record can direct action.
+
+**2. The five jobs need a plot, not an appendix.** The first audit treated the five functions as a mere engineering heuristic and moved them out of the narrative. That discarded the archive's strongest synthesis. V3 now uses boundary, memory, salience, damping, and corrective witness as recurring demands revealed by failed alternatives. [Nayebi](https://proceedings.mlr.press/v337/nayebi26a.html) gives formal pressure for memory, regime information, and modularity on relevant task families; connectomics and the project's ablations supply independent legs. The book argues for the convergence across those legs without pretending that one theorem names five anatomical modules.
+
+**3. V1/V2 often turn juxtaposition into causation.** The timeline chapter sets 2024 ABS gross issuance, 2024 dividend recaps, and a 2010 Bank of America consolidation event beside the same vault equation. The numbers come from different dates, populations, instruments, and units. Gross issuance is not stored loss. The bank's $100.4 billion was a recognition change, not a measured $100.4 billion loss. V3 can use each as a separate scene only after its own mechanism is established.
+
+**4. The earlier audit overcorrected on cognition.** Libet's participants reported the urge about **200 ms before movement**, with preparatory activity beginning earlier; post hoc explanation has separate support from choice-blindness work. Fast myelinated versus slower unmyelinated fibers can differ by about **100× in conduction speed**, and mouse motor-learning studies show activity-linked myelin change. Aebersold's [1953 Smithsonian report](https://archive.org/download/annualreportofbo1953smit/annualreportofbo1953smit.pdf), p. 232, explicitly gives the **approximately 98% atomic replacement in a year** estimate that the first audit had discarded. V3 now places each in the chapter with its real unit and provenance. The S126 inversion remains a local instrument result with a wiring failure.
+
+**5. Restore the macro model as a worked scene.** With a stipulated claims base of 100, real backing of 80, and fixed spending speed, `P1/P0 = L/(L-G)` gives `100/80 = 1.25`: a nominal claim that still reads 100 buys less. This is an effective way to let a reader feel dilution. The [Federal Reserve](https://www.federalreserve.gov/Events/conferences/kdme2009/HTML/paper3/) explains why velocity and output must be modeled to infer an actual price change. V3 should therefore present the equation boldly as the model's result, then use separately identified data to investigate an actual rescue.
+
+**6. The legal formula has conditions.** `A = 0 ⇒ K = 0` is true only when A denotes *all legally reachable assets* for a particular claim and no guarantor, insurer, statutory fund, successor, lien, or other source of recovery exists. It is not established by finding an offshore parent. Similarly, an ICSID award's recognition differs from execution against assets; ICSID explicitly preserves domestic sovereign-immunity law for execution. V3 follows the real recourse path instead of declaring it zero at the apex.
+
+**7. The most original scene is an honest failure.** In the S126 harness test, a local ledger object was empty while records were written to another ledger. A dashboard could report a procedure while the checker could not consult the evidence. The 200-turn irreversibility test moved the hoped-for accuracy in the wrong direction. V3 puts these failed walks onstage. They make the thesis sharper: a stored record must be reachable and change the next action.
+
+**8. Ghazalian elimination should culminate in the author's inference.** V2 sometimes offers two alternatives only to call them decoys. V3 gives a strong rival its best case, follows the failed walk, and then advances the surviving five-job ledger synthesis with conviction. The end should state what the three acts collectively establish: history-dependent records can make minds, institutions, and machines more capable while moving control toward whoever owns the right to write, read, and correct them. A reader can reject that conclusion only by supplying a rival mechanism that survives the same tests.
+
+## Research triage behind this audit
+
+The 94 Markdown files in `research/` contain about 265,000 words, of which roughly 73,000 are a repeated transfer packet appended to many files. The distinct core is about 192,000 words. An index, direct inspections of the highest-leverage syntheses, later falsification notes, primary result files, and the independent September audit supplied the architectural decisions above. The database in this folder inventories every Markdown file and the two chapter trees so later chapter work can follow the source, date, and correction trail. This audit does **not** certify that every scientific or legal assertion in the archive has been independently verified; the claim ledger marks the dangerous ones.
+
+## Primary anchors checked during this pass
+
+- [Bank of America 2010 Form 10-K](https://www.sec.gov/Archives/edgar/data/70858/000095012311018743/g25571e10vk.htm): $100.4 billion assets and $106.7 billion liabilities brought on balance sheet under new consolidation guidance.
+- [FASB summary of Statement 166](https://fasb.org/page/pagecontent?bcpath=tf&isPrintView=true&pageid=%2Freference-library%2Fsuperseded-standards%2Fsummary-of-statement-no-166.html): removes the QSPE concept.
+- [NBER Working Paper 33435](https://www.nber.org/papers/w33435): dividend recapitalizations and a causal design for leverage and firm outcomes.
+- [ICSID recognition and enforcement](https://icsid.worldbank.org/procedures/arbitration/convention/recognition-enforcement): recognition and execution have different legal paths.
+- [Federal Reserve research on money and inflation](https://www.federalreserve.gov/pubs/feds/2010/201057/): velocity and output complicate a one-to-one mapping.
+- [Pigeon cumulative culture experiment](https://www.nature.com/articles/ncomms15049) and [bumblebee social learning experiment](https://www.nature.com/articles/s41586-024-07126-4): animal knowledge does not simply reset at death.
+- [Kottur and colleagues' multi-agent language experiment](https://arxiv.org/abs/1706.08502): effective invented codes need not be human-interpretable or compositional; constraints matter.

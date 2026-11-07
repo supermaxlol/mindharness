@@ -1,0 +1,85 @@
+{
+ "n": 298,
+ "v4_counts": {
+  "proof of claim": 676425,
+  "secured claim": 642716,
+  "unsecured claim": 218432,
+  "priority claim": 27729,
+  "claim objection": 28608
+ },
+ "chapter_by_query": {
+  "('proof of claim', 'None')": 9,
+  "('proof of claim', '11')": 12,
+  "('proof of claim', '7')": 29,
+  "('proof of claim', '13')": 10,
+  "('secured claim', '11')": 21,
+  "('secured claim', '7')": 19,
+  "('secured claim', '13')": 16,
+  "('unsecured claim', 'None')": 19,
+  "('unsecured claim', '11')": 12,
+  "('unsecured claim', '13')": 9,
+  "('unsecured claim', '7')": 20,
+  "('priority claim', '12')": 1,
+  "('priority claim', '11')": 27,
+  "('priority claim', '7')": 14,
+  "('priority claim', '13')": 15,
+  "('claim objection', 'None')": 16,
+  "('claim objection', '11')": 29,
+  "('claim objection', '7')": 8,
+  "('claim objection', '')": 1,
+  "('secured claim', 'None')": 4,
+  "('priority claim', 'None')": 3,
+  "('claim objection', '13')": 3,
+  "('claim objection', '304')": 1
+ },
+ "top_courts": [
+  [
+   "United States Bankruptcy Court, E.D. Pennsylvania",
+   26
+  ],
+  [
+   "United States Bankruptcy Court, M.D. Florida",
+   19
+  ],
+  [
+   "United States Bankruptcy Court, District of Columbia",
+   15
+  ],
+  [
+   "United States Bankruptcy Court, S.D. Texas",
+   14
+  ],
+  [
+   "United States Bankruptcy Court, S.D. Mississippi",
+   13
+  ],
+  [
+   "United States Bankruptcy Court, S.D. New York",
+   12
+  ],
+  [
+   "United States Bankruptcy Court, S.D. Florida.",
+   12
+  ],
+  [
+   "United States Bankruptcy Court, D. New Hampshire",
+   11
+  ],
+  [
+   "United States Bankruptcy Court, D. New Jersey",
+   11
+  ],
+  [
+   "United States Bankruptcy Court, C.D. California",
+   9
+  ]
+ ],
+ "median_days_to_termination": {
+  "proof of claim": 2951,
+  "unsecured claim": 2655,
+  "priority claim": 4219,
+  "claim objection": 3435,
+  "secured claim": 4219
+ },
+ "grade": "measured V4 docket activity (298 dockets: 60 score + 60 recent + 60 oldest per class-query pool, 5 class queries). Chapter mix + gate latency. Outcomes need document-level coding \u2014 still proxy."
+}

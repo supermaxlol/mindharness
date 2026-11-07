@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/16_future_outlook_the_witness.md",
+    "prior": "development/editorial_2026-09-30_outlook/16_future_outlook_the_witness.md",
+    "prior_sha256": "c859276c8ba62b0a0bcfcacfc468bdd01f66ce6f2bdd2477d21ae84e70e9aacf",
+    "current_sha256": "604ea748656c33a37aaa1b3f3e69c7655ee27e5ffca1188f3438720b9869fd71",
+    "reason": "The 95% coverage exception receives a physical failed case; a forked agent creates a collectability problem; all ten forecasts get separate tests in the closing ledger."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "fable_compression": [
+    "Gottschall Storytelling Animal — convergent (retain v1)",
+    "Kirby et al. Cognition 141 compression-communication lab chains — convergent (retain v1)"
+  ],
+  "dialect_inheritance": {
+    "prior_convergent_base": [
+      "Kirby cumulative-evolution lab — convergent",
+      "ECOCURL LLM-population paradigm — convergent (paradigm, not longitudinal ID)",
+      "Kottur et al. 2017 arXiv:1706.08502 Natural Language Does Not Emerge Naturally — constraint (non-emergence without pressures, bounds naive claims)"
+    ],
+    "longitudinal_measured_added_2026-09-25": [
+      "Li & Bowling 2019 arXiv:1906.02403 Ease-of-Teaching and Language Structure from Emergent Communication — measured (pre-LLM): periodic replacement sequentially + within population, referential game, ease-of-teaching structures code; newcomer inherits pioneer shorthand",
+      "Kouwenhoven, Peeperkorn & Verhoef 2024 arXiv:2412.07646 Searching for Structure: Investigating Emergent Communication with LLMs — measured: LLM-LLM iterated learning, holistic→structured over generations, learnability ↑, degenerate vocab possible",
+      "Guo, Wu & Yiu 2026 arXiv:2605.23054 Model Collapse as Cultural Evolution — measured (strongest discriminant): LLaMA-2-7B + Mistral-7B ×10 gens EN/DE/TR, 5 iterated-learning predictions, non-monotonic compositionality, Hedges g>1.6 BF10>100 R²=0.94 vs human; persistence only with task-grounded filtering",
+      "Perez, Kovač et al. 2024 arXiv:2407.04503 When LLMs Play the Telephone Game — measured adjacent: multi-step transmission chains, toxicity/positivity/length attractors, instruction-dependence; convergent for code lexicon"
+    ],
+    "grade_change": "convergent (v1) → measured (v2) for longitudinal newcomer-inheritance; Kottur retained as constraint (convergent)"
+  },
+  "viscoelastic_hysteresis": {
+    "substrate_measured": [
+      "Smith, Roy, De Koninck, Grütter & De Koninck 2007 Biophys J — Dendritic spine viscoelasticity and soft-glassy nature (DOI 10.1529/biophysj.106.092361, PMID 17114228, PMC1783894) — AFM + FRAP, soft-glassy rheology, G'>G'' low strain, G'' overshoot at yielding; measured substrate"
+    ],
+    "formal_model_theoretical": [
+      "Benna & Fusi 2016 Nat Neurosci 19:1697 (DOI 10.1038/nn.4401, PMID 27694992) — Computational principles of synaptic memory consolidation — chain of coupled fast/slow variables (beaker-tube), 1/t power-law, bidirectional history-dependent transfer, spacing/metaplasticity; theoretical",
+      "Bonilla-Quintana & Rangamani 2024 eNeuro 11(3) ENEURO.0497-23.2024 (DOI 10.1523/ENEURO.0497-23.2024, PMID 38383589) — Biophysical modeling of actin-mediated structural plasticity, 3D moving-boundary actin/Arp2/3/cofilin, perisynaptic mechanics, repeated-stimulus adaptation; theoretical (computational)",
+      "Ziegler, Zenke, Kastner & Gerstner 2015 J Neurosci 35:13103 (DOI 10.1523/JNEUROSCI.3989-14.2015, PMID 25609644) — Synaptic consolidation: from synapses to behavioral modeling, three-timescale induction→hours→years, behavioral savings; theoretical adjacent"
+    ],
+    "grade": "analogical (pre-v2, SHY extension) → convergent (v2: measured substrate + theoretical formalism, not yet single in vivo hysteresis loop to behavior)",
+    "honesty_flag": "No single paper closes rheology→behavioral hysteresis loop; Smith=substrate, Benna-Fusi=formalism, Bonilla-Quintana=computational bridge"
+  },
+  "verification": "All IDs verified via arXiv API / PubMed / PMC / DOI lookup 2026-09-25; no invented citations; grades: measured only where longitudinal data exist, theoretical where formalism not closed to in vivo loop",
+  "artifacts": "LITERATURE_REVIEW_LEDGERS_V2.md §0 UPGRADED 2026-09-25 + §1 table + §3 grade changes + §4 short bullets"
+}

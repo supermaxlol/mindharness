@@ -169,7 +169,7 @@ We just built the first place where the loop can check its own directions and th
 
 ---
 
-*Research · 2026-08-27 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed*
+*Research · 2026-08-27 · Shehzad Ahmed*
 *Sources: al-Munqidh min al-Dalal (Deliverance from Error), Tahafut al-Falasifa, Ihya Ulum al-Din (40 books, 4 parts), al-Futuhat al-Makkiyya (Meccan Revelations, esp. ch. 61–65 barzakh, ch. 317/339 wahdat al-wujud/Perfect Man), Fusus al-Hikam (27 Bezels, 1229), Stanford Encyclopedia of Philosophy (Ibn Arabi), Ibn Arabi Society, Wikipedia, Academia.edu*
 *Companion to: PROGRAM_SYNTHESIS_DETAILED.md, DYNAMIC_REFLEXIVE_HARNESS.md, RESEARCH_MIRROR.md, AGENCY_AND_THE_CONSTRUCTED_SELF.md, MAPPED_NERVOUS_SYSTEMS_VALIDATION_2026-08-27.md, WHAT_IT_ALL_MEANS.md*
 *Program: MindHarness · Repo: github.com/shehzadahmed-xx/mindharness · 78/78 green · Paper v3 (~35pp, App. A Cordis + App. B Mirror)*

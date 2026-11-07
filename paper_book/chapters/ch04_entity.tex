@@ -1,0 +1,184 @@
+\chapter{Entity: Redrawing the Boundary}
+\label{ch:entity}
+
+\textit{Grade for this chapter: measured on pod thresholds, unwinds, VIE panel, consolidation, and court holdings; analogical where we describe fee paths inside a pod or a trust before a filing line proves them.}
+
+If timeline tells you when loss arrives, entity tells you where it will be sitting when it arrives so that the claim against it is already small. The move is simple. Redraw the boundary so the promise attaches to a shell while the economics were already upstreamed to the sponsor. On paper failure is contained. In substance the sponsor was paid first.
+
+For a child, a boundary is a fence you can see. For a firm, a boundary is a legal test someone can litigate. That difference is the whole game. Fences hold unless you move them. Legal boundaries are drawn to order. Move the fence, move the reachable assets, and you move the recovery without changing the accounting total by much. This chapter makes that move checkable.
+
+\section{The boundary organ}
+
+Every living system needs a boundary organ. Skin decides what counts as inside the body. A bank charter decides what counts as inside the bank. A fund decides what counts as inside a pod, even when the pod lives on the same balance sheet as three hundred other pods. Without a boundary, attribution fails and loss floats. With a boundary, loss can be assigned, and also gerrymandered.
+
+For a new reader, think of the boundary organ as the fence that constitutes the relation it divides. It does not merely mark inside versus outside. It decides what crosses and what does not. In markets the fence is legal recourse. If a vehicle fails and the sponsor has no contractual obligation to fund it, then the creditor's reachable assets $A$ are the vehicle's assets only. If vehicle $A$ is small, the collectability cap $K(A)$ is small regardless of how good the creditor's legal arguments are. Saying you have a claim on the group is not the same as having a claim you can enforce. $K$ makes that difference explicit as $\phi = \min\{\psi H, K\}/H$, the paid share after gating and capping.
+
+That is why entity engineering is powerful. It works before any gate is litigated. It chooses whose $K$ binds and whose $K$ does not, before anyone files.
+
+We keep one discipline throughout this chapter. We name the envelope, we state the recourse terms, and we state the reachable $A$. Without those, $\phi$ is just a number. With them, it is a mechanism you can audit.
+
+\section{The pod shop: a laboratory of the boundary}
+
+The cleanest laboratory of the boundary organ in modern finance is the pod shop. For a new reader, a \textbf{pod} is a team that owns a bounded book and a bounded loss. The pod receives allocated capital, risk limits, and a strategy sleeve that is supposed to be hedged on measured factors. The platform provides capital allocation, risk monitoring, trading operations, and a funding desk, but does not by default cross margin risk across pods. Each pod is meant to be a watertight compartment. Water may fill one without sinking the ship, if the walls hold.
+
+Three intended effects follow. The blast radius is bounded when a pod is wrong. Attribution is clean so winners and losers are known and can be cut or fed. Damping is forced at the pod wall before loss becomes system loss. That is the theory. Whether the walls hold depends on what is shared across them: a common funding desk, a common prime broker, a common reinsurance or guarantee, or one crowded factor that makes many pods wrong at once. Labels diversify. Factors do not.
+
+\textit{Measured, industry documented in \texttt{pods\_goodhart\_v1.json} and corroborated in trade press:} Millennium halves capital at minus 5\% and terminates a pod at minus 7.5\%, automatically, with 15 to 20\% annual portfolio manager turnover treated as a feature rather than a failure. Pods run \$100 to \$200M each across 320 plus teams at about \$79B of assets under management as of September 2025. Citadel's equivalents are individually negotiated rather than formulaic, with \$25B returned to investors since 2017 as part of capacity management. Those thresholds are now industry fact, not lore.
+
+For a new reader, halving at minus 5\% means the platform pulls half the pod's capital when it is down five percent, and termination at minus 7.5\% means the book is liquidated and the team is cut when down seven and a half. The rule has memory. It does not reset because the manager wants a second chance. It resets only when risk does, after a cool down. That is damping with hysteresis, a brake that stays on.
+
+Why fifteen to twenty percent turnover is a feature becomes clear once you see the alternative. Without a binding breaker, a losing pod can lobby, hedge cosmetically, and survive to gamble for resurrection. With a binding breaker, the platform treats pods as experiments. Many are run, some are killed, capital moves to survivors. The ledger of who failed is literal. That is also why the pod shop is checkable in a way older conglomerates were not. You can count pods, count cuts, and watch whether the platform honors its own thresholds when crowded.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, >=Stealth, font=\small]
+  % Platform apex
+  \node[draw, rounded corners, fill=blue!10, minimum width=5.2cm, minimum height=0.9cm, align=center] (plat) {Platform — allocator / risk (\$79B, 320+ pods)\\ \tiny \$100--\$200M per pod \textbar\ funding desk shared};
+  % Pods
+  \node[draw, rounded corners, fill=green!10, minimum width=3.0cm, minimum height=1.0cm, align=center, below=1.0cm of plat, xshift=-3.6cm] (pod1) {Pod A \\ \tiny $K_A$ = pod $A$ only \\ \tiny $-$5\% halve \textbar\ $-$7.5\% cut};
+  \node[draw, rounded corners, fill=green!10, minimum width=3.0cm, minimum height=1.0cm, align=center, below=1.0cm of plat] (pod2) {Pod B \\ \tiny $K_B$ = pod $A$ only \\ \tiny $-$5\% halve \textbar\ $-$7.5\% cut};
+  \node[draw, rounded corners, fill=orange!14, minimum width=3.0cm, minimum height=1.0cm, align=center, below=1.0cm of plat, xshift=3.6cm] (pod3) {Pod C — Klavdianos \\ \tiny $K_C$ small, $>$\$100M loss \\ \tiny liquidated Sep--Dec 2023};
+  % Arrows from platform
+  \draw[->] (plat.south) -- (pod1.north);
+  \draw[->] (plat.south) -- (pod2.north);
+  \draw[->] (plat.south) -- (pod3.north);
+  % Shared factor arrow
+  \node[draw, rounded corners, fill=red!8, minimum width=10.5cm, minimum height=0.7cm, align=center, font=\tiny, below=1.0cm of pod2] (factor) {Shared factor (value/growth, yen carry): correlation $\rho \approx 0.8$ on stress day — $K$ labels diversify, factors do not};
+  \draw[->, red!60!black, dashed, thick] (pod1.south) -- (factor.north west);
+  \draw[->, red!60!black, dashed, thick] (pod2.south) -- (factor.north);
+  \draw[->, red!60!black, dashed, thick] (pod3.south) -- (factor.north east);
+  % Breaker annotation
+  \node[align=left, font=\tiny, text=gray] at (6.0, 0.55) {damping with hysteresis:};
+  \node[align=left, font=\tiny, text=gray] at (6.0, 0.22) {halt $\Delta t$, reset only at $L_{\text{reset}} < L_{\text{trip}}$};
+  % Loss bearer note
+  \node[align=center, font=\tiny, text=purple!70!black, below=0.15cm of factor] {Loss bearer when $\rho \to 1$: allocator sized at 6\% vol, realizes 15\% — \$40M on \$1B gross at $-5$\% factor};
+\end{tikzpicture}
+\caption{Pod hierarchy with $K$ labels. Platform allocates \$100--\$200M per pod (\$79B, 320+ teams, \texttt{pods\_goodhart\_v1.json}) with $K$ at pod $A$ only under no cross-margin. Breakers ($-$5\% halve, $-$7.5\% terminate, Millennium automatic; Citadel negotiated; 15--20\% turnover as feature) bound idiosyncratic loss. Dashed red is the shared factor that bypasses $K$ labels: 50 pods at \$20M gross with $\beta \approx 1$ lose \$40M together at $-5$\% factor when $\rho \to 0.8$ despite $K_A, K_B, K_C$ walls holding individually. Instances: Klavdianos \$100M (Bloomberg Dec 12--13 2023, liquidation Sep--Dec, \texttt{pods\_single\_pod\_autopsies\_v1.json}), Aug 2024 six-pod cluster (Fitzgibbon/Ying/Corones/Murayama/Motegi/Cox) after Nikkei $-12.4$\% and USD/JPY $161 \to 142$.}
+\label{fig:pod-hierarchy}
+\end{figure}
+
+\noindent\textit{Breaker arithmetic, worked:} a \$150M pod at $-5$\% has lost \$7.5M and is halved to \$75M of capital; at $-7.5$\% the loss is \$11.25M and the book is cut. That is not a suggestion. At Millennium it is automatic. The August 2024 cluster (at least six pods cut across Millennium, Balyasny, BlueCrest after the yen carry snapped — VIX intraday $>65$, Nikkei $-12.4$\% on Aug 5) is that arithmetic executed at scale: Hedgeweek explicates capital partially withdrawn after 5\% and dismissed after about 7\%, Bloomberg's Aug 30 tally names Fitzgibbon in Houston, Ying and Corones in Asia, Murayama and Motegi in JGB, Cox in Hong Kong, each under the same rule. The unwind is the breaker working, not failing. What fails is the allocator's belief that many $K$ labels meant many bets.
+
+\section{When walls are stress tested in public}
+
+Thresholds on paper are one thing. Walls under stress are another. This is where grading matters. Platform level unwinds are measured. Single pod autopsies are now also measured in trade press. Internal backstop plumbing remains analogical until a prime letter or filing proves it.
+
+\textit{Measured, platform level, \texttt{pods\_chaebol\_instances\_v1.json}:} three public stress tests. First, Balyasny 2018, the firm's first annual loss at minus 7\%, with a 20\% staff cut, published postmortems, and a rebuild from \$6B to \$27B on diversification after the drawdown. Walls held in the sense that the platform survived and re diversified, but the year was the first time the breaker logic was seen to bite at firm scale.
+
+Second, Eisler Capital's 2025 closure, attributed in press to talent war costs and scale economics that made the platform's cost base unsustainable even before market stress arrived. That is a boundary failure by economics, not by correlation. The organ that was stressed was not the pod wall but the platform's ability to fund the lab itself.
+
+Third, first quarter 2026, synchronized drawdowns of minus 4.3\% and minus 4.5\% at Balyasny and ExodusPoint on correlation breakdown. That is the finding the whole pod theory turns on. Minus four percent at two independent platforms at the same time, from the same factor dislocation, despite pod walls inside each platform. Walls hold idiosyncratic risk, not crowding. When the crowded factor moves, many pods are the same trade with different logos and the platform is one bet with many names.
+
+\textit{Measured, single pod level, now sourced in \texttt{pods\_single\_pod\_autopsies\_v1.json} with Bloomberg headlines held via Bloomberg Law mirrors and trade-press syndication:} two autopsies fill the gap that was open for two years. One is Balyasny event driven credit pod head George Klavdianos in London, reported by Bloomberg on December 12 and 13, 2023 (Lucca de Paoli, Nishant Kumar, Irene Garcia Perez; mirror at \texttt{news.bloomberglaw.com/capital-markets} confirming headline and deck) as a loss of more than \$100M including unwind costs, with liquidation beginning in September 2023 and team exit in December, representing about one percent of gross assets in a credit sleeve that contextual reporting (eFinancialCareers) puts near five percent of firm assets. eFinancialCareers Dec 13 notes the FCA register still showed Klavdianos at BAM at time of writing and attributes the \$100M to the US credit sleeve plus Klavdianos sleeve; eFinancialCareers 2024 confirms rehire at Millennium London after 3.5y at BAM and 6.5y at Citadel. The other is the August 2024 yen carry unwind, where at least six pods were reported shut across Millennium, Balyasny, and BlueCrest after the yen carry snapped and global risk repriced (Bloomberg Aug 30: Nishant Kumar, Bei Hu, Takashi Nakamichi; Hedgeweek Sep 2 syndication listing all six names; MoneyControl Aug 26 on Ying/Corones Asia closures), with named managers including Ryan Fitzgibbon in Houston (industrials/energy), Shao Ying and Zachary Corones in Asia (index-rebalancing), Chiga Murayama and Yosuke Motegi in JGB trading, and Mark Cox in Hong Kong, under the same 5\% halve and 7.5\% terminate logic that Hedgeweek explicates as partially withdrawn after five percent and dismissed after about seven. Bloomberg's trigger tape is precise: Nikkei $-12.4$\% on Aug 5 (worst since 1987), TOPIX $-12$\%, VIX intraday $>65$, USD/JPY $161 \to 142$. Funds rebounded by Aug 23 ($+$1\% Schonfeld, $+$0.9\% LMR, $+$0.7\% Millennium month-to-date per Hedgeweek) — the platform survived because pods were cut. Adjunct same-quarter cut (Bloomberg Jun 27: Balyasny merger-arb team Adam Schwartz and Schonfeld's Eric Fritz) shows turnover as feature, not anomaly.
+
+A note on what stays analogical after those autopsies. That breaker thresholds bind is now measured. That specific pods were cut under them is now measured. What internal backstop would have done if many pods tripped together, cross guarantees, shared funding, rehypothecation, or a platform level guarantee, remains unsourced until a filing says so. We assert the channel. Instances carry their own citations. Short sentences. Evidence graded.
+
+For a new reader, the lesson is not that pods fail. It is that pods do exactly what they promise and no more. They bound idiosyncratic loss. They do not bound a factor that every pod loads through different names. If fifty pods are each long cheap value versus expensive growth through different securities, the host shows \$1B of diversified gross with \$20M per pod. A one day factor unwind of minus five percent with cross pod correlation at 0.8 turns that into one \$40M loss from a bet the allocator thought it did not have. Loss bearer: the allocator who sized at six percent volatility assuming zero cross pod beta, now facing fifteen percent realized.
+
+\section{A four bank panel: where $K$ actually sits}
+
+From pods we step to banks, because banks file. For a new reader, a \textbf{VIE}, or Variable Interest Entity, is the accounting name for an entity whose control is not decided by voting shares but by who bears its risks and rewards and who has power over its key decisions. If you sponsor a VIE, benefit from it, and control it, you consolidate it. If you do not, it can sit off balance sheet with a disclosed maximum exposure. A VIE is the modern name for the shell we have been calling an envelope.
+
+\textit{Measured, EDGAR XBRL company facts plus Note prose across twelve filings, artifacts \texttt{edgar\_K\_panel\_v1.json} and \texttt{edgar\_VIE\_panel\_prose\_v1.json}:} maximum VIE exposure runs Citi \$54.8B on December 31, 2010, then JPMorgan \$28.6B on March 31, 2011, then Bank of America \$8.1B on June 30, 2010, then Wells Fargo \$0 on September 30, 2010. Distribution matches crisis severity exactly, from most off balance reachability to least, which is itself a check on the measure.
+
+Put the shells next to them, also from XBRL and prose. Junior trust shells that fund capital, also called trust preferred vehicles, show Citi \$10.1B in 2012, JPMorgan \$2.3B in 2016, Bank of America absent in the XBRL tag for that vintage because the trusts were redeemed or renamed after the crisis, and Wells Fargo \$0.7B in 2020. Anchor them to on book long term debt so the scale is honest: Citi \$315.8B in 2025, JPMorgan \$267.9B in 2013, Bank of America \$317.8B in 2025, Wells Fargo \$174.7B in 2025. Those anchors tell you the VIE and trust numbers are not rounding error, but they are also not the whole balance sheet. They are the boundary layer where $K$ is chosen.
+
+\begin{table}[h]
+\centering
+\small
+\caption{Four bank $K$ placement panel, dollars, from XBRL company facts and 10-K and 10-Q prose}
+\label{tab:entity-kpanel}
+\begin{tabular}{p{2.0cm} p{2.9cm} p{2.9cm} p{2.9cm}}
+\toprule
+Bank & VIE max exposure & Junior trust shell & Long term debt \\
+\midrule
+Citi & \$54.8B (2010-12-31) & \$10.1B (2012) & \$315.8B (2025) \\
+JPM & \$28.6B (2011-03-31) & \$2.3B (2016) & \$267.9B (2013) \\
+BofA & \$8.1B (2010-06-30) & absent (redeemed or renamed) & \$317.8B (2025) \\
+Wells & \$0 (2010-09-30) & \$0.7B (2020) & \$174.7B (2025) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For a new reader, maximum exposure is the accounting phrase for reachable $K$ outside the reported boundary until drawn. It is the number the bank says it could lose if the off balance vehicle drew every facility. The economics are inside the prose that accompanies it. JPMorgan's 2010 Note 16, filed as accession 0000950123-11-019773 and held as \texttt{edgar\_VIE\_prose\_v1.json}, defines a sponsored VIE by four prongs and shows the plumbing. A sponsored VIE is one where the firm is principal beneficiary, or the vehicle securitizes firm assets, or it issues with the JPMorgan name, or it is a firm administered asset backed commercial paper conduit. Inside those conduits, maximum exposure on nonconsolidated firm administered multi seller conduits was \$24.8B at December 31, 2009, with deal specific liquidity of \$24.2B and program wide liquidity of \$13.0B plus \$2.0B of enhancements. The XBRL tag for Variable Interest Maximum Exposure to Loss at December 31, 2010 prints \$27.8B. Prose and machine readable tag agree within conduit growth. The enhancement cap written into the conduit documents is a $K$ cap in contract language, not a metaphor.
+
+Citi in the same vintage tells the opposite disclosure technology. Mortgage securitizations are VIEs and maximum exposure equals carrying amount, with Omni Trust commercial paper funding facility of \$2.5B at December 31, 2009 under the Federal Reserve's Commercial Paper Funding Facility, as filed in accession 0001206774-11-000316. Wells Fargo in 2010 discloses no VIE or securitization vehicles at all, an on balance whole loan model, consistent with XBRL VIE of \$0 filed in accession 0000950123-11-018541. The panel is not just a table then. It is a technology choice. JPMorgan runs conduits with capped enhancements. Citi runs securitizations where max equals carrying. Wells runs without either. BofA is about to show what happens when the technology is forced to change.
+
+\section{The mirror event again, now as entity repair}
+
+The same BofA number that closed the timeline chapter belongs here as an entity event. SFAS 166 and 167 killed the \textbf{QSPE} permission slip on January 1, 2010. The rule did not create economics. It moved boxes back inside the boundary that owned them.
+
+\textit{Measured, Bank of America 2010 10-K, accession 0000950123-11-018743, same panel:} consolidation on January 1, 2010 of \$100.4B of assets, split as \$69.7B of credit card trusts plus \$30.7B of special purpose entities including multi seller conduits, with \$106.7B of liabilities including \$84.4B of long term debt, and a \$6.2B net of tax charge to retained earnings.
+
+In $K$ terms, reachable $A$ for card and conduit creditors moved back on balance sheet. $K$ visibly rose inside the bank and fell outside it. Where before a trust creditor had recourse to a small vehicle $A$, now the same creditor had recourse to Bank of America $A$. That is the boundary organ repaired by rule, not by choice, and the \$6.2B charge tells you it was not cosmetic.
+
+The evolution to 2020 matters because it answers whether banks rebuilt the old off balance share once the crisis passed. \textit{Measured, eight filings 2015 and 2020, artifact \texttt{edgar\_VIE\_evolution\_2015\_2020\_v1.json}:} JPMorgan consolidated VIE beneficial interests fall from \$41.9B in 2015 to \$17.6B in 2020, muni vehicle maximum exposure from \$6.3B in 2014 to \$3.8B in 2015. Bank of America keeps the 2010 consolidation on book under the primary beneficiary test with unconsolidated VIEs disclosed in Note 6. Citigroup holds its disclosure technology constant, maximum exposure equals carrying amount in Note 22. Wells Fargo, VIE free in 2010, carries securitization and VIE notes by 2015 to 2020 on its mortgage book after Wachovia. No bank rebuilds pre crisis off balance reachability by 2020. Regulation moved $K$ on book after 2010 and kept it there, which is also why the next frontier of boundary engineering is not conduits but the corporate forms this chapter turns to next.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=0.6cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=3.0cm, align=center, font=\small] (t10) {2010 \tiny QSPE death};
+  \node[draw, rounded corners, fill=green!8, minimum width=3.0cm, align=center, font=\small, right=of t10] (t15) {2015 \tiny consolidation holds};
+  \node[draw, rounded corners, fill=orange!14, minimum width=3.0cm, align=center, font=\small, right=of t15] (t20) {2020 \tiny no rebuild};
+  \draw[->, >={Stealth}] (t10) -- (t15);
+  \draw[->, >={Stealth}] (t15) -- (t20);
+  \node[below=0.3cm of t10, font=\tiny, align=center] {BofA +\$100.4B on book \\ JPM conduits \$24.8B};
+  \node[below=0.3cm of t15, font=\tiny, align=center] {JPM consol \$41.9B \\ muni max \$3.8B};
+  \node[below=0.3cm of t20, font=\tiny, align=center] {JPM consol \$17.6B \\ Wells notes appear};
+\end{tikzpicture}
+\caption{$K$ evolution 2010 to 2020 after the QSPE was killed. Conduit footprints shrink or persist, never rebuild. The boundary repair sticks.}
+\label{fig:entity-ktimeline}
+\end{figure}
+
+\section{The Texas Two Step: a boundary machine tested three times}
+
+For a new reader, a \textbf{divisional merger} under Texas Business Organizations Code section 1.002(55)(A) is a statute that lets a company split into two or more companies in one filing, allocating assets to one survivor and liabilities to another. It is lawful per se. The question in each case is what it is used for and whether bankruptcy is the right forum for what follows.
+
+The machine nicknamed the Texas Two Step works like this. An operating company with large tort liabilities uses a divisional merger to split into two. One successor, call it NewCo, receives most operating assets. The other, call it LiabilityCo, receives the tort liabilities and a funding agreement that says NewCo, and sometimes a parent, will fund LiabilityCo's costs and obligations. LiabilityCo then files for Chapter 11 and proposes a channeling injunction or trust that would resolve the tort claims inside bankruptcy, with NewCo continuing to operate outside it. Formal recourse for tort claimants is now capped at LiabilityCo $A$ plus whatever the funding agreement promises, not at NewCo or group $A$. If LiabilityCo $A$ is small, $K$ for tort creditors is small regardless of $\psi$ on the underlying harm.
+
+We grade this carefully because courts have now spoken three times. Holdings are measured. Motives remain litigated.
+
+\textit{Measured, holdings in \texttt{tt\_holdings\_v1.json} with full opinion texts in \texttt{tt\_opinion\_texts2.json}, 78,000 plus 87,000 characters held:}
+
+First, \textit{In re LTL Management LLC}, 64 F.4th 84, Third Circuit 2023. Mechanism: October 12, 2021 divisional merger under Texas Business Organizations Code section 1.002(55)(A) split Old Consumer into LTL, which received talc liabilities, plus New Consumer, which received operating assets, plus a Funding Agreement giving LTL funding rights against New Consumer and Johnson and Johnson. Holding: dismissed under section 1112(b). Only a putative debtor in financial distress may access Chapter 11 for a valid bankruptcy purpose. LTL was not in financial distress, so the filing was dismissed.
+
+Second, \textit{Bestwall LLC}, Fourth Circuit No. 22-1135, June 20, 2023. Mechanism: 2017 divisional merger under the same Texas statute splitting Old GP into Bestwall plus New GP, plus a funding agreement obligating New GP to cover Bestwall's expenses and obligations while its operating assets sit out of tort reach. Holding: distinguishes LTL on the ground that no good faith or financial distress challenge was raised in this proceeding. The court describes the merger mechanics verbatim and leaves the door open where LTL closed it, but the machine's legality per se is not endorsed as a broad channeling tool.
+
+Third, \textit{In re Red River Talc LLC}, Southern District of Texas No. 24-90505, filed September 20, 2024. This is the repeat attempt by the same sponsor after LTL. Mechanism: prepackaged plan proposing a \$9B trust with 90,000 claimants voting. Outcome: confirmation denied and case dismissed March 31, 2025 by Judge Lopez. Johnson and Johnson announced no appeal, returned to the tort system, and reversed about \$7B in reserves. Artifact \texttt{redriver\_koreazinc\_v1.json} holds the trade press and docket synthesis.
+
+Three filings, three dismissals, two jurisdictions. The sponsor that invented the repeat attempt announced its end. For this book the point is not schadenfreude. It is $K$. Where before tort claimants would have had recourse to operating $A$, after the split they faced a small LiabilityCo $A$ plus a funding agreement whose promise is only as good as its terms and the willingness of a court to let bankruptcy rewrite tort recourse. The boundary was moved by statute, the cap was moved by contract, and courts declined to bless the resulting $K$.
+
+A note on what stays open. The Texas statute remains on the books. A future debtor with genuine financial distress that uses a divisional merger for ordinary restructuring is a different case. The trilogy above kills the specific strategy of splitting to file a mass tort liability vehicle without distress. It does not kill divisional mergers per se.
+
+\section{The chaebol cycle: reform begets the work that bypasses it}
+
+From Dallas we fly to Seoul, because the same boundary logic runs a full reform cycle in the open with primary law held in both languages. For a new reader, a \textbf{chaebol} is a family controlled Korean business group where control is maintained through layers of shareholding. A \textbf{circular shareholding} is a loop of ownership with at least three affiliates, each owning shares in the next, so that Company A owns B, B owns C, and C owns A. Control is circular. No one with a simple share count owns the circle, but the family at the apex can steer it.
+
+\textit{Measured, primary law in \texttt{korea\_ftc\_mrfta\_primary\_v1.json} with KLRI English texts:} the Monopoly Regulation and Fair Trade Act, or MRFTA, defines a holding company in Article 2(7), circular shareholding in Article 2(16) and (17), reporting on holding company formation in Article 17, holding company restrictions in Article 18, cross shareholding prohibition in Article 21, circular shareholding prohibition in Article 22 with a six month to three year unwind grace period, and voting rights suspension for new circular links in Article 23. Enforcement Decree Article 3 sets the holding company size gate at total assets of at least 500B won and subsidiary shares at 50% of total. KFTC English summaries mirror sanctions of up to 20\% surcharge on the amount involved, voting suspension from receipt of disposal order, and criminal referral of up to three years or 200M won. Those are primary texts, not commentary.
+
+The cycle that follows is why this chapter treats reform as a ledger move subject to the same capture it claims to fix. \textit{Measured, amendment history in the same artifact and in \texttt{chaebol\_reform\_nyu\_v1.json}:} the reviews start in 2006, holding company amendments follow in 2007, a strengthened circular link ban is associated with 2014, and every paragraph has a workaround drafted before the ink dries. The 2007 draft relaxation moves debt to equity from 100\% to 200\% and listed subsidiary stakes from 30\% to 20\%, the 2020 full amendment then tightens new holding companies and new subsidiaries to 30\% for listed and 50\% for unlisted, and the 2014 ban on new circular formations is the reform most cited as the cycle's hinge. Loops that were 25\% in the early 2000s are measured at 27\% in 2011 before the ban, and designation counts sit at about 92 groups, 3,301 affiliates, and 46 restricted groups in 2025. Conversion is partial and telling: LG and SK converted cleanly to holding company systems, Samsung did not, and fewer than half of 102 groups had converted in the measured window. Those instance figures are secondary until a DART filing prints them, but the rule texts they orbit are primary.
+
+The cycle closes in the present tense, which is why we kept it. \textit{Measured, trade and Korean press plus KFTC context in \texttt{redriver\_koreazinc\_v1.json}:} a live 2026 enforcement case plus a proposed rule aimed at closing the newest workaround, capped in December 2025 by a Korea Fair Trade Commission field raid on December 17 to 19 on Young Poong and its vehicle YPC. The alleged mechanism is precise: YPC was created in March as a 100\% equity vehicle, then 5.26M Korea Zinc shares, representing 25.42\% of the company, were contributed in kind to a fresh subsidiary to create a new circular link of Young Poong to Korea Zinc to Sun Metal to Young Poong. The MRFTA is meant to prohibit exactly that kind of new circular link. The raid alleges it was built anyway, through a new subsidiary, which is how you defeat an old ban with a new box.
+
+We call this the trilogy's mirror. In Texas a statute that permits splitting was used to move liabilities into a small box and leave assets in a big box, with a funding agreement bridging the two. In Seoul a statute that prohibits new circular links is allegedly bypassed by building a fresh box and contributing shares in kind to draw a new link that did not exist before the contribution. Both are boundary moves. Both choose $K$ before any creditor files. Both treat reform as the design brief for the next bypass.
+
+Whoever writes the new gates sets $g_j$ to favor themselves. That line from the ledger paper is not cynicism here. It is the mechanism of the cycle. Each reform begets the structure that bypasses it, because the gated against are the best drafters of the next gate.
+
+\section{What we now know about entity games}
+
+Three independent lines support the channel, with grades that travel honestly.
+
+First, chaebol versus non chaebol investment diverges under stress. Kim and coauthors in PMC8801770 find distinct investment behavior in COVID shock windows. That is measured group structure mediating capital allocation, not a theory about culture.
+
+Second, network topology maps the same bias at global scale. Vitali and coauthors in arXiv 1107.5728 map the bow tie of transnational corporate control and locate a core of financial institutions with disproportionate control reach. That is measured centrality where $K$ placement follows ownership centrality.
+
+Third, cross shareholding hierarchy persistence over 23 years in Japan, documented in PMC13020756, shows the invariant is sticky, not ephemeral. The fence does not dissolve on its own. It must be monitored and enforced, continuously.
+
+A schematic note, labeled analogical as promised for waterfalls, helps tie the bank panel to the boundary story. Imagine a base operating company carrying bank debt priced at group leverage of 100. Apex extracts via transfer priced service fee of 5 per period (programme notes: logo tax, i.e. brand and IP royalties booked as senior operating expense) to the holding company while operating write offs stay suppressed. Reachable $A$ for operating bank creditors falls from 80 to 55 as property migrates to a property company. $K$ falls from 80 to 55. Even with unchanged recognition $\psi$ at 0.9, the paid share $\phi$ falls from 0.80 to 0.55 for that bank class while consolidated harm barely moves. Loss bearer: the operating bank creditor who was structurally subordinated by an entity split they did not price on the coupon. That parable is schematic. The four bank VIE numbers, the BofA \$100.4B return to book, and the three Texas dismissals are not.
+
+Keep the whole set in one view and the boundary organ's status is clear. Pod thresholds at 5\% and 7.5\% are measured and binding, and pods were cut when those thresholds hit in late 2023 and again in August 2024 when six pods closed inside weeks after the yen carry snapped. Four bank VIE exposure from \$54.8B to \$0 ranks crisis severity without error. BofA's January 1, 2010 consolidation of \$100.4B, with \$69.7B of card trusts and \$30.7B of special purpose entities, is the mirror proof that a rule can repair a boundary in one morning that took years to gerrymander. The Texas Two Step trilogy, LTL in the Third Circuit, Bestwall in the Fourth, Red River's \$9B prepack with 90,000 votes denied and dismissed in March 2025 with about \$7B of reserves reversed, is three court holdings that the small box strategy does not get to choose its own forum. The chaebol cycle, from 2014 ban through 2020 tightening to a December 2025 raid over 5.26M shares and 25.42\% contributed in kind, is reform and bypass as a live loop, with primary law held in English and Korean for anyone who wants to check.
+
+Entity games look clever because the envelope has a name and a diagram. They are simple because the test never changes. Name the vehicle's reachable $A$, state the sponsor's recourse terms, compute $K$. If the answer is a small box and no promise to fill it, the rest is decoration.
+
+Timeline showed you how a loss can be made to arrive late. Entity showed you how, when it arrives, it finds a claim that is already small. The next organ to disable is the gate itself, where $\psi$ is multiplied toward zero and the paid share $\phi$ is driven down not by moving assets but by multiplying the steps a claim must survive.
+

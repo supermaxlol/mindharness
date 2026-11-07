@@ -1,0 +1,86 @@
+[
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-28_handoffs/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "dc431ff6812763d2340544511d8a0cbef30c74445a83cb36a7ea86e847b5a999",
+    "current_sha256": "0a271d65febb969cfbdaefd88a91d39ee8e4d7dc86220cd543bebcfda221b3e1",
+    "reason": "End with the difference between a surviving artifact and a surviving practice; lead into the lost Tasmanian tool."
+  },
+  {
+    "path": "chapters/03_cash_before_cost.md",
+    "prior": "development/editorial_2026-09-28_handoffs/03_cash_before_cost.md",
+    "prior_sha256": "905f2fca73a92bbee7ed8a38faa1748e73aee23b1f10bcce42ad16bc81d03888",
+    "current_sha256": "8fe1686afcfb832fa6374c520ef1e67f1c17bfc877727bf96c5b3bc3e1dae937",
+    "reason": "Plant the later creditor question without interrupting the cash timeline with a chapter announcement."
+  },
+  {
+    "path": "chapters/04_the_company_that_could_disappear.md",
+    "prior": "development/editorial_2026-09-28_handoffs/04_the_company_that_could_disappear.md",
+    "prior_sha256": "0ae3d1ef17999066782cf94a30a1bd7ddd9a6d691e5076927520a21f3002b127",
+    "current_sha256": "e0d4dda36e6d7ccbb5049d292ef9a66c17202fb2a39360deecceff357bc045d1",
+    "reason": "Create the precise question answered by the next chapter\u2019s asserted/allowed/paid opening."
+  },
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-28_handoffs/05_the_tollbooths.md",
+    "prior_sha256": "665615d87b0e23a0b2f19c4c4da389f18ed9406eb9e0028b3319525c353458bb",
+    "current_sha256": "df7af2a3d52c73928e2cd270ef5d33655644b70266435ac3fa7d1ba3f6427ebd",
+    "reason": "Move from a closed creditor account to a cost whose final bearer remains unresolved."
+  },
+  {
+    "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+    "prior": "development/editorial_2026-09-28_handoffs/06_the_cost_that_would_not_stay_buried.md",
+    "prior_sha256": "faecb6d07e8d4b56799447e59cd5eeab45769457900a13df864378196d1d2c5a",
+    "current_sha256": "d2ac41d0bd81dbd5de0f6b6afb7593a6ff98109e402e6215ff6e97029dc3e946",
+    "reason": "Carry the public-account question into treaty standing; make the next claim\u2019s route explicit."
+  },
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-28_handoffs/07_the_border_that_moved.md",
+    "prior_sha256": "2cf10e3c43fd074bead1ee2eb0268b4e831a0127c023a3773c57ea85186e9843",
+    "current_sha256": "ea4ddadc9d620dccf4bd20702a69505508fb6bd3b939325f9f832d6e58dd9e52",
+    "reason": "Retain the five-move payoff while making interpretation the earned turn into cognition."
+  },
+  {
+    "path": "chapters/08_the_story_you_complete.md",
+    "prior": "development/editorial_2026-09-28_handoffs/08_the_story_you_complete.md",
+    "prior_sha256": "0d982e3a1027a2b93911b624193a2b8556a1c9a56b190c90df23920aeef108c0",
+    "current_sha256": "02a615b925b0eb7f59b3f870bb89aa4399e1ed2cae1bbadbd520182b615703e0",
+    "reason": "Connect the interested interpreter to the machine check through the reader\u2019s trust in an account."
+  },
+  {
+    "path": "chapters/09_the_witness_that_could_not_read.md",
+    "prior": "development/editorial_2026-09-28_handoffs/09_the_witness_that_could_not_read.md",
+    "prior_sha256": "aab63a1396b92bcc942c525601ad65f00f328c6656226d8ee16a3e880affafb7",
+    "current_sha256": "35ba4bc157fced6289b8c2b5ff4f8daa67fcd6299650ed3da4997a537cc56b31",
+    "reason": "Separate failed access from failed translation and lead directly into the inherited machine word."
+  },
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-28_handoffs/10_the_language_between_machines.md",
+    "prior_sha256": "7ac94ad3516351143de8907ec8ac64ed55bb7eb0efc2b4ea147fd64af1e93e1c",
+    "current_sha256": "bcdf74a527098b7c3fac1061ef8183dd91b7975621eeddd3bb8bf88c31d0544d",
+    "reason": "Let the missing distinction propel the reader into recursive replacement without a chapter summary."
+  },
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-28_handoffs/12_is_anyone_home.md",
+    "prior_sha256": "075220ff80feaccbc01c8ced2c8edcb1ec2c5aa11f814cdf20546ad8c95ea305",
+    "current_sha256": "b87c0b2467cca4a2dc16360d3de0805ab1e88dcc93590f538f30b13a5f6dcc9c",
+    "reason": "Move from a person\u2019s blocked response channel to Hamilton\u2019s barred explanation in the next opening."
+  },
+  {
+    "path": "chapters/14_the_agency_left_to_us.md",
+    "prior": "development/editorial_2026-09-28_handoffs/14_the_agency_left_to_us.md",
+    "prior_sha256": "f50602874ebeb6612f205efa88cf42019e8739d2eeea7970fe145e4da4af6f4a",
+    "current_sha256": "cf00680295c2c12e6b6b059e64ec8fc07e57e2fb1ecc5d93c847a9e712368879",
+    "reason": "Introduce the practical dose as an available experiment rather than announce its later explanation."
+  },
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-28_handoffs/15_the_practice_of_amendment.md",
+    "prior_sha256": "50c518561a10ccf1f76e9c7221173055b8375b802e24e525e0a2ab00d2b5c1af",
+    "current_sha256": "a32459b21c2d872aa56015b2c17c58ebc19b4c7ba64c9cdc6c7e1c5fba2c0af2",
+    "reason": "Shorten the repeated failed morning, distinguish the first available source from the later missing dataset, and carry the notebook question into the insurer\u2019s letter."
+  }
+]

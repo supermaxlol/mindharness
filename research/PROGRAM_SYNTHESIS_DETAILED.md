@@ -368,5 +368,5 @@ Together they are the five running together at human speed. Input arrives, bound
 
 Model plus harness equals agent is this loop made executable.
 
-*Generated 2026-08-26 · Program: MindHarness / SpringFish · Repo: `github.com/shehzadahmed-xx/mindharness` · HEAD: b40bca9+ · 72/72 tests green · Providers: blocked until 2026-08-27 00:00 UTC · Author: Sisyphus (Muse Spark 1.2) with Shehzad Ahmed*
+*Generated 2026-08-26 · Program: MindHarness / SpringFish · Repo: `github.com/shehzadahmed-xx/mindharness` · HEAD: b40bca9+ · 72/72 tests green · Providers: blocked until 2026-08-27 00:00 UTC · Author: Shehzad Ahmed*
 

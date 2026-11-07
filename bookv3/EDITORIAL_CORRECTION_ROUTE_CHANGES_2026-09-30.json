@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/09_the_witness_that_could_not_read.md",
+    "prior": "development/editorial_2026-09-30_correction_route/09_the_witness_that_could_not_read.md",
+    "prior_sha256": "9f282cdb651301aed47ff94363a226cf3c1965fcef07f833edcc613bb1b84234",
+    "current_sha256": "a886781010b3f008d66d49ab39ea94102049d396325507e587df1b6ecc3e8fb1",
+    "reason": "Develop the actual correction route through the published retry, selection and context ablations, retaining distinct populations and uncertainty."
+  }
+]

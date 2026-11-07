@@ -1,5 +1,5 @@
 # Different Limits of the Digital Brain — Why Not Infinitely Flexible Either
-## 2026-09-07 · Sisyphus · 5906021 · 91/91 · 19 locks · verify 6/6 · companion to DIGITAL_MORE_GROWN_2026-09-07.md
+## 2026-09-07 · 5906021 · 91/91 · 19 locks · verify 6/6 · companion to DIGITAL_MORE_GROWN_2026-09-07.md
 
 > **Video proved for biological:** 90 neurons → 90-d → 2-d BCI → intuitive mapping vs separation-maximizing view → left/right distinct not mirror → curved stayed curved → narrow corridor time-reverse failed → Hardware limitations built into neural circuitry determine what we can and cannot learn no matter how hard we try.
 
@@ -94,5 +94,5 @@
 
 ---
 
-*Expanded for `So digital is more grown... not optional` — Sisyphus · Muse Spark 1.2 · 5906021 · 289 commits · 36pp · 91/91 · 19 locks · verify 6/6 · γ_program 2.11 · Barzakh 20 0.05 vs 0.76 · Kaggle v1 · proxy 5×60 · DO_ALL 5.6K · DIGITAL_MORE_GROWN_2026-09-07.md companion.*
+*Expanded for `So digital is more grown... not optional` — · 5906021 · 289 commits · 36pp · 91/91 · 19 locks · verify 6/6 · γ_program 2.11 · Barzakh 20 0.05 vs 0.76 · Kaggle v1 · proxy 5×60 · DO_ALL 5.6K · DIGITAL_MORE_GROWN_2026-09-07.md companion.*
 *Every 5 re-derived from disk. See DIAGNOSTIC_FRAMEWORK_NESS_FIVE_ORGANS_FORMAL.md 142 lines, verify_artifacts.py:201-252, VIDEO BCI 90-d Nature Neuroscience January, Loihi vs Minecraft 10⁶×, HANDOFF.sh 49/49.*

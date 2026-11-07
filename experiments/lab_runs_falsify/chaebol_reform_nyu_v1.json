@@ -1,0 +1,14 @@
+{
+ "source": "Tavily extract of NYU Law Wang MSW 20230819 (no PDF bytes; page text)",
+ "timeline": {
+  "1999": "holdco allowance",
+  "2002": "reciprocal ban >2T won",
+  "2007": "relaxation D/E 100->200%, min stakes 30->20% public / 50->40% private",
+  "loops": "25% early-2000s (Almeida 2011), 27% in 2011"
+ },
+ "unwind_mechs": [
+  "open-market sales (costly to family control)",
+  "split-off+merger into holdco/opco"
+ ],
+ "grade": "secondary extract of law-review primary"
+}

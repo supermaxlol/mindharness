@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+    "prior": "development/editorial_2026-09-30_inherited_data/11_the_ledger_that_eats_its_own_records.md",
+    "prior_sha256": "8c8725a4a8dbbfc906925ab2c5a3f9c31298a99271069f6ccbdc7128b5342c02",
+    "current_sha256": "1fb381ec68bd0296dd47a250d29e54ba540eaa7c3a8f8d194a317af599472f73",
+    "reason": "Follow replacement and accumulation through the actual training handoff, test larger replacement data, and distinguish synthetic starting records and modality-specific outcomes."
+  }
+]

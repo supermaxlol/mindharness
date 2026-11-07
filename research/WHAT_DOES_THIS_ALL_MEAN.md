@@ -164,4 +164,4 @@ Full field manual: `ALGORITHM_PROGRAMMING_BRAIN_TIKTOK_REELS.md`.
 
 ---
 
-*Generated 2026-08-30 · Program: MindHarness / SpringFish · 78 of 78 green · Papers v2 and v3 · Research 38 files plus 9 landscape updates · Repo github.com/shehzadahmed-xx/mindharness · Author Sisyphus with Shehzad Ahmed*
+*Generated 2026-08-30 · Program: MindHarness / SpringFish · 78 of 78 green · Papers v2 and v3 · Research 38 files plus 9 landscape updates · Repo github.com/shehzadahmed-xx/mindharness · Author Shehzad Ahmed*

@@ -1,0 +1,28 @@
+{
+ "paper": "Gilens & Page 2014, Testing Theories of American Politics, Perspectives on Politics 12(3):564-581, DOI 10.1017/S1537592714001595",
+ "cites": {
+  "openalex": 2703,
+  "scholar": 4023
+ },
+ "fulltext": "HELD: PSE mirror PDF 531K/18pp, pdftotext 1074 lines; Model-4 std coef + near-zero nonsignificant + Fig1 0.3/0.18/0.45 verified verbatim in body text.",
+ "design": "1,779 policy issues 1981-2002, single multivariate model testing 4 traditions",
+ "finding": "Economic elites + business interest groups substantial independent impacts; average citizens + mass groups little/no independent influence. Supports Economic-Elite Domination + Biased Pluralism; not Majoritarian Electoral Democracy/Pluralism.",
+ "paper_map": "Average-citizen preference -> policy ~= 0 independent effect = standing gate g4->0 for the many; business-group capture = priority manipulation at the sovereign layer. Upgrades sovereign section from analogical illustrations to measured political-science mechanism.",
+ "numbers": {
+  "N": 1779,
+  "years": "1981-2002",
+  "std_coef_model4": {
+   "citizens": 0.01,
+   "elites": 0.21,
+   "groups": 0.16
+  },
+  "fig1_citizens_flat": 0.3,
+  "fig1_elites_low": 0.18,
+  "fig1_elites_high": 0.45,
+  "fig1_groups_low": 0.16,
+  "fig1_groups_high": 0.47,
+  "netgroup_citizen_corr": 0.04,
+  "citizens_effect": "non-significant near-zero, Majoritarian Electoral Democracy decisively rejected"
+ },
+ "grade": "measured (full primary text held)"
+}

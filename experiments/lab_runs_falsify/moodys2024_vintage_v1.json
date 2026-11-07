@@ -1,0 +1,24 @@
+{
+ "source": "Moodys 2024 Annual Default Study via user-login Scribd download (2.5M PDF held)",
+ "exhibit7_1983_2023_issuer_weighted": {
+  "1st Lien Bank Loan": 65.0,
+  "2nd Lien Bank Loan": 34.4,
+  "Sr Unsecured Bank Loan": 46.3,
+  "1st Lien Bond": 54.8,
+  "2nd Lien Bond": 43.4,
+  "Sr Unsecured Bond": 37.6,
+  "Sr Subordinated Bond": 31.1,
+  "Subordinated Bond": 31.7,
+  "Jr Subordinated Bond": 21.5
+ },
+ "2023_detail": {
+  "1st_lien_loan": 59.6,
+  "sr_unsec_bond": 33.4
+ },
+ "narrative": [
+  "priority->recovery holds four decades",
+  "2023 first-lien low on weaker credit + loan-only structures + 40% re-defaulters",
+  "covenant-lite asset-stripping/priming diminishes secured recoveries"
+ ],
+ "grade": "measured primary (full PDF held)"
+}

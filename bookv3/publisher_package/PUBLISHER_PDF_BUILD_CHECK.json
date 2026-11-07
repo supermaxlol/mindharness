@@ -1,0 +1,20 @@
+{
+  "pages": 13,
+  "pdf_sha256": "bbd5e610fbef9e27b79fb74197545262cc78f34c46aa6f7805939e18ce6f22e4",
+  "source_files": {
+    "PROPOSAL.md": "859986f7a6c3ac446c6b046837318efb49246db1282148b4075d38ffb1d339a3",
+    "SYNOPSIS.md": "27bea54c18fdefa387a482ec28fa3abd1f8de3a4624d106793157abb0397ad97",
+    "QUERY_LETTER.md": "2eb8fe34606eb38da9c79b6292efbb63d3a59bc7b623ca84b4d5afd21d1382e4"
+  },
+  "manuscript_sha256": "e3fe3d83ca295aca257ae0e9e79511180ba8d2e4a2d93cbac846151002b5928e",
+  "paragraphs_verified": 112,
+  "contents_pages": {
+    "Book proposal": 3,
+    "Full synopsis": 10,
+    "Query letter": 13
+  },
+  "status": "Verified author-review publisher package",
+  "format": "US Letter, embedded Georgia/Arial fonts, linked contents and publisher sources",
+  "visual_inspection": "All 13 pages inspected in overview; query, final comparison and author pages inspected at full resolution",
+  "submission_status": "Not sent; author credentials, platform and contact details pending"
+}

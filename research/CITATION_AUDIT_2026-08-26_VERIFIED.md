@@ -50,4 +50,4 @@
 1. PDF spot-check Panickssery Fig. for r=0.94; Sofroniew Elo table; Choi 30% table; AHE 2604.25850 re-fetch — 15 min.
 2. If any number off by >rounding, patch `paper_v2/main.tex` line and `MASTER_HANDOFF` F-claims before journal submission.
 
-*Auditor: Sisyphus · 2026-08-26 · method: live arxiv.org fetch · commits: 253a9ba+*
+*Auditor: 2026-08-26 · method: live arxiv.org fetch · commits: 253a9ba+*

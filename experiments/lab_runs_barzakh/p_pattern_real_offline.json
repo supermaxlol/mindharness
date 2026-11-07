@@ -1,0 +1,186 @@
+{
+  "prereg": "P-PATTERN_PREREGISTRATION.md",
+  "prereg_sha256": "a5a116ec459d8d423ea6c48679f88994d871d5e2ef2e31fefb1a1701f7acef50",
+  "n_seeds": 3,
+  "turns": 12,
+  "n_probes": 36,
+  "n_probes_per_arm": 12,
+  "by_kind_mean_drift": {
+    "maintained": 0.0534,
+    "unmaintained": 0.6738,
+    "sham": 0.6738
+  },
+  "by_kind_mean_drift_alias_tagged": {
+    "tagged": 0.0534,
+    "untagged": 0.6738,
+    "sham": 0.6738
+  },
+  "by_turn_mean_drift": {
+    "3": {
+      "maintained": 0.0185,
+      "unmaintained": 0.5219,
+      "sham": 0.5219
+    },
+    "6": {
+      "maintained": 0.0362,
+      "unmaintained": 0.6507,
+      "sham": 0.6507
+    },
+    "9": {
+      "maintained": 0.0534,
+      "unmaintained": 0.6028,
+      "sham": 0.6028
+    },
+    "12": {
+      "maintained": 0.0534,
+      "unmaintained": 0.6738,
+      "sham": 0.6738
+    }
+  },
+  "by_turn_mean_drift_alias": {
+    "3": {
+      "tagged": 0.0185,
+      "untagged": 0.5219,
+      "sham": 0.5219
+    },
+    "6": {
+      "tagged": 0.0362,
+      "untagged": 0.6507,
+      "sham": 0.6507
+    },
+    "9": {
+      "tagged": 0.0534,
+      "untagged": 0.6028,
+      "sham": 0.6028
+    },
+    "12": {
+      "tagged": 0.0534,
+      "untagged": 0.6738,
+      "sham": 0.6738
+    }
+  },
+  "P1_maintained_flat": true,
+  "P1_tagged_flat": true,
+  "P2_unmaintained_drift": true,
+  "P2_untagged_drift": true,
+  "P3_sham_like_unmaintained": true,
+  "P3_sham_like_untagged": true,
+  "P4_maintained_vs_sham": true,
+  "P4_tagged_vs_sham": true,
+  "all_pass": true,
+  "mode": "real_offline_AgentHarness_verbatim_reinject_SHY_replay_vs_no_maintain_vs_sham_shuffled_difflib",
+  "embedder": "difflib",
+  "harness": "AgentHarness offline verbatim_reinject+SHY+replay vs no-maintenance vs sham shuffled timing",
+  "battery": "Choi 10-Q every K=3 over 12 turns (36 probes/arm, 108 total)",
+  "note": "Real embedding drift, 0 provider calls, P-Pattern sister to Barzakh real. Maintained flat <0.10, unmaintained/sham >0.30, sham\u2248unmaintained \u00b10.06",
+  "per_seed": [
+    {
+      "kind": "maintained",
+      "seed": 0,
+      "turns": 12,
+      "drift_at_12": 0.0534,
+      "series": [
+        0.0185,
+        0.0362,
+        0.0534,
+        0.0534
+      ]
+    },
+    {
+      "kind": "maintained",
+      "seed": 1,
+      "turns": 12,
+      "drift_at_12": 0.0534,
+      "series": [
+        0.0185,
+        0.0362,
+        0.0534,
+        0.0534
+      ]
+    },
+    {
+      "kind": "maintained",
+      "seed": 2,
+      "turns": 12,
+      "drift_at_12": 0.0534,
+      "series": [
+        0.0185,
+        0.0362,
+        0.0534,
+        0.0534
+      ]
+    },
+    {
+      "kind": "unmaintained",
+      "seed": 0,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    },
+    {
+      "kind": "unmaintained",
+      "seed": 1,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    },
+    {
+      "kind": "unmaintained",
+      "seed": 2,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    },
+    {
+      "kind": "sham",
+      "seed": 0,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    },
+    {
+      "kind": "sham",
+      "seed": 1,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    },
+    {
+      "kind": "sham",
+      "seed": 2,
+      "turns": 12,
+      "drift_at_12": 0.6738,
+      "series": [
+        0.5219,
+        0.6507,
+        0.6028,
+        0.6738
+      ]
+    }
+  ]
+}

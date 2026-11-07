@@ -1,0 +1,19 @@
+{
+ "source": "Tavily extract of NBER w33435 PDF (curl returned 0 bytes; extract full text held in session)",
+ "single_deal": {
+  "85M_payout_370pct_ROE": "Vardi 2013, cited in paper"
+ },
+ "target_outcomes": {
+  "TVM_recap": 3.6,
+  "TVM_avg": 2.7,
+  "gross_profit_change": "+105% vs -18%",
+  "debt_ebitda": "recap +67pp vs control -34pp",
+  "distress": "12.9% recap vs 9.8% control"
+ },
+ "contested_cases": [
+  "Buffets/Caxton-Iseman (insolvent path claim)",
+  "KB Toys/Bain 2012 (recap rendered insolvent claim)",
+  "Cerberus/Steward sale"
+ ],
+ "grade": "secondary extract of primary WP"
+}

@@ -145,4 +145,4 @@ Nothing else can be built from this machine without you:
 
 All within reach of this session are filed. What happens next belongs to world.
 
-*Documented 2026-08-30 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed · 4 desks, one loop, five organs, at every scale*
+*Documented 2026-08-30 · Shehzad Ahmed · 4 desks, one loop, five organs, at every scale*

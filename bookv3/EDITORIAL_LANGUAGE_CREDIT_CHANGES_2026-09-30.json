@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-30_language_credit/10_the_language_between_machines.md",
+    "prior_sha256": "f8847568e9196dfe4c33317cdc83f3d592509337106a20635902c30e9e618ac8",
+    "current_sha256": "e2a1c4dc5b6bc3cebd928c13c1f58124d60a83915bff89d6f78c00c128194b5d",
+    "reason": "Make the success flag, context-dependent credit and inherited vocabulary selection visible, distinguishing prompt examples from outcome records."
+  }
+]

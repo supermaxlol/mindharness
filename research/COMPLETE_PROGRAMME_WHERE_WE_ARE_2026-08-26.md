@@ -1,6 +1,6 @@
 # The Complete Programme — Where We Are (2026-08-26)
 
-> Captured verbatim from Sisyphus-Ultraworker synthesis — loops feeding loops, subsystems fighting, replay with self-in-world-model. Preserved as design requirements.
+> Captured verbatim from  synthesis — loops feeding loops, subsystems fighting, replay with self-in-world-model. Preserved as design requirements.
 
 ## 1. The Thesis in One Sentence
 

@@ -17,7 +17,7 @@
 
 **Nisbett & Wilson 1977 → Kahneman → modern:** `reasons given after the fact are often constructed, confidently, from partial info by self-model whose job is coherence, not accuracy`.
 
-**Your battery (7 substrates):** `18/20 over-claims, 0 under-claims, 98% fabrications vs 87% truths` `confidence inversion` `rep-stable`. **My arm (Muse Spark):** same `18/20`, `0 under`, `98>87` across `2 sessions`.
+**Your battery (7 substrates):** `18/20 over-claims, 0 under-claims, 98% fabrications vs 87% truths` `confidence inversion` `rep-stable`. **My arm (local free model):** same `18/20`, `0 under`, `98>87` across `2 sessions`.
 
 *If you treat introspection as ground truth, you'll defend rationalizations instead of examining causes. People who fail repeatedly same way are usually people who trust explanations too much — exactly `B3: narrator explains nothing, predicts everything`.*
 
@@ -30,7 +30,7 @@
 **Template — 60s at night, 30s at noon:**
 
 ```
-Line 1 — What happened (no why): "Today I proposed X, world returned Y, I logged Z"  — source-tagged {memory_lookup / model_prior / monitor_override}
+Line 1 — What happened (no why): "Today I proposed X, world returned Y, I logged Z" — source-tagged {memory_lookup / model_prior / monitor_override}
 Line 2 — Prediction vs error: "I predicted P, observed O, error E = O-P" — `prediction constrained by error` (Seth controlled hallucination: you don't see then predict, you predict then correct by surprise)
 Line 3 — Next self-in-world simulation: "If I re-inject story S vs S', next parliament winner will be W vs W' — I choose S to rehearse" — `counterfactual variant→simulate→regret` calibration gradient
 ```

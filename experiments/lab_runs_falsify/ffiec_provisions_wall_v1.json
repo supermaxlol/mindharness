@@ -1,0 +1,17 @@
+{
+ "source": "FFIEC CDR bulk XBRL via ffiec-data-collector 2.0.0rc2 (py3.13; py3.14 expat broken), quarters 2009Q4 (7321 banks) + 2026Q2 (4297 banks)",
+ "aggregates_USD_B": {
+  "2009Q4": {
+   "ALLL": 43.7,
+   "loans": 6310.0,
+   "provision_flow": 233.6
+  },
+  "2026Q2": {
+   "ALLL": 59.2,
+   "loans": 13274.7,
+   "provision_flow": 40.7
+  }
+ },
+ "reading": "Provision-flow wall: 2009 recognizes $233.6B (5.7x the 2026 flow) while ALLL stock only $43.7B \u2014 Rt spikes at the wall, St accumulated before it. ALLL/loans: 0.69% (2009) vs 0.45% (2026, CECL-era stock). NPL denominator needs full RC-N line mapping across MDRM vintages \u2014 deferred, FRED charge-offs + WB NPL stand in.",
+ "grade": "measured aggregates (regex over instance docs); NPL coverage ratio open"
+}

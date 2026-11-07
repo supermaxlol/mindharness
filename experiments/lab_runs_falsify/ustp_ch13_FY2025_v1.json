@@ -1,0 +1,13 @@
+{
+ "FY2025_Ch13_USTP_disbursements_B": {
+  "ONGOING MORTGAGE PYMTS": 0.6693,
+  "MORTGAGE ARREARAGES": 0.3355,
+  "ALL OTHER SECURED DEBT": 1.1016,
+  "ONGOING DOMESTIC SUPPORT PYMTS.": 0.0066,
+  "ALL OTHER PRIORITY DEBT": 0.2438,
+  "UNSECURED CREDITORS": 1.0056,
+  "TOTAL TRUST FUND DISBURS.": 4.3591
+ },
+ "n_trustees": 161,
+ "grade": "measured adjudicated disbursements, national Ch13"
+}

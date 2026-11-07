@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces What the first academic census finds when a firm is dividend recapped, NBER w33435 as extracted}}{37}{table.4.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Four bank $K$ placement panel, dollars, from XBRL company facts and 10-K and 10-Q prose}}{44}{table.5.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Vintage ladder, complete: 1920--2004 means (Exhibit 27, $N=2{,}443$) and 1983--2023 extension (2024 Annual, PDF held). Monotone in seniority; loan beats bond by lien.}}{54}{table.6.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces NPL stagger and provision-coverage mirror: periphery thinnest where walls tallest (WB NPL \%, IMF coverage \%). Full panel \texttt {imf\_fsi\_panel\_countries\_v1.json}, WB panel \texttt {wb\_npl\_panel.json}.}}{62}{table.7.1}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Vintage ladder reminder and defaulted-debt wall: where $\phi $ bands sit and how much stock cleared through them. Ladder from \texttt {moodys\_vintage\_recovery\_v1.json} and \texttt {moodys2024\_vintage\_v1.json}; wall from \texttt {sp\_2025\_annual\_extract\_v1.md}.}}{65}{table.7.2}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Two finance-side ISDS instances: jurisdiction plus outcome, with dissent flagged}}{73}{table.8.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces CBT edges: each edge has a distinct failure and fix (defusion = muraqaba, ladder recruits the phosphatase/LTD brake)}}{85}{table.9.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/08_the_story_you_complete.md",
+    "prior": "development/editorial_2026-09-29_story_witness/08_the_story_you_complete.md",
+    "prior_sha256": "02a615b925b0eb7f59b3f870bb89aa4399e1ed2cae1bbadbd520182b615703e0",
+    "current_sha256": "31ad3f3556b68858e3cccf5d3a0439b99d8900c5d5b62237d1041217b41cf386",
+    "reason": "Story-to-reader mechanism, training trace, and verification standard"
+  },
+  {
+    "path": "chapters/09_the_witness_that_could_not_read.md",
+    "prior": "development/editorial_2026-09-29_story_witness/09_the_witness_that_could_not_read.md",
+    "prior_sha256": "35ba4bc157fced6289b8c2b5ff4f8daa67fcd6299650ed3da4997a537cc56b31",
+    "current_sha256": "9f282cdb651301aed47ff94363a226cf3c1965fcef07f833edcc613bb1b84234",
+    "reason": "Empty-ledger failed walk, confirmatory positive transfer, monitoring units, and effective correction"
+  }
+]

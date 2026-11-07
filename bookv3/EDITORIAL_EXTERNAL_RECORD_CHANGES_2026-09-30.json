@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/02_the_map_room.md",
+    "prior": "development/editorial_2026-09-30_external_record/02_the_map_room.md",
+    "prior_sha256": "5c365ea5f4496fcbeadbe6beb7a0f215d68352ed5a0816e42e68c77f096bb8dc",
+    "current_sha256": "2e490c344bd77bdfdb386043bde5e4ec4a47d2c0f3dfd8f72a8a2065495ec77c",
+    "reason": "Added Walker and Fay’s controlled attention-filtering and external-record result after the paper-plane failure; final wording aligns the workshop anchor with shown scores and disappearing designs."
+  }
+]

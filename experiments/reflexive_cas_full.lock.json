@@ -1,0 +1,41 @@
+{
+  "lock_id": "b06ce867",
+  "lock_string": "b06ce867|ReflexiveCAS-Full|Mesa+cadCAD+PySD+AgentsJL|M0-4+sham|N1000->10000|T120|n12|2026-09-06",
+  "sha256": "d84ad8b9f44b5be170c03b079208f1c48a4fd100898e4b08e8e9dcbae5d07ff5",
+  "date": "2026-09-06",
+  "models": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4_intact",
+    "M4_sham"
+  ],
+  "N": 1000,
+  "N_scaling": 10000,
+  "T": 120,
+  "dt": 1,
+  "n_seeds": 12,
+  "seeds": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "sham_protocol": "shuffle_b_each_step_permutation_before_mean_b_minus_i",
+  "thresholds": {
+    "tipping": 1.5,
+    "hurst_persist": 0.6,
+    "hurst_antipersist": 0.45
+  },
+  "env": "x_{t+1}=0.95*x+0.05*mean(a)+N(0,0.1)",
+  "obs": "s_i=x+N(0,0.5)"
+}

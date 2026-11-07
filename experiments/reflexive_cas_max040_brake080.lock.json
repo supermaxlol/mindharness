@@ -1,0 +1,58 @@
+{
+  "lock_id": "max040-brake080",
+  "lock_string": "max040-brake080|0.40x2000-brake0.80|N1000|5x3|n12|2026-09-06",
+  "sha256": "53e3511f7090d1f1a8da51363425350d4787271a8210e45f786f14222ac1a44c",
+  "date": "2026-09-06",
+  "coupling": 0.4,
+  "brake_params": {
+    "k_halved": 0.06,
+    "H_floor_halved": 0.07,
+    "Gamma_formula": "0.06*ln(1+n)+0.07",
+    "x_coeff_brake080": 0.7,
+    "x_coeff_brake_wiped": 0.8,
+    "note": "0.80*original halved brake; 0.40 loan vs 0.70 damping"
+  },
+  "env": "x_{t+1}=0.60*x+0.40*mean(a)+N(0,0.1)",
+  "obs": "s_i=x+N(0,0.5) intact; watcher wiped s_i=N(0,0.5)",
+  "belief": "b_i=0.5*s+0.3*mean(b_-i)+0.2*b_prev (M4)",
+  "action": "a_i=0.5*b_i",
+  "N": 1000,
+  "N_scaling": 10000,
+  "T": 2000,
+  "dt": 1,
+  "n_seeds": 12,
+  "seeds": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "organs": [
+    "brake",
+    "watcher",
+    "memory",
+    "peer",
+    "coupling"
+  ],
+  "modes": [
+    "intact",
+    "wiped",
+    "shuffled"
+  ],
+  "conditions": 15,
+  "sham_protocol": "permutation shuffle of relevant vector before aggregation; peer sham shuffles b each step before mean(b_-i)",
+  "thresholds": {
+    "tipping": 1.5,
+    "hurst_persist": 0.6,
+    "hurst_antipersist": 0.45
+  },
+  "prediction_lock_note": "SHA printed BEFORE first x(0) trajectory"
+}

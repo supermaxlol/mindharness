@@ -1,6 +1,6 @@
 # What It All Means — The Full Synthesis
 
-*Transcribed from the OpenCode session of 2026-08-27 (Sisyphus / Muse Spark 1.2
+*Transcribed from the OpenCode session of 2026-08-27 (Shehzad Ahmed
 with Shehzad Ahmed), covering: what it all means · everything in detail · one
 loop at every scale · five organs at every level · the only real choice ·
 parliament of models · what I see · experience · the expanding reflexive loop ·

@@ -1,0 +1,2155 @@
+                                       PRECEDENTIAL
+
+       UNITED STATES COURT OF APPEALS
+            FOR THE THIRD CIRCUIT
+               ________________
+
+   Nos. 22-2003, 22-2004, 22-2005, 22-2006, 22-0007,
+          22-2008, 22-2009, 22-2010, 22-2011
+                  ________________
+
+          In re: LTL MANAGEMENT, LLC
+                                  Debtor
+
+             LTL MANAGEMENT, LLC
+
+                          v.
+
+    THOSE PARTIES LISTED ON APPENDIX A TO
+                 COMPLAINT
+       AND JOHN AND JANE DOES 1-1000
+
+  *OFFICIAL COMMITTEE OF TALC CLAIMANTS,
+  Appellant in case Nos. 22-2003, 22-2004 and 22-2005
+
+  *OFFICIAL COMMITTEE OF TALC CLAIMANTS;
+                    PATRICIA COOK;
+EVAN PLOTKIN; RANDY DEROUEN; KRISTIE DOYLE,
+   as estate representative of Dan Doyle; KATHERINE
+                       TOLLEFSON;
+ TONYA WHETSEL, as estate representative of Brandon
+                           Wetsel;
+  GIOVANNI SOSA; JAN DEBORAH MICHELSON-
+                          BOYLE,
+    Appellants in case Nos. 22-2006, 22-2007 and 22-2008
+
+ARNOLD & ITKIN LLP, on behalf of certain personal injury
+      claimants represented by Arnold & Itkin,
+            Appellant in case No. 22-2009
+
+ AYLSTOCK WITKIN KREIS & OVERHOLTZ PLLC, on
+                    behalf of more
+      than three thousand holders of talc claims,
+       Appellant in case Nos. 22-2010 and 22-2011
+
+     *(Amended per Court’s Order dated 06/10/2022)
+
+
+
+     Appeal from the United States Bankruptcy Court
+               for the District of New Jersey
+     (District Court No.: 21-bk-30589; 21-ap-03032)
+     Bankruptcy Judge: Honorable Michael B. Kaplan
+
+
+
+               Argued September 19, 2022
+
+   Before AMBRO, RESTREPO, and FUENTES, Circuit
+                     Judges
+
+            (Opinion filed: January 30, 2023)
+
+
+
+
+                           2
+Brad J. Axelrod
+Skadden Arps Slate Meagher & Flom
+One Rodney Square
+920 North King Street, 7th Floor
+Wilmington, DE 19801
+
+Caitlin K. Cahow
+Brad B. Erens
+Jones Day
+110 North Wacker Drive
+Suite 4800
+Chicago, IL 60606
+
+Paul R. DeFilippo
+Wollmuth, Maher & Deutsch
+500 Fifth Avenue
+12th Floor
+New York, NY 10110
+
+Kristen R. Fournier
+King & Spalding
+1185 Avenue of the Americas
+New York, NY 10036
+
+Kathleen A. Frazier
+Shook, Hardy & Bacon
+600 Travis Street
+JP Morgan Chase Tower, Suite 3400
+Houston, TX 77002
+
+
+
+
+                            3
+Gregory M. Gordon
+Daniel B. Prieto
+Mark W. Rasmussen
+Amanda Rush
+Jones Day
+2727 North Harwood Street
+Suite 600
+Dallas, TX 75201
+
+Robert W. Hamilton
+Jones Day
+901 Lakeside Avenue
+North Point
+Cleveland, OH 44114
+
+James M. Jones
+Jones Day
+500 Grant Street
+Suite 4500
+Pittsburgh, PA 15219
+
+Neal K. Katyal (Argued)
+Sean M. Marotta
+Hogan Lovells US
+555 Thirteenth Street, N.W.
+Columbia Square
+Washington, DC 20004
+
+
+
+
+                              4
+Glenn M. Kurtz
+Jessica C. Lauria
+White & Case
+1221 Avenue of the Americas
+New York, NY 10020
+
+James N. Lawlor
+Joseph F. Pacelli
+Wollmuth, Maher & Deutsch
+500 Fifth Avenue
+12th Floor
+New York, NY 10110
+
+C. Kevin Marshall
+Jones Day
+51 Louisiana Avenue, N. W.
+Washington, DC 20001
+
+John R. Miller, Jr.
+Miller, Kistler, Campbell, Miller, Williams & Benson
+124 North Allegheny Street
+Bellefonte, PA 16823
+
+Matthew L. Tomsic
+Rayburn, Cooper, Durham
+227 West Trade Street
+Suite 1200
+Charlotte, NC 28202
+
+
+
+
+                             5
+Lyndon M. Treeter
+Wollmuth, Maher & Deutsch
+12th Floor
+New York, NY 10110
+
+            Counsel for Debtor-Appellee
+
+Melanie L. Cyganowski
+Adam C. Silverstein
+Otterbourg
+230 Park Avenue
+29th Floor
+New York, NY 10169
+
+Angelo J. Genova
+Genova Burns
+494 Broad Street
+Newark, NJ 07102
+
+Jeffrey A. Lamken (Argued)
+MoloLamken
+600 New Hampshire Avenue, N. W.
+The Watergate
+Washington, DC 20037
+
+Jonathan S. Massey
+Massey & Gail
+1000 Maine Avenue, S. W.
+Suite 450
+Washington, DC 20024
+
+
+
+
+                            6
+David J. Molton
+Michael S. Winograd
+Brown Rudnick
+7 Times Square
+47th Floor
+New York, NY 10036
+
+                     Counsel for Petitioner-Appellant Official
+                     Committee of Talc Claimants
+
+Matthew I.W. Baker
+Genova Burns
+494 Broad Street
+Newark, NJ 07102
+
+Sunni P. Beville
+Shari I. Dwoskin
+Jeffrey L. Jonas
+Brown Rudnick
+One Financial Center
+Boston, MA 02111
+
+Donald W. Clarke
+Wasserman, Jurista & Stolz
+110 Allen Road
+Suite 304
+Basking Ridge, NJ 07920
+
+Daniel Stolz
+Genova Burns LLC
+110 Allen Road
+Suite 304
+Basking Ridge, NJ 07920
+
+
+
+
+                              7
+Jennifer S. Feeney
+Otterbourg
+230 Park Avenue
+29th Floor
+New York, NY 10169
+
+Leonard M. Parkins
+Charles M. Rubio
+Parkins & Rubio
+700 Milam Street
+Pennzoil Place, Suite 1300
+Houston, TX 77002
+
+Robert J. Stark
+Brown Rudnick
+7 Times Square
+47th Floor
+New York, New York 10036
+
+            Counsel for Petitioner Official Committee of
+            Talc Claimants I
+
+Ellen Relkin
+Weitz & Luxemberg
+700 Broadway
+New York, NY 10003
+
+            Counsel for Petitioner Patricia Cook
+
+Deepak Gupta
+Jonathan E. Taylor
+Matthew W.H. Wessler
+Gupta Wessler
+
+
+
+
+                             8
+2001 K Street, N.W.
+Suite 850 North
+Washington, D.C. 20006
+
+      Counsel for Petitioners Evan Plotkin, Katherine
+      Tollefson, Giovanni Sosa, Jan Deborah Michelson-
+      Boyle
+
+Jerome Block
+Amber Long
+Moshe Maimon
+Levy Konigsberg
+605 Third Avenue
+33rd Foor
+New York, NY 10158
+
+      Counsel for Petitioner Randy Derouen
+
+John M. August
+Saiber
+18 Columbia Turnpike
+Suite 200
+Florham Park, NJ 07932
+
+      Counsel for Petitioner Kristie Doyle, as estate
+      representative of Dan Doyle
+
+
+
+
+                              9
+Suzanne Ratcliffe
+Clay Thompson
+Maune Raichle Hartley French & Mudd
+150 West 30th Street
+Suite 201
+New York, NY 10001
+
+      Counsel for Petitioner Katherine Tollefson
+
+David A. Chandler
+Karst & von Oiste
+505 Main Street
+Port Jefferson, NY 11777
+
+      Counsel for Petitioner Tonya Whetsel
+
+Jeffrey M. Dine
+Karen B. Dine
+Pachulski Stang Ziehl & Jones
+780 Third Avenue
+34th Floor
+New York, NY 10017
+
+Matthew Drecun
+David C. Frederick (Argued)
+Ariela Migdal
+Gregory G. Rapawy
+Kellogg Hansen Todd Figel & Frederick
+1615 M Street, N.W.
+Sumner Square, Suite 400
+Washington, DC 20036
+
+
+
+
+                            10
+Laura D. Jones
+Peter J. Keane
+Colin R. Robinson
+Pachulski Stang Ziehl & Jones
+919 North Market Street
+P. O. Box 8705, 17th Floor
+Wilmington, DE 19801
+
+Isaac M. Pachulski
+Pachulski Stang Ziehl & Jones
+10100 Santa Monica Boulevard
+Suite 2300
+Los Angeles, CA 00067
+
+            Counsel for Respondent Arnold & Itkin,
+            LLP
+
+Samuel M. Kidder
+Nir Maoz
+Robert J. Pfister
+Michael L. Tuchin
+Klee, Tuchin, Bogdanoff & Stern
+1801 Century Park East
+26th Floor
+Los Angeles, CA 90067
+
+
+
+
+                           11
+Paul J. Winterhalter
+Offit Kurman
+99 Wood Avenue South
+Suite 302
+Iselin, NJ 08830
+
+            Counsel for Respondent Aylstock, Witkin,
+            Kreis & Overholtz, PLLC
+
+Allen J. Underwood, II
+Lite, DePalma, Greenberg & Afanador
+570 Broad Street
+Suite 1201
+Newark, NJ 07102
+
+            Counsel for Respondent DeSanto Canadian
+            Class Action Creditors
+
+Mark Tsukerman
+Cole Schotz
+1325 Avenue of the Americas
+19th Floor
+New York, NY 10019
+Felice C. Yudkin
+Cole Schotz
+25 Main Street
+Court Plaza North, P.O. Box 800
+Hackensack, NJ 07601
+
+            Counsel for Respondent Claimants
+            Represented by Barnes Law Group
+
+
+
+
+                          12
+Arthur J. Abramowitz
+Alan I. Moldoff
+Ross J. Switkes
+Sherman, Silverstein, Kohl, Rose & Podolsky
+308 Harper Drive
+Suite 200, Eastgate Corporate Center
+Moorestown, NJ 08057
+
+Kevin W. Barrett
+Maigreade B. Burrus
+Bailey & Glasser
+209 Capitol Street
+Charleston, WV 25301
+
+Thomas B. Bennett
+Brian A. Glasser
+Bailey & Glasser
+1055 Thomas Jefferson Street, N.W.
+Suite 540
+Washington, DC 20007
+
+Michael Klein
+Evan M. Lazerowitz
+Lauren A. Reichardt
+Erica J. Richards
+Cullen D. Speckhart
+Cooley
+55 Hudson Yards
+New York, NY 10001
+
+
+
+
+                           13
+James C. Lanik
+Jennifer B. Lyday
+Thomas W. Waldrep
+Waldrep, Wall, Babcock & Bailey
+370 Knollwood Street
+Suite 600
+Winston-Salem, NC 27103
+
+Kevin L. Sink
+Waldrep, Wall, Babcock & Bailey
+3600 Glenwood Avenue
+Suite 210
+Raleigh, NC 27612
+
+             Counsel for Respondent Official Committee
+             of Talc Claimants II
+
+Lauren Bielskie
+Jeffrey M. Sponder
+Office of United States Trustee
+1085 Raymond Boulevard
+One Newark Center, Suite 2100
+Newark, NJ 07102
+Sean Janda (Argued)
+United States Department of Justice
+Appellate Section
+Room 720
+950 Pennsylvania Avenue, N. W.
+Washington, D. C. 20530
+
+             Counsel for Amicus Appellant United States
+             Trustee
+
+
+
+
+                             14
+Cory L. Andrews
+John M. Masslon, II
+Washington Legal Foundation
+2009 Massachusetts Avenue, N. W.
+Washington, D. C. 20036
+
+             Counsel for Amicus Appellee Washington
+             Legal Foundation
+
+R. Craig Martin
+DLA Piper
+1202 North Market Street
+Suite 2100
+Wilmington, DE 19801
+
+Ilana H. Eisenstein
+DLA Piper
+1650 Market Street
+One Liberty Place, Suite 5000
+Philadelphia, PA 19103
+
+             Counsel for Amici Appellees United States
+             Chamber of Commerce and American Tort
+             Reform Association
+
+Natalie D. Ramsey
+Robinson & Cole
+1650 Market Street
+One Liberty Place, Suite 3030
+Philadelphia, PA 19103
+
+             Counsel for Amicus Appellant Erwin
+             Chemerinsky
+
+
+
+
+                            15
+Jaime A. Santos
+Benjamin T. Hayes
+Goodwin Procter
+1900 N. Street, N. W.
+Washington, D. C. 20036
+
+            Counsel for Amici Appellees National
+            Association of Manufacturers and Product
+            Liability Advisory Council, Inc.
+
+Sean E. O’Donnell
+Stephen B. Selbst
+Steven B. Smith
+Herrick Feinstein
+2 Park Avenue
+New York, NY 10016
+
+            Counsel for Amici Appellants Kenneth Ayotte,
+            Susan Block-Lieb, Jared Ellias, Bruce A.
+            Markell, Yesha Yadav, Robert K. Rasmussen
+            and Diane Lourdes Dick
+
+Peter M. Friedman
+O’Melveny & Myers
+1625 Eye Street, N. W.
+Washington, D. C. 2006
+
+Emma L. Persson
+Laura L. Smith, Esq.
+O’Melveny & Myers
+2501 North Harwood Street
+Suite 1700
+Dallas, TX 75201
+
+
+
+
+                            16
+Daniel S. Shamah
+O'Melveny & Myers
+7 Times Square
+Time Square Tower, 33rd Floor
+New York, NY 10036
+
+            Counsel for Amici Appellees Samir Parikh,
+            Anthony Casey, Joshua C. Macey and Edward
+            Morrison
+
+Glen Chappell
+Allison W. Parr
+Hassan A. Zavareei
+Tycko & Zavareei
+2000 Pennsylvania Avenue, N.W.
+Suite 1010
+Washington, DC 20006
+
+            Counsel for Amicus Appellant Public
+            Justice
+
+Jeffrey R. White
+American Association for Justice
+777 6th Street, N.W.
+Suite 200
+Washington, DC 20001
+
+            Counsel for Amicus Appellant American
+            Association of Justice
+
+
+
+
+                           17
+Thomas A. Pitta
+Emmet, Marvin & Martin
+120 Broadway
+32nd Floor
+New York, NY 10005
+
+             Counsel for Amici Appellants Maria Glover,
+             Andrew Bradt, Brooke Coleman, Robin Effron,
+             D. Theodore Rave, Alan M. Trammell, and
+             Adam Zimmerman
+
+
+
+                    _________________
+
+                OPINION OF THE COURT
+                  __________________
+
+
+AMBRO, Circuit Judge
+
+       Johnson & Johnson Consumer Inc. (“Old Consumer”),
+a wholly owned subsidiary of Johnson & Johnson (“J&J”), sold
+healthcare products with iconic names branded on consumers’
+consciousness—Band-Aid, Tylenol, Aveeno, and Listerine, to
+list but a few. It also produced Johnson’s Baby Powder,
+equally recognizable for well over a century as a skincare
+product. Its base was talc, a mineral mined and milled into a
+fine powder. Concerns that the talc contained traces of
+asbestos spawned in recent years a torrent of lawsuits against
+Old Consumer and J&J alleging Johnson’s Baby Powder has
+caused ovarian cancer and mesothelioma. Some of those suits
+
+
+
+
+                             18
+succeeded in verdicts, some failed (outright or on appeal), and
+others settled. But more followed into the tens of thousands.
+
+         With mounting payouts and litigation costs, Old
+Consumer, through a series of intercompany transactions
+primarily under Texas state law, split into two new entities:
+LTL Management LLC (“LTL”), holding principally Old
+Consumer’s liabilities relating to talc litigation and a funding
+support agreement from LTL’s corporate parents; and Johnson
+& Johnson Consumer Inc. (“New Consumer”), holding
+virtually all the productive business assets previously held by
+Old Consumer. J&J’s stated goal was to isolate the talc
+liabilities in a new subsidiary so that entity could file for
+Chapter 11 without subjecting Old Consumer’s entire
+operating enterprise to bankruptcy proceedings.
+
+        Two days later, LTL filed a petition for Chapter 11
+relief in the Bankruptcy Court for the Western District of North
+Carolina. That Court, however, transferred the case to the
+Bankruptcy Court for the District of New Jersey.
+
+       Talc claimants there moved to dismiss LTL’s
+bankruptcy case as not filed in good faith. The Bankruptcy
+Court, in two thorough opinions, denied those motions and
+extended the automatic stay of actions against LTL to hundreds
+of nondebtors that included J&J and New Consumer. Appeals
+followed and are consolidated before us.
+
+        We start, and stay, with good faith. Good intentions—
+such as to protect the J&J brand or comprehensively resolve
+litigation—do not suffice alone. What counts to access the
+Bankruptcy Code’s safe harbor is to meet its intended
+
+
+
+
+                              19
+purposes. Only a putative debtor in financial distress can do
+so. LTL was not. Thus we dismiss its petition.
+
+I. BACKGROUND
+
+         A. J&J, Baby Powder, and Old Consumer
+
+         The story of LTL begins with its parent company, J&J.
+It is a global company and household brand well-known to the
+public for its wide range of products relating to health and well-
+being. Many are consumer staples, filling pharmacies,
+supermarkets, and medicine cabinets throughout the country
+and beyond.
+
+      One of these products was Johnson’s Baby Powder, first
+sold by J&J in 1894. It became particularly popular, being
+used by or on hundreds of millions of people at all stages of
+life.
+
+      J&J has not always sold baby powder directly, though.
+In 1979, it transferred all assets associated with its Baby
+Products division, including Johnson’s Baby Powder, to
+Johnson & Johnson Baby Products Company (“J&J Baby
+Products”), a wholly owned subsidiary (the “1979 Spin-Off”).
+A series of further intercompany transactions in ensuing
+decades ultimately transferred Johnson’s Baby Powder to Old
+Consumer.
+
+      So since 1979 only Old Consumer and its predecessors,
+and not J&J, have directly sold Johnson’s Baby Powder. LTL
+maintains that the 1979 Spin-Off included an agreement
+between J&J and J&J Baby Products that makes Old
+Consumer, as successor to the latter, responsible for
+
+
+
+
+                               20
+indemnifying J&J for all past, present, and future liabilities
+stemming from Johnson’s Baby Powder. Thus, according to
+LTL, Old Consumer was liable for all claims relating to
+Johnson’s Baby Powder, either directly or indirectly through
+its responsibility to indemnify J&J.
+
+                  B. Baby Powder Litigation
+
+        Talc triggered little litigation against J&J entities before
+2010. There had been but a small number of isolated claims
+alleging the products caused harms such as talcosis (a lung
+disease caused by inhalation of talc dust or talc), mesothelioma
+(a cancer of organ membranes, typically in the lungs,
+associated with exposure to asbestos), and rashes. But trials in
+2013 and 2016 resulted in jury verdicts for plaintiffs alleging
+Old Consumer’s talc-based products caused ovarian cancer.
+Despite the first resulting in no monetary award, and the
+second being reversed on appeal, these trials ushered in a wave
+of lawsuits alleging Johnson’s Baby Powder caused ovarian
+cancer and mesothelioma.1 Governmental actions, including
+the U.S. Food and Drug Administration’s finding of asbestos
+traces in a sample of Johnson’s Baby Powder in 2019 and
+Health Canada’s confirmation in 2021 of its 2018 finding of a
+significant association between exposure to talc and ovarian
+
+1
+  The talc litigation also involves claims regarding Shower to
+Shower, a different talc-containing product initially produced
+by J&J and later by Old Consumer and its predecessors. LTL
+maintains intercompany transactions involving J&J and Old
+Consumer ultimately made the latter responsible for all claims
+stemming from Shower to Shower. Because the talc litigation
+concerns mainly Johnson’s Baby Powder, for convenience
+references herein to that name may include other talc products.
+
+
+
+
+                                21
+cancer, also heightened J&J’s and Old Consumer’s potential
+exposure.
+
+       With the door wide open, over 38,000 ovarian cancer
+actions (most consolidated in federal multidistrict litigation in
+New Jersey) and over 400 mesothelioma actions were pending
+against Old Consumer and J&J when LTL filed its Chapter 11
+petition. Expectations were for the lawsuits to continue, with
+thousands more in decades to come. The magnitude of the
+award in one case also raised the stakes. There, a Missouri jury
+awarded $4.69 billion to 22 ovarian cancer plaintiffs, reduced
+on appeal to $2.24 billion to 20 plaintiffs who were not
+dismissed. Ingham v. Johnson & Johnson, 608 S.W.3d 663
+(Mo. Ct. App. 2020), cert. denied, 141 S. Ct. 2716 (2021).
+
+        Yet other trials reaching verdicts for plaintiffs were not
+so damaging to J&J entities. Since 2018, damages in all other
+monetary awards to plaintiffs that were not reversed averaged
+about $39.7 million per claim. Moreover, Old Consumer and
+J&J often succeeded at trial. According to LTL’s expert, of 15
+completed ovarian cancer trials, only Ingham resulted in a
+monetary award for the plaintiffs that was not reversed; and of
+28 completed mesothelioma trials, fewer than half resulted in
+monetary awards for the plaintiffs that were not reversed (and
+many of those were on appeal at the time of LTL’s bankruptcy
+filing). In addition, Old Consumer and J&J often avoided trial
+before bankruptcy, settling roughly 6,800 talc-related claims
+for just under $1 billion in total and successfully obtaining
+dismissals without payment of about 1,300 ovarian cancer, and
+over 250 mesothelioma, actions.
+
+     Undoubtedly, the talc litigation put financial pressure
+on Old Consumer.       Before LTL’s petition, it paid
+
+
+
+
+                               22
+approximately $3.5 billion for talc-related verdicts and
+settlements. It also paid nearly $1 billion in defense costs, and
+the continuing run rate was between $10 million to $20 million
+per month. LTL’s expert identified talc-related costs as a
+primary driver that caused the income before tax of J&J’s
+Consumer Health business segment (for which Old Consumer
+was the primary operating company in the U.S.) to drop from
+a $2.1 billion profit in 2019 to a $1.1 billion loss in 2020.
+
+        Old Consumer also faced billions in contested
+indemnification obligations to its bankrupt talc supplier,
+Imerys Talc America, Inc. and affiliates (collectively
+“Imerys”), as well as parties who had owned certain of
+Imerys’s talc mines. These remained after J&J’s settlement
+proposal of about $4 billion to $5 billion in the Imerys
+bankruptcy case—which, per LTL, had been tentatively agreed
+by attorneys for talc plaintiffs—ultimately fell through by June
+2021. An LTL representative testified that, if that proposal
+succeeded, it would have settled (subject to an opt-out)
+virtually all ovarian cancer claims in the multidistrict tort
+litigation and corresponding additional claims against J&J
+entities in the Imerys case. Old Consumer was also the target
+of both state and federal talc-related governmental complaints
+and investigations, as well as securities and shareholder
+actions, that could result in their own financial penalties and
+defense costs. LTL’s expert opined, and the Bankruptcy Court
+accepted, that the total talc-related liabilities threatened Old
+Consumer’s ability to make substantial talc-related payments
+from working capital or other readily marketable assets while
+funding its costs of operations (including marketing,
+distribution, research and development).
+
+
+
+
+                               23
+         Still, Old Consumer was a highly valuable enterprise,
+estimated by LTL to be worth $61.5 billion (excluding future
+talc liabilities), with many profitable products and brands. And
+much of its pre-filing talc costs were attributable to the
+payment of one verdict, Ingham, a liability J&J described in
+public securities filings as “unique” and “not representative of
+other claims.” App. 2692-93. Further, while it allocated all
+talc-related payments to Old Consumer per the 1979 Spin-Off,
+J&J functionally made talc payments from its accounts and
+received an intercompany payable from Old Consumer in
+return. Addressing the scope of its litigation exposure in an
+October 2021 management representation letter to its auditors,
+J&J valued its and its subsidiaries’ probable and reasonably
+estimable contingent loss for products liability litigation,
+including for talc, under Generally Accepted Accounting
+Principles (“GAAP”), at $2.4 billion for the next 24 months.2
+It also continued to stand by the safety of its talc products and
+deny liability relating to their use.
+
+       Consistent with their fiduciary duties, and likely spurred
+by the U.S. Supreme Court’s denial of certiorari in Ingham,
+members of J&J’s management explored ways to mitigate Old
+Consumer’s exposure to talc litigation. In a July 2021 email
+with a ratings agency, J&J’s treasurer described a potential
+restructuring that would capture all asbestos liability in a
+subsidiary to be put into bankruptcy.
+
+
+
+
+2
+  Adam Lisman, assistant controller for J&J, suggested in his
+trial testimony that it was J&J’s general policy to consider the
+next 24 months when calculating contingent costs under
+GAAP.
+
+
+
+
+                               24
+    C. Corporate Restructuring and Divisional Merger
+
+        On October 12, 2021, Old Consumer moved forward
+with this plan, undergoing a corporate restructuring relying
+principally on a merger under Texas law. Counterintuitively,
+this type of merger involves “the division of a [Texas] entity
+into two or more new . . . entities.” Tex. Bus. Orgs. Code Ann.
+§ 1.002(55)(A); see generally id. §§ 10.001 et seq. When the
+original entity does not survive the merger, it allocates its
+property, liabilities, and obligations among the new entities
+according to a plan of merger and, on implementation, its
+separate existence ends. Id. §§ 10.003, 10.008(a)(1). Except
+as otherwise provided by law or contract, no entity created in
+the merger is “liable for the debt or other obligation” allocated
+to any other new entity. Id. § 10.008(a)(4). In simplified
+terms, the merger splits a legal entity into two, divides its assets
+and liabilities between the two new entities, and terminates the
+original entity. While some pejoratively refer to it as the first
+step in a “Texas Two-Step” when followed by a bankruptcy
+filing, we more benignly call it a “divisional merger.”
+
+        In our case, Old Consumer’s restructuring was designed
+as a series of reorganizational steps with the divisional merger
+at center.3 Ultimately, the restructuring created two new
+
+3
+   A slightly abbreviated summary of the many steps is as
+follows. Old Consumer merged into Chenango Zero, LLC, a
+Texas limited liability company and indirect, wholly owned
+subsidiary of J&J (“Chenango Zero”), with Chenango Zero
+surviving the merger.       Chenango Zero (formerly Old
+Consumer) effected a divisional merger under the Texas
+Business Organizations Code by which two new Texas limited
+liability companies were created, Chenango One LLC
+
+
+
+
+                                25
+entities, LTL and New Consumer, and on its completion Old
+Consumer ceased to exist. It also featured the creation of a
+Funding Agreement, which had Old Consumer stand in
+momentarily as the payee, but ultimately (after some corporate
+maneuvers4) gave LTL rights to funding from New Consumer
+and J&J.
+
+        As the most important step, the merger allocated LTL
+responsibility for essentially all liabilities of Old Consumer
+tied to talc-related claims. 5 This meant, among other things, it
+would take the place of Old Consumer in current and future
+talc lawsuits and be responsible for their defense.
+
+
+
+(“Chenango One”) and Chenango Two LLC (“Chenango
+Two”), and Chenango Zero ceased to exist. Chenango One
+then converted into a North Carolina limited liability company
+and changed its name to “LTL Management LLC.” Chenango
+Two merged into Curahee Holding Company Inc., the direct
+parent company of LTL (“Curahee”). Curahee survived the
+merger and changed its name to “Johnson & Johnson
+Consumer Inc.” (now New Consumer).
+4
+  On the day of the divisional merger, the Funding Agreement
+was executed by Chenango Zero (formerly Old Consumer), as
+payee, along with J&J and Curahee, as payors. Then, per the
+divisional merger, LTL was allocated rights as payee under the
+Funding Agreement, replacing Chenango Zero. Chenango
+Two (which assumed Old Consumer’s assets not allocated to
+LTL) then merged into Curahee, one of the two original payors,
+and became New Consumer.
+5
+  LTL’s liability was for all talc claims except those where the
+exclusive remedy existed under a workers’ compensation
+statute or similar laws.
+
+
+
+
+                               26
+         Old Consumer also transferred to LTL assets in the
+merger, including principally the former’s contracts related to
+talc litigation, indemnity rights, its equity interests in Royalty
+A&M LLC (“Royalty A&M”), and about $6 million in cash.
+Carved out from Old Consumer and its affiliates just before the
+divisional merger, Royalty A&M owns a portfolio of royalty
+streams that derive from consumer brands and was valued by
+LTL at approximately $367.1 million.
+
+        Of the assets Old Consumer passed to LTL, most
+important were Old Consumer’s rights as a payee under the
+Funding Agreement with J&J and New Consumer. On its
+transfer, that gave LTL, outside of bankruptcy, the ability to
+cause New Consumer and J&J, jointly and severally, to pay it
+cash up to the value of New Consumer for purposes of
+satisfying any talc-related costs as well as normal course
+expenses. In bankruptcy, the Agreement gave LTL the right to
+cause New Consumer and J&J, jointly and severally, to pay it
+cash in the same amount to satisfy its administrative costs and
+to fund a trust, created in a plan of reorganization, to address
+talc liability for the benefit of existing and future claimants. In
+either scenario, there were few conditions to funding and no
+repayment obligation.6 The value of the payment right could
+
+6
+  For LTL to require J&J and New Consumer to fund, certain
+customary representations and warranties made by LTL must
+be true, such as those addressing its good standing under state
+law, the due authorization of the Funding Agreement, and the
+absence of any required governmental approval. And LTL
+must not have violated its covenants, specifically, that it will
+use the funds for only permitted uses and materially perform
+its indemnification obligations owed to New Consumer for all
+talc liabilities as set out in the plan of divisional merger.
+
+
+
+
+                                27
+not drop below a floor defined as the value of New Consumer
+measured as of the time of the divisional merger, estimated by
+LTL at $61.5 billion, and was subject to increase as the value
+of New Consumer increased after it.7
+
+        On the other side of the divisional-merger ledger, New
+Consumer received all assets and liabilities of Old Consumer
+not allocated to LTL. It thus held Old Consumer’s productive
+business assets, including its valuable consumer products, and,
+critically, none of its talc-related liabilities (except those
+related to workers’ compensation).            After this, the
+organizational chart was reshuffled to make New Consumer
+the direct parent company of LTL.
+
+        When the ink dried, LTL—having received Old
+Consumer’s talc liability, rights under the Funding Agreement,
+a royalties business, and cash—was prepared to fulfill its
+reason for being: a bankruptcy filing. Meanwhile, New
+Consumer began operating the business formerly held by Old
+Consumer and would essentially remain unaffected (save for
+its funding obligation) by any bankruptcy filing of LTL.
+
+        LTL became in bankruptcy talk the “bad company,” and
+New Consumer became the “good company.” This completed
+the first steps toward J&J’s goal of “globally resolv[ing] talc-
+related claims through a chapter 11 reorganization without
+subjecting the entire Old [Consumer] enterprise to a
+bankruptcy proceeding.” App. 450 (Decl. of John Kim 6).
+
+
+
+
+7
+ In each calculation of New Consumer’s value, its obligation
+under the Funding Agreement is not included.
+
+
+
+
+                              28
+    D. LTL Bankruptcy Filing and Procedural History
+
+        On October 14, 2021, two days after the divisional
+merger, LTL filed a petition for Chapter 11 relief in the
+Bankruptcy Court for the Western District of North Carolina.
+It also sought (1) to extend the automatic stay afforded to it
+under the Bankruptcy Code to talc claims arising from
+Johnson’s Baby Powder asserted against over six hundred
+nondebtors (the “Third-Party Claims”), including affiliates
+such as J&J and New Consumer, as well as insurers and third-
+party retailers (all nondebtors collectively the “Protected
+Parties”), or alternatively, (2) a preliminary injunction
+enjoining those claims. LTL’s first-day filings described the
+bankruptcy as an effort to “equitably and permanently resolve
+all current and future talc-related claims against it through the
+consummation of a plan of reorganization that includes the
+establishment of a [funding] trust.” App. 3799 (LTL’s Compl.
+for Decl. and Inj. Relief 2); App. 316 (LTL’s Info. Br. 1).
+
+        A month later, the North Carolina Bankruptcy Court
+issued an order enjoining Third-Party Claims against the
+Protected Parties. But the order expired after 60 days and
+would not bind a subsequent court. The next day, following
+motions from interested parties (including representatives for
+talc claimants) and a Show Cause Order, the Court transferred
+LTL’s Chapter 11 case to the District of New Jersey under 28
+U.S.C. § 1412. It rejected what it viewed as LTL’s effort to
+“manufacture venue” and held that a preference to be subject
+to the Fourth Circuit’s two-prong bankruptcy dismissal
+
+
+
+
+                               29
+standard8 could not justify its filing in North Carolina. App.
+1515 (N.C. Transfer Order 10).
+
+       With the case pending in the Bankruptcy Court for the
+District of New Jersey, the Official Committee of Talc
+Claimants (the “Talc Claimants’ Committee”) moved to
+dismiss LTL’s petition under § 1112(b) of the Bankruptcy
+Code as not filed in good faith. Soon after, Arnold & Itkin
+LLP, on behalf of talc claimants it represented (“A&I”), also
+moved for dismissal on the same basis. LTL opposed the
+motions. Two other law firms—including Aylstock, Witkin,
+Kreis & Overholtz, PLLC, on behalf of talc claimants
+(“AWKO”)—joined the motions. For ease of reference, we
+refer collectively to the Talc Claimants’ Committee, A&I, and
+AWKO as the “Talc Claimants.”
+
+8
+  In the Fourth Circuit, a court can only dismiss a bankruptcy
+petition for lack of good faith on a showing of the debtor’s
+“subjective bad faith” and the “objective futility of any
+possible reorganization.” Carolin Corp. v. Miller, 886 F.2d
+693, 694 (4th Cir. 1989). The Bankruptcy Court in the District
+of New Jersey described this as a “much more stringent
+standard for dismissal of a case for lacking good faith” than the
+Third Circuit’s test. App. 13 (Mot. to Dismiss Op. 13).
+Perhaps not by coincidence then, debtors formed by divisional
+mergers and bearing substantial asbestos liability seem to
+prefer filing in the Fourth Circuit, with four such cases being
+filed in the Western District of North Carolina in the years
+before LTL’s filing. See In re Bestwall LLC, Case No. 17-
+31795 (Bankr. W.D.N.C.); In re DBMP LLC, Case No. 20-
+30080 (Bankr. W.D.N.C.); In re Aldrich Pump LLC, Case No.
+20-30608 (Bankr. W.D.N.C.); In re Murray Boiler LLC, Case
+No. 20-30609 (Bankr. W.D.N.C.).
+
+
+
+
+                               30
+      At the same time, LTL urged the New Jersey
+Bankruptcy Court to extend the soon-to-expire order enjoining
+Third-Party Claims against the Protected Parties. The Talc
+Claimants’ Committee and AWKO opposed this motion.
+
+        In February 2022, the Bankruptcy Court held a five-day
+trial on the motions to dismiss and LTL’s third-party injunction
+motion. It denied soon thereafter the motions to dismiss and
+granted the injunction motion. App. 1, 57, 140, 194 (Mot. to
+Dismiss Op.; Mot. to Dismiss Order; Third-Party Inj. Op.;
+Third-Party Inj. Order).
+
+       In its opinion addressing the motions to dismiss, the
+Bankruptcy Court applied Third Circuit case law and held that
+LTL filed its bankruptcy petition in good faith. The Court
+ruled the filing served a valid bankruptcy purpose because it
+sought to resolve talc liability by creating a trust for the benefit
+of claimants under § 524(g) of the Bankruptcy Code. At a high
+level, that provision allows a debtor satisfying certain
+conditions to establish, in a plan of reorganization, a trust for
+the benefit of current and future claimants against which an
+injunction channels all asbestos litigation.9 The Court
+highlighted what it viewed as several benefits of claims
+administration through a § 524(g) trust, compared to mass
+asbestos litigation in trial courts, including the possibility it
+could resolve claims more efficiently (from both a cost and
+time perspective), ensure more balanced recoveries among
+claimants, and preserve funds for future claimants.
+
+9
+  Under certain conditions, the injunction can also channel to
+the trust claims against third parties affiliated with the debtor.
+11 U.S.C. § 524(g)(4).
+
+
+
+
+                                31
+        The Court also held LTL was in financial distress. It
+focused on the scope of litigation faced by Old Consumer (and
+transferred to LTL), the historic costs incurred by Old
+Consumer in connection with talc litigation, and the effect of
+these costs on its business. It suggested that extrapolating this
+talc liability into the future showed the “continued viability of
+all J&J companies [was] imperiled.” App. 36 (Mot. to Dismiss
+Op. 36). Yet it appeared to doubt LTL would completely
+exhaust its payment right under the Funding Agreement. App.
+35 (Id. at 35).
+
+        Finally, the Court determined LTL’s corporate
+restructuring and bankruptcy were not undertaken to secure an
+unfair tactical litigation advantage against talc claimants, but
+constituted “a single integrated transaction” that did not
+prejudice creditors and eliminated costs that would otherwise
+be imposed on Old Consumer’s operating business had it been
+subject to bankruptcy. App. 43 (Id. at 43). The Court
+ultimately saw the bankruptcy forum as having a superior
+ability, compared to trial courts, to protect the talc claimants’
+interests, viewing this as an “unusual circumstance[]” that
+precluded dismissal under 11 U.S.C. § 1112(b)(2). App. 13
+(Id. at 13 n.8).
+
+        At the same time the Bankruptcy Court grappled
+substantively with existing Circuit case law, it made much of
+LTL’s novel design and the reasons for it. Its bankruptcy, the
+Court believed, presented a “far more significant issue” than
+equitable limitations on bankruptcy filings: “which judicial
+system [better served talc claimants]—the state/federal court
+trial system, or a trust vehicle established under a chapter 11
+reorganization plan . . . [in Bankruptcy Court].” App. 12-13
+
+
+
+
+                               32
+(Id. at 12-13). Answering this question, it provided a full
+defense of its “strong conviction that the bankruptcy court is
+the optimal venue for redressing the harms of both present and
+future talc claimants in this case.” App. 19 (Id. at 19).10
+
+       The Talc Claimants timely appealed the Bankruptcy
+Court’s order denying the motions to dismiss. The Talc
+Claimants’ Committee and AWKO also appealed the order
+enjoining Third-Party Claims against the Protected Parties. On
+request of the Talc Claimants, the Bankruptcy Court certified
+the challenged orders to our Court under 28 U.S.C. § 158(d)(2).
+In May 2022, we authorized direct appeal of the orders under
+the same statute.
+
+      The Bankruptcy Court had jurisdiction of the
+bankruptcy case under, inter alia, 28 U.S.C. §§ 157(a) and
+1334(a).11 We have jurisdiction of the appeals under 28 U.S.C.
+§ 158(d)(2)(A).
+
+
+
+
+10
+   In the separate opinion explaining its order preserving the
+injunction of Third-Party Claims against Protected Parties, the
+Court held that “unusual circumstances” warranted extension
+of the automatic stay to those claims under Bankruptcy Code
+§§ 362(a)(1) and 362(a)(3). It also held that Bankruptcy Code
+§ 105(a) provided it independent authority to issue a
+preliminary injunction enjoining them. App. 140 (Third-Party
+Inj. Op.).
+11
+    The parties contest whether the Bankruptcy Court had
+jurisdiction to issue the order enjoining the Third-Party Claims
+against the Protected Parties. Dismissing LTL’s petition
+obviates the need to reach that question.
+
+
+
+
+                              33
+II. ANALYSIS
+
+                    A. Standard of Review
+
+       We review for an abuse of discretion the Bankruptcy
+Court’s denial of the motions to dismiss the Chapter 11 petition
+for lack of good faith. In re 15375 Mem’l Corp. v. BEPCO,
+L.P., 589 F.3d 605, 616 (3d Cir. 2009). That exists when the
+decision “rests upon a clearly erroneous finding of fact, an
+errant conclusion of law, or an improper application of law to
+fact.” Id. (citation omitted). We give fresh (i.e., plenary or de
+novo) review to a conclusion of law and review for clear error
+findings of fact leading to the decision. Id.
+
+        Facts subject to clear-error review include those that are
+basic, “the historical and narrative events elicited from the
+evidence presented at trial . . .,” and those that are inferred,
+which are “drawn from basic facts and are permitted only
+when, and to the extent that, logic and human experience
+indicate a probability that certain consequences can and do
+follow from the basic facts.” Universal Mins., Inc. v. C.A.
+Hughes & Co., 669 F.2d 98, 102 (3d Cir. 1981). These are
+distinguished from an “ultimate fact,” which is a “legal concept
+with a factual component.” Id. at 103. Examples include
+negligence or reasonableness. Wells Fargo, N.A. v. Bear
+Stearns & Co. (In re HomeBanc Mortg. Corp.), 945 F.3d 801,
+810 (3d Cir. 2019). Reviewing an ultimate fact, “we separate
+[its] distinct factual and legal elements . . . and apply the
+appropriate standard to each component.” Universal Mins.,
+669 F.2d at 103.
+
+       Concluding a bankruptcy petition is filed in good faith
+is an “ultimate fact.” BEPCO, 589 F.3d at 616. While the
+
+
+
+
+                               34
+underlying basic and inferred facts require clear-error review,
+the culminating determination of whether those facts support a
+conclusion of good faith gets plenary review as “essentially[]
+a conclusion of law.” Id.; see also U.S. Bank Nat’l Ass’n ex.
+rel. CWCapital Asset Mgmt. LLC v. Vill. at Lakeridge, LLC,
+138 S. Ct. 960, 966-68 (2018). A conclusion of financial
+distress, like the broader good-faith inquiry of which it is a part,
+likewise is subject to mixed review. Whether financial distress
+exists depends on the underlying basic facts, such as the
+debtor’s ability to pay its current debts, and inferred facts, such
+as projections of how much pending and future liabilities (like
+litigation) could cost it in the future. But the ultimate
+determination, like with good faith, is essentially a conclusion
+of law that gets a fresh look. See id.
+
+                         B. Good Faith
+
+        Chapter 11 bankruptcy petitions are “subject to
+dismissal under 11 U.S.C. § 1112(b) unless filed in good
+faith.” BEPCO, 589 F.3d at 618 (citing NMSBPCSLDHB, L.P.
+v. Integrated Telecom Express, Inc. (In re Integrated Telecom
+Express, Inc.), 384 F.3d 108, 118 (3d Cir. 2004)). Section
+1112(b) provides for dismissal for “cause.” A lack of good
+faith constitutes “cause,” though it does not fall into one of the
+examples of cause specifically listed in the statute. See In re
+SGL Carbon Corp., 200 F.3d 154, 159-62 (3d Cir. 1999).
+Because the Code’s text neither sets nor bars explicitly a good-
+faith requirement, we have grounded it in the “equitable nature
+of bankruptcy” and the “purposes underlying Chapter 11.” Id.
+at 161-62 (“A debtor who attempts to garner shelter under the
+Bankruptcy Code . . . must act in conformity with the Code’s
+underlying principles.”).
+
+
+
+
+                                35
+        Once at issue, the burden to establish good faith is on
+the debtor. BEPCO, 589 F.3d at 618 (citing Integrated
+Telecom, 384 F.3d at 118); SGL Carbon, 200 F.3d at 162 n.10.
+We “examine the totality of facts and circumstances and
+determine where a petition falls along the spectrum ranging
+from the clearly acceptable to the patently abusive.” BEPCO,
+589 F.3d at 618 (internal quotation marks omitted) (citing
+Integrated Telecom, 384 F.3d at 118). Though a debtor’s
+subjective intent may be relevant, good faith falls “more on
+[an] objective analysis of whether the debtor has sought to step
+outside the ‘equitable limitations’ of Chapter 11.” Id. at 618
+n.8 (citing SGL Carbon, 200 F.3d at 165).
+
+       “[T]wo inquiries . . . are particularly relevant”: “(1)
+whether the petition serves a valid bankruptcy purpose[;] and
+(2) whether [it] is filed merely to obtain a tactical litigation
+advantage.” Id. at 618 (internal quotation marks omitted)
+(citing Integrated Telecom, 384 F.3d at 119-20). Valid
+bankruptcy purposes include “preserv[ing] a going concern” or
+“maximiz[ing] the value of the debtor’s estate.” Id. at 619.
+Further, a valid bankruptcy purpose “assumes a debtor in
+financial distress.” Integrated Telecom, 384 F.3d at 128.
+
+  C. Financial Distress as a Requirement of Good Faith
+
+        Our precedents show a debtor who does not suffer from
+financial distress cannot demonstrate its Chapter 11 petition
+serves a valid bankruptcy purpose supporting good faith. We
+first applied this principle in SGL Carbon. The debtor there
+filed for Chapter 11 protection in the face of many antitrust
+lawsuits—in its words, to “protect itself against excessive
+demands made by plaintiffs” and “achieve an expeditious
+resolution of the claims.” 200 F.3d at 157. But we dismissed
+
+
+
+
+                              36
+the petition for lack of good faith, relying on the debtor’s strong
+financial health. Id. at 162-70. We rejected arguments that the
+suits seriously threatened the company and could force it out
+of business, suggesting the magnitude of potential liability
+would not likely render it insolvent. Id. at 162-64. And the
+filing was premature, as one could be later made—without
+risking the debtor’s ability to reorganize—at a time a company-
+threatening judgment occurred. Id. at 163. Finally, in
+considering whether the petition served a valid bankruptcy
+purpose, we discerned none in light of the debtor’s substantial
+equity cushion and a lack of evidence suggesting it had trouble
+paying debts or impaired access to capital markets. Id. at 166.
+Were the debtor facing “serious financial and/or managerial
+difficulties at the time of filing,” the result may have been
+different. Id. at 164.
+
+       Integrated Telecom made clear that “good faith
+necessarily requires some degree of financial distress on the
+part of a debtor.” 384 F.3d at 121 (emphasis added). That
+debtor was a non-operating, nearly liquidated shell company
+that was “highly solvent and cash rich at the time of the
+bankruptcy.” Id. at 124. And its financial condition was key
+to the petition’s dismissal. We said that Chapter 11 could not
+improve its failing business model nor resolve pending
+securities litigation in a way that increased recoveries for
+creditors. Id. at 120-26. Thus the proceeding could preserve
+no “value that otherwise would be lost outside of bankruptcy,”
+showing those problems were not the kinds of financial issues
+Chapter 11 aimed to address. Id. at 120, 129. And absent
+financial distress, the debtor’s desire to benefit from certain
+Code provisions (such as those capping claims for future rents)
+could not justify its presence in bankruptcy. Id. at 126-29.
+
+
+
+
+                                37
+        We note that, when considering the whole of the
+circumstances in these decisions, we evaluated rationales for
+filing offered by the debtor that were only modestly related to
+its financial health—even after recognizing it was not in
+financial distress. Yet we rejected all of them and stuck to the
+debtor’s financial condition. Id.; SGL Carbon, 200 F.3d at
+167-68.
+
+       The theme is clear: absent financial distress, there is no
+reason for Chapter 11 and no valid bankruptcy purpose.
+“Courts, therefore, have consistently dismissed . . . petitions
+filed by financially healthy companies with no need to
+reorganize under the protection of Chapter 11. . . . [I]f a
+petitioner has no need to rehabilitate or reorganize, its petition
+cannot serve the rehabilitative purpose for which Chapter 11
+was designed.” Integrated Telecom, 384 F.3d at 122 (quoting
+SGL Carbon, 200 F.3d at 166).
+
+       But what degree of financial distress justifies a debtor’s
+filing? To say, for example, that a debtor must be in financial
+distress is not to say it must necessarily be insolvent. We
+recognize as much, as the Code conspicuously does not contain
+any particular insolvency requirement. See SGL Carbon, 200
+F.3d at 163; Integrated Telecom, 384 F.3d at 121. And we need
+not set out any specific test to apply rigidly when evaluating
+financial distress. Nor does the Code direct us to apply one.
+
+       Instead, the good-faith gateway asks whether the debtor
+faces the kinds of problems that justify Chapter 11 relief.
+Though insolvency is not strictly required, and “no list is
+exhaustive of all the factors which could be relevant when
+analyzing a particular debtor’s good faith,” SGL Carbon, 200
+F.3d at 166 n.16, we cannot ignore that a debtor’s balance-
+
+
+
+
+                               38
+sheet insolvency or insufficient cash flows to pay liabilities (or
+the future likelihood of these issues occurring) are likely
+always relevant. This is because they pose a problem Chapter
+11 is designed to address: “that the system of individual
+creditor remedies may be bad for the creditors as a group when
+there are not enough assets to go around.” Integrated Telecom,
+384 F.3d at 121 (second set of italics added) (quoting Thomas
+H. Jackson, The Logic and Limits of Bankruptcy Law 10
+(1986)).
+
+        Still, we cannot today predict all forms of financial
+difficulties that may in some cases justify a debtor’s presence
+in Chapter 11. Financial health can be threatened in other
+ways; for instance, uncertain and unliquidated future liabilities
+could pose an obstacle to a debtor efficiently obtaining
+financing and investment. As we acknowledged in SGL
+Carbon, certain financial problems or litigation may require
+significant attention, resulting in “serious . . . managerial
+difficulties.” 200 F.3d at 164. Mass tort cases may present
+these issues and others as well, like the exodus of customers
+and suppliers wary of a firm’s credit-risk. See, e.g., Mark J.
+Roe, Bankruptcy and Mass Tort, 84 Colum. L. Rev. 846, 855
+(1984) (describing the “adverse” and “severe” effects large-
+scale, future tort claims may have on a firm). So many spokes
+can lead to financial distress in the right circumstances that we
+cannot divine them all. What we can do, case-by-case, is
+consider all relevant facts in light of the purposes of the Code.
+
+       Financial distress must not only be apparent, but it must
+be immediate enough to justify a filing. “[A]n attenuated
+possibility standing alone” that a debtor “may have to file for
+bankruptcy in the future” does not establish good faith. SGL
+Carbon, 200 F.3d at 164; see, e.g., Baker v. Latham
+
+
+
+
+                               39
+Sparrowbush Assocs. (In re Cohoes Indus. Terminal, Inc.), 931
+F.2d 222, 228 (2d Cir. 1991) (“Although a debtor need not be
+in extremis in order to file[,] . . . it must, at least, face such
+financial difficulty that, if it did not file at that time, it could
+anticipate the need to file in the future.”). Yet we recognize
+the Code contemplates “the need for early access to bankruptcy
+relief to allow a debtor to rehabilitate its business before it is
+faced with a hopeless situation.” SGL Carbon, 200 F.3d at 163.
+A “financially troubled” debtor facing mass tort liability, for
+example, may require bankruptcy to “enable a continuation of
+[its] business and to maintain access to the capital markets”
+even before it is insolvent. Id. at 169.
+
+       Still, encouragement of early filing “does not open the
+door to premature filing.” Id. at 163. This may be a fine line
+in some cases, but our bankruptcy system puts courts, vested
+with equitable powers, in the best position to draw it.
+
+       Risks associated with premature filing may be
+particularly relevant in the context of a mass tort bankruptcy.
+Inevitably those cases will involve a bankruptcy court
+estimating claims on a great scale—introducing the possibility
+of undervaluing future claims (and underfunding assets left to
+satisfy them)12 and the difficulty of fairly compensating
+
+12
+  See Report of the National Bankruptcy Review Commission
+343-44 (Oct. 20, 1997) (recognizing claims-estimation
+accuracy is an important component of the integrity of the mass
+tort bankruptcy process and noting underestimation of claims
+occurred in the Johns-Manville case, one of the earliest
+asbestos bankruptcy cases, while also pointing to the adequate
+funding of trusts in subsequent cases to show those risks are
+surmountable).
+
+
+
+
+                                40
+claimants with wide-ranging degrees of exposure and injury.
+On the other hand, a longer history of litigation outside of
+bankruptcy may provide a court with better guideposts when
+tackling these issues. 13
+
+        To take a step back, testing the nature and immediacy
+of a debtor’s financial troubles, and examining its good faith
+more generally, are necessary because bankruptcy significantly
+disrupts creditors’ existing claims against the debtor: “Chapter
+11 vests petitioners with considerable powers—the automatic
+stay, the exclusive right to propose a reorganization plan, the
+discharge of debts, etc.—that can impose significant hardship
+on particular creditors. When financially troubled petitioners
+seek a chance to remain in business, the exercise of those
+powers is justified.” Integrated Telecom, 384 F.3d at 120
+(emphasis added) (citing SGL Carbon, 200 F.3d at 165-66).
+Accordingly, we have said the availability of certain debtor-
+favored Code provisions “assume[s] the existence of a valid
+bankruptcy, which, in turn, assumes a debtor in financial
+
+13
+   For instance, the A.H. Robins claimants’ trust has been
+recognized as one that functioned effectively and remained
+solvent for years. There the Court and stakeholders had the
+benefit of data from 15 years of tort litigation by A.H. Robins
+before its filing. See Report of the National Bankruptcy
+Review Commission 328 n.813, 344-45 (Oct. 20, 1997) (citing
+Jack B. Weinstein, Individual Justice in Mass Tort Litigation:
+The Effect of Class Actions, Consolidations, and other
+Multiparty Devices 280 n.88, 326 n.149 (Northwestern Press
+1995), and Ralph R. Mabey & Peter A. Zisser, Improving
+Treatment of Future Claims: The Unfinished Business Left by
+the Manville Amendments, 69 Am. Bankr. L.J. 487, 497 n.45
+(1995)).
+
+
+
+
+                              41
+distress.” Id. at 128. Put another way, “Congress designed
+Chapter 11 to give those businesses teetering on the verge of a
+fatal financial plummet an opportunity to reorganize on solid
+ground and try again, not to give profitable enterprises an
+opportunity to evade contractual or other liability.” Cedar
+Shore Resort, Inc v. Mueller (In re Cedar Shore Resort, Inc.),
+235 F.3d 375, 381 (8th Cir. 2000) (internal quotation marks
+omitted).
+
+        Our confidence in the conclusion that financial distress
+is vital to good faith is reinforced by the central role it plays in
+other courts’ inquiries. 14 Chapter 11’s legislative history also
+
+14
+   See, e.g., Little Creek Dev. Co. v. Commonw. Mortg. Corp.
+(In re Little Creek Dev. Co.), 779 F.2d 1068, 1072 (5th Cir.
+1986) (“Determining whether the debtor’s filing for relief is in
+good faith depends largely upon the bankruptcy court’s on-the-
+spot evaluation of the debtor’s financial condition, motives,
+and the local financial realities.”); Cedar Shore Resort, Inc.,
+235 F.3d at 379-80 (in evaluating good faith, courts “consider
+the totality of the circumstances, including . . . the debtor’s
+financial condition, motives, and the local financial realities”;
+dismissing petition, in part, because the debtor was “not in dire
+financial straits”); In re James Wilson Assocs., 965 F.2d 160,
+170 (7th Cir. 1992) (recognizing that, while the Code permits
+a firm to file though it is not insolvent, such filings usually
+involve “impending insolvency”); Cohoes Indus. Terminal,
+931 F.2d at 228 (in the context of whether a petition was
+frivolous under Bankruptcy Rule 9011, stating “[a]lthough a
+debtor need not be in extremis in order to file[,] . . . it must, at
+least, face such financial difficulty that, if it did not file at that
+time, it could anticipate the need to file in the future”); see also,
+e.g., Barclays-Am./Bus. Credit, Inc. v. Radio WBHP, Inc. (In
+
+
+
+
+                                 42
+suggests it was meant to “deal[] with the reorganization of a
+financially distressed enterprise.” SGL Carbon, 200 F.3d at
+166 (quoting S. Rep. No. 95-989, at 9, reprinted in 1978
+U.S.C.C.A.N. 5787, 5795).
+
+       The takeaway here is that when financial distress is
+present, bankruptcy may be an appropriate forum for a debtor
+to address mass tort liability. Our SGL Carbon decision
+specifically addressed this in distinguishing the financial
+distress faced by Johns-Manville in its Chapter 11 case. It was
+prompted by a tide of asbestos litigation that, but for its filing,
+would have forced the debtor to book a $1.9 billion liability
+reserve “trigger[ing] the acceleration of approximately $450
+million of outstanding debt, [and] possibly resulting in a forced
+liquidation of key business segments.” In re Johns-Manville
+Corp., 36 B.R. 727, 730 (Bankr. S.D.N.Y. 1984). That created
+a “compelling need [for the debtor] to reorganize in order to
+meet” its obligations to creditors. Id. This urgency stood in
+stark contrast to the circumstances in SGL Carbon, where the
+debtor faced no suits, or even liquidated judgments, that
+threatened its ongoing operations.
+
+
+
+re Dixie Broad., Inc.), 871 F.2d 1023, 1027-28 (11th Cir. 1989)
+(stating that whether a debtor is “financially distressed” is one
+factor evidencing bad faith and that “the Bankruptcy Code is
+not intended to insulate ‘financially secure’ [debtors]”);
+Carolin Corp., 886 F.2d at 701 (one prong of the good-faith
+inquiry is meant to ensure the petition bears “some relation to
+the statutory objective of resuscitating a financially troubled
+[debtor]”) (brackets in original) (citing Connell v. Coastal
+Cable T.V., Inc. (In re Coastal Cable T.V., Inc.), 709 F.2d 762,
+765 (1st Cir. 1983)).
+
+
+
+
+                                43
+       A.H. Robins Company, before its bankruptcy, faced
+financial woes like Johns-Manville’s, in both cases caused by
+mass product liabilities litigation. Before filing, Robins had
+only $5 million in unrestricted funds and a “financial
+picture . . . so bleak that financial institutions were unwilling
+to lend it money.” In re A.H. Robins Co., Inc., 89 B.R. 555,
+558 (Bankr. E.D.V.A. 1988). The Court concluded Robins
+“had no choice but to file for relief under Chapter 11.” Id.
+
+        And in Dow Corning’s Chapter 11 case, the Court
+described the company’s resolve to address mass tort liability
+as “a legitimate effort to rehabilitate a solvent but financially-
+distressed corporation.” In re Dow Corning Corp., 244 B.R.
+673, 676-77 (Bankr. E.D. Mich. 1999) (emphasis added). It
+specifically recognized that “the legal costs and logistics of
+defending the worldwide product liability lawsuits against the
+[d]ebtor threatened its vitality by depleting its financial
+resources and preventing its management from focusing on
+core business matters.” Id. at 677.
+
+       These cases show that mass tort liability can push a
+debtor to the brink. But to measure the debtor’s distance to it,
+courts must always weigh not just the scope of liabilities the
+debtor faces, but also the capacity it has to meet them. We now
+go there, but only after detouring to a problem particular to our
+case: For good-faith purposes, should we judge the financial
+condition of LTL by looking to Old Consumer—the operating
+business with valuable assets, but damaging tort liability, that
+the restructuring and filing here aimed to protect? Or should
+we look to LTL, the entity that actually filed for bankruptcy?
+Or finally, like the Bankruptcy Court, should we consider “the
+financial risks and burdens facing both Old [Consumer] and
+[LTL]”? App. 14 (Mot. to Dismiss Op. 14).
+
+
+
+
+                               44
+   D. Only LTL’s Financial Condition is Determinative.
+
+        Weighing the totality of facts and circumstances might
+seem on the surface to require that we evaluate the state of
+affairs of both Old Consumer and LTL when judging the
+latter’s financial distress.      That said, we must not
+underappreciate the financial reality of LTL while unduly
+elevating the comparative relevance of its pre-bankruptcy
+predecessor that no longer exists. Even were we unable to
+distinguish the financial burdens facing the two entities, we can
+distinguish their vastly different sets of available assets to
+address those burdens. On this we part from the Bankruptcy
+Court.
+
+         Thus for us, the financial state of LTL—a North
+Carolina limited liability company formed under state law and
+existing separate from both its predecessor company (Old
+Consumer) and its newly incorporated counterpart company
+(New Consumer)—should be tested independent of any other
+entity. That means we focus on its assets, liabilities, and,
+critically, the funding backstop it has in place to pay those
+liabilities.
+
+        Doing so reflects the principle that state-law property
+interests should generally be given the same effect inside and
+outside bankruptcy: “Property interests are created and defined
+by state law. Unless some federal interest requires a different
+result, there is no reason why such interests should be analyzed
+differently simply because an interested party is involved in a
+bankruptcy proceeding.” Butner v. United States, 440 U.S. 48,
+55 (1979). No one doubts that the state-law divisional merger
+passed talc liabilities to LTL. Why in bankruptcy would we
+
+
+
+
+                               45
+recognize the effectiveness of this state-law transaction, but at
+the same time ignore others that augment LTL’s assets, such as
+its birth gift of the Funding Agreement? To say the financial
+condition of Old Consumer prior to the restructuring—which
+was not bolstered by such a contractual payment right—
+determines the availability of Chapter 11 to LTL would impose
+on the latter a lookback focused on the nonavailability of a
+funding backstop to what is now a nonentity.
+
+       Instead, we must evaluate the full set of state-law
+transactions involving LTL to understand the makeup of its
+financial rights and obligations that, in turn, dictate its financial
+condition. Even were we to agree that the full suite of
+reorganizational steps was a “single integrated transaction,”
+App. 43 (Mot. to Dismiss Op. 43), this conclusion does not
+give us license to look past its effect: the creation of a new
+entity with a unique set of assets and liabilities, and the
+elimination of another. Only the former is in bankruptcy and
+subject to its good-faith requirement. See Ralph Brubaker,
+Assessing the Legitimacy of the “Texas Two-Step” Mass-Tort
+Bankruptcy, 42 No. 8 Bankr. L. Letter NL 1 (Aug. 2022)
+(observing that the Bankruptcy Code is designed to address the
+financial distress of the entity in bankruptcy).
+
+        We cannot say a “federal interest requires a different
+result.” See Butner, 440 U.S. at 55. That is because the
+Bankruptcy Code is an amalgam of creditor-debtor tradeoffs
+balanced by a Congress that assumed courts applying it would
+respect the separateness of legal entities (and their respective
+assets and liabilities). “[T]he general expectation of state law
+and of the Bankruptcy Code . . . is that courts respect entity
+separateness absent compelling circumstances calling
+equity . . . into play.” In re Owens Corning, 419 F.3d 195, 211
+
+
+
+
+                                 46
+(3d Cir. 2005). Put differently, as separateness is foundational
+to corporate law, which in turn is a predicate to bankruptcy law,
+it is not easily ignored. It is especially hard to ignore when
+J&J’s pre-bankruptcy restructuring—ring-fencing talc
+liabilities in LTL and forming the basis for this filing—
+depended on courts honoring this principle.
+
+        The Bankruptcy Code is designed in important part to
+protect and distribute a debtor’s assets to satisfy its liabilities.
+It strains logic then to say the condition of a defunct entity
+should determine the availability of Chapter 11 to the only
+entity subject to it. To do so would introduce uncertainty
+regarding how far back and to what entities a court can look
+when evaluating a debtor’s financial distress.
+
+        Thus, while we agree with the Bankruptcy Court that
+both entities are part of our discussion of financial distress, the
+financial condition of Old Consumer is relevant only to the
+extent it informs our view of the financial condition of LTL
+itself.
+            E. LTL Was Not in Financial Distress.
+
+       With our focus properly set, we now evaluate the
+financial condition of LTL. It is here we most disagree with
+the Bankruptcy Court, as it erred by overemphasizing the
+relevance of Old Consumer’s financial condition. And while
+we do not second-guess its findings on the scope and costs of
+talc exposure up to the filing date, we do not accept its
+projections of future liability derived from those facts.
+
+      After these course corrections, we cannot agree LTL
+was in financial distress when it filed its Chapter 11 petition.
+The value and quality of its assets, which include a roughly
+
+
+
+
+                                47
+$61.5 billion payment right against J&J and New Consumer,
+make this holding untenable.
+
+       The Funding Agreement merits special mention. To
+recap, under it LTL had the right, outside of bankruptcy, to
+cause J&J and New Consumer, jointly and severally, to pay it
+cash up to the value of New Consumer as of the petition date
+(estimated at $61.5 billion) to satisfy any talc-related costs and
+normal course expenses. Plus this value would increase as the
+value of New Consumer’s business and assets increased. App.
+4316-17 (Funding Agreement 4-5, § 1 Definition of “JJCI
+Value”).15 The Agreement provided LTL a right to cash that
+was very valuable, likely to grow, and minimally conditional.
+And this right was reliable, as J&J and New Consumer were
+highly creditworthy counterparties (an understatement) with
+the capacity to satisfy it.
+
+       As for New Consumer, it had access to Old Consumer’s
+cash-flowing brands and products along with the profits they
+produced, which underpinned the $61.5 billion enterprise value
+of New Consumer as of LTL’s filing. And the sales and
+adjusted income of the consumer health business showed
+steady growth in the last several years when talc costs were
+excluded. Most important, though, the payment right gave
+LTL direct access to J&J’s exceptionally strong balance sheet.
+At the time of LTL’s filing, J&J had well over $400 billion in
+equity value with a AAA credit rating and $31 billion just in
+
+15
+  While, as described above, the uses for which LTL may draw
+on the payment right change in bankruptcy (i.e., LTL is
+permitted to draw on it to fund a claimant trust and satisfy
+administrative expenses), we focus on the rights available to it
+just prior to its filing for good-faith purposes.
+
+
+
+
+                               48
+cash and marketable securities. It distributed over $13 billion
+to shareholders in each of 2020 and 2021. It is hard to imagine
+a scenario where J&J and New Consumer would be unable to
+satisfy their joint obligations under the Funding Agreement.
+And, of course, J&J’s primary, contractual obligation to fund
+talc costs was one never owed to Old Consumer (save for the
+short moment during the restructuring that it was technically a
+party to the Funding Agreement).
+
+       Yet the Bankruptcy Court hardly considered the value
+of LTL’s payment right to its financial condition. True, it
+noted its jurisdictional authority could “ensure that [LTL]
+pursue[d] its available rights” under the Funding Agreement.
+App. 43 (Mot. to Dismiss Op. 43). But, in discussing LTL’s
+financial condition, the Court was “at a loss to understand,
+why—merely because [LTL] contractually has the right to
+exhaust its funding options [under the Funding Agreement]”—
+it was “not to be regarded as being in ‘financial distress.’”
+App. 35 (Id. at 35). It speculated that a draw on the payment
+right could force J&J to deplete its available cash or pursue a
+forced liquidation of New Consumer and have a “horrific
+impact” on those companies. Id. The assumption seems to be
+that, out of concern for its affiliates, LTL may avoid drawing
+on the payment right to its full amount. But this is unsupported
+and disregards the duty of LTL to access its payment assets.
+
+       Ultimately, whether this assumption was made or not,
+the Bankruptcy Court did not consider the full value of LTL’s
+backstop when judging its financial condition. And at the same
+time it acutely focused on how talc litigation affected Old
+Consumer. See, e.g., App. 34 (Mot. to Dismiss Op. 34) (“The
+evidence confirms that the talc litigation . . . forced Old
+[Consumer] into a loss position in 2020”); App. 36 (Id. at 36)
+
+
+
+
+                              49
+(“Old [Consumer] was not positioned to continue making
+substantial [t]alc [l]itigation payments”); App. 38 (Id. at 38)
+(“Old [Consumer] need not have waited until its viable
+business operations were threatened past the breaking point”)
+(emphasis added in each citation). Directing its sight to Old
+Consumer and away from the Funding Agreement’s benefit to
+LTL essentially made the financial means of Old Consumer,
+and not LTL, the lodestar of the Court’s financial-distress
+analysis. This misdirection was legal error.
+
+        We also find a variable missing in the Bankruptcy
+Court’s projections of future liability for LTL extrapolated
+from the history of Old Consumer’s talc litigation: the latter’s
+successes. To reiterate, before bankruptcy Old Consumer had
+settled about 6,800 talc-related claims for under $1 billion and
+obtained dismissals of about 1,300 ovarian cancer and over 250
+mesothelioma claims without payment. And a minority of the
+completed trials resulted in verdicts against it (with some of
+those verdicts reversed on appeal). Yet the Court invoked
+calculations that just the legal fees to defend all existing
+ovarian cancer claims (each through trial) would cost up to
+$190 billion. App. 37 (Id. at 37). It surmised “one could
+argue” the exposure from the existing mesothelioma claims
+alone exceeded $15 billion. App. 17 (Id. at 17). These
+conjectures ballooned its conclusion that, “[e]ven without a
+calculator or abacus, one can multiply multi-million dollar or
+multi-billion dollar verdicts by tens of thousands of existing
+claims, let alone future claims,” to see that “the continued
+viability of all J&J companies is imperiled.” App. 36 (Id. at
+36).
+
+      What these projections ignore is the possibility of
+meaningful settlement, as well as successful defense and
+
+
+
+
+                              50
+dismissal, of claims by assuming most, if not all, would go to
+and succeed at trial. In doing so, these projections contradict
+the record. And while the Bankruptcy Court questioned the
+continuing relevance of the past track record after Ingham and
+the breakdown of the Imerys settlement talks, this assumes too
+much too early. Nothing in the record suggests Ingham—one
+of 49 pre-bankruptcy trials and described even by J&J as
+“unique” and “not representative,” App. 2692-93—was the
+new norm. Nor is there anything that shows all hope of a
+meaningful global or near-global settlement was lost after the
+initial Imerys offer was rebuffed. The Imerys bankruptcy
+remained a platform to negotiate settlement. And the
+progression of the multidistrict litigation on a separate track
+would continue to sharpen all interested parties’ views of
+mutually beneficial settlement values.
+
+        Finally, we cannot help noting that the casualness of the
+calculations supporting the Court’s projections engenders
+doubt as to whether they were factual findings at all, but instead
+back-of-the-envelope forecasts of hypothetical worst-case
+scenarios. Still, to the extent they were findings of fact, we
+cannot say these were inferences permissibly drawn and
+entitled to deference. See Universal Mins., 669 F.2d at 102.
+Hence, they were clearly erroneous. And as we locate no other
+inferences or support in the record to bear the Court’s assertion
+that the “talc liabilities” “far exceed [LTL’s] capacity to satisfy
+[them],” we cannot accept this conclusion either.16 App. 23
+(Mot. to Dismiss Op. 23).
+
+16
+   Because we arrive at the same result assuming the
+Bankruptcy Court was correct to determine LTL was
+responsible to indemnify J&J for all talc costs it incurs, we
+need not opine on this conclusion. Still, we note certain
+
+
+
+
+                                51
+         In this context, it becomes clear that, on its filing, LTL
+did not have any likely need in the present or the near-term, or
+even in the long-term, to exhaust its funding rights to pay talc
+liabilities. In the over five years of litigation to date, the
+aggregate costs had reached $4.5 billion (less than 7.5% of the
+$61.5 billion value on the petition date), with about half of
+these costs attributable to one ovarian cancer verdict, Ingham,
+to date an outlier victory for plaintiffs. While the number of
+talc claims had surged in recent years, still J&J, as of October
+2021, valued the probable and reasonably estimable contingent
+loss for its products liability litigation, including for talc, under
+GAAP, at $2.4 billion for the next two years. Further, though
+settlement offers are only that, we do not disregard LTL’s
+suggestion that $4 billion to $5 billion was at one time
+considered by plaintiffs’ lawyers to be in the ballpark to resolve
+
+
+pertinent factors lack full discussion in the Court’s analysis of
+the indemnity agreement relating to Johnson’s Baby Powder in
+the 1979 Spin Off. App. 163-69 (Third-Party Inj. Op. 24-30).
+For example, it is not obvious LTL must indemnify J&J for the
+latter’s independent, post-1979 conduct that is the basis of a
+verdict rendered against it. See App. 4957 (Agreement for
+Transfer of Assets and Bill of Sale 5 ¶ 4) (Old Consumer’s
+predecessor agrees to assume and indemnify J&J against
+“all . . . liabilities and obligations of every kind and description
+which are allocated on the books or records of J&J as
+pertaining to the BABY Division.”) (emphasis added). It is
+also not clear the indemnity should be read to reach punitive
+damage verdicts rendered against J&J for its own conduct.
+Additionally, the Court never discussed how it reached its
+conclusion that Old Consumer assumed responsibility from
+J&J for all claims relating to Shower to Shower.
+
+
+
+
+                                 52
+virtually all multidistrict ovarian cancer claims as well as
+corresponding additional claims in the Imerys bankruptcy.
+And as noted, we view all this against a pre-bankruptcy
+backdrop where Old Consumer had success settling claims or
+obtaining dismissal orders, and where, at trial, ovarian cancer
+plaintiffs never won verdicts that withstood appeal outside of
+Ingham and mesothelioma plaintiffs had odds of prevailing
+that were less than stellar.
+
+        From these facts—presented by J&J and LTL
+themselves—we can infer only that LTL, at the time of its
+filing, was highly solvent with access to cash to meet
+comfortably its liabilities as they came due for the foreseeable
+future. It looks correct to have implied, in a prior court filing,
+that there was not “any imminent or even likely need of [it] to
+invoke the Funding Agreement to its maximum amount or
+anything close to it.” App. 3747 (LTL’s Obj. to Mots. for Cert.
+of Direct Appeal 22) (emphasis added). Indeed, the Funding
+Agreement itself recited that LTL, after the divisional merger
+and assumption of that Agreement, held “assets having a value
+at least equal to its liabilities and had financial capacity
+sufficient to satisfy its obligations as they become due in the
+ordinary course of business, including any [t]alc [r]elated
+[l]iabilities.” App. 4313 (Funding Agreement 1, ¶ E)
+(emphasis added). This all comports with the theme LTL
+proclaimed in this case from day one: it can pay current and
+future talc claimants in full. See App. 630 (Transcript of N.C.
+“First Day” Hearing, October 20, 2021) (LTL’s counsel telling
+the North Carolina bankruptcy court in his opening remarks
+that “[LTL], New [Consumer], and J&J believe that $2 billion
+exceeds any liability [LTL] could reasonably have for talc-
+related claims . . . .” (emphasis added)).
+
+
+
+
+                               53
+        We take J&J and LTL at their word and agree. LTL has
+a funding backstop, not unlike an ATM disguised as a contract,
+that it can draw on to pay liabilities without any disruption to
+its business or threat to its financial viability. It may be that a
+draw under the Funding Agreement results in payments by
+New Consumer that in theory might someday threaten its
+ability to sustain its operational costs. But those risks do not
+affect LTL, for J&J remains its ultimate safeguard. And we
+cannot say any potential liquidation by LTL of Royalty
+A&M—a collection of bare rights to streams of payments
+cobbled together on the eve of bankruptcy—to pay talc costs
+would amount to financial distress. Plus LTL had no
+obligation, outside of bankruptcy, to sell those assets for cash
+before drawing on the Funding Agreement.
+
+       At base level, LTL, whose employees are all J&J
+employees, is essentially a shell company “formed,” almost
+exclusively, “to manage and defend thousands of talc-related
+claims” while insulating at least the assets now in New
+Consumer. App. 449 (Decl. of John Kim 5). And LTL was
+well-funded to do this. As of the time of its filing, we cannot
+say there was any sign on the horizon it would be anything but
+successful in the enterprise. It is even more difficult to say it
+faced any “serious financial and/or managerial difficulties”
+calling for the need to reorganize during its short life outside
+of bankruptcy. SGL Carbon, 200 F.3d at 164.17
+
+17
+   In saying the nature of the payment right and a lack of
+meaningful operations show that LTL did not suffer from
+sufficient kinds of financial distress, we focus on the special
+circumstances here and do not suggest the presence of these
+characteristics would preclude a finding of financial distress in
+every case.
+
+
+
+
+                                54
+        But what if, contrary to J&J’s statements, Ingham is not
+an anomaly but a harbinger of things to come? What if time
+shows, with the progression of litigation outside of bankruptcy,
+that cash available under the Funding Agreement cannot
+adequately address talc liability? Perhaps at that time LTL
+could show it belonged in bankruptcy. But it could not do so
+in October 2021. While LTL inherited massive liabilities, its
+call on assets to fund them exceeded any reasonable
+projections available on the record before us. The “attenuated
+possibility” that talc litigation may require it to file for
+bankruptcy in the future does not establish its good faith as of
+its petition date. Id. at 164. At best the filing was premature.18
+
+        In sum, while it is unwise today to attempt a tidy
+definition of financial distress justifying in all cases resort to
+Chapter 11, we can confidently say the circumstances here fall
+outside those bounds. Because LTL was not in financial
+distress, it cannot show its petition served a valid bankruptcy
+purpose and was filed in good faith under Code § 1112(b).19
+
+18
+   Some might read our logic to suggest LTL need only part
+with its funding backstop to render itself fit for a renewed
+filing. While this question is also premature, we note
+interested parties may seek to “avoid any transfer” made within
+two years of any bankruptcy filing by a debtor who “receive[s]
+less than a reasonably equivalent value in exchange for such
+transfer” and “became insolvent as a result of [it].” 11 U.S.C.
+§ 548(a). So if the question becomes ripe, the next one might
+be: Did LTL receive reasonably equivalent value in exchange
+for forgoing its rights under the Funding Agreement?
+19
+   Because we conclude LTL’s petition has no valid bankruptcy
+purpose, we need not ask whether it was filed “merely to obtain
+
+
+
+
+                               55
+ F. “Unusual Circumstances” Do Not Preclude Dismissal
+
+         The Bankruptcy Court held, as an independent basis for
+its decision, that even if LTL’s petition were not filed in good
+faith, § 1112(b)(2) of the Code authorized it nonetheless to
+deny dismissal. For a petition to be saved under that provision,
+a court must identify “unusual circumstances establishing that
+. . . [dismissal] is not in the best interests of creditors and the
+estate.” 11 U.S.C. § 1112(b)(2). The debtor (or any other party
+in interest) must also establish “the grounds for . . . [dismissal]
+include an act or omission” (1) “for which there exists a
+reasonable justification” and (2) “that will be cured within a
+reasonable period of time.” Id.
+
+       The Bankruptcy Court ruled that “the interests of
+current tort creditors and the absence of viable protections for
+future tort claimants outside of bankruptcy . . . constitute such
+‘unusual circumstances’ as to preclude . . . dismissal.” App.
+13 (Mot. to Dismiss Op. 13 n.8). But what is unusual instead
+is that a debtor comes to bankruptcy with the insurance
+accorded LTL. Our ground for dismissal is LTL’s lack of
+
+
+a tactical litigation advantage.” BEPCO, 589 F.3d at 618. Yet
+it is clear LTL’s bankruptcy filing aimed to beat back talc
+litigation in trial courts. Still “[i]t is not bad faith to seek to
+gain an advantage from declaring bankruptcy—why else
+would one declare it?” James Wilson Assoc., 965 F.2d at 170.
+While we ultimately leave the question unaddressed, a filing to
+change the forum of litigation where there is no financial
+distress raises, as it did in SGL Carbon, the specter of “abuse
+which must be guarded against to protect the integrity of the
+bankruptcy system.” 200 F.3d at 169.
+
+
+
+
+                                56
+financial distress. No “reasonable justification” validates that
+missing requirement in this case. And we cannot currently see
+how its lack of financial distress could be overcome. For these
+reasons, we go counter to the Bankruptcy Court’s conclusion
+that “unusual circumstances” sanction LTL’s Chapter 11
+petition.
+
+III. CONCLUSION
+
+        Our decision dismisses the bankruptcy filing of a
+company created to file for bankruptcy. It restricts J&J’s
+ability to move thousands of claims out of trial courts and into
+bankruptcy court so they may be resolved, in J&J’s words,
+“equitably” and “efficiently.” LTL Br. 8. But given Chapter
+11’s ability to redefine fundamental rights of third parties, only
+those facing financial distress can call on bankruptcy’s tools to
+do so. Applied here, while LTL faces substantial future talc
+liability, its funding backstop plainly mitigates any financial
+distress foreseen on its petition date.
+
+       We do not duck an apparent irony: that J&J’s triple A-
+rated payment obligation for LTL’s liabilities, which it views
+as a generous protection it was never required to provide to
+claimants, weakened LTL’s case to be in bankruptcy. Put
+another way, the bigger a backstop a parent company provides
+a subsidiary, the less fit that subsidiary is to file. But when the
+backstop provides ample financial support to a debtor who then
+seeks shelter in a system designed to protect those without it,
+we see this perceived incongruity dispelled.
+
+      That said, we mean not to discourage lawyers from
+being inventive and management from experimenting with
+novel solutions. Creative crafting in the law can at times
+
+
+
+
+                                57
+accrue to the benefit of all, or nearly all, stakeholders. Thus
+we need not lay down a rule that no nontraditional debtor could
+ever satisfy the Code’s good-faith requirement.
+
+       But here J&J’s belief that this bankruptcy creates the
+best of all possible worlds for it and the talc claimants is not
+enough, no matter how sincerely held. Nor is the Bankruptcy
+Court’s commendable effort to resolve a more-than-thorny
+problem. These cannot displace the rule that resort to Chapter
+11 is appropriate only for entities facing financial distress.
+This safeguard ensures that claimants’ pre-bankruptcy
+remedies—here, the chance to prove to a jury of their peers
+injuries claimed to be caused by a consumer product—are
+disrupted only when necessary.
+
+        Some may argue any divisional merger to excise the
+liability and stigma of a product gone bad contradicts the
+principles and purposes of the Bankruptcy Code. But even that
+is a call that awaits another day and another case. For here the
+debtor was in no financial distress when it sought Chapter 11
+protection. To ignore a parent (and grandparent) safety net
+shielding all liability then foreseen would allow tunnel vision
+to create a legal blind spot. We will not do so.
+
+        Because it abused its discretion in denying the motions
+to dismiss, we reverse the Bankruptcy Court’s order denying
+the motions and remand this case with the instruction to
+dismiss LTL’s Chapter 11 petition. Dismissing its case annuls
+the litigation stay ordered by the Court and makes moot the
+need to decide that issue.
+
+
+
+
+                              58
+

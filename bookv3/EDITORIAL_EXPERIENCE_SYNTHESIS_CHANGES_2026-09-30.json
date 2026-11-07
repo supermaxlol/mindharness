@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-30_experience_synthesis/12_is_anyone_home.md",
+    "prior_sha256": "b87c0b2467cca4a2dc16360d3de0805ab1e88dcc93590f538f30b13a5f6dcc9c",
+    "current_sha256": "c83771938f3e3fe36f7b2d9fd17abcca6d3b3b4e4e88319d86cf4e2d598ecef4",
+    "reason": "Process-self voice, named rival theories, clinical response channels, and machine-indicator scope"
+  },
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_experience_synthesis/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "44a523826b492fb1c43e7b616335cb3d7d052d9d96ecadb66634bfb4662f2788",
+    "current_sha256": "804804b60df80bf0083fcb4cb934c516e444ddf6845f604ad8c6d2004eae21a6",
+    "reason": "Hamilton as the five-job running case, effective correction, and the Ledger\u2019s durable victory"
+  }
+]

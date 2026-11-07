@@ -1,0 +1,8 @@
+{
+ "lane": "cerebras qwen-3.8-27b (key1 works; /v1/models 403s for all keys incl garbage = endpoint scope, not auth)",
+ "screen": "raw 1-seed exploratory, lab_runs_s126_screen_cerebras",
+ "result": {
+  "raw": 0.6667
+ },
+ "verdict": "NOT discriminating (always-no floor 4/6). Full sham battery on this subject would re-confirm nothing per HANDOFF sec4. Lane is LIVE for future screens."
+}

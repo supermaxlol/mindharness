@@ -1,0 +1,46 @@
+{
+ "model": "nex-agi/nex-n2.5-pro:free",
+ "n_seeds": 2,
+ "results": {
+  "raw": {
+   "per_seed": [
+    {
+     "seed": 1,
+     "attribution_accuracy": 0.6667,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 11851
+    },
+    {
+     "seed": 2,
+     "attribution_accuracy": 0.6667,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 5153
+    }
+   ],
+   "pooled_accuracy": 0.6667,
+   "median_latency_ms": 11851
+  },
+  "harnessed_withcheck": {
+   "per_seed": [
+    {
+     "seed": 1,
+     "attribution_accuracy": 0.6667,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 4903
+    },
+    {
+     "seed": 2,
+     "attribution_accuracy": 0.6667,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 4432
+    }
+   ],
+   "pooled_accuracy": 0.6667,
+   "median_latency_ms": 4903
+  }
+ }
+}

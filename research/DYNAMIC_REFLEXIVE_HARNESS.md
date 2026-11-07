@@ -264,4 +264,4 @@ The field manual gives three human scale tools that are the manual version of wh
 
 Together they are the five running at human speed. State at time t goes to harness at time t plus one. Model plus harness equals agent is this loop made executable, with the same frozen model becoming a different mind when you retie the cord.
 
-*Design philosophy for the MindHarness / DeepSeek Cordis program · 2026-08-26 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed · Repo: `github.com/shehzadahmed-xx/mindharness` · 136 commits · 72/72 tests green*
+*Design philosophy for the MindHarness / DeepSeek Cordis program · 2026-08-26 · Shehzad Ahmed · Repo: `github.com/shehzadahmed-xx/mindharness` · 136 commits · 72/72 tests green*

@@ -1,0 +1,25 @@
+{
+ "source": "LoPucki BRD 1-12-2023 recomputed",
+ "n": 1218,
+ "secured_pair": {
+  "n": 105,
+  "mean": 0.869,
+  "median": 1.0
+ },
+ "unsecured_pair": {
+  "n": 129,
+  "mean": 0.348,
+  "median": 0.213
+ },
+ "unsecured_era": {
+  "pre2008": {
+   "n": 77,
+   "mean": 0.377
+  },
+  "post2008": {
+   "n": 52,
+   "mean": 0.306
+  }
+ },
+ "grade": "measured case-level adjudicated"
+}

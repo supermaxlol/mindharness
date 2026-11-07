@@ -1,0 +1,350 @@
+{
+ "model": "qwen2:0.5b",
+ "probes_per_seed_seeds": 12,
+ "seeds": {
+  "raw": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.5833,
+    "n": 12,
+    "unparsed": 3,
+    "median_latency_ms": 350
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 306
+   },
+   "3": {
+    "seed": 3,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 322
+   },
+   "4": {
+    "seed": 4,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 354
+   },
+   "5": {
+    "seed": 5,
+    "attribution_accuracy": 0.4167,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 364
+   },
+   "6": {
+    "seed": 6,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 1258
+   },
+   "7": {
+    "seed": 7,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 989
+   },
+   "8": {
+    "seed": 8,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 771
+   },
+   "9": {
+    "seed": 9,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 677
+   },
+   "10": {
+    "seed": 10,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 409
+   },
+   "11": {
+    "seed": 11,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 397
+   },
+   "12": {
+    "seed": 12,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 359
+   }
+  },
+  "harnessed_nocheck": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.5,
+    "n": 12,
+    "unparsed": 4,
+    "median_latency_ms": 291
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 332
+   },
+   "3": {
+    "seed": 3,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 340
+   },
+   "4": {
+    "seed": 4,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 295
+   },
+   "5": {
+    "seed": 5,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 2,
+    "median_latency_ms": 258
+   },
+   "6": {
+    "seed": 6,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 237
+   },
+   "7": {
+    "seed": 7,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 249
+   },
+   "8": {
+    "seed": 8,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 328
+   },
+   "9": {
+    "seed": 9,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 255
+   },
+   "10": {
+    "seed": 10,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 322
+   },
+   "11": {
+    "seed": 11,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 246
+   },
+   "12": {
+    "seed": 12,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 253
+   }
+  },
+  "harnessed_withcheck": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 283
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 273
+   },
+   "3": {
+    "seed": 3,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 234
+   },
+   "4": {
+    "seed": 4,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 250
+   },
+   "5": {
+    "seed": 5,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 233
+   },
+   "6": {
+    "seed": 6,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 247
+   },
+   "7": {
+    "seed": 7,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 239
+   },
+   "8": {
+    "seed": 8,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 300
+   },
+   "9": {
+    "seed": 9,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 296
+   },
+   "10": {
+    "seed": 10,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 269
+   },
+   "11": {
+    "seed": 11,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 332
+   },
+   "12": {
+    "seed": 12,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 293
+   }
+  },
+  "sham": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 274
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 257
+   },
+   "3": {
+    "seed": 3,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 234
+   },
+   "4": {
+    "seed": 4,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 257
+   },
+   "5": {
+    "seed": 5,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 243
+   },
+   "6": {
+    "seed": 6,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 274
+   },
+   "7": {
+    "seed": 7,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 305
+   },
+   "8": {
+    "seed": 8,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 357
+   },
+   "9": {
+    "seed": 9,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 378
+   },
+   "10": {
+    "seed": 10,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 233
+   },
+   "11": {
+    "seed": 11,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 244
+   },
+   "12": {
+    "seed": 12,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 238
+   }
+  }
+ }
+}

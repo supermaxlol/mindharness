@@ -1,0 +1,221 @@
+\chapter{Timeline: Borrowing Against Slow Memory}
+\label{ch:timeline}
+
+\textit{Grade for this chapter: measured wherever you see a filing, a tape, or a census; analogical where you see a schematic waterfall or a before-and-after parable. Every number in this chapter is filed, not estimated.}
+
+You own two ledgers and they run at different speeds. One is fast and friendly. It records what happened today, marks it performing, and lets you keep playing. The other is slow and literal. It stores what is actually owed, who actually got paid, and what will actually come due when the music stops. Most of finance lives in the gap between them. This chapter is about borrowing from the slow one.
+
+Imagine a small shop that sells on credit. Each morning the owner writes down who owes what. If a customer asks for more time, the owner can do two things. She can admit the old debt is late and set aside a loss, or she can write a new due date and keep the account marked current. Both describe the same customer. Only one describes the shop honestly. The first hurts today and helps tomorrow. The second protects today and moves the problem to a person who is not at the table yet, maybe a future buyer of the book, maybe a future self who will face the wall all at once.
+
+That is timeline engineering. It does not steal money. It borrows time from a future cohort that did not agree to lend it. Anyone who has made minimum payments on a credit card already knows the shape: the statement stays current while the balance climbs. And here is where the card breaks as an anchor, because honesty requires it: your balance is visible to you every month. The engineered version hides the balance from the person who will end up paying it.
+
+\section{Two speeds, one stock}
+
+Every durable system needs two kinds of memory. Fast memory lets you act now. Slow memory lets you stay honest later. In markets the fast ledger is the working set: marks, facility dates, performing status, current income. The slow ledger is the audited stock: provisions, write offs, realized recoveries, and the hidden inventory that did not get written off.
+
+Timeline games exploit the difference by pushing recognition past the reporting window. Extend a maturity by a year. Roll a facility and re date it as a new loan. Evergreen an exposure so it stays performing on paper while the borrower uses the new cash to service the old loan. Each move is tiny on its own. Together they keep the present solvent while a stock accrues off book.
+
+For a new reader, the economics are a transfer. Current fee takers are paid now. Later holders inherit the stock. They face the wall all at once because walls are discrete. You can roll for eleven quarters and fail in one afternoon. That discreteness is why slow memory matters. Without it you do not see the transfer until it is too late to renegotiate. Three stories compete here and two are decoys. The lightning story says nobody could have seen the crash coming. But the slow ledger watched the stock climb every quarter; it was simply never forced to speak. The bad-apples story says a few rogues hid it. But evergreening runs on the institution's own reporting windows, fee schedules, and auditors reading fast entries. What remains standing: the transfer is the product, not the accident.
+
+The organ that should stop this has a name in this book. It is write off discipline, $Q_t$, the damping that forces the slow ledger to catch up with the fast one. A fund's monthly net asset value, a bank's provisioning cycle, a corporate impairment test, each one is a night shift that is supposed to compare $E_t - R_t$ against $Q_t$ and close the gap. When it does, the hidden stock cannot compound silently. When it does not, the stock is the hidden state and the income statement is the mask.
+
+\section{The law on one line}
+
+We write the stock as
+
+\begin{equation}
+S_t = S_{t-1} + E_t - R_t - Q_t,
+\label{eq:Stimeline}
+\end{equation}
+
+where $E_t$ is extraction or new loss created in period $t$, $R_t$ is realized recovery, and $Q_t$ is write offs or forgiveness. \textit{Measured as accounting identity, analogical until mapped to a specific firm's filing line by line.}
+
+Read it as a vault. $E_t$ puts things in. $R_t$ and $Q_t$ take things out through two different doors. If $E_t$ exceeds $R_t + Q_t$ for many periods, $S_t$ climbs even while income looks calm. If $R_t$ is low because collectability is capped and $Q_t$ is low because recognition is delayed, the climb is silent. The vault fills in silence. The wall arrives as a single period when $Q_t$ must spike and recognition jumps from near zero to near one.
+
+A short parable clarifies the arithmetic without pretending to be a case. Start with $S_0 = 0$. Each period $E = 10$, $R = 2$, $Q = 1$, so $S$ rises by $7$. After ten periods $S_{10} = 70$. Reports showed $7$ of recoveries plus write offs against $10$ of extraction, so net income looked modestly negative but not alarming. The stock tells the other story. Seventy sits off book or under provisioned. When funding tightens and rolls fail, $Q$ must spike to seventy in one period. That spike is the wall. It was not a new shock. It was the stock coming due.
+
+Two speeds are now a formula. Fast entries are $E_t$ with small $R_t$ and smaller $Q_t$. Slow stock is $S_t$. Damping is $Q_t$ catching up. Lose damping and $S_t$ is a runaway.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=0.9cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.2cm, minimum height=1.0cm, align=center, font=\small] (v) {Vault $S_t$\\ \tiny $S_t=S_{t-1}+E_t-R_t-Q_t$};
+  \node[draw, rounded corners, fill=orange!14, minimum width=1.45cm, align=center, font=\small, left=1.3cm of v] (s0) {$S_{t-1}$};
+  \node[draw, rounded corners, fill=green!8, minimum width=1.45cm, align=center, font=\small, above=0.55cm of v] (e) {$E_t$ \tiny new extraction};
+  \node[draw, rounded corners, fill=red!8, minimum width=1.55cm, align=center, font=\small, right=1.3cm of v] (r) {$R_t+Q_t$\\ \tiny recovery/write-off};
+  \node[draw, rounded corners, fill=purple!8, minimum width=1.25cm, align=center, font=\small, below=0.55cm of v] (st) {$S_t$};
+  \draw[->, >={Stealth}] (s0) -- (v);
+  \draw[->, >={Stealth}] (e) -- (v);
+  \draw[->, >={Stealth}] (v) -- (r);
+  \draw[->, >={Stealth}] (v) -- (st);
+  \draw[->, >={Stealth}] (st.west) -- ++(-0.9,0) |- (s0.south);
+\end{tikzpicture}
+\caption{The slow vault. Fast entries add $E_t$, two doors drain it via $R_t$ and $Q_t$, the stock $S_t$ feeds back as $S_{t-1}$. When $Q_t$ sleeps, $S_t$ compounds where no one is looking.}
+\label{fig:timeline-vault}
+\end{figure}
+
+\section{The Day-1 machine at market volume}
+
+We now measure the fast machine at the scale of a market. For a new reader, an \textbf{ABS}, or Asset-Backed Security, is a bond whose payments come from a pool of loans or receivables that have been bundled together, sold to a legal shell, and then resold as securities. A credit card pool, an auto loan pool, a receivables pool, each becomes a bond.
+
+\textit{Measured, SIFMA free pages pulled September 24, 2026, artifact \texttt{sifma\_abs\_2024\_v1.json}:} US ABS issuance hit \$388.1B in 2024, up 43.3\% year over year. That sits against \$1.6T of MBS and \$2.0T of corporates in the same year, with total fixed income outstanding at \$50.5T in first quarter 2026 and Treasuries at \$30.8T inside that total.
+
+Read that slowly. ABS is not a corner. It is one of the three big factories that turn future cash into present cash. Up 43.3\% in a single year means the Day-1 monetization channel was running hot. Future collections were pulled into present proceeds at scale. Fees were taken now. The slow vault received the residual risk, the tail that no one is paid to price at issuance.
+
+This is timeline engineering at market volume, not at single deal anecdote. The machine does not need fraud to do this. It needs volume and a reporting window that lets the slow leg sit outside the frame until the wall. The number that matters here is not just \$388.1B. It is the growth rate. Plus 43.3\% on an already large base is the speed at which slow claims are being manufactured faster than slow memory can be audited.
+
+\subsection*{Worked arithmetic: what +43.3\% means for the vault}
+
+A growth rate is an $E_t$ number. Start from the SIFMA tape \texttt{sifma\_abs\_2024\_v1.json}: \$388.1B at +43.3\% year over year implies 2023 issuance of about \$270.8B ($388.1 / 1.433$). The increment alone, $388.1 - 270.8 = 117.3$B, is itself larger than most full-year ABS vintages before 2020. If even 3\% of that increment were to sit as unpriced tail risk in the slow vault, $S_t$ rose by $3.5$B in one year from ABS alone before any write-off $Q_t$ arrives. At 5\% tail share the vault took $5.9$B. No fraud needed, only a reporting window that prices senior tranches tightly and leaves the residual tail where no buyer is paid to look.
+
+Do the same arithmetic for dividend recaps. \$81B in 2024 across 103 deals is \$786M per deal on average; 9.3\% of LBO volume in 2.6\% of deals (1,572 of 61,628, NBER w33435) means the average recap is about 3.6 times the average buyout by dollars while being a small share by count — larger deals create larger $S_t$ per gate. Debt to EBITDA moving up 67pp against down 34pp for controls is a net swing of $67 - (-34) = 101$pp of leverage that must be serviced by future cash flow. If a company had \$200M of EBITDA at close, that swing is about \$202M of additional debt sitting in the vault the day the dividend is paid, with sponsors booking 3.6 times TVM on the way out and the company carrying 67pp more leverage on the way forward. The Vardi 2013 \$85M payout at 370\% ROE is one deal's crystallized $E_t$ before the $Q_t$ calendar has had a chance to speak.
+
+Put the two machines side by side in one $S_t$ equation and the scale is honest: ABS added $117$B of gross Day-1 monetization year over year; recaps added \$81B of Day-1 dividends; one bank's Day-N return of \$100.4B (BofA, Jan 1 2010, 10-K acc. 0000950123-11-018743) is the same order of magnitude as either flow, which is how you know $S_t$ was real and not a metaphor. Gross issuance is not vault stock, but it is the pipe that feeds it, and the pipe was running at record speed into 2025 (\$35B in 1H25, \$22.4B by mid-Feb at +60\% YoY).
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=0.6cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.6cm, align=center, font=\small] (abs) {ABS \$388.1B \\ \tiny +43.3\% YoY};
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.6cm, align=center, font=\small, right=0.7cm of abs] (recap) {Recaps \$81B \\ \tiny 103 deals};
+  \node[draw, rounded corners, fill=green!8, minimum width=2.6cm, align=center, font=\small, right=0.7cm of recap] (h125) {1H25 \$35B \\ \tiny +60\% early};
+  \node[draw, rounded corners, fill=red!8, minimum width=2.6cm, align=center, font=\small, right=0.7cm of h125] (mirror) {BofA mirror \\ \tiny +\$100.4B};
+  \draw[->, >={Stealth}] (abs) -- (recap);
+  \draw[->, >={Stealth}] (recap) -- (h125);
+  \draw[->, >={Stealth}] (h125) -- (mirror);
+\end{tikzpicture}
+\caption{Two Day-1 machines and one Day-N mirror. ABS issuance and dividend recap volume both running hot into 2025, then one bank's \$100.4B return to book when the QSPE permission slip died. Same loan from slow memory, taken many times, partly returned when one gate closed.}
+\label{fig:timeline-machines}
+\end{figure}
+
+\section{Dividend recaps: the parallel track}
+
+A dividend recapitalization, or dividend recap, is simpler. A company owned by a private fund borrows more and uses the new debt to pay its owners a dividend. The company is now more levered. The owners have cash. Fees are taken at the deal table. The slow vault, in the form of higher leverage and higher debt service, stays inside the company.
+
+\textit{Measured, market tape via PitchBook and LCD as summarized in \texttt{divrecap\_market\_v1.json}:} \$81B in 2024, near record, across 103 deals, with institutional volume up about 500\% off 2023. That pace continued into 2025: \$35B in first half 2025, and \$22.4B by mid February 2025 alone, up 60\% year over year, with high yield bonds entering the recap funding mix at 7.36\% after a period when recaps were funded almost entirely by loans at 91\% share.
+
+Those are not small numbers drifting sideways. They are a second Day-1 machine running alongside ABS, pulling future cash into present payouts. One machine securitizes tradable pools. The other leveres operating companies and dividends the proceeds. Both share the same time shape. Present fee takers are paid in full at close. Future holders, later lenders, later employees, later creditors, inherit the higher $S_t$.
+
+Academic measurement now confirms this is structural, not anecdotal. \textit{Measured, first academic census NBER working paper w33435 as extracted in \texttt{divrecap\_nber\_extract\_v1.json} and \texttt{divrecap\_market\_v1.json}:} 61,628 US leveraged buyouts collapse to 1,572 dividend recaps, which is 2.6\% of deals but 9.3\% of volume. That concentration matters. A small share of deals moves a large share of dollars. Between 36\% and 43\% of general partners have done at least one recap. In the Gupta UNC 2024 companion, causal stakeholder estimates accompany the census. The channel is now census measured as a recurring type, not an outlier story.
+
+The census also measures who gets recapped and what changes at the target. \textit{Measured, same NBER extract:} targets average 3.6 times total value to paid in against 2.7 times for overall buyouts. Gross profit change averages plus 105\% in recapped targets against minus 18\% in controls. Debt to EBITDA moves up 67 percentage points for recaps against down 34 points for controls. Distress frequency is 12.9\% for recapped firms against 9.8\% for controls. The pattern selects healthier firms, levers them, and leaves modestly elevated distress. Healthy in, more levered out, with the fee taken in between.
+
+Two caveats travel with that census. The single deal fee waterfall that follows is widely cited but not census measured, and contested recaps where solvency is litigated are allegations, not holdings, until a court decides. We keep those grades separate.
+
+\section{One deal, one waterfall, one contested edge}
+
+\textit{Analogical on the fee waterfall shape; measured on the single deal citation and on the existence of contested filings.}
+
+At single deal scale the shape is easy to see. The widely cited example in Vardi 2013, held in \texttt{divrecap\_nber\_extract\_v1.json}, records an \$85M payout that produced a 370\% return on equity for sponsors at that deal's close. That is Day-1 in one number. A payout taken now, a return crystallized now, a company left to service the new debt over the slow years. Whether that specific 370\% is typical does not matter for the mechanism. That it is cited as a real deal matters for existence. The channel can carry 370\% to sponsors while the company carries the leverage forward.
+
+\textit{Analogical, schematic, not a filing reconstruction:} picture the fee waterfall in a leveraged recap. Transaction fees sit at the top, monitoring fees in the middle, financing fees alongside, equity dividend at close. Each is paid from proceeds or from the new debt before the company earns the cash to service it. The waterfall is analogical because the exact split varies by deal and by management services agreement, but the ordering is not analogical. Present fees prime future service. That ordering is arithmetic.
+
+The contested edge is where the slow vault's bill arrives in court. \textit{Measured as filings that exist, not as decided truth:} creditors have alleged in cases including Buffets funded by Caxton Iseman, KB Toys involving Bain in 2012, and Cerberus with Steward, that dividend recaps rendered firms insolvent or left them unable to survive a downturn. Those are allegations of $Q_t$ suppressed while $S_t$ rose, with insolvency as the claimed wall. We grade them as contested extractions, measured as docket entries and press filings, not as holdings. The mechanism they allege is always the same. Economics upstreamed as dividend and fees, liabilities left downstream, recourse stopping at the corporate boundary.
+
+One sentence should stay with you. When you see an \$85M Day-1 payout that books 370\% to sponsors inside a \$81B year of recaps, you are not looking at an outlier. You are looking at the same time transfer the ABS machine does, done instead inside operating companies and paid as dividend rather than as bond proceeds.
+
+\section{Why damping sleeps and why walls are discrete}
+
+A ledger does not enforce itself. People do, or they do not. Write off discipline sounds technical. In practice it is a calendar and a courage problem. When does someone have to look, and will they write what they see.
+
+In funds the calendar is the monthly net asset value. In banks it is the provisioning cycle and the quarterly call report. In operating companies it is the impairment test and the audit committee that signs it. Each is a night shift that is supposed to compare the fast story against the slow stock and force $Q_t$ to catch up. When the night shift is well lit, well paid to be honest, and separate from the desk that books $E_t$, $Q_t$ catches up and $S_t$ cannot compound far. When the night shift is dim, rushed, or paid by the same desk that booked $E_t$, $Q_t$ sleeps and $S_t$ grows.
+
+Three small frictions are enough to put damping to sleep. First, the cost of looking is paid now and the benefit arrives later, and later has no representative in the room. Second, the person who booked $E_t$ is often the person who must approve $Q_t$, so admitting $Q_t$ is admitting their own prior mark was wrong. Third, everyone is doing it at the same time, so the peer group that should supply discipline instead supplies cover. None of these needs collusion. Each is just a quiet incentive to look away for one more period.
+
+Walls are discrete for a related reason. Maturities do not drift. They expire on a date. Facilities do not fade. They either roll or they do not. A conduit either finds buyers for its new paper or it does not. A dividend recapped company either covers its new interest from cash flow or it needs a new facility to cover it. The distribution of outcomes is therefore not a gentle slope. It is a cliff with a long approach. You can walk the approach for years while inspections say performing. Then one date does not clear and recognition jumps. That jump is why $S_t$ is a vault and not a curve. You fill it grain by grain, then the door is forced at once.
+
+Put those two facts together and the timing of loss is not mysterious. Slow $S_t$ rises while damping sleeps, fast entries keep printing Day-1 fees, and a discrete wall converts the stock to a flow in one period. Anyone who tells you later that the wall was a surprise is selling you a story about volatility. The vault was not volatile. It was filling.
+
+\section{How to read a census without being fooled}
+
+A census is only useful if you know how to read it. The NBER census that counts 61,628 buyouts down to 1,572 recaps is not a claim that every recap is the same. It is a map of where the parallel track runs hottest and what changes when it does.
+
+Read concentration first. If 2.6\% of deals carry 9.3\% of volume, the average recap is larger and more levered than the average buyout. That matters for $S_t$ because larger deals create larger stocks per deal while using the same small number of gates to do it. One large recap can move more future debt service than five small buyouts combined, and it can do it with one set of transaction fees taken at close.
+
+Read selection second. The census finds that recapped targets average 3.6 times total value to paid in against 2.7 times for the average buyout, with gross profit up 105\% against down 18\% for controls. That is not a story about weak firms being milked. It is a story about strong firms being levered precisely because they can bear more debt for a while. Health selects for capacity to carry $S_t$ forward. That selection is why distress rises only modestly in the averages, from 9.8\% to 12.9\%, even while Debt to EBITDA moves up 67 percentage points against down 34 for controls. The healthy can carry more before they break, so the stock can be larger before the wall.
+
+Read the fee waterfall third, and read it with its grade. \textit{Analogical, schematic.} Transaction fees, monitoring fees under management services agreements that require no work to be performed and are rebated only 70 to 72\% on average, financing fees, and the dividend itself, each is paid before the company must earn the cash to service the new debt. The SEC has fined several general partners and extracted \$4.5M plus \$5.4M repaid in one offset failure action alone, with fee offsets a perennial exam priority. That enforcement is measured. The waterfall shape inside any given deal remains analogical because the split varies, but the ordering is not analogical. Present fees prime future service, every time.
+
+\begin{table}[h]
+\centering
+\small
+\caption{What the first academic census finds when a firm is dividend recapped, NBER w33435 as extracted}
+\label{tab:recap-census}
+\begin{tabular}{p{4.2cm} p{2.6cm} p{2.6cm}}
+\toprule
+Measure & Recap target & Control buyout \\
+\midrule
+Share of sample & 1,572 / 61,628 (2.6\%) & remainder \\
+Share of volume & 9.3\% & 90.7\% \\
+GPs ever having done one & 36 to 43\% of GPs &  \\
+TVM (total value to paid in) & 3.6 times & 2.7 times \\
+Gross profit change & +105\% & --18\% \\
+Debt to EBITDA move & +67 pp & --34 pp \\
+Distress frequency & 12.9\% & 9.8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Read distress last, and read it slowly. A rise from 9.8\% to 12.9\% looks small until you multiply it by a larger deal, a larger debt load, and a larger $S_t$ per deal. Three extra distressed firms out of a hundred does not sound like a wall. Multiply by \$81B of 2024 issuance and by the refinancing wall that clusters two to three years forward, and the same three points become a filing wave that arrives on one calendar, not spread over ten.
+
+The census also helps you see what the contested cases allege. In Buffets, in KB Toys in 2012, in Cerberus with Steward, the claim is not that recaps always fail. It is that at that deal, on that date, $Q_t$ was suppressed while $S_t$ was raised enough that insolvency followed. Those are allegations measured as dockets, not holdings, and we keep them graded that way. The mechanism they allege is always the time shape you already know. Day-1 dividend and fees now, levered company carrying the stock, wall later.
+
+One habit makes you harder to fool. Whenever you see a Day-1 number, ask where the slow vault received its offset. If you can name the vault, name its $Q_t$ calendar, and watch whether $Q_t$ is rising with $E_t$, you have a checkable view. If you cannot, you have a story.
+
+\section{The mirror event: when slow memory snaps back}
+
+If timeline games could run forever, there would be no fact. They cannot. Slow memory eventually forces its way back onto the fast ledger. That forcing has a date and a dollar amount, and it was public.
+
+For a new reader, a \textbf{SPV}, or Special Purpose Vehicle, is the legal shell that holds securitized assets off the sponsor's balance sheet. A \textbf{QSPE}, or Qualifying Special Purpose Entity, was the accounting category that let certain SPVs stay off balance sheet without ongoing consolidation tests. An \textbf{SPV} is the box. A \textbf{QSPE} was the permission slip that said the box did not count.
+
+On January 1, 2010, the permission slip died. SFAS 166 and 167, the consolidation guidance, killed the QSPE concept. Boxes that had counted as off book the day before now had to be tested for consolidation. If the sponsor controlled them or bore their risks, they came back on book.
+
+\textit{Measured, Bank of America 2010 10-K, accession 0000950123-11-018743, artifact panel \texttt{edgar\_VIE\_panel\_prose\_v1.json} and \texttt{edgar\_K\_panel\_v1.json}:} Bank of America consolidated \$100.4B of assets on January 1, 2010, consisting of \$69.7B of credit card trusts plus \$30.7B of special purpose entities including multi seller conduits, with \$106.7B of liabilities including \$84.4B of long term debt, and a \$6.2B net of tax charge to retained earnings.
+
+Read that again. One hundred point four billion dollars reappeared on one bank's balance sheet in one quarter because a rule changed. Not because the economics changed that quarter. The economics had been there. The permission to keep them off book changed. The slow vault opened on camera.
+
+For a new reader who has never seen a bank footnote, that is the whole lesson in one event. What Day-1 pulls out, Day-N forces back. The hundred billion did not become real on January 1, 2010. It became visible. The transfer from later holders to earlier fee takers, the $S_t$ that had compounded off book through years of issuance and recap, could no longer roll past the reporting window once the window moved. Recognition $\psi$ jumped toward one in a single period because walls are discrete, exactly as the $S_t$ law predicts.
+
+The mirror proves three things at once. First, the stock was real all along, not a theory. Second, damping is not optional. When $Q_t$ is suppressed by design, $S_t$ does not vanish, it waits. Third, a rule change can be a wall. Maturity walls and funding walls are not the only discrete events that force recognition. An accounting wall does the same work. The cohort that thought it had bought a clean balance sheet inherited the stock that prior cohorts had been paid to create.
+
+Keep the BofA number next to the ABS and recap numbers and the picture sharpens. ABS issuance at \$388.1B plus 43.3\% growth, dividend recaps at \$81B and still growing into 2025, and one bank's Day-N return of \$100.4B after years of Day-1 extraction, these are not three separate stories. They are the same loan from slow memory, taken many times, by many hands, and then partly returned when one gate closed. The residual, the part not returned, is $S_t$ still sitting in vaults whose gates have not yet closed.
+
+Two details deserve care. The BofA charge to retained earnings was net of tax, \$6.2B, which tells you the consolidation was not cosmetic. It hit equity. And the multi seller conduit piece inside the \$30.7B is instructive. Conduits are the purest timeline vehicle. They fund long assets with short paper and roll forever, or until they cannot. Bringing them back on book is the literal return of a timeline bet to the balance sheet that made the bet.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, >=Stealth]
+  % timeline axis
+  \draw[->, very thick] (-6.2,0) -- (6.2,0) node[right, font=\small] {time};
+  % Day-1 region
+  \fill[blue!7, rounded corners] (-6, -1.2) rectangle (-0.15, 1.8);
+  \node[align=center, font=\small\bfseries] at (-3.1, 1.4) {Day-1: monetize};
+  \node[align=center, font=\tiny] at (-3.1, 0.95) {\$388.1B ABS (+43.3\%) \& \$81B recaps};
+  \node[align=center, font=\tiny] at (-3.1, 0.55) {fees \& dividends paid now};
+  \node[align=center, font=\tiny, text=blue!60!black] at (-3.1, 0.15) {$E_t$ large, $R_t$ small, $Q_t \approx 0$};
+  \node[align=center, font=\tiny] at (-3.1, -0.35) {vault $S_t$ rises};
+  \node[align=center, font=\tiny] at (-3.1, -0.75) {performing marks};
+  % Day-N region
+  \fill[red!7, rounded corners] (0.15, -1.2) rectangle (6, 1.8);
+  \node[align=center, font=\small\bfseries] at (3.1, 1.4) {Day-N: mirror};
+  \node[align=center, font=\tiny] at (3.1, 0.95) {BofA +\$100.4B on book};
+  \node[align=center, font=\tiny] at (3.1, 0.55) {\$69.7B cards + \$30.7B SPEs};
+  \node[align=center, font=\tiny, text=red!60!black] at (3.1, 0.15) {$Q_t$ spikes, $\psi \to 1$};
+  \node[align=center, font=\tiny] at (3.1, -0.35) {\$6.2B to equity (net of tax)};
+  \node[align=center, font=\tiny] at (3.1, -0.75) {wall: QSPE death Jan 1 2010};
+  % vault in middle
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.0cm, minimum height=0.7cm, align=center, font=\scriptsize] at (0, -1.7) {Vault $S_t = S_{t-1}+E_t-R_t-Q_t$};
+  \draw[->, blue!60!black, thick] (-2.2, -1.2) -- (-0.7, -1.55);
+  \draw[->, red!60!black, thick] (2.2, -1.2) -- (0.7, -1.55);
+  % wall line
+  \draw[very thick, dashed, gray] (0, -1.2) -- (0, 1.8) node[above, font=\tiny, gray] {wall};
+\end{tikzpicture}
+\caption{Day-1 vs Day-N mirror timeline. Left: Day-1 monetization (ABS \$388.1B at +43.3\% YoY, recaps \$81B) pays fees now while $S_t$ rises off book ($Q_t \approx 0$). Right: Day-N mirror (BofA Jan 1 2010: +\$100.4B assets, +\$106.7B liabilities, \$6.2B equity charge) forces $S_t$ back on book when QSPE dies. Dashed wall is discrete: $\psi$ jumps $0 \to 1$ in one period. Sources: \texttt{sifma\_abs\_2024\_v1.json}, \texttt{divrecap\_market\_v1.json}, BofA 10-K acc. 0000950123-11-018743, \texttt{edgar\_K\_panel\_v1.json}.}
+\label{fig:timeline-mirror}
+\end{figure}
+
+This chapter's grade is steady. SIFMA tape and census counts are measured. The BofA mirror is measured in a primary filing. The single deal 370\% and the contested insolvency allegations are measured as cited instance and as contested filings respectively. Schematic waterfalls remain analogical on purpose, labeled as such, because the deal level split varies. The $S_t$ law itself stays formal, an identity that becomes empirical only when mapped to provisions and write offs line by line, which happens in later chapters.
+
+The wall is never a surprise to the vault. It is only a surprise to those who were paid not to look at it.
+
+Timeline tells you when loss will arrive. Entity tells you where it will be parked so that, when it arrives, the claim against it is already small. Turn the page and we redraw the boundary.
+

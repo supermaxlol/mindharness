@@ -1,0 +1,15 @@
+{
+ "red_river": {
+  "case": "In re Red River Talc LLC, S.D. Tex. No. 24-90505",
+  "filed": "2024-09-20 prepack, $9B trust, 90K claimants voted",
+  "outcome": "denied confirmation + dismissed Mar 31 2025 (Judge Lopez); J&J will not appeal, returns to tort, ~$7B reserves reversed",
+  "meaning": "third Two-Step failure, two jurisdictions; strategy dead by announcement"
+ },
+ "korea_zinc": {
+  "event": "Dec 2025 FTC field raid (Dec 17-19) on Young Poong/YPC",
+  "mechanism": "YPC created Mar (100% equity), 5.26M Korea Zinc shares (25.42%) contributed in-kind -> new circular link YoungPoong>KoreaZinc>SunMetal>YoungPoong",
+  "law": "MRFTA mutual-investment tier bar on new circular links; 2006 review -> 2007 amendments (holding companies); KLRI e-law English text exists",
+  "meaning": "reform-bypass live in real time: new subsidiary defeats old ban"
+ },
+ "grade": "trade press + court records (Red River); Korean press + KFTC primary-adjacent (Zinc)"
+}

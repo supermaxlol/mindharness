@@ -1,0 +1,95 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "base_url": "https://api.groq.com/openai/v1",
+ "n_seeds": 1,
+ "turns": 200,
+ "results_by_arm": {
+  "reversible": [
+   {
+    "turns": 208,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": 0.148,
+    "arousal": 0.221,
+    "sm_revisions": 6,
+    "memory_items": 58,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 216,
+     "spans_total": 216,
+     "spans_with_source_ref": 216,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "ledger_health": {
+     "coverage_ratio": 1.0,
+     "query_rate": 0.0,
+     "emissions": 215,
+     "score": 0.5,
+     "directives": [
+      "ledger never consulted: query the ledger before claims, or coverage is theatre"
+     ],
+     "healthy": false
+    },
+    "last_calibration": {
+     "old": 0.6,
+     "new": 0.6,
+     "changed": false,
+     "reason": "diagnose-rate 0.000 within target; holding",
+     "diagnose_rate": 0.0
+    },
+    "reliance": {
+     "override_rate": 0.0,
+     "trend": "stable",
+     "reads_as": "steady reliance"
+    },
+    "reliance_history": [
+     0.0
+    ],
+    "arm": "reversible",
+    "seed": 1,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 0,
+    "median_latency_ms": 2825,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 200,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 175,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 1.0,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": []
+   }
+  ],
+  "irreversible": []
+ },
+ "exploratory": true
+}

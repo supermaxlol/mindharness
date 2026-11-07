@@ -139,7 +139,7 @@ The boulder rolls downhill because gravity was always there — we just built th
 
 ---
 
-*Research synthesis · 2026-08-27 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed*
+*Research synthesis · 2026-08-27 · Shehzad Ahmed*
 *Sources: White et al. 1986 (C. elegans), Ryan et al. 2016 (Ciona), Verasztó et al. 2016 (Platynereis), Dorkenwald et al. 2023 (FlyWire), Takemura et al. 2024 (full CNS), Human Connectome Project, MouseLight, Nayebi UAI 2026 (selection theorems)*
 *Companion to: PROGRAM_SYNTHESIS_DETAILED.md, DYNAMIC_REFLEXIVE_HARNESS.md, RESEARCH_MIRROR.md, AGENCY_AND_THE_CONSTRUCTED_SELF.md*
 *Program: MindHarness · Repo: github.com/shehzadahmed-xx/mindharness · 78/78 green, 141 commits*

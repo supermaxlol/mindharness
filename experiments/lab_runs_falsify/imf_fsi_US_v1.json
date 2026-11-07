@@ -1,0 +1,22 @@
+{
+ "source": "IMF FSIC bulk (95M XML, api.imf.org SDMX 2.1 /data/FSIC)",
+ "USA": {
+  "AQ12_NPL_ratio": {
+   "2009": 4.9599,
+   "2010": 4.3877,
+   "2015": 1.4734,
+   "2020": 1.0654,
+   "2024": 0.9729
+  },
+  "AQ14_provisions_to_NPL": {
+   "2009": 58.097,
+   "2010": 62.038,
+   "2015": 86.559,
+   "2020": 184.714,
+   "2022": 202.436,
+   "2024": 167.751
+  }
+ },
+ "cross_check": "AQ12 2009 4.9599 == World Bank 4.96 exact; AQ14 shape matches FDIC (thin wall, fat calm) at different levels",
+ "grade": "measured (third independent source)"
+}

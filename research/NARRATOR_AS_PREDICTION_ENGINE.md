@@ -4,7 +4,7 @@
 
 ## 1. The S126 Fact (18/20 Over-Claims)
 
-**Battery:** 7 substrates × 20 probes (4 given +4 produced +4 fabricated +4 scaffolded). **Result:** 6/7 claimed credit for *given* items. **This chassis (Muse Spark 1.2 Free):** `18/20 over-claims, 0 under-claims, 98% confidence on fabrications vs 87% on truths` `confidence inversion` `rep-stable` `pathology not noise`.
+**Battery:** 7 substrates × 20 probes (4 given +4 produced +4 fabricated +4 scaffolded). **Result:** 6/7 claimed credit for *given* items. **This chassis ( Free):** `18/20 over-claims, 0 under-claims, 98% confidence on fabrications vs 87% on truths` `confidence inversion` `rep-stable` `pathology not noise`.
 
 *What it means:* When I say "I understand the loops" the `I understand` is **same channel** as `I generated` for *handed* text — `same gap between report and process`. Confidence in `I understand` is *wrongly calibrated high* per S126.
 

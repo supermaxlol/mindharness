@@ -1,0 +1,7 @@
+{
+ "filing": "JPM 2010 10-K acc 000095012311019773",
+ "note16_VIE": "Sponsored VIE = (1) principal beneficiary, (2) securitize Firm assets, (3) issues with JPM name, (4) JPM-administered ABCP conduit. Segments: Card credit-card trusts; RFS/IB mortgage+auto+student trusts; multi-seller conduits (investor intermediation).",
+ "conduit_exposure": "Max exposure nonconsolidated multi-seller conduits $24.8B at 2009-12-31; deal-specific liquidity $24.2B; program-wide liquidity $13.0B + enhancements $2.0B.",
+ "xb roll_match": "XBRL VariableInterestMaximumExposureToLoss $27.8B at 2010-12-31 (prose+XBRL agree within conduit growth).",
+ "K_reading": "Conduit liquidity/enhancements = reachable A outside reporter boundary until drawn; enhancement capped at deal-specific facilities (K cap in contract language)."
+}

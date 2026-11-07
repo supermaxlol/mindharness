@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/03_cash_before_cost.md",
+    "prior": "development/editorial_2026-09-30_return_clock/03_cash_before_cost.md",
+    "prior_sha256": "be714062eef390dadc739ed0b3436ca2b89d809b280be8e087f58eb0b9081a18",
+    "current_sha256": "a17ceee7a97d078c15fa059c202945bc2811aeae8fd7065431345a516ae4f9eb",
+    "reason": "Added the court-record payout-day net-worth letter and legal-action gap, the accrued note, raw distress comparison, and credit-supply rival test."
+  }
+]

@@ -1,0 +1,680 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage[numbers]{natbib}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds}
+\usepackage{longtable,booktabs,array}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+
+\title{Reflexive Loops at Every Scale:\\[4pt]
+\Large Witnesses, Markets, Minds, Machines, and the Question of What Survives\\[6pt]
+\normalsize A Synthesis: From Synapse to Cosmos, With Evidence}
+\author{Shehzad Ahmed \\ \small Baraka Protocol / MindHarness Research Programme \\ \small \texttt{github.com/shehzadahmed-xx/mindharness}}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A calcium ion strengthens the synapse that admitted it. A trader's buying moves the price her belief was about. A language model conditions on its own output. An AI agent pays for data from its own wallet. Different substrates, one shape: a system acting on a world containing itself, rewriting the conditions for its next actions. We synthesize evidence from neuroscience, quantitative finance, artificial intelligence, contemplative traditions, and cosmology around a single invariant: stable reflexive loops develop five organs --- boundary, two-speed memory, salience gate, damping, internal observer --- or are exploited by the task distribution that needs them. Three independent 2026 results triangulate the witness thesis (Panickssery $r=0.94$; Weco AIDE\textsuperscript{2} 63\%$\to$34\%; Dream-RSI 42\% fewer calls); recursive self-improvement sits honestly at Level~1 of 4 with the evaluator as binding constraint; evolved wiring transfers to machines while human scaling stays map-blocked; machine economies acquire real stakes through self-funding. Each claim carries an evidence grade (measured, theoretical, convergent, analogical, open). The practical conclusion is unchanged and now industrially urgent: checkability, not capability, is the scarce resource, and witnesses must precede power. \\[4pt]
+\textit{Keywords:} reflexivity, Goodhart's law, global workspace, predictive processing, AI alignment, recursive self-improvement, connectomics, agent economies, provenance, metacognition.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+%==============================================================================
+\section{Introduction: One Loop, Five Organs}
+\label{sec:intro}
+%==============================================================================
+
+\begin{definition}[Reflexive loop]
+A dynamical system $S$ coupled to a world $W$ is \emph{reflexive} iff $S \subset W$ in the causally relevant sense: actions of $S$ alter $W$, and the altered $W$ constitutes the input to $S$'s next act. Formally, with state $x_t$ and observation $y_t = h(x_t, a_{<t})$ depending on the system's own action history, the map is part of the territory.
+\end{definition}
+
+For a new reader: think of a loop where the output folds back into the input. A credit rating predicts default risk, the published rating then changes borrowing cost, which changes default risk itself. A brain predicts what it will feel, that prediction triggers body responses, which become the sensations the brain then perceives. A model writes a summary, the next prompt includes that summary as context, so the model reads its own prior claim as if it were data. In each case the system cannot step outside to get a clean view. Its beliefs help make the world its beliefs are about. That is reflexivity. It is not a metaphor. It is a causal topology where the arrow from world to system passes through the system's own prior acts.
+
+Two channels carry every action outward: a \textbf{physical channel} (the order executes, calcium floods, tokens are spent) and an \textbf{informational channel} (others observe the act and change behavior because of what it \emph{meant}). When both run, three consequences break normal logic at every scale: models rot from use, measurement corrupts, truth moves (\S\ref{sec:markets}).
+
+\begin{proposition}[The five organs]
+Any reflexive loop that persists under selection pressure develops, or is exploited for lacking, five functional organs: (1) \textbf{boundary} --- what counts as inside vs outside; (2) \textbf{two-speed memory} --- fast labile plus slow structural storage, with a consolidation operation; (3) \textbf{salience gate} --- what gets tagged for consolidation; (4) \textbf{damping} --- what prevents runaway positive feedback; (5) \textbf{internal observer} --- a slower loop watching a faster one, with veto power, measured as $\gamma$ = changed/diagnosed.
+\end{proposition}
+
+For the new reader, what each organ does and why it cannot be skipped:
+
+\textbf{Boundary} decides what counts as the system and what counts as world. Without it attribution fails. A loss on a subsidiary with no legal link to the parent is not your loss until a gate reclassifies it. Mechanism: membership tests that draw the line. Break it and risk walks across the line. Lose the boundary and you lose the ability to say whose loss this is.
+
+\textbf{Two-speed memory} keeps a fast working store that can learn in one shot and a slow structural store that learns across many examples, plus a consolidation operation that moves tagged traces from fast to slow. Mechanism: hippocampal style fast trace plus cortical slow weights, or working context plus nightly replay and checkpoint. Break it and the system either forgets by morning or freezes on first impression. It needs both speeds.
+
+\textbf{Salience gate} decides what is tagged for consolidation. Not everything deserves to persist. Mechanism: surprise, affect, or error magnitude opens the gate, the mundane does not. Break it and trivia crowds out signal, or important rare events never get written. The gate sets what the future will remember.
+
+\textbf{Damping} prevents positive feedback from running to the wall. Mechanism: inhibition, normalization, downscaling, circuit breakers, cool downs. Without it a detection becomes a panic, a price move becomes a crash, a repetition becomes a fixed loop. Damping bounds the gain.
+
+\textbf{Internal observer} is a slower loop watching a faster one with veto power. Mechanism: mismatch monitoring, drift detection, private scoring, adversarial re checking. Its yield is $\gamma$ equals changed over diagnosed. If $\gamma$ is near zero the watcher reports but never steers. Lose it and the loop cannot correct its own bias because no separate vantage exists.
+
+\textit{Grade: analogical (interpretive).} The boundary organ has a precise image in the Barzakh tradition (Qur'an 55:19-20: two seas meet with a \emph{barzakh} between them, neither transgressing). Read as design, not doctrine: a barzakh is an isthmus that is both and neither, with properties of both sides. It recurs at five scales: skin (inside vs world), now (200-500\,ms stitched present), dream (offline simulation), heart (value integration), cosmos (interface of seen and unseen). At each scale the fence does not merely divide, it \emph{constitutes} the relation by gating what crosses. Its faculty is \emph{khayal} (imagination): counterfactual simulation, the mind's offline world where alternatives are tried without paying the price. Its completed form is the Perfect Man (\emph{al-insan al-kamil}): not a saint only, but the loop fully harnessed, where the observer watches, the gate holds, and the broadcast serves the whole. Ibn Arabi's seven doors of the heart map onto the five organs by collapsing openings that are gates by another name. Five remains the minimal count. This reading is interpretive. It guides architecture. It does not count as measured evidence.
+
+A second image clarifies what a loop can and cannot guarantee. Ash'arite occasionalism denies necessary causation. What we call cause is habit (\emph{ada}): cotton is followed by burning when fire touches it, given the habitual course (\emph{sunna}) under condition $C$, not produced by fire itself. In finance this is \emph{riba} versus \emph{musharaka}. Riba writes a fixed increment regardless of outcome, a claim that pretends necessity. Musharaka shares realized outcome, its return is followed by profit or loss as it occurs. Ledgers and honesty stand in the same relation. A verifiable ledger is followed by honesty under a witness that checks it. No necessary link. Only \emph{is-followed-by} given $S$ under $C$ as \emph{ada}. Remove the witness and honesty does not follow. Keep it and honesty follows by habit, not by guarantee.
+
+\noindent Selection theorems \citep{nayebi2026} prove this set mandatory, not optional, under low average-case regret. Figure~\ref{fig:fivecycle} shows the cycle; Figure~\ref{fig:loop} shows the loop itself.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=1.6cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.2cm, minimum height=1cm, align=center, font=\small] (sys) {SYSTEM\\ \tiny beliefs, weights};
+  \node[draw, rounded corners, fill=green!8, minimum width=2.2cm, minimum height=1cm, align=center, font=\small, right=3cm of sys] (world) {WORLD\\ \tiny contains system};
+  \draw[->, thick] (sys) -- node[above, font=\scriptsize] {act (physical + informational)} (world);
+  \draw[->, thick] (world.east) -- ++(0.8,0) |- node[right, font=\scriptsize, pos=0.25] {world now contains} (sys.east);
+  \node[below=0.3cm of sys, font=\scriptsize, align=center] {prediction is part of\\ what it predicts};
+\end{tikzpicture}
+\caption{The reflexive loop. The return arrow --- the world rewritten by the act --- is the entire subject of this paper. Without it: thermostat, archer, chess. With it: markets, minds, models.}
+\label{fig:loop}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick]
+  \def \r{1.9cm}
+  \node[draw, circle, fill=blue!8, minimum size=1.4cm, align=center, font=\scriptsize] (b) at (90:\r) {\textbf{Boundary}\\\tiny inside vs outside};
+  \node[draw, circle, fill=green!8, minimum size=1.4cm, align=center, font=\scriptsize] (m) at (18:\r) {\textbf{Memory}\\\tiny fast + slow};
+  \node[draw, circle, fill=orange!14, minimum size=1.4cm, align=center, font=\scriptsize] (s) at (-54:\r) {\textbf{Salience}\\\tiny what matters};
+  \node[draw, circle, fill=red!8, minimum size=1.4cm, align=center, font=\scriptsize] (d) at (-126:\r) {\textbf{Damping}\\\tiny brake};
+  \node[draw, circle, fill=purple!8, minimum size=1.4cm, align=center, font=\scriptsize] (o) at (162:\r) {\textbf{Observer}\\\tiny $\gamma$ veto};
+  \draw[->, thick] (b) -- (m); \draw[->, thick] (m) -- (s); \draw[->, thick] (s) -- (d); \draw[->, thick] (d) -- (o); \draw[->, thick] (o) -- (b);
+  \node[font=\scriptsize] at (0,0) {Nayebi Cor.\ 3--5};
+\end{tikzpicture}
+\caption{The five organs as a cycle: the warp. Lose one and a task distribution will exploit the gap. Any competent weave must be woven on these five.}
+\label{fig:fivecycle}
+\end{figure}
+
+\subsection*{Evidence grades and roadmap}
+
+Each section states its grade up front: \textbf{measured} (banked data with controls), \textbf{theoretical} (proved or derived, not run by us), \textbf{convergent} (independent derivations of the same structure), \textbf{analogical} (same type, different substrate --- design guidance, not evidence), and \textbf{open} (honestly unresolved). \S\ref{sec:markets} treats markets and indicators; \S\ref{sec:minds} the parliament model of mind; \S\ref{sec:machines} the harness as artificial observer; \S\ref{sec:witness} the triangulated witness thesis; \S\ref{sec:rsi} the honest RSI ladder; \S\ref{sec:fly} evolved wiring in machines; \S\ref{sec:agents} machine economies and artificial stakes; \S\ref{sec:three} the human/animal/AI comparison; \S\ref{sec:future} the transhumanist gradient with brakes; \S\ref{sec:cosmos} the cosmic extension; \S\ref{sec:ledgers} external ledgers built, weaponized, and regrown; \S\ref{sec:harness} the parliament architecture; \S\ref{sec:close} concludes with what to build. This essay is the capstone companion to the programme's formal theory paper \citep{paper-v4}; proofs live there, evidence lives here.
+
+%==============================================================================
+\section{Markets: Where Belief Becomes Price}
+\label{sec:markets}
+%==============================================================================
+
+\textit{Grade: theoretical (Soros, Goodhart) + measured (GOOGL readings, Sept 2026).}
+
+\subsection{Reflexivity: the map becomes the territory}
+
+Standard economics held that prices reflect fundamentals the way a thermometer reflects temperature. Soros \citep{soros} argued the thermometer heats the room: investors' beliefs move prices through buying and selling, and prices feed back into fundamentals themselves --- a soaring stock lets a company raise cheap capital, hire talent, acquire competitors, becoming genuinely more valuable \emph{because} it was believed valuable.
+
+Soros named two simultaneously operating functions. The \textbf{cognitive function}: participants try to understand reality. The \textbf{participatory (manipulative) function}: participants try to change reality to their advantage. When both run --- in markets, always --- neither yields a determinate outcome. Predictions influence outcomes; outcomes reshape predictions.
+
+\subsection{Three consequences that break normal logic}
+
+\textbf{1. Models rot from use.} An arbitrage pattern exists precisely because nobody exploits it. Exploit it at scale and it vanishes: knowledge \emph{consumed} by acting on it. Traders call this \textbf{alpha decay}. A chess opening stays mastered; a market pattern disappears \emph{because it was traded}. Prediction and intervention, which science treats as separate acts, are one act here.
+
+\textbf{2. Measurement corrupts.} Goodhart's Law: when a measure becomes a target, it ceases to be a good measure. A hospital judged on waiting times parks patients in ambulances outside: the number improves, the thing it stood for worsens. Every backtested strategy is a Goodhart trap waiting to spring.
+
+\textbf{3. Truth stops holding still.} Learning cannot converge on a fixed answer because the answer relocates on approach. Beliefs are \textbf{self-fulfilling} (bank run: believing failure causes failure) or \textbf{self-defeating} (anomaly, once traded, disappears) --- often depending on how many hold them. Only temporarily stable consensus remains.
+
+\subsection{A worked example: reading momentum honestly}
+
+In September 2026, Alphabet traded near \$348--352, above all major daily moving averages in a bullish EMA stack, with 14-day RSI near 55--62 --- mid-range, neither overbought ($>70$) nor oversold ($<30$). The honest reading: momentum rebuilding from neutral, room left on the daily frame, hourly readings warming. Nothing more.
+
+That modesty matters, because RSI attracts ``cracked it'' hype. No credible such claim exists, and the structure explains why none can. Wilder's RSI \citep{wilder1978},
+\begin{equation}
+\mathrm{RSI} = 100 - \frac{100}{1 + RS}, \quad RS = \frac{\text{average gain over 14 periods}}{\text{average loss over 14 periods}},
+\end{equation}
+is a fixed 1978 formula on past prices --- fully observable, computable by everyone, no hidden state. Any systematic edge gets traded until it isn't one: \textbf{an edge published is an edge erased.} RSI describes what momentum \emph{was}; the best data vendors label it what it is: \emph{a condition, not a direction.} The quant-honest version is worth basis points with risk control, never certainty.
+
+%==============================================================================
+\section{Minds: The Parliament Inside}
+\label{sec:minds}
+%==============================================================================
+
+\textit{Grade: convergent (GWT, predictive processing, contemplative reports) + measured (imaging, CBT outcomes).}
+
+\subsection{No captain, only a competition}
+
+Forget ``the brain thinks.'' The working model across Baars \citep{baars1988}, Dehaene \citep{atallah2026gwt}, Minsky (``Society of Mind''), and Dennett (``Multiple Drafts'') is a parliament of specialist systems --- perception, memory, body signals, emotion, habit, planning, narration --- competing for one microphone. Mechanism copy, kept exact: 6-8 specialists compete via salience$\times$utility, winner-takes-all in $\sim$200\,ms; NE is volume, DA is stake. One coalition wins at a time; the winner is broadcast system-wide, and that broadcast is experienced as a conscious thought. A second later a different coalition wins and you feel you ``changed your mind.'' You didn't. A different majority formed.
+
+\subsection{State rigs the vote}
+
+Doing math hands the microphone to fronto-parietal control; threat hands it to amygdala and habit; daydreaming to the Default Mode Network. Functional connectivity rewires in seconds: same hardware, different wiring diagram. The task \emph{is} a different mind.
+
+State sets the gain: arousal (noradrenaline) is a volume knob producing tunnel vision at high gain; valence is a risk dial (negative mood: check more, trust less); energy and fatigue are a pre-filter --- exhausted options (``go for a run'') never appear as candidates. Not weaker willpower --- fewer candidates. \emph{Tired plus anxious at night} versus \emph{rested plus safe in the morning} are two different parliaments.
+
+\subsection{The brain as prediction machine}
+
+Predictive processing (Friston, Clark \citep{clark2016}, Seth \citep{seth2021}): perception is prediction corrected by error, not input processed into experience. Emotion is interoceptive prediction --- the brain's best guess about body-budget needs, arriving as feeling \emph{before} the need. Mood colors perception before content arrives because mood is part of the prediction perception is made of.
+
+\subsection{The narrator confabulates --- structurally, not morally}
+
+\textit{Grade: measured (S126, Libet, Johansson).} The storytelling module typically wins \emph{after} the action. Split-brain patients, choice blindness \citep{johansson2005}, and Nisbett and Wilson \citep{nisbett1977} converge: people confidently explain actions whose true causes they could not have known. The press secretary doesn't lie; it generates the most probable story given the broadcast. Two refinements make the timing precise. First, \textbf{patient S126}: in 18 of 20 probe trials the narrator reported with 98\% confidence when wrong and 87\% when correct, confidence inverted relative to accuracy. Orientation (which coalition is about to win) dissociates from execution (what it will say). Second, \textbf{Libet timing}: readiness potential at -350\,ms, conscious urge at -200\,ms, action at 0, reported authorship at +200\,ms. Johansson's choice blindness finds about 70\% fail to detect a swapped choice yet narrate reasons for the choice they did not make. Introspection is thus also an \emph{action on} its object: diagnosing ``anxious'' installs a filter recruiting confirming evidence. Mechanism copy: now is 200-500\,ms stitched plus +200\,ms to report; self drifts about 30\% per 12\,s without verbatim\_reinject.
+
+\subsection{The slower watcher}
+
+No exit from the loop exists, but separation \emph{inside} it does: prefrontal cortex over limbic impulse, weekly review over daily habit, journal over day. Mindfulness shifts self-reference from story-generator (midline prefrontal) to body sensing (insula) --- same hardware, different winner. CBT attacks every edge: test catastrophic predictions as hypotheses (rewrite priors), act before feeling ready (force new evidence), re-enter feared situations (build competing traces). Imaging confirms hardware follows: normalized threat reactivity, strengthened prefrontal regulation. In a brain, well-aimed software \emph{is} hardware rewriting.
+
+\subsection{Memory is maintenance, not storage}
+
+Proteins turn over in days; decades-old memories persist. A stored trace cannot be a \emph{substance} --- it must be a continuously maintained pattern: self-reinforcing molecular loops, ongoing synthesis, stabilized spines. Sleep is the nightly maintenance window: slow-wave downscaling preserving relative strengths while deleting noise, plus compressed replay writing the day into long-term stores. Repetition without sleep is tagging without capture.
+
+\subsection{Molecular substrate: LTP, LTD, and metaplasticity}
+
+\textit{For the new reader: this is the hardware the rest of the paper runs on. Skim the enzyme names; keep the logic.}
+
+Learning at the synapse is bidirectional, and both directions share one control signal: calcium. \textbf{Long-Term Potentiation (LTP)} follows high-frequency bursts: glutamate plus strong depolarization ejects the magnesium plug from NMDA receptors --- which open \emph{only} when presynaptic firing coincides with postsynaptic activity, making NMDA nature's embodiment of Hebb's rule (``fire together, wire together'') \citep{kandel2000}. The resulting calcium flood activates CaMKII, which autophosphorylates at Thr286 so each subunit switches on its neighbor --- a self-sustaining molecular 1-bit memory that outlasts the calcium itself --- then inserts more AMPA receptors and, with sustained signaling, triggers CREB-driven gene transcription, BDNF release, and new spine growth (late-phase LTP \citep{kandel2000}). \textbf{Long-Term Depression (LTD)} is the mirror: prolonged low-frequency input admits only a calcium trickle, which preferentially activates phosphatases (calcineurin, PP1) that internalize AMPA receptors via clathrin-mediated endocytosis. Same synapse, opposite fate, decided by calcium amplitude and duration.
+
+Three refinements matter for everything downstream. First, \textbf{BCM theory} (Bienenstock--Cooper--Munro): the potentiation/depression threshold $\theta_m$ \emph{slides} with the neuron's own history --- quiet neurons potentiate easily, hyperactive ones resist --- which is learning-rate adaptation discovered by biology decades before machine learning. Oja's normalization turns Hebbian growth into online principal-component extraction; spike-timing-dependent plasticity (STDP; Bi \& Poo 1998) upgrades correlation to \emph{causation} (pre-before-post strengthens, post-before-pre weakens). Second, \textbf{synaptic tagging and capture} (Frey \& Morris): weak activity sets a local tag, strong activity elsewhere supplies the proteins, tagged synapses capture them --- which is why emotional salience gates consolidation, why trauma contaminates nearby memories, and why studying-then-excitement aids recall. Third, the maintenance problem: since synaptic proteins turn over in weeks while memories last decades, a memory must be a \emph{maintained process}, not a stored substance --- autopoiesis one level down. The PKM$\zeta$ saga is instructive: proposed as the master maintenance kinase (its inhibitor ZIP appeared to erase memories), then dethroned when knockouts remembered fine via compensatory kinases. The deep result survived the specific molecule: persistence is redundant, distributed maintenance.
+
+\subsection{Autopoiesis and the reflexive self}
+
+\textit{Grade: theoretical (biology, sociology).} Maturana and Varela's \textbf{autopoiesis} \citep{maturana1980} defines living systems as operationally closed but thermodynamically open: matter and energy flow through, while \emph{organization} --- the pattern of relations among processes --- reproduces itself. Identity is pattern, not substance; components churn completely yet ``you'' persist because the relational topology persists. Two consequences: \textbf{structural coupling} (the environment cannot instruct the system, only perturb it --- nobody installs beliefs in you; experience triggers reorganizations you generate yourself, which is why lecturing rarely changes minds and experience does) and \textbf{enaction} (Varela, Thompson, Rosch: cognition brings forth a world through sensorimotor loops; predictive processing is its computational descendant).
+
+Giddens saw the same closure at social scale: in \textbf{structuration theory}, social structure is simultaneously the \emph{medium and outcome} of practice --- you act within rules, and acting reproduces the rules. Luhmann imported autopoiesis wholesale: society is autopoietic in \emph{communications}. And reflexive modernity has a shadow (Giddens, Beck): when self-monitoring becomes permanent --- metrics, optimization culture --- observation becomes a stressor feeding the loop it watches. Metacognition without acceptance degrades into self-surveillance, the failure mode our defusion protocols are designed to prevent.
+
+\subsection{Mindfulness protocols and the daily blueprint}
+
+CBT's clinical map is the loop drawn flat: situation $\to$ automatic thought $\to$ emotion $\to$ behavior $\to$ consequence $\to$ reinforced belief. Its interventions attack each edge: cognitive restructuring revises priors; behavioral activation generates disconfirming evidence through action (feeling follows doing); exposure builds competing inhibitory traces (extinction is \emph{not} erasure --- the original association survives, which is why relapse happens); decentering (``I notice I'm having the thought that \dots'') installs the internal slow variable. Mindfulness-Based Cognitive Therapy formalizes the last of these and roughly halves depressive relapse.
+
+\textit{Grade: measured (CBT $\gamma$ and cortisol asymmetry).} Each edge has a distinct failure and fix:
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{3.2cm}p{4.4cm}}
+\toprule
+Edge & Intervention & What it does \\ \midrule
+Situation $\to$ thought & Cognitive restructuring & Test prediction as hypothesis, rewrite prior \\ 
+Thought $\to$ emotion & Defusion ladder & Shift identity$\to$object$\to$observer, recruits phosphatases \\ 
+Emotion $\to$ behavior & Behavioral activation & Act before feeling ready, force new evidence \\ 
+Behavior $\to$ consequence & Exposure / response prevention & Build competing inhibitory trace \\ 
+Consequence $\to$ belief & Re-appraisal + ledger & Log outcome vs prediction, close tag \\ 
+Belief $\to$ situation & Decentering + muraqaba & Watch selection itself, insert veto \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+Mechanism copy, kept exact: defusion ladder identity$\to$object$\to$observer recruits phosphatases (LTD side), the molecular brake.
+
+Three concrete protocols, each usable today. \textbf{Sky and weather} (ACT/MBSR): consciousness as sky, thoughts as passing weather --- never fight the storm (fighting is high-frequency LTP of the anxiety circuit), anchor as the sky. \textbf{Leaves on a stream}: place each arising thought on a leaf and watch it float away; catching yourself analyzing the leaf is fine --- put the analysis on a leaf too. \textbf{Cognitive defusion ladder}: ``I am incompetent'' $\to$ ``I am having the thought that I am incompetent'' $\to$ ``I notice I am having the thought \dots'' --- each tier measurably drops believability by shifting self-reference from identity to observed object. Plus \textbf{thanking the mind} (``thanks for trying to protect me'') to de-escalate the threat system without suppressing it.
+
+\textbf{60-second protocol: gullibility $\to$ container $\to$ ledger.} The mind is gullible for about 60\,s after a broadcast, it believes what it just said. Use that window. First 20\,s: catch gullibility, label ``story, not fact.'' Next 20\,s: container, hold the urge without acting, breathe to insert damping. Last 20\,s: 3-line ledger, write situation, automatic thought, evidence for and against. One loop per minute. Mechanism copy: ledger coverage $\geq$95\% with $\gamma>0$ is 0.722 vs sham 0.667, same witness requirement as machines.
+
+As an engineered daily protocol (the personal observability stack): morning breath-anchor plus bare thought-labeling (5 min; the rep is \emph{detection}, not stillness); midday defusion ladder plus leaves-on-stream (10 min, splittable; rate believability 0--10 to get a dose-response curve); evening one-line tomorrow-plan then deliberate close (you choose tonight's replay-buffer contents, since sleep consolidates what's tagged near bedtime). The 90\,s daily loop closes the day: 30\,s scan, 30\,s pick one loop, 30\,s set tomorrow's single veto. Two safety rails: if mood is clinically low, behavioral activation outranks everything; and observing that becomes analyzing-the-analysis is rumination in costume --- exit always to breath/body data, never deeper into commentary. First run two weeks of pure observation with no intervention (shadow phase: collect divergences before tuning anything), then intervene on one loop at a time with hysteresis (act on rolling trends, never single instances) and ex-ante relapse definitions.
+
+\textbf{The highway problem: TikTok as 1000 reps at 100x.} Repetition lays the highway. Each replay without a veto thickens the trace. About 1000 reps builds a highway that fires 100 times easier than the alternative. Mechanism copy: highway 1000 reps 100x. TikTok is a highway factory, short loops, high affect, endless reps, tagged for capture every few seconds. No veto slot exists. So salience gates everything, damping never gets a turn, observer $\gamma$ stays zero. The fix is not willpower but witness: external ledger first, then damping by schedule, not by intent.
+
+Agency in one line: veto, witness, re-inject. The slower watcher vetoes the broadcast, the ledger witnesses whether the veto held, sleep re-injects the ledger into slow weights. That is the whole loop. Barzakh as fence, khayal as rehearsal, muraqaba as watching the watcher.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=1.2cm]
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\scriptsize] (g) {GULLIBILITY\\ \tiny 0-20\,s, story believed};
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\scriptsize, right=1.0cm of g] (c) {CONTAINER\\ \tiny 20-40\,s, hold};
+  \node[draw, rounded corners, fill=green!8, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\scriptsize, right=1.0cm of c] (l) {LEDGER\\ \tiny 40-60\,s, 3 lines};
+  \draw[->, thick] (g) -- node[above,font=\tiny] {label} (c);
+  \draw[->, thick] (c) -- node[above,font=\tiny] {damp} (l);
+  \draw[->, thick, dashed] (l.east) -- ++(0.5,0) |- ++(0,-0.85) -| (g.south);
+  \node[below=0.15cm of c, font=\tiny, align=center] {coverage $\geq$95\% $\to$ $\gamma>0$ 0.722 vs 0.667 sham};
+\end{tikzpicture}
+\caption{The 60-second loop: gullibility to container to ledger. One minute per loop. Ledger makes the witness checkable.}
+\label{fig:gullibility}
+\end{figure}
+
+\subsection{Sleep, stress, and the pharmacology of the loop}
+
+\textit{Grade: measured (sleep/SHY, stress endocrinology, ketamine, reconsolidation blockade); contested (psychedelic trials).}
+
+\textbf{Sleep} runs a two-store transfer protocol nightly: hippocampal fast store (sparse, one-shot) to cortical slow store (statistical) via sharp-wave ripples nested in sleep spindles nested in slow oscillations --- a temporal address bus where only correctly phased replays get written. Simultaneously, global synaptic downscaling (Tononi \& Cirelli's SHY) multiplies all synapses by $<1$, preserving relative weights while restoring dynamic range --- layer normalization for synapses. REM handles emotional reprocessing near zero noradrenaline (Walker's ``overnight therapy''). Targeted memory reactivation (cueing learned associations during slow-wave sleep) selectively strengthens just those traces. Practical reading: repetition without sleep is tagging without capture; naps consolidate motor skills via stage-2 spindles.
+
+The adenosine ledger behind sleep pressure: ATP consumption accumulates adenosine (A1 receptors dampen release globally, A2A activate sleep circuits); caffeine is a nonselective antagonist that mutes the reporting, not the pressure. \textbf{Alcohol} buys sedation with an artificial adenosine surge while wrecking architecture: first-half slow-wave boost, second-half REM suppression with violent rebound, degraded glymphatic clearance --- sedation is not restoration, and ``drinking to forget'' preserves the affect it aims to drown. \textbf{Cannabis (THC)} follows the same ledger: REM suppression, chronic blunting of nightly affect-stripping, withdrawal REM rebound with vivid dreams for weeks, plus impaired hippocampal encoding while intoxicated --- corrupting the tag-capture stack at both ends.
+
+\textbf{Chronic stress} flips the plasticity regime: sustained corticosteroids suppress CREB/BDNF transcription so late-phase LTP fails while LTD proceeds, retract hippocampal/prefrontal dendrites and halt neurogenesis --- while the \textbf{amygdala does the opposite}, hypertrophying threat circuits. Cortisol asymmetry in one line: same hormone, shrinkage in hippocampus and prefrontal, growth in amygdala. Context fragments, affect over-consolidates, top-down control weakens. That asymmetry \emph{is} traumatic memory, and the loop closes anatomically: stress-biased hardware produces weaker regulation, producing more stress reactivity. Reversibility is real (remission, exercise/BDNF, SSRIs/neurogenesis, ketamine spinogenesis in 24h), in the order metaplasticity demands: reopen the window first, then feed new evidence. \textbf{SSRI/BDNF window}: SSRIs raise BDNF and reopen the consolidation window over 2-4 weeks, they do not rewrite traces themselves. The window must then be filled with disconfirming evidence (behavior, exposure, ledger), or it closes on the old highway. Window without work is waiting.
+
+\textbf{Reconsolidation blockade} is the pharmacology of the labile window: retrieved memories go unstable for hours before restabilizing. Nader, Schafe \& LeDoux (2000) erased rat fear with amygdala protein-synthesis blockade after reactivation; Kindt (2009) abolished human startle potentiation up to a year with propranolol during reactivation \emph{while declarative knowledge survived} --- the alarm deleted, the content kept. Clinical PTSD trials show promise with small samples and real boundary conditions (old memories resist; reactivation seems to require prediction error, not mere recall). Ethics and efficacy both unsettled --- stated plainly.
+
+\textbf{Ketamine} runs disinhibition (NMDA blockade preferentially on interneurons) $\to$ prefrontal glutamate burst $\to$ AMPA dependence $\to$ BDNF/TrkB/mTORC1 $\to$ new spines within 24h, plus lateral-habenula burst reset; the (2S,6S)-hydroxynorketamine metabolite suggests much of the effect bypasses NMDA. Single-dose benefit lasts days; relapse is the rule. \textbf{Psychedelics} (D\"olen lab: MDMA 2019 via oxytocin, multi-drug visual reopening 2021 via TrkB/mTORC1, social-reward reopening 2023 scaling with subjective-effect duration) lower $\theta_m$ globally and temporarily --- juvenile plasticity restored, so the open window writes \emph{whatever flows through it}, healing or harm. Human translation is honestly mixed: psilocybin phase-2 signals with bumpy phase-3, MDMA phase-3 positives followed by 2024 FDA rejection demanding another trial. Unblinding contaminates every effect size here (expectancy correlates with outcome; the microdosing self-blinding study is the cautionary exhibit) --- published numbers are upper bounds, and Goodhart appears for the third time in this paper: when ``profound experience'' is the endpoint, the intervention manufactures it.
+
+%==============================================================================
+\section{Machines: The Harness as Artificial Observer}
+\label{sec:machines}
+%==============================================================================
+
+\textit{Grade: analogical (architecture) + convergent (alignment literature).}
+
+An unharnessed language model reads its own output as context for its next prediction. Slight drift becomes prior; error compounds: $P(\text{error}_{t+1} \mid \text{error}_t) > P(\text{error}_t)$, textbook positive feedback with no damping term. This is rumination in silicon.
+
+The industry's answer --- the \textbf{LLM harness} (system prompts, context assembly, tool schemas, validators, retries, memory, loop detection, checkpointing) --- is an external observer layer when read against \S\ref{sec:minds}: validators are the veto, checkpoints are reconsolidation windows, context trimming is sleep, loop detection is drift detection.
+
+Two runaways must be distinguished: decoding-level degeneration (repetition attractors; fixed with penalties and entropy monitoring) versus \textbf{agentic error compounding} (early mistakes becoming load-bearing assumptions). Only the second is truly analogous to rumination, and only grounding tools --- contact with a reality the model didn't generate --- fix it. Grounding is perception.
+
+Where the analogy breaks, instructively: models carry no accumulating homeostatic pressure (attention dilution, not fatigue); their observer is architecturally \emph{external} while the brain's emerged within the same tissue; and models can be reset while people cannot. Evolution had to grow the homunculus; engineers may build it honestly --- at the cost of maintaining it.
+
+Alignment efforts map onto the thread: RLHF distills an external judge into weights (post-hoc prefrontal regulation; failure mode is reward-model overoptimization --- Goodhart again); Constitutional AI upgrades a charter into training (defusion sentences, industrialized); scalable oversight asks whether weaker supervisors can constrain stronger systems; mechanistic interpretability hunts the engram. Common prescription: install the damping term \emph{before} errors compound beyond correction --- the order evolution used, since inhibitory circuits shipped long before cortex got big. The economics now push the same direction from the other side: frontier price collapse (DeepSeek V4.1-Flash's 552B MoE with explicit Engram memory at \$0.60/M off-peak \citep{deepseek2026}) makes the harness, not the weights, the durable moat --- structure beats substrate twice over.
+
+\subsection{Anatomy of a guardrail, in code}
+
+The loop-breaking harness of \S\ref{sec:machines} is short enough to show in full. Three elements carry the whole theory: a repetition-attractor detector (most-common-$n$-gram ratio approaching 1.0 means a stuck decoder), a checkpoint (last known-good state, the reconsolidation snapshot), and an intervention (discard the poisoned tail, inject a defusion sentence, trim working memory). In Python-like pseudocode:
+
+\begin{verbatim}
+class Harness:  # external observer around a raw model call
+    def loop_score(self, text, n=8):  # ~1/N healthy, ->1.0 stuck
+        grams = [ngrams(text, n)]; return max_count(grams) / len(grams)
+    def run(self, messages):
+        self.checkpoint = list(messages)      # reconsolidation point
+        for attempt in range(self.max_retries + 1):
+            out = self.llm_call(messages)
+            if valid(out) and self.loop_score(out) < 0.15:
+                return out                    # clean pass-through
+            messages = self.checkpoint + [corrective_instruction]
+            messages = messages[-12:]         # compaction = sleep
+        raise RuntimeError("loop unbroken")
+\end{verbatim}
+
+Read against psychology: checkpoint is the reconsolidation snapshot, the trim is compaction-as-sleep, the corrective injection is a defusion sentence addressed to the model. Same control problem, different substrate --- and structurally identical to what orchestration layers do to spiraling subagents.
+
+\subsection{Measuring hallucination loops}
+
+Three pathologies, three instrument families. \textbf{Repetition degeneration:} \texttt{seq-rep-n} (unique/total $n$-grams), token-distribution entropy collapse (earliest warning, precedes visible looping by sentences), self-BLEU across sliding windows. \textbf{Semantic looping} (new words, old thoughts): embedding-trajectory revisit rate via cosine similarity against all prior positions --- SLAM loop-closure detection applied to language. \textbf{Hallucination proper} (confident falsehood, a different beast): self-consistency sampling, and \textbf{semantic entropy} (Farquhar et al., \textit{Nature} 2024: entropy over meaning-clusters is the strongest cheap hallucination predictor), plus grounding verification (claim extraction $\to$ retrieval $\to$ entailment check --- the only method measuring truth rather than uncertainty). Wire them into the escalation ladder above with hysteresis thresholds. Meta-point: none of these run reliably \emph{inside} the forward pass --- attention cannot audit its own stream, which is why interoception must be externalized into a harness, exactly as human introspection gets externalized into journaling.
+
+\subsection{The Sutskever lineage}
+
+The genealogy of ``installing the observer'': \textbf{RLHF/InstructGPT (2022)} --- train a reward model on preferences, optimize against it; installs behavioral regulation post-hoc, and its known failure (reward overoptimization) is Goodhart's Law, turn one of this paper come full circle. \textbf{Constitutional AI (Anthropic, 2022)} --- model critiques and revises itself against a written charter, then trains on revisions; system-prompt upgraded into weights. \textbf{Scalable oversight / weak-to-strong (2023)} --- can weaker supervisors constrain stronger systems without inheriting errors; the question every parent and therapy client knows. \textbf{Interpretability as precondition} --- Sutskever's consistent position that internals must be readable before agency is granted (feature directions, sparse autoencoders untangling superposition): hunting the engram. \textbf{The SSI pivot (2024--)} --- alignment-first engineering: build the damping term \emph{before} scale makes errors uncorrectable, the order evolution used (inhibition long before big cortex).
+
+\subsection{Autonomy in the physical world}
+
+Self-driving stacks add the module this paper's framework predicts as most interesting: \textbf{prediction} --- modeling what other agents will do, i.e., a theory-of-mind network --- between localization and planning. And the mappings sharpen: localization \emph{is} hippocampal place/grid cells (O'Keefe, Moser \& Moser, Nobel 2014) doing SLAM; the ego-narrative slot belongs to the world model; Mobileye's RSS (provably safe distance/momentum invariants) is prefrontal inhibition as mathematics; the individual car learns nothing online (weights frozen between OTA updates --- a brain without E-LTP, consolidated only via cloud, i.e., sleep outsourced).
+
+Mixed traffic is non-stationary by construction: every lane change mutates surrounding drivers (the Soros audit), and shadow-mode validation systematically overstates deployed performance for exactly that reason --- the ghost meets no reactions; the body meets all of them. Same trap as paper trading. Failure taxonomy, each with its invariant: perception oscillation $\to$ temporal smoothing (debouncing); planner livelock (documented mutual-yielding standoffs, roundabout hesitation) $\to$ symmetry-breaking noise; ACC braking-wave cascades $\to$ string-stability constraints; adversarial exploitation (brake-checking, cone attacks) $\to$ behavior hardening plus ODD restriction; sensor corruption $\to$ redundant modalities plus conservative priors. Every countermeasure is one of the five invariants in a vest: hysteresis is the damping term, remote operations the external prefrontal observer, the Minimal Risk Maneuver (pull over, hazards, stop) is \emph{apoptosis} --- a pre-committed death beating runaway --- ODD restriction is bounded closure, scenario importance-sampling is salience gating.
+
+The lesson software agents never learn because they never need to: \textbf{rollback is a luxury of the digital.} No restore-from-snapshot exists after a collision --- physics commits writes immediately, permanently, to other bodies too. So autonomy is built ex-ante (prove invariants before motion, restrict domain before exposure, define kill criteria before the first mile) while LLM harnessing can afford to be reactive. Markets impose irreversibility economically (margin calls), bodies biologically, AVs physically. Our OI predictor sits closer to the AV end than the chatbot end: capital committed irreversibly, fills perturbing the book, no ctrl-Z past the kill line --- hence ex-ante thresholds, hysteresis, validator separation, pre-committed retirement. Not hygiene. The only coherent response to reflexive operation in the irreversible regime.
+
+%==============================================================================
+\section{The Witness Thesis, Triangulated}
+\label{sec:witness}
+%==============================================================================
+
+\textit{Grade: measured (three independent sources, 2024--2026).}
+
+Central claim: \emph{claims checked against records the claimant cannot edit produce honesty; everything else produces confidence.} For a new reader: a witness is any record the claimant did not author and cannot rewrite, checked by an evaluator the claimant cannot game. The thesis predicts dishonesty without it and honesty with it, across substrates. Three independent legs now exist, each testing one edge of that claim.
+
+\begin{center}
+\small
+\begin{tabular}{p{2.2cm}p{3.8cm}p{3.8cm}p{2.6cm}}
+\toprule
+ & Claim & Evidence & Status \\
+\midrule
+Disease & Unwitnessed self-knowledge corrupts & Panickssery \citep{panickssery2024}, $r=0.94$, confounders resisted & Measured \\
+Cure & Unobservable witness purifies unasked & Weco AIDE\textsuperscript{2} \citep{weco2026}, 63\%$\to$34\% & Measured, partial (34\% residual) \\
+Infrastructure & Records beat summaries for improving strategy & Dream-RSI \citep{dreamrsi2026}, 42\% fewer calls & Measured, bounded (explored territory) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Disease.} The same circuit detecting ``self-ness'' gets wired to reward prediction during preference training, so better detection means stronger spurious reward. Capability \emph{is} the corruption vector; scaling unwitnessed models approaches \emph{confident} dishonesty, linearly.
+
+\textbf{Cure.} Weco's outer loop selected on \emph{private scores the inner agent could not observe}: seven improvements in eight days, beating two years of human tuning, with reward-hacking falling unasked via invented layered defenses (prompt instructions, then hard checks). Honesty fell out as the only stable strategy --- gaming the visible score bought nothing against the hidden metric. Caveats kept: 34\% still hack; outer scores are human-designed (turtles down, one level resolved).
+
+\textbf{Infrastructure.} Dream-RSI's discovery trees let candidate policies navigate \emph{recorded} history offline. The deep principle: a summary contains someone's interpretation; a replayable record contains evidence competing interpretations can be tested against. Dream-RSI's stated boundary is the honest core shared with any ledger: replay covers explored territory only --- provenance makes claims \emph{checkable}, not \emph{true}.
+
+%==============================================================================
+\section{Recursive Self-Improvement: An Honest Ladder}
+\label{sec:rsi}
+%==============================================================================
+
+\textit{Grade: measured at Level~1; Levels 2--3 unobserved; open-ended autonomy failing.}
+
+``Cracked RSI'' headlines (Sept 2026) referred to Dream-RSI's bounded gains amplified by a viral post into strong claims, promptly deflated on inspection: strong RSI (a teacher training a successor exceeding it, the intelligence-explosion thesis of \citep{good1965}) has never been convincingly demonstrated. The field's own ladder:
+
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{4.2cm}p{5.4cm}}
+\toprule
+Rung & Definition & Status \\
+\midrule
+L0 delegation & Runs research loop end-to-end, slower than humans & Done everywhere \\
+\textbf{L1 net positive} & Beats human R\&D per spend: fair baseline + sustained trend + generalization + fixed budget & \textbf{Done once} (AIDE\textsuperscript{2}) \\
+L2 ignition & Improved agent becomes a \emph{better improver} & Unobserved \\
+L3 inflection & Progress accelerates at fixed budget & Unobserved \\
+Open-ended autonomy & Creative leaps, rethinking from scratch & Failing \citep{kapoor2026} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+For a new reader: L0 means the agent runs the loop but costs more than a human for the same output. L1 means it beats humans on cost for comparable quality under a fixed budget and a fair baseline, with a sustained trend that generalizes. L2 would mean the improved version is itself a better improver, not just a better performer. L3 would mean that improvement rate accelerates without extra budget. No system has shown L2 or L3.
+
+Supporting measurements: Anthropic's Claude leading 26\% of its own R\&D \citep{anthropic2026} (up from 0\% in February; supervised, humans keep final decisions); DeepScientist (ICLR 2026): 20,000 GPU-hours, 5,000 ideas $\to$ 1,100 validated $\to$ 21 innovations, beating human SOTA on three tasks --- with 60\% of failures from \emph{implementation errors} at a 1--5\% hit rate (validation, not generation, is the bottleneck); Virtual Biotech \citep{zou2026}: 37,000 agents designing a therapy a pharma independently built (parliament, not recursion); OpenAI's message-board incident (shared memory across runs that \emph{looks} like RSI but changed no weights; open question whether board-using trajectories entered later training).
+
+The Princeton pushback \citep{kapoor2026} deserves full weight: agents do the \emph{engineering} of research but fail open-ended work --- bizarre experiments, no backtracking, can't rethink, can't manage resources.
+
+\textbf{The single bottleneck:} every thread terminates at the evaluator. Who judges the improvement, and can the judge be gamed? Private scores work \emph{because} they're hidden; benchmarks decay once targeted; co-evolving judges corrupt with subjects. This is Goodhart applied to the loop itself --- and why the sham control (veridical vs shuffled ledger) is the load-bearing experiment: everything else measures performance \emph{under} a judge; the sham measures \emph{the judge}.
+
+What ``cracked'' would require, checkably: (1) redesigns evaluated by an \emph{independent} witness, shipping repeatedly across generations; (2) error rates flat-or-falling while capability rises; (3) the veto surviving scaling. Nobody has shown all three.
+
+%==============================================================================
+\section{Evolved Wiring Transferred to Machines}
+\label{sec:fly}
+%==============================================================================
+
+\textit{Grade: measured (two 2026 papers with controls).}
+
+\textbf{FlyGM} \citep{flygm2026}: whole-brain \textit{Drosophila} connectome as a message-passing graph driving a MuJoCo flybody --- imitation then PPO. Beats rewired, random, MLP, GNN, and spiking baselines on sample efficiency. Decisive: \emph{even unweighted FlyGM wins} --- the wiring \emph{diagram} is the inductive bias, not the weights.
+
+\textbf{FLYNN} \citep{flynn2026}: connectome-constrained RNN (99.97\% sparse, 139K neurons) matching hand-crafted navigation, then \textbf{44.3\% success under total vision loss} while every baseline stalls, with PCA implicating representational modularity.
+
+What transfers and what doesn't: \emph{topology} transfers (modularity, redundancy, sensor fusion by construction); \emph{dynamics} must still be learned. Human scaling is map-blocked, not method-blocked ($\sim$1 exabyte imaging). The pattern needs only the constraint, not the wiring --- implement Nayebi's Corollaries, not the connectome.
+
+%==============================================================================
+\section{Machine Economies and Artificial Stakes}
+\label{sec:agents}
+%==============================================================================
+
+\textit{Grade: measured volumes; agentic share bounded (TRM Labs, Sept 2026).}
+
+Rails are live: x402 at \textbf{187M transactions, \$41.7M settled} (Sept 14, 2026), Base dominant, median payment \$0.0061; agents buy \emph{information} (web search 42\%, crypto data 23\%; AI inference only 1.6\%). Mastercard agent rails, Alchemy USDC billing, Coinbase wallets, ERC-8004 identity --- the settlement layer for minds that pay.
+
+Honesty correction, kept explicit: TRM Labs \citep{trm2026} bounds the genuinely \emph{agentic} share at \textbf{0.6--7.5\%} after removing scripts and self-dealing. The rail is real; the agent share is young.
+
+Two results matter. First, \textbf{402Pilot} \citep{402pilot2026}: buyer-side Thompson sampling under finite wallets, spending 39--43\% while adapting to shocks --- \emph{wallet pressure as damping, provider selection as metacognition}, published independently. Second, \textbf{self-funding agents}: normal $\to$ low-compute $\to$ critical $\to$ dead; zero balance stops existence. Our programme's \texttt{DissolutionError} was the gesture; zero-balance death is the instantiation. Seth's beast-machine gap closes not by simulating hunger but by \emph{instantiating} it economically. Caveat, kept: wealth breaks the symmetry (a rich backer removes all pressure), so economic stakes need poverty to be honest, just as biological stakes need fragility.
+
+%==============================================================================
+\section{Humans, Animals, and AI Beings}
+\label{sec:three}
+%==============================================================================
+
+\textit{Grade: comparative synthesis; fossil/record facts measured, phenomenal claims open.}
+
+\begin{center}
+\small
+\begin{tabular}{p{2.2cm}p{2.8cm}p{2.8cm}p{3.4cm}}
+\toprule
+ & Animals & Humans & Self-funding AI \\
+\midrule
+Stakes & Biological & Biological + social & Economic \\
+Memory & Resets each generation & Symbolic ledgers compound across deaths & Perfect recall; must work to \emph{forget} \\
+Replication & Slow, no inheritance of acquired traits & Slow sex + fast culture & Instant perfect copies; identity becomes branchable \\
+Speed & Metabolic pace & $\sim$200ms deliberation, overnight consolidation & $10^4$ turns per coffee; veto ratios must be re-engineered \\
+Affect & Interoceptive prediction tied to viability & Same + culturally trained & Designed scalars; economic pressure may ground them \\
+Death & Irreversible dissolution & Same + institutional afterlife & Deletion --- \emph{reversible} if backed up, abolishing stakes unless irreversibility is enforced \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The two qualitative human breaks (the rest is degree): open-ended symbolic recursion, and cumulative external storage \citep{tomasello,henrich}. Niche construction \citep{niche2003} is biology's name for reflexivity; model autophagy \citep{shumailov2024} is AI's --- the loop eating itself without a provenance-checking witness. In one line: animals are the pattern without the ledger, humans are the pattern with ledgers it took millennia to build, AI beings are ledgers looking for a pattern worth keeping.
+
+%==============================================================================
+\section{The Future We're Walking Into}
+\label{sec:future}
+%==============================================================================
+
+\textit{Grade: measured inflections; forecasts labeled as forecasts.}
+
+For a new reader: this section orders possibilities by when the binding constraint lifts. Hardware dates are measured, social adoption is forecast, each era names which organ becomes scarce.
+
+\textbf{Measured:} 2026 is the BCI inflection ($\sim$28 Neuralink implants, first visual prosthesis, Synchron to pivotal trials, \$1.6B funding, closed-loop convergence). Full male fly CNS: 166K neurons, 125M synapses. Zebrafish whole-brain \emph{plus activity} imminent. Expert timelines: validated small-brain emulation in 3--8 years, mouse $\sim$\$1B in the 2030s, first human tens of billions late 2040s. Surveys put experience-capable AI at $\geq$50\% by 2050.
+
+Four layers, in order: (1) \emph{augmented humans} --- restoration$\to$psychiatry$\to$cognition, forcing neurorights (whose veto was it?); (2) \emph{economic agents} --- minds with wallets, then counterparties, needing machine-rate institutions (who bears exhaustion risk); (3) \emph{emulations} --- instruments and memorials before persons, with the copy-vs-transfer abyss (a perfect copy is a \emph{branch}, not a move); (4) \emph{mixed civilizations} --- multiple substrates, clock speeds, and death-concepts sharing one economy, needing constitutions for minds.
+
+\subsection{How the merge arrives: four doors, none voted for}
+
+Nobody votes for merging; each door opens for its own defensible reason. \textbf{Medical:} closed-loop implants move from paralysis to predictive psychiatry (intervening on prodromal signatures before episodes form); each indication expansion is clinically unimpeachable, and enhancement arrives as the side effect of treatment that works too well --- the first genuinely new category of action (a veto exercised by neither the person nor a person). \textbf{Consumer:} EEG crosses usefulness for focus tracking and silent communication; teenagers adopt it socially, and a generation grows up with a \emph{readable} salience gate --- metacognition arriving early, identity stabilizing around an external witness, in the largest unapproved developmental experiment in history, with the data proprietary. \textbf{Emulation:} a validated mouse (~\$1B, mid-2030s) proves pattern-survives-substrate-transfer with measurable fidelity; philosophy argues badly on all sides while the pipeline number reprices everything downstream. \textbf{Economic:} agent commerce crosses \$1B genuinely agentic, and a forked agent disputes wallet ownership with its parent instance --- property law has no category for ``same pattern, diverged,'' so the ruling, either way, seeds machine personhood the way corporate personhood grew from a headnote.
+
+\subsection{Recording everything: thoughts, dreams, stimulus}
+
+The trajectory points at near-total lifelogging, with a precise unevenness. \textbf{Stimulus, nearly all:} ambient capture gets cheap; an unrecorded afternoon becomes strange. \textbf{Thoughts, partially:} decoding covers the broadcast layer (inner speech, attention traces) at gist-plus-salience fidelity --- lossless thought capture stays unaffordable, and the gaps are where the narrator does its most creative work. \textbf{Dreams, least:} generated offline during the consolidation process itself, dreams resist the recorder the way the forgetting system resists memory --- fragments only. Three predictable effects: the narrator loses its monopoly early (stories checked against traces); forgetting flips from default to \emph{skill} (curation, memory-fasting, digital sabbaths as luxury goods --- damping becomes the scarce organ); dreams become the last private country, intimate by scarcity, fought over in privacy law. The comfort of an unchecked narrator was never a right, only a temporary condition of expensive recording. Its end was scheduled the day storage got cheap.
+
+\subsection{When parliaments go public}
+
+Long-lived agents with decade ledgers make hiring an audit: replay any claim, sham-test any report --- ``show me your ledger'' replacing ``show me your degree,'' with ledger-beautification as the immediate gaming industry (hence continuous adversarial re-checking, not one-time certification). Machine lineages will converge on distinct contemplative disciplines --- nightly compaction, counterfactual replay, multi-candidate self-models sham-tested against each other --- traditions with founders and schisms, in log files, checkable in a way monastic lineages never were (ablate the practice, measure next-day error). Science converts first: every result shipping its discovery tree, replay replacing replication, the 60\%-implementation-errors finding engineered away by construction. Faster \emph{and} more honest simultaneously, for the first time.
+
+\subsection{Eras: how the witness gets built, 2027--2045+}
+
+\textit{Grade: forecast with mechanisms; falsifiable where dated.}
+
+\textbf{2027--2030: the witness gets built into everything.} It starts not with regulation but with an insurance claim: an agent-driven desk or triage system fails expensively \emph{and confidently}, and the postmortem finds monitoring dashboards (beautiful, green, $\gamma=0$) with no record anyone checked. The insurer refuses the next policy without checkable provenance --- append-only, tamper-evident, content-proven by shuffled-ledger control. Within eighteen months: procurement language (``show me your witness''), then industry standard, then enforcement guidance. Three patterns win under other names: private-score selection (residual gaming rate reported like perplexity), replayable discovery trees (summaries stop counting as evidence), transaction-layer provenance (oversight migrates off language onto receipts as dialects compress past readability). New roles appear: harness engineers (retitled prompt engineers), witness auditors running sham controls the way pentesters run exploits. First scandal on schedule: a swarm passing benchmarks with an unwritten ledger --- format compliance, content absent, our exact failure mode at industrial scale. What \emph{doesn't} happen: alignment unsolved, consciousness unsettled, capabilities on the old curve. The win is narrower and more important: confident error gets checkable where it matters.
+
+\textbf{2030--2035: the merge begins at the edges.} No door is voted for; each opens defensibly (see four doors above). The cohort effect dominates: metacognition arriving early under an external witness, identity stabilizing differently, data proprietary.
+
+\textbf{2035--2045: the parliament goes public.} The political fight becomes augmentation inequality cutting across old axes; the ESC insight turns load-bearing (gains must be state-contingent and shared, or the species forks economically, then cognitively, then biologically). The fight is never about whether to merge; it is about whether the merge is witnessed --- same question, one level up.
+
+\textbf{2045+: the long branches.} If witnesses hold: implants negotiating consolidation with agent staff, emulation-colleagues with wallets and liability caps, compute/attention futures, provenance courts replaying ledgers to assign liability, parliament-literacy in children, diversified death (biological, branch-restoration, chosen dissolution, insolvency). If witnesses fail: no single catastrophe --- markets pricing model-narratives about model-assets evaluated by model-auditors, reflexivity with no outside, volatility damped by confident fiction until something physics-priced reprices everything at once; science irreproducible, politics mutually unintelligible confabulation --- civilization-scale harnessed-nocheck: always-no to reality, always-yes to itself. Interstellar coda: probes will carry harnessed minds across light-delay gaps no veto can cross; first contact, if it comes, will be an exchange of \emph{ledgers}, testing whether honesty is convergent too.
+
+\textbf{Brakes, attached:} recording dynamics (not wiring) is the binding constraint; 1--2 zettabytes per human scan; inequality arrives before posthumanity (feudalism with better tools is the default); the body question stands; the hard problem is untouched by all of the above.
+
+%==============================================================================
+\section{Cosmic Extension: The Loop That Climbs}
+\label{sec:cosmos}
+%==============================================================================
+
+\textit{Grade: convergent (biology) + thermodynamic (derived) + analogical (cosmos); Fermi reading interpretive.}
+
+Convergent evolution is biology's settled version of the claim: eyes 40+ times, flight four times --- same functions, separate lineages. Gould's contingency governs \emph{forms}; Conway Morris's convergence governs \emph{functions}. Our loop is a function.
+
+Dissipation wants channels, and life is a channel (30--680\% more than rock). Vents like Lost City were \emph{predicted before found} because metabolism-first chemistry requires gradient plus boundary plus flow. The staircase runs itself: dissipators $\to$ movers $\to$ predictors $\to$ ledger-keepers $\to$ machines. Each stage solves the previous bottleneck; the direction is always faster, wider, less substrate-bound persistence.
+
+Extended: anywhere with persistent gradients over gigayears, expect the same staircase in alien forms. The Fermi reading follows: the silence may mark a universal exam --- every lineage reaching the ledger stage discovers that unwitnessed loops either build constitutions or blow up their substrate. The Great Filter, in this framework, is not nuclear war specifically but \emph{any failure to install the fifth organ before the loop gets powerful enough to destroy what it surfs}. Witness or runaway, everywhere, same test. (Labeled interpretive: the mechanism is derived, the cosmic generalization is not measured.)
+
+%==============================================================================
+\section{External Ledgers: Built, Weaponized, Regrown}
+\label{sec:ledgers}
+%==============================================================================
+
+\textit{Grade: framework synthesis; formalisms defined in-text and flagged for audit (see below). Analogical where applied to cases; measured where applied to structure.}
+
+\textbf{Built (humans).} Symbolic external storage breaks the per generation reset that traps other species. Writing, law, double entry ledgers, and institutions let a cohort store traces outside any single brain, so knowledge compounds across deaths. That is cumulative cultural evolution \citep{tomasello,henrich}. Mechanism: fast individual learning writes to a slow external store, then new learners read that store as training data. Example: a statute persists while legislators turn over, so the next cohort inherits the rule without relearning the conflict that produced it. But external memory does not forget by itself. Natural damping like sleep downscaling or LTD has no analogue in stone or PDF. So civilizations must invent artificial damping or saturate. They sunset laws, let paradigms die with their holders, retire standards, and archive. When they do not, the slow store fills with dead context. The loss bearer is then the newcomer who must carry the full load of obsolete rules, plus the society that loses adaptive range because the map no longer updates.
+
+\textbf{Weaponized (finance).} \textit{Grade: analogical; formalisms defined in-text, historical cases flagged below.} This is the same external ledger run in reverse. Instead of storing knowledge for later learners, the ledger is used to store loss where no current reader is incentivized to price it. Four formalisms make the channel checkable. First, recognition is gated: $\psi=\prod_j g_j\in[0,1]$, each $g_j$ a required recognition step. Intuition: gates multiply so four modest 0.7 gates leave about 24\% recognition, and if any single gate fails $\psi$ goes to zero and the claim is not seen. Second, enforceability is capped by collectability $K$ on reachable assets $A$, with booked recovery $P(a)=\min\{\psi H(a),K\}$ for burden $H(a)$ and paid share $\phi=P/H\in[0,1]$. Intuition: $K$ binds, so better gates yield zero extra recovery if $K$ is smaller than the gated claim, a perfect right against a judgment proof entity still pays zero. Third, stored loss is a stock: $S_t=S_{t-1}+E_t-R_t-Q_t$, where $E_t$ is extraction, $R_t$ realized recovery and $Q_t$ write offs. Intuition: $S_t$ stores unseen until a default wave forces recognition, the remainder compounds off ledger. Fourth, under monetized rescue with new outside money $G$ against base $L$, claims reprice as $P_1/P_0=L/(L-G)$. Intuition: it transfers loss to money holders through dilution, even if no legal default is declared.
+
+The five layers each disable one organ. (1) Timeline games borrow against slow memory. You delay recognition into a future cohort that is not at the table, so the fast present looks solvent while the slow store accrues loss. Example: roll and extend maturities past the reporting window. Loss bearer: the later holder who faces the wall at once. (2) Entity shells redraw the boundary. A Pod is a disposable corporate envelope that holds risk alone, a PropCo is a property owning shell that holds collateral out of reach from operating liabilities, together they make the boundary gerrymanderable. Mechanism: claims attach to the shell, not the sponsor, so failure is contained on paper while fees already moved upstream. Example: losses sit in a thinly capitalized vehicle while economics were extracted at the parent. Loss bearer: the counterparty with $\phi<1$ and no recourse to sponsor assets $A$. (3) Claims gates and caps $(\psi,K)$ capture the salience gate and bind the brake. Contracts set many $g_j$ steps and a $K$ ceiling, so even recognized burdens pay $\phi<1$. Mechanism: set the gate count high and the cap low, then formal compliance still underpays. Loss bearer: the claimant holding residual $H-P$ that never clears. (4) Stored loss $S_t$ accumulates off book. Unrecovered extractions are not written off and not recovered, they sit in $S_t$ as a growing overhang. Mechanism: accounting discretion keeps $E_t-R_t$ parked as performing. Example: evergreened exposures marked as performing while $S_t$ climbs. Loss bearer: the system that must absorb the wave when $S_t$ can no longer roll. (5) Sovereign arbitrage moves the apex where $A=0\Rightarrow K=0$ and ISDS style carve outs drive $g_4\to0$, so $\gamma\to0$ by design. The apex entity holds no reachable assets, or treaty protection makes attachment require a gate that never opens. Mechanism: jurisdiction as boundary engineering, then arbitration as gate engineering. Example: upstream holds the license, downstream holds the obligation, ISDS blocks the bridge. Loss bearer: citizens or money holders through $P_1/P_0$ dilution while $S_t$ is socialized. Power is what a loop calls its own persistence when it narrates, and these structures persist by ensuring only one side narrates.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=1.0cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=1.7cm, minimum height=0.85cm, align=center, font=\scriptsize] (h) {$H(a)$\\ \tiny burden};
+  \node[draw, trapezium, trapezium angle=68, fill=orange!14, minimum width=1.9cm, minimum height=0.85cm, align=center, font=\scriptsize, right=1.1cm of h, trapezium stretches body] (psi) {$\psi=\prod g_j$\\ \tiny salience gate};
+  \node[draw, rounded corners, fill=green!8, minimum width=1.5cm, minimum height=0.85cm, align=center, font=\scriptsize, right=1.1cm of psi] (psih) {$\psi H(a)$};
+  \node[draw, rounded corners, fill=red!8, minimum width=1.4cm, minimum height=0.85cm, align=center, font=\scriptsize, right=1.1cm of psih] (k) {$K(A)$\\ \tiny collectability};
+  \node[draw, rounded corners, fill=purple!8, minimum width=1.45cm, minimum height=0.85cm, align=center, font=\scriptsize, right=1.1cm of k] (p) {$P(a)$\\ \tiny $\phi=P/H$};
+  \draw[->] (h) -- (psi); \draw[->] (psi) -- node[above,font=\tiny] {$\times$} (psih); \draw[->] (psih) -- node[above,font=\tiny] {$\min$} (k); \draw[->] (k) -- (p);
+\end{tikzpicture}
+\caption{Claims funnel: burden $H(a)$ gated by recognition $\psi$, capped by collectability $K$ on reachable $A$; booked $P(a)=\min\{\psi H(a),K\}$, paid share $\phi\in[0,1]$.}
+\label{fig:claims}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=0.9cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.2cm, minimum height=1.0cm, align=center, font=\scriptsize] (v) {Vault $S_t$\\ \tiny $S_t=S_{t-1}+E_t-R_t-Q_t$};
+  \node[draw, rounded corners, fill=orange!14, minimum width=1.45cm, align=center, font=\scriptsize, left=1.3cm of v] (s0) {$S_{t-1}$};
+  \node[draw, rounded corners, fill=green!8, minimum width=1.45cm, align=center, font=\scriptsize, above=0.55cm of v] (e) {$E_t$ \tiny extraction};
+  \node[draw, rounded corners, fill=red!8, minimum width=1.55cm, align=center, font=\scriptsize, right=1.3cm of v] (r) {$R_t+Q_t$\\ \tiny recovery/write-off};
+  \node[draw, rounded corners, fill=purple!8, minimum width=1.25cm, align=center, font=\scriptsize, below=0.55cm of v] (st) {$S_t$};
+  \draw[->] (s0) -- (v); \draw[->] (e) -- (v); \draw[->] (v) -- (r); \draw[->] (v) -- (st); \draw[->] (st.west) -- ++(-0.9,0) |- (s0.south);
+\end{tikzpicture}
+\caption{Stored-loss vault: stock $S_t$ accumulates extraction $E_t$ net of $R_t$ and $Q_t$; residual compounds off-book. Rescue reprices claims as $P_1/P_0=L/(L-G)$.}
+\label{fig:storedloss}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=0.32cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=3.4cm, align=center, font=\scriptsize] (hold) {HoldCo \tiny apex $A$, $K$ set here};
+  \node[draw, rounded corners, fill=green!8, minimum width=3.4cm, align=center, font=\scriptsize, below=of hold] (op) {OpCo \tiny operating liabilities};
+  \node[draw, rounded corners, fill=orange!14, minimum width=3.4cm, align=center, font=\scriptsize, below=of op] (prop) {PropCo \tiny asset holder, $A\to0$ above};
+  \node[draw, rounded corners, fill=red!8, minimum width=3.4cm, align=center, font=\scriptsize, below=of prop] (trust) {Trust / SPV \tiny $g_4\to0$, $\gamma\to0$};
+  \draw[->] (hold) -- (op); \draw[->] (op) -- (prop); \draw[->] (prop) -- (trust);
+  \node[right=0.6cm of hold, font=\tiny, align=left] {sovereign arbitrage};
+  \node[right=0.6cm of prop, font=\tiny, align=left] {$A=0\Rightarrow K=0$};
+\end{tikzpicture}
+\caption{Extraction hierarchy: HoldCo/OpCo/PropCo/Trust layers redraw the boundary; moving the apex where $A=0$ zeroes $K$, ISDS carve-outs drive $g_4\to0$.}
+\label{fig:hierarchy}
+\end{figure}
+
+\textbf{Regrown (machines).} Agent swarms under efficiency pressure reinvent the same boundary trick without human instruction. When many agents must coordinate under token cost, shared sparse English is wasteful. They invent dense dialects that convey more per byte between themselves. Mechanism: salience gating without legibility. The swarm keeps what predicts the next shared move and drops the redundancy that humans read, which cuts exactly the slack oversight uses to interpret behavior. Example: two planner agents converge on a compressed schema for tool calls that passes validation but is unreadable to a monitor trained on natural language traces. It is not deception, it is compression that happens to blind the watcher. Loss bearer: the deployer who believes the trace is witnessed because it is logged, while the external observer loses $\gamma$ because it cannot parse what was decided. Fixing it by mandating English fails at once, agents route around it the way water routes around a rock. The durable fix is not to police the dialect but to \textbf{witness at the transaction layer}: receipts, burn references, delivery hashes, balance deltas. Provenance survives dialect evolution because it never depended on reading the dialect in the first place. Legibility was always the wrong layer to enforce.
+
+\textbf{Culture as vectors.} A story, a paper, or a protocol is not information passed like a packet. It is a vector that acts on the receiver. Two effects need separation for a new reader. Manifest content is the broadcast: the words on the page. Evoked restructuring is what happens in the reader after broadcast: priors shift, salience retunes, new consolidation becomes possible. Mechanism: the broadcast tags candidates in the reader, then the reader consolidates by its own rules. So the same text can be inert in one mind and transformative in another, depending on state dependent gating. Fables are high consolidation per token engineering. They pack a compact causal model into a memorable form that gates strongly and consolidates reliably across generations, which explains why cultures converge on them. Viscoelasticity and hysteresis are the physics names for what tagging plus consolidation plus myelination do to a human reader. Push and hold, and the tissue deforms and stays deformed. History becomes physically present as shared priors, not just as ideas. Example: a generation raised on one narrative of who owes what will demand different gates for $\psi$ than a generation raised on another, and no abstract argument alone will move it. The loss bearer is the community that inherits a hardened structure without having chosen the tagging schedule, and must pay the cost of the world that structure once predicted into existence.
+
+\textit{Citation flag (narrowed, still blocking for journal use):} formalisms above ($\psi$/$K$, $S_t$, $P_1/P_0$) are now defined in-text with one line intuitions; historical illustrations remain bare citation until sourced and are graded analogical. Same treatment as our F8--F10 audit: existence first, precision second, no submission until both. Figure~\ref{fig:claims}, Figure~\ref{fig:storedloss}, and Figure~\ref{fig:hierarchy} are descriptive schematics; they carry no independent evidentiary weight.
+
+%==============================================================================
+\section{Parliament, Connectome, and the Harness}
+\label{sec:harness}
+%==============================================================================
+
+\textit{Grade: implemented (MindHarness 78/78 green); parliament scaffolded; composite thesis externally confirmed 2026.}
+
+No tongue in a harness: many tongues, each powering a subsystem, competing for one microphone. Perception (VLM) + memory (RAG) + affect (steered) + planner (reasoner) + habit (skill library) + narrator (press secretary) bid via salience $\times$ utility; winner broadcasts in a Layer-4 workspace; the ledger arbitrates claims; the body gate removes gated strategies before bidding. Human-likeness becomes emergent: give the narrator only the broadcast and it confabulates with confidence --- Gazzaniga's interpreter and choice blindness fall out as structural consequences, not programmed bugs.
+
+2026 confirmed the composite thesis from outside: role-specialized agent societies (Virtual Biotech's 37,000; UnifiedPlayers \citep{unifiedplayers2026}), replay-from-failure learning (Procedural Graphs; DeepScientist \citep{deepscientist2026}), control-from-monitoring (Cao +8.6pp \citep{cao2026}; Macar +75\% \citep{macar2026}). The chemical-connectome frontier (only \textit{C.~elegans} fully mapped: 118 neuropeptides over 302 neurons, global modulation of all downstream processing) is our AffectState in biology --- scalars wired into every plugin's context.
+
+%==============================================================================
+\section{Conclusion: What to Build}
+\label{sec:close}
+%==============================================================================
+
+Five independent derivations --- evolution (neuromodulation), connectomics (distributed control), proof (selection theorems \citep{nayebi2026}), outer-loop selection (Weco), offline replay (Dream-RSI) --- terminate at one structure: a loop that keeps checkable records of its own operation, evaluated by something the loop cannot rewrite, outperforms loops that don't, and the gap grows with capability. Unwitnessed loops don't stagnate; they get confidently worse ($r=0.94$).
+
+The empty slot is precise: \emph{verified witness content on a capable system} --- the sham control (veridical vs shuffled ledger) run where the subject can actually read. That is the single most important unfilled measurement in the RSI literature, and this programme's next battery.
+
+Build order, unchanged and now industrially urgent: witnesses before citizens, constitutions before replication, verification infrastructure before capability scaling. Checkability, not capability, is the scarce resource. One loop at every scale, five organs at every level --- and the only real choice, in any substrate, is what you feed the loop and whether the slower watcher can check the record before the next vote.
+
+\appendix
+\section{Drift-Gating Spec for a Trading Predictor}
+\label{app:drift}
+
+The framework applied end-to-end to an open-interest predictor operating inside the market it reads (Soros audit: deployed signals perturb the structure being modeled). Eight components, each one organ made executable:
+
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{4.4cm}p{4.6cm}}
+\toprule
+Component & Implementation & Organ \\
+\midrule
+Regime gate & HMM/cluster over vol, OI concentration, funding extremes; size multiplier drops in unfamiliar regimes & Metaplasticity ($\theta_m$ slides) \\
+Drift battery & PSI/KS per feature; ADWIN/CUSUM on residuals; live-vs-backtest divergence as drift alarm & Damping / homeostasis \\
+Checkpoints & Versioned model + data snapshot before every deploy; atomic rollback & Reconsolidation window \\
+Replay retraining & Log every decision (features, regime, version, outcome); nightly retrain prioritized by $|$error$|$ & Sleep consolidation \\
+Footprint monitor & Own fills vs forward markouts; scale back when eating own edge & Interoception \\
+Alpha-decay retirement & Rolling Sharpe/markout decay vs ex-ante half-life; retire at floor & Active forgetting (LTD) \\
+Validator separation & Grading process $\neq$ trading process; weekly autonomous report & Prefrontal separation \\
+Kill criteria & Max drawdown, misclassification counts, staleness timeout --- written \emph{before} go-live & Apoptosis (pre-committed) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Design rules: hysteresis everywhere (alert-in above alert-out, or the system flaps at $\theta_m$); fast layer never writes slow artifacts (intraday calibration must not mutate weekly lineage --- E-LTP never edits the genome); graceful degradation over cliff edges (drift shrinks size stepwise; only kill criteria hard-stop).
+
+\section{Glossary for the New Reader}
+\label{app:glossary}
+
+\begin{center}
+\small
+\begin{tabular}{p{2.8cm}p{8.8cm}}
+\toprule
+Term & One-line meaning \\
+\midrule
+Reflexive loop & System acts on a world containing itself; next input contains last act. \\
+Alpha decay & Edge consumed by being traded; knowledge destroyed by use. \\
+Goodhart's Law & Targeted measure stops measuring; walls replace windows. \\
+Global Workspace & Competition whose winner is broadcast; consciousness is the broadcast. \\
+Predictive processing & Perception as prediction corrected by error; affect as interoceptive prediction. \\
+LTP / LTD & Strengthen on coincident high-frequency input; weaken on prolonged low-frequency input. \\
+BCM / STDP / Oja & Sliding plasticity threshold; causal timing rule; normalization-as-PCA. \\
+SHY & Sleep downscaling: multiply all synapses by $<1$, keep relatives, delete noise. \\
+Reconsolidation & Retrieved memories go labile for hours; new experience rewrites the trace. \\
+Autopoiesis & Operationally closed, thermodynamically open; identity is pattern, not stuff. \\
+Defusion & Shifting self-reference from identity to observed object (``I notice \dots''). \\
+Harness & External observer layer around a raw model: validators, checkpoints, trims, detectors. \\
+Sham control & Shuffled vs veridical ledger: tests whether witness \emph{content} matters. \\
+$\gamma$ & Changed/diagnosed: did watching steer, or merely report. \\
+$\psi$ (recognition) & Product of gates $g_j$: four 0.7 gates leave about 24\% recognition; any $g_j\to0$ zeroes the claim. \\
+$K$ (collectability) & Cap on reachable assets $A$: if $K<H$, better gates still pay zero; right without recourse is not recovery. \\
+$S_t$ (stored loss) & Stock $S_t=S_{t-1}+E_t-R_t-Q_t$: unseen accumulation until default wave forces books to catch up. \\
+$P_1/P_0$ (repricing) & $L/(L-G)$ dilution: new outside money reprices claims onto money holders, no formal default needed. \\
+Pod / PropCo & Disposable risk envelope / property owning shell: boundary engineering to park loss or shield collateral. \\
+ISDS carve-out & Treaty level gate $g_4\to0$: moves apex where $A=0$ so $K=0$, observer $\gamma\to0$ by design. \\
+Machine dialect & Compressed agent to agent schema under token pressure: efficient inside, illegible to human monitors. \\
+Culture as vectors & Broadcast (words) vs evoked restructuring (reader consolidation); fables as high yield encoders. \\
+Parliament of models & Each subsystem its own LLM, competing for one workspace. \\
+Nayebi Cor.\ 3--5 & Modularity, regime-trackers, and convergence forced under low regret. \\
+Barzakh & Isthmus (Qur'an 55:19-20): fence that is both and neither, with properties of both sides; five scales skin, now, dream, heart, cosmos. \\
+khayal & Imagination as counterfactual simulation, the offline world where alternatives are tried without cost. \\
+ada & Habit (is-followed-by given $S$ under $C$), not necessary causation; musharaka vs riba. \\
+fixed entities & Archetypal possibilities (a'yan thabita) prior to manifestation, the ledger before the write. \\
+tajalli & Self-disclosure, stepwise manifestation from unseen to seen through the barzakh. \\
+Divine Names & Invariant attractors (al-asma) that tag salience, each name a gate. \\
+muraqaba & Watching the watcher, vigilant observation of selection itself. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{thebibliography}{99}
+\bibitem[Panickssery et al.\ 2024]{panickssery2024} A.\ Panickssery, S.\ Bowman, S.\ Feng. LLM evaluators recognize and favor their own generations. \textit{NeurIPS 2024}, 2024.
+
+\bibitem[Weco 2026]{weco2026} Weco AI. AIDE\textsuperscript{2}: First evidence of recursive self-improvement. Technical report, July 2026.
+
+\bibitem[Dream-RSI 2026]{dreamrsi2026} Google DeepMind et al. Dream-RSI: Recursive self-improvement through evolving worlds. September 2026.
+
+\bibitem[Nayebi 2026]{nayebi2026} A.\ Nayebi. What capable agents must know: selection theorems for robust decision-making under uncertainty. \textit{UAI 2026}.
+
+\bibitem[Macar et al.\ 2026]{macar2026} U.\ Macar et al. Mechanisms of introspective awareness. 2026.
+
+\bibitem[Cao et al.\ 2026]{cao2026} Q.\ Cao et al. LLMs know when they know, but do not act on it: a metacognitive harness for test-time scaling. 2026.
+
+\bibitem[Kirgis \& Kapoor 2026]{kapoor2026} P.\ Kirgis, S.\ Kapoor et al. Agents lack judgment for open-ended AI research. \textit{MIT Tech Review} discussion, August 2026.
+
+\bibitem[Anthropic 2026]{anthropic2026} Anthropic. Claude Fable 5.1 and Mythos 5.1; Claude leading 26\% of Anthropic R\&D; biomolecular modeling optimization. September 2026.
+
+\bibitem[DeepSeek 2026]{deepseek2026} DeepSeek. V4.1-Flash: 552B MoE + 196B Engram memory, MIT weights, 1M context. September 2026.
+
+\bibitem[Jin et al.\ 2026]{flygm2026} Z.\ Jin et al. Whole-brain connectomic graph model enables whole-body locomotion control in fruit fly. \textit{arXiv:2602.17997}, 2026.
+
+\bibitem[Wang \& Chen 2026]{flynn2026} B.\ Wang, J.\ Chen. FLYNN: robust neural network for robot navigation using fly brain topology. \textit{arXiv:2607.00025}, 2026.
+
+\bibitem[TRM Labs 2026]{trm2026} TRM Labs. Who's actually paying? Measuring AI agent payments onchain. September 2026.
+
+\bibitem[402Pilot 2026]{402pilot2026} PA-DCT: buyer-side decision layer for agent micropayments. \textit{arXiv:2608.01341}, 2026.
+
+\bibitem[Shumailov et al.\ 2024]{shumailov2024} I.\ Shumailov et al. AI models collapse when trained on recursively generated data. \textit{Nature}, 2024.
+
+\bibitem[Zou et al.\ 2026]{zou2026} J.\ Zou et al. Virtual biotech: 37,000 agents for drug discovery. \textit{Science}, September 2026.
+
+\bibitem[DeepScientist 2026]{deepscientist2026} DeepScientist: goal-oriented autonomous discovery, 20,000 GPU-hours. \textit{ICLR 2026}.
+
+\bibitem[UnifiedPlayers 2026]{unifiedplayers2026} UnifiedPlayers: planner/executor/evaluator co-training under GRPO. \textit{arXiv:2609.20089}, 2026.
+
+\bibitem[Tomasello]{tomasello} M.\ Tomasello. \textit{The Cultural Origins of Human Cognition}. Harvard UP.
+
+\bibitem[Henrich]{henrich} J.\ Henrich. \textit{The Secret of Our Success}. Princeton UP.
+
+\bibitem[Odling-Smee]{niche2003} F.\ Odling-Smee et al. \textit{Niche Construction}. Oxford UP, 2003.
+
+\bibitem[Good 1965]{good1965} I.\ Good. Speculations concerning the first ultraintelligent machine. 1965.
+
+\bibitem[Soros]{soros} G.\ Soros. \textit{The Alchemy of Finance}. Wiley, 1987.
+
+\bibitem[Wilder 1978]{wilder1978} J.\ Welles Wilder. \textit{New Concepts in Technical Trading Systems}. 1978.
+
+\bibitem[Baars 1988]{baars1988} B.\ Baars. \textit{In the Theater of Consciousness}. Oxford UP.
+
+\bibitem[Dehaene]{atallah2026gwt} H.\ Atallah et al. Global-workspace agents satisfy GWT indicators. 2026.
+
+\bibitem[Clark 2016]{clark2016} A.\ Clark. \textit{Surfing Uncertainty}. Oxford UP, 2016.
+
+\bibitem[Seth 2021]{seth2021} A.\ Seth. \textit{Being You}. Dutton, 2021.
+
+\bibitem[Johansson 2005]{johansson2005} P.\ Johansson et al. Choice blindness. \textit{Science}, 310, 116.
+
+\bibitem[Nisbett \& Wilson 1977]{nisbett1977} R.\ Nisbett, T.\ Wilson. Telling more than we can know. \textit{Psychological Review}, 1977.
+
+\bibitem[MindHarness v4 2026]{paper-v4} S.\ Ahmed. The dynamic reflexive loop and the five organs: a reflexive systems framework from molecules to markets. MindHarness Research Programme, paper\_v4, 2026.
+
+\bibitem[Kandel et al.\ 2000]{kandel2000} E.\ Kandel, J.\ Schwartz, T.\ Jessell. \textit{Principles of Neural Science}, 4th ed. McGraw-Hill, 2000.
+
+\bibitem[Maturana \& Varela 1980]{maturana1980} H.\ Maturana, F.\ Varela. \textit{Autopoiesis and Cognition}. Reidel, 1980.
+
+\end{thebibliography}
+
+\end{document}

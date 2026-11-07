@@ -1,0 +1,23 @@
+[
+  {
+    "path": "chapters/03_cash_before_cost.md",
+    "prior": "development/editorial_2026-09-29_finance/03_cash_before_cost.md",
+    "prior_sha256": "8fe1686afcfb832fa6374c520ef1e67f1c17bfc877727bf96c5b3bc3e1dae937",
+    "current_sha256": "be714062eef390dadc739ed0b3436ca2b89d809b280be8e087f58eb0b9081a18",
+    "reason": "Tighten the cash/calendar narrative, translate IRR, add the deal/fund contrast, and use the April 2025 distress estimate while preserving the earlier version in the note."
+  },
+  {
+    "path": "chapters/04_the_company_that_could_disappear.md",
+    "prior": "development/editorial_2026-09-29_finance/04_the_company_that_could_disappear.md",
+    "prior_sha256": "e0d4dda36e6d7ccbb5049d292ef9a66c17202fb2a39360deecceff357bc045d1",
+    "current_sha256": "b1e9647fa4f549438c51d49bf3421065a0828482b47d8789c1037a5c531e3f87",
+    "reason": "Make the address and funding passage carry the legal argument; keep the rival defenses and different holdings; move prior-draft commentary out of the main story."
+  },
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-29_finance/05_the_tollbooths.md",
+    "prior_sha256": "df7af2a3d52c73928e2cd270ef5d33655644b70266435ac3fa7d1ba3f6427ebd",
+    "current_sha256": "6af8a54ec765fd15cdfac6bc619a567b0adc9305c62823b78660e4d8712573c5",
+    "reason": "Clarify conditional gate arithmetic, join recognition and resource-cap examples, add ultimate-resolution evidence, and move the old denominator correction to the source trail."
+  }
+]

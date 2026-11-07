@@ -1,0 +1,1736 @@
+Report by the
+Comptroller and
+Auditor General
+HC 567
+SesSIon 2010–2011
+21 december 2010
+
+
+
+
+HM Treasury
+
+
+The Asset Protection Scheme
+Our vision is to help the nation spend wisely.
+
+We apply the unique perspective of public audit
+to help Parliament and government drive lasting
+improvement in public services.
+
+
+
+
+The National Audit Office scrutinises public spending on behalf of
+Parliament. The Comptroller and Auditor General, Amyas Morse, is an
+Officer of the House of Commons. He is the head of the National Audit
+Office which employs some 900 staff. He and the National Audit Office
+are totally independent of Government. He certifies the accounts of all
+Government departments and a wide range of other public sector bodies;
+and he has statutory authority to report to Parliament on the economy,
+efficiency and effectiveness with which departments and other bodies
+have used their resources. Our work leads to savings and other efficiency
+gains worth many millions of pounds: £890 million in 2009-10.
+HM Treasury
+
+
+The Asset Protection Scheme
+
+
+
+
+Ordered by the House of Commons                 This report has been
+to be printed on 20 December 2010               prepared under Section 6
+                                                of the National Audit Act
+Report by the Comptroller and Auditor General   1983 for presentation to
+HC 567 Session 2010–2011                        the House of Commons
+21 December 2010                                in accordance with
+                                                Section 9 of the Act.
+London: The Stationery Office
+                                                Amyas Morse
+£14.75
+                                                Comptroller and
+                                                Auditor General
+
+                                                National Audit Office
+
+                                                17 December 2010
+© National Audit Office 2010
+
+The text of this document may be reproduced free of charge in
+any format or medium providing that it is reproduced accurately
+and not in a misleading context.
+
+The material must be acknowledged as National Audit Office
+copyright and the document title specified. Where third party
+material has been identified, permission from the respective
+copyright holder must be sought.
+
+
+
+
+Printed in the UK for the Stationery Office Limited
+on behalf of the Controller of Her Majesty’s Stationery Office
+2404702 12/10 7333
+                                       Contents
+
+                                       Summary 4
+
+                                       Part One
+                                       Background 10
+
+                                       Part Two
+                                       Protecting taxpayers 15
+
+                                       Part Three
+                                       Lending commitments 27
+
+                                       Appendix One
+                                       Timeline of key events 32
+
+                                       Appendix Two
+                                       Methodology 34
+
+
+
+
+The National Audit Office study team   For further information about the
+consisted of:                          National Audit Office please contact:
+
+Philip Airey, Thabang Nonyane,         National Audit Office
+Colin Ratcliffe and Jonathan Tang,     Press Office
+under the direction of Peter Gray      157-197 Buckingham Palace Road
+                                       Victoria
+This report can be found on the
+                                       London
+National Audit Office website at
+                                       SW1W 9SP
+www.nao.org.uk/Asset-Protection-2010
+                                       Tel: 020 7798 7400
+                                       Email: enquiries@nao.gsi.gov.uk
+                                       Website: www.nao.org.uk
+                                       Twitter: @NAOorguk
+Photographs courtesy of
+xxxxxxxxxxxxxxxxxxxxxxxx
+4 Summary The Asset Protection Scheme
+
+
+
+
+                       Summary
+
+                       1      Since 2007, economies around the world have suffered financial shocks leading
+                       to a number of bank failures. In October 2008, the Treasury announced a package of
+                       measures to support the UK banking system. A key element involved purchases of
+                       shareholdings in the Royal Bank of Scotland (RBS) and Lloyds Banking Group (Lloyds)
+                       totalling £37 billion.
+
+                       2     By providing banks with additional capital to withstand the economic conditions
+                       at that time, the October 2008 measures avoided a collapse of the UK banking system.
+                       However, the economic downturn continued to intensify, undermining market confidence
+                       in the value of banks’ assets. As banks remained unsure about the value of assets
+                       on their balance sheets, the Treasury was concerned that they would respond to this
+                       uncertainty by retaining capital. Banks’ reduced willingness to lend was seen as a
+                       risk to economic recovery, which could in turn lead to further declines in the value of
+                       banks’ assets.
+
+                       3    In January 2009, a further set of measures was announced, including an Asset
+                       Protection Scheme (the Scheme) which would protect banks against exceptional
+                       losses on loans, mortgages and other financial assets. In November 2009, the Treasury
+                       agreed that:
+
+                       ¬¬   RBS would place £282 billion of assets in the Scheme. To ensure that RBS could
+                            absorb further losses, the Treasury injected additional capital of £25.5 billion, with a
+                            promise of up to a further £8 billion if needed.
+
+                       ¬¬   Lloyds would not participate further in the Scheme, but would instead raise
+                            additional capital from shareholders, including the taxpayer, and pay a fee of
+                            £2.5 billion to exit the Scheme.
+
+                       4    We have previously reported on the nationalisation of Northern Rock, and in
+                       December 2009 and 2010 published overviews of the subsequent measures taken to
+                       maintain financial stability. This report on the Scheme considers whether the Treasury:
+
+                       ¬¬   based its decision making on a robust assessment of the options;
+
+                       ¬¬   maintained financial stability by ensuring that the banks would have enough capital
+                            in a severe economic downturn;
+
+                       ¬¬   protected the taxpayer interest as far as possible; and
+
+                       ¬¬   encouraged lending to the wider economy.
+                                                  The Asset Protection Scheme Summary 5
+
+
+
+
+Key findings
+
+Options analysis
+5     A range of options, including public ownership and purchases of banks’
+assets, were considered. The Treasury judged that taking a major bank into public
+ownership carried significant risks, including a further fall in confidence in other banks,
+and therefore considered this a last resort. Implementing an asset purchase, rather than
+a protection scheme, for major banks would have taken longer to set up and would have
+involved the transfer of legal ownership of assets, many of which were located outside
+the UK. An asset protection arrangement had the advantage of not requiring, in itself, an
+immediate cash call on the Exchequer.
+
+6     The maintenance of financial stability was key in the final decision to go
+ahead with the Scheme. Before finalising the Scheme, the Treasury considered
+whether an alternative of a larger capital injection might be better value for money. In the
+event of a severe economic downturn, such a change might have reduced the cost to
+the taxpayer, but would not have provided as much certainty to the markets that RBS
+would remain solvent. As a consequence, the risk to financial stability was judged to be
+too great and the Scheme was implemented.
+
+
+Maintaining financial stability
+7    The Treasury’s actions reduced the risks faced by the banks as the economy
+suffered a steeper downturn than expected in late 2008 and early 2009. Following
+the announcement of the Scheme in January 2009, market sentiment towards the
+supported banks stabilised. To date, the Scheme has contributed to the Treasury’s aim
+of maintaining financial stability.
+
+8     As a result of the support, through capital injections and the Scheme,
+ordinary shareholders saw the value of their holdings reduced considerably but
+some private holders of bank capital were to a degree protected. International
+agreements on bank capital allow some types of borrowing by banks to be counted
+as capital if, among other conditions, the debt is subordinated to the claims of other
+creditors in the event of insolvency. Because the Government’s intervention avoided
+insolvency, holders of subordinated debt were not put at immediate risk, although the
+market value of their holdings declined. In addition, the banks did not suspend interest
+payments or early repayments of the debt, which they had a right to do in a financial
+crisis, for fear of putting future funding from such sources at risk. With support from the
+Treasury, both banks exchanged or bought back subordinated debt during 2009-10,
+increasing capital by over £5 billion. Further buy-backs and exchanges of subordinated
+debt by both banks could increase core capital further.
+6 Summary The Asset Protection Scheme
+
+
+
+
+                       Protecting the taxpayers’ interest
+                       9    Under the final agreement with RBS, the Treasury agreed that:
+
+                       ¬¬   RBS bears the first £60 billion of losses (termed the “first loss”);
+
+                       ¬¬   the Treasury meets 90 per cent of losses incurred thereafter (termed the
+                            “second loss”); and
+
+                       ¬¬   RBS will pay annual fees subject to an overall minimum fee on exit of £2.5 billion or,
+                            if higher, 10 per cent of the capital relief provided by the Scheme.
+
+
+                       First loss
+                       10 The Treasury set the first loss equal to its estimate of the losses likely
+                       to be incurred by RBS under the most likely economic scenario. The Scheme
+                       therefore only provides protection against further losses if the economy performs
+                       below expectations. By September 2010, losses stood at £37 billion. Setting the
+                       first loss at or above the expected loss was crucial in providing the right incentive to
+                       the bank to manage assets effectively – up to the first loss, all losses are borne by
+                       the bank. The Treasury conducted extensive due diligence on the assets proposed
+                       by RBS for the Scheme – a highly complex task encompassing assets held across
+                       the world – and designed a series of stress scenarios which were used to calculate a
+                       range of possible losses. An early estimate of losses by the Asset Protection Agency,
+                       established by the Treasury to oversee the Scheme, suggests that the first loss was set
+                       at a reasonable level.
+
+                       11 Both banks encountered major difficulties in providing the Treasury with
+                       data on their assets within the timescales set, particularly in terms of the volume
+                       of data and the format required. Where the data was judged to be insufficient, the
+                       Treasury adopted a conservative view of potential losses or refused to allow the assets
+                       into the Scheme. As the legality of some covered assets at the time could not be
+                       confirmed beyond reasonable doubt, the Treasury’s Accounting Officer sought and was
+                       given a direction by the Chancellor of the Exchequer to proceed with the Scheme.
+
+
+                       Second loss
+                       12 If the first loss is exceeded, RBS will have less financial incentive to stem
+                       further losses although the bank considers it will still have a legal and moral
+                       obligation to manage the assets as best it can. The Treasury decided against RBS
+                       bearing a higher percentage of second losses as this would have required a higher
+                       injection of capital upfront to strengthen the bank’s position. Any payments by the
+                       taxpayer for second losses will, however, be delayed by two years from the point at
+                       which the loss is realised, providing time for any recoveries on assets to be offset.
+                       More significantly, second loss payments must be repaid by RBS if it wishes to exit the
+                       Scheme before December 2099.
+                                                 The Asset Protection Scheme Summary 7
+
+
+
+
+13 The taxpayers’ position would be particularly vulnerable if losses were to
+exceed about £73 billion. Our estimates suggest that, up to this tipping point, RBS
+will have a financial incentive to exit the Scheme long before December 2099, taking
+account of the annual fees that it would have to pay to stay in. If losses were, however,
+to exceed about £73 billion, RBS would have an incentive to stay in the Scheme until
+the end, rather than incur a large and immediate repayment to the Exchequer. After
+this point the remaining incentives on RBS to stem any further losses are unlikely to be
+effective. Losses of this magnitude would only occur in seriously stressed economic
+circumstances, the probability of which has reduced since the Scheme was announced
+in January 2009.
+
+
+Fees
+14 The £2.5 billion exit fee agreed with Lloyds was set at a level that would meet
+regulatory capital requirements and avoid jeopardising the rights issue. The exit
+fee was equivalent to an annual return of 16.4 per cent on the capital benefit obtained by
+Lloyds. This rate of return was approximately 2 per cent higher than the bank’s cost of
+capital in late 2009, but was below returns that might have been demanded by investors
+during the early part of 2009, when economic conditions were difficult. On the basis of
+a cost of equity of 20-30 per cent a year, the fee could have been fixed within a range
+of £3-4.5 billion for the period that the bank benefited from the Scheme. The Treasury,
+however, accepted that Lloyds would not have been able to secure shareholder approval
+to pay a higher fee, pass the Financial Services Authority’s stress test, and successfully
+proceed with its proposed capital raising exercise. The Treasury judged that overall value
+for money would be better secured by exit rather than keeping Lloyds within the Scheme.
+Our analysis suggests that the fee paid was at the upper end of the range paid by Bank of
+America when it exited the US Asset Guarantee Program.
+
+15 In light of the deal reached with Lloyds and likely market perceptions, the
+Treasury decided a minimum exit fee for RBS of £2.5 billion was appropriate.
+In setting the fee at this level, the Treasury aimed to charge the maximum fee possible,
+consistent with leaving RBS well-capitalised and securing the primary objective of
+financial stability, and to ensure that the pricing structure maintained an incentive on
+RBS to exit as quickly as possible.
+8 Summary The Asset Protection Scheme
+
+
+
+
+                       16 The Treasury’s analysis underpinning the minimum RBS exit fee did not
+                       include the breadth and depth of analysis we would expect, given the amounts at
+                       stake. But even with a more complete analysis, the Treasury would still have had to
+                       consider the risks to financial stability. Our examination suggested that, in its analysis
+                       of the fee, the Treasury did not consider all the risks being covered by the taxpayer and
+                       hence the fee that might have been appropriate if wider considerations had not been
+                       paramount. For instance, our analysis of cash flows suggested that a minimum fee in
+                       the range £1.4‑4.4 billion could have been justified without breaching minimum capital
+                       requirements, with the weight of analysis pointing towards the upper end of the range.
+                       But if the Treasury had conducted this analysis to inform its judgement, it would have had
+                       to judge the impact of a different fee on broader financial stability, market perceptions and
+                       the overall pricing structure. In addition, the Treasury would have had to obtain approval
+                       from the Financial Services Authority on the adequacy of RBS’s capital position.
+
+
+                       Scheme rules
+                       17 RBS is required to manage the assets in line with detailed requirements
+                       set out in the agreement, including the need to obtain approval from the Asset
+                       Protection Agency on key decisions involving major assets. Ultimately, the Agency
+                       has power to replace the asset managers or take over the management of the relevant
+                       assets. In practice, the extent to which assets are managed in the interests of the
+                       taxpayer if the first loss of £60 billion is breached will depend heavily on the incentives
+                       built into the pricing structure, the ability of the Agency to obtain the information it needs
+                       to assess whether taxpayers’ interests are safeguarded, and the willingness of the
+                       Agency and RBS to work together effectively.
+
+
+                       Lending commitments
+                       18 Both banks achieved targets for mortgage lending in the first year of
+                       operation, but there was a shortfall of £30 billion against targets for lending to
+                       businesses (£8 billion for Lloyds and £22 billion for RBS). As part of the Scheme,
+                       Lloyds and RBS agreed to meet lending targets for 2009 and 2010. While the fall in
+                       business lending could have been due to a combination of a lack of demand and
+                       a shortage of supply, recent research by the Bank of England suggests that there
+                       is evidence of a tightening in credit supply conditions from mid-2007, as well as
+                       weaker credit demand. Changes have been made to the targets for the second year
+                       of operation to reflect changes in borrower behaviour, particularly the greater use of
+                       alternative sources of finance by larger businesses. The Treasury considered introducing
+                       a range of potential sanctions if targets were not met but decided that all would
+                       face insurmountable difficulties. The Treasury has few levers through the Scheme to
+                       encourage either bank to deploy extra resources to meet the targets.
+                                                 The Asset Protection Scheme Summary 9
+
+
+
+
+Conclusion on value for money
+19 Along with capital injections into the banks, the announcement of the Scheme had
+a beneficial impact on the financial markets, helping to achieve the Treasury’s aim of
+maintaining financial stability. By avoiding the huge economic and social consequences
+of the failure of a major UK bank, the Scheme was a key component in delivering value
+for money.
+
+20 The Treasury did well to maintain flexibility in developing and negotiating the
+Scheme as more information on the assets became available and 2009 unfolded. With
+the exception of weaknesses in the Treasury’s analysis of potential fees for RBS, the
+principal elements of the Scheme, particularly the first loss, were based on a robust
+assessment of the incentives that impact on value for money, and on as complete
+information as was available at the time on the underlying assets. Value for money in
+the longer term will depend heavily on the incentives built into the pricing structure to
+encourage good asset management.
+
+21 Overall, the global economy remains highly uncertain, and much will therefore
+depend on the Asset Protection Agency’s ability to hold RBS to its commitments to
+manage the assets well. As it stands now, the Scheme has contributed to financial
+stability, the Treasury’s overriding aim. But the Scheme has, so far, only been
+partially successful in encouraging lending to creditworthy borrowers on the scale
+originally envisaged.
+
+
+Recommendations
+a    The Treasury put considerable effort into assessing the overall pricing
+     structure for RBS’s participation in the Scheme, in particular the level of
+     first loss, but there were gaps in its analyses supporting its assessment of
+     fees. The Treasury should explore the use of approaches to challenge the breadth
+     and depth of key analyses and enable it to step back and re-examine some of the
+     assumptions implicit in its thinking. This challenge should include consideration of
+     the potential upside for the taxpayer as well as the risks.
+
+b    To avoid potential funding difficulties, the banks did not exercise features
+     of subordinated debt designed to preserve capital in adverse economic
+     conditions, leaving ordinary shareholders and the taxpayer to bear the
+     risk. With support from the Treasury, the banks have bought back some of
+     their subordinated debt at discounts, leading to increases in their capital ratios.
+     However, a substantial level of subordinated debt remains outstanding. The
+     Treasury should work with the Bank of England, the Financial Services Authority
+     and international authorities to develop new debt instruments that will support
+     banks’ capital resources in a crisis.
+
+c    Over the past three years, the Treasury has accumulated much knowledge and
+     practical experience of dealing with banks in difficulty. Before that experience is
+     lost, the Treasury should capture the lessons learned in putting the Scheme together.
+     Where relevant it should also share the lessons with the Bank of England.
+10 Part One The Asset Protection Scheme
+
+
+
+
+                        Part One
+
+                        Background
+                        1.1 Banks are vital to the UK’s economy, providing a crucial part of the payment
+                        mechanism for households and businesses. But banks are vulnerable if the value of their
+                        assets decline. As with other businesses trading with limited liability, banks are required
+                        to remain solvent in the sense that the value of assets should exceed the value of
+                        liabilities. The difference is capital. Under international agreements banks must maintain
+                        minimum levels of capital, particularly what is often referred to as “core capital”, which
+                        includes ordinary shares and retained profits.
+
+                        1.2 In 2007, the world’s financial markets entered a period of turbulence triggered by
+                        fears of exposure to American sub-prime mortgages. Financial institutions and investors
+                        reduced their purchases of mortgage-backed assets, effectively closing an important
+                        source of funding for banks. Consequently, the value of such assets started falling.
+                        Banks began to retain cash to meet their own requirements and became reluctant to
+                        lend to one another as there were concerns about which banks were carrying large
+                        undisclosed losses. The resulting shortage of liquidity across the global banking system
+                        undermined the financial health of banks that relied on the wholesale markets. The
+                        scale of the economic and social costs if one or more major UK banks had collapsed is
+                        difficult to envision.
+
+
+                        The aim and objectives of public support
+                        1.3 The Financial Services and Markets Act 2000 created a single, independent,
+                        regulator for UK financial services, the Financial Services Authority. A framework
+                        for financial stability had also been established under which a Tripartite Standing
+                        Committee of the Treasury, the Financial Services Authority, and the Bank of England
+                        (the Authorities), became responsible for stability of the financial system. In exceptional
+                        circumstances, ultimate responsibility for the authorisation of a support operation rested
+                        with the Chancellor of the Exchequer.
+                                                                The Asset Protection Scheme Part One 11
+
+
+
+
+1.4 The financial crisis prompted governments across the world to intervene to support
+their financial systems. In the UK, the Treasury’s main objectives were to:
+
+¬¬     stabilise and restore confidence in the financial system;
+
+¬¬     protect retail depositors;
+
+¬¬     protect taxpayers’ interests; and
+
+¬¬     ensure continued lending to creditworthy borrowers.
+
+
+The measures taken before January 2009
+1.5 The Authorities:
+
+¬¬     increased liquidity in the banking system;
+
+¬¬     facilitated resolutions of individual financial institutions in difficulty; and
+
+¬¬     in October 2008, introduced wider measures to improve solvency and liquidity
+       across the banking sector, including the purchases of shares in RBS and Lloyds.
+
+1.6 The October 2008 interventions were sufficient to arrest falling market confidence
+in the UK’s largest banks, as reflected in a fall in the price of insuring against default
+(Figure 1 overleaf). The NAO reported on these interventions in December 2009.1
+
+
+Announcement of the Asset Protection Scheme
+1.7 Although a degree of stability had been achieved following the October 2008
+interventions, market confidence remained weak and the price of default insurance
+increased gradually (Figure 1). By the end of 2008, economic data suggested that
+the downturn in the economy was likely to be deeper than the Treasury had forecast
+in November 2008 (Figure 2 on page 13). By early January 2009, the Treasury had
+become increasingly concerned about growing risks to financial stability. It was
+aware that the US Government was preparing support for Bank of America and that
+there would be further negative news about UK banks. During this time, the Treasury
+considered a range of options for further interventions, including public ownership of
+banks in difficulty and the purchase of legacy assets (Appendix Three).
+
+
+
+
+1    Report by the Comptroller and Auditor General, “Maintaining financial stability across the UK’s banking system”,
+     HC91, Session 2009-2010.
+12 Part One The Asset Protection Scheme
+
+
+
+
+Figure 1
+The price of insuring against default by the UK’s major banks fell immediately after the
+October 2008 intervention, but market confidence remained weak
+Annual fee for insuring debt in the UK's largest banks (percentage of the amount insured)
+3.5
+                 Announcement of                                                                     RBS participation in
+                 October 2008                                                                    the Scheme and Lloyd’s
+                 interventions                          RBS in-principle agreement
+                                                                                                         exit announced
+
+                            APS announced
+3.0
+
+                                                          Lloyds in-principle agreement
+
+
+
+2.5
+
+
+
+
+2.0
+
+
+
+
+1.5
+
+
+
+
+1.0
+
+
+
+
+0.5
+
+
+
+
+  0
+  Sep      Oct      Nov    Dec     Jan      Feb   Mar     Apr     May       Jun      Jul   Aug      Sep      Oct       Nov   Dec
+  08       08       08     08      09       09    09      09      09        09       09    09       09       09        09    09
+
+
+      HSBC            Barclays       RBS          Lloyds TSB/Lloyds Banking Group
+
+Source: Markit Group Ltd
+                                                      The Asset Protection Scheme Part One 13
+
+
+
+
+Figure 2
+Between November 2008 and April 2009, the forecast reduction in GDP
+for 2009 deepened markedly
+Percentage change in GDP
+4
+
+3
+
+2
+
+1
+
+0
+
+-1
+
+-2
+
+-3
+
+-4
+
+-5
+
+-6
+            2007              2008                2009              2010           2011
+
+     Forecast percentage change in GDP Pre Budget Report 2008, November 2008
+     Forecast percentage change in GDP Budget 2009, April 2009
+     Forecast percentage change in GDP Budget 2010, March 2010
+     Actual percentage change in GDP Budget 2010, March 2010
+
+Source: HM Treasury
+
+
+
+1.8 On 19 January 2009, RBS announced that it was likely to incur a loss of £7-8 billion
+for the year ended 31 December 2008. On the same day, the Chancellor announced
+that an Asset Protection Scheme would be developed as part of a wider package of
+measures to address capital shortfalls and maintain lending to the economy.
+
+1.9 The Scheme was open to all banks meeting qualifying criteria and would protect
+assets in participating banks against the risk of default. Tests conducted by the Financial
+Services Authority to check whether UK banks had adequate capital to withstand a
+severe economic shock indicated that both RBS and Lloyds might breach their minimum
+capital to asset ratios during 2010.
+14 Part One The Asset Protection Scheme
+
+
+
+
+                        1.10 In February and March 2009, in the midst of deteriorating economic conditions, the
+                        Treasury announced that it had reached in-principle agreements with:
+
+                        ¬¬   RBS to protect some £325 billion of assets, with the bank bearing a first loss of
+                             £42 billion and paying a fee through the issue of £6.5 billion in non-voting shares. In
+                             addition, the Government agreed to inject up to a further £19 billion of capital, also
+                             in the form of non-voting shares.
+
+                        ¬¬   Lloyds to insure £260 billion of assets in return for a fee of £15.6 billion that would
+                             be paid through issuring non-voting shares.
+
+                        1.11 These announcements were followed by detailed due diligence on the assets
+                        to be placed in the Scheme, and negotiations between the participating banks and
+                        the Treasury on contract terms and state aid clearance. A timeline of key events is at
+                        Appendix One.
+
+
+                        Scope of this report
+                        1.12 This report provides Parliament with an evaluation of the protections put in place
+                        for the taxpayer under the Scheme (Part Two) and lending commitments entered into by
+                        the banks (Part Three). Our methodology is summarised at Appendix Two. However, this
+                        report does not consider:
+
+                        ¬¬   the causes of the credit crisis or the regulatory regime operated by the
+                             Financial Services Authority, which at the time was outside our statutory audit
+                             responsibilities, and have been examined by others;
+
+                        ¬¬   the Bank of England’s role in respect of monetary policy and the stability of the
+                             financial system, which are outside our statutory audit responsibilities; and
+
+                        ¬¬   support from the Department for Business, Innovation and Skills to non-financial
+                             companies, which has been covered in a separate report.
+
+                        1.13 A Glossary and Appendices Three to Seven of this Report have been published
+                        separately on the web and can be found at www.nao.org.uk/Asset-Protection-2010.
+                                                              The Asset Protection Scheme Part Two 15
+
+
+
+
+Part Two
+
+Protecting taxpayers
+2.1 This Part considers how risks to the taxpayer were reduced while achieving
+appropriate levels of capital adequacy for RBS and Lloyds:
+
+¬¬     Lloyds’ exit and the decision to proceed with the Scheme for RBS.
+
+¬¬     The terms of RBS’s participation in the Scheme.
+
+¬¬     Conversions of subordinated debt into core capital.
+
+¬¬     The Treasury’s use of resources.
+
+
+Lloyds’ exit and the decision to proceed with the Scheme for RBS
+2.2 In March 2009, the Treasury began negotiations with RBS and Lloyds to agree
+the detailed Scheme rules and commissioned more due diligence on the asset
+pools proposed by the two banks. As part of the early negotiations, Lloyds and RBS
+made commitments to extend lending to households and businesses and to restrict
+bonus payments.
+
+2.3 In early summer 2009, in parallel with continuing negotiations over the Scheme,
+Lloyds began developing a proposal to raise additional capital through a rights issue.
+The Financial Services Authority assessed Lloyds’ plan and considered that the bank
+could raise sufficient capital to pass a severe stress test without additional support
+through the Scheme. The Treasury concluded that the proposal was deliverable, and
+offered better value for money than the alternative of keeping Lloyds in the Scheme.
+While allowing the rights issue to go ahead in November 2009, the Treasury charged
+Lloyds an exit fee of £2.5 billion.
+
+2.4 To ensure that RBS could absorb further losses, the Treasury agreed to inject
+additional capital of £25.5 billion. To continue trading on the London Stock Exchange,
+the UK Listing Authority’s rules required some RBS shares to remain in the open market.
+As a result of the additional capital injection, the taxpayer’s economic interest in the bank
+increased from 70 per cent to 84 per cent2, a level of ownership below the upper limit of
+90 per cent that would require de-listing. The Treasury also committed to provide up to a
+further £8 billion of contingent capital in a stress scenario.
+
+
+2    In March/April 2010, RBS conducted capital management transactions to exchange and convert subordinated
+     debt into core capital and issue new shares to fund deferred 2009 employee awards. These transactions increased
+     the number of RBS shares in issuance and reduced the Government’s share ownership from 84 per cent to
+     83 per cent.
+16 Part Two The Asset Protection Scheme
+
+
+
+
+                        2.5 Prior to reaching final agreement with RBS, the Treasury re-examined the available
+                        options. By late 2009, the performance of the economy was mixed but the risk of more
+                        extreme downturns had begun to ease. Although the fall in GDP proved greater than
+                        expected in late 2008, the projected decline in UK house prices had been less severe.
+                        Money markets stabilised and improved confidence was reflected in a period of equity
+                        gains. With the extreme risks perceived to be lower and the Authorities having better
+                        knowledge of what was on the banks’ balance sheets, the Treasury considered there
+                        was scope to rebalance the support in favour of further recapitalisation.
+
+                        2.6 The decision to proceed with the Scheme in November 2009 had been finely
+                        balanced. The Treasury had considered replacing the Scheme by increasing the
+                        contingent capital commitment to RBS from £8 billion to £17 billion. Analysis of this
+                        proposed change indicated a small saving of around £200 million under the base case
+                        scenario and a potential saving of the order of £4 billion in the stress case.
+
+                        2.7 The Treasury decided to proceed with the Scheme as:
+
+                        ¬¬   further consideration of alternatives risked prolonging negotiations with RBS into
+                             2010 and might be misinterpreted by the markets as a signal that problems at RBS
+                             were worse than expected;
+
+                        ¬¬   the Scheme provided more certainty that RBS could survive a severe
+                             economic downturn without further contingent capital and risking de-facto
+                             nationalisation; and
+
+                        ¬¬   there would be some benefits in bringing the Scheme into operation and having it
+                             available to other banks, if needed.
+
+
+                        The terms of RBS’s participation in the Scheme
+                        2.8 Under the November 2009 terms, the Treasury and RBS agreed that:
+
+                        ¬¬   RBS bears the first £60 billion of losses (termed the “first loss”) on a £282 billion
+                             pool of covered assets;
+
+                        ¬¬   the Treasury meets 90 per cent of losses incurred thereafter (termed the “second
+                             loss”). If RBS exits the Scheme before December 2099, it must repay what it has
+                             received plus interest; and
+
+                        ¬¬   RBS pays £700 million a year for the first three years, reducing thereafter to
+                             £500 million a year, subject to an overall minimum fee of £2.5 billion or, if higher,
+                             10 per cent of the capital relief provided by the Scheme.
+                                                  The Asset Protection Scheme Part Two 17
+
+
+
+
+2.9 While seeking financial stability, the Treasury also aimed to:
+
+¬¬   set a first loss equal to the expected loss, so that the Scheme covered only
+     extreme, so called “tail risk”, events;
+
+¬¬   ensure that second losses borne by RBS encourage it to maximise the value of
+     covered assets;
+
+¬¬   put in place rules that align the interests of RBS with those of the taxpayer; and
+
+¬¬   establish a fee structure that compensated the taxpayer for risks taken.
+
+
+First loss
+2.10 The Scheme needed to incentivise RBS to manage covered assets in the interests
+of taxpayers. If RBS expects losses on its covered assets to be below the first loss, it is
+more likely to expend effort to minimise losses on those assets since, up to the first loss,
+each £1 of additional loss is borne 100 per cent by the bank.
+
+2.11 The Treasury’s ability to set the first loss at or above the expected loss was
+therefore crucial to achieving value for money. If RBS were to judge that, despite effort
+on its part, the first loss would be exceeded and the taxpayer would be stepping in, it
+might be tempted to devote less effort to limiting losses on the covered assets.
+
+2.12 The terms agreed with RBS in November 2009 represented a significant tightening
+of the initial terms. The initial terms announced in February 2009 had envisaged RBS
+meeting the first £42 billion of losses on a pool of covered assets totalling £325 billion
+compared with the £60 billion first loss on the smaller pool of assets agreed in
+November. The final terms reflected the Treasury’s better knowledge of the underlying
+assets; improved economic circumstances; a sharper awareness of the importance of
+the first loss figure in driving value for money; and its concern that the initial terms were
+too generous and might not receive approval from the European Commission under the
+state aid framework.
+
+2.13 The agreed first loss of £60 billion was the Treasury’s best estimate of the expected
+losses from the portfolio of assets. Obtaining a robust estimate of the expected loss
+depended upon a good understanding of the covered assets (due diligence) and the
+choice of economic scenarios in which to assess the potential losses (financial modelling).
+
+2.14 In March 2009, the Treasury asked KPMG and Ernst & Young to review data on
+assets that RBS and Lloyds had put forward for inclusion in the Scheme. The due
+diligence was intended to provide assurance on the existence and terms of the assets
+(for instance, who the debtor was and the banks’ rights in the event of a default). The
+due diligence exercises involved assessing the quality of several million pieces of data
+on assets ranging from residential mortgages to complex financial instruments such as
+credit default swaps, with 60 per cent of the RBS portfolio originated outside the UK.
+18 Part Two The Asset Protection Scheme
+
+
+
+
+                        2.15 Both banks struggled, in the set timetables, to provide all the data required by
+                        the Treasury in the formats prescribed, which did not always match those used by the
+                        banks. Matters were complicated at Lloyds because of its then recent acquisition of
+                        HBOS. Lloyds was still in the process of reviewing HBOS’s systems. RBS attributed
+                        delays in extracting data to its strategy of growth through buying other banks that had
+                        left it with over 20 different IT systems in operation across the group. Where the data
+                        was judged to be insufficient, the Treasury adopted a conservative view of potential
+                        losses or refused to allow the assets into the Scheme. Nevertheless, by November 2009,
+                        the Treasury could not gain sufficient assurance that the Scheme would not be providing
+                        cover for assets where there had been fraud or other criminal conduct by third parties.
+                        The Treasury’s Accounting Officer therefore sought, and obtained a direction to proceed
+                        with the Scheme.
+
+                        2.16 Our advisers, Mazars, conducted a high level review of the Treasury’s due diligence
+                        processes, noting that the fast moving and complex environment in which the due
+                        diligence was conducted made the initial scoping and objective setting difficult. Mazars
+                        concluded that despite recurring difficulties with the quality of the data provided by
+                        the banks, the work undertaken appears to have given the Treasury a reasonable
+                        understanding of the risks that were to be transferred under the Scheme.
+
+                        2.17 The Treasury engaged Credit Suisse, Citigroup and BlackRock to estimate losses
+                        associated with four “what if” economic scenarios over a five-year period (Figure 3). All
+                        the scenarios were based, in part, on past recessions and were produced with inputs
+                        from the Bank of England, the Treasury and the Financial Services Authority. Credit
+                        Suisse and Citigroup conducted their loss estimation work by applying, where possible,
+                        statistical models of expected default rates and losses on market-rated assets or, when
+                        such models were unavailable, through qualitative analysis on samples of assets within
+                        relevant groupings. BlackRock provided a cross-check through separate analyses using
+                        its own models of asset performance in each scenario.
+
+                        2.18 The Treasury determined the aggregate loss estimates and considered that the
+                        performance of the UK’s economy was likely to be between scenarios 1 and 2. This
+                        mid-scenario became the Treasury’s base case, under which the expected losses on
+                        RBS assets covered by the Scheme would amount to £60 billion, falling within a range of
+                        £50-76 billion.
+
+                        2.19 Scenario 3 projections for GDP, house prices and commercial property prices were
+                        conservative. For instance, by October 2009, the Treasury assigned a probability of only
+                        5 per cent or less to GDP being lower than that projected in Scenario 3. In the round,
+                        the Treasury concluded that this Scenario was an unlikely outcome and therefore an
+                        appropriate stress case. In the stress case, the estimated range for losses was between
+                        £87-98 billion. For assets outside the UK, the Treasury and its advisers also took
+                        account of economic forecasts used by RBS and Lloyds and stress test parameters
+                        used by the Authorities in other countries.
+                                                                                       The Asset Protection Scheme Part Two 19
+
+
+
+
+Figure 3
+“What if” scenarios for movements in Gross Domestic Product, unemployment, house prices
+and commercial property prices
+Gross Domestic Product                                                  Unemployment rate
+
+Annual change (%)                                                       Percentage
+ 5                                                                      18
+
+ 4
+                                                                        16
+ 3
+                                                                        14
+ 2
+                                                                        12
+ 1
+
+ 0                                                                      10
+
+-1                                                                       8
+-2
+                                                                         6
+-3
+                                                                         4
+-4
+
+-5                                                                       2
+
+-6                                                                       0
+       2008       2009        2010        2011          2012    2013           2009         2010          2011          2012      2013
+
+      S1          S2            S3              S4                            S1       S2          S3             S4
+
+
+House prices                                                            Commercial property prices
+
+Annual change (%)                                                       Annual change (%)
+10                                                                      20
+
+ 5
+                                                                        10
+ 0
+                                                                         0
+-5
+
+-10                                                                     -10
+
+-15
+                                                                        -20
+-20
+                                                                        -30
+-25
+
+-30                                                                     -40
+           2008       2009      2010       2011          2012    2013          2008    2009        2010          2011      2012    2013
+
+
+      S1          S2            S3              S3/S4                         S1       S2          S3             S3/S4
+
+NOTES
+S1 = Scenario 1 (a 1990s recession)
+S2 = Scenario 2 (a 1980s “V” recession)
+S3 = Scenario 3 (a 1980s “U” recession)
+S4 = Scenario 4 (Finnish 1990s “V” recession)
+
+Source: HM Treasury
+20 Part Two The Asset Protection Scheme
+
+
+
+
+                        2.20 The Asset Protection Agency, established by the Treasury to administer the
+                        Scheme, has developed a model to calculate expected losses, recoveries and
+                        potential payouts by the taxpayer over the life of the Scheme. Based on data at
+                        31 December 2009, the Agency estimated that there may be a temporary breach of
+                        the first loss by the end of 2011, but subsequent recoveries are expected to keep the
+                        life-time expected net loss at £57 billion, just below the agreed £60 billion first loss.
+                        At 30 September 2010, RBS’s third quarter results indicated that the net assets in
+                        default and counting against the first loss totalled just over £37 billion, lagging behind the
+                        Asset Protection Agency’s trajectory in Figure 4.
+
+
+                        Second Loss
+                        2.21 Should losses on covered assets approach the first loss, there is a risk that RBS
+                        would not be encouraged to manage the assets to minimise further losses. To guard
+                        against this risk, where losses exceed the first loss, RBS would be liable for ten per cent
+                        of any further losses, with the Treasury taking the remaining 90 per cent. In the United
+                        States, the Asset Guarantee Program, which pre-dated the announcement of the UK’s
+                        Asset Protection Scheme by two months, also used a 10:90 split for losses beyond
+                        the first loss, shared respectively between Citigroup and US Government authorities.
+                        The Federal Deposit Insurance Corporation in the US, when arranging a sale of a failing
+                        bank, offers a loss-sharing arrangement to align the buyer’s interest in maximising asset
+                        values with those of the US taxpayer. Depending on the circumstances and likely level of
+                        losses, a buyer’s share of losses is set at no less than 20 per cent.
+
+
+                        Figure 4
+                        Forecast net losses under the Scheme
+                        £ billion
+                        100
+
+                         90
+
+                         80
+
+                         70
+
+                         60
+
+                         50
+
+                         40
+
+                         30
+
+                         20
+
+                         10
+
+                          0
+                           2008     2009     2010      2011     2012    2013     2014   2015   2016   2017   2018   2019   2020
+
+                                                                        End of calendar year
+
+                              Net Loss              £60 billion First Loss Threshold
+
+                        Source: Asset Protection Agency
+                                                                    The Asset Protection Scheme Part Two 21
+
+
+
+
+2.22 It was unlikely that RBS’s residual exposure to losses would, by itself, keep
+the bank sufficiently incentivised to manage the assets appropriately. The Treasury
+considered using a 20:80 ratio but the benefit of the Scheme on RBS’s capital position
+would have been reduced, requiring changes to other elements of the support package,
+such as a higher capital injection. The proportion of the second loss borne by RBS is,
+however, less important than the first loss in protecting the taxpayer as the Scheme
+makes provisions that any payments made by the Treasury:
+
+¬¬     are delayed by two years, providing time for any recoveries on assets to be offset
+       against payments; and
+
+¬¬     must be repaid by RBS plus interest if it wishes to exit the Scheme before
+       December 2099, the latest maturity date of the covered assets.
+
+2.23 Our analysis of the potential cash flows suggests that there is a tipping point when,
+in financial terms, it would be in RBS’s interest to remain in the Scheme until 2099. RBS
+would need to set the benefit it receives from the taxpayer’s share of second losses
+against continuing to pay the annual fee and repaying payments for second losses,
+should the bank leave the Scheme early. Our analysis suggests that the balance, in purely
+financial terms, would begin to shift away from the taxpayer and in favour of RBS staying in
+the Scheme if overall losses were to reach about £73 billion (Figure 5). After this point, the
+financial incentive on RBS to restrict further losses would weaken significantly.
+
+
+Figure 5
+Value of the Scheme to the taxpayer in 2009 at various levels of net loss
+on covered assets
+Present gain/loss of the Scheme to the taxpayer (£bn)
+               5.0
+Net gain
+to the tax
+payer          0.0
+
+
+
+                                                   Tipping point
+              -5.0
+                                                   at around
+                                                   £73 billion
+                                                   net loss
+             -10.0
+Net loss
+to the tax
+payer
+             -15.0
+
+
+
+
+             -20.0
+                     60   62   64   66   68   70     72   74   76   78   80   82   84   86   88   90   92   94   96   98
+               First loss
+                                                   Net losses on covered assetes (£bn)
+
+Source: National Audit Office analysis
+22 Part Two The Asset Protection Scheme
+
+
+
+
+                        Scheme rules
+                        2.24 If the financial incentives for RBS to maximise the value of assets covered under
+                        the Scheme prove insufficient, there are a number of potential remedies available to the
+                        Treasury in the Scheme rules. RBS must manage the covered assets in line with detailed
+                        requirements designed to protect the taxpayer and ensure that its customers are fairly
+                        treated. RBS has, for example, to:
+
+                        ¬¬   minimise any losses and maximise any recoveries on covered assets;
+
+                        ¬¬   ensure that there is no discrimination against covered assets when compared with
+                             other assets;
+
+                        ¬¬   comply with an agreed internal framework for the management and governance
+                             of covered assets and ensure that any conflicts of interest are avoided or
+                             appropriately managed; and
+
+                        ¬¬   comply with various monitoring, reporting, governance and oversight conditions set
+                             out in the Scheme rules.
+
+                        2.25 The Asset Protection Agency has extensive rights to take action where it considers
+                        that the taxpayer is not adequately protected. Further details of the range of protections
+                        for the taxpayer in the Scheme rules are at Appendix Four.
+
+                        2.26 The Scheme rules are highly complex, reflecting the varied nature of the covered
+                        assets. In framing the rules, the Treasury sought to take account of the broad range
+                        of scenarios that might be encountered. In practice, the extent to which assets are
+                        managed in the interests of the taxpayer if the first loss of £60 billion is breached
+                        will depend heavily on the incentives built into the pricing structure, the ability of the
+                        Agency to obtain the information it needs to assess whether taxpayers’ interests are
+                        safeguarded, and the willingness of the Agency and RBS to work effectively together.
+
+
+                        Fees
+                        2.27 The Treasury negotiated fees with RBS and Lloyds to reflect, as far as possible, the
+                        value of the support under the Scheme. We examined the analyses underpinning the
+                        amounts to be charged.
+                                                  The Asset Protection Scheme Part Two 23
+
+
+
+
+Exit Fee paid by Lloyds
+2.28 While there was no binding Scheme contract between the Treasury and Lloyds,
+they both acknowledged that the taxpayer had provided support for much of 2009.
+With no established mechanism to determine the value of the support, negotiations led
+to an agreed exit fee of £2.5 billion. Based on calculations used by banks to estimate
+how much capital they should hold against assets, Lloyds received an implied capital
+benefit of £23.5 billion from the announcement that it would participate in the Scheme.
+The £2.5 billion exit fee received by the taxpayer was therefore equivalent to an annual
+return of 16.4 per cent on the capital benefit obtained by the bank.
+
+2.29 This rate of return was approximately 2 per cent higher than the bank’s cost of
+capital in late 2009, but was below the returns that might have been demanded by
+investors during the early part of 2009 when economic conditions were difficult. Barclays
+Bank conducted a capital raising exercise in 2008 with an annual return on equity of
+30 per cent or more. For the period March to October 2009, the Treasury estimated
+that the average cost of equity for Lloyds would have been 23 per cent. However, the
+Treasury considers the support was not equivalent to equity as Lloyds had not, under
+the Scheme, received a cash injection.
+
+2.30 On the basis of a cost of equity of 20-30 per cent a year, the fee could have
+been fixed within a range of £3-4.5 billion for the period that the bank benefited from
+the Scheme. The Treasury accepted that Lloyds would not have been able to secure
+shareholder approval to pay a higher fee, pass the Financial Services Authority’s stress
+test, and proceed successfully with the proposed capital raising exercise. As allowing
+Lloyds to raise additional capital offered better value for money than the alternative of
+keeping it in the Scheme, the Treasury judged that the negotiated fee was as close
+to the limit of what could be charged, without jeopardising the bank’s exit from the
+Scheme. In Lloyds’ view, the exit fee fell within a range that reflected the benefit it had
+received from the Scheme, albeit at the high end of that range.
+
+2.31 The fee paid by Lloyds was at the upper end of the range paid by Bank of America
+when it exited the US Asset Guarantee Program. Bank of America paid $35,000-44,000
+a day, per billion dollars of gross assets in the Asset Guarantee Program, while Lloyds
+paid £40,000-45,500 a day, per billion pounds of assets.
+
+Fees paid by RBS
+2.32 In October 2009, RBS and the Treasury agreed a change from a single up-front
+fee paid in shares to an annual fee paid in cash, subject to a minimum amount. The
+annual fee was fixed at £700 million a year for three years starting in January 2009
+and, thereafter, £500 million a year, reflecting expected reductions in protected assets
+as borrowers pay off their loans. If RBS chooses to exit the Scheme before 2099, it
+will have to pay a minimum total fee of £2.5 billion or 10 per cent of the capital relief
+provided, whichever is higher. If economic conditions allow RBS to exit the Scheme
+within the next few years, the minimum fee of £2.5 billion is the most important
+element in the pricing structure. In such circumstances, it is unlikely that a higher fee of
+10 per cent of the capital benefit would apply, making this provision less significant.
+24 Part Two The Asset Protection Scheme
+
+
+
+
+                        2.33 In setting the minimum exit fee at £2.5 billion, equal to the exit fee charged to
+                        Lloyds, the Treasury attached significant weight to a range of wider factors: to ensure
+                        RBS was sufficiently well-capitalised, and perceived as such by the markets; satisfy
+                        European Union State Aid requirements; take account of the fiscal impact, bearing in
+                        mind the taxpayer owned 83 per cent of the company; and ensure the pricing structure
+                        maintained an incentive on RBS to exit the Scheme as quickly as possible.
+
+                        2.34 The Treasury analysis underpinning the minimum exit fee did not include the
+                        breadth and depth of analysis we would normally expect. In our view, in addition to
+                        financial stability considerations, the analysis needed to take account of:
+
+                        ¬¬   the risk borne by the taxpayer between February 2009 and November 2009 when
+                             the Scheme was being negotiated and during which the probability of stressed
+                             economic conditions was relatively high;
+
+                        ¬¬   the risks to be borne across the life of the Scheme; as well as
+
+                        ¬¬   the need to ensure that RBS’s capital ratio stayed above a minimum set by the
+                             Financial Services Authority.
+
+                        2.35 The Treasury conducted a preliminary analysis of a potential proxy for the risks
+                        borne by the taxpayer, based on what the fee for RBS might have amounted to if it had
+                        exited in November 2009. Using the same methodology as applied to Lloyds, the Treasury
+                        considered a fee of £1-1.5 billion could have been levied to reflect the risk covered by the
+                        taxpayer. This analysis was subsequently superseded by consideration of the issues set
+                        out in paragraph 2.33. Our analysis indicates that the initial calculation could also have
+                        legitimately included the benefit to RBS of the Treasury’s agreement to provide additional
+                        capital as part of the Scheme. If this proposed capital injection had been included, the
+                        calculated minimum fee would have been £3.5 billion. Alternatively, if the Treasury had
+                        calculated an exit fee for RBS on the basis of the Lloyds daily rate in paragraph 2.31
+                        above, the fee for protection provided between February 2009 and November 2009,
+                        would have produced a figure of approximately £3.2 billion. These calculations do not take
+                        account, however, of the risks covered by the taxpayer beyond November 2009.
+
+                        2.36 In the absence of reliable market benchmarks for pricing the Scheme, we analysed
+                        the likely cash flows in a base case and stressed economic scenario to try to capture
+                        the taxpayers’ overall exposure to RBS (see Appendix 5). Our analysis suggested a
+                        minimum fee somewhere in the range £1.4-4.4 billion could be derived depending on the
+                        assumed probability of a stressed scenario, with the weight of analysis pointing to the
+                        upper end of this range.
+
+                        2.37 Our analysis of the capital model used by the Treasury suggested that, without
+                        taking wider factors into account, there was latitude to set a higher fee. In the stress
+                        scenario, with the minimum fee set at £2.5 billion RBS’s capital ratio ranged from
+                        4.4 per cent to 7.1 per cent between 2009 and 2013, above the minimum of 4 per cent
+                        required by the regulator. An increase in the minimum fee to £4.5 billion would have
+                        caused capital ratios to fall slightly ranging between 4.2 per cent and 6.8 per cent. In
+                        practice, any assessment of capital adequacy would have required approval from the
+                        Financial Services Authority, which would have undertaken its own analysis.
+                                                         The Asset Protection Scheme Part Two 25
+
+
+
+
+Conversion of subordinated debt into core capital
+2.38 International agreements on bank capital allow some types of borrowing by
+banks to be counted as capital if, among other conditions, the debt is subordinated
+to the claims of other creditors in the event of a bank becoming insolvent. Prior to
+2008, UK banks3 had approximately £115 billion of outstanding subordinated debt,
+representing about half of total bank capital.
+
+2.39 While the holdings of RBS and Lloyds shareholders were heavily diluted
+following the recapitalisations in October 2008, holders of subordinated debt have to
+a degree been protected. Both banks, in common with other institutions, continued
+to pay interest, and investors had their capital repaid in full on call dates in keeping
+with established market practice, even though such repayments were at the banks’
+discretion. Banks had feared that exercising these discretionary rights would adversely
+affect their ability to borrow money at reasonable rates in the future. Subordinated debt
+therefore failed to provide a loss-absorbing buffer between shareholders and creditors.
+
+2.40 In March 2009, with support from the Treasury, both banks exchanged or bought
+back subordinated debt totalling £13 billion, making a profit of £5.3 billion, which increased
+core capital. These transactions, known as liability management exercises, were made
+possible because the banks were able to offer holders a small premium to market prices,
+which had fallen below the face value of the debt due to uncertainty over the severity of
+actions that might be taken by governments to protect financial stability. Those holders
+of subordinated debt who participated in the March 2009 transactions received around
+51 per cent of the par value of their investments. After the exercises, RBS and Lloyds each
+still had about £31 billion of outstanding subordinated debt.
+
+2.41 In July 2009, the Treasury estimated that further buy-backs and exchanges
+of subordinated debt by both banks could increase core capital by £14-40 billion.
+Such exercises could only be conducted with investors who were willing to sell their
+investments. In the autumn of 2009, the European Commission instructed national
+authorities to prevent banks that had received state support from paying interest on
+or repaying certain subordinated debt. The immediate consequence of the measure
+was a further reduction in market value of subordinated debt issued by publicly
+supported banks. RBS has taken advantage of market conditions to conduct a further
+liability management exercise in early 2010, which raised a further £1.3 billion of core
+capital. Lloyds, alongside its £13.5 billion rights issue, undertook a major conversion
+of subordinated debt to contingent capital. The conversion generated approximately
+£7.5 billion of contingent core capital thereby reducing the likelihood that further taxpayer
+support would be needed. Lloyds carried out further liability management exercises
+during the course of 2010, resulting in a gain of over £400 million.
+
+
+
+
+3   Barclays, HBOS, HSBC, Lloyds TSB, RBS and Standard Chartered.
+26 Part Two The Asset Protection Scheme
+
+
+
+
+                        Use of internal resources and external advisers
+                        2.42 Our previous reports on Northern Rock and maintaining financial stability found that
+                        the Treasury had been stretched in terms of the availability of people with relevant skills
+                        and experience. For the Scheme, the Treasury enhanced its capacity and capability by:
+
+                        ¬¬   retaining key personnel with experience of the previous interventions;
+
+                        ¬¬   redeploying and bringing in additional staff as the work progressed;
+
+                        ¬¬   establishing a Steering Board to oversee the project; and
+
+                        ¬¬   using a Challenge Group drawn from across the Treasury to provide advice during
+                             the development of the Scheme.
+
+                        2.43 The Treasury also retained specialist legal and financial advice services it had used
+                        for earlier interventions to work on the Scheme. Just over £54 million was spent on
+                        development of the Scheme and related activities. All of this cost, plus the Treasury’s
+                        own staff costs, have been recovered from the banks. Further information on project
+                        management and the use of external advisers is at Appendix Six.
+                                               The Asset Protection Scheme Part Three 27
+
+
+
+
+Part Three
+
+Lending commitments
+3.1 This Part considers the mechanisms put in place by the Treasury as part of the
+Scheme to secure lending to the wider economy.
+
+3.2 In late 2008, the previous Government was increasingly concerned about the
+availability of credit to the wider economy. The Treasury feared that banks, facing
+difficulties raising funds in the inter-bank markets and the prospect of losses on existing
+assets would shore up capital and thereby reduce lending. The Treasury considered that
+a reduction in the supply of credit would:
+
+¬¬   hamper economic activity, leading to defaults on loans, a spiral of business
+     closures, higher losses for banks and further lending reductions; and
+
+¬¬   fail to keep pace with increases in demand when the economy began to recover.
+
+3.3 Lending figures published by the Bank of England show a sharp contraction in net
+lending since the second half of 2008 (Figure 6 overleaf). The contraction reflected:
+
+¬¬   a rapid drop in confidence and an increase in uncertainty, with businesses cutting
+     back on investment and repaying loans; and
+
+¬¬   weaker demand from businesses for new borrowing facilities, because of tighter
+     credit terms and conditions (contraction in demand); as well as
+
+¬¬   a reduction in the availability of loans from banks (reduction in supply).
+
+3.4 By February 2009, the Treasury assumed that:
+
+¬¬   the economy would contract – the then expected fall in Gross Domestic Product
+     (GDP) during 2009 was 3.5 per cent; and
+
+¬¬   most foreign banks would withdraw from the UK market, leaving a funding gap for
+     businesses and households.
+28 Part Three The Asset Protection Scheme
+
+
+
+
+Figure 6
+Monthly increases/decreases in lending to households and non-financial businesses by
+UK resident banks and building societies
+Monthly increase/decrease in lending (£bn)                                                                                                                                                                                                                                                       Interest margin (%)
+30,000                                                                                                                                                                                                                                                                                                                               9.00
+
+
+
+
+25,000
+                                                                                                                                                                                                                                                                                                                                      7.00
+
+
+20,000
+
+
+                                                                                                                                                                                                                                                                                                                                     5.00
+15,000
+
+
+
+
+10,000                                                                                                                                                                                                                                                                                                                               3.00
+
+
+
+
+ 5,000
+                                                                                                                                                                                                                                                                                                                                     1.00
+
+
+     0
+
+
+                                                                                                                                                                                                                                                                                                                                     -1.00
+-5,000
+
+
+
+
+-10,000                                                                                                                                                                                                                                                                                                                              -3.00
+
+
+          Jan 05   Mar 05   May 05   Jul 05   Sep 05   Nov 05   Jan 06   Mar 06   May 06   Jul 06   Sep 06   Nov 06   Jan 07   Mar 07   May 07   Jul 07   Sep 07   Nov 07   Jan 08   Mar 08   May 08   Jul 08   Sep 08   Nov 08   Jan 09   Mar 09   May 09   Jul 09   Sep 09   Nov 09   Jan 10   Mar 10   May 10   Jul 10   Sep 10
+
+
+                                                            Monthly increases/decreases of lending by UK banks and building societies
+                                                                        to individuals and private non-financial corporations
+
+    Monthly increases/decreases of lending by UK banks and building societies to individuals and private non-financial corporations
+      Weighted average interest rate for loans to households that are not secured on dwellings after deducting the Bank of England’s bank rate.
+      Weighted average interest rate for loans to households that are secured on dwellings, e.g. mortgages, after deducting the Bank
+      of England’s bank rate.
+      Weighted average interest rate for loans to private non-financial corporations after deducting the Bank of England’s bank rate.
+
+Source: Bank of England
+                                                             The Asset Protection Scheme Part Three 29
+
+
+
+
+3.5 The Treasury sought to shore up lending to the wider economy in return for
+taxpayer support to the banks. It therefore required the banks to sign up to lending
+commitments as a condition of participating in the Scheme because, in part, the
+Treasury believed that the Scheme would reduce the banks’ need to conserve capital
+in the face of economic uncertainty. The Treasury, RBS and Lloyds negotiated lending
+commitments for a two-year period from 1 March 2009, based on the banks’ lending
+plans at the end of 2008.
+
+
+Lending commitments for the first year
+3.6 In the first year, Lloyds committed to lend an additional £14 billion and RBS agreed
+an additional £25 billion of lending. The additional lending would be on commercial
+terms, and subject to market demand. In addition to these direct commitments, the
+Treasury also had the implicit aim of demonstrating to potential borrowers that the banks
+were open for business, thereby bolstering confidence.
+
+3.7 Both banks exceeded their mortgage lending targets for 2009-10. However, they
+did not achieve targets for lending to businesses. Lloyds provided £3 billion of additional
+lending, net of repayments, against a target of £11 billion. RBS received repayments
+that were £6.2bn greater than gross lending, thereby missing its target by £22 billion
+(Figure 7).
+
+
+Figure 7
+Performance against first year additional lending targets
+£ billion
+ 20
+
+
+ 15
+
+
+ 10
+
+
+  5
+
+
+  0
+
+
+ -5
+
+
+-10
+                 Lloyds                    Lloyds                      RBS                          RBS
+            Mortgage Lending          Business Lending           Mortgage Lending             Business Lending
+                 (gross)1                   (net)                      (net)                        (net)
+
+      Lending commitment           Actual additional lending
+
+NOTE
+1 The setting of mortgage lending targets took account of the banks’ different circumstances, systems and position in
+  the market. As Lloyds had the largest share of the mortgage market, the Treasury chose to focus the target on gross
+  lending for house purchases rather than net lending, which would have included remortgaging.
+
+Source: HM Treasury
+30 Part Three The Asset Protection Scheme
+
+
+
+
+                        3.8 The failure to meet the commitments for the first year could be attributed to a range
+                        of factors, including:
+
+                        ¬¬     subdued demand from businesses for additional credit in uncertain economic
+                               conditions, reflected in a steeper fall than expected in GDP of 5 per cent rather
+                               than 3.5 per cent;
+
+                        ¬¬     higher than expected repayments of loans as businesses sought to reduce their
+                               liabilities; and
+
+                        ¬¬     the ability of larger businesses to use the bond and equity markets to raise finance.
+                               During 2009, businesses raised £42 billion from the capital markets compared with
+                               only £8 billion in 2008. This funding route was, however, not available to small and
+                               medium sized businesses.
+
+                        3.9 Higher interest margins and fees on bank loans are also likely to have restricted
+                        access to credit. In September 2010, the Bank of England reported the view of
+                        businesses that credit conditions had become increasingly polarised. Smaller
+                        businesses continued to report difficulties in accessing affordable finance, with fees and
+                        interest margins remaining higher than pre-crisis levels. Larger businesses and those
+                        perceived by banks as stronger propositions had seen a gradual improvement in the
+                        cost and the availability of bank funding through 2010.
+
+                        3.10 While weakness in bank lending since mid-2007 reflects a combination of
+                        tighter credit supply and weaker credit demand, the Bank of England reported in
+                        December 2010 that tight credit supply is likely to have been the dominant influence.
+                        Weak demand would typically be associated with lower rather than higher interest
+                        margins on loans and is not consistent with the increasing use of bond and equity
+                        markets by larger companies to raise finance. It is, however, difficult to assess the
+                        relative contribution of demand and supply more precisely.
+
+                        3.11 Although the Treasury has monitored progress, the only formal sanction available
+                        if targets are not met is a potential refusal to extend guarantees for wholesale borrowing
+                        under the Credit Guarantee Scheme. The Treasury decided not to apply this sanction.
+                        It judged that both banks had made loans available to commercially viable businesses,
+                        but had failed to meet the commitments due to a fall in demand, which was beyond
+                        their control.
+
+
+                        Lending commitments for the second year
+                        3.12 In agreeing the second year lending commitments to be applied from
+                        1 March 2010, the Treasury changed the basis of its target setting to take account of
+                        larger than expected loan repayments and alternative financing routes. While the basis
+                        for mortgage lending targets remained unchanged, those for business lending were
+                        adjusted to a gross lending basis.4 Gross lending is essentially the flow of new lending
+                        from banks, ignoring any repayments of past lending by borrowers.
+
+
+
+                        4    Lloyds agreed to a second year of targets as a condition of exiting the Scheme.
+                                                 The Asset Protection Scheme Part Three 31
+
+
+
+
+3.13 The Treasury re-examined both banks’ lending to businesses for the first year
+on a gross rather than a net basis, and aimed to agree commitments for the second
+year that would result in higher targets. For the second year, the Treasury agreed
+that the business lending targets would be set on a gross rather than a net basis,
+to avoid the distortion introduced by increased repayments by businesses. On this
+basis, RBS had lent £41 billion and Lloyds £38 billion to businesses in the first year.
+Following negotiations, RBS agreed to lend £50 billion to businesses for the second
+year, ending 28 February 2011, while Lloyds agreed to lend £44 billion (Figure 8). As
+at 30 September 2010, both banks reported that they were on course to meet their
+mortgage and business lending commitments.
+
+3.14 The Treasury considered a range of additional sanctions if the second year targets
+were not met:
+
+¬¬    Linking chief executives’ remuneration more directly to achievement of the lending
+      commitments.
+
+¬¬    Requiring the banks to transfer any shortfalls in lending to another lender, such as
+      an existing capital investment fund or a new fund set up for the purpose.
+
+¬¬    Naming and shaming any bank that did not meet its lending commitments, for
+      instance, by requiring banks to provide a public report at the end of the lending
+      commitment year.
+
+¬¬    Restrict the ability to bid for government work in the future.
+
+¬¬    Impose a fine or penalty.
+
+3.15 For any of the options to work they had to be credible, legal, have a fairly rapid effect
+and maintain financial stability without restricting banks’ access to capital or creating
+funding pressures. After further analysis, the Treasury considered that any new sanctions
+would face insurmountable difficulties in implementation and none of the options were
+taken forward. In July 2010, the Government issued a consultation document on wider
+changes that might be made to the way that businesses are funded and undertook to
+keep the lending commitments agreed with RBS and Lloyds under review.
+
+
+Figure 8
+Year 2 additional lending commitments
+                         lloyds           RbS           Total
+                          (£bn)          (£bn)          (£bn)
+Businesses (gross)          44             50             94
+
+Mortgages                    3              8             11
+
+Source: HM Treasury
+32 Appendix One The Asset Protection Scheme
+
+
+
+
+                       Appendix One
+
+                       Timeline of key events
+Timeline of key events
+
+January 2009 = 100
+160
+
+
+
+140
+
+
+
+120
+
+
+
+100
+
+
+
+ 80
+
+
+
+ 60
+
+
+
+ 40
+
+
+
+ 20
+
+
+
+  0
+ Jan 2009           Feb 2009           Mar 2009           Apr 2009          May 2009   Jun 2009          Jul 2009       Aug 2009              Sep 2009     Oct 2009           Nov 2009          Dec 2009              Jan 2010            Feb 2010        Mar 2010            Apr 2010         May 2010
+
+      FTSE 100 Index               FTSE Bank Index
+
+Source: Published market indices
+
+
+
+Government actions
+                           26-02-09                                                                                                                                   3-11-09
+                           Agreement reached                                                                                                                          APS announced: RBS to participate
+19-01-09                   with RBS in principle                                                                                                                      under revised terms; Lloyds to exit
+APS announced and                                                                                                                                                     the Scheme by raising additional capital
+RBS profit warning                                 7-03-09                                                                              25-09-09
+                                                   Agreement reached with                                                               CEO of APA appointed
+                                                   Lloyds in principle
+                                                                                                                                                                                     26-11-09
+                                                                                                                                                                                     APS agreement signed by RBS
+
+
+
+       Jan 09            Feb 09           Mar 09             Apr 09          May 09      Jun 09           Jul 09        Aug 09                Sep 09      Oct 09            Nov 09            Dec 09               Jan 10             Feb 10          Mar 10             Apr 10          May 10            Jun 10
+
+
+UK banks - key events
+
+                                                                                                                                                                                                                 25-02-10
+                                      2-03-09                                          12-06-09                                 9-08-09                                                                          RBS reported a loss of
+                                                                                                                                RBS reported £1bn                                                                                                                                     7-05-10
+                                      HSBC announced                                   Barclays raised £8bn                                                                                                      £2bn for the full year 2009          26-02-10
+                                                                                                                                loss in first half 2009                                                                                                                               RBS reported a
+                                      £12.5bn rights issue                             by selling BGI                                                                                                                                                 Lloyds reported a loss of       smaller loss in Q1
+                                                                                                                    5-08-09                                                                                                                           £6.3bn for the full year 2009
+                                                                                                                    Lloyds reported £4bn                                    3-11-09
+                                                                                                                    loss in first half 2009                                 Lloyds announced £13.5bn rights
+                                                                                                                                                                            issue and exchange of existing                             27-04-10
+                                                                                                                                                                            debt for £7.5bn of core and                                Lloyds announced a return to profits in
+                                                                                                                                                                            contingent core capital                                    Q1 mainly due to lower impairments
+34 Appendix Two The Asset Protection Scheme
+
+
+
+
+                       Appendix Two
+
+                       Methodology
+
+                       Study Scope
+                       The report reviews the negotiation of the Scheme. We have not evaluated the value
+                       for money of the operation of the Scheme because too little time has elapsed to form
+                       conclusions about its success. As explained in Part One, this report does not consider:
+                       the causes of the credit crisis or the regulatory regime operated by the Financial
+                       Services Authority; the Bank of England’s role in respect of monetary policy and
+                       financial stability; or support from the Department for Business, Innovation and Skills to
+                       businesses.
+
+                       We developed a number of key questions:
+
+                       ¬¬   Were all options considered and reappraised as negotiations progressed?
+
+                       ¬¬   Were the risks to the taxpayer assessed and priced appropriately?
+
+                       ¬¬   Are lending commitments being met, and if not why, and what action has been
+                            taken by the Treasury?
+
+                       ¬¬   Did the Treasury have sufficient resources in terms of staff and external
+                            professional advice?
+                                                      The Asset Protection Scheme Appendix Two 35
+
+
+
+
+Method                                                  Purpose
+
+Literature review                                       To identify
+
+A substantial amount of material has been               National and international developments relevant
+published about the financial crisis and the steps      to the crisis, with particular emphasis on material
+taken to contain it.                                    published by authorities in the United States on the
+                                                        Asset Guarantee Program.
+
+Document review                                         To identify
+We reviewed documentary evidence provided by
+the Treasury, including:
+¬¬   key submissions and supporting papers;             ¬¬   The Treasury’s objectives.
+¬¬   due diligence and asset valuation reports from     ¬¬   The options considered by the Treasury.
+     the Treasury’s advisers;
+                                                        ¬¬   The Treasury’s assessment of the risks it
+¬¬   material produced by the Asset Protection               was taking.
+     Agency; and
+                                                        ¬¬   The means of protecting the taxpayer from
+¬¬   published reports and accounts from RBS                 unnecessary risk.
+     and Lloyds
+                                                        ¬¬   The Treasury’s capacity and capability.
+
+We also commissioned Mazars to review                   The Treasury’s understanding of the risks inherent
+documentary evidence of the due diligence               in the assets proposed for the Scheme.
+carried out on assets to be placed in the Scheme.
+
+Semi-structured interviews                              To identify
+To fill gaps in our knowledge we interviewed:
+¬¬   Treasury officials;                                ¬¬   The Treasury’s objectives.
+¬¬   KPMG, which conducted due diligence of             ¬¬   The options considered by the Treasury.
+     the assets that RBS wanted to include within
+                                                        ¬¬   The Treasury’s assessment of the risks it
+     the Scheme;
+                                                             was taking.
+¬¬   Citi and Credit Suisse, who calculated asset
+                                                        ¬¬   The means of protecting the taxpayer from
+     losses under various economic scenarios;
+                                                             unnecessary risk.
+¬¬   Bank of England and Financial Services
+                                                        ¬¬   The Treasury’s capacity and capability.
+     Authority, who supported the Treasury in the
+     early design of the Scheme and in producing        ¬¬   The economic scenarios used to test the
+     the economic scenarios; and                             performance of the Scheme.
+¬¬   officials responsible for the Asset Guarantee      ¬¬   Key terms and conditions of the Asset
+     Program in the United States.                           Guarantee Program.
+36 Appendix Two The Asset Protection Scheme
+
+
+
+
+                       Numerical analysis
+                       ¬¬   Information from the Bank of England was used to extract the quantity and price of
+                            lending to business and individuals before and during the financial crisis.
+
+                       ¬¬   We obtained share prices for UK banks for the period September 2008 to mid-
+                            January 2009, which we used to show share movements in this period.
+
+                       ¬¬   Data about five-year Credit Default Swaps for UK banks were obtained from Markit
+                            to indicate changes in investor’s perception of the creditworthiness of UK banks.
+
+                       ¬¬   We conducted a discounted cash flow analysis of RBS’s possible payments/
+                            receipts under the Scheme for various scenarios.
+
+                       ¬¬   Lloyds’ exit fee was compared with that paid by Bank of America when the latter
+                            decided not to proceed with participation in the Asset Guarantee Program.
+        002825
+
+
+
+
+Design and Production by
+NAO Communications
+DP Ref: 009420-001
+
+This report has been printed on Consort
+155 and contains material sourced from
+responsibly managed and sustainable
+forests certified in accordance with FSC
+(Forest Stewardship Council).
+
+The wood pulp is totally recyclable and
+acid-free. Our printers also have full ISO
+14001 environmental accreditation
+which ensures that they have effective
+procedures in place to manage waste and
+practices that may affect the environment.
+Published by TSO (The Stationery Office) and available from:
+
+Online
+www.tsoshop.co.uk
+
+Mail, Telephone, Fax & Email
+TSO
+PO Box 29, Norwich NR3 1GN
+Telephone orders/General enquiries: 0870 600 5522
+Order through the Parliamentary Hotline
+Lo-Call 0845 7 023474
+Fax orders: 0870 600 5533
+Email: customer.services@tso.co.uk
+Textphone: 0870 240 3701
+
+The Parliamentary Bookshop
+12 Bridge Street, Parliament Square,
+London SW1A 2JX
+Telephone orders/General enquiries 020 7219 3890
+Fax orders: 020 7219 3866                                                          £14.75
+Email: bookshop@parliament.uk
+                                                                ISBN 978-0-10-296560-5
+Internet: http//www.bookshop.parliament.uk
+
+TSO@Blackwell and other Accredited Agents
+Customers can also order publications from:
+
+TSO Ireland
+16 Arthur Street, Belfast BT1 4GD
+                                                               9 780102 965605
+028 9023 8451 Fax 028 9023 5401
+

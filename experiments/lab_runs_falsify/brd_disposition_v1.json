@@ -1,0 +1,17 @@
+{
+ "n": 1218,
+ "disposition": {
+  "confirmed": 1095,
+  "converted": 63,
+  "dismissed": 24,
+  "ch7_at_filing": 25,
+  "pending": 7,
+  "other": 4
+ },
+ "rates": {
+  "confirmed": 0.899,
+  "converted": 0.052,
+  "dismissed": 0.02
+ },
+ "reading": "Large public Ch11 resolves by confirmation 90% of the time; dismissal/conversion only 7%. Gate outcomes adjudicated at scale."
+}

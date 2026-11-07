@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-30_machine_records/10_the_language_between_machines.md",
+    "prior_sha256": "bcdf74a527098b7c3fac1061ef8183dd91b7975621eeddd3bb8bf88c31d0544d",
+    "current_sha256": "f8847568e9196dfe4c33317cdc83f3d592509337106a20635902c30e9e618ac8",
+    "reason": "Machine-code inheritance, quantified hybrid counterexample, and decision-relevant audit"
+  },
+  {
+    "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+    "prior": "development/editorial_2026-09-30_machine_records/11_the_ledger_that_eats_its_own_records.md",
+    "prior_sha256": "ca51be0344f1246421e5bd136d041311de565cb480ce9448b77b2a08c957ea2e",
+    "current_sha256": "8c8725a4a8dbbfc906925ab2c5a3f9c31298a99271069f6ccbdc7128b5342c02",
+    "reason": "Recursive learning, selection against originals, scope correction, and rival elimination"
+  }
+]

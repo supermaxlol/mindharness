@@ -1,0 +1,121 @@
+[
+  {
+    "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+    "prior": "development/editorial_2026-09-30_source_style/00_the_pattern_that_borrows_stuff.md",
+    "prior_sha256": "a58c4459e4c329a5f9f0572a4ae0309417bc8b4a2b66eea75cd151516cdff28e",
+    "current_sha256": "012ca1848d6fcbc63c0f1e7305ba0541e6357684a225a2906525fbf32500d72c",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-30_source_style/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "f62861270162353c4e93cd65e5fe1783f97b029a2299ea3bf14dfb2ea0e07d41",
+    "current_sha256": "855bc347649d9d365fffffbbf8fff49fba312096d8a65b03b1d2b3af8bcf0d4b",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/02_the_map_room.md",
+    "prior": "development/editorial_2026-09-30_source_style/02_the_map_room.md",
+    "prior_sha256": "5fc213282aa21170a5339f3f8008af2f5a6f93685ccc8babae54babc5a53fb4a",
+    "current_sha256": "8faf2ca33367dd5660d1a79cb5fab4902c8e3b7c436360aa126a7b573aa9022b",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/03_cash_before_cost.md",
+    "prior": "development/editorial_2026-09-30_source_style/03_cash_before_cost.md",
+    "prior_sha256": "8e62d182350bf3a517aa2126fcdbdb5b0a8f29aef21e434a2cddfbc1e6d55783",
+    "current_sha256": "3fd5c11550f2c3fe4a8d248c91f3ca77fc505c5a600c899fad705708060e19d3",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/04_the_company_that_could_disappear.md",
+    "prior": "development/editorial_2026-09-30_source_style/04_the_company_that_could_disappear.md",
+    "prior_sha256": "8a2fa88f2c0b41116112d595871c7499735ea2180b35cd5def6f1408d68a3c22",
+    "current_sha256": "667e4b9068378e2713b5bee47c083be6f67df30205c81bb9d39bad0132277d8b",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-30_source_style/05_the_tollbooths.md",
+    "prior_sha256": "eb8e8678ebe2b9a74a94e17d5b32429dc95e9ef6775a68def32e3bad740fa33f",
+    "current_sha256": "fd279ff217e692858778667b7ac2be7ad3c2878f477b2f26c96fab991ed9ed92",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+    "prior": "development/editorial_2026-09-30_source_style/06_the_cost_that_would_not_stay_buried.md",
+    "prior_sha256": "cf4011f8b29f61295f0a275ecfcd6114e429179729d164f5ef6edd0df394a524",
+    "current_sha256": "d5ef643eaf370d5ae5f64e4583920cce6c2b53cd002129c89f03b726f8d1c5d7",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-30_source_style/07_the_border_that_moved.md",
+    "prior_sha256": "a40a144ee0e87f9af8c8e2a7f492a3c9932f776ac6066950dbd5636d0ae44d52",
+    "current_sha256": "a7aac27209f82f3e2bb926c8cb0721984126a696bd1f079ffba23f8f74f5aae6",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/08_the_story_you_complete.md",
+    "prior": "development/editorial_2026-09-30_source_style/08_the_story_you_complete.md",
+    "prior_sha256": "9e6c050f383e517edda8fd55303c03387a97c8c7e41afaa19b85816ea3ccc48a",
+    "current_sha256": "3af166af74be0671104cb65a4c9de4325f21ddba111f75c1aaaffa7296e10aff",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/09_the_witness_that_could_not_read.md",
+    "prior": "development/editorial_2026-09-30_source_style/09_the_witness_that_could_not_read.md",
+    "prior_sha256": "50d565b9d76baaa81ed4d88ec9cc792bee98e84bd8ca8e43156f7939a54e161d",
+    "current_sha256": "28a9aca7136d0a4512c19b77fc559f2a953ab573f56b0c47ab2c7752106a19eb",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-30_source_style/10_the_language_between_machines.md",
+    "prior_sha256": "8786fce97b11689d714faf48b9a5c81628edd260f72fd5710b675e099d2e3649",
+    "current_sha256": "5f3ef237c395f986775ba89b3ea790d3d348fd8242831ba2ff6cfb0059637088",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+    "prior": "development/editorial_2026-09-30_source_style/11_the_ledger_that_eats_its_own_records.md",
+    "prior_sha256": "a315c235d5fcfa906ddad65270c93a6448f9eb9f27b6b7a750727e0314c303ac",
+    "current_sha256": "da4ebe2697f88b377701dc27f49f7e0c2e597dc2292bed656ea8ce7b98e2d65b",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-30_source_style/12_is_anyone_home.md",
+    "prior_sha256": "0519c189c88e4015f1a4a6dc1479847d1857a904b179f952a3d92d53272f2dad",
+    "current_sha256": "1fb67a09c8eca4ed999729fc8627203e0613ce599bab942cd20ed704b9bd72f3",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_source_style/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "f2279d8a2788319bfe5f2e72f7032b5fd46f0c08e0a069a47129f3e4e4c41e4f",
+    "current_sha256": "a7b73b55a8aef98556167d629fa4954d6dbb3913fa6fb70258721be646b90f4f",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/14_the_agency_left_to_us.md",
+    "prior": "development/editorial_2026-09-30_source_style/14_the_agency_left_to_us.md",
+    "prior_sha256": "c4b8b4d6db2eb6ac8c468fcf0209a1b480a2e4d5bce83967b44517c6f4dc5e06",
+    "current_sha256": "c1643d011899656ad1ed871a9b02b1dd4248fa271057e0b05e81eff4317e377d",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-30_source_style/15_the_practice_of_amendment.md",
+    "prior_sha256": "69be22333571bc4249500de279a46c04f2ae45f4170ea649a7b547c9d65fd837",
+    "current_sha256": "7eb2dc54c7ac0e46d69ef73bc672d43ea8a2fffd99f127d5787a0abce537d092",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  },
+  {
+    "path": "chapters/16_future_outlook_the_witness.md",
+    "prior": "development/editorial_2026-09-30_source_style/16_future_outlook_the_witness.md",
+    "prior_sha256": "7b715e5c0305ad9f1acd26471f020440d7def97f5fe4dcf3e3176bf3990bea63",
+    "current_sha256": "2dfc9f53d00b0e759ff625ba4f4419a285e52c0c4c1e7712b10ef5e4d5d01a7d",
+    "reason": "Standardize source-note heading and list spacing, preserving sources, qualifications and chapter body."
+  }
+]

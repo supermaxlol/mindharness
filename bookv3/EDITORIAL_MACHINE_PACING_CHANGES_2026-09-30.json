@@ -1,0 +1,37 @@
+[
+  {
+    "path": "chapters/08_the_story_you_complete.md",
+    "prior": "development/editorial_2026-09-30_machine_pacing/08_the_story_you_complete.md",
+    "prior_sha256": "2dd9299c66e590428fe07e6e245ad8a39c747bb2d02614b97f0fa552ebe363bf",
+    "current_sha256": "9e6c050f383e517edda8fd55303c03387a97c8c7e41afaa19b85816ea3ccc48a",
+    "reason": "Give manifest, evoked and retained stages separate paragraphs before rejoining the route."
+  },
+  {
+    "path": "chapters/09_the_witness_that_could_not_read.md",
+    "prior": "development/editorial_2026-09-30_machine_pacing/09_the_witness_that_could_not_read.md",
+    "prior_sha256": "a886781010b3f008d66d49ab39ea94102049d396325507e587df1b6ecc3e8fb1",
+    "current_sha256": "50d565b9d76baaa81ed4d88ec9cc792bee98e84bd8ca8e43156f7939a54e161d",
+    "reason": "Separate the competent comparison arms from the forced-check results before explaining the constant-answer baseline."
+  },
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-30_machine_pacing/10_the_language_between_machines.md",
+    "prior_sha256": "e57ce0319e5862746c4c74bb09c2427e03b72484b879ccb18ef590e95e0dbf15",
+    "current_sha256": "8786fce97b11689d714faf48b9a5c81628edd260f72fd5710b675e099d2e3649",
+    "reason": "Separate hybrid design, measured cost comparison and authority over what reaches the readable surface."
+  },
+  {
+    "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+    "prior": "development/editorial_2026-09-30_machine_pacing/11_the_ledger_that_eats_its_own_records.md",
+    "prior_sha256": "1fb381ec68bd0296dd47a250d29e54ba540eaa7c3a8f8d194a317af599472f73",
+    "current_sha256": "a315c235d5fcfa906ddad65270c93a6448f9eb9f27b6b7a750727e0314c303ac",
+    "reason": "Give the distinct image outcome its own paragraph after the language and molecule result."
+  },
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-30_machine_pacing/12_is_anyone_home.md",
+    "prior_sha256": "ada1cc022d291f6afcd149022f5a099cf32611324e73b63d21a326e1187659a8",
+    "current_sha256": "0519c189c88e4015f1a4a6dc1479847d1857a904b179f952a3d92d53272f2dad",
+    "reason": "Separate the four rival theory questions so the comparison remains readable before the adversarial test."
+  }
+]

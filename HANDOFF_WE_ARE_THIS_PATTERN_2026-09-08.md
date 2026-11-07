@@ -1,5 +1,5 @@
 # Handoff: We Are This Pattern — Q1 Loop to Submit-Ready
-## 2026-09-08 · Sisyphus · frozen `fb5ef60` · 7 consecutive READYs · Zenodo v1+v2 Open
+## 2026-09-08 · frozen `fb5ef60` · 7 consecutive READYs · Zenodo v1+v2 Open
 
 > One line: plain-language paper arguing five jointly necessary conditions (boundary, two memories plus save, spotlight, brake, watcher) with a kept-beats-mixed falsification rule; submitted-ready as preprint, Q1-submit-ready with disclosed limitations; live deposit; only an independent second rater stands between this and Q1 acceptance.
 

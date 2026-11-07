@@ -1,0 +1,78 @@
+{
+ "banks": [
+  {
+   "bank": "CITIGROUP INC",
+   "cik": "831001",
+   "VIE_max_USD": [
+    "10-K",
+    "2010-12-31",
+    54838000000
+   ],
+   "junior_trust_USD": [
+    "10-K",
+    "2012-12-31",
+    10110000000
+   ],
+   "LTD_USD": [
+    "10-K",
+    "2025-12-31",
+    315827000000
+   ]
+  },
+  {
+   "bank": "JPMORGAN CHASE",
+   "cik": "19617",
+   "VIE_max_USD": [
+    "10-Q",
+    "2011-03-31",
+    28600000000
+   ],
+   "junior_trust_USD": [
+    "10-K",
+    "2016-12-31",
+    2300000000
+   ],
+   "LTD_USD": [
+    "10-K",
+    "2013-12-31",
+    267889000000
+   ]
+  },
+  {
+   "bank": "BANK OF AMERICA",
+   "cik": "70858",
+   "VIE_max_USD": [
+    "10-Q",
+    "2010-06-30",
+    8100000000
+   ],
+   "junior_trust_USD": null,
+   "LTD_USD": [
+    "10-K",
+    "2025-12-31",
+    317816000000
+   ]
+  },
+  {
+   "bank": "WELLS FARGO",
+   "cik": "72971",
+   "VIE_max_USD": [
+    "10-Q",
+    "2010-09-30",
+    0
+   ],
+   "junior_trust_USD": [
+    "10-K",
+    "2020-12-31",
+    704000000
+   ],
+   "LTD_USD": [
+    "10-K",
+    "2025-12-31",
+    174712000000
+   ]
+  }
+ ],
+ "reading": "Citi most off-balance reachability (54.8B), Wells least (0); matches crisis severity ordering. Junior-trust shells largest at Citi (10.1B). BofA junior tag absent (redeemed or different taxonomy).",
+ "grade": "convergent mechanism, analogical case until footnote prose + securitization share"
+}

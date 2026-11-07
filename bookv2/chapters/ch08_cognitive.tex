@@ -1,0 +1,386 @@
+\chapter{The Cognitive Protocol: How a Mind Learns to Check Itself}
+\label{ch:cognitive}
+
+Chapter 7 moved the apex offshore and showed a domestic gate $g_4 \to 0$ that leaves form with $\phi \approx 0$ independent effect. This chapter shows the same product $\psi = \prod g_j$ running inside the head. Mood, fatigue, vividness, and repetition are $g_j$ that gate recognition without changing the sentence. The narrator that says ``I decided'' is then not a witness. It is a press secretary that wins the broadcast after the decision it claims to have made. The fix mirrors the sovereign fix. Do not police the narrative. Witness the trace. The image that holds the fix is the same \textit{barzakh} of Chapter 7 --- now as the isthmus inside you that decides what crosses from fast to slow --- and the practice that holds it is \textit{muraqaba}, watching the watcher.
+
+\textit{Grade: convergent (parliament, predictive processing, narrator confabulation) + measured on timing and micro-protocol (S126 98\% inversion, gullibility to ledger $\gamma>0$ 0.722 vs sham 0.667) + analogical where vector formalism extends mechanism (Kalila compression, hysteresis as BCM/tag/SHY). Barzakh/khayal/ada/muraqaba analogical (interpretive, Ibn Arabi/Ghazali) and graded as such. Glossary anchors: \texttt{barzakh}, \texttt{khayal}, \texttt{ada}, \texttt{muraqaba}, \texttt{defusion} defined in \S\ref{sec:appendix-glossary}. Bridges from Chapter 7 sovereign $\psi$ to Chapter 9 machine harness.}
+
+For a new reader, this chapter defines every term on first use: parliament model, prediction machine, narrator confabulation, gullibility window, container, ledger, hysteresis, barzakh, khayal, ada, muraqaba, defusion. BIT, ISDS, and VIE were covered in Chapters 5 and 7 and are used here only as bridges: the same $\psi$ and $K$ logic, now inside the skull.
+
+\section{No captain, only a competition}
+
+\textit{Grade: convergent across Baars, Dehaene, Minsky, Dennett; measured via imaging and timing detailed below.}
+
+Forget ``the brain thinks.'' The working model across Bernard Baars \textit{In the Theater of Consciousness} 1988, Stanislas Dehaene and colleagues on the global workspace, Marvin Minsky's Society of Mind, and Daniel Dennett's Multiple Drafts is a \textbf{parliament of specialist systems} competing for one microphone. Perception, memory, body signals, emotion, habit, planning, and narration each bid to be broadcast. One coalition wins at a time. The winner is broadcast system-wide, and that broadcast is experienced as a conscious thought. A second later a different coalition wins and you feel you ``changed your mind.'' You did not. A different majority formed.
+
+Mechanism copy kept exact from the programme synthesis: 6 to 8 specialists compete via salience times utility, winner takes all in about 200 milliseconds. Noradrenaline (NE) is volume, dopamine (DA) is stake. The broadcast is the conscious moment. A different broadcast a second later is a different mind. Glossary: \texttt{barzakh} at the psychological scale (nafs\=\i, heart~qalb) is this parliament's isthmus --- the heart as battlefield where salience decides the winner, per \texttt{IBN\_ARABI\_SEVEN\_DOORS\_FIVE\_ORGANS.md}.
+
+For a new reader, the parliament is not a metaphor for indecision. It is the architecture. There is no captain above the competition who chooses the winner with full information. There is only the competition, the broadcast, and whatever slower loop is watching that broadcast with a veto.
+
+Cognitive products then follow the same ledger logic as finance. A Kantian treatise, an Aesop fable, a reel, a protocol, are not information passed like a packet. They are \textbf{vectors that act on the receiver}. The broadcast (words on the page) is the manifest content. The restructuring the reader does after the broadcast is the evoked effect: priors shift, salience retunes, new consolidation becomes possible. The same text is inert in one mind and transformative in another, because the payload is not in the tokens but in which downstream highways the tokens manage to tag.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick,
+  specialist/.style={draw, rounded corners, fill=blue!7, minimum width=1.55cm, minimum height=0.70cm, align=center, font=\scriptsize},
+  winner/.style={draw, rounded corners, fill=orange!18, minimum width=1.65cm, minimum height=0.78cm, align=center, font=\scriptsize, line width=1.1pt},
+  broadcast/.style={draw, circle, fill=purple!10, minimum size=1.45cm, align=center, font=\scriptsize},
+  gain/.style={-{Stealth}, thick}
+]
+  % Specialists around
+  \node[specialist] (per) at (-2.6,1.35) {Perception\\ \tiny salience $\times$ utility};
+  \node[specialist] (mem) at (0,1.75) {Memory\\ \tiny cue match};
+  \node[specialist] (emo) at (2.6,1.35) {Emotion\\ \tiny body budget};
+  \node[specialist] (hab) at (-2.6,-0.55) {Habit\\ \tiny myelinated};
+  \node[specialist] (plan) at (2.6,-0.55) {Planning\\ \tiny DA stake};
+  \node[specialist] (nar) at (0,-1.35) {Narration\\ \tiny press secretary};
+
+  % Broadcast center
+  \node[broadcast] (broad) at (0,0.18) {BROADCAST\\ \tiny 200 ms\\ \tiny winner};
+
+  % Competition arrows to broadcast
+  \draw[->, >={Stealth}] (per) -- (broad);
+  \draw[->, >={Stealth}] (mem) -- (broad);
+  \draw[->, >={Stealth}] (emo) -- (broad);
+  \draw[->, >={Stealth}] (hab) -- (broad);
+  \draw[->, >={Stealth}] (plan) -- (broad);
+  \draw[->, >={Stealth}, dashed] (nar) -- (broad);
+
+  % Gain knobs: NE as volume (amplifies winner), DA as stake (weights planning/habit bids)
+  \node[draw, rounded corners, fill=red!8, minimum width=1.45cm, minimum height=0.65cm, align=center, font=\tiny] (ne) at (-4.15,0.45) {NE\\ \tiny volume knob\\ \tiny high = tunnel};
+  \draw[gain, red!70!black] (ne) -- node[above, font=\tiny, text=red!70!black] {gain $\uparrow$} (per.west);
+  \draw[gain, red!70!black, dashed] (ne.east) -- ++(0.55,0) |- (hab.west);
+
+  \node[draw, rounded corners, fill=green!10, minimum width=1.45cm, minimum height=0.65cm, align=center, font=\tiny] (da) at (4.35,0.45) {DA\\ \tiny stake dial\\ \tiny value bias};
+  \draw[gain, green!50!black] (da) -- node[above, font=\tiny, text=green!50!black] {weight $\uparrow$} (plan.east);
+  \draw[gain, green!50!black, dashed] (da.west) -- ++(-0.55,0) |- (emo.east);
+
+  % State annotation
+  \node[below=0.75cm of broad, font=\tiny, align=center] {winner-takes-all $\sim$200 ms --- salience $\times$ utility\\ one coalition broadcast, the rest silent until next vote};
+
+  % Barzakh label
+  \node[above=0.1cm of mem, font=\tiny, align=center, text=purple!70!black] {psychological barzakh (qalb)\\ \tiny heart as isthmus};
+\end{tikzpicture}
+\caption{Parliament competition with NE/DA gain arrows. Six specialists bid via salience $\times$ utility; winner is broadcast in $\sim$200~ms. NE is the volume knob (high gain = tunnel vision, amplifies the current winner); DA is the stake dial (weights planning and affect bids). Different gains = different mind on the same hardware. The threshold $\theta_m$ of the next section is this vote made biophysical.}
+\label{fig:parliament-ch8}
+\end{figure}
+
+\section{State rigs the vote}
+
+State is the stacking of the deck before any argument is heard.
+
+Doing math hands the microphone to fronto-parietal control networks. Threat hands it to amygdala and habit circuits. Daydreaming hands it to the Default Mode Network. Measured on functional imaging, connectivity rewires in seconds: same hardware, different wiring diagram. The task is not occupying a fixed mind. The task is a different mind.
+
+Three gains set the odds:
+
+\textbf{Arousal} (noradrenaline, NE) is a volume knob. High arousal amplifies whoever is winning and yields tunnel vision. Low arousal leaves the competition flat and scattered.
+
+\textbf{Valence} (good or bad mood) is a risk dial. Negative valence makes the parliament check more and trust less, positive valence the reverse.
+
+\textbf{Energy and fatigue} are a pre-filter. When exhausted, whole options (``go for a run'') do not even appear as candidates. Not weaker willpower. Fewer candidates. The choice set shrinks before deliberation starts.
+
+For a new reader, \textit{tired plus anxious at night} versus \textit{rested plus safe in the morning} are two different parliaments. That is why advice given in one state cannot be executed in the other without a protocol that survives state. The protocol is the subject of this chapter.
+
+In $\psi$ terms, each state variable is a $g_j$ on the gate that decides whether an option is even recognized. A fatigued, negatively valenced, highly aroused state can keep a genuinely good option at $\psi \approx 0$ while the same option in a rested state clears at $0.8$. Nothing in the sentence changed. The gate did. In barzakh terms, the isthmus did: same two seas, different permeability at night.
+
+\section{The brain as prediction machine}
+
+\textit{Grade: convergent (Friston, Clark \textit{Surfing Uncertainty} 2016, Seth \textit{Being You} 2021).}
+
+Modern neuroscience adds a frame that makes the parliament predictable. The brain does not perceive reality and then think about it. It predicts the next moment and corrects by error. Perception is a controlled hallucination disciplined by sensory input. Emotion is an \textbf{interoceptive prediction}: the brain's best guess about what the body budget will need next, arriving as feeling before the need forms.
+
+Two consequences follow.
+
+First, mood colors perception before content arrives, because mood is part of the prediction perception is made of. This is not mood influencing judgment after seeing clearly. It is mood participating in what is seen in the first place. The election is rigged before the candidates are introduced.
+
+Second, the brain writes on itself while reading itself. Diagnosis installs a filter. Call a flutter ``anxious'' and the parliament recruits confirming evidence for anxiety. This is not a moral failure. It is structural. Any self-report is an action on its object, like pronouncing a portfolio performing and watching funding stay cheap enough to keep it marked performing. Soros would recognize the loop.
+
+The practical point is that introspection cannot be trusted as a neutral window. It is a summary the claimant authored. The ledger that is kept whether the claimant likes it is the only witness that does not move when belief moves. \textit{Ada} is the discipline word here (glossary): a verifiable ledger is followed by steadier attribution \textit{as habit} given witness $C$, not as necessity. Change $C$ and the following changes.
+
+\section{The narrator confabulates -- structurally, not morally}
+
+\textit{Grade: measured on composition of narrator studies, plus two programme numbers (S126 inversion, B3 orientation versus execution) that make timing precise.}
+
+The storytelling module that says ``I decided that'' typically wins after the action. Split-brain patients, Johansson choice blindness, and Nisbett and Wilson's classic work converge: people confidently explain actions whose true causes they could not have known. The press secretary does not lie. It generates the most probable story given the broadcast, with full confidence, because pattern completion is what it does.
+
+Three standard results make this honest rather than cynical.
+
+Split-brain patients shown conflicting instructions to the two hemispheres will justify with the speaking side an action driven by the non-speaking side, without detecting the conflict.
+
+Johansson choice blindness finds about 70\% of participants fail to detect a swapped choice yet narrate reasons for the choice they did not make. The story follows the hand, not the reason.
+
+Nisbett and Wilson show verbal reports track plausible theories, not causal access.
+
+None of these need to allege dishonesty. They need a parliament where the narrator only receives the broadcast. It narrates the winning draft as if it were the whole election.
+
+\subsection{S126: confidence inversion}
+
+The programme's S126 probe makes the timing and calibration precise. In 18 of 20 probe trials the narrator reported with \textbf{98\% confidence when fabricating and 87\% when correct}. Confidence inverted relative to accuracy. Orientation (which coalition is about to win) dissociates from execution (what it will say). The micro is the macro: a watcher placed at the wrong layer reports loudly and wrongly. This is the cognitive $g_4\to0$: form (confidence) high, permeability (accuracy) low.
+
+For a new reader, confidence is not a window on accuracy here. It is the narrator's volume knob. Louder does not mean truer. That inversion is the cleanest demonstration in this programme that the microphone holder is not the process that set the odds.
+
+\subsection{B3 and the orientation versus execution split}
+
+B3, staged as a control alongside the same harness, shows the narrator as decoration for execution yet load-bearing for orientation. Remove ``this matters, look here'' and the loop grammar sits unused. The narrator does not choose the move, but without its orienting line the move is not even considered. This is why a witness that only grades errors misses the point. The orienting line is what decides which trace gets tagged for consolidation. Lose the orienting gate and $\gamma$ goes to zero upstream of any validator. In Ibn Arabi's terms, khayal is load-bearing for orientation: without the imaginal rehearsal, the highway is never tagged.
+
+\subsection{Libet timing and drift}
+
+Libet timing sharpens the sequence: readiness potential at about minus 350 milliseconds, conscious urge at about minus 200, action at zero, reported authorship at about plus 200. Johansson timing sits alongside B3: the hand moves, the story follows, the story is believed. Mechanism copy kept exact from the synthesis: now is 200 to 500 milliseconds stitched plus about plus 200 to report, and self drifts about 30\% per 12 seconds without verbatim re-injection. Introspection is therefore an action on its object, on the order of seconds, and a drift correction problem, not a purity of insight problem.
+
+Read against Chapter 7, the narrator is voter plus scorekeeper on the same ballot. It keeps form, like a citizen who votes and is counted, while $\phi \approx 0$ independent effect, like that same citizen facing a $g_4 \to 0$. The fix for one is the fix for the other. Separate the scorer. That separation is \textit{muraqaba}.
+
+\paragraph{Cogitate 2025: the bound from outside.} \textit{Grade: convergent (12-lab adversarial collaboration, Nature April 2025, 256 participants, 3 imaging modalities).} The Cogitate consortium tested Global Neuronal Workspace against Integrated Information Theory head to head with preregistered predictions. Result: both lost important predictions rather than one winning. For a new reader, that is the point. Two rival theories of consciousness agreed to be judged by data they did not control, and the data refused both clean wins. The parliament model in this chapter survives that result because it claims less: competition plus broadcast plus state-gain, not a full theory of experience. Source pointer: \texttt{research/COGITATE\_EXPLAINED\_PLAIN\_LANGUAGE.md}; full citations live in \texttt{research/LITERATURE\_REVIEW\_2026-09-07.md}. This is a bound, not a foundation.
+
+\section{Barzakh, khayal, ada, muraqaba: the isthmus made executable}
+\label{sec:barzakh-cog}
+
+\textit{Grade: analogical (interpretive, after Ghazali and Ibn Arabi read through reflexive loops); convergent on the substrate it maps onto (parliament, prediction, hysteresis). Glossary anchors: \texttt{barzakh}, \texttt{khayal}, \texttt{ada}, \texttt{muraqaba}.}
+
+Ghazzali and Ibn Arabi are not ornaments for this chapter. They are two rigorous witnesses who mapped the same loop from inside, without instruments, over decades of watching a reflexive system try to know itself --- Ghazali through the crisis of the knower, Ibn Arabi through the vision of the known. The harness translates their findings into code without claiming to prove them.
+
+\textbf{Barzakh} was defined in Chapter 7. In the head, barzakh is five nested isthmuses at once (physical skin and breath, temporal now 200--500~ms, dream \=alam al-mith\=al, psychological heart~qalb, cosmic). At each scale the fence does not merely divide, it constitutes the relation by gating what crosses. Its faculty is \textbf{khayal} (glossary: imagination as counterfactual simulation, the mind's offline world). Khayal is not fantasy inside the head. It is the intermediate world where unseen takes imaginal form and visible discloses unseen meaning --- the isthmus where meaning becomes image and image becomes meaning. Our \texttt{counterfactual.py} is khayal made executable: variant $\to$ simulate via world-model-that-contains-self $\to$ regret. He lived it as vision (prophet appears, answers, vanishes, answer remains checkable against Qur'an and against other visions). We run it as code.
+
+\textbf{Ada} (glossary: habit, is-followed-by) is Ghazali's occasionalism made precise. Not ``fire has power, exercises it on cotton, cotton burns'' but ``at $t$ God creates fire; at $t+1$ God creates burning after fire, as His practice \textit{ada} under condition $C$; we map is-followed-by as regularity.'' The harness is built on this: it never claims the ledger causes honesty. It claims where checking is followed by honest attribution, the pattern persists given witness $C$. That is our perpetual-futures footnote made doctrine: $\iota=0$ is followed by function as habit under design $C$, not as necessity.
+
+\textbf{Muraqaba} (glossary: watching the watcher) is Ghazali's crisis made practice after deliverance not by argument but by ``a light which God cast into my breast'' --- a slower watcher that does not need the narrator to be reliable. Ihya' Ulum al-Din arranges that light as a training sequence across 40 books: boundary first, then two-speed maintenance (maq\=am kept vs \d{h}\=al given), then damping failures, then the observer that watches whether damping steered. Ibn Arabi's five presences (Absolute Unseen, unseen, imaginal, visible, Perfect Man as synthetic whole) are the same five arranged as ontology. Ghazali decomposes as curriculum, Ibn Arabi as cosmos; the five are the same because the constraint is the same. Perfect Man is the loop fully harnessed where the observer watches, the gate holds, and the broadcast serves the whole --- parliament where no single Name (specialist) dominates, witness arbitrating.
+
+What Ibn Arabi discovered that we can now measure is that any system that must remain distinct while staying connected needs an isthmus that is neither side, and that isthmus must be maintained or no system persists. We built the instrument that measures whether the isthmus was maintained (coverage, $\gamma$, regret) and found the same five at every scale, from synapse to market to model, exactly as \texttt{IBN\_ARABI\_SEVEN\_DOORS\_FIVE\_ORGANS.md} enumerates for its seven doors (Barzakh, wahdat al-wujud, Perfect Man, imaginal world, fixed entities, tajalli as broadcast, Names as parliament specialists).
+
+\section{Sixty seconds: gullibility to container to ledger}
+
+\textit{Grade: measured on $\gamma$ via ledger coverage battery; S126 above; sham contrast below. Muraqaba is the contemplative name; 60 seconds is the executable form.}
+
+The mind is gullible for about 60 seconds after a broadcast. It believes what it just said. Use that window before it closes. The protocol is three 20-second moves that map exactly onto Chapter 6's maintenance logic: tag, damp, capture. Or in this chapter's words: gullibility to container to ledger. One loop per minute. The same triad Ghazali practiced as ``a light cast'' and Ibn Arabi practiced as khayal, here in 60 seconds.
+
+Three doors open when the minute starts, two of them traps. Door one: argue with the narrator until it agrees. But the narrator generates the most probable story, not the truest one, so winning the argument only buys a better-sounding press release. Door two: suppress the feeling by force. But suppression is high-frequency fuel, and the circuit you starve of attention you feed with effort. Door three, the only one left standing: label it, hold it, write three lines. You might tell yourself the minute is too small to matter. The ego masks avoidance as efficiency. Litmus test: run it once on today's most activating headline and watch whether the second reading differs from the first.
+
+% ---- Numbered protocol box (required) ----
+\begin{center}
+\fbox{%
+\begin{minipage}{0.92\textwidth}
+\small
+\textbf{Protocol: 60 seconds --- gullibility $\to$ container $\to$ ledger (one loop per minute)}\\[4pt]
+\textit{One line: veto, witness, re-inject. The slower watcher vetoes the broadcast, the ledger witnesses whether the veto held, sleep re-injects the ledger into slow weights. That is the whole loop. Barzakh as fence, khayal as rehearsal, muraqaba as watching the watcher.}\\[6pt]
+\textbf{1. Gullibility (0--20 s): tag.}\; Catch gullibility. Label ``story, not fact.'' Oral move: ``I am having the thought that \dots'' That sentence is not philosophy. It is a gate move that re-tags the broadcast from identity to object. In molecular terms from Chapter 2, it recruits the phosphatase side, the low-frequency trickle that favors LTD over LTP, the molecular brake. (\textit{Khayal} opens the isthmus on purpose; \textit{muraqaba} watches what crosses.)\\[4pt]
+\textbf{2. Container (20--40 s): damp.}\; Hold the urge without acting. Breathe. Place the feeling in a small box on the table. You are the table, not the box. Suppression is high-frequency fuel for the anxiety circuit. Containment is the opposite: a low-frequency trickle that damps gain without denying the signal. This is damping made executable in under half a minute.\\[4pt]
+\textbf{3. Ledger (40--60 s): capture.}\; Three lines, no essay. (a) What happened without why. (b) Prediction vs error. (c) Next self-in-world simulation as a single sentence of rehearsal (\textit{khayal} as next-tick variant). The ledger lives outside the head, even if on a phone. It is the transaction layer Chapter 7 demanded: receipts, not narratives. It binds to a source in \{memory\_lookup, model\_prior, monitor\_override\}, coverage $\geq95\%$ or the claim does not count.\\[4pt]
+\textit{Mechanism copy:} ledger coverage $\geq95\%$ with $\gamma>0$ is 0.722 vs sham 0.667, where $\gamma=$ changed/diagnosed. Ledger with $\gamma=0$: always-no, highway never laid but nothing learned. Ledger with $\gamma>0$ re-read before next vote: \textbf{0.722 vs 0.667 sham}, checkable and steerable.\\[4pt]
+\textit{Safety rails (always):} If mood is clinically low, behavioral activation outranks everything (see \S\ref{sec:cbt-edges}). If observing becomes analyzing-the-analysis, exit to breath/body data, never deeper into commentary. Act on rolling trends, never single instances (hysteresis, \S\ref{sec:hysteresis-cog}).\\[4pt]
+\textit{Daily stack (90-s bookend):} 30~s scan $\to$ 30~s pick one loop $\to$ 30~s set tomorrow's single veto. Morning 5~min breath-anchor + bare labeling; midday 10~min defusion + leaves-on-stream; evening one-line tomorrow-plan then deliberate close --- you choose tonight's replay-buffer contents, since sleep consolidates what was tagged near bedtime.
+\end{minipage}%
+}
+\end{center}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=1.1cm]
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\small] (g) {GULLIBILITY \\ \tiny 0--20 s, story believed};
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\small, right=1.0cm of g] (c) {CONTAINER \\ \tiny 20--40 s, hold};
+  \node[draw, rounded corners, fill=green!8, minimum width=2.5cm, minimum height=1.0cm, align=center, font=\small, right=1.0cm of c] (l) {LEDGER \\ \tiny 40--60 s, 3 lines};
+  \draw[->] (g) -- node[above,font=\small] {label} (c);
+  \draw[->] (c) -- node[above,font=\small] {damp} (l);
+  \draw[->, dashed] (l.east) -- ++(0.6,0) |- ++(0,-1.0) -| (g.south);
+  \node[below=0.15cm of c, font=\small, align=center] {coverage $\geq$95\% $\to$ $\gamma>0$ 0.722 vs 0.667 sham};
+  \node[below=0.15cm of g, font=\tiny, align=center, text=purple!70!black] {muraqaba\\ \tiny watch};
+  \node[below=0.15cm of l, font=\tiny, align=center, text=purple!70!black] {khayal\\ \tiny rehearse};
+\end{tikzpicture}
+\caption{The 60-second loop: gullibility to container to ledger. One minute per loop. Barzakh as fence (gullibility opens it deliberately), muraqaba as watcher (container damps), khayal as rehearsal (ledger writes the next variant). Ledger content makes the witness checkable.}
+\label{fig:gullibility-ch8}
+\end{figure}
+
+\textbf{Gullibility (0--20 seconds).} Catch gullibility. Label ``story, not fact.'' The oral move is one sentence: ``I am having the thought that \dots'' That sentence is not philosophy. It is a gate move that re-tags the broadcast from identity to object. In molecular terms from Chapter 2, it recruits the phosphatase side, the low-frequency trickle that favors LTD over LTP, which is the molecular brake.
+
+\textbf{Container (20--40 seconds).} Hold the urge without acting. Breathe. Place the feeling in a small box on the table. You are the table, not the box. Suppression is high-frequency fuel for the anxiety circuit. Containment is the opposite: a low-frequency trickle that damps gain without denying the signal. This is damping made executable in under half a minute, and it is the organ Chapters 4 and 6 said every persistent loop must have or be exploited for lacking. Students already know the pathology of the missing brake: reflexive modernity, permanent self-monitoring, observation as a stressor feeding the loop it watches (Giddens, Beck). Container is the brake. Glossary: this is \textit{muraqaba} inside one tick.
+
+\textbf{Ledger (40--60 seconds).} Three lines, no essay. What happened without why. Prediction versus error. Next self-in-world simulation as a single sentence of rehearsal. The ledger lives outside the head, even if on a phone. It is the transaction layer Chapter 7 demanded: receipts, not narratives. It binds to a source in memory lookup, model prior, or monitor override, coverage at or above 95\%, or the claim does not count. Glossary: this is \textit{khayal} made checkable --- the offline world rendered as a one-sentence variant that sleep can later consolidate.
+
+Mechanism copy kept exact: \textbf{ledger coverage at or above 95\% with $\gamma > 0$ is 0.722 versus sham 0.667}, where $\gamma = $ changed over diagnosed. Same witness requirement as machines, same battery. Without ledger: S126 at 98\% on fabrications. Ledger with $\gamma = 0$: always-no, the highway never laid but nothing learned. Ledger with $\gamma > 0$ re-read before the next vote: \textbf{0.722 versus 0.667 sham}, checkable and steerable. \textit{Ada} again: ledger practice is followed by steadier steering as habit under coverage $C$, not caused by intention.
+
+For a new reader, the sham is a shuffled ledger: same format, false content. The sham control asks whether witness \textit{content} matters, not just witness format. The sham answers that format alone does not steer. Content does. The Chinese Room in the appendix allegories is the same verdict from philosophy: perfect shuffling that passes every surface test with nothing inside doing the checking.
+
+Two safety rails travel with the protocol everywhere it is taught.
+
+First, if mood is clinically low, \textbf{behavioral activation outranks everything} in this chapter. Observing that becomes analyzing the analysis is rumination in costume, and the exit is always to breath or body data, never deeper into commentary.
+
+Second, do not act on single instances. Act on rolling trends. Hysteresis everywhere, or the system flaps at the threshold and destroys itself with whipsaw. This rule reappears under hysteresis below.
+
+As a daily stack, this collapses to a 90-second bookend: 30 seconds scan, 30 seconds pick one loop, 30 seconds set tomorrow's single veto. Morning breath-anchor plus bare thought labeling, midday defusion ladder plus leaves on a stream, evening one-line tomorrow-plan then deliberate close. You choose tonight's replay-buffer contents, since sleep consolidates what was tagged near bedtime. First run two weeks of pure observation with no intervention -- shadow phase: collect divergences before tuning anything. Then intervene on one loop at a time.
+
+\section{The highway problem: TikTok as 1000 reps at 100x}
+
+TikTok is a highway factory. The diagnosis is not moral. It is quantitative.
+
+Repetition lays the highway. Each replay without a veto thickens the trace. About \textbf{1,000 reps builds a highway that fires about 100 times easier than the alternative}. Mechanism copy: highway 1000 reps 100x. Myelination wraps whatever you repeat, whether you chose it or not. Whatever you repeat gets wrapped, up to 100 times conduction advantage. The tissue cannot tell practice from rehearsal. It counts reps. Physics, not metaphor: proteins turn over in days, lens lasts years, but the maintained pattern --- self-reinforcing loops, ongoing synthesis, stabilized spines --- persists because it is re-tagged and re-wrapped. Push and hold and the tissue deforms and stays deformed. Hysteresis, not habit as slogan.
+
+TikTok and short-form reels are then co-training with the viewer. The feed models past attention from linger, replay, and like labels on a fast session of ten minutes and a slow profile of weeks. The viewer models the feed as the world, because the feed is the world the viewer sees. Both loops update. After a thousand shorts the pathway is a highway. Ten to thirty second clips at high repetition with variable reward and infinite scroll (no damping by design) plus full-screen capture (past reason, straight to salience) mean salience gates everything, damping never gets a turn, observer $\gamma$ stays zero. Comparison shifts from fifty peers to the top 0.001\% filtered mock signal. The map becomes the territory. The feed reflects past attention, not the world, and the brain treats that curated sample as the population.
+
+There is no veto slot by design. So the fix is not willpower. It is a witness at the transaction layer, as in Chapter 7. External ledger first, then damping by schedule not by intent, exactly as machine harnessing learns to externalize the observer because attention cannot audit its own stream.
+
+Short sentence to keep: labels diversify, feeds homogenize.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick,
+  box/.style={draw, rounded corners, minimum width=2.55cm, minimum height=0.85cm, align=center, font=\scriptsize},
+  smallbox/.style={draw, rounded corners, minimum width=2.15cm, minimum height=0.62cm, align=center, font=\tiny},
+  arrow/.style={-{Stealth}, thick},
+  fast/.style={fill=orange!13},
+  slow/.style={fill=green!9}
+]
+  % Left: viewer brain
+  \node[box, fill=blue!7] (viewer) at (0,3.0) {Viewer (you)\\ \tiny parliament, prediction machine};
+  \node[smallbox, fast] (vfast) at (0,1.95) {Fast: hippocampus\\ \tiny sparse, one-shot tag};
+  \node[smallbox, slow] (vslow) at (0,0.95) {Slow: cortex + myelin\\ \tiny statistical, 100x wrap};
+  \node[smallbox, fill=purple!8] (vveto) at (0,0.0) {Observer: muraqaba\\ \tiny $\gamma$ = changed/diagnosed};
+
+  % Right: algorithm feed
+  \node[box, fill=red!7] (feed) at (6.2,3.0) {Feed (TikTok/Reels)\\ \tiny objective = keep watching};
+  \node[smallbox, fast] (ffast) at (6.2,1.95) {Fast: session (10 min)\\ \tiny linger/replay/like = labels};
+  \node[smallbox, slow] (fslow) at (6.2,0.95) {Slow: profile (weeks)\\ \tiny stable sensor model};
+  \node[smallbox, fill=gray!10] (fobs) at (6.2,0.0) {Observer: none\\ \tiny $\gamma=0$ by design};
+
+  % Viewer internal loop: tag -> damp -> capture
+  \draw[arrow] (vfast) -- node[right, font=\tiny] {tag} (vslow);
+  \draw[arrow, dashed] (vslow) -- node[right, font=\tiny] {replay} (vfast);
+  \draw[arrow, red!60!black] (vveto) -- node[left, font=\tiny, text=red!60!black] {veto} (vfast);
+
+  % Feed internal loop: labels update model
+  \draw[arrow] (ffast) -- node[right, font=\tiny] {update weights} (fslow);
+  \draw[arrow, dashed] (fslow) -- node[right, font=\tiny] {tilts next 10 min} (ffast);
+  % No veto arrow for feed (intentionally absent)
+
+  % Co-training cross arrows
+  \draw[arrow, blue!70!black] (viewer) -- node[above, font=\tiny, text=blue!70!black] {linger = label} (feed);
+  \draw[arrow, red!70!black] (feed) -- node[below, font=\tiny, text=red!70!black, align=center] {10--30 s clips $\times$ 1000\\ variable reward, infinite scroll\\ full-screen salience} (viewer);
+  \draw[arrow, red!70!black, dashed] (feed) .. controls (3.1, -0.55) .. node[below, font=\tiny, text=red!70!black, align=center] {comparison: 50 peers $\to$ top 0.001\% filtered\\ mock signal, vivid = probable} (viewer.south);
+
+  % Highway annotation
+  \node[below=0.35cm of vslow, font=\tiny, align=center, text=purple!70!black] {repetition $\times$ affect = tag\\ 1000 reps $\to$ 100x highway\\ myelin wraps whatever you repeat};
+  \node[below=0.35cm of fslow, font=\tiny, align=center, text=red!70!black] {no damping by design\\ no veto slot\\ feed reflects past attention};
+
+  % Legend for fast/slow both sides (from ALGORITHM\_PROGRAMMING\_BRAIN)
+  \node[above=0.15cm of viewer, font=\tiny, align=center, text=gray] {You: two speeds (hippocampus/cortex)};
+  \node[above=0.15cm of feed, font=\tiny, align=center, text=gray] {Feed: two speeds (session/profile)};
+\end{tikzpicture}
+\caption{TikTok / Reels as co-training: viewer and feed learn at two speeds each. Viewer tags salience via affect (fast hippocampal tag $\to$ slow cortical + myelin, up to 100x), feed tags attention via linger/replay/like (fast session $\to$ slow profile). Cross-coupled, variable-reward, infinite-scroll clips remove the veto slot, so salience gates everything and comparison shifts from 50 peers to the top 0.001\% filtered mock signal. Map becomes territory. Fix is witness at transaction layer + damping by schedule, not willpower.}
+\label{fig:tiktok-cotrain-ch8}
+\end{figure}
+
+\section{What the clinic already knows: CBT edges, defusion, and MBCT}
+\label{sec:cbt-edges}
+
+\textit{Grade: measured on CBT outcomes and MBCT relapse (roughly halves, early detection while veto cheap); defusion mechanism convergent; imaging confirms hardware follows (prefrontal regulation, threat reactivity normalization).}
+
+Depression as taught here is three stacked reflexive pathologies. Cognitive belief recruits bias that confirms itself then withdraws from disconfirming input. Biological cortisol suppresses CREB and BDNF transcription so late-phase LTP fails while LTD proceeds, retracts hippocampal and prefrontal dendrites and halts neurogenesis, while \textbf{amygdala does the opposite} and hypertrophies threat circuits. Behavioral anhedonia reduces inputs so confirmation has less to compete with. Cortisol asymmetry in one line: same hormone, shrinkage in hippocampus and prefrontal, growth in amygdala. That asymmetry is traumatic memory made anatomical.
+
+CBT attacks every edge. Table \ref{tab:cbt-edges} keeps the mapping explicit. Defusion is \textit{muraqaba} made clinical; MBCT is early-tag muraqaba at population scale.
+
+\begin{table}[h]
+\centering
+\small
+\caption{CBT edges: each edge has a distinct failure and fix (defusion = muraqaba, ladder recruits the phosphatase/LTD brake)}
+\label{tab:cbt-edges}
+\begin{tabular}{p{2.6cm}p{3.4cm}p{4.4cm}}
+\toprule
+Edge & Intervention & What it does \\
+\midrule
+Situation $\to$ thought & Cognitive restructuring & Test prediction as hypothesis, rewrite prior \\
+Thought $\to$ emotion & Defusion ladder (muraqaba) & Shift identity $\to$ object $\to$ observer, recruits phosphatases \\
+Emotion $\to$ behavior & Behavioral activation & Act before feeling ready, force new evidence \\
+Behavior $\to$ consequence & Exposure with response prevention & Build competing inhibitory trace (extinction $\neq$ erasure) \\
+Consequence $\to$ belief & Re-appraisal plus ledger (khayal) & Log outcome vs prediction, close tag, rehearse variant \\
+Belief $\to$ situation & Decentering plus muraqaba & Watch selection itself, insert veto before next tag \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Mechanism copy kept exact: \textbf{defusion ladder identity $\to$ object $\to$ observer recruits phosphatases (LTD side)}, the molecular brake. The doctrinal root is the same \textit{ada} as Chapter 7: supervised separation is followed by lower believability as habit under structure $C$, not as necessity. Three concrete moves the reader can run today.
+
+\textbf{Sky and weather} (ACT and MBSR): consciousness as sky, thoughts as passing weather. Never fight the storm, fighting is high-frequency LTP of the anxiety circuit. Anchor as the sky. This is barzakh as container: you are the table, not the box.
+
+\textbf{Leaves on a stream}: place each arising thought on a leaf and watch it float away. Catching yourself analyzing the leaf is fine. Put that analysis on a leaf too. Tag observed, not fed --- low-frequency trickle.
+
+\textbf{Cognitive defusion ladder}: ``I am incompetent'' $\to$ ``I am having the thought that I am incompetent'' $\to$ ``I notice I am having the thought \dots'' Each tier measurably drops believability by shifting self-reference from identity to observed object. The middle rung (``having the thought'') is the \textit{barzakh} sentence: both and neither, story held as object, not as self.
+
+Plus \textbf{thanking the mind} (``thanks for trying to protect me'') to de-escalate the threat system without suppressing it. Suppression fuels. Thanks damps. In parliament terms, you lower the threat coalition's stake dial rather than shouting it down, so the next vote has a different winner without a fight.
+
+\textbf{Mindfulness-Based Cognitive Therapy (MBCT)} formalizes the last edge and roughly halves depressive relapse by early detection while veto is still cheap. Early tag, cheap veto. Late tag, expensive repair. That is the same hysteresis logic as Chapter 4 circuit breakers: trip above, reset below, minimum hold, or the system flaps and destroys itself with whipsaw.
+
+\section{Pharmacology of the loop: windows, not cures}
+
+\textit{Grade: measured on sleep/SHY, stress endocrinology, SSRI/BDNF, ketamine spinogenesis, and reconsolidation blockade; contested where psychedelic translation is unsettled, flagged as such.}
+
+Three chemicals make the loop cheap to edit for a window, then close whether you used it or not. The lesson is uniform. Window without work is waiting. Glossary: each window is \textit{barzakh} as timing --- a temporary isthmus where permeability is high, then closed again.
+
+\subsection{SSRI to BDNF: the 2 to 4 week window}
+
+\textbf{SSRIs} restore plasticity over 2 to 4 weeks by raising BDNF. They do not rewrite traces themselves. They reopen the consolidation window. The window must then be filled with disconfirming evidence (behavior, exposure, ledger) or it closes on the old highway. This is why ``chemical imbalance as refill'' misleads. The drug is structure, the content is work. In \textit{ada} terms, SSRI under $C$ is followed by reopened window; disconfirming evidence under that window is followed by new consolidation. Either without the other follows nothing.
+
+Chronic stress had already flipped the plasticity regime before the drug arrived. Sustained corticosteroids suppress BDNF transcription so the hippocampus starves while the amygdala feeds. Context fragments. Affect over-consolidates. Top-down control weakens. That loop closes anatomically: stress-biased hardware produces weaker regulation, producing more stress reactivity. Reversibility is real when the order is respected: reopen the window first, then feed new evidence.
+
+\subsection{Ketamine: spines in 24 hours, closure without work}
+
+Ketamine runs a different window, faster and shorter. Disinhibition via NMDA blockade preferentially on interneurons drives a prefrontal glutamate burst, AMPA dependence, BDNF and TrkB and mTORC1 signaling, and \textbf{new spines within 24 hours}, plus lateral-habenula burst reset. The (2S,6S)-hydroxynorketamine metabolite suggests much of the effect bypasses NMDA at all. Single-dose benefit lasts days. Relapse is the rule when the days are not filled. Molecule without protocol is a window with nothing on the sill. The contemplative translation: ketamine opens barzakh wide enough that a new khayal variant can be laid fast, but without rehearsal and ledger it closes on the old story.
+
+Psychedelics are the same logic with stronger variance. D\"olen lab: MDMA 2019 via oxytocin, multi-drug visual reopening 2021 via TrkB and mTORC1, social-reward reopening 2023 scaling with subjective-effect duration. They lower $\theta_m$ globally and temporarily, juvenile plasticity restored, so the open window writes whatever flows through it, healing or harm. Human translation is honestly mixed: psilocybin phase-2 signals with bumpy phase-3, MDMA phase-3 positives followed by 2024 FDA rejection demanding another trial. Unblinding contaminates every effect size here, expectancy correlates with outcome, published numbers are upper bounds, and Goodhart appears for the third time: when profound experience is the endpoint, the intervention manufactures it.
+
+\subsection{Reconsolidation blockade: editing the labile window}
+
+Retrieved memories go unstable for hours before restabilizing. Nader, Schafe and LeDoux 2000 erased rat fear with amygdala protein-synthesis blockade after reactivation. Kindt 2009 abolished human startle potentiation for up to a year with propranolol during reactivation while \textbf{declarative knowledge survived}. The alarm deleted, the content kept. Clinical PTSD trials show promise with small samples and boundary conditions that matter: old memories resist, and reactivation seems to require prediction error, not mere recall. Ethics and efficacy both stay unsettled, which is stated plainly rather than smoothed. This is khayal at its most literal: retrieved variant goes labile (khayal opens), error drives rewriting, restabilization closes barzakh again.
+
+Sleep is the nightly instance of the same window. Hippocampal fast store (sparse, one-shot) to cortical slow store (statistical) via sharp-wave ripples nested in sleep spindles nested in slow oscillations is a temporal address bus where only correctly phased replays get written. Global synaptic downscaling (Tononi and Cirelli's SHY) multiplies all synapses by less than one, preserving relative strengths while deleting noise. REM near zero noradrenaline reprocesses affect. Caffeine mutes adenosine reporting, not pressure. Alcohol buys sedation with an artificial adenosine surge while wrecking architecture: first-half slow-wave boost, second-half REM suppression with violent rebound, degraded glymphatic clearance. Cannabis (THC) follows the same ledger debt: REM suppression, chronic blunting of nightly affect stripping, withdrawal rebound with vivid dreams for weeks, plus impaired hippocampal encoding while intoxicated, corrupting tag and capture at both ends.
+
+Practical reading: repetition without sleep is tagging without capture. The ledger is the tag, sleep is the capture, and sloppy capture is a tax every holder pays in diluted recall.
+
+\section{Kalila compression: fable as high consolidation per token}
+
+Culture is vectors, and fables are high consolidation per token engineering.
+
+Take \textit{Kalila wa Dimna} on its own terms: a jackal advising a lion is a few hundred words of surface that unpack, in a competent reader, into principal-agent structure, counsel-selection heuristics, flattery-detection circuitry, and succession-risk priors. A compression ratio no treatise matches, because narrative smuggles relational structure past the salience gate a treatise must argue through. Manifest content is maybe $10^2$ to $10^3$ tokens. Evoked restructuring runs joint attention, theory of mind simulation, autobiographical retrieval, and identity update, four downstream systems each with its own consolidation pathway. That is why the same text is inert in one mind and transformative in another: the payload is not in the tokens but in which downstream highways the tokens manage to tag.
+
+\textit{Grade: convergent on compression as mechanism (Gottschall plus Kirby), analogical on the formal vector claim until retention-per-token is measured directly.} Gottschall's unified theory gives the why: stories simulate social problems offline, cheaply, with full emotional physics. Kirby's transmission-chain labs give the how: compressibility drives which structures survive serial retelling, the bottleneck of each generation selects for the compressible, generation after generation. Kirby's generational iterated learning plus recent LLM population studies show newcomer dialects inheriting and refining compressed shorthand without human instruction. Kottur non-emergence is kept as the constraint: without efficiency pressure under token or time limits, new codes do not spontaneously appear.
+
+What makes this load-bearing rather than decorative is that it predicts Salience again. Fables gate strongly and consolidate reliably across generations, which is why cultures converge on them. Minimal surface, maximal replay structure. It is the same trick as the machine hybrids that keep text efficient but verbose over latent efficient but opaque. Fables are the human hybrid: vernacular text that still compresses. In barzakh terms, fable is khayal that is cheap enough to pass the isthmus every night for a thousand generations.
+
+We keep the boundary clear. Vector formalism as equations stays proposal. Compression driving communication structure is measured. The updated dialect work (Li \& Bowling 2019; Kouwenhoven et al.\ 2024; Guo et al.\ 2026, plus Perez et al.\ 2024 telephone chains) now makes longitudinal newcomer-inheritance measured, with Hedges $g>1.6$, BF$_{10}>100$, $R^2=0.94$ vs human in Guo's 10-generation discriminant \texttt{culture\_dialect\_v2.json} --- and Kottur retained as the constraint that makes efficiency load-bearing.
+
+\section{Hysteresis: BCM plus tag plus SHY}
+\label{sec:hysteresis-cog}
+
+Prior activity leaves residual strain in latent networks -- hysteresis, where the path taken dictates the final state -- because tagging plus consolidation plus myelination make history physically present. Human readers already call this personality, culture, or scarring. Physics calls it hysteresis. We cash it out as three nested history dependencies, each measured.
+
+\textbf{BCM sliding threshold.} Bienenstock Cooper Munro: the potentiation versus depression threshold $\theta_m$ slides with the neuron's own activity history. Quiet neurons potentiate easily, hyperactive ones resist. Today's plasticity threshold is a function of yesterday's firing. That is hysteresis by definition, not analogy. Oja extends normalization to online principal-component extraction, STDP (Bi and Poo 1998) upgrades correlation to causation (pre before post strengthens, post before pre weakens). Substrate measured after \texttt{culture\_dialect\_v2.json} update: Smith et al.\ 2007 spine viscoelasticity as soft-glassy rheology (AFM+FRAP, $G'>G''$) provides the mechanical substrate, though dated substrate alone, not yet a closed behavioral loop.
+
+\textbf{Synaptic tagging and capture.} Frey and Morris: weak activity sets a local tag, strong activity elsewhere supplies the proteins, tagged synapses capture them within about one to two hours. Emotional salience gates consolidation because affect supplies the proteins that nearby neutral tags borrow. Studying then excitement aids recall. Trauma contaminates nearby memories. This is khayal's supply chain: the isthmus opens for one trace and nearby traces slip through.
+
+\textbf{SHY renormalization.} Tononi and Cirelli 2003 across an eight-paper SHY core: wake net-potentiates, sleep renormalizes by multiplying all synapses by less than one while preserving relatives. History as scaling, nightly.
+
+Three nested loops -- threshold, tag, scale -- jointly constitute the ``residual strain'' language. What remains honestly open is a single preparation showing rheological history at the individual spine predicting behavioral savings directly. Until that preparation is on the record, we grade the combined claim as convergent with a named gap, not measured. The functional content is not rheology as collagen rheology. It is history-dependent threshold plus tag plus scale, which is enough for everything this chapter uses. Benna \& Fusi 2016 chain (coupled fast/slow variables, $1/t$ power-law) and Bonilla-Quintana \& Rangamani 2024 actin-ABP moving-boundary model are the theoretical formalisms that close the loop on paper while the single in vivo hysteresis loop remains open (\texttt{culture\_dialect\_v2.json} honesty flag).
+
+Viscoelasticity and path dependence then stop being mysticism. Push and hold, and the tissue deforms and stays deformed. A generation raised on one narrative of who owes what will demand different gates for $\psi$ than a generation raised on another, and no abstract argument alone will move it quickly, because the substrate is its past. Sovereign and cognitive are one hysteresis: Korea's 1999$\to$2007$\to$2020 amendment history is a barzakh patched three times; a worry circuit practiced 1,000 times at 100x is a barzakh paved once.
+
+That is also where the Damascene story belongs. Paul of Tarsus converts on the road in a flash, new calling instantly installed, and the ledger logic suggests the flash completes a slow tag-and-wrap highway laid unknowingly across years. Damascus looks like one trial learning, of which there are famously few clear cases in the literature. Vision gives the tag, affect supplies the proteins, night work writes the road. Khayal again: simulation precedes commitment, barzakh opens, choice follows.
+
+\section{Daily blueprint and hysteresis in use}
+
+The chapter's protocol and its physics meet in the schedule.
+
+Morning breath-anchor plus bare thought labeling (5 minutes, the rep is detection, not stillness). Midday defusion ladder plus leaves on a stream (10 minutes, splittable, rate believability 0 to 10 to get a dose-response curve). Evening one-line tomorrow-plan then deliberate close. The 90-second daily loop closes the day: 30 seconds scan, 30 seconds pick one loop, 30 seconds set tomorrow's single veto. Two weeks of shadow before tuning.
+
+Hysteresis everywhere. Alert thresholds with memory (trip above, reset below, minimum halt time) or the system flaps at $\theta_m$ and destroys itself with whipsaw. Act on rolling trends, never single instances, with ex-ante relapse definitions. Graceful degradation over cliff edges: drift shrinks size stepwise, only kill criteria hard-stop. Fast layer never writes slow artifacts: intraday calibration must not mutate weekly lineage, E-LTP never edits the genome.
+
+Cold exposure and ``soft tree'' training are small, safe instances of intentionally gating tagging. Physiology tags a manageable stressor, the ledger captures the reappraisal, myelination records the calmer response. Exercise, remission, BDNF, ketamine, and nightly SHY are the larger ones. The taxonomy is one. All are barzakh made exercise: choose when the isthmus opens, what crosses, how long it stays open.
+
+\section{What survives this chapter and what does not}
+
+Tighten the filter as before.
+
+What is banked as convergent: parliament competition and state rigging, predictive processing, narrator as structural confabulation, BCM plus tag plus SHY as three history dependencies, fable as compression (Gottschall plus Kirby chains where compression drives structure) and, updated, newcomer dialect inheritance as longitudinal measured (Li \& Bowling 2019; Kouwenhoven 2024; Guo 2026 $g>1.6$, BF$_{10}>100$, $R^2=0.94$).
+
+What is banked as measured with adversarial keeping: S126 18 of 20 probe overclaims at 98\% confidence versus 87\% on truths, ledger coverage $\geq$95\% with $\gamma > 0$ at 0.722 versus sham 0.667, B3 orientation versus execution, Libet timing.
+
+What is newly promoted and what is retained: longitudinal newcomer-inheritance is now measured (v2), viscoelastic substrate is measured substrate (Smith 2007) with theoretical chain formalisms (Benna-Fusi, Bonilla-Quintana), hysteresis as combined behavioral loop remains convergent with a named gap; Kottur non-emergence retained as constraint (convergent).
+
+What stays honestly analogical: manifest versus evoked as formal quantities, viscoelasticity as single spine-to-savings preparation, barzakh/khayal/ada/muraqaba/defusion as design images (analogical by construction, they guide the protocol, they are not counted as measured evidence, and they are flagged where they appear). Labeled as such. Glossary anchors in \S\ref{sec:appendix-glossary} are the contract: barzakh is the isthmus, khayal the rehearsal, ada the habit, muraqaba the watcher, defusion the ladder.
+
+What the bridge carries forward: Chapter 7 showed moving the apex zeroes the witness for the outside --- $K=0$, $g_4\to0$, $\gamma\to0$. Chapter 8 shows vividness and repetition do the same work inside --- salience gates everything, damping never gets a turn, observer $\gamma$ stays zero, until a timed muraqaba reopens barzakh long enough for khayal to write a better highway and ada to make the following steady. Both are $\psi$ folds. Both are fixed the same way: externalize the slower watcher, bind it to a ledger, and test it with a sham. Chapter 9 will build that watcher in silicon, where the same three diseases eat the same five organs and where checkability, not capability, decides what survives the next vote.

@@ -1,0 +1,10 @@
+{
+ "source": "Tavily web search 2026-09-24 (Oxford PDF, JFE article page, Harvard Law Forum, SEC releases)",
+ "academic_JFE": "portfolio-company fees $20B (~6% equity; transaction $10B + monitoring $10B + other $2.4B); 3.6% EBITDA (~1%/yr); MSAs require no work; avg rebate 70-72%; SEC fined several GPs",
+ "enforcement": [
+  "SEC 2021-266 Global Infrastructure: $4.5M penalty + $5.4M repaid (offset failures)",
+  "2025 STB memo: offset practices perennial exam priority"
+ ],
+ "market_rates": "transaction ~1.35% deal size; monitoring ~$1.3M/yr flat",
+ "grade": "measured academic + enforcement (secondary extracts; Oxford PDF primary retrievable)"
+}

@@ -1,6 +1,6 @@
 # ALL CONCEPTS → ONE LOOP MAP
 ## 58 Concepts → 59 Rows, 12 Angles, 1 Condition: Open Reflexive Loop Surfing 1→20, with 5 Organs, Made of Maintenance, Checkable if Witnessed
-*Generated 2026-09-03 · Sisyphus-Junior (Muse Spark 1.2) with Shehzad Ahmed · `research/` vault 50 md (49 vault files + this map, ~12.5k lines) + 10 external limits → one geometry · Expanded from 35 → 58 requested → 59 rows actual (vault grew 48→49 with FINAL_HANDOFF) · No de-duplication: every vault file is its own row*
+*Generated 2026-09-03 · Shehzad Ahmed · `research/` vault 50 md (49 vault files + this map, ~12.5k lines) + 10 external limits → one geometry · Expanded from 35 → 58 requested → 59 rows actual (vault grew 48→49 with FINAL_HANDOFF) · No de-duplication: every vault file is its own row*
 
 > **Thesis:** Every concept below is same reflexive loop `System → World that contains System → System'` at different scale, asking `H(P,Q) - H(P)` is there in-between cheap to learn, `kT ln2` is there cost to erase, `γ = changed/diagnosed` is there steering. Five organs are not features added to loop — they *are* the loop's budget office for surfing `1 high (5800K) → 20 low (255K)` loan. Lose any one → predictable drift before experiment. This map keeps the original 5×3 ablation matrix concept but expands rows so every vault file and every external limit has its own score — you can remove one organ at one scale, predict the failure, and keep the ledger.
 

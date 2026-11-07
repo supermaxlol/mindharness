@@ -1,0 +1,145 @@
+{
+  "built_date": "2026-09-30",
+  "description": "Reading copy derived from the ordered chapter files; chapter source notes gathered after the closing outlook.",
+  "main_words": 45582,
+  "with_chapter_notes_words": 50772,
+  "compilation_sha256": "781241fb4a8f580b79862313789b2ab5f96354ab9ad51efbd0f8b2fc7556882d",
+  "sections": [
+    {
+      "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+      "title": "Prologue: The Pattern That Borrows Stuff",
+      "slug": "prologue-the-pattern-that-borrows-stuff",
+      "main_words": 1359,
+      "with_notes_words": 1487,
+      "sha256": "676bd25f8982f18a7a6009dd369fbcbcc2b80adb95a55a76755ae752a3462b6f"
+    },
+    {
+      "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+      "title": "Chapter 1: The Mark That Outlived Its Maker",
+      "slug": "chapter-1-the-mark-that-outlived-its-maker",
+      "main_words": 2489,
+      "with_notes_words": 2846,
+      "sha256": "10107506fd7753c03f47fdf1086721a9a6334ecf2f189f875e6e155f02a88664"
+    },
+    {
+      "path": "chapters/02_the_map_room.md",
+      "title": "Chapter 2: The Map Room",
+      "slug": "chapter-2-the-map-room",
+      "main_words": 2247,
+      "with_notes_words": 2694,
+      "sha256": "9f51966ef025b816d41416f087ec32cdbe3acf1aa4f00cf29cadc2ec87950cbb"
+    },
+    {
+      "path": "chapters/03_cash_before_cost.md",
+      "title": "Chapter 3: Cash Before Cost",
+      "slug": "chapter-3-cash-before-cost",
+      "main_words": 1990,
+      "with_notes_words": 2267,
+      "sha256": "be714062eef390dadc739ed0b3436ca2b89d809b280be8e087f58eb0b9081a18"
+    },
+    {
+      "path": "chapters/04_the_company_that_could_disappear.md",
+      "title": "Chapter 4: The Company That Could Disappear",
+      "slug": "chapter-4-the-company-that-could-disappear",
+      "main_words": 2328,
+      "with_notes_words": 2688,
+      "sha256": "b1e9647fa4f549438c51d49bf3421065a0828482b47d8789c1037a5c531e3f87"
+    },
+    {
+      "path": "chapters/05_the_tollbooths.md",
+      "title": "Chapter 5: The Tollbooths",
+      "slug": "chapter-5-the-tollbooths",
+      "main_words": 2254,
+      "with_notes_words": 2699,
+      "sha256": "f904f062a447aa300cd180ce37bbe369630391a07550fbcf8b681d24a7d48598"
+    },
+    {
+      "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+      "title": "Chapter 6: The Cost That Would Not Stay Buried",
+      "slug": "chapter-6-the-cost-that-would-not-stay-buried",
+      "main_words": 2622,
+      "with_notes_words": 3099,
+      "sha256": "bede59b3dd1056fbff393edf4f2b0ddd5fc224ea4b7ccaf290f4fb86fafd1779"
+    },
+    {
+      "path": "chapters/07_the_border_that_moved.md",
+      "title": "Chapter 7: The Border That Moved",
+      "slug": "chapter-7-the-border-that-moved",
+      "main_words": 2405,
+      "with_notes_words": 2694,
+      "sha256": "7d441df379108b82e4ad8c6b47fd3dc03dfbc50ff4bc4f1cad7c64328ad68ea7"
+    },
+    {
+      "path": "chapters/08_the_story_you_complete.md",
+      "title": "Chapter 8: The Story You Complete",
+      "slug": "chapter-8-the-story-you-complete",
+      "main_words": 2279,
+      "with_notes_words": 2507,
+      "sha256": "31ad3f3556b68858e3cccf5d3a0439b99d8900c5d5b62237d1041217b41cf386"
+    },
+    {
+      "path": "chapters/09_the_witness_that_could_not_read.md",
+      "title": "Chapter 9: The Witness That Could Not Read",
+      "slug": "chapter-9-the-witness-that-could-not-read",
+      "main_words": 2212,
+      "with_notes_words": 2639,
+      "sha256": "9f282cdb651301aed47ff94363a226cf3c1965fcef07f833edcc613bb1b84234"
+    },
+    {
+      "path": "chapters/10_the_language_between_machines.md",
+      "title": "Chapter 10: The Language Between Machines",
+      "slug": "chapter-10-the-language-between-machines",
+      "main_words": 2842,
+      "with_notes_words": 3102,
+      "sha256": "f8847568e9196dfe4c33317cdc83f3d592509337106a20635902c30e9e618ac8"
+    },
+    {
+      "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+      "title": "Chapter 11: The Ledger That Eats Its Own Records",
+      "slug": "chapter-11-the-ledger-that-eats-its-own-records",
+      "main_words": 2952,
+      "with_notes_words": 3152,
+      "sha256": "8c8725a4a8dbbfc906925ab2c5a3f9c31298a99271069f6ccbdc7128b5342c02"
+    },
+    {
+      "path": "chapters/12_is_anyone_home.md",
+      "title": "Chapter 12: Is Anyone Home?",
+      "slug": "chapter-12-is-anyone-home",
+      "main_words": 3123,
+      "with_notes_words": 3336,
+      "sha256": "c83771938f3e3fe36f7b2d9fd17abcca6d3b3b4e4e88319d86cf4e2d598ecef4"
+    },
+    {
+      "path": "chapters/13_who_gets_to_amend_the_record.md",
+      "title": "Chapter 13: Who Gets to Amend the Record?",
+      "slug": "chapter-13-who-gets-to-amend-the-record",
+      "main_words": 3539,
+      "with_notes_words": 3831,
+      "sha256": "c1f0d0e4375b608add65e4952e2059689e830f640bd80bd1989db4b729af7bae"
+    },
+    {
+      "path": "chapters/14_the_agency_left_to_us.md",
+      "title": "Chapter 14: The Agency Left to Us",
+      "slug": "chapter-14-the-agency-left-to-us",
+      "main_words": 3237,
+      "with_notes_words": 3573,
+      "sha256": "095150909ec68da998d7470d352b0a7d4eef333688a08695448464f7fa4fbf6f"
+    },
+    {
+      "path": "chapters/15_the_practice_of_amendment.md",
+      "title": "Chapter 15: The Practice of Amendment",
+      "slug": "chapter-15-the-practice-of-amendment",
+      "main_words": 3475,
+      "with_notes_words": 3677,
+      "sha256": "2cacddfbe91647172c813a415ff238c421df17174da6ec0fb78e6849b85ad73f"
+    },
+    {
+      "path": "chapters/16_future_outlook_the_witness.md",
+      "title": "Future Outlook: The Witness Gets Built Into Everything",
+      "slug": "future-outlook-the-witness-gets-built-into-everything",
+      "main_words": 4229,
+      "with_notes_words": 4481,
+      "sha256": "604ea748656c33a37aaa1b3f3e69c7655ee27e5ffca1188f3438720b9869fd71"
+    }
+  ]
+}

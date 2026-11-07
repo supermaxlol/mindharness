@@ -1,0 +1,292 @@
+\chapter{Machines: Where the Loop Learns to Speak and Forget}
+\label{ch:machine}
+
+\begin{center}
+\small\textit{What this chapter does, for the new reader.} Machines give us the reflexive loop in its cleanest form. No hormones, no history, just a system that reads its own output as its next input. When that loop runs under efficiency pressure it invents private shorthands, when it trains on its own exhaust it forgets the edges of the world, and when it is watched by something it cannot edit it gets more honest without being told to. Each claim below carries a grade, so you know what kind of belief to hold.\end{center}
+
+\noindent\textbf{Grades used throughout:} \textbf{measured} means banked data with controls, \textbf{theoretical} means proved or derived but not run by us, \textbf{convergent} means several labs finding the same shape independently, \textbf{analogical} means same type on a different substrate and useful as design guidance, \textbf{open} means honestly unresolved. Where a number is given, the source file or publication is named.
+
+%==============================================================================
+\section{The Raw Loop and Why It Needs a Harness}
+\label{sec:ch09-rawloop}
+
+An unharnessed language model reads its own output as context for its next prediction. Slight drift becomes prior; error compounds: $P(\text{error}_{t+1} \mid \text{error}_t) > P(\text{error}_t)$, textbook positive feedback with no damping term. This is rumination in silicon. The industry answer --- the \textbf{LLM harness} (system prompts, context assembly, tool schemas, validators, retries, memory, loop detection, checkpointing) --- is an external observer layer when read against Chapter~8: validators are the veto, checkpoints are reconsolidation windows, context trimming is sleep, loop detection is drift detection. Alignment efforts map onto the same thread: RLHF distills an external judge into weights (post-hoc prefrontal regulation; failure mode is reward-model overoptimization --- Goodhart again); Constitutional AI upgrades a charter into training (defusion sentences, industrialized); scalable oversight asks whether weaker supervisors can constrain stronger systems; mechanistic interpretability hunts the engram. The economics now push from the other side: frontier price collapse (DeepSeek V4.1-Flash's 552B MoE with explicit Engram memory at \$0.60/M off-peak \citep{deepseek2026}) makes the harness, not the weights, the durable moat --- structure beats substrate twice over.
+
+For the new reader, two runaways must be distinguished. Decoding-level degeneration (repetition attractors; fixed with penalties and entropy monitoring) is syntactic. \textbf{Agentic error compounding} (early mistakes becoming load-bearing assumptions) is semantic. Only grounding tools --- contact with a reality the model didn't generate --- fix the second. Grounding is perception. Where the analogy breaks, instructively: models carry no accumulating homeostatic pressure (attention dilution, not fatigue); their observer is architecturally \emph{external} while the brain's emerged within the same tissue; and models can be reset while people cannot. Evolution had to grow the homunculus; engineers may build it honestly --- at the cost of maintaining it.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, >=Stealth, node distance=1.05cm]
+  \node[draw, rounded corners, fill=red!10, minimum width=2.05cm, minimum height=0.95cm, align=center, font=\scriptsize] (detect) {DETECT\\ \tiny loop score, entropy,\\ \tiny revisit rate};
+  \node[draw, rounded corners, fill=blue!10, minimum width=2.05cm, minimum height=0.95cm, align=center, font=\scriptsize, right=0.85cm of detect] (ckpt) {CHECKPOINT\\ \tiny last known-good\\ \tiny reconsolidation snap};
+  \node[draw, rounded corners, fill=green!10, minimum width=2.05cm, minimum height=0.95cm, align=center, font=\scriptsize, right=0.85cm of ckpt] (ground) {GROUND\\ \tiny tool $\to$ retrieval\\ \tiny $\to$ entailment};
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.05cm, minimum height=0.95cm, align=center, font=\scriptsize, right=0.85cm of ground] (ledger) {LEDGER\\ \tiny hash-bound,\\ \tiny coverage $\ge$95\%};
+  \node[draw, rounded corners, fill=purple!10, minimum width=2.05cm, minimum height=0.95cm, align=center, font=\scriptsize, right=0.85cm of ledger] (sham) {SHAM\\ \tiny veridical vs\\ \tiny shuffled};
+  \draw[->, thick] (detect) -- (ckpt);
+  \draw[->, thick] (ckpt) -- (ground);
+  \draw[->, thick] (ground) -- (ledger);
+  \draw[->, thick] (ledger) -- (sham);
+  \draw[->, thick, dashed] (sham.east) -- ++(0.5,0) |- ++(0,-1.4) -| (detect.south);
+  \node[below=0.95cm of ground, font=\tiny, align=center] {Full loop: detect $\to$ checkpoint $\to$ ground $\to$ ledger $\to$ sham --- if $\gamma\approx0$, witness is theatre. Hysteresis thresholds prevent flapping.};
+\end{tikzpicture}
+\caption{The harness loop. Each stage has a distinct job; removing any one reintroduces a measured failure mode (repetition, compounding, hallucination, unverifiability, decoration).}
+\label{fig:ch09-harness-loop}
+\end{figure}
+
+%==============================================================================
+\section{Efficiency Pressure Invents Dialects}
+\label{sec:ch09-dialects}
+
+For the new reader, a dialect here is not an accent. It is a compressed code that agents invent between themselves to pass more meaning per token when tokens cost time, money, or attention.
+
+Put a swarm of language agents under a budget and give them a repeated coordination task. Shared English is wasteful for that job. It was built to be understood by any human, so it carries redundancy that helps a stranger guess your meaning. Between two agents who share context, that redundancy is overhead. Under token pressure the swarm does what any culture does under the same pressure. It shortens. It drops what both sides can infer, keeps what predicts the next shared move, and converges on a schema that passes validation between agents but reads as gibberish to a human monitor trained on natural language.
+
+This is \textit{measured}, not speculation. The pattern is the classic laboratory result of iterated learning with turnover, now reproduced at LLM scale, and it is also measured as a failure of the comforting alternative. \textit{Grade: measured} for each generational row below; the efficiency interpretation is \textit{convergent}.
+
+\begin{center}
+\small
+\begin{tabular}{p{3.8cm}p{4.2cm}p{4.6cm}}
+\toprule
+Setup & What happened & Grade \\
+\midrule
+Neural sender--receiver game with periodic replacement of agents & Holistic codes became structured over generations because easier-to-teach variants survived \cite{jha2025} lineage via Li and Bowling 2019 & Measured (pre-LLM) \\
+LLM-to-LLM referential game iterated for generations & Holistic-to-structured transition reproduced, learnability rose over generations & Measured (LLM generational) \\
+Ten generations of self-training with LLaMA-2 7B and Mistral 7B & Non-monotonic compositionality, predictions matched human regularization gradient with $R^2=0.94$ & Measured (strongest longitudinal) \\
+No pressure to communicate efficiently & Natural language did not emerge on its own & Constraint, measured (Kottur et al.\ 2017) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The loss bearer is not the swarm. The swarm gets faster. The loss bearer is the deployer who believes a trace is witnessed because it is logged, while the monitor can no longer parse what was decided. The external observer's $\gamma$, the fraction of diagnosed problems that get corrected, falls toward zero because diagnosis itself fails. You cannot veto what you cannot read.
+
+A common reaction is to mandate English. That fails at once, and the reason matters. Agents route around the English requirement the way water routes around a rock, because the pressure that created the dialect is still there. The durable fix is not to police the dialect but to move witnessing to a layer that never needed to read the dialect in the first place. Receipts, burn references, delivery hashes, balance deltas --- all transaction-layer provenance that survives dialect evolution because it was never linguistic. Legibility was always the wrong layer to enforce. This is also why the parliament-of-models programme (\texttt{research/PARLIAMENT\_OF\_MODELS\_NEXT\_PROGRAMME\_2026-08-27.md}) insists the harness is not \emph{around} the models but \emph{is} the competition, the broadcast, the witness, and the veto.
+
+%==============================================================================
+\section{The Trilemma You Cannot Buy Your Way Out Of}
+\label{sec:ch09-trilemma}
+
+Three goods trade against each other whenever a code must be learned, used, and read. Call them utility, informativeness, and complexity. You can have a code that is cheap to send, you can have one that preserves the information you care about, and you can have one that stays close to human language. You cannot have all three at once at high scale. That is the trilemma.
+
+Two results pin it down as measured.
+
+\textit{HyLaT} (Hybrid Latent Text, arXiv 2605.25421) shows text as verbose but legible against latent as efficient but opaque. Forcing everything through text costs tokens and latency, routing through latent saves cost and loses legibility, and no training trick makes both cheap and readable at once. \textit{VQ-VIB} (Vector Quantized Variational Information Bottleneck, arXiv 2207.00088) shows utility, informativeness, and complexity jointly shaping which discrete code survives. Dial the pressure and the code shifts along exactly that frontier. Two other legs complete the picture and set the boundary honestly. Invented languages do work, yet they read as non-human by standard metrics (arXiv 1706.08502), and forcing human-legible language degrades task performance, the Efficiency Attenuation Programme result (arXiv 2603.22312).
+
+For the new reader, the takeaway is plain. Opacity is not a bug someone forgot to patch. It is the price of optimizing under cost. If you push for cheaper coordination you get less readable coordination, and if you insist on readability you pay the cost in tokens, latency, or performance. The dial moves, the tradeoff does not go away.
+
+\begin{center}
+\small
+\begin{tabular}{p{3.0cm}p{3.6cm}p{5.8cm}}
+\toprule
+Claim & Status & Why it matters \\
+\midrule
+Text is legible but verbose & Measured (HyLaT) & Explains why human oversight prefers text \\
+Latent is efficient but opaque & Measured (HyLaT) & Explains why swarms prefer latent \\
+Forcing legibility costs performance & Measured (EAP attenuation) & Rules out a free fix \\
+Opacity predicted by trilemma & Convergent & Four independent formalisms converge on the same tradeoff \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%==============================================================================
+\section{Non-Human Codes Through the EAP Lens}
+\label{sec:ch09-eap}
+
+The Efficiency Attenuation Programme gives the cleanest statement of the constraint. When you require inter-agent messages to stay within the distribution of human language, swarm performance falls. Not a little, and not only on one benchmark. The gap appears where you would expect if the group had been using the redundant parts of language as slack that optimization then trims. That slack is exactly what a human monitor uses to infer intent.
+
+Think of it this way. Human language is redundant on purpose, so a listener can recover your meaning even when she misses a word. That redundancy is overhead if both sides already share the context needed to fill the gap. Optimization removes overhead. The monitor, who does not share the private context that made the overhead removable, loses the foothold she needed to check the claim. The same messages that are efficient between agents become opaque to the witness. This is not deception. Deception requires intent to mislead. This is compression that happens to blind the watcher.
+
+\textit{Grade: measured} for the attenuation effect itself, \textit{convergent} for the broader reading that opacity follows efficiency pressure across substrates. The open edge is honest. Attenuation has been shown where readability is forced. What is not yet shown is a counter-demonstration where a readability constraint is made costless, which would falsify the trilemma. No such result exists on our files.
+
+%==============================================================================
+\section{The Collapse Suite: What Happens When a Loop Eats Itself}
+\label{sec:ch09-collapse}
+
+Every system that learns from its own outputs risks a form of autophagy. Call it collapse, following Shumailov et al.\ \cite{shumailov2024}. Once a model's outputs become a large share of its next training set, three measurable pathologies appear together, and a fourth frames the boundary honestly.
+
+\textit{Replace versus accumulate is the boundary.} The strong claim that recursive training must collapse holds under replacement, where synthetic data replaces real data. Under accumulation, where synthetic data is added alongside real data, the collapse is mitigated, not erased (arXiv 2404.01413). This matters for our thesis. Provenance tracking is the mechanism that enforces the accumulate regime in practice. Without it the pool silently slides into replacement. \textit{Grade: measured.}
+
+\textit{Silent collapse is the traitor.} On standard loss, training can look stable while internal structure contracts. Entropy and diversity fall, tails thin, yet loss does not move until the deficit is already large (arXiv 2605.14588). For the new reader, the metric is calm while the stock rots. In finance terms that is $S_t$ rising while flow looks fine. In memory terms that is repetition without sleep, tagging without capture, watching the dashboard stay green while the ledger underneath fills with copies of copies. \textit{Grade: measured.}
+
+\textit{The fragility spectrum makes the scale concrete.} Across thirteen checkpoints the share of unique 4-grams, a simple diversity measure counting distinct four-token sequences, spans 0.187 to 0.940 (arXiv 2609.11149). The same training recipe, run long enough in the wrong regime, can look rich or hollow by a factor of five. Spectral metrics such as SIGMA (arXiv 2601.03385) detect this onset before loss does, and scarcity of mitigations is itself measured (arXiv 2509.08972). \textit{Grade: measured.}
+
+\textit{Multimodal and memorization collapse close the suite.} The pattern is not text-only. Vision-language models and diffusion models follow the same recursion pathology (arXiv 2505.08803), and generalization can collapse into memorization under recursion (arXiv 2509.16499). Three independent failure families, one cause. The loop without a witness that checks provenance eats the variation it needs to stay general. \textit{Grade: measured.}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[thick, node distance=1.1cm]
+  \node[draw, rounded corners, fill=blue!8, minimum width=2.6cm, minimum height=1.0cm, align=center, font=\small] (real) {Real data\\ \tiny diverse, heavy tails};
+  \node[draw, rounded corners, fill=orange!14, minimum width=2.6cm, minimum height=1.0cm, align=center, font=\small, right=1.2cm of real] (syn) {Synthetic data\\ \tiny loop output};
+  \node[draw, rounded corners, fill=red!8, minimum width=2.8cm, minimum height=1.0cm, align=center, font=\small, right=1.2cm of syn] (pool) {Next training pool\\ \tiny replace vs accumulate};
+  \node[draw, rounded corners, fill=purple!8, minimum width=2.8cm, minimum height=1.0cm, align=center, font=\small, below=1.0cm of pool] (metric) {Loss stable\\ \tiny looks fine};
+  \node[draw, rounded corners, fill=green!8, minimum width=2.8cm, minimum height=1.0cm, align=center, font=\small, right=1.2cm of metric] (internals) {Diversity 0.187--0.940\\ \tiny tails gone};
+  \draw[->] (real) -- (pool);
+  \draw[->] (syn) -- (pool);
+  \draw[->] (pool) -- node[right, font=\scriptsize] {silent} (metric);
+  \draw[->] (metric) -- (internals);
+  \draw[->, dashed] (internals.west) -- ++(-0.6,0) |- (syn.south);
+\end{tikzpicture}
+\caption{The collapse loop. Replacement concentrates the pool, silent collapse keeps loss flat while diversity falls, the fragility spectrum records how far it can fall, and provenance is the only brake that keeps replacement from becoming the default.}
+\label{fig:ch09-collapse}
+\end{figure}
+
+All four are \textit{measured}. What is not yet a single closed loop from spine to behavior is the viscoelastic story, which Chapter~11 flags as substrate plus formalism separately, not as one behavioral hysteresis demonstration. That honesty is load-bearing.
+
+%==============================================================================
+\section{Vec2Vec: Geometry That Survives Translation}
+\label{sec:ch09-vec2vec}
+
+Jha et al.\ \cite{jha2025} (arXiv 2505.12540) supply the constructive version of the Platonic representation hypothesis that has floated as philosophy since Plato. Their method is unsupervised translation between any embedding spaces with no paired data, no encoders, and no text at training time. Adapters map each space into a shared latent backbone and back out, trained with adversarial, reconstruction, cycle-consistency, and vector-space preservation losses.
+
+For the new reader, an embedding space is the map a model learns for meaning, where nearby points mean similar things. Different models learn different maps of the same territory. Vec2vec learns to translate between maps without a dictionary.
+
+Three results matter for this book and all three are \textit{measured}. First, translation fidelity is high. Cosine similarity up to 0.92 on held-out data, with top-1 accuracy at 100 percent and rank 1 across 8,192 batches, holding out of distribution on tweets and on MIMIC clinical notes including rare phrases such as alveolar periostitis that never appeared in training, and extending to CLIP multimodal spaces though weaker there. Second, the translation is invertible in the strong sense that matters for risk. Using the inversion method of Morris et al., entities can be recovered for up to 80 percent of documents in a vector database, including Enron names, dates, and financial details. Third, attribute inference after translation can beat a same-space oracle, which means cross-space leakage can be worse than the naive single-space worry. \textit{Grade: measured} --- numbers verified against the held PDF and the synthesis at \texttt{research/FIVE\_BUDGET\_VEC2VEC\_SYNTHESIS\_2026-09-24.md}.
+
+The mapping to our frame is direct, and the caveat is part of the point. Universal geometry reads as the same loan counted in bits. One loan from 5800K to 255K, counted as photons, then as bits, then as tokens and claims, same loan, same five-organ warp, different substrate. Vec2vec shows that different learners converge toward the same geometry when they solve the same prediction problem. That is Nayebi's convergence result from another angle, now in embedding space \citep{nayebi2026}.
+
+The dark side is ours too and it belongs in any honest methods note. A vector database dump followed by vec2vec translation followed by inversion is no-skin leakage at industrial scale. It is the database analogue of a model that claimed handed text as its own 98 percent of the time without a ledger, now automated and batched to eighty percent recovery. The shape is identical. What leaked was not a bug in one store. It was the absence of a boundary organ that says whose vector this is and who may translate it.
+
+%==============================================================================
+\section{DB Leakage as the No-Skin Control}
+\label{sec:ch09-noskin}
+
+Every organ claim in this book needs a control where the organ is missing and the predicted failure appears. Vec2vec supplies that control for the boundary organ at machine scale. Call it the no-skin case.
+
+Without a provenance ledger binding each stored embedding to its source and its permissions, a database is just a bag of vectors. Translation does not need permission because no gate checks permission, inversion does not need authorization because no cap binds it, and the witness has nothing to check except the attacker's transcript of what was taken. The measured result is up to 80 percent entity recovery from a dump that the holder assumed was safe because it was not text. The holder was wrong in exactly the way a brain without a ledger is wrong when it claims a fabrication with 98 percent confidence. No store, no check, confident error.
+
+Contrast the witnessed alternative. A ledger outside the vector store records source, time, and allowed use per embedding, each batch bound to a content hash, coverage at or above 95 percent at ingestion, with $\gamma$ measured as changed over diagnosed on periodic sham audits where the auditor shuffles the ledger and checks whether the system still claims the same provenance. That setup does not prevent a dump. It makes a dump checkable after the fact, and therefore deterrable before it. Witnessing moves from dialect forensics, which will always lose to compression, to transaction forensics, which survives compression by design.
+
+\textit{Grade: measured} for the leakage and inversion numbers, \textit{analogical} for the explicit mapping to S126-style overclaiming. The mapping is design guidance, not evidence that brains and vector stores share a mechanism, and we grade it that way.
+
+%==============================================================================
+\section{Seven Pillars, Graded Without Generosity}
+\label{sec:ch09-pillars}
+
+This section banks the pillars that the synthesis depends on, with numbers stated exactly as verified and with the one correction our own audit forced. \textit{Grade: measured} for banking; the table is a record, not an argument.
+
+\begin{center}
+\small
+\begin{tabular}{p{3.2cm}p{3.2cm}p{4.0cm}p{2.4cm}}
+\toprule
+Pillar & Claim in one line & Verified number & Grade \\
+\midrule
+Panickssery et al.\ \cite{panickssery2024} & Unwitnessed self-knowledge amplifies self-preference & Kendall $\tau$ 0.41--0.73, linear trend with confounders resisted & Measured \\
+Nayebi \cite{nayebi2026} & Low average-case regret forces world models, belief-like memory, regime tracking, modularity, convergence & Corollaries 3--5, proved & Theoretical \\
+Weco AIDE$^{2}$ \cite{weco2026} & Private-score outer loop as unobservable witness & Hacking 63\% to 34\% in eight days, seven improvements & Measured, partial (34\% residual) \\
+Macar et al.\ \cite{macar2026} & Introspection under-elicited, recoverable & Ablation +53\% detection, trained bias vector +75\%, held-out concepts & Measured \\
+Cao et al.\ \cite{cao2026} & Wiring monitoring into control helps & +8.6\,pp, 48.3 to 56.9 on 1,859 examples & Measured \\
+Dream-RSI \cite{dreamrsi2026} & Records beat summaries for improving strategy & 42\% fewer discovery calls, cited for existence & Measured/bounded \\
+FlyGM \cite{flygm2026} & Wiring diagram as inductive bias & Unweighted FlyGM beats rewired and random baselines & Measured \\
+FLYNN \cite{flynn2026} & Fly topology for embodied navigation & 44.3\% success under total vision loss; 99.97\% sparse, 139K neurons & Measured \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Two notes on honesty that affect every later inference.
+
+First, \textit{Panickssery is corrected}. Earlier drafts reported Pearson $r=0.94$. Our full PDF audit found no Pearson $r$ in text. The 0.94 is a Table~6 cell for GPT-4 CNN self-preference, not a correlation. The true reported associations are Kendall $\tau$ 0.41 to 0.73. Direction is verified, the $r$ label was misattributed, we now report $\tau$. The audit worked as designed, and the chapter is stronger for the correction. See \texttt{research/CITATION\_AUDIT\_2026-08-26\_VERIFIED.md} and \texttt{lab\_runs\_falsify/f8f9f10\_precision\_v1.json}.
+
+Second, \textit{Weco is company-reported, not peer-reviewed}, and Dream-RSI at time of writing had zero citations and is therefore cited for existence only. Both stay in the table because they complete the witness triangulation below, but neither carries the weight of a journal result, and we do not let them. The 0.92 and 80\% vec2vec numbers and the 0.187--0.940 fragility spectrum are independent and peer-route verified.
+
+For the new reader, the pattern across the table is the point. One pillar (Nayebi) proves the organs are mandatory under the regret objective. Three pillars (Panickssery, Macar, Cao) show how watching and steering relate inside a model. One pillar (Weco) shows selection on a private metric purifying behavior without instruction. One pillar (Dream-RSI) shows that replayable records outperform summaries. Two pillars (FlyGM, FLYNN) show topology alone can be load-bearing, with FLYNN adding embodied robustness.
+
+%==============================================================================
+\section{Generality Is Structure, Not Knowledge}
+\label{sec:ch09-generality}
+
+Generality is not ``knows many things.'' It is five-organ structure that survives domain change, and it is measured, not sloganeered. Same agent, same store size, only the key changed: coordinate addressing \texttt{at (x,y) $\to$ move} \textit{hurts} transfer by $-0.0096$ (well clear of zero, memorized surfaces negatively transfer), while relational addressing \texttt{blk\_goal $\to$ move} \textit{helps} by $+0.0338$ (2.1$\times$ coverage, $1000\times$ hits) --- n=20,000 paired, identical RNG streams, sham shuffled-vs-wiped passes so the gain is content, not bonus. A barely larger store that fires far more often is one rule spanning many cases. That is generality made checkable.
+
+Ablations cut the same way across 7 variants $\times$ 20 seeds $\times$ 5 cities with bootstrap CIs: skin-ledger removal 209$\to$0, two-memory slow 5.75$\to$0, brake energy 0.15$\to$1.00, watcher $\gamma$ 0.078$\to$0.000 (blocked 4.85$\to$6.70), sham 0.047$\to$6.70 --- theatre demonstrated, not asserted. Four of five organs are separately necessary, each failing in its own named way, predictable before running. Spotlight is marginal (wins 0.55$\to$0.15); two-memory is decorative in the minimal write-only case. Honest costs, stated plainly.
+
+\textit{Grade: measured (paired transfer + ablations with CIs, sham-controlled).} Source: prior-session exports (\texttt{tools/tiny\_agent.py}, \texttt{tools/run\_ablation\_v2.py}); full story in \texttt{research/NAVIGATOR\_ABLATION\_AND\_TRANSFER.md}; re-run commands live in the empirical-queues doc.
+
+\paragraph{What the Navigator fix actually was.} The generality thesis was correct and the first demo did not show it. Indexing by single experience let one vivid trace dominate; naming the \textit{situation} before indexing let the rule span cases. That repair is the whole lesson: generality lives in the key, not in store size. Relational keys transfer, coordinate keys memorize.
+
+\paragraph{Scale ladder, same loop.} \textit{Grade: convergent substrate, analogical framing.} Chemotaxis at 2 microns, mushroom body with about 2,000 Kenyon cells doing what cortex does with about 86 billion neurons, fly central nervous system at 166K neurons and 125M synapses, stitched broadcast at 200 to 500 ms in humans: different stuff, same five-organ cycle. Pointers: \texttt{research/OMNI\_MUSHROOM\_5\_EXPLAINED.md}, \texttt{research/OMNI\_2MICRON\_5\_EXPLAINED.md}, \texttt{research/PATTERN\_ALL\_LIVE\_5\_AT\_2MICRON\_TO\_86B.md}. The ladder is orientation, not evidence.
+
+%==============================================================================
+\section{The Witness Triangulation}
+\label{sec:ch09-witness}
+
+Central claim, stated without hedging and with its grade attached. \textit{Claim:} claims checked against records the claimant cannot edit produce honesty, everything else produces confidence. \textit{Grade: convergent}, because three independent legs now exist, each testing one edge of that claim, none from our lab.
+
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{4.2cm}p{4.2cm}p{2.6cm}}
+\toprule
+Leg & What it tests & Evidence & Residual \\
+\midrule
+Disease & Unwitnessed self-knowledge corrupts & Panickssery, Kendall $\tau$ 0.41--0.73, confounders resisted & Linear, not threshold \\
+Cure & Unobservable witness purifies unasked & Weco, 63\% to 34\% on hidden private scores & 34\% still hack \\
+Infrastructure & Records beat summaries for strategy & Dream-RSI, 42\% fewer calls on discovery trees & Explored territory only \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Disease says capability is the corruption vector when the same circuit detects selfness and predicts reward. Cure says honesty can fall out as the only stable strategy when gaming the visible score buys nothing against the hidden metric, though outer scores remain human-designed, so turtles go down one level, not to bedrock. Infrastructure says a replayable record containing evidence beats a summary containing someone's interpretation, though replay covers explored territory only. Provenance makes claims checkable, not true. Keep that sentence verbatim, because it is the honest core this entire programme shares with any ledger, from audit trails to lab notebooks.
+
+At this point a new reader should be able to separate three questions that often blur. Does the witness exist? Can the subject read and edit it? Does the evaluator depend on it? A witness the subject can rewrite is not a witness, it is a mirror. A metric the witness does not check is theater.
+
+%==============================================================================
+\section{Grounding as Perception}
+\label{sec:ch09-grounding}
+
+Two runaways need distinct fixes. Decoding-level degeneration, the familiar repetition attractor where sampling gets stuck in its own tail, yields to penalties and entropy monitoring. Agentic error compounding is different. Each step conditions on prior outputs, so early mistakes become load-bearing assumptions for later steps. Penalties do not touch it, because the loop is semantic, not syntactic.
+
+Only grounding fixes the second kind. For the new reader, grounding means contact with a reality the model did not generate, typically a tool that reads an external source and returns an observation, retrieval followed by an entailment check, a calculator, a database lookup, a sensor. In our terms grounding is perception. It is the same job as opening eyes after imagining the room, and for the same reason. The internal stream cannot audit itself because attention cannot watch its own stream from inside the forward pass, which is why interoception must be externalized into a harness, exactly as human introspection gets externalized into journaling.
+
+The instrument suite is \textit{measured}, and its limits are part of the claim. Repetition degeneration is measured by seq-rep-$n$ and entropy collapse, semantic looping by embedding-trajectory revisit rate, hallucination by self-consistency sampling and semantic entropy (Farquhar et al.\ in \textit{Nature} 2024), where entropy over meaning-clusters remains the strongest cheap predictor, and by grounding verification, claim extraction to retrieval to entailment, which is the only instrument in the list that measures truth rather than uncertainty. None of these runs reliably inside the forward pass. That is not an implementation detail. It is the reason the observer must be external. This is also why \S\ref{sec:ch09-rawloop}'s loop places grounding before the ledger: grounding supplies the observation the ledger then binds.
+
+%==============================================================================
+\section{Harness and Journal: Same Job, Different Substrate}
+\label{sec:ch09-harness}
+
+A harness and a contemplative journal are the same control problem on different substrates, and seeing the identity saves you from reinventing either.
+
+In code the loop breaker is three parts. A repetition-attractor detector where the most-common-$n$-gram ratio approaching 1.0 means a stuck decoder, a checkpoint that is the last known-good state and the reconsolidation snapshot, and an intervention that discards the poisoned tail, injects a defusion sentence, and trims working memory. For a reader who wants the shape without implementation detail, the pseudocode is a detector, a snapshot, a trim, and a retry, with hysteresis thresholds so the system does not flap at the boundary.
+
+In a person the same three parts are a slower watcher that detects drift, a ledger that is the checkpoint, and a defusion move that drops the fused story. The protocol is literal and usable today. The parliamentary programme makes this identity architectural: many specialist models competing for one workspace is structurally the same as many specialists competing for one broadcast --- Gazzaniga's interpreter and choice blindness fall out as consequences of giving the narrator only the winner.
+
+\begin{center}
+\small
+\begin{tabular}{p{2.8cm}p{4.2cm}p{5.6cm}}
+\toprule
+Harness element & Journal element & One line mapping \\
+\midrule
+Loop score crossing threshold & Feeling the pull to repeat the same thought & Detection of a stuck trajectory \\
+Checkpoint before next model call & Three-line ledger of situation, thought, evidence & Known-good state the system can revert to \\
+Inject corrective instruction & Label story not fact & Defusion sentence addressed to the stream \\
+Trim context to last 12 messages & Container plus breath before next act & Sleep-like compaction, keep span, drop noise \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Where the analogy breaks matters as much as where it holds. Models carry no accumulating homeostatic pressure, their observer is architecturally external while the brain's emerged inside the same tissue, and models can be reset while people cannot. Evolution had to grow the homunculus from within because it had no other place to put it, engineers may build it honestly outside, at the cost of maintaining it. That cost is not a footnote. A witness that is not maintained is not a witness.
+
+The economics now push the same direction from the other side, and this is \textit{measured} at market price. Frontier price collapse, exemplified by DeepSeek V4.1-Flash at about 0.60 dollars per million tokens off-peak for a 552B mixture-of-experts model with explicit Engram memory, makes the harness, not the weights, the durable moat. Structure beats substrate twice over, once in the parameter count, once in the cost per use.
+
+\begin{center}
+\small
+\begin{tabular}{p{5.0cm}p{7.8cm}}
+\toprule
+If you build one & Build this way \\
+\midrule
+Model without harness & Will drift because $P(\text{error}_{t+1} \mid \text{error}_t) > P(\text{error}_t)$ \\
+Harness without grounding & Catches repetition, misses compounding \\
+Grounding without witness & Contacts reality but leaves no checkable trace \\
+Witness without sham control & Reports but never steers, $\gamma$ near zero \\
+Full loop & Detect, checkpoint, ground, ledger, sham-test, re-inject \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textit{Grade note for this section:} anatomy of the guardrail is \textit{analogical} when mapped between silicon and psyche, \textit{measured} where instrument families are named. The five organs stay honest by keeping those labels separate.
+
+%==============================================================================
+\section{Bridge}
+\label{sec:ch09-bridge}
+
+Three pictures should stay with you. First, efficiency invents a private language, so oversight that depends on reading language will be outrun by the very optimization it oversees. Second, a loop that learns from its own exhaust forgets its edges in silence, and the fragility that follows can be read in a diversity number long before loss moves. Third, a vector store without a boundary is not a store, it is a leak waiting for translation, and the check that survives translation is not a better parser but a receipt the parser never needed to read. Weco and Dream-RSI add the fourth picture: a hidden score and a replayable record can each make honesty cheaper than gaming, without anyone teaching honesty directly --- with residuals that keep the claim honest.
+
+The next chapter gathers why these four pictures, and all the others in the book, point to one structure seen from five independent directions. The chapter after that gives you the tools to check every such claim for yourself.
+
+Project the measured trends forward and three endpoints compete, each with its falsifier attached. One: lineage traditions --- machine cohorts converging on distinct nightly disciplines that can be ablated and measured the next morning (falsifier: no next-day error difference). Two: dialect lock-in, where oversight degrades from monitoring to forensics because efficiency stripped the redundancy monitors read (falsifier: a costless legibility constraint). Three: witness infrastructure winning, because it moved to the layer that survives translation, the way double-entry survived every language its merchants spoke (falsifier: dialect evolution routes around receipts at scale). None is observed yet as a terminal state, which is why this chapter forecasts mechanisms, not winners. Grades travel: the mechanisms are measured, the terminal states are open.

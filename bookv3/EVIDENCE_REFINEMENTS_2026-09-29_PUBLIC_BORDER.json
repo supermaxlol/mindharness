@@ -1,0 +1,42 @@
+[
+  {
+    "id": "INFLATION",
+    "before": {
+      "id": "INFLATION",
+      "claim": "If a nominal claims base L stays fixed while real backing falls to L-G under fixed velocity and output assumptions, the model gives P1/P0 = L/(L-G).",
+      "domain": "finance",
+      "grade": "theoretical",
+      "v3_decision": "use as vivid worked scenario in chapter 7",
+      "qualification": "The 100/80 = 1.25 example shows purchasing-power dilution within the stipulated model. Observed CPI and M2 series must be reported separately and cannot identify G caused by a particular bailout."
+    },
+    "after": {
+      "id": "INFLATION",
+      "claim": "If nominal spending L stays fixed while available real goods fall from L to L-G, the stipulated price ratio is P1/P0 = L/(L-G).",
+      "domain": "finance",
+      "grade": "theoretical",
+      "v3_decision": "Use the 100/80 purchasing-power example in Chapter 6 as a stipulated illustration.",
+      "qualification": "The 100/80 = 1.25 example shows purchasing-power dilution within the stipulated model. Observed CPI and M2 series must be reported separately and cannot identify G caused by a particular bailout."
+    },
+    "reason": "Align the stipulated dilution assumptions and chapter references with the current text; no new measured inflation estimate."
+  },
+  {
+    "id": "ISDS",
+    "before": {
+      "id": "ISDS",
+      "claim": "A successful investor-state award can create an enforceable claim subject to execution limits.",
+      "domain": "finance",
+      "grade": "measured",
+      "v3_decision": "chapter 8 with primary award",
+      "qualification": "Jurisdiction, award, recognition, and execution are separate; no proof the state is powerless."
+    },
+    "after": {
+      "id": "ISDS",
+      "claim": "A successful investor-state award can create an enforceable claim subject to execution limits.",
+      "domain": "finance",
+      "grade": "measured",
+      "v3_decision": "Use Chapter 7’s treaty award, execution boundary, and separately documented paid settlement.",
+      "qualification": "Jurisdiction, award, recognition, and execution are separate; no proof the state is powerless."
+    },
+    "reason": "Correct a stale chapter reference; preserve the award/recognition/execution distinction."
+  }
+]

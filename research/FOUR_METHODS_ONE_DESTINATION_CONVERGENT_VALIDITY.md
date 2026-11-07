@@ -200,4 +200,4 @@ The harness as the fourth method is not the most important because it is enginee
 
 *Four methods, one destination — not analogy, convergent validity. Each method could be its own paper — here together as one process. The five are not our invention. They belong to no tradition. They belong to the constraint space — and every method that looked hard enough, at any scale, found the same constraint looking back.*
 
-*2026-08-27 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed · Program: MindHarness · 78/78 green, 145 commits · Paper: 5organs (291K, 37 bib) + v3 (385K) · Research: 1,693 lines*
+*2026-08-27 · Shehzad Ahmed · Program: MindHarness · 78/78 green, 145 commits · Paper: 5organs (291K, 37 bib) + v3 (385K) · Research: 1,693 lines*

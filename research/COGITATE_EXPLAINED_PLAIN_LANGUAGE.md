@@ -69,4 +69,4 @@ For your own work, the location is useful. Cogitate says the posterior holds the
 
 ---
 
-*Generated 2026-08-30 · Program: MindHarness — How Cogitate was run, what the data showed, who it matters for, and where the field is now · Source: Cogitate consortium, Nature April 2025, 12 labs, 256 participants, 3 modalities · Author Sisyphus with Shehzad Ahmed*
+*Generated 2026-08-30 · Program: MindHarness — How Cogitate was run, what the data showed, who it matters for, and where the field is now · Source: Cogitate consortium, Nature April 2025, 12 labs, 256 participants, 3 modalities · Author Shehzad Ahmed*

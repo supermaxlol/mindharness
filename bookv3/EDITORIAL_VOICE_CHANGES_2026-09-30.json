@@ -1,0 +1,58 @@
+[
+  {
+    "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+    "prior": "development/editorial_2026-09-30_voice/00_the_pattern_that_borrows_stuff.md",
+    "prior_sha256": "012ca1848d6fcbc63c0f1e7305ba0541e6357684a225a2906525fbf32500d72c",
+    "current_sha256": "ed93381ec5ee2bdf3acd528c17d30e9fb521045a21a543f5c26703a1794ff14f",
+    "reason": "Let the definition introduce the ledger without announcing the book\u2019s protagonist."
+  },
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-30_voice/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "855bc347649d9d365fffffbbf8fff49fba312096d8a65b03b1d2b3af8bcf0d4b",
+    "current_sha256": "80563c5e8a21d1ab0480181544de30d8ac3a17fda1015d4436572d9b743df172",
+    "reason": "Begin with the familiar bicycle rather than announcing its familiarity."
+  },
+  {
+    "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+    "prior": "development/editorial_2026-09-30_voice/06_the_cost_that_would_not_stay_buried.md",
+    "prior_sha256": "d5ef643eaf370d5ae5f64e4583920cce6c2b53cd002129c89f03b726f8d1c5d7",
+    "current_sha256": "3d06362636b8b51bec7a28e8f3271f40aceffea3c85abc5d846e776b066773b2",
+    "reason": "Keep the consequence of delayed recognition; remove the writing-method label."
+  },
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-30_voice/07_the_border_that_moved.md",
+    "prior_sha256": "a7aac27209f82f3e2bb926c8cb0721984126a696bd1f079ffba23f8f74f5aae6",
+    "current_sha256": "0c3197c534d447b39acb1dd892a6c7a2442e694c799ec99d60574afc28872308",
+    "reason": "Let the contractual definition demonstrate its power directly."
+  },
+  {
+    "path": "chapters/08_the_story_you_complete.md",
+    "prior": "development/editorial_2026-09-30_voice/08_the_story_you_complete.md",
+    "prior_sha256": "3af166af74be0671104cb65a4c9de4325f21ddba111f75c1aaaffa7296e10aff",
+    "current_sha256": "e1cfcc30d1958298e1702598c91ac8f25cab5bd42485aa73001cb655d947eead",
+    "reason": "Introduce the term in the reader\u2019s argument rather than referring to production notes."
+  },
+  {
+    "path": "chapters/11_the_ledger_that_eats_its_own_records.md",
+    "prior": "development/editorial_2026-09-30_voice/11_the_ledger_that_eats_its_own_records.md",
+    "prior_sha256": "da4ebe2697f88b377701dc27f49f7e0c2e597dc2292bed656ea8ce7b98e2d65b",
+    "current_sha256": "96ff4d964d4332eafa4831fa17b238dd9e322d6de7d0f99afd839f1119a23522",
+    "reason": "Let the loan/perplexity comparison carry the connection."
+  },
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-30_voice/12_is_anyone_home.md",
+    "prior_sha256": "1fb67a09c8eca4ed999729fc8627203e0613ce599bab942cd20ed704b9bd72f3",
+    "current_sha256": "66bc8ba7de48fb22cd56d4d3838bc81911744610eb10897ae8f5786410c36d53",
+    "reason": "Begin with the person who cannot answer through the institution\u2019s format."
+  },
+  {
+    "path": "chapters/15_the_practice_of_amendment.md",
+    "prior": "development/editorial_2026-09-30_voice/15_the_practice_of_amendment.md",
+    "prior_sha256": "7eb2dc54c7ac0e46d69ef73bc672d43ea8a2fffd99f127d5787a0abce537d092",
+    "current_sha256": "962c5c8874b6b0cdd5a95e7dac7e430469f272804b7b32e15c148ced1830c0db",
+    "reason": "Let the observed substitution show why the detail matters."
+  }
+]

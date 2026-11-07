@@ -1,0 +1,2000 @@
+                                       PUBLISHED
+
+                           UNITED STATES COURT OF APPEALS
+                               FOR THE FOURTH CIRCUIT
+
+
+                                       No. 24-1493
+
+
+BESTWALL LLC, f/k/a Georgia-Pacific LLC, a Texas limited liability company and a
+North Carolina limited liability company,
+
+               Debtor – Appellee,
+
+v.
+
+THE OFFICIAL COMMITTEE OF ASBESTOS CLAIMANTS OF BESTWALL, LLC,
+
+               Creditor – Appellant.
+
+------------------------------
+
+AMERICAN ASSOCIATION FOR JUSTICE; CLAIMANTS; THE OFFICIAL
+COMMITTEE OF ASBESTOS PERSONAL INJURY CLAIMANTS IN IN RE
+ALDRICH PUMP LLC AND IN RE MURRAY BOILER LLC,
+
+               Amici Supporting Appellant.
+
+ANTHONY J. CASEY; BROOK E. GOTBERG; JOSHUA C. MACEY; JOSEPH W.
+GRIER, III, Future Asbestos Claimants Representative appointed in In re Aldrich Pump
+LLC, et al.; TRANE TECHNOLOGIES COMPANY LLC; TRANE U.S. INC.;
+CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA,
+
+               Amici Supporting Appellee.
+
+
+Appeal from the United States Bankruptcy Court for the Western District of North
+Carolina, at Charlotte. Laura Turner Beyer, Chief Bankruptcy Judge. (17-31795)
+
+
+Argued: May 8, 2025                                          Decided: August 1, 2025
+Before KING, AGEE, and QUATTLEBAUM, Circuit Judges.
+
+
+Affirmed by published opinion. Judge Quattlebaum wrote the opinion, in which Judge
+Agee joined. Judge Agee wrote a concurring opinion. Judge King wrote a dissenting
+opinion.
+
+
+ARGUED: David Charles Frederick, KELLOGG, HANSEN, TODD, FIGEL &
+FREDERICK, P.L.L.C., Washington, D.C., for Appellant. Noel John Francisco, JONES
+DAY, Washington, D.C., for Appellee. ON BRIEF: Natalie D. Ramsey, Davis Lee Wright,
+Wilmington, Delaware, Thomas J. Donlon, ROBINSON & COLE LLP, Stamford,
+Connecticut; Joshua D. Branson, Alejandra Ávila, KELLOGG, HANSEN, TODD, FIGEL
+& FREDERICK, P.L.L.C., Washington, D.C.; Mark Kutny, Robert A. Cox, Jr.,
+HAMILTON STEPHENS STEEL + MARTIN, PLLC, Charlotte, North Carolina, for
+Appellant. Gregory M. Gordon, Dallas, Texas, Jeffrey B. Ellman, Atlanta Georgia, Sarah
+Welch, Cleveland, Ohio, C. Kevin Marshall, Megan Lacy Owen, Caleb P. Redmond,
+JONES DAY, Washington, D.C.; Garland S. Cassada, Richard C. Worf, Jr., ROBINSON,
+BRADSHAW & HINSON, P.A., for Charlotte, North Carolina, for Appellee. Lori Andrus,
+President, Jeffrey R. White, AMERICAN ASSOCIATION FOR JUSTICE, Washington,
+D.C., for Amicus American Association for Justice. Jonathan Ruckdeschel, THE
+RUCKDESCHEL LAW FIRM, LLC, Ellicott City, Maryland; Clayton L. Thompson, John
+L. Steffan, MAUNE RAICHLE HARTLEY FRENCH & MUDD, LLC, New York, New
+York; Thomas W. Waldrep, Jr., Jennifer B. Lyday, Ciara L. Rogers, Chris W. Haaf, Diana
+Santos Johnson, WALDREP WALL BABCOCK & BAILEY PLLC, Winston-Salem, North
+Carolina, for Amici Claimants. Elizabeth A. Kiernan, Dallas, Texas, Jonathan C. Bond,
+David W. Casazza, Lavi M. Ben Dor, Zach Young, GIBSON, DUNN & CRUTCHER LLP,
+Washington, D.C., for Amici Professors Anthony J. Casey, Brook E. Gotberg, and Joshua
+C. Macey. Jonathan P. Guy, Debra L. Felder, Washington, D.C., Michael Rosenberg,
+Chicago, Illinois, Daniel B. Carnie, ORRICK, HERRINGTON & SUTCLIFFE LLP,
+Washington, D.C., for Amici Future Claimants’ Representative of In Re Aldrich Pump,
+LLC, et al. K. Elizabeth Sieg, J. Stephen Tagert, Richmond, Virginia, Bradley R. Kutrow,
+Charlotte, North Carolina, Jonathan Y. Ellis, MCGUIREWOODS LLP, Raleigh, North
+Carolina; Gregory J. Mascitti, Anthony Bartell, MCCARTER & ENGLISH, LLP, New
+York, New York, for Amici Trane Technologies Company LLC and Trane U.S. Inc. Robert
+E. Dunn, Campbell, California, James E. Barrett, EIMER STAHL LLP, Chicago, Illinois,
+for Amicus Chamber of Commerce of the United States of America. Kevin C. Maclay,
+Todd E. Phillips, Jeffrey A. Liesemer, CAPLIN & DRYSDALE, CHARTERED,
+Washington, D.C.; Elizabeth J. Ireland, Charlotte, North Carolina, David Neier, Carrie V.
+Hardman, WINSTON & STRAWN LLP, New York, New York, for Amicus Official
+Committee of Asbestos Personal Injury Claimants in In re Aldrich Pump LLC and In re
+Murray Boiler LLC.
+
+
+                                           2
+QUATTLEBAUM, Circuit Judge:
+
+       The question we must answer in this appeal is whether federal courts have subject-
+
+matter jurisdiction over bankruptcy cases involving solvent debtors? At least as framed
+
+here, we answer yes. We do so not because a debtor’s financial condition is irrelevant under
+
+the Bankruptcy Code. It may be relevant in a number of contexts. Instead, we answer yes
+
+because the Constitution grants Article III judicial power over all cases arising under the
+
+laws of the United States. The Bankruptcy Code is a law of the United States. So, petitions
+
+for relief under the Bankruptcy Code—even those filed by solvent debtors—arise under
+
+the laws of the United States. Thus, we affirm the bankruptcy court’s denial of the motion
+
+to dismiss for lack of subject-matter jurisdiction.
+
+                                               I.
+
+       Founded in 1927, Georgia-Pacific LLC is a multibillion-dollar corporation that
+
+operates primarily in the pulp and paper industry.1 In 1965, Georgia-Pacific bought and
+
+then merged with Bestwall Gypsum Co., which manufactured wallboard, joint compound
+
+products and industrial plasters. But with its assets came its liabilities, including the
+
+asbestos claims against it, which plagued Georgia-Pacific for decades. See In re Bestwall
+
+LLC, 605 B.R. 43, 47 (Bankr. W.D.N.C. 2019). From 2014 to 2017, for example, Bestwall
+
+paid $558 million in defense and indemnity costs for asbestos litigation.
+
+
+
+       1
+         Unsurprisingly, Georgia-Pacific’s corporate history is complicated, even before
+the events at issue in this case. But that is not relevant here. So, we do not detail that history
+and, for convenience, refer to the entity as Georgia-Pacific regardless of its specific legal
+name at the time.
+
+                                                3
+       In 2017, Bestwall faced around 64,000 pending asbestos claims, with tens of
+
+thousands more anticipated through at least 2050. So, Georgia-Pacific sought to deal with
+
+these asbestos claims through a divisional merger that has been labeled the Texas two-
+
+step—named for Texas’ Business Organizations Code § 1.002(55)(A) (the statutory vehicle
+
+for the divisional merger) and that state’s beloved country dance.2 This maneuver “splits a
+
+legal entity into two, divides its assets and liabilities between the two new entities, and
+
+terminates the original entity.” In re LTL Mgmt., LLC, 64 F.4th 84, 96 (3d Cir. 2023). The
+
+lion’s share of assets—and indeed many liabilities—go into a new company, while the
+
+asbestos liabilities fall into a separate company, whose primary purpose is to resolve the
+
+asbestos claims.3
+
+       The company holding the asbestos liabilities then files for bankruptcy. The
+
+bankruptcy court issues an injunction channeling all asbestos-related claims into a personal
+
+injury trust, known as an 11 U.S.C. § 524(g) trust. See In re Combustion Eng’g, Inc., 391
+
+F.3d 190, 234 (3d Cir. 2004), as amended (Feb. 23, 2005). This “allows a debtor to address
+
+
+       2
+          Originally dubbed the “valse a deux temps” (“waltz two times”), the Texas two-
+step mixed elements of the waltz, the Foxtrot and the polka. The popular dance style got
+its moniker in early 20th century Texas dance halls. See Scott Sosebee, Dancin’ Texas
+Style: The Origin of the Texas Two-Step, THE DAILY SENTINEL (January 18, 2025),
+https://www.dailysentinel.com/life_and_entertainment/features/dancin-texas-style-the-
+origin-of-the-texas-two-step/article_dd470e3a-d9d7-5197-9948-bb377cec79e9.html
+[https://perma.cc/HZ7M-2V4D].
+       3
+         That said, nothing inherent to the two-step requires the tort liabilities to be
+asbestos-related. See, e.g., In re Aearo Techs. LLC, No. 22-02890-JJG-11, 2023 WL
+3938436 (Bankr. S.D. Ind. June 9, 2023), appeal dismissed, No. 22-2606, 2024 WL
+5277357 (7th Cir. July 11, 2024) (using a bankruptcy maneuver closely related to the Texas
+two-step to address tort claims regarding defective earplugs).
+
+                                             4
+in one forum all potential asbestos claims against it, both current and future, as well as
+
+current and potential future claims against third parties alleged to be liable on account of
+
+asbestos claims against the debtor.” In re Bestwall LLC, 606 B.R. 243, 249 (Bankr.
+
+W.D.N.C. 2019), aff’d, No. 3:20-cv-103-RJC, 2022 WL 67469 (W.D.N.C. Jan. 6, 2022),
+
+aff’d, 71 F.4th 168 (4th Cir. 2023); see generally Michael A. Francus, Texas Two-Stepping
+
+Out of Bankruptcy, 120 MICH. L. REV. ONLINE 38 (2022).4
+
+       Implementing this strategy, on July 31, 2017, Georgia-Pacific split into two entities,
+
+which, for convenience, we will refer to as Georgia-Pacific and Bestwall.5 Georgia-Pacific
+
+received most of the $28.3 billion company. Bestwall received:
+
+       (a) three bank accounts containing approximately $32 million in cash;
+
+       (b) all contracts of the old Georgia-Pacific related to its asbestos-related
+
+       litigation;
+
+       (c) certain real estate;
+
+       (d) 100% of a separate company that manufactures and sells gypsum plaster
+
+       products. It was projected to generate cash flow of approximately $18 million
+
+       per year, and was valued at approximately $145 million in 2017; and
+
+
+       4
+         Section 524(g) asbestos trusts trace back to the Johns-Manville bankruptcy, in
+which Judge Lifland pioneered this solution to the tricky timing problem presented by the
+long latency periods of asbestos-related diseases. See In re Johns-Manville Corp., 68 B.R.
+618 (Bankr. S.D.N.Y.1986), aff’d, 78 B.R. 407 (S.D.N.Y. 1987), aff’d sub nom, Kane v.
+Johns-Manville Corp., 843 F.2d 636 (2d Cir. 1988). Congress codified the innovation by
+adding § 524(g) to the Bankruptcy Code via the Bankruptcy Reform Act of 1994, Pub. L.
+No. 103-394, § 111, 108 Stat. 4106, 4113–17.
+       5
+           The legal names of the entities are Georgia-Pacific LLC and Bestwall LLC.
+
+                                             5
+       (e) an agreement from Georgia-Pacific to pay for Bestwall’s expenses
+
+       incurred in the normal course of business; administration expenses if
+
+       Bestwall declared bankruptcy; and a § 524(g) asbestos trust in the amount
+
+       required by a confirmed reorganization plan if Bestwall couldn’t fund the
+
+       trust.
+
+       On November 2, 2017, Bestwall petitioned for relief under Chapter 11 of the
+
+Bankruptcy Code in the Western District of North Carolina. It simultaneously filed an
+
+adversary proceeding, in which it moved for an injunction prohibiting asbestos claimants
+
+from filing or prosecuting asbestos claims against Bestwall or Georgia-Pacific. See
+
+Bestwall, 606 B.R. at 246–47. The Official Committee of Asbestos Claimants—formed
+
+after Bestwall filed bankruptcy to represent the interests of individuals with personal injury
+
+claims for exposure to asbestos manufactured by Bestwall—opposed the injunction. The
+
+bankruptcy court granted Bestwall’s motion.6
+
+       The Committee also moved to dismiss the bankruptcy case, arguing it was filed in
+
+bad faith because Bestwall wasn’t really bankrupt. The same day the bankruptcy court
+
+
+
+       6
+         The Committee argued that the bankruptcy court did not have jurisdiction to issue
+an injunction prohibiting suits against Georgia-Pacific, since it did not file for bankruptcy.
+The court rejected this argument, holding it had subject-matter jurisdiction to enjoin the
+claims against Georgia-Pacific because the injunction “related to” Bestwall’s bankruptcy
+under 28 U.S.C. § 1334(b). Bestwall, 606 B.R. at 249. When the Committee appealed, the
+district court affirmed. See In re Bestwall LLC, No. 3:20-cv-103-RJC, 2022 WL 67469
+(W.D.N.C. Jan. 6, 2022). It agreed the bankruptcy court had subject-matter jurisdiction
+given its “related-to” jurisdiction over the claimants’ asbestos claims. Id. at *5. The court
+also held the bankruptcy court did not abuse its discretion in granting Bestwall’s motion
+for a preliminary injunction. Id. at *7–9. In a split decision, we affirmed. See In re Bestwall
+LLC, 71 F.4th 168 (4th Cir. 2023).
+                                              6
+granted the motion for an injunction, it denied the Committee’s motion. See In re Bestwall
+
+LLC, 605 B.R. 43, 54 (Bankr. W.D.N.C. 2019). The court held that “[a]ttempting to resolve
+
+asbestos claims through 11 U.S.C. § 524(g) is a valid reorganizational purpose, and filing
+
+for Chapter 11, especially in the context of an asbestos or mass tort case, need not be due
+
+to insolvency.”7 Id. at 49.
+
+       Several years later, the Committee moved to dismiss again, this time for lack of
+
+subject-matter jurisdiction. It is the bankruptcy court’s ruling on this motion that is
+
+currently before us. The Committee noted that the Constitution gives Congress the power
+
+to establish “uniform Laws on the subject of Bankruptcies throughout the United States.”
+
+U.S. CONST. art. I, § 8, cl. 4. The Committee then argued that Bestwall was not “bankrupt”
+
+according to a founding-era understanding of the word. For that reason, it maintained that
+
+the bankruptcy court had no legitimate subject-matter jurisdiction over Bestwall. This
+
+constitutional requirement for jurisdiction, the Committee insisted, precedes any statutory
+
+requirements for debtors.
+
+
+
+
+       7
+          The bankruptcy court noted that the “Fourth Circuit standard for dismissal of a
+Chapter 11 case as a bad faith filing is one of the most stringent articulated by the federal
+courts.” Id. at 49 (citing In re Dunes Hotel Assocs., 188 B.R. 162, 168 (Bankr. D.S.C.
+1995)). That standard permits a court to dismiss a Chapter 11 filing for bad faith only when
+the bankruptcy reorganization is both (i) objectively futile and (ii) filed in subjective bad
+faith. See Carolin Corp. v. Miller, 886 F.2d 693, 700–01 (4th Cir. 1989). The Committee
+sought leave to appeal, but the bankruptcy court denied its request. The Committee then
+moved for certification of direct appeal to the Fourth Circuit under 28 U.S.C. § 158(d)(2).
+Holding that certification would materially advance the case on a matter of public
+importance, the bankruptcy court certified the Committee’s appeal. However, we denied
+the petition. See Off. Comm. of Asbestos Claimants of Bestwall, LLC v. Bestwall LLC, No.
+19-408, 2019 WL 13512209 (4th Cir. Nov. 14, 2019).
+                                             7
+       The Committee claimed that its motion was a “new and distinct argument from any
+
+previously raised.” J.A. 1773. And since the motion attacked the court’s subject-matter
+
+jurisdiction, the court’s previous denial of its motion to dismiss for bad faith did not bar it;
+
+subject-matter jurisdiction, the Committee noted, may be challenged at any time. See Plyler
+
+v. Moore, 129 F.3d 728, 731 n.6 (4th Cir. 1997).
+
+       The bankruptcy court agreed that subject-matter jurisdiction arguments “may be
+
+resurrected at any point in the litigation.” In re Bestwall LLC, 658 B.R. 348, 361 (Bankr.
+
+W.D.N.C. 2024) (quoting Gonzalez v. Thaler, 565 U.S. 134, 141 (2012)). And it considered
+
+the Committee’s argument that the bankruptcy court lacked subject-matter jurisdiction over
+
+a solvent debtor on the merits. The bankruptcy court observed that “Congress determines
+
+subject-matter jurisdiction within any limitations imposed by the Constitution[,]” and in
+
+turn, that the “Bankruptcy Clause of the Constitution determines the limits of constitutional
+
+subject-matter jurisdiction for bankruptcy.” Id. at 362. But because the history of
+
+bankruptcy legislation has been one of liberalizing bankruptcy access, and Congress enjoys
+
+substantial deference in defining bankruptcy, the bankruptcy court ultimately rejected the
+
+Committee’s argument that Congress cannot open bankruptcy to debtors who aren’t in
+
+financial distress.8 Therefore, it denied the Committee’s motion.
+
+       When the Committee again moved for certification for direct appeal to us under 28
+
+U.S.C. § 158(d)(2), the bankruptcy court once again granted it. This time, we granted the
+
+petition.
+
+
+       8
+        The Committee proffers a vague concept of “financial distress” but never defines
+the term. Neither does the Constitution, the Bankruptcy Code or any court.
+                                               8
+                                              II.
+
+       At the outset, we clarify what this appeal is and is not about. This appeal is not about
+
+the validity of the controversial Texas two-step maneuver. The Committee acknowledged
+
+this at oral argument, agreeing that its view of jurisdiction would affect all debtors, not just
+
+those who recently performed a divisional merger. See Bestwall LLC v. The Off. Comm. of
+
+Asbestos Claimants of Bestwall, LLC, No. 24-1493, Oral Arg. at 16:00–16:20 (4th Cir. Mar.
+
+8, 2025). Nor is it about whether a debtor’s ability to pay its debts is relevant in a
+
+bankruptcy case. That issue was considered in the Committee’s motion to dismiss for bad
+
+faith and may come up at future junctures—at plan confirmation, for example. Instead, we
+
+face a narrow question—do federal courts have subject-matter jurisdiction over bankruptcy
+
+cases filed by debtors who may be able to pay their obligations?9
+
+       To answer this question, we start with the basics. The Constitution grants Article III
+
+judicial power over all cases arising under the laws of the United States. See Royal Canin
+
+U. S. A., Inc. v. Wullschleger, 604 U.S. 22, 26 (2025) (“‘Arising under’ jurisdiction—more
+
+often known as federal-question jurisdiction—enables federal courts to decide cases
+
+founded on federal law.”). The Bankruptcy Code is a law of the United States. Bestwall
+
+petitioned to reorganize under Chapter 11 of the Code. So, that petition is a case arising
+
+under the laws of the United States. Seems straightforward.
+
+
+
+       9
+        We review such questions de novo. See Capitol Broad. Co. v. City of Raleigh,
+N.C., 104 F.4th 536, 539 (4th Cir. 2024). We review the bankruptcy court’s legal
+conclusions de novo and its factual findings for clear error. See In re White, 487 F.3d 199,
+204 (4th Cir. 2007).
+
+                                               9
+       The Committee insists it’s not that simple. It claims, correctly, that Congress only
+
+has the power to enact laws pertaining to bankruptcy that the Constitution grants. And
+
+though it acknowledges Article I, Section 8 authorizes Congress to “establish . . . uniform
+
+Laws on the subject of Bankruptcies throughout the United States,” the Committee
+
+maintains the meaning of “bankruptcy” at the founding did not include those able to pay
+
+their debts. Any law that permits a company that could pay its debts to seek bankruptcy
+
+protection, according to the Committee, cannot confer “constitutional subject matter
+
+jurisdiction.”10 Committee Br. at 16 (quoting In re Bestwall, 658 B.R. at 362).
+
+       But that phrase sounds an awful lot like a standing challenge. Indeed, all the cases
+
+we have located that use that phrase use it as a synonym for Article III standing. See, e.g.,
+
+Norfolk S. Ry. Co. v. Guthrie, 233 F.3d 532, 534 (7th Cir. 2000) (“NS argues that its
+
+complaint against Lakin and Snyder presents a case or controversy and thus should not
+
+
+
+       10
+          Strictly speaking, the question isn’t whether the bankruptcy court had subject-
+matter jurisdiction; it’s whether the district court that referred the case to the bankruptcy
+court had subject-matter jurisdiction. As we have said, “since bankruptcy courts are not
+Article III courts, they do not wield the United States’s judicial Power.” Kiviti v. Bhatt, 80
+F.4th 520, 532 (4th Cir. 2023). Accordingly, bankruptcy courts are not subject to Article III
+limitations. We held in Kiviti that bankruptcy courts can adjudicate cases that would be
+moot if they were heard by an Article III court. See id. By the same token, bankruptcy
+courts could, in theory, adjudicate cases that would lack subject-matter jurisdiction if they
+were heard by an Article III court. “Once a case is validly referred to the bankruptcy court,
+the Constitution does not require it be an Article III case or controversy for the bankruptcy
+court to act.” Id. at 533. Granted, a bankruptcy case must satisfy Article III requirements
+at the bookends of the case’s life. So, before a district court refers a bankruptcy case to a
+bankruptcy court, “a bankruptcy case must—at the start—be within the judicial Power.”
+Id. at 532. For the same reason, “[s]o too must Article III be satisfied after the bankruptcy
+court acts and the case is returned to the district court[.]” Id. at 533. None of this changes
+the question before us. This point is only one of technical precision; the basic question
+presented of whether subject-matter jurisdiction exists remains just as pressing.
+                                             10
+have been dismissed for lack of constitutional subject-matter jurisdiction.”); United States
+
+v. Hahn, 359 F.3d 1315, 1322–24 (10th Cir. 2004) (analyzing the existence of an Article III
+
+case or controversy for purposes of “constitutional subject matter jurisdiction”); Umanzor
+
+v. Lambert, 782 F.2d 1299, 1301 n.2 (5th Cir. 1986) (“Whether there exists an Article III
+
+case or controversy, and thus Constitutional subject-matter jurisdiction, is analytically
+
+distinct from whether a habeas corpus statute] confer[s] statutory subject-matter
+
+jurisdiction”). Yet the Committee does not argue that Bestwall’s restructuring doesn’t
+
+satisfy Article III’s standing requirements.
+
+       What the Committee’s argument really does is convert a challenge to the Bankruptcy
+
+Code’s constitutionality into a jurisdictional question. But that can’t be right. Following
+
+the Committee’s logic, challenges to Congress’s Commerce Clause power ought to be
+
+about jurisdiction too. But they aren’t. Consider United States v. Lopez, 514 U.S. 549
+
+(1995). There, the Supreme Court struck down a criminal conviction for violating 18
+
+U.S.C. § 922(q)(1)(A), which criminalized possessing a gun in school zones. Id. at 551.
+
+The Court held that Congress lacked authority under the Commerce Clause to make such
+
+laws. Id. at 567–68. But not because the district court had no subject-matter jurisdiction
+
+over the case. Instead, the Court affirmed the Fifth Circuit’s decision that “reversed
+
+respondent’s conviction.” Id. at 552. If Congress’ lack of constitutional authority stripped
+
+subject-matter jurisdiction, the Court would have said so. See Vt. Agency of Nat. Res. v.
+
+U.S. ex rel. Stevens, 529 U.S. 765, 778 n.8 (2000) (explaining “the validity of qui tam suits
+
+under [Article II is not] a jurisdictional issue that we must resolve here”); see also City of
+
+Boerne v. Flores, 521 U.S. 507, 512 (1997) (saying nothing about jurisdiction and merely
+
+                                               11
+reversing the Fifth Circuit after holding that RFRA “exceeded the scope of [Congress’]
+
+enforcement power under § 5 of the Fourteenth Amendment”). Plainly, federal courts have
+
+subject-matter jurisdiction over constitutional challenges to Congressional enactments.
+
+       This is not to say bankruptcy courts are immune to questions of subject-matter
+
+jurisdiction. But that jurisdiction is determined by statute. 28 U.S.C. § 1334 vests district
+
+courts with “original and exclusive jurisdiction of all cases under title 11 . . . or arising in
+
+or related to cases under title 11.” 28 U.S.C. § 1334(a)–(b). “Whether a bankruptcy court
+
+may exercise subject-matter jurisdiction over a proceeding is determined by reference to
+
+28 U.S.C. § 1334.” Valley Historic Ltd. P’ship v. Bank of N.Y., 486 F.3d 831, 839 n.3 (4th
+
+Cir. 2007); see In re Kirkland, 600 F.3d 310, 315 (4th Cir. 2010) (“[S]ubject matter
+
+jurisdiction is determined by § 1334.”). “Only Congress may determine a lower federal
+
+court’s subject-matter jurisdiction.” Kontrick v. Ryan, 540 U.S. 443, 452 (2004).11
+
+       Granted, § 1334 must remain within constitutional limits. See Kline v. Burke Constr.
+
+Co., 260 U.S. 226, 234 (1922) (holding Congress “may give, withhold or restrict such
+
+
+
+       11
+          Relatedly, 28 U.S.C. § 157 permits district courts to channel that jurisdiction to
+bankruptcy courts. “Each district court may provide that any or all cases under title 11 and
+any or all proceedings arising under title 11 or arising in or related to a case under title 11
+shall be referred to the bankruptcy judges for the district.” 28 U.S.C. § 157(a). This raises
+an interesting delegation issue—can Article III power be delegated by Article III courts
+(United States District Courts) to non-Article III courts (Bankruptcy Courts)? But that
+thorny issue is not before us, so we need not delve into it. See generally Kevin H. Kim, A
+Constitutional Tango of Judicial Interpretation: The Instability of Bankruptcy Court
+Authority under Article III, 34 EMORY BANKR. DEV. J. 561 (2018); Troy A. McKenzie,
+Judicial Independence, Autonomy, and the Bankruptcy Courts, 62 STAN. L. REV. 747
+(2010); Anthony J. Casey & Aziz Z. Huq, The Article III Problem in Bankruptcy, 82 U.
+CHI. L. REV. 1155 (2015).
+
+                                              12
+jurisdiction at its discretion, provided it be not extended beyond the boundaries fixed by
+
+the Constitution”); Kiviti, 80 F.4th at 533 (“Bankruptcy courts, as statutory creatures, have
+
+whatever power Congress lawfully gives them.” (emphasis added)). So, a party like the
+
+Committee can certainly argue that Congress exceeded its powers in giving the bankruptcy
+
+court jurisdiction over a company that can pay its debts. But that question really is about
+
+Congress’s power under Article I of the Constitution to make parties eligible for bankruptcy
+
+protection.12 It’s not a question of subject-matter jurisdiction.
+
+       Indeed, no court has ever adopted the Committee’s view. As the bankruptcy court
+
+pointed out, “[t]here are simply no cases at any level (of which this court is aware) that
+
+explicitly endorse the proposition that bankruptcy courts do not have subject-matter
+
+jurisdiction unless a debtor has a sufficient degree of financial distress.” Bestwall, 658 B.R.
+
+at 371. Even the In re LTL Management court didn’t decide the case on subject-matter
+
+jurisdiction grounds. See 64 F.4th 84 (3d Cir. 2023). There, the Third Circuit determined
+
+that LTL—the company formed to own and resolve Johnson & Johnson’s talc liabilities—
+
+was not in financial distress. See id. at 106–10. So, it dismissed LTL’s bankruptcy petition
+
+as a bad faith filing. See id. at 110. Importantly, the court determined that it had jurisdiction
+
+of the appeal under 28 U.S.C. § 158(d)(2)(A) and that the bankruptcy court had jurisdiction
+
+
+
+
+       12
+          The parties here advance policy reasons for and against the idea that only
+insolvent debtors should file for bankruptcy protection. But those arguments are best left
+for Congress. We traffic in law, not policy.
+
+                                               13
+under § 157(a) and § 1334(a). See id. at 99. It said nothing about the Constitution or its
+
+bearing on subject-matter jurisdiction over bankruptcies.13
+
+       Perhaps the Committee’s best authority is Reid v. Covert, 354 U.S. 1 (1957). There,
+
+the Supreme Court held that wives of military members could not be court-martialed but
+
+were instead entitled to regular civilian criminal jury trials. Id. at 18–19. It analyzed Article
+
+2(11) of the Uniform Code of Military Justice, which lists whom the Code covers. Id. at
+
+16. The Court determined that the Fifth and Sixth Amendments require criminal
+
+prosecutions to proceed in regular civilian jury trials, except for the “very limited and
+
+extraordinary jurisdiction” of military tribunals. Id. at 21. Thus, the Court held that the
+
+court-martial had no jurisdiction over civilians. Id. at 39–40.
+
+       But Reid never used the phrase “subject-matter jurisdiction.” Indeed, the opinion
+
+seems to instead be concerned with personal jurisdiction. Perhaps Reid is a vestige of an
+
+
+       13
+           Relatedly, at least five other circuits have rejected the argument that a debtor’s
+ineligibility for bankruptcy is jurisdictional, and no court has ever accepted it. In In re
+Zarnel, 619 F.3d 156, 158 (2d Cir. 2010), the Second Circuit addressed whether a debtor
+who doesn’t satisfy credit counseling requirements per 11 U.S.C. § 109(h) can commence
+a bankruptcy proceeding. The court held that “the restrictions of § 301 and § 109(h) are not
+jurisdictional, but rather elements that must be established to sustain a voluntary
+bankruptcy proceeding.” Id. at 169. According to the court, “[r]estricting whether an
+individual may be a debtor either under the Bankruptcy Code in general or under a given
+chapter does not speak in jurisdictional terms or invoke the jurisdiction of the district court,
+delineated in 28 U.S.C. § 1344.” Id.; see also In re Trusted Net Media Holdings, LLC, 550
+F.3d 1035, 1046 (11th Cir. 2008) (en banc) (holding that the Bankruptcy Code’s sections
+on involuntary cases do not implicate subject-matter jurisdiction); In re McCloy, 296 F.3d
+370, 375 (5th Cir. 2002) (debtor eligibility under §§ 109(g) and 303(a) & (h) is not
+jurisdictional); In re Marlar, 432 F.3d 813, 815 (8th Cir. 2005) (failing to satisfy § 303(a)
+does not strip the court of subject-matter jurisdiction); In re Hamilton Creek Metro. Dist.,
+143 F.3d 1381, 1385 n.2 (10th Cir. 1998) (“[N]one of the § 109(c) criteria is jurisdictional
+in nature.”).
+
+                                               14
+era in which jurisdictional arguments and phrases were used more liberally than they are
+
+today. Since then, the Supreme Court has warned against the overuse of jurisdictional
+
+labels. “Because the consequences that attach to the jurisdictional label may be so drastic,
+
+we have tried in recent cases to bring some discipline to the use of this term.” Henderson
+
+ex rel. Henderson v. Shinseki, 562 U.S. 428, 435 (2011); see Sebelius v. Auburn Reg’l Med.
+
+Ctr., 568 U.S. 145, 153 (2013) (“Tardy jurisdictional objections can [] result in a waste of
+
+adjudicatory resources and can disturbingly disarm litigants.”); see also Lexmark Int’l, Inc.
+
+v. Static Control Components, Inc., 572 U.S. 118, 125–27 (2014) (repudiating the
+
+“prudential standing” doctrine as a misnomer that has nothing to do with Article III
+
+standing). What Reid really seems to concern itself with is violations of the Fifth and Sixth
+
+Amendments.14 See 354 U.S. at 19. It therefore shines little light on this appeal.
+
+       Our colleague in dissent writes passionately about his disagreement with the Texas
+
+two-step bankruptcy maneuver, citing his views on both policy and law. In fact, he insists
+
+we approve that maneuver in this opinion. But while his arguments address the merits of
+
+
+
+
+       14
+           To be sure, the Committee raises Seventh Amendment challenges to the use of a
+§ 524(g) trust. Bestwall responds that, under the Bankruptcy Code, a plan with a § 524(g)
+trust must be approved by 75% of the asbestos claimants. 11 U.S.C.
+§ 524(g)(2)(B)(ii)((IV)(bb). It also points out that, under the Code, any personal injury
+claimant can opt out and pursue his claim outside of bankruptcy. 28 U.S.C. § 157(b)(5)
+(“The district court shall order that personal injury tort and wrongful death claims shall be
+tried in the district court in which the bankruptcy case is pending.”); 28 U.S.C. § 1411(a)
+(“[T]his chapter and title 11 do not affect any right to trial by jury that an individual has
+under applicable nonbankruptcy law with regard to a personal injury or wrongful death tort
+claim.”). This opinion should not be construed to resolve this question. Rather, this opinion
+merely explains that question is not one of subject-matter jurisdiction.
+
+                                             15
+whether solvent debtors may seek bankruptcy protection, ours do not. And while ours
+
+address subject-matter jurisdiction, his do not.
+
+       The Committee has already had an opportunity to argue that solvent debtors are not
+
+entitled to bankruptcy protection. It lost that argument before the bankruptcy court. The
+
+Committee may have another chance to renew that argument—at plan confirmation. If it
+
+doesn’t like the result, it will then have a final order to appeal. But as we have explained,
+
+challenges about a debtor’s eligibility for bankruptcy protection are not jurisdictional, even
+
+when those challenges are constitutional. For that reason, now is not the time for these
+
+arguments. We repeat that this appeal presents only one narrow question—do federal courts
+
+have subject-matter jurisdiction over bankruptcy cases filed by debtors who may be able
+
+to pay their obligations? We have answered yes.
+
+                                             III.
+
+       For all these reasons, the opinion of the bankruptcy court is,
+
+                                                                                AFFIRMED.
+
+
+
+
+                                             16
+AGEE, Circuit Judge, concurring:
+
+       I am pleased to concur fully in Judge Quattlebaum’s opinion. I write separately to
+
+outline some of the errors in the dissent’s discussion of bankruptcy precedent and the
+
+ramifications of its conclusion.
+
+       At the outset, I completely agree with Judge Quattlebaum’s conclusion that this case
+
+is not “about whether a debtor’s ability to pay its debts is relevant in a bankruptcy case,”
+
+but rather whether “federal courts have subject-matter jurisdiction over bankruptcy cases
+
+filed by debtors who may be able to pay their obligations?” Maj. Op. at 9. Our friend in
+
+dissent views it differently, asserting that the majority’s decision to rely on Section 1334 is
+
+an attempt to “sidestep th[e] constitutional issue,” i.e., whether Congress exceeded its
+
+authority under the Bankruptcy Clause in crafting Section 1334. Diss. Op. at 30. As Judge
+
+Quattlebaum correctly explains, “that question really is about Congress’s power under
+
+Article I of the Constitution to make parties eligible for bankruptcy protection,” which is
+
+“not a question of subject-matter jurisdiction.” Maj. Op. at 13. The dissent’s view, however,
+
+goes beyond being an outlier and is based on neither historical fact nor precedent.
+
+       Our colleague in dissent argues that the majority fails to view “the meaning of the
+
+Framers’ words . . . against the backdrop of history and tradition.” Diss. Op. at 44. But the
+
+dissent’s selective focus on out-of-context English and Colonial bankruptcy law is simply
+
+misplaced. The Supreme Court unequivocally explained nearly a century ago “that the
+
+power of Congress under the [B]ankruptcy [C]lause is not to be limited by the English or
+
+Colonial law in force when the Constitution was adopted.” Cont’l Ill. Nat. Bank & Tr. Co.
+
+of Chi. v. Chi., Rock Island & P. Ry. Co., 294 U.S. 648, 669 (1935). Instead, the Court
+
+                                              17
+instructed that “the most satisfactory approach to the problem of interpretation . . . is to
+
+examine it in the light of the acts, and the history of the acts, of Congress which have from
+
+time to time been passed on the subject; for, like many other provisions of the Constitution,
+
+the nature of this power and the extent of it can best be fixed by the gradual process of
+
+historical and judicial inclusion and exclusion.” Id. at 670 (cleaned up).
+
+       Through the Supreme Court’s lens, the Official Committee of Asbestos Claimants’
+
+(“the Committee”) read of the Bankruptcy Clause is not tenable. “From the beginning, the
+
+tendency of legislation and of judicial interpretation has been uniformly in the direction of
+
+progressive liberalization in respect of the operation of the bankruptcy power.” Id. at 668.
+
+And directly to the point, the Supreme Court has recognized that “[t]he subject of
+
+bankruptcies is incapable of final definition. The concept changes.” Wright v. Union Cent.
+
+Life Ins. Co., 304 U.S. 502, 513 (1938). More recently, the Supreme Court reiterated that
+
+bankruptcy is difficult to define and includes “nothing less than ‘the subject of the relations
+
+between [a] debtor and his creditors.’” Siegel v. Fitzgerald, 596 U.S. 464, 473–74 (2022)
+
+(quoting Wright, 304 U.S. at 513–14). Further, “[w]ithout purporting to define the full
+
+scope of the Clause,” the Supreme Court “has interpreted the Clause to have granted
+
+plenary power to Congress over the whole subject of bankruptcies, and observed that the
+
+language used did not limit the scope of Congress’ authority.” Id. (cleaned up). So, the
+
+defining feature of “the subject of Bankruptcies” is its breadth. Against this backdrop, the
+
+dissent’s myopic view of “the subject of Bankruptcies” is unsupported.
+
+       And even if we were to look to English and Colonial-era bankruptcy laws, we find
+
+little support for the dissent’s construct. Under 18th-century “English law . . . it mattered
+
+                                              18
+not whether the defendant was insolvent or otherwise” because involuntary proceedings
+
+were common and initiated by a creditor. In re Klein, 42 U.S. 277, 277 (1843); cf. Thomas
+
+E. Plank, Bankruptcy & Federalism, 71 Fordham L. Rev. 1063, 1094 (2002) (explaining
+
+that insolvency “was not always a direct condition to relief under . . . eighteenth-century
+
+bankruptcy legislation”). And at the dawn of our nation, “the American Colonies, and later
+
+the several States, had wildly divergent schemes for discharging debtors and their debts.”
+
+Cent. Va. Cmty. Coll. v. Katz, 546 U.S. 356, 365 (2006). Nor does the Constitutional
+
+Convention provide any basis for the dissent’s interpretation of the Bankruptcy Clause; the
+
+“Convention adopted the [Bankruptcy Clause] with very little debate,” and Roger Sherman
+
+of Connecticut alone voted against it, “apparently because he was concerned that it would
+
+authorize Congress to impose upon American citizens the ultimate penalty for debt then in
+
+effect in England: death.” Id. at 369. In sum, the “gradual process of historical and judicial
+
+inclusion and exclusion,” which is our touchstone in this inquiry, plainly demonstrates that
+
+the Bankruptcy Clause was never intended to be restricted to those that are “actually
+
+bankrupt,” whatever that undefined term purportedly means. Cont. Ill. Nat’l Bank, 94 U.S.
+
+at 670.
+
+          This highlights a significant concern with the dissent’s conclusion because no one
+
+knows, including the dissent, what it means to be “actually bankrupt.” As for the
+
+Committee, it fails to advance any concrete theory of the financial standard ostensibly
+
+required for debtors to be permitted to initiate a bankruptcy proceeding under its read of
+
+the Bankruptcy Clause. Throughout its briefing, the Committee uses constantly shifting
+
+terms to define a debtor who is not “actually bankrupt,” none of which would enable
+
+                                              19
+bankruptcy courts to adjudicate such a debtor with any specificity. See Opening Br. 17
+
+(limiting it to debtors who “struggled to pay their debts”), 21 (“utterly incapable of
+
+repaying their debts”), 22 (“debtors who demonstrated an inability or . . . an unwillingness
+
+to repay their creditors”). Tellingly, it (and the dissent) rejects the one standard that is
+
+already well-known in bankruptcy law to gauge indebtedness: insolvency. Id. at 39. As the
+
+bankruptcy court below aptly pointed out, without “insolvency” as a touchstone,
+
+“determining whether a debtor is in financial distress would not be easy,” and such a
+
+restrictive jurisdictional limitation is at odds with Congress’s “policy decision to allow
+
+liberal access and encourage early filing” of bankruptcy petitions. In re Bestwall LLC, 658
+
+B.R. 348, 376, 376–77 (Bankr. W.D.N.C. 2024).
+
+       No matter, according to the dissent. In its view, the definition is obvious; “debtors
+
+who [are] truly bankrupt” are “those unable or unwilling to pay their debts.” Diss. Op. at
+
+25. And yet the dissent fails to identify any historical precedent that—as a jurisdictional
+
+matter, lest we forget the question presented—applies to support its position. One would
+
+think in the 235 years of judicial precedent since the Founding there would be at least one
+
+case supporting the dissent’s vague view; but there are none.1
+
+       Finally, the dissent attempts to differentiate Bestwall’s bankruptcy proceeding from
+
+those it would deem appropriate for bankruptcy courts to hear. But the reality is that there
+
+are innumerable bankruptcy proceedings initiated by debtors who may not be “actually
+
+
+       1
+         It bears repeating that the bankruptcy court already considered and denied the
+Committee’s motion to dismiss for bad faith on the merits. See In re Bestwall LLC, 605
+B.R. 43, 54 (Bankr. W.D.N.C. 2019).
+
+                                            20
+bankrupt” under either the Committee’s or the dissent’s wide-ranging and ill-supported
+
+interpretations of the phrase.
+
+       First, based on the aforementioned discretion conferred through the Bankruptcy
+
+Clause, Congress has created various statutory bankruptcy schemes. While Chapter 9
+
+bankruptcy requires insolvency, neither Chapter 7, Chapter 11, nor Chapter 13 includes
+
+such a requirement. See 11 U.S.C. § 109. Since 2020, over one million Chapter 11 and
+
+Chapter 13 bankruptcy cases have been filed. United States Courts, Bankruptcy Statistics
+
+Data         Visualizations,        https://www.uscourts.gov/data-news/reports/statistical-
+
+reports/bankruptcy-filing-statistics/bankruptcy-statistics-data-visualizations
+
+[https://perma.cc/8XL9-2L7D] (last visited July 23, 2025). Under the dissent’s view, all of
+
+these would be unconstitutional and therefore void. Only the Chapter 9 proceedings for
+
+municipal bankruptcies would be constitutionally permissible. And Chapter 9 was only
+
+added to the Bankruptcy Code in 1978. Since 2020, only twenty-two Chapter 9
+
+proceedings have been initiated. Id. Apparently these are the only bankruptcy proceedings
+
+that the dissent would deem constitutionally valid. Bankruptcy Reform Act of 1978, Pub.
+
+L. No. 95–598, § 201(a), 92 Stat. 2549, 2557 (1978) (codified as 28 U.S.C. §
+
+151), amended by Bankruptcy Amendments and Federal Judgeship Act of 1984, Pub. L.
+
+No. 98–353, 98 Stat. 333 (1984) (current version at 28 U.S.C. § 151).
+
+       Second, in recent decades, many manufacturers of asbestos-containing products
+
+have faced overwhelming asbestos liability. In fact, by 1988, the problem was so
+
+widespread that Congress “allow[ed] a Chapter 11 debtor with substantial asbestos-related
+
+liability to establish and fund a trust that assumes the debtor’s liability for ‘damages
+
+                                             21
+allegedly caused by the presence of, or exposure to, asbestos or asbestos-containing
+
+products.’” Truck Ins. Exch. v. Kaiser Gypsum Co., 602 U.S. 268, 273 (2024) (quoting 11
+
+U.S.C. § 524(g)(2)(B)(i)(I)). By 2011, sixty § 524(g) trusts had been established, paying
+
+about 3.3 million claims valued at a total of approximately $17.5 billion. U.S. Gov’t
+
+Accountability Off., GAO-11-819, Asbestos Injury Compensation: The Role and
+
+Administration of Asbestos Trusts (2011). Since then, at least one more § 524(g) trust has
+
+been created: Bestwall’s trust. Therefore, it is not accurate to characterize “Bestwall’s
+
+bankruptcy filing [as] not at all typical.” Diss. Op. at 28. In fact, it is akin to at least sixty
+
+other bankruptcy filings that resulted in § 524(g) trusts—which placed billions of dollars
+
+in the pockets of aggrieved plaintiffs. None of these cases have been challenged based on
+
+the dissent’s newly-minted view, but all would be void under the dissent’s construct and
+
+§ 524(g) void ab initio.
+
+       The dissent simply disagrees with what has colloquially become known as the Texas
+
+Two-Step, which it characterizes as “a corporate sleight-of-hand maneuver.” Diss. Op. at
+
+24. Whatever the merits of that policy viewpoint, that is a matter within the province of the
+
+Congress, not the judiciary. Regardless, the Texas Two-Step’s validity is irrelevant in
+
+evaluating whether federal courts have subject-matter jurisdiction over bankruptcy cases
+
+filed by debtors who may be able to pay their obligations. And, for the reasons ably
+
+explained by Judge Quattlebaum, the answer to that question is “no.” I therefore fully
+
+concur in the majority opinion.2
+
+
+       2
+        The dissent also chastises Bestwall for having filed a § 524(g) Chapter 11
+proceeding and claims it has placed thousands of claimants at risk. Perhaps so. But in the
+                                               22
+eight years this case has been pending, it is the Committee that has filed multiple challenges
+that have impeded progression to a plan and confirmation hearing. Namely, it has moved
+to dismiss the case as a bad faith filing under 11 U.S.C. § 1112(b) or, in the alternative, to
+transfer venue of the case to Delaware, which the bankruptcy court denied in full. And
+now—in the eleventh hour—the Committee moves to dismiss for lack of subject-matter
+jurisdiction. That begs the question, as we previously noted in In re Bestwall LLC, as to
+whether the delay relates to valid claims or the desire for perceived higher attorneys’ fees
+should the claims be removed and be adjudicated outside of bankruptcy? 71 F.4th 168, 184
+(4th Cir. 2023). Perhaps future review will answer that question.
+
+                                             23
+KING, Circuit Judge, dissenting:
+
+       I respectfully dissent.    Today, the majority approves a legal maneuver that
+
+fundamentally departs from the central purpose of our Nation’s bankruptcy system, which
+
+has long been to provide a “fresh start” to the “honest but unfortunate debtor.” See Grogan
+
+v. Garner, 498 U.S. 279, 286-87 (1991). Bestwall LLC — an entity manufactured in a
+
+corporate boardroom, rather than amid a genuine financial crisis — is no such debtor. It
+
+has access to billions of dollars in funding, and it has conceded on the record that it can
+
+satisfy all of its obligations in full. Yet it remains immune to tort liability while those
+
+harmed by its predecessor, Georgia-Pacific, must wait — some quite literally on borrowed
+
+time — for their tort claims to be heard and resolved.
+
+       Bestwall entered bankruptcy not because it was financially distressed, but because
+
+its parent corporation, Georgia-Pacific, sought to evade tort liability for harm caused by
+
+decades of manufacturing and selling dangerous products containing asbestos. Through a
+
+corporate sleight-of-hand maneuver known as the “Texas Two-Step,” Georgia-Pacific
+
+restructured itself to isolate its asbestos liabilities into a newly created entity, Bestwall
+
+LLC. It then used that shell entity to file for Chapter 11 bankruptcy. As a result of
+
+Bestwall’s bankruptcy proceedings, thousands of pending tort lawsuits, pursued by
+
+individuals dying from mesothelioma and other fatal diseases caused by its own products,
+
+have been halted. In effect, a financially healthy company has placed its tort liabilities to
+
+thousands of workers behind a wall of bankruptcy protection, without itself undergoing the
+
+scrutiny, transparency, or risk that bankruptcy typically entails.
+
+
+
+                                             24
+       Bestwall’s entry into Chapter 11 was a strategic decision by lawyers and executives,
+
+designed to pause active tort litigation, consolidate those claims in a single forum, and
+
+extract favorable settlement terms from asbestos victims through delay. This is a far cry
+
+from the bankruptcy system that the Founders envisioned when they constitutionally
+
+authorized Congress to create “uniform Laws on the subject of Bankruptcies.” See U.S.
+
+Const. art. I, § 8, cl. 4. At the time of the Founding, the protections of bankruptcy were
+
+available only to debtors who were truly bankrupt — that is, those unable or unwilling to
+
+pay their debts. Bankruptcy was meant to provide an orderly process for resolving financial
+
+distress, not a legal shield for solvent corporations seeking to escape liability. It was not
+
+meant to extend the protections of bankruptcy to profitable entities facing mass liability for
+
+tort claims. Indeed, nothing in the Constitution permits Congress, or the federal courts, to
+
+allow a bankruptcy to be wielded as a strategic weapon by the powerful to avoid
+
+accountability to the harmed, as Bestwall and Georgia-Pacific have done here.
+
+       I cannot join the majority in allowing this result. I would instead hold that the
+
+bankruptcy court lacked subject-matter jurisdiction to entertain Bestwall’s bankruptcy
+
+petition, and would reverse its denial of the Committee’s motion to dismiss. Anything less
+
+fails the thousands of asbestos victims whose claims remain frozen while the entity that
+
+should be responsible for their injuries continues to operate unencumbered.
+
+
+
+                                              I.
+
+       The majority opinion has recited the lengthy history of Georgia-Pacific’s various
+
+corporate maneuvers designed to insulate itself from serious tort liability. It is crucial,
+
+                                             25
+however, to emphasize the very real cost of allowing our Nation’s bankruptcy system to be
+
+weaponized against tort victims as a tool for delay and leverage. Indeed, the suffering of
+
+those victims must remain central to any honest assessment of what is at stake in this
+
+appeal.
+
+       Unlike in many Chapter 11 bankruptcy proceedings, the Claimants here are not
+
+corporate lenders or institutional creditors. They are ordinary Americans who have spent
+
+their working lives installing drywall, laying insulation, cutting pipe, and simply returning
+
+to their homes each day to family members who laundered the toxic fibers from their
+
+clothing. They are factory workers, veterans, tradespeople, and laborers. They are also
+
+widows, adult children, and family members of the deceased victims who now carry
+
+forward claims on behalf of loved ones who have died from asbestos-related diseases.1
+
+       Sadly, many of these Claimants suffer from mesothelioma — a rare, incurable
+
+cancer that is almost exclusively caused by asbestos exposure. Others have been diagnosed
+
+with asbestosis, lung cancer, or other severe respiratory diseases linked to asbestos fibers
+
+inhaled on the job, in their homes, or through second-hand contact. And while these
+
+individual Claimants are fighting the effects of horrific diseases caused by asbestos
+
+exposure, they have now been forced to fight through a legal process that has been
+
+
+       1
+         The Official Committee of Asbestos Claimants (the “Committee”) represents the
+injured parties (the “Claimants”) in this appeal. The Committee includes personal
+representatives from across the country, each of whom is connected to a victim who
+suffered from, or died of, an asbestos-related illness. Notably, each of the six living
+Claimants appointed to the Committee have died while Bestwall’s bankruptcy filing has
+been pending. Those Claimants are now represented by the administrators of, or successors
+to, the deceased individuals’ estates.
+
+                                             26
+indefinitely suspended by Bestwall’s bankruptcy filing. Their right to pursue justice
+
+through the tort system of the civil courts — a right that is deeply rooted in the laws of our
+
+Nation and grounded in the most basic principles of accountability — has been put on hold
+
+by a solvent and profitable enterprise acting through a wholly manufactured bankruptcy
+
+proceeding.
+
+       The Claimants’ fights began where I believe they should end — not in a bankruptcy
+
+court, but in the courts of our Nation’s civil justice system. Faced with debilitating illnesses
+
+and premature deaths, the Claimants sought to bring their tort claims before a jury of their
+
+peers. As these individuals began to seek justice, Bestwall — along with its sister entity,
+
+Georgia-Pacific — faced a rising tide of asbestos-related lawsuits.2 But at no point during
+
+this time did Bestwall’s or Georgia-Pacific’s financial health falter. Indeed, in the year
+
+before Bestwall’s bankruptcy filing, Georgia-Pacific paid its parent company, Koch
+
+Industries, a 2 billion dollar dividend. That is hardly the conduct of a debtor in distress.
+
+       Nevertheless, in 2017, Georgia-Pacific undertook a corporate restructuring under
+
+Texas law. It split itself into two entities: a “new” Georgia-Pacific, which received virtually
+
+all of the profitable business assets, and Bestwall, which inherited all asbestos liabilities.
+
+Shortly after this restructuring, Bestwall filed for Chapter 11 bankruptcy. That bankruptcy
+
+filing brought with it a powerful legal shield — an automatic litigation stay — which halted
+
+
+
+       2
+        When Bestwall filed for bankruptcy in 2017, there were about 22,000 active tort
+claims pending against it, plus an additional 13,300 inactive claims. The Committee also
+estimates that approximately 21,300 newly diagnosed individual claimants would have
+pursued compensation from Bestwall but for the bankruptcy stay.
+
+                                              27
+all ongoing asbestos litigation in the various state and federal courts against Bestwall and
+
+Georgia-Pacific.
+
+       Bestwall’s bankruptcy filing was not at all typical, in that it did not involve a
+
+business entity on the brink of financial ruin or insolvency. Bestwall entered bankruptcy
+
+with a financial safety net, in the form of a “Funding Agreement” with Georgia-Pacific that
+
+ensures Bestwall can continue to access Georgia-Pacific’s very substantial assets. As part
+
+of the Funding Agreement, Georgia-Pacific agreed to foot the bill for all expenses related
+
+to Bestwall’s bankruptcy and asbestos liability, including funding Bestwall’s § 524(g)
+
+asbestos trust.3
+
+       At the time of Bestwall’s bankruptcy filing, Georgia-Pacific’s assets were estimated
+
+at more than 28.3 billion dollars. And today, Georgia-Pacific remains a multi-billion-dollar
+
+company with a long and stable record of profitability. It manufactures widely recognized
+
+consumer goods like Brawny paper towels, Angel Soft toilet paper, Dixie cups, and Quilted
+
+Northern tissues, among others, and also maintains extensive operations in pulp and paper
+
+products, building materials, and chemicals. It continues to generate substantial profits,
+
+wholly insulated from the asbestos liabilities it has offloaded onto Bestwall.
+
+
+       3
+           The Bankruptcy Code allows a Chapter 11 debtor with significant asbestos
+liabilities to create a trust to resolve both current and future claims. See 11 U.S.C. § 524(g).
+Under this statutory provision, the debtor may fund a trust that assumes responsibility for
+asbestos-related damages. Id. § 524(g)(2)(B)(i). Once established, § 524(g) channels all
+such claims into the trust by “enjoin[ing] entities from taking legal action for the purpose
+of directly or indirectly collecting, recovering, or receiving payment or recovery” for
+claims “to be paid in whole or in part by [the] trust.” Id. § 524(g)(1)(B). In short, § 524(g)
+bars asbestos claimants from pursuing separate legal actions to recover directly from the
+debtor.
+
+                                              28
+       This is not a case, then, in which bankruptcy was invoked to rescue a failing business
+
+enterprise. Nor is it a case in which asset preservation was necessary to ensure equitable
+
+distribution among creditors. On the contrary, Bestwall’s entry into Chapter 11 bankruptcy
+
+was a strategic decision, designed to pause active litigation, consolidate claims in a single
+
+forum, and pressure tort victims into favorable settlements through delay. The effect —
+
+and the goal — has been to disempower the asbestos Claimants, forcing them to wait out
+
+the legal process while the debtor and its affiliates continue to amass record-setting profits
+
+outside the bankruptcy estate.
+
+       The human cost of this bankruptcy delay cannot be overstated. Asbestos-related
+
+diseases progress swiftly and painfully. The window for meaningful legal relief is, for
+
+many victims, heartbreakingly short.        In the seven years since Bestwall filed for
+
+bankruptcy, about 25,000 Claimants have died without any resolution of their claims.
+
+Approximately 10,000 Claimants have died from mesothelioma — a harrowing disease
+
+that is nearly always fatal within 18 months to two years of diagnosis. Still others have
+
+seen their families saddled with medical debt and left without recourse. Indeed, not one of
+
+about 56,000 plaintiffs has been able to pursue his or her claims against Bestwall or
+
+Georgia-Pacific for causing asbestos-related diseases. Meanwhile, Bestwall and its sister
+
+corporation, Georgia-Pacific, have enjoyed the protections of bankruptcy alongside
+
+substantial and stable profits.
+
+
+
+
+                                             29
+                                             II.
+
+       The Claimants argue — correctly, in my view — that this case presents a
+
+fundamental threshold question of subject-matter jurisdiction. Their contentions warrant
+
+more than a passing glance, for they strike at the constitutional boundary between what
+
+Congress may regulate and what federal courts may adjudicate. Yet the majority declines
+
+to engage with the Claimants’ jurisdictional contentions, instead labelling those arguments
+
+as a garden-variety challenge to a statute’s constitutionality underpinned by “policy
+
+reasons.” See, e.g., ante at 13 n.12.
+
+       The central flaw, however, in the majority’s reasoning is its assumption that
+
+Congress’s broad grant of jurisdiction under 28 U.S.C. § 1334 can override the
+
+Constitution’s more limited delegation of power under the Bankruptcy Clause. To be sure,
+
+Section 1334 grants jurisdiction over cases “under Title 11.” See 28 U.S.C. § 1334(a).
+
+Crucially, this “authority is not freewheeling.” See Trump v. CASA, Inc., 606 U.S. ___, slip
+
+op. at *6 (June 27, 2025). Section 1334 does not — and cannot — independently determine
+
+what constitutes a “case” that Congress may authorize under Article I. Nor can the statute
+
+override the Constitution’s limited delegation of power under the Bankruptcy Clause,
+
+which empowers Congress to enact “uniform Laws on the subject of Bankruptcies.” See
+
+Bowles v. Russell, 551 U.S. 205, 212 (2007) (“Within constitutional bounds, Congress
+
+decides what cases the federal courts have jurisdiction to consider.”).
+
+       The majority’s decision to sidestep this constitutional issue has immediate and
+
+troubling implications. By declining to squarely address whether Bestwall’s petition
+
+satisfies the Bankruptcy Clause’s jurisdictional limits, the majority permits bankruptcy
+
+                                             30
+jurisdiction to be extended to parties who are not actually bankrupt — and, in doing so,
+
+open the courthouse doors to a new kind of forum shopping by solvent corporations. Worse
+
+still, it allows the extraordinary powers of the bankruptcy court — including the automatic
+
+stay and the discharge of liabilities — to be deployed against injured individuals who have
+
+little say in how the process unfolds.
+
+
+
+                                               III.
+
+       Bankruptcy has always been understood as an extraordinary remedy, reserved for
+
+those in genuine financial distress. At the time of the Founding, and for well over a century
+
+thereafter, bankruptcy was available only to those who could not pay their debts. It was
+
+not available to those who preferred not to satisfy those debts, or those whose financial
+
+resources remained vast but who sought a more favorable forum. It was against this
+
+backdrop that the Framers of the Constitution granted Congress the power, through the
+
+Bankruptcy Clause contained in Article I, to enact “uniform laws on the subject of
+
+Bankruptcies.” See U.S. Const., art. I, § 8.
+
+                                               A.
+
+       As the Supreme Court has instructed, our understanding of bankruptcy must “accord
+
+with history and faithfully reflect the understanding of the Founding Fathers.” See
+
+Kennedy v. Bremerton Sch. Dist., 597 U.S. 507, 535-36 (2022) (internal quotation marks
+
+and alterations omitted). In exercising jurisdiction over a debtor — like Bestwall — that
+
+is not actually bankrupt, however, the bankruptcy court endorsed an unbounded reading of
+
+§ 1334 that is inconsistent with the Constitution’s text and our Nation’s legal traditions.
+
+                                               31
+And in affirming the bankruptcy court’s decision today, the majority accepts that
+
+bankruptcy jurisdiction exists simply because Congress said so — that is, because 28
+
+U.S.C. § 1334 confers jurisdiction over any case “arising under” or “related to” the
+
+Bankruptcy Code.
+
+       But “history and tradition,” not “Congress’s say-so,” inform the scope of the
+
+Bankruptcy Clause, and therefore constrain Congress’s authority to enact laws granting
+
+jurisdiction to the bankruptcy courts. See TransUnion LLC v. Ramirez, 594 U.S. 413, 424-
+
+26 (2021). And while Congress is entitled to create statutory jurisdictional provisions like
+
+§ 1334, it cannot enlarge the substantive scope of the “subject of Bankruptcies” beyond the
+
+limits established under the Constitution. See Bowles v. Russell, 551 U.S. 205, 212
+
+(2007) (“Within constitutional bounds, Congress decides what cases the federal courts have
+
+jurisdiction to consider.”).
+
+       To discern those limits, we must first examine the relevant language of the
+
+Constitution itself and, more specifically, the Bankruptcy Clause. See Food and Drug
+
+Admin. v. All. for Hippocratic Med., 602 U.S. 367, 378 (2024) (“[W]e begin as always with
+
+the precise text of the Constitution.”); see also Altman v. City of High Point, 330 F.3d 194,
+
+200 (4th Cir. 2003) (“[O]ur inquiry begins with the text of the Constitution.”). Importantly,
+
+our reading of the Bankruptcy Clause must be informed by the very nature of the
+
+Constitution — that is, its status as a “written instrument” with provisions that carry
+
+meaning rooted in the historical moment in which they were adopted, as well as the legal
+
+and societal traditions that informed their drafting. See South Carolina v. United States,
+
+199 U.S. 437, 448 (1905) (“The Constitution is a written instrument. As such, its meaning
+
+                                             32
+does not alter. That which it meant when adopted, it means now.”). Our role in its
+
+interpretation, then, is not to update or revise the Constitution to meet modern preferences,
+
+but to faithfully apply the meaning its provisions bore when it was ratified. See Lewis v.
+
+Casey, 518 U.S. 343, 367 (1996) (Thomas, J., concurring) (cautioning against courts
+
+“infusing the constitutional fabric with our own political views”).
+
+       We are thus called upon to consider the ordinary public meaning of a phrase which
+
+is otherwise undefined in the text of the Constitution: “the subject of Bankruptcies.” But,
+
+as Chief Justice Marshall put it two centuries ago, we must always recall that “the
+
+enlightened patriots who framed our constitution, and the people who adopted it, must be
+
+understood to have employed words in their natural sense[.]” See Gibbons v. Ogden, 22
+
+U.S. (9 Wheat.) 1, 188 (1824). Thus, “[t]he proper course of constitutional interpretation
+
+is to give the text the meaning it was understood to have at the time of its adoption by the
+
+people.” See Boumediene v. Bush, 553 U.S. 723, 843 (2008) (Scalia, J., dissenting).
+
+       At the time of the Founding, “bankruptcy” had a specific and well-understood legal
+
+meaning. Rooted in English law and early American practice, the term referred to a narrow
+
+legal framework that applied to merchants or traders who were unable or unwilling to pay
+
+their debts. The typical debtor in bankruptcy was financially distressed — indeed,
+
+insolvent — and bankruptcy provided an orderly process for liquidating assets and
+
+discharging debts. See Hanover Nat’l Bank v. Moyses, 186 U.S. 181, 185 (explaining that
+
+early bankruptcy provisions were directed at “unfortunate and meritorious debtors”). In
+
+that regard, bankruptcy was not a general-purpose tool for managing financial risk or
+
+
+
+                                             33
+reorganizing a large corporation or business entity. It was instead an extraordinary remedy
+
+for situations of real economic distress.
+
+                                            B.
+
+       Crucially, when a word is “transplanted from another legal source,” it “brings the
+
+old soil with it.” See Hall v. Hall, 584 U.S. 59, 73 (2018) (quoting Felix Frankfurter, Some
+
+Reflections on the Reading of Statutes, 47 Colum. L. Rev. 527, 537 (1947)). Indeed, “the
+
+language of the [C]onstitution, as has been well said, [can]not be understood without
+
+reference to the common law.” See United States v. Wong Kim Ark, 169 U.S. 649, 654
+
+(1898). The Framers of the Constitution “were familiar with the contemporary legal
+
+context” — that is, the English bankruptcy system — “when they adopted the Bankruptcy
+
+Clause.” See Central Va. Comm. Coll. v. Katz, 546 U.S. 356, 362 (2006). Thus, our
+
+interpretation and application of the Constitution’s text “is necessarily influenced by the
+
+fact that its provisions are framed in the language of the English common law, and are to
+
+be read in the light of its history.” See Smith v. Alabama, 124 U.S. 465, 478 (1888).
+
+                                             1.
+
+       We begin — just as our Founding Fathers did — with English bankruptcy law. From
+
+its inception, England’s bankruptcy system treated debtors not as beneficiaries of equitable
+
+relief but as malefactors to be disciplined for misconduct. More specifically, the English
+
+bankruptcy system was limited to involuntary proceedings against merchants or traders
+
+who had committed “acts of bankruptcy” — that is, persons “who craftily obtaining into
+
+their hands great substance of other men’s goods, do suddenly flee to parts unknown, or
+
+keep their houses, not minding to pay or restore to any of their creditors their debts and
+
+                                            34
+duties[.]” See 34 & 35 Hen. 8, ch. 4 (1542-1543) (Eng.); see also 2 William Blackstone,
+
+Commentaries *474 (indicating that this citation was to “the first statute made concerning
+
+any English bankrupts”).        In short, England’s earliest bankruptcy statute targeted
+
+commercial fraud and absconding debtors, not any well-capitalized merchants or solvent
+
+actors.
+
+          Over time, the English system evolved to incorporate limited debtor protections,
+
+including an eventual discharge for those who cooperated with the court proceedings and
+
+were deemed to be “honest.” See, e.g., An Acte for the Better Reliefe of the Creditors
+
+Againste Suche as Shall Become Bankrupte, 1 Jac., ch. 15 (1603-1604) (Eng.); An Acte
+
+for the Discripceon of a Banckrupt and Releife of Credytors, 21 Jac., ch. 19 (1623-1624)
+
+(Eng.). But the defining feature of English bankruptcy law remained its focus on debtors
+
+that were unable to pay — that is, individuals or entities that were actually insolvent, even
+
+if insolvency was not strictly defined by statute. Plainly, bankruptcy was never a forum-
+
+shopping device or a means of centralized dispute resolution; it was a last resort for a debtor
+
+in financial ruin or for creditors seeking equitable distribution of a debtor’s remaining
+
+estate.
+
+          A separate and discrete set of “insolvency” laws addressed non-trader and non-
+
+merchant debtor relief. See generally 1 Collier on Bankruptcy 20.01; see also 2 William
+
+Blackstone, Commentaries *475-77 (discussing who qualified as a “trader”). But while
+
+insolvency and bankruptcy were not identical concepts, they were inextricably linked.
+
+Indeed, despite the “difficulty of discriminating with any accuracy between insolvent and
+
+bankrupt laws,” the bankruptcy laws “contain[ed] those regulations which [were] generally
+
+                                              35
+found in insolvent laws,” and the insolvency laws “contain[ed] those which [were]
+
+common to a bankrupt law.” See Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122, 195
+
+(1874). Put otherwise, “the line of partition between” bankruptcy and insolvency was “not
+
+so distinctly marked as to enable any person to say, with positive precision, what belongs
+
+exclusively to the one, and not to the other class of law.” Id. at 194.
+
+       In sum, the early bankruptcy and insolvency statutes each tied relief to a debtor’s
+
+inability to meet fixed financial obligations. And those laws distinguished clearly between
+
+those who were simply facing litigation, and those who were truly insolvent or unable to
+
+pay their debts as they came due. A debtor who could pay his debts, therefore, was not
+
+what the Founders would have ever considered “bankrupt.” See, e.g., In re Reiman, 7 Ben.
+
+455, 494-94 (1874) (describing bankruptcy “for the benefit and relief of creditors and their
+
+debtors, in cases in which the latter are unable or unwilling to pay their debts”). Only those
+
+“grown bankrupt like a broken man,” “who hath not money,” could seek relief through
+
+bankruptcy. See William Shakespeare, Richard II, act II, sc. 1, ls. 267, 269.
+
+                                              2.
+
+       Colonial America inherited much of the English bankruptcy regime, but adapted it
+
+in various ways. Because the English Parliament did not enact a comprehensive insolvency
+
+framework for the colonies, each colonial legislature developed its own insolvency or
+
+“debtor-relief” laws. Those laws were often more lenient than the English bankruptcy
+
+statutes and reflected local economic realities, including a heavy reliance on credit and the
+
+absence of strong centralized courts. See generally Bruce E. Mann, Republic of Debtors:
+
+Bankruptcy in the Age of American Independence 23-25 (2002).
+
+                                             36
+       Colonial insolvency laws were primarily designed to relieve individual debtors,
+
+many of whom were farmers, laborers, or small tradespeople. Such laws often provided
+
+for voluntary proceedings, allowing debtors to come forward, surrender their assets, and
+
+seek release from imprisonment or execution of judgment. See, e.g., 1 Acts and Resolves
+
+of the Province of Massachusetts Bay (21 vols., Boston, 1869-1922) (providing for release
+
+from debtor’s prison in Colonial Massachusetts); Colonial Laws of New York 2, 753-56
+
+(providing for assignment of servitude to discharge of “petty debtors”). But even in the
+
+colonies, the availability of such remedies was contingent on insolvency — that is, on a
+
+debtor’s factual inability to satisfy his outstanding obligations. See, e.g., See State v. Gee,
+
+1 Bay 163, 163 (S.C. Ct. Com. Pl. 1791) (interpreting 1759 South Carolina statute as an
+
+“insolvent debtor’s law . . . intended only for the benefit of those who by accident, losses,
+
+or other misfortunes, are rendered incapable of paying their debts, and by that means had
+
+become objects of compassion”); see also, e.g., Colonial Laws of New York 2, 669-75
+
+(explaining that debtors made insolvent “by losses & other Misfortunes” were “the proper
+
+objects of publick compassion”). As in England, solvent individuals simply had no claim
+
+to protection under such laws. They remained subject to the full force of the ordinary legal
+
+processes.
+
+       Moreover, because there was no national bankruptcy system under the Articles of
+
+Confederation, debtors and creditors alike were subjected to a patchwork of inconsistent
+
+and sometimes conflicting laws across the several states. This lack of uniformity created
+
+confusion, promoted forum shopping, and invited inequitable outcomes. A debtor who was
+
+protected in one jurisdiction could be imprisoned in another.          Creditors in different
+
+                                              37
+jurisdictions might receive radically different shares of the same insolvent estate. Still, the
+
+varied “insolvent laws of [the] many . . . states” were first and foremost enacted for the
+
+relief of “unfortunate” and “honest” debtors, and thus were narrowly tailored to address
+
+real economic failure, not procedural or tactical advantages sought by solvent debtors. See
+
+Crowninshield, 17 U.S. (4 Wheat.) at 203.
+
+                                              3.
+
+       It was against this backdrop that the Founders included the Bankruptcy Clause in
+
+the Constitution. As James Madison explained, this Clause responded to a need for
+
+uniformity in the laws governing insolvency and bankruptcy. See The Federalist No. 42,
+
+at 282 (James Madison) (Clinton Rossiter ed., 1961); see also Katz, 546 U.S. at 365-66.
+
+But neither the inclusion of the Bankruptcy Clause, nor its delegation to Congress of
+
+“power . . . to establish uniform laws on the subject of bankruptcies throughout the United
+
+States,” redefined bankruptcy itself. See Int’l Shoe Co. v. Pinkus, 278 U.S. 261, 265 (1929).
+
+The word “bankruptcy,” as used in the Constitution, retained the same meaning it had
+
+acquired through the English and colonial usage. Indeed, “those from whom the word was
+
+doubtless transferred into the constitution, treat it as exactly commensurate with
+
+insolvency.” See Kunzler v. Kohaus, 5 Hill 317, 320 (N.Y. 1843).
+
+       Founding-era dictionaries reflecting the ordinary usage of legal and economic terms
+
+confirm that the concepts of “bankruptcy” and “bankrupt” were tightly bound to the
+
+condition of insolvency — that is, a debtor’s inability to pay his debts. See, e.g., William
+
+Perry, The Royal Standard English Dictionary 51 (1777) (defining a “bankrupt” as “one
+
+who cannot pay his debts”); see also, e.g., Samuel Johnson, Dictionary of the English
+
+                                              38
+Language (1773) (defining “Bankruptcy” as “[t]he state of a man broken, or bankrupt”); 1
+
+Thomas Sheridan, Dictionary of the English Language (4th ed. 1797) (defining “bankrupt”
+
+and “bankruptcy” as “[t]he state of a man” “in debt beyond the power of payment”). These
+
+definitions plainly reflect the public understanding of bankruptcy as “the act of declaring
+
+oneself a bankrupt,” or “[b]roken for debt, incapable of payment, insolvent.” See John
+
+Ash, New and Complete Dictionary of the English Language (1775) (defining a “bankrupt”
+
+and “bankruptcy”); see also District of Columbia v. Heller, 554 U.S. 570, 605 (2008)
+
+(explaining that “the examination of a variety of legal and other sources to determine the
+
+public understanding of a legal text in [a] period . . . is a critical tool of constitutional
+
+interpretation”).
+
+                                             C.
+
+                                             1.
+
+       These sources consistently reflect two key features: First, that bankruptcy primarily
+
+involved commercial actors, such as merchants or traders, and second, that it required
+
+financial failure or nonpayment.      Notably, none of these relevant authorities define
+
+bankruptcy as a mechanism for strategic liability management by solvent entities, nor do
+
+they suggest that a party with the means to pay its debts could be properly described as
+
+“bankrupt.” The uniformity in the term’s usage is particularly significant given the broader
+
+legal context, as early bankruptcy legislation presumed a debtor’s insolvency as a
+
+precondition for relief.
+
+       The Founders, in using the term “Bankruptcies,” would have undoubtedly drawn
+
+upon that established understanding. After all, “[t]he Constitution was written to be
+
+                                             39
+understood by the voters; its words and phrases were used in their normal and ordinary as
+
+distinguished from technical meaning.” See United States v. Sprague, 282 U.S. 716, 731
+
+(1931). This historical understanding should constrain the modern interpretation of the
+
+Clause and the permissible scope of federal bankruptcy jurisdiction. See, e.g., Arizona
+
+State Legislature v. Arizona Indep. Redistricting Comm’n, 576 U.S. 787, 813-14 (2015)
+
+(using Founding-era dictionaries to ascertain original meaning). Thus, when read in light
+
+of contemporary dictionary definitions, the Bankruptcy Clause clearly refers to a legal
+
+regime designed only for insolvent debtors, not solvent corporations seeking to evade mass
+
+tort liability through complicated corporate restructuring.
+
+       At bottom, the historical record contains no suggestion that Congress would have
+
+the power to legislate a bankruptcy remedy for a solvent entity, or that the federal courts
+
+could ever exercise jurisdiction over bankruptcy petitions not grounded in genuine
+
+financial distress. In truth, the historical evidence points in a markedly different direction.
+
+As Justice Story explained, the “satisfactory . . . description of a bankrupt law” at the time
+
+of the Founding was “a law for the benefit and relief of creditors and debtors, in cases in
+
+which the latter are unable or unwilling to pay their debts.”           See 2 Joseph Story,
+
+Commentaries on the Constitution § 1113, at 50 n.3 (Thomas M. Cooley ed., 4th ed. 1873).
+
+And so “a law on the subject of bankruptcies,” as contemplated by the Constitution, was
+
+“a law making provisions for cases of persons failing to pay their debts.” Id.
+
+                                              2.
+
+       Early American bankruptcy statutes consistently reinforce this understanding. The
+
+Bankruptcy Act of 1800 — the first national bankruptcy law passed after Ratification —
+
+                                              40
+applied only to merchants and traders, and “was in many respects a copy of the English
+
+bankruptcy statute then in force.” See Katz, 546 U.S. at 373. The Act provided no
+
+protection to debtors who remained able to meet their obligations and, “like the English
+
+law, was conceived in the view that the bankrupt was dishonest.” See Continental Illinois
+
+Nat’l Bank & Trust Co. v. Chicago, Rock Island & Pac. Ry. Co., 294 U.S. 648, 670 (1935).
+
+       But, consistent with the Founding-era view of bankruptcy as a remedy for the honest
+
+but unfortunate debtor, Congress progressively extended voluntary bankruptcy to non-
+
+merchants and non-traders burdened by debt and in need of relief. See Continental Illinois,
+
+294 U.S. at 670-71 (explaining that “the [Bankruptcy] act of 1841 and the later acts
+
+proceeded upon the assumption that [a debtor] might be honest but unfortunate”). Indeed,
+
+the “primary purposes of these acts [were] to ‘relieve the honest debtor from the weight of
+
+oppressive indebtedness, and permit him to start afresh[.]’” Id. at 670. And although the
+
+early American bankruptcy statutes were repealed and later replaced with broader
+
+legislation, the constitutional baseline for the remedy of bankruptcy remained tied to
+
+insolvency — that is, “consistent with the principles that underpin the Nation’s
+
+[bankruptcy] tradition.” See United States v. Rahimi, 602 U.S. 680, 681 (2024).
+
+       What emerges from this relevant history is a consistent and constitutionally
+
+significant principle: Bankruptcy, as the Founders understood it, was meant for the
+
+financially distressed.   It was never intended as a mechanism by which profitable
+
+enterprises could transform an honest but unfortunate debtor’s shield into a sword for
+
+solvent corporations to cut down the rights of injured Americans. To be sure, the
+
+constitutional power to legislate on “the subject of Bankruptcies,” set forth in Article I,
+
+                                            41
+section 8 — i.e., the Bankruptcy Clause as ratified — was anchored in this well-developed
+
+legal tradition, one that aimed to ensure fairness among creditors while providing relief to
+
+debtors who were truly in distress. This tradition, as illuminated by “the uniform popular
+
+acceptation of the word from the earliest times and in all English countries,” reveals how
+
+the Bankruptcy Clause should be interpreted: To grant Congress the “power to establish
+
+uniform laws on the subject of any person’s general inability to pay his debts throughout
+
+the United States.” See Kunzler, 5 Hill at 321.
+
+       In sum, our history and tradition does not support the majority’s extension of
+
+bankruptcy protections to solvent tort defendants who seek a strategic advantage over their
+
+creditors and victims. When bankruptcy is used in that manner, it departs not only from
+
+historical practice but from the constitutional limits of the Bankruptcy Clause itself.
+
+                                              D.
+
+       It bears repeating: Bestwall is not a debtor in distress. It is a vehicle engineered by
+
+Georgia-Pacific to carry its asbestos liabilities while insulating its profitable operations.
+
+Bestwall possesses no business operations, generates no independent income, and exists
+
+solely to carry forward asbestos liabilities that Bestwall can fully satisfy through a Funding
+
+Agreement backed by Georgia-Pacific’s billions of dollars in assets.           That Funding
+
+Agreement, by Bestwall’s own admission, guarantees that it can meet its obligations in full.
+
+See In re Bestwall, 658 B.R. 348, 355 (Bankr. W.D.N.C. 2024).
+
+       In substance, then, Bestwall’s financial position has never triggered the sort of crisis
+
+the Bankruptcy Clause was designed to address. Its filing in the Western District of North
+
+Carolina was not a response to economic distress, but rather an effort to impose a federal
+
+                                              42
+forum and automatic stay over thousands of state law tort claims. And while Congress has
+
+created statutory mechanisms to manage mass-tort bankruptcies, such statutes can only
+
+operate within the limits of Article I. Indeed, those statutes cannot transform the scope of
+
+the Bankruptcy Clause itself.      Bestwall’s bankruptcy may be clever, but it is not
+
+constitutional. And it is not bankruptcy as the Framers understood it.
+
+       The bankruptcy court, however, failed to engage with those constitutional
+
+boundaries.    Although it correctly ascertained that the Claimants’ contentions were
+
+challenges to its subject-matter jurisdiction, it then reasoned that there is “no direct
+
+evidence” about what “concept of bankruptcy” the Framers had in mind. The court thus
+
+determined that “there is no direct evidence that the Framers intended to require financial
+
+distress for bankruptcy jurisdiction.” See In re Bestwall LLC, 658 B.R. at 365.
+
+       In so ruling, the bankruptcy court justified its reading of the Bankruptcy Clause by
+
+focusing on various post-ratification sources, and relied on Congressional policy
+
+statements that espoused the “liberalization of access” to bankruptcy courts in order to
+
+“remove barriers to voluntary petitions.” See In re Bestwall LLC, 658 B.R. at 367 (citing
+
+Report of the Commission on the Bankruptcy Laws of the United States, H.R. Doc. No.
+
+93-137, pt. 1, at 75 (1973)). And the court erroneously concluded that it possessed subject-
+
+matter jurisdiction over Bestwall’s bankruptcy because “there are simply no cases at any
+
+level (of which this court is aware) that explicitly endorse the proposition that bankruptcy
+
+courts do not have subject matter jurisdiction unless a debtor has a sufficient degree of
+
+financial distress.” Id. at 371.
+
+
+
+                                            43
+       It is true that “[i]n many cases, judicial precedent informs or controls the answer.”
+
+See Rahimi, 602 U.S. at 717 (Kavanaugh, J., concurring). And, “[a]bsent precedent, there
+
+are only two potential answers” to the question of constitutional interpretation: “history or
+
+policy.” Id. The bankruptcy court chose the latter option, i.e., “policy,” and thus departed
+
+from the touchstone of constitutional interpretation — treating “[h]istory [as] the essential
+
+guidepost” to a constitutional inquiry. See Elhady v. Kable, 993 F.3d 208, 219 (4th Cir.
+
+2021). It thus failed to properly assess the Constitution’s text, as we have instructed,
+
+“against its historical and legal backdrop.” See Bianchi v. Brown, 111 F.4th 438, 448 (4th
+
+Cir. 2024) (en banc).
+
+       To be sure, proper constitutional interpretation “doesn’t require ‘a law trapped in
+
+amber,’” and “demand[s] only a historical ‘principle, not a mold.” See Bianchi, 111 F.4th
+
+at 475 (Diaz, C.J., concurring) (quoting Rahimi, 602 U.S. at 739-40 (Barrett, J.,
+
+concurring)). It does, however, require that the meaning of the Framers’ words be viewed
+
+against the backdrop of history and tradition, rather than “contemporary, evolving beliefs
+
+about what kinds of suits should be heard in federal court.” See TransUnion, 594 U.S. at
+
+425. To that end, the bankruptcy court erroneously relied on congressional policy in ruling
+
+that Bestwall’s bankruptcy proceeding was within its subject-matter jurisdiction. It thus
+
+impermissibly broadened its view of subject-matter jurisdiction outside of its
+
+Constitutional bounds, thereby allowing our Nation’s bankruptcy system to be weaponized
+
+against thousands of tort victims, as simply a tool for delay and leverage.
+
+       That result is not what the Bankruptcy Clause was designed to permit. If the term
+
+“Bankruptcies” has a fixed constitutional meaning, it cannot be stretched to include solvent
+
+                                             44
+tort defendants in civil lawsuits seeking a tactical advantage over severely injured
+
+plaintiffs. If that were possible, then any solvent defendant in any mass tort case could file
+
+for Chapter 11 to stall litigation and corral claimants into a trust. And any profitable
+
+business facing legal risk could simply offload its tort liabilities into a subsidiary or sister
+
+entity, file for bankruptcy, and invoke an automatic stay of litigation, not because it is
+
+unwilling or unable to pay its debts, but because it prefers to evade the scrutiny of a jury
+
+— as required by the Seventh Amendment — and shirk accountability for its civil
+
+wrongdoing.
+
+       Put simply, the Bankruptcy Clause does not authorize a solvent and profitable
+
+corporation to secure a cloak of immunity from accountability. And it does not authorize
+
+the federal courts to sanction an artificial bankruptcy proceeding devoid of any real
+
+financial distress. The Bankruptcy Clause should not tolerate a system where a rich and
+
+powerful corporate defendant can invoke federal bankruptcy jurisdiction in order to
+
+suppress the tort claims of sick and dying victims and evade responsibility for harms
+
+caused.
+
+
+
+                                              IV.
+
+       I would reverse the judgment of the bankruptcy court, thereby dismissing Bestwall’s
+
+bankruptcy filing.    By treating Bestwall’s petition as a bankruptcy filing within its
+
+jurisdiction, the bankruptcy court — and now this Court — have given their imprimatur to
+
+a corporate strategy that mocks the structure of Article I, subverts our Nation’s history and
+
+tradition of bankruptcy, and inflicts grievous harm on our fellow Americans.               The
+
+                                              45
+majority’s failure to confront the constitutional infirmity at the heart of this appeal does
+
+more than ratify the abuse of our bankruptcy system. It reduces the Constitution’s careful
+
+allocation of legislative power relating to “Bankruptcies” to an afterthought. In doing so,
+
+it rewrites the Constitution to suit the needs of a profitable tortfeasor. And it strips tens of
+
+thousands of asbestos victims of their Seventh Amendment right to have their claims heard
+
+before a jury of their peers.
+
+       As Justice Kavanaugh has correctly emphasized, “[h]istory, not policy, is the proper
+
+guide.” See Rahimi, 602 U.S. at 717 (Kavanaugh, J., concurring). The Framers gave
+
+Congress the power to legislate in the area of bankruptcy so that it could enact a uniform
+
+system capable of resolving genuine cases of financial distress and insolvency. Adhering
+
+to this original understanding is not optional, as it is the anchor that holds the bankruptcy
+
+system to its constitutional moorings.
+
+       I respectfully dissent.
+
+
+
+
+                                              46
+

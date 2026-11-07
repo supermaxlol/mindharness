@@ -1,0 +1,27 @@
+{
+ "chargeoff_peak": {
+  "date": "2010-01-01",
+  "value": 3.02
+ },
+ "chargeoff_2008Q1": 0.98,
+ "bis_us_gap": {
+  "2006-Q4": 10.1071,
+  "2007-Q4": 11.6341,
+  "2008-Q4": 6.681,
+  "2009-Q4": 1.2405,
+  "2010-Q4": -9.4288
+ },
+ "P1P0": {
+  "cpi_2008_2010": 1.0391,
+  "m2_2008_2010": 1.1741,
+  "cpi_2020_2022": 1.1532,
+  "m2_2020_2022": 1.3804
+ },
+ "sources": [
+  "FRED CORALACBS",
+  "FRED CPIAUCSL",
+  "FRED M2SL",
+  "BIS WS_CREDIT_GAP bulk 6.2M",
+  "on-disk CAS/S126/living"
+ ]
+}

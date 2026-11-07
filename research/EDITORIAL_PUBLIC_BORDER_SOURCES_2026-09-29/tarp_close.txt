@@ -1,0 +1,120 @@
+ TROUBLED ASSET RELIEF PROGRAM: Lifetime Cost
+
+ GAO-24-107033, December 2023
+
+ On October 3, 2008, Congress passed the Emergency Economic Stabilization Act of 2008 (EESA) in response to the
+ financial crisis. EESA established the Office of Financial Stability (OFS) within the Department of the Treasury and
+ created the Troubled Asset Relief Program (TARP) to assist financial institutions and markets, businesses,
+ homeowners, and consumers. Over the past 15 years, OFS managed the TARP investments to minimize costs to the
+ taxpayers. With the conclusion of TARP in September 2023, we can now summarize the ultimate cost of the program.
+
+
+TARP-Funded Program Costs                                    TARP’s Major Programs
+EESA originally authorized TARP to purchase or               OFS established several programs under TARP to
+guarantee up to $700 billion in assets. The Dodd-            help stabilize the U.S. financial system, restart
+Frank Wall Street Reform and Consumer Protection             economic growth, and prevent avoidable
+Act of 2010 reduced that amount to $475 billion.             foreclosures. Below is a brief summary of the TARP-
+Taken as a whole, the final cost of TARP was                 funded programs and costs.
+significantly less than its original authorization. As of
+                                                             Capital Purchase Program (CPP)
+September 30, 2023, the total amount disbursed
+under TARP-funded programs was $443.5 billion.               CPP was launched in October 2008 to help stabilize
+However, after repayments, sales, dividends,                 the financial system by providing capital to viable
+interest, and other income, the lifetime cost of TARP-       financial institutions of all sizes nationwide. Under
+funded programs was $31.1 billion. While there will          CPP, OFS received preferred stock or debt, as well
+be no impact to the net cost, TARP has over $14.2            as stock warrants, in return for its investment.
+billion in unused funds that it will return to Treasury at   According to program terms, participating financial
+the end of fiscal year 2025. Figure 1 summarizes the         institutions were to repay the funds they received,
+lifetime cost of TARP by program.                            subject to the approval of their regulators. Through
+                                                             CPP, Treasury disbursed a total of $204.9 billion to
+Figure 1: Lifetime Cost of TARP-Funded Programs              707 institutions in 48 states, Puerto Rico, and the
+                                                             District of Columbia. After repayments, sales,
+                                                             dividends, and interest, however, the program
+                                                             resulted in a net gain of $16.3 billion.
+                                                             Community Development Capital Initiative
+                                                             (CDCI)
+                                                             CDCI was created in February 2010 to help viable
+                                                             certified community development financial institutions
+                                                             and the communities they serve cope with the effects
+                                                             of the financial crisis. Under CDCI, 84 financial
+                                                             institutions received investments with an initial
+                                                             dividend or interest rate of 2 percent. To encourage
+                                                             repayment while recognizing the unique
+                                                             circumstances these institutions faced, the program’s
+                                                             terms stated that the dividend rate would increase to
+                                                             9 percent after 8 years. Though CDCI disbursed a
+                                                             total of $570.1 million, the final cost of the program—
+                                                             after repayments, sales, dividends, and interest—
+                                                             was $67.5 million.
+
+
+
+
+Page 1                                                                               GAO-24-107033 | Lifetime Cost of TARP
+Automotive Industry Financing Program                                                  Other TARP-Funded Programs
+(AIFP)
+                                                                                       Additional TARP-funded programs included the
+AIFP was launched in December 2008 to help                                             Targeted Investment Program, Asset Guarantee
+prevent the collapse of General Motors (GM) and                                        Program, Supervisory Capital Assessment Program,
+Chrysler, which would have significantly disrupted the                                 Public-Private Investment Program, Term Asset-
+U.S. auto industry. The program disbursed $79.7                                        Backed Securities Loan Facility, and Small Business
+billion in loans and equity investments to GM,                                         Administration 7(a) Securities Purchase Program.
+Chrysler, and General Motors Acceptance                                                Together, these programs disbursed $59.1 billion and
+Corporation (now known as Ally Financial). After                                       resulted in a net gain of $11.4 billion.
+repayments, sales, dividends, and interest, AIFP cost                                  TARP Administrative Costs
+a total of $12.1 billion.
+                                                                                       The administrative costs of running these programs
+American International Group, Inc. (AIG)
+                                                                                       are not reflected in the amounts above. As of
+Investment Program                                                                     September 30, 2023, total administrative costs since
+The U.S. government acted to prevent the disorderly                                    the inception of TARP were $2.1 billion. OFS will
+failure of AIG, after concluding that such a failure                                   continue to incur costs in fiscal year 2024 as it winds
+would have caused catastrophic damage to the                                           down all remaining administrative matters.
+financial system and the economy. Treasury, the                                        TARP Oversight
+Federal Reserve Bank of New York, and AIG
+completed a restructuring plan for AIG that enabled                                    We have audited TARP’s financial statements
+the company to restore its financial condition and                                     annually, including the costs of the individual
+fully repay taxpayers. Starting in November 2008,                                      programs, since the program’s inception. For the
+Treasury used TARP funds to invest $67.8 billion in                                    entire 15-year duration of TARP, we issued
+AIG, helping to secure its liquidity. After repayments,                                unmodified (clean) opinions on its financial
+sales, dividends, interest, and other income related to                                statements. In addition, we performed many other
+AIG, TARP’s ultimate cost was $15.2 billion.                                           audits of TARP-funded programs and made over 70
+Treasury also received non-TARP shares of AIG. As                                      recommendations for corrective action, most of which
+such, the TARP cost was offset by $17.5 billion in                                     Treasury implemented. The Financial Stability
+proceeds from the sale of additional non-TARP                                          Oversight Board and the Special Inspector General
+shares of AIG held by Treasury, resulting in a net                                     for TARP also performed oversight of the TARP-
+gain for Treasury as a whole.                                                          funded programs. For more information on TARP,
+                                                                                       see the fiscal year 2023 OFS Agency Financial
+TARP Housing Programs                                                                  Report, including our opinion on the financial
+OFS launched two housing programs—Making Home                                          statements, in GAO-24-106814 and on Treasury’s
+Affordable and the Hardest Hit Fund—to help                                            TARP website.
+struggling homeowners avoid foreclosure and                                            Agency Comments
+stabilize the housing market. In addition, TARP
+provided support to the Federal Housing                                                We provided a draft of this report to OFS for review
+Administration Refinance Program, designed to                                          and comment. OFS management thanked us for our
+assist borrowers whose homes were worth less than                                      audit work on TARP over the years. OFS also
+the remaining amounts due on their mortgage loans                                      emphasized the benefits that taxpayers received
+(negative equity). Recipients were not required to                                     from TARP, including the stabilization of the financial
+repay the government for funds they received. In                                       sector, the rescue of the domestic auto industry, and
+total, these programs assisted more than 3.3 million                                   the prevention and mitigation of millions of
+homeowners and supported neighborhood                                                  foreclosures.
+improvement efforts at a final cost of $31.4 billion.
+
+ About GAO                                                                            We conducted our work from September 2023 to December 2023 in accordance
+ The Government Accountability Office, the audit, evaluation, and investigative arm   with generally accepted government auditing standards. Those standards require
+ of Congress, supports the Congress in meeting its constitutional responsibilities    that we plan and perform the audit to obtain sufficient, appropriate evidence to
+ and helps improve the performance and accountability of the federal government       provide a reasonable basis for our findings and conclusions based on our audit
+ for the American people. This work of the United States may include copyrighted      objectives. We believe that the evidence obtained provides a reasonable basis for
+ material, details at https://www.gao.gov/copyright.                                  our findings and conclusions based on our audit objectives.
+
+ Connect with GAO: https://www.gao.gov/about/contact-us/stay-connected.               For more information about this product, contact: Cheryl Clark, Director,
+                                                                                      Financial Management and Assurance, (202) 512-3406.
+ A. Nicole Clowers, Managing Director, Congressional Relations, (202) 512-4400.
+                                                                                      Staff acknowledgments: Lynda Downing (Assistant Director), Brian S. Harechmak
+ Chuck Young, Managing Director, Public Affairs, (202) 512-4800.                      (Analyst-in-Charge), Vincent Gomes, Seth Brewington, and Jason Kelly.
+
+ U.S. Government Accountability Office, 441 G Street NW, Washington, DC 20548.        Photo source: stock.adobe.com/dilok (cover photo).
+
+
+Page 2                                                                                                                     GAO-24-107033 | Lifetime Cost of TARP
+

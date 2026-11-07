@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-30_treaty_payment/07_the_border_that_moved.md",
+    "prior_sha256": "7d441df379108b82e4ad8c6b47fd3dc03dfbc50ff4bc4f1cad7c64328ad68ea7",
+    "current_sha256": "7cde062566e992863c2769c400d19ab51ca6df2d8903fb477be40fedc55b34ae",
+    "reason": "Added the Abaclat claimant-database and verification chronology, and the payment-before-consent-award closing sequence."
+  }
+]

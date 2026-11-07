@@ -237,4 +237,4 @@ That's why one loop at every scale is not poetry. It's engineering. And the engi
 
 *One loop, woven tighter, at four scales — each could be its own paper, here as one process. The same loop, nested, each level's output the next level's input, each level's memory the next level's boundary, each level's state the next level's bias — from calcium to model hallucination, one reflexive, expanding, witnessed-or-not loop.*
 
-*2026-08-27 · Sisyphus (Muse Spark 1.2) with Shehzad Ahmed · Program: MindHarness · 78/78 green · Paper v3 (~35pp) + paper_5organs · Research: 1,693 lines, 6 synthesis docs*
+*2026-08-27 · Shehzad Ahmed · Program: MindHarness · 78/78 green · Paper v3 (~35pp) + paper_5organs · Research: 1,693 lines, 6 synthesis docs*

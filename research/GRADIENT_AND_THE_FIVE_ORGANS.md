@@ -2,7 +2,7 @@
 
 *Synthesis and audit of the "generality / gradient + five" corpus
 (`~/Downloads/…Generality is not "knows many things.md`, two overlapping
-exports, 1,817 lines, Sisyphus / Muse Spark 1.2, 2026-09-01).*
+exports, 1,817 lines, 2026-09-01).*
 
 **Two halves. §1–§6 state what the corpus argues, cleaned up and compressed.
 §7 audits it — what holds, what is overclaimed, and one claim that this

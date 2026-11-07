@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-28",
+  "reason": "Thirteen existing source-inventory digests did not match current archived files. Their recorded file modification dates precede this Chapter 15 pass. Only inventory metadata is refreshed; source files and claim decisions remain unchanged.",
+  "scope": "Current file digests and core word counts, not a new semantic audit of every archived claim.",
+  "entries": [
+    {
+      "source_id": 34,
+      "path": "research/FAILURE_MODES_LEDGER_CHECKED_VS_NOT.md",
+      "previous_sha256": "c63ff2b917fba3544cc551847613e822bc81147d3d7ca8c60cd2ceaa419257ae",
+      "current_sha256": "bff18135474e16206c4b58c12ab48958d1756daf9fec0cfdf3f0aca696e4387c",
+      "previous_words_core": 2336,
+      "current_words_core": 2404,
+      "file_modified_local": "2026-09-26T21:51:42.856212"
+    },
+    {
+      "source_id": 106,
+      "path": "paper_book/chapters/ch10_unified.tex",
+      "previous_sha256": "83eb9f103923cbccf4799c3f6083d63bd99cb027e349844898ca3db6f415efad",
+      "current_sha256": "89d19e3ec137a3bbae74554aebafa9f42e2dbe9cd2f0eb768aa0a0a4f5138626",
+      "previous_words_core": 4233,
+      "current_words_core": 4354,
+      "file_modified_local": "2026-09-26T10:48:52.684074"
+    },
+    {
+      "source_id": 113,
+      "path": "bookv2/chapters/ch01_prologue.tex",
+      "previous_sha256": "6905c70cef70c1692435bff9b373444c8b0683bf0545e22119976599a3c7dea8",
+      "current_sha256": "1dfbaa68a682dc013dd9d302ca97fad72732233ce35efb83178dd0e47b46c919",
+      "previous_words_core": 4662,
+      "current_words_core": 4785,
+      "file_modified_local": "2026-09-26T13:09:22.668417"
+    },
+    {
+      "source_id": 114,
+      "path": "bookv2/chapters/ch02_human.tex",
+      "previous_sha256": "f63f1dc478c98498d428af7bbc8a356f34ea30c5f405d4c8e2bab61993b45ebb",
+      "current_sha256": "3ec61be56d386a3a886aaa4313bce42bd12ec4a65df50f862a157657bb562dd4",
+      "previous_words_core": 3094,
+      "current_words_core": 3575,
+      "file_modified_local": "2026-09-26T18:28:40.711938"
+    },
+    {
+      "source_id": 116,
+      "path": "bookv2/chapters/ch04_entity.tex",
+      "previous_sha256": "e23f8ef1341d4dc72ee54690e6eaaebc0f65465bf216e18b6cb88bc39d1c3e82",
+      "current_sha256": "a2b0ede6a22676c685b7938e29ead8e9fe7a01709da0df0875737469f952c8eb",
+      "previous_words_core": 5525,
+      "current_words_core": 5603,
+      "file_modified_local": "2026-09-26T00:12:10.767220"
+    },
+    {
+      "source_id": 119,
+      "path": "bookv2/chapters/ch07_sovereign.tex",
+      "previous_sha256": "0dc94a3c3798921dab342f24a26a2acf1852ba604f9cecb1ccd961c43b87b25e",
+      "current_sha256": "436e646cdf326219f51fcbda2d2f1e9589da65616a93a5641857ae325a70e6e6",
+      "previous_words_core": 6043,
+      "current_words_core": 6149,
+      "file_modified_local": "2026-09-26T00:16:36.504495"
+    },
+    {
+      "source_id": 120,
+      "path": "bookv2/chapters/ch08_cognitive.tex",
+      "previous_sha256": "1252ba6c61dbae17a6ba756c38ac59e543fa439fd31d43fd426f341e1d5faec5",
+      "current_sha256": "375cdae412ad3e8a8d2ab8094b88523dac452b77622549d4cb7ce9c1f1934701",
+      "previous_words_core": 7559,
+      "current_words_core": 7559,
+      "file_modified_local": "2026-09-26T03:45:21.432605"
+    },
+    {
+      "source_id": 121,
+      "path": "bookv2/chapters/ch08b_prayer.tex",
+      "previous_sha256": "8fb03243c108be846104767dadda3bce962a75eef0b028149921ec440a6723c4",
+      "current_sha256": "f5e00896f831efb15af66476274406671275bfaaa83abf07f967e17292bd7099",
+      "previous_words_core": 750,
+      "current_words_core": 754,
+      "file_modified_local": "2026-09-26T11:16:41.148535"
+    },
+    {
+      "source_id": 122,
+      "path": "bookv2/chapters/ch09_machine.tex",
+      "previous_sha256": "62af725912cd9acfd4cb96a8f2135f9f0ba3b62c5dd3c9b6dbddbdaac32bdca9",
+      "current_sha256": "88f1a19f202efaf983f30a17f79ba874fbbbb737924522b8b200b002276c8ed2",
+      "previous_words_core": 5199,
+      "current_words_core": 5315,
+      "file_modified_local": "2026-09-26T18:26:25.159881"
+    },
+    {
+      "source_id": 123,
+      "path": "bookv2/chapters/ch10_unified.tex",
+      "previous_sha256": "7dae225ac765404730749c8d3cedc89ab0ee0370c9371b2eec63e99238b08330",
+      "current_sha256": "34a182365c45829494bf03f960912d5c1c84b905f264d7cf29feaa1a0cfea2aa",
+      "previous_words_core": 4367,
+      "current_words_core": 4498,
+      "file_modified_local": "2026-09-26T10:50:30.083876"
+    },
+    {
+      "source_id": 124,
+      "path": "bookv2/chapters/ch11_appendix.tex",
+      "previous_sha256": "4f92879a8516ed21d2c27af2e63820076b2b797e15e409ba25d76229465c5815",
+      "current_sha256": "528eb554219154f89ecd2d5f5d4b83bf801b9bde2c2d23cdc4dee3be272b5c98",
+      "previous_words_core": 3358,
+      "current_words_core": 3387,
+      "file_modified_local": "2026-09-25T23:33:26.354374"
+    },
+    {
+      "source_id": 126,
+      "path": "bookv2/chapters/ch13_questions.tex",
+      "previous_sha256": "45f61edb438c665f29e384966d631c639eda4cef59d61207f5c3c8419e39d570",
+      "current_sha256": "25bd9d925639039bdf85ceb7c575b354d374b4b2c071c2183f1793e371e67aac",
+      "previous_words_core": 518,
+      "current_words_core": 646,
+      "file_modified_local": "2026-09-26T12:22:06.619593"
+    },
+    {
+      "source_id": 127,
+      "path": "bookv2/chapters/ch14_handbook.tex",
+      "previous_sha256": "cd5cad5b5fea2cc9089472be0894f591e57b0da9ed9a1003b460c5ad3044c025",
+      "current_sha256": "7f056c79f23476a04d8f9d7dd23da4d6d260f924c702f9b473e49bfdeaf781f4",
+      "previous_words_core": 492,
+      "current_words_core": 536,
+      "file_modified_local": "2026-09-26T10:17:40.828723"
+    }
+  ],
+  "chapter_word_metadata_refreshed": [
+    {
+      "chapter_id": 12,
+      "version": "paper_book",
+      "chapter_key": "ch10_unified",
+      "previous_words": 4233,
+      "current_words": 4354
+    },
+    {
+      "chapter_id": 19,
+      "version": "bookv2",
+      "chapter_key": "ch01_prologue",
+      "previous_words": 4662,
+      "current_words": 4785
+    },
+    {
+      "chapter_id": 20,
+      "version": "bookv2",
+      "chapter_key": "ch02_human",
+      "previous_words": 3094,
+      "current_words": 3575
+    },
+    {
+      "chapter_id": 22,
+      "version": "bookv2",
+      "chapter_key": "ch04_entity",
+      "previous_words": 5525,
+      "current_words": 5603
+    },
+    {
+      "chapter_id": 25,
+      "version": "bookv2",
+      "chapter_key": "ch07_sovereign",
+      "previous_words": 6043,
+      "current_words": 6149
+    },
+    {
+      "chapter_id": 26,
+      "version": "bookv2",
+      "chapter_key": "ch08_cognitive",
+      "previous_words": 7559,
+      "current_words": 7559
+    },
+    {
+      "chapter_id": 27,
+      "version": "bookv2",
+      "chapter_key": "ch08b_prayer",
+      "previous_words": 750,
+      "current_words": 754
+    },
+    {
+      "chapter_id": 28,
+      "version": "bookv2",
+      "chapter_key": "ch09_machine",
+      "previous_words": 5199,
+      "current_words": 5315
+    },
+    {
+      "chapter_id": 29,
+      "version": "bookv2",
+      "chapter_key": "ch10_unified",
+      "previous_words": 4367,
+      "current_words": 4498
+    },
+    {
+      "chapter_id": 30,
+      "version": "bookv2",
+      "chapter_key": "ch11_appendix",
+      "previous_words": 3358,
+      "current_words": 3387
+    },
+    {
+      "chapter_id": 32,
+      "version": "bookv2",
+      "chapter_key": "ch13_questions",
+      "previous_words": 518,
+      "current_words": 646
+    },
+    {
+      "chapter_id": 33,
+      "version": "bookv2",
+      "chapter_key": "ch14_handbook",
+      "previous_words": 492,
+      "current_words": 536
+    }
+  ]
+}

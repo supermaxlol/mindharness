@@ -1,0 +1,15 @@
+{
+ "cases": [
+  {
+   "cite": "In re LTL Mgmt LLC, 64 F.4th 84 (3d Cir 2023)",
+   "mechanism": "Oct 12 2021 divisional merger under Tex. Bus. Orgs. Code 1.002(55)(A): Old Consumer split into LTL (talc liabilities) + New Consumer (assets) + Funding Agreement (LTL funded by New Consumer/J&J)",
+   "holding": "DISMISSED under 1112(b): not in financial distress, no valid bankruptcy purpose; only a putative debtor in financial distress may access Chapter 11"
+  },
+  {
+   "cite": "Bestwall LLC, 4th Cir No. 22-1135 (June 20 2023)",
+   "mechanism": "2017 divisional merger same statute (Old GP -> Bestwall + New GP) + funding agreement (New GP covers Bestwall expenses/obligations; assets out of tort reach)",
+   "holding": "Distinguishes LTL (no good-faith/distress challenge raised); describes merger mechanics verbatim"
+  }
+ ],
+ "grade": "measured holdings (full opinion texts, 78K + 87K chars)"
+}

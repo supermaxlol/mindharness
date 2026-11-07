@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/02_the_map_room.md",
+    "prior": "development/editorial_2026-09-30_external_record/02_the_map_room.md",
+    "prior_sha256": "5c365ea5f4496fcbeadbe6beb7a0f215d68352ed5a0816e42e68c77f096bb8dc",
+    "current_sha256": "9f51966ef025b816d41416f087ec32cdbe3acf1aa4f00cf29cadc2ec87950cbb",
+    "reason": "Added Walker and Fay’s controlled attention-filtering and external-record result after the paper-plane failure; preserved the short-term-record and recombination boundaries."
+  }
+]

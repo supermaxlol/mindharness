@@ -1,0 +1,13 @@
+{
+ "source": "CourtListener RECAP search API type=r, full-text hits, 2026-09-23, authenticated",
+ "counts": {
+  "proof_of_claim": 1410962,
+  "secured_claim": 736028,
+  "unsecured_claim": 298774,
+  "priority_claim": 64731,
+  "claim_objection": 67308,
+  "disallow_claim": 125615
+ },
+ "reading": "Secured mentions 2.5x unsecured, 11x priority; objections+disallows (~193K) against 1.41M proof mentions = recognition funnel with teeth. Priority smallest class = structurally subordinated lose voice first.",
+ "grade": "measured activity counts (full-text hits, NOT adjudicated outcomes); gate-count proxy, label as such. Token used ephemerally, never stored in repo."
+}

@@ -1,0 +1,17 @@
+{
+ "source": "FDIC BankFind financials API (Data.gov key, asset-weighted, 8103 banks 2009Q4 + 4494 banks 2026Q2)",
+ "2009Q4": {
+  "ALLL_ratio": 3.105,
+  "coverage_ALLL_to_noncurrent": 112.507,
+  "NCO_rate": 5.511,
+  "noncurrent_rate": 7.678
+ },
+ "2026Q2": {
+  "ALLL_ratio": 1.647,
+  "coverage_ALLL_to_noncurrent": 429.96,
+  "NCO_rate": 0.932,
+  "noncurrent_rate": 1.548
+ },
+ "reading": "Coverage 112% at the wall (thin) vs 430% in calm (fat); noncurrent 7.7% vs 1.5%. Banks halve 8103->4494 (consolidation).",
+ "grade": "measured aggregates"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-30_whole_manuscript/05_the_tollbooths.md",
+    "prior_sha256": "6af8a54ec765fd15cdfac6bc619a567b0adc9305c62823b78660e4d8712573c5",
+    "current_sha256": "f904f062a447aa300cd180ce37bbe369630391a07550fbcf8b681d24a7d48598",
+    "reason": "Moved exact estate category totals from main text to source note; kept proportional payment contrast."
+  },
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_whole_manuscript/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "804804b60df80bf0083fcb4cb934c516e444ddf6845f604ad8c6d2004eae21a6",
+    "current_sha256": "c1f0d0e4375b608add65e4952e2059689e830f640bd80bd1989db4b729af7bae",
+    "reason": "Added reader audit card and the sourced 200-turn irreversible-stakes negative result."
+  }
+]

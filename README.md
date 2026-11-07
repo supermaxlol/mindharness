@@ -228,7 +228,7 @@ You don't choose the options. You don't fully choose the winner. You can veto th
 
 ---
 
-*Built by Shehzad Ahmed with Sisyphus (Muse Spark 1.2) · 2026-09-06 · 91/91 green · Five NESS gates wired, sham sham-controlled, 200-turn irreversible queued*
+*Built by Shehzad Ahmed · 2026-09-06 · 91/91 green · Five NESS gates wired, sham sham-controlled, 200-turn irreversible queued*
 ---
 
 ## The Single Thread — Whirlpool, Record, Witness (added as shared)

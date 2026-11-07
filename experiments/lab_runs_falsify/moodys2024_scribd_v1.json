@@ -1,0 +1,11 @@
+{
+ "source": "Scribd page extract via Tavily (no PDF bytes; reader login-walled)",
+ "moodys2024": {
+  "spec_grade_2023": 4.8,
+  "expected_2024": 3.6,
+  "distressed_share_2023": "60%",
+  "driver": "rate hikes + tighter financing; North America highest counts"
+ },
+ "trend": "distressed share 60% (2023, Moodys) -> 59.3% (2024, S&P) -> 58% (2025, S&P): soft-default channel structural",
+ "grade": "secondary page extract"
+}

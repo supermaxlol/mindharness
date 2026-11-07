@@ -1,0 +1,19 @@
+{
+ "source": "Florida-UCLA-LoPucki BRD 1-12-2023, 1218 large public bankruptcies (Ch11 1190), free via Playwright terms click",
+ "n": 1218,
+ "unsecured_nonpriority": {
+  "n": 129,
+  "claims_median_M": 312.5,
+  "claims_mean_M": 1369.16,
+  "distrib_median_M": 52.65,
+  "distrib_mean_M": 568.01,
+  "ratio_mean": 0.35,
+  "ratio_note": "35c per dollar, vs Moodys Sr Unsecured bonds 44.9c \u2014 general unsecured < bond unsecured, ordering holds"
+ },
+ "secured": {
+  "n": 119,
+  "distrib_median_M": 141.19,
+  "distrib_mean_M": 649.18
+ },
+ "grade": "measured case-level adjudicated distributions (not activity counts). Denominators differ (129 vs 119); pair-matched rate next."
+}

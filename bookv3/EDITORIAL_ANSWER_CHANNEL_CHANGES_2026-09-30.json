@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/12_is_anyone_home.md",
+    "prior": "development/editorial_2026-09-30_answer_channel/12_is_anyone_home.md",
+    "prior_sha256": "c83771938f3e3fe36f7b2d9fd17abcca6d3b3b4e4e88319d86cf4e2d598ecef4",
+    "current_sha256": "ada1cc022d291f6afcd149022f5a099cf32611324e73b63d21a326e1187659a8",
+    "reason": "Follow calibrated imagery into verified yes/no answers, an undecodable sixth scan and a revised bedside classification."
+  }
+]

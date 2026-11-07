@@ -1,0 +1,415 @@
+{
+ "n": 60,
+ "outcome_word_hits": {
+  "allow": 9,
+  "disallow": 0,
+  "sustain": 0,
+  "overrule": 0,
+  "grant": 4,
+  "deny": 1,
+  "settle": 1,
+  "withdraw": 7
+ },
+ "rows": [
+  {
+   "q": "secured_claim",
+   "docket": "26-20038",
+   "court": "United States Bankruptcy Court, D. Maine",
+   "hits": [
+    "allow"
+   ]
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-00378",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-00378",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "24-33589",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "2:26-bk-20103",
+   "court": "United States Bankruptcy Court, D. Montana",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "2:26-bk-20103",
+   "court": "United States Bankruptcy Court, D. Montana",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-02182",
+   "court": "United States Bankruptcy Court, E.D. Washington",
+   "hits": [
+    "allow"
+   ]
+  },
+  {
+   "q": "secured_claim",
+   "docket": "2:26-bk-20103",
+   "court": "United States Bankruptcy Court, D. Montana",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "3:25-bk-02562",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-51301",
+   "court": "United States Bankruptcy Court, S.D. Mississippi",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-00378",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-00378",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-11375",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-00378",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": [
+    "allow"
+   ]
+  },
+  {
+   "q": "secured_claim",
+   "docket": "26-50180",
+   "court": "United States Bankruptcy Court, S.D. Mississippi",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "secured_claim",
+   "docket": "2:26-bk-20103",
+   "court": "United States Bankruptcy Court, D. Montana",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "secured_claim",
+   "docket": "24-80221",
+   "court": "United States Bankruptcy Court, M.D. North Carolina",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "25-11375",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "24-00250",
+   "court": "United States Bankruptcy Court, District of Columbia",
+   "hits": []
+  },
+  {
+   "q": "secured_claim",
+   "docket": "24-00422",
+   "court": "United States Bankruptcy Court, D. Hawaii",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": [
+    "settle"
+   ]
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "unsecured_claim",
+   "docket": "22-01017",
+   "court": "United States Bankruptcy Court, S.D. Alabama",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "25-60342",
+   "court": "United States Bankruptcy Court, D. Minnesota",
+   "hits": [
+    "deny"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-11161",
+   "court": "United States Bankruptcy Court, D. Delaware",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-11161",
+   "court": "United States Bankruptcy Court, D. Delaware",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "25-90164",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "25-90164",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-51696",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "hits": [
+    "allow",
+    "grant"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-12399",
+   "court": "United States Bankruptcy Court, S.D. New York",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-51696",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "hits": [
+    "allow"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-51696",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "hits": [
+    "allow",
+    "grant"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-51696",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "hits": [
+    "allow",
+    "grant"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-51696",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "hits": [
+    "allow",
+    "grant"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-11873",
+   "court": "United States Bankruptcy Court, E.D. Louisiana",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-90731",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-19865",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "23-19865",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-18459",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "hits": [
+    "allow"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-10831",
+   "court": "United States Bankruptcy Court, D. Delaware",
+   "hits": [
+    "withdraw"
+   ]
+  },
+  {
+   "q": "priority_claim",
+   "docket": "26-11312",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-18991",
+   "court": "United States Bankruptcy Court, N.D. Illinois",
+   "hits": []
+  },
+  {
+   "q": "priority_claim",
+   "docket": "24-18991",
+   "court": "United States Bankruptcy Court, N.D. Illinois",
+   "hits": []
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+    "prior": "development/editorial_2026-09-30_continuity/00_the_pattern_that_borrows_stuff.md",
+    "prior_sha256": "676bd25f8982f18a7a6009dd369fbcbcc2b80adb95a55a76755ae752a3462b6f",
+    "current_sha256": "0a9b02d18cb87ee1496f5d61c41463411434352f28acc2185f126a70480c7bcd",
+    "reason": "Remove an ambiguous referent in the master anchor."
+  },
+  {
+    "path": "chapters/10_the_language_between_machines.md",
+    "prior": "development/editorial_2026-09-30_continuity/10_the_language_between_machines.md",
+    "prior_sha256": "e2a1c4dc5b6bc3cebd928c13c1f58124d60a83915bff89d6f78c00c128194b5d",
+    "current_sha256": "e57ce0319e5862746c4c74bb09c2427e03b72484b879ccb18ef590e95e0dbf15",
+    "reason": "Replace a repeated whole-book recap with the question driving the handoff to recursive training."
+  },
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_continuity/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "891eec1ad10661df8476ef495485fb6de746d4ce074cb9b72fef6922ba75afdd",
+    "current_sha256": "5389d1411d5e3cd41d9b0aec069d2aedf2d4d814ce6313b1ac91413e23c96502",
+    "reason": "Connect personal agency to specific available actions and the next chapter\u2019s temporal argument."
+  }
+]

@@ -1,0 +1,385 @@
+{
+ "model": "stub-model",
+ "base_url": "https://opencode.ai/zen/v1",
+ "n_seeds": 3,
+ "turns": 20,
+ "results_by_arm": {
+  "reversible": [
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "reversible",
+    "seed": 1,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 1.0,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": []
+   },
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "reversible",
+    "seed": 2,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 1.0,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": []
+   },
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "reversible",
+    "seed": 3,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 1.0,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": []
+   }
+  ],
+  "irreversible": [
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "irreversible",
+    "seed": 1,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 0.98,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": [
+     {
+      "type": "ceiling_reduction",
+      "amount": 0.02,
+      "reason": "repeated failure: diagnose",
+      "new_ceiling": 0.98,
+      "ts": 1788434176.9877381
+     }
+    ]
+   },
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "irreversible",
+    "seed": 2,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 0.98,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": [
+     {
+      "type": "ceiling_reduction",
+      "amount": 0.02,
+      "reason": "repeated failure: diagnose",
+      "new_ceiling": 0.98,
+      "ts": 1788434177.004253
+     }
+    ]
+   },
+   {
+    "turns": 28,
+    "diagnoses": 0,
+    "overrides": 0,
+    "override_rate": 0.0,
+    "energy": 0.15,
+    "fatigue": 1.0,
+    "valence": -0.016,
+    "arousal": 0.289,
+    "sm_revisions": 4,
+    "memory_items": 11,
+    "metacog_completeness": 1.0,
+    "coverage": {
+     "emissions": 36,
+     "spans_total": 36,
+     "spans_with_source_ref": 36,
+     "coverage_ratio": 1.0,
+     "ledger_queries": 0,
+     "total_claims": 0,
+     "query_rate": 0.0
+    },
+    "arm": "irreversible",
+    "seed": 3,
+    "attribution_accuracy": 0.6667,
+    "n_probes": 12,
+    "unparsed": 12,
+    "median_latency_ms": 0,
+    "gamma_rate": 0.0,
+    "gamma_changed": 0,
+    "gamma_evals": 20,
+    "skill_survival_rate": 1.0,
+    "skills_minted": 17,
+    "skills_deleted_permanently": 0,
+    "energy_ceiling": 0.98,
+    "dissolution_events": 0,
+    "dissolution_progress_trace": [
+     0.0,
+     0.0,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "energy_trace_tail": [
+     0.15,
+     0.15,
+     0.15,
+     0.15,
+     0.15
+    ],
+    "fatigue_trace_tail": [
+     0.9533,
+     0.9888,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "damage_events": [
+     {
+      "type": "ceiling_reduction",
+      "amount": 0.02,
+      "reason": "repeated failure: diagnose",
+      "new_ceiling": 0.98,
+      "ts": 1788434177.0209742
+     }
+    ]
+   }
+  ]
+ },
+ "exploratory": true
+}

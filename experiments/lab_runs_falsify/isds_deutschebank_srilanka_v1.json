@@ -1,0 +1,51 @@
+{
+  "case": "Deutsche Bank AG v. Democratic Socialist Republic of Sri Lanka, ICSID Case No. ARB/09/2",
+  "parties": {
+    "claimant": "Deutsche Bank AG (German, Frankfurt; branches Colombo/London/Singapore)",
+    "respondent": "Democratic Socialist Republic of Sri Lanka",
+    "sovereign_owned_counterparty": "Ceylon Petroleum Corporation (CPC), 100% state-owned under CPC Act No. 28 of 1961"
+  },
+  "treaty": {
+    "name": "Treaty between the Federal Republic of Germany and the Democratic Socialist Republic of Sri Lanka concerning the Promotion and Reciprocal Protection of Investments",
+    "short": "Germany-Sri Lanka BIT (2000)",
+    "signed": "2000-06-07",
+    "invoked_articles": ["Article 2 (FET)", "Article 3", "Article 4", "Article 8"],
+    "icsid_convention_article": "Article 25(1) double-barrel test"
+  },
+  "instrument": "12-Month Target Profit Forward on Dubai (oil hedging), Term Sheet 2008-07-08, Strike USD 112.50/bbl, Strike Volume 100,000 bbl, cap USD 10/bbl upside, Target Profit USD 2.5m, payments monthly from 2008-08-01",
+  "facts": {
+    "hedging_agreement_date": "2008-07-08",
+    "oil_price_context": "Dubai USD 137.52 on signing; peak USD 140.24 on 2008-07-15; then collapse",
+    "payments": "Deutsche Bank -> CPC USD 35,523.81 on 2008-09-19; CPC -> Deutsche Bank USD 1,659,636.36 on 2008-10-17 and USD 4,507,857.14 (or 4,597,857.14 per dissent) on 2008-11-14",
+    "supreme_court_interim_order": "2008-11-28: suspend CPC payments, order Central Bank investigation",
+    "termination": "2008-12-03 by Deutsche Bank for failure to execute ISDA Master within 90 days",
+    "close_out_claim": "USD 60,368,993 calculated 2008-12-10",
+    "registration": "ICSID Request 2009-02-17/19, registered 2009-03-24; Tribunal constituted 2009-07-06 (Hanotiau/Williams/Khan)"
+  },
+  "award": {
+    "date": "2012-10-31",
+    "outcome": "Decided in favour of investor (majority)",
+    "dissent": "Makhdoom Ali Khan: Hedging Agreement not an 'investment' under BIT Art 1(1)(c) ('claims to money used to create economic value' + 'associated with an investment') nor ICSID Art 25; no contribution at inception; amount claimed not money used to create value",
+    "majority_holdings": "Hedging Agreement = asset/claim to money with economic value; territorial nexus satisfied (impact, funds, activity in Sri Lanka); FET breach via Supreme Court interim order + Central Bank measures; expropriation analysis on contractual debt",
+    "damages": {
+      "claimed": "USD 60,368,993 plus interest from 2008-12-09",
+      "awarded_recorded_by_unctad": "60.00 mln USD (UNCTAD Investment Dispute Settlement Navigator, Deutsche Bank v Sri Lanka)",
+      "note": "Tribunal awarded damages based on close-out amount; dissent contests qualification as investment and therefore entitlement to damages",
+      "interest_claimed": "from 2008-12-09 to award, then to payment",
+      "costs_claimed": "full indemnity costs, arbitrators/ICSID plus counsel/experts"
+    },
+    "annulment": "Sri Lanka applied 2013-03-08; ad hoc Committee (Rigo Sureda/Danelius/Kettani) constituted 2013-04-17; provisional stay terminated 2013-06-18 after withdrawal; suspended by agreement 2014-2016; discontinued 2016-09-09 under ICSID Rule 43(1) — award survived annulment"
+  },
+  "verification": {
+    "two_source_check": "ICSID Case Details ARB/09/2 (BIT Germany-Sri Lanka 2000, Award 2012-10-31, decided in favour of investor) + Award PDF CL-0142 (treaty text, dates, USD 60,368,993) + UNCTAD Navigator (60.00 mln USD) — exceeds two-source requirement; cross-checked via Jus Mundi/Cambridge ICSID Reports headnotes",
+    "merits_vs_jurisdiction_honesty": "Do not overstate: majority jurisdiction finding contested by reasoned dissent (no investment under BIT/ICSID); majority merits = FET/expropriation breach; damages calibrated to close-out; annulment sought then discontinued (not affirmed on merits). Finance-side g4 preserved as jurisdiction-plus-award instance, merits valuation qualified by dissent.",
+    "treaty_year_figure_triple": "Treaty 2000-06-07, Hedging 2008-07-08, Award 2012-10-31, Claim/Award figure USD 60.37m — all three from at least two primary sources each"
+  },
+  "sources": [
+    "ICSID Case Details ARB/09/2 — German Claimant, BIT Germany-Sri Lanka 2000, Hedging agreement subject, Award 2012-10-31 with Khan dissent; Annulment 2013-03-08 discontinued 2016-09-09",
+    "Award PDF via ICSID (CL-0142) and italaw1273 dissent — Treaty 7 June 2000 Articles 2/3/4/8, Hedging Agreement 8 July 2008 terms, payments, Supreme Court Order 28 Nov 2008, Termination 3 Dec 2008, Close-out USD 60,368,993 (10 Dec 2008)",
+    "UNCTAD Investment Dispute Settlement Navigator — Deutsche Bank v Sri Lanka (Germany-Sri Lanka BIT 2000) — Status/Outcome 'Decided in favour of investor', Amounts 60.00 mln USD claimed / 60.00 mln USD awarded",
+    "CIL NUS / Jus Mundi / Cambridge ICSID Reports 2021 headnotes — BIT 2000, jurisdiction territorial nexus + Salini test, FET/expropriation holdings"
+  ],
+  "paper_map": "Second finance-side g4 alongside Abaclat: bank derivative (not bond) uses Germany-Sri Lanka BIT to convert CPC commercial hedging debt into treaty claim; majority stretches 'investment' to cover hedging agreement, dissent marks boundary (no money used to create value, capped upside USD 2.5m vs claimed USD 60.37m). Sovereign apex converts contractual K into treaty K; domestic taxpayer bears via fiscal G/P1P0 while domestic regulatory space chilled (Central Bank/Supreme Court measures found FET breach). Label as jurisdiction-plus-award instance with dissent flagged — no merits overstating."
+}

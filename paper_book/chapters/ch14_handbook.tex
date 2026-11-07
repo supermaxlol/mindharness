@@ -1,0 +1,37 @@
+\chapter{Executor's Handbook: Running a Reflexive Operation}
+
+\textit{For the reader who must operate inside the loop, not merely understand it. Every rule below is one organ made executable, with the brakes attached.}
+
+\section{Drift-gating a live predictor}
+
+You run a model whose outputs move the world it reads (Soros audit: deployed signals perturb the structure being modeled). Eight components, each one organ:
+
+\begin{center}
+\small
+\begin{tabular}{p{2.6cm}p{4.4cm}p{4.6cm}}
+\toprule
+Component & Implementation & Organ \\
+\midrule
+Regime gate & HMM/cluster over vol, concentration, funding extremes; size multiplier drops in unfamiliar regimes & Metaplasticity ($\theta_m$ slides) \\
+Drift battery & PSI/KS per feature; ADWIN/CUSUM on residuals; live-vs-backtest divergence as alarm & Damping / homeostasis \\
+Checkpoints & Versioned model + data snapshot before every deploy; atomic rollback & Reconsolidation window \\
+Replay retraining & Log every decision; nightly retrain prioritized by $|$error$|$ & Sleep consolidation \\
+Footprint monitor & Own fills vs forward markouts; scale back when eating own edge & Interoception \\
+Alpha-decay retirement & Rolling Sharpe decay vs ex-ante half-life; retire at floor & Active forgetting (LTD) \\
+Validator separation & Grading process $\neq$ trading process; weekly autonomous report & Prefrontal separation \\
+Kill criteria & Max drawdown, misclassification counts, staleness timeout --- written \textit{before} go-live & Apoptosis (pre-committed) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Design rules: hysteresis everywhere (alert-in above alert-out, or the system flaps at $\theta_m$); fast layer never writes slow artifacts (intraday calibration must not mutate weekly lineage --- E-LTP never edits the genome); graceful degradation over cliff edges (drift shrinks size stepwise; only kill criteria hard-stop).
+
+\section{Running a team, a desk, or a swarm on the same rails}
+
+Replace ``model'' with ``pod,'' ``desk,'' or ``agent swarm'' and nothing above changes except the clock speed. Regime gate becomes mandate guardrails. Drift battery becomes attribution review. Checkpoints become versioned prompts and configs. Replay retraining becomes the weekly counterfactual: what would we have done without the record, and what did it cost? Footprint monitor becomes market-impact or attention-impact accounting. Alpha-decay retirement becomes strategy sunset with a pre-committed half-life. Validator separation becomes the team that grades but never trades. Kill criteria become the apoptosis pact signed before the first profitable month, when everyone still agrees death is possible.
+
+\section{Running yourself on the same rails}
+
+Morning breath-anchor plus bare thought-labeling (5 min; the rep is \textit{detection}, not stillness). Midday defusion ladder plus leaves-on-stream (10 min, splittable; rate believability 0--10). Evening one-line tomorrow-plan then deliberate close --- you choose tonight's replay-buffer contents, since sleep consolidates what's tagged near bedtime. Two safety rails: if mood is clinically low, behavioral activation outranks everything; and observing that becomes analyzing-the-analysis is rumination in costume --- exit always to breath/body data, never deeper into commentary. First run two weeks of pure observation with no intervention (shadow phase: collect divergences before tuning anything), then intervene on one loop at a time.
+
+\textit{Grade: analogical where mapped across substrates, measured where each instrument is named (ADWIN, PSI/KS, SHY, MBCT). The handbook is a transfer device, not a trial.}

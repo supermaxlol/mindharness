@@ -1,0 +1,16 @@
+[
+  {
+    "path": "chapters/06_the_cost_that_would_not_stay_buried.md",
+    "prior": "development/editorial_2026-09-29_public_border/06_the_cost_that_would_not_stay_buried.md",
+    "prior_sha256": "d2ac41d0bd81dbd5de0f6b6afb7593a6ff98109e402e6215ff6e97029dc3e946",
+    "current_sha256": "bede59b3dd1056fbff393edf4f2b0ddd5fc224ea4b7ccaf290f4fb86fafd1779",
+    "reason": "Trace the separate cash and risk paths, translate stored loss with an explicit valuation gap, clarify the combined rescue account, and move correction history into notes."
+  },
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-29_public_border/07_the_border_that_moved.md",
+    "prior_sha256": "ea4ddadc9d620dccf4bd20702a69505508fb6bd3b939325f9f832d6e58dd9e52",
+    "current_sha256": "7d441df379108b82e4ad8c6b47fd3dc03dfbc50ff4bc4f1cad7c64328ad68ea7",
+    "reason": "Make treaty standing and state liability carry the narrative, work the hedge asymmetry, and connect regulatory delay and survival clauses to inherited promises."
+  }
+]

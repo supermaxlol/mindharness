@@ -1,0 +1,27 @@
+{
+ "market": {
+  "2024": "$81B (near-record; $80.4B/103 deals ABF)",
+  "1H25": "$35B",
+  "early25": "$22.4B +60% YoY",
+  "surge_23_24": "+500% institutional",
+  "peak_2Q24": "183 deals $57.58B",
+  "HY_entry": "91% loans, bonds rising (7.36% vs 8.38%)"
+ },
+ "academic_NBER_w33435": {
+  "LBOs": 61628,
+  "recaps": 1572,
+  "pct_deals": 2.6,
+  "pct_vol": 9.3,
+  "GPs_ever": 36,
+  "est": 43
+ },
+ "academic_Gupta_UNC2024": {
+  "peak_2004": "15% of LBOs",
+  "post_crisis": "5-10%, 100-200/yr",
+  "method": "causal estimates on company/employees/creditors"
+ },
+ "anecdote": {
+  "Dorna_Bridgepoint": "3 recaps EUR2B 2011-2018"
+ },
+ "grade": "market measured (PitchBook/LCD via trade press); academic measured (NBER WP); single-deal >100% still anecdotal"
+}

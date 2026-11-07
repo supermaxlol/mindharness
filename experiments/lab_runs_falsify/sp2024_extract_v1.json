@@ -1,0 +1,14 @@
+{
+ "source": "S&P 2024 Annual via Tavily extract of maalot PDF mirror (curl 403 hotlink-proof), retrieved 2026-09-24",
+ "headlines": {
+  "defaults_2024": 145,
+  "defaults_2023": 153,
+  "distressed_share": "~60% (59.3%)",
+  "spec_grade_rate": "3.9% (from 3.7%)",
+  "us_defaults": 97,
+  "us_share_debt": 211.7,
+  "consumer_service": 33,
+  "ccc_share": "91.7% rated CCC+ or below pre-default"
+ },
+ "grade": "secondary extract (not PDF bytes); numbers cross-check with 2025 Annual already held"
+}

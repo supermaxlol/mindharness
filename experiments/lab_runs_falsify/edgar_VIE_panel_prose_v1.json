@@ -1,0 +1,19 @@
+{
+ "JPM_2010": {
+  "acc": "000095012311019773",
+  "note": "Note 16, 4-prong sponsored VIE; conduit max exposure $24.8B (2009), XBRL $27.8B (2010)"
+ },
+ "BofA_2010": {
+  "acc": "000095012311018743",
+  "note": "Jan 1 2010 consolidation guidance: +$100.4B assets ($69.7B card trusts + $30.7B SPEs incl multi-seller conduits), +$106.7B liab ($84.4B LTD), $6.2B retained-earnings charge. K moved back on-book."
+ },
+ "Citi_2010": {
+  "acc": "000120677411000316",
+  "note": "Mortgage securitizations = VIEs, max exposure = carrying amount; Omni Trust CPFF $2.5B (2009); SFAS 166/167 adopted Jan 1 2010, QSPE eliminated."
+ },
+ "Wells_2010": {
+  "acc": "000095012311018541",
+  "note": "No VIE/securitization vehicles disclosed; on-balance whole-loan model. XBRL VIE $0. K fully on-balance."
+ },
+ "reading": "2010 = the on-balancing year (SFAS 166/167): BofA +$100B, Citi QSPE end, JPM conduits persist off-book $24-28B, Wells never played. Distribution matches crisis severity."
+}

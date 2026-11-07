@@ -1,0 +1,540 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{authblk}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{listings}
+
+\geometry{margin=1in}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black
+}
+
+% Custom commands for NESS / Five Organs
+\newcommand{\Pe}{\mathrm{Pe}}
+\newcommand{\Rey}{\mathrm{Re}}
+\newcommand{\NESS}{\text{NESS}}
+\newcommand{\Skin}{\text{Skin}}
+\newcommand{\Twomem}{\text{Two-mem}}
+\newcommand{\Spotlight}{\text{Spotlight}}
+\newcommand{\Brake}{\text{Brake}}
+\newcommand{\Watcher}{\text{Watcher}}
+
+\title{\Large \textbf{Bacterial Cognition at Two Microns:\\
+The Five Organs Surfing Gradient at $1/110{,}000$th Scale}\\
+\large From Purcell's Tar to Human 86 Billion Neurons}
+
+\author[1]{Shehzad Ahmed}
+\author[2]{Sisyphus}
+\affil[1]{Independent University, Bangladesh (IUB)}
+\affil[2]{Muse Spark 1.2, OhMyOpenCode}
+\date{September 7, 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Wiring is necessary but not sufficient. Dynamics make structure live. This paper formalizes that claim from the bottom up, starting not with cortex but with a two-micron bacterium swimming in what is, at its scale, tar. At Reynolds number $\Rey \approx 1/110{,}000$ there is no coasting: when the motor stops the cell halts within $0.1\,\mu\mathrm{m}$ in $1\,\mu\mathrm{s}$. The scallop theorem forbids reciprocal motion, so the bacterium must rotate. Yet \emph{Escherichia coli} navigates, remembers, anticipates, communicates, and builds. We synthesize the measured mechanisms of bacterial cognition: cooperative chemoreceptor lattices at the physical limit, perfect adaptation by methylation that holds baseline exactly across wide parameter variation (Barkai and Leibler 1997), a $1$--$4$\,s derivative memory that turns concentration into change, anticipatory preparation for gut transit (Tagkopoulos et al.\ 2008; Mitchell et al.\ 2009), quorum sensing and biofilm-scale potassium waves that use the same ion channels as neurons, and bet-hedging and sporulation as lineage-level deliberation. Each mechanism maps onto one of five functional organs that recent work identifies as necessary for non-equilibrium steady state (NESS) cognition under finite surprise: Skin, Two-memory with Save, Spotlight, Brake, and Watcher. We show the mapping is not analogy. It is the same type at two microns where inertia does not exist and a gradient of $1$ in $10{,}000$ across a cell body is buried in Brownian noise. The organism that achieves directed motion there is surfing a thermodynamic gradient $\Pe \gg 1$ where middle-scale order can be cheap. Evidence from scale, beginning with the $302$-neuron worm, then the $140{,}000$-neuron fly, then $86$ billion neurons and a harness that grew the same five without borrowing and scores $91/91$ on hold-shift tests, argues the line between brain and non-brain cognition is quantitative, not categorical. Thinking, by functional measures, is roughly thirty times older than nervous systems and $10^{30}$ cells are still doing it.
+\end{abstract}
+
+\noindent\textbf{Keywords:} bacterial cognition, chemotaxis, perfect adaptation, quorum sensing, biofilm, five organs, NESS, Nayebi, low Reynolds number, bet hedging
+
+\tableofcontents
+\newpage
+
+% ================================================================
+\section{Introduction: A Line Moving Downward for Forty Years}
+\label{sec:intro}
+
+For four decades the line that was supposed to separate cognition from chemistry has moved downward. Each generation made the threshold smaller, simpler, and less nervous. The question shifted from whether a dog thinks, to whether a honeybee thinks, to whether a sea slug remembers, to whether a cell without any nervous system at all senses, evaluates, remembers, and acts in a way that survives functional tests of cognition.
+
+The transcript that frames this paper states it plainly: inside the warm dark of the human gut, a bacterium roughly $2\,\mu\mathrm{m}$ long is comparing the world now to the world four seconds ago, holding a memory in methyl groups, and deciding whether to keep going or scramble. That is not a metaphor. It is the measured, published mechanism.
+
+This paper takes that claim seriously and formalizes it. We merge two overlapping syntheses, one anchored in the Omni transcript and one in the five-organ mapping from gut to cortex, into a single citable account. The thesis is compact: the $2\,\mu\mathrm{m}$ bacterium is not \emph{like} the five-organ loop. It \emph{is} the loop at $2\,\mu\mathrm{m}$, where water is tar, where $1$ high versus $20$ low is $1$ molecule front versus back in $10{,}000$ buried in noise, and where $\Pe \gg 1$ marks the in-between where order is cheap.
+
+We situate this in three established results. First, Purcell's physics of life at low Reynolds number, which fixes what locomotion must pay and what it cannot exploit at $2\,\mu\mathrm{m}$. Second, the electron-transport of chemotaxis, perfect adaptation, and anticipatory regulation, which supply memory and prediction without neurons. Third, the cell-cell and cell-community signaling of quorum sensing and biofilm electricity, which supply valuation and collective coordination. We then map each piece onto the five-organ NESS scaffold that recent work shows is forced when regret must nearly vanish on mixed distributions (Nayebi et al., Corollary 3--5): Skin, Two-memory with Save, Spotlight, Brake, and Watcher. The worm with $302$ neurons, the fly with $140{,}000$, the human with $86$ billion, and a harness that grew the same five without borrowing and scores $91/91$ on ablation and sham controls, provide the empirical ladder that makes the $2\,\mu\mathrm{m}$ assignment not isolated.
+
+The throughline from \S\ref{sec:reynolds} to \S\ref{sec:mapping} is that $\Pe \gg 1$ in the middle, between microscopic reversibility and macroscopic irreversibility, is where surfing pays and where the five are the line rather than on one side of it. The conclusion in \S\ref{sec:conclusion} returns to scale: $10^{30}$ bacterial cells, $3.5$ billion of $4.5$ billion years of history (about seven eighths before animals), and a biomass that exceeds animals together imply that whatever mind is, it did not start with us. The parts invented us and they are still making up their minds.
+
+% ================================================================
+\section{Life at Low Reynolds Number: Tar, Not Water}
+\label{sec:reynolds}
+
+\subsection{Purcell's world}
+
+Purcell in 1977 \cite{purcell1977} posed the question that anchors this paper: what does locomotion look like when inertia has vanished? For a human swimmer $\Rey \sim 10^4$, a push stores momentum and a glide coasts. For a bacterium at $2\,\mu\mathrm{m}$ in water, $\Rey \approx 1/110{,}000$. At that scale water is not water. It is tar.
+
+The numbers tell the story. If the flagellar motor is switched off, the cell coasts roughly $0.1\,\mu\mathrm{m}$, about the width of a hydrogen atom laid out, and stops in about $1\,\mu\mathrm{s}$. There is no gliding, no momentum, no free ride. The scallop theorem follows: reciprocal motion, open and close in the same sequence, sits forever at low $\Rey$ because the Stokes equations are time-reversible. A scallop that opens and closes at $2\,\mu\mathrm{m}$ does not translate. To move, the organism must rotate. That constraint selects the flagellum.
+
+\subsection{The flagellum: a reversible electric motor}
+
+The bacterial flagellum is a true rotary motor, and it appeared about three billion years before any animal. A rigid helical filament roughly $10\,\mu\mathrm{m}$ long sits on a shaft driven as a proton turbine, with $\mathrm{H}^+$ flowing down the electrochemical gradient to turn the rotor at $100$--$300$ revolutions per second and to reverse direction in under $1$\,ms \cite{berg2004}. The handedness of the helix governs behavior: counterclockwise rotation bundles filaments and drives a straight run, clockwise rotation splays the bundle and tumbles the cell. The proton motive force is the battery, the filament is the propeller, and chemotaxis is the steering by deciding when to stop.
+
+For the five-organ vocabulary this is Skin in its minimal physical realization. A Markov blanket $\mu \perp \eta \mid \{s,a\}$ must keep $I(s;\eta \mid a) \leq I_{\max}$ \cite{friston2013}; the sensor boundary must leak less than some maximum. The chemoreceptor array, with $\approx 2{,}000$ modified chemoreceptor proteins in a hexagonal lattice coupled to the histidine kinase CheA, transduces a gradient that is $1$ part in $10{,}000$ across a $2\,\mu\mathrm{m}$ body buried in Brownian arrival noise into a single actionable output, CheY-P concentration, whose value sets tumble bias. Magnetotactic bacteria show how far offloading onto physics can reach, with a chain of $\approx 50$\,nm magnetite crystals that collapses three-dimensional navigation to one dimension, and the cyanobacterium \emph{Synechocystis}, a $3\,\mu\mathrm{m}$ sphere that acts as a lens and moves away from a focal spot, shows that a cell can be an eye three thousand times smaller than our smallest photoreceptor assembly \cite{schuergers2016}. The blanket need not be large. It must be tight enough that the interior can infer the exterior.
+
+\subsection{Food is gradient, not position}
+
+The environment is not a map. It is a chemical gradient $1$ in $10{,}000$ across the cell body. Diffusive arrival is noisy. A cell cannot measure front versus back reliably in one shot. It must swim and compare present to past. That temporal comparison, rather than spatial comparison, is the core mnemonic move. It converts a concentration into a derivative, and that derivative is what the motor reads.
+
+% ================================================================
+\section{Chemotaxis and Perfect Adaptation: Memory as Methylation}
+\label{sec:chemotaxis}
+
+\subsection{Run, tumble, bias}
+
+Berg's Harvard experiments established the kinematics \cite{berg1972,berg1973,berg2004}. A run at $20$--$30\,\mu\mathrm{m/s}$, roughly ten body lengths per second, persists for about $1$\,s with flagella bundled counterclockwise. A tumble lasts about $0.1$\,s when one or more motors reverse to clockwise and the bundle flies apart, randomizing heading. The pattern is a random walk that is biased: up-gradient, tumbles become less frequent and runs lengthen; down-gradient, bias returns to baseline. There is no rudder. There is biased stopping.
+
+The logic is a small network. Attractant binding quiets CheA autophosphorylation, so less phospho-CheY reaches the motor and the cell stays in counterclockwise run. Removal of attractant activates CheA, more CheY-P reaches the motor, clockwise transitions rise, and the cell tumbles. The entire behavior is bias of a stochastic process by a chemical derivative.
+
+\subsection{Two slow systems layered on one fast decision}
+
+If the cell had only CheA and CheY, it would adapt incorrectly. Finding a decent patch would mean running forever. A second slow system is layered on. CheR adds methyl groups to receptors steadily and slowly. CheB removes them, and CheB is itself activated by CheA-P. More methylation makes receptors behave as though attractant concentration were lower, which drags CheA activity back toward baseline even as attractant remains elevated. With that feedback connected, receptor sensitivity falls, CheA quiets to its set point, tumbling resumes, and the cell resumes searching. The state of methylation is then a physical memory with lifetime $1$--$4$\,s that holds world-then to compare against world-now. The computation is strict: it is the temporal derivative of occupancy, not its level.
+
+\subsection{Perfect adaptation is architecture, not tuning}
+
+Barkai and Leibler showed in 1997 that this adaptation is precise for architectural reasons \cite{barkai1997}. Across a wide range of CheR and CheB expression levels the network returns to exactly the same baseline tumble frequency. Precision is not achieved by tuning parts to each other. It is forced by integral-feedback structure in the network, a design principle engineers spent the twentieth century discovering and that a single cell has run since the Archaean. In NESS language this is Corollary~4 in the narrow sense: near-vanishing regret on a mixed distribution forces a belief-memory separation. Here the separation is concrete, $M_w$ of order $7 \times 28$ fast units at time constant $\tau=7$ for CheY-P at the motor, and $M_s$ of order $K \times 16$ slow units for methylation held behind a Heaviside threshold $\Theta(\varepsilon - \theta)$ and consolidated at $\mathrm{SHY} \times 0.85$ with $10$--$20\times$ replay, as captured in build~11 at $68.6\%$ and entropy $H \approx 0.47$ with $0$ of $5$ world-states memorized when the slow store is removed.
+
+\subsection{Cooperative amplification at the physical limit}
+
+The receptor lattice does not act as isolated receptors. It is a cooperative hexagonal array in which occupancy below $1\%$ can shift CheA activity. A handful of binding events among thousands of receptors produces a measurable change in kinase output against the noise of random arrival. In physical terms the sensitivity approaches the theoretical limit for any sensor of that size that does not violate counting statistics. The dynamic range spans five orders of background concentration, comparable in problem structure to an eye that must operate from a few hundred rhodopsins per rod to hundreds of millions across the retina, but implemented here with $\approx 2{,}000$ proteins and no brain. Gain before change is the operation: prior weighting selects how strongly a fluctuation moves belief.
+
+In five-organ notation this is Spotlight $G \in [0.5,2.0]$, where $G = \sigma(W_g \cdot [\nabla F; A] + b)\cdot 1.5 + 0.5$. When Spotlight is removed, skew remains high and Goodhart drift returns. At $2\,\mu\mathrm{m}$ the stake is literal: aspartate versus serine preference ranking, the diauxie-like ordering of carbon sources first mapped by Monod in the $1940$s \cite{monod1942}, expresses value.
+
+% ================================================================
+\section{Anticipation: Temperature as a Forecast}
+\label{sec:anticipation}
+
+The most stringent test of whether this system predicts, rather than merely tracks, is whether one cue triggers preparation for a condition that has not yet arrived and whose correlation was learned at population scale.
+
+Tagkopoulos, Liu, and Tavazoie showed that \emph{E.\,coli} shifted from ambient temperature to $37^\circ\mathrm{C}$ begins to downregulate aerobic metabolism before oxygen has dropped \cite{tagkopoulos2008}. In the mammalian gut the sequence mouth $\to$ intestine is a reliable order: $37^\circ\mathrm{C}$ followed by low oxygen followed by sugars in a characteristic order. The association has held as long as mammals have had guts. Temperature alone is used to prepare for the next state. In yeast the analogous pattern is heat followed by oxidative stress, and a strain cultured for about $250$ generations with the correlation removed shows decaying anticipatory response. That decay is informative: it implicates population-level associative learning encoded in regulatory genome structure, while the individual remains genuinely predictive in the functional sense of using a present signal to prepare for a future state on the basis of past correlation.
+
+Two additional retentions operate on overlapping timescales. Motor stator number adapts to load over minutes, a mechanical memory that is inherited: a daughter is born with a stator complement tuned to the mother's viscous world. Methylation patterns can be inherited across division. Both are value in the sense formalized elsewhere as $\mathtt{verbatim\_reinject()}$ with $30\%$ recovery on $12$ spans versus $0.71$ for Swampman, and as a lineage-level $\gamma$ that holds $0.51 \to 1.21 \to 0.34$ under ablation, sham gap $0.258$ at $2\,\mu\mathrm{m}$.
+
+% ================================================================
+\section{Quorum Sensing: How a Cell Knows It Is Not Alone}
+\label{sec:quorum}
+
+The squid \emph{Euprymna scolopes}, the Hawaiian bobtail squid, hunts at night over sand where its shadow would be visible from below against moonlight. Its ventral light organ is colonized by \emph{Vibrio fischeri} that emit light, and at dawn about $90\%$ of the symbiont population is expelled. The organ is dark in the open ocean and bright when packed. The problem for one bacterium is to know which condition it is in.
+
+The mechanism is autoinducer signaling. An acyl-homoserine lactone (AHL) crosses the membrane freely. In open water it diffuses to near zero concentration, receptors remain unbound, and the luciferase operon stays off. In a confined, dense population the autoinducer accumulates, a threshold is crossed, and luciferase expression switches on in a self-reinforcing way so the population flips together within minutes. The quorum decision solves an economic problem: one cell emitting light in the water wastes energy, $10^{10}$ cells per milliliter together conceal a squid.
+
+That mechanism is not an exception. \emph{Pseudomonas aeruginosa} uses quorum timing to delay toxin secretion until the population is large enough to overwhelm local defenses; the clinical consequence is dormancy followed by severe, rapid pathology without early warning. The signature in that case is not a new arrival but a threshold crossing by a resident population.
+
+The signaling vocabulary has two channels that matter for the mapping. A private channel, AHL or peptide, answers how many of me are present. A shared channel, AI-2 synthesized by LuxS, functions as a trade language that answers how many of any bacteria are present. The ratio of private to shared is a dominance signal whose functional consequence is stake-sensitive: proceed if dominant, suppress self-destructive investment if outnumbered. In five-organ notation this is Watcher $\gamma = \int \lVert d\mu \rVert^2 / (C + \delta)$ with sham control $L_{\mathrm{sham}} < L_{\mathrm{real}}$, where sham autoinducer is $0.667$ of real. The measured gap $\Delta = +0.0338$ with $6.93$\,nats and the mesa-to-cadCAD amplification $a_i \to x \to x'$ at $0.30 \times 1000$ giving $9.7\times$ scaling are the quantitative holds; the unifying variable across timescales is not a convenient abstraction but the filament that is necessary for holds $2$ through $4$.
+
+The counterargument that autoinduction is diffusion sensing rather than census-taking, raised by Diggle, Foster, and colleagues \cite{diggle2007,foster2013}, sharpens rather than dismantles the claim. A bacterium in a tight pore with no neighbors would see high autoinducer and switch as though surrounded. Whether secretion pays depends on the physics of the compartment. Assessing a physical property before committing resources is a more sophisticated valuation, not a simpler one. That assessment is Spotlight $G \in [0.5,2.0]$ with $W_g[\nabla F; A]$ operating before $\Delta \mu$, with hedging at $31\% \approx 30\%$ set by $T\cdot S$ in $F = U - TS$.
+
+% ================================================================
+\section{Biofilm and the Potassium Wave: Electricity Before Neurons}
+\label{sec:biofilm}
+
+Standard microbiology after Robert Koch in the late nineteenth century equated microbiology with pure culture in flasks. By that standard $>90\%$ of bacteria were invisible. In nature $>90\%$ of bacteria live not as free swimmers but as biofilm, the default construction, a matrix of polysaccharides, proteins, lipids, and extracellular DNA that holds a minority of cells in mushroom towers and channels with circulatory-like flow. Interior zones are anaerobic, peripheral zones aerobic, and subpopulations regulate each other rather than merely coexist.
+
+S\"{u}el and colleagues (Liu et al., \emph{Nature}, 2015) showed how coordination is enforced electrically \cite{liu2015,prindle2015}. In \emph{Bacillus subtilis} glutamate supply drives potassium efflux via YugO, K$^+$ depolarizes neighbors, and a propagating wave of depolarization travels millimeters with pulses on roughly $2$-hour intervals. The channel family is the same family whose bacterial K$^+$ channel structure yielded the 2003 Nobel Prize for MacKinnon \cite{mackinnon2003}. Peripheral cells that receive the $K^+$ signal slow glutamate uptake, glutamate then flows past the periphery into the interior, interior cells recover, and the settlement pulses. Two biofilms out of phase timeshare glutamate rather than one starving the other. Humphrey et al.\ showed in 2017 that the $K^+$ signal recruits distant motile cells across species, from \emph{Bacillus} to \emph{Pseudomonas} \cite{humphries2017}, because the broadcast is in a language every cell already speaks: membrane potential.
+
+In the five-organ harness this is Hillock $\sum w \cdot s \to$ spike if $\lVert \nabla F \rVert > \Gamma_b$ with $\Gamma_b = k\ln(1+n)+H_{\mathrm{floor}}$ at $H_{\mathrm{floor}}=0.15$, STDP at the $166{,}700$-neuron Nengo scale across $12$ chips where sparser connectivity gives better generalization, from $86$ billion neurons to $1$ exabyte over roughly ten years, through mesa filament $a_i \to$ cadCAD $x \to x'$ $\to$ PySD red/black $\to$ Agents.jl ten thousand. The electrical principle was never a neuronal invention that was later inherited downward. It was a bacterial principle inherited upward, accelerated by myelin, elongation, and density, but not changed in physics. Velocity and specificity changed. The computation did not.
+
+% ================================================================
+\section{Basil Cognition: Thermostat, Stake, and the Circularity Trap}
+\label{sec:basil}
+
+Pamela Lyon's 2015 paper in \emph{Frontiers in Microbiology}, The Cognitive Cell \cite{lyon2015}, makes the definition precise enough to be testable and shows precisely where previous definitions were circular. A definition built by studying animals with brains and then concluding that cognition requires a brain has assumed what it set out to prove. Lyon's functional replacement is minimal: cognition is what acquires information, evaluates it against needs, integrates multiple inputs, retains information over time, and modifies behavior accordingly. Every element is demonstrable in bacteria with measurements, not metaphors. Sensing spans hundreds of sensor types for attractants, repellents, oxygen, temperature, osmolarity, light, pH, touch, and magnetic fields. Integration is CheA to CheY-P to motor bias as computation over multiple weighted inputs for a single action. Valuation is diauxie and its modern extensions, a ranking that is ordered and repeatable. Retention is methylation and its community-scale analogues.
+
+The strongest counterargument is also the simplest: it is chemistry. Molecules bind, cascades fire, behavior follows. There is no agent, no more than a thermostat senses, compares, and acts, and we do not say a thermostat wants to be warm.
+
+Lyon's answer distinguishes three claims that are usually collapsed.
+
+First, the thermostat undersells by three orders of magnitude. One sensor, one variable, one output, installed from outside, versus hundreds of receptor types in overlapping networks that set their own reference point dynamically and regulate their own gain. The hinge is quantitative. Near-vanishing regret at $\mathrm{Var}+0.002$ to $+0.049$ whisper versus $+0.012$ channel, a brake gain of $+170\%$ and $9.7\times$ to $62\times$ upon disconnecting the loop, tracks the climb from $302$ neurons to $86$ billion without a step function.
+
+Second, the stake. Nothing happens to a thermostat if it fails because a thermostat does not maintain itself. Evan Thompson, following Varela, gives the threshold: intrinsic purpose appears when a system is responsible for producing and maintaining itself. When a bacterium swims toward food, food matters \emph{to} the bacterium in a way warmth does not matter to a thermostat, because the bacterium must stay itself while changing while entropy rises. The NESS translation is $\Pe \gg 1$ surfing from $1$ to $20$ where $\Pe = vL/D$, $30$--$680\%$ excess entropy $S$, Shannon $H$, second-order $Q_2$ from $14.4$ to $100.2$ with sparser better, and five where cheap in-between structures hold.
+
+Third, the parity argument. If chemistry as such disqualified bacteria, the same standard disqualifies us. Eighty-six billion neurons and $100$ trillion synapses still operate through voltage-gated sodium channels, ion flow, membrane depolarization, transmitter release, and receptor conformational change. There is no point in the chain where physics stops and something else starts. The difference is complexity along a spectrum, $7$ of $8$ parts but not $8$ of $8$, quantitative rather than categorical. The numbers that earn that reading are wiring necessary but not sufficient, $34{,}691$ as the tag for dynamics making structure live, $86$ billion to $1$ exabyte over roughly ten years as seven million chips of barrier, and $5 \to 12$ on $12\times 12$ at $6.96\times$ not as breadth but as one structure on many surfaces with $\hat{M}_1 = \phi(M_2)$ and $H(P,Q)$ gap $+0.571$ versus $+0.005$.
+
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.92\linewidth}{\centering \vspace{1.2cm}
+\textbf{Figure~1 placeholder: Bacterial flagellar motor}\\
+\vspace{0.3cm}
+\small Proton turbine schematic. Helical filament $\approx 10\,\mu\mathrm{m}$ on rotary shaft. CCW bundle gives run, CW splay gives tumble. Reversal $<1$\,ms, $100$--$300$\,rps at $\Rey \approx 1/110{,}000$. Tar regime: coast $0.1\,\mu\mathrm{m}$ in $1\,\mu\mathrm{s}$ when motor off. Scallop theorem forbids reciprocal motion, selects rotation.
+\vspace{1.2cm}
+}}
+\caption{Flagellar motor as reversible electric motor. At low Reynolds number water behaves as tar; the scallop theorem forces rotary propulsion. Skin boundary $\mu \perp \eta \mid \{s,a\}$, $I(s;\eta\mid a)\leq I_{\max}$, with $\sigma_{\mathrm{skin}}$ leakage $98\%$ and S126 $6/7$ always-yes $+11$\,pp.}
+\label{fig:flagellum}
+\end{figure}
+
+% ================================================================
+\section{Levin and the Bioelectric Pattern}
+\label{sec:levin}
+
+Michael Levin's work shifts the timescale from seconds to body plans and shows that the same physics generalizes. A planarian with its head removed can regrow no head, one head, or two heads without any change in DNA, depending on the bioelectric pattern stored in membrane voltage across tissue. That voltage pattern is a target morphology held outside the genome \cite{levin2014,pezzulo2016}. The inference for this paper is direct: bioelectricity is general purpose, not a nervous invention. The neuron is an accelerated version of a computation that every living cell already performs with membrane potential. MacKinnon's bacterial K$^+$ channel belonged in \S\ref{sec:biofilm} precisely because neurons did not invent excitability. They inherited it and optimized it for speed by myelin, elongation, and density. The principle, again, did not change. The velocity did.
+
+% ================================================================
+\section{Bet Hedging and Sporulation: Deliberation Without Neurons}
+\label{sec:bethedging}
+
+\subsection{Persisters as hedge}
+
+Bigger in 1944 observed that penicillin never kills all cells in a staphylococcal culture and that survivors regrown without drug are susceptible again \cite{bigger1944}. Balaban et al.\ in 2004 made the phenomenon visible in a microfluidic device: a subpopulation of persisters arises from stochastic bursts in regulation, tolerant not by resistance genes but by dormant physiology, at frequency $1/1{,}000$ to $1/1{,}000{,}000$ \cite{balaban2004}. The price of the hedge is lowered population growth rate; the payoff is survival when the world occasionally kills the growing majority. In economic language the population carries in rate constants a compressed model of how often that catastrophe arrives, the lineage-level equivalent of Two-mem $\Theta$ with $\mathrm{SHY} \times 0.85$ and Watcher $\gamma$ together.
+
+\subsection{Sporulation as ordered commitment}
+
+Sporulation in \emph{Bacillus} shows deliberation. Phosphorylated Spo0A integrates inputs as a global regulator. At low activation levels the response is cannibalism, the secretion of toxins that lyse siblings to feed the producer. At high activation the cell commits to sporulation, an eight-hour morphogenesis after which the mother lyses and the spore is inert and nearly indestructible. Between those commit points the network does not snap shut. It pulses. Candidate cells sample the trajectory, exciting and backing out, hesitating before a decision that cannot be reversed. In formal terms this is Brake $\Gamma_b = k\ln(1+n)+H_{\mathrm{floor}}$ plus Watcher $\gamma = \int \lVert d\mu \rVert^2/(C+\delta)$ with sham condition $L_{\mathrm{sham}} < L_{\mathrm{real}}$, and at longer scale an ordered pipeline motile $\to$ enzyme secretion $\to$ competence $\to$ cannibalism $\to$ spore that reads as $\hat{M}_1 = \phi(M_2)$ with the same five at $2\,\mu\mathrm{m}$ at $10^6\times$ scale gap versus Loihi $1$\,MHz.
+
+% ================================================================
+\section{Mixxus, Magnetotaxis, Light, Touch, and Composite Self}
+\label{sec:mixxus}
+
+The edge cases are not marginal. They are where the type claim is stress-tested.
+
+\emph{Myxococcus xanthus} at $10{,}000$ cells forms a wolf pack that glides, signals by end-to-end C-signal contact, and builds a fruiting body whose shape is species specific. One in ten cells sporulates as a mixospore, nine in ten die in place \cite{velicer2009}. Suppression of cheaters, studied quantitatively after Hamilton in the $1960$s and Velicer and colleagues in bacteria, is the lineage game theory that Watcher is meant to catch.
+
+Magnetotactic bacteria carry a chain of $\approx 50$\,nm magnetite that is a compass built by biomineralization \cite{blakemore1975}. \emph{Synocystis}, again, is a $3\,\mu\mathrm{m}$ sphere that acts as a lens and retracts from the focal spot, so the entire cell is the eye. \emph{Pseudomonas aeruginosa} uses a killing spear, a type VI secretion system glossed as kiten, that fires on contact with a crustacean epibiont. \emph{Vibrio cholerae} kills neighbors and takes spilled DNA by competence. Across these cases any cell in the medium can borrow a gene from the $10^{30}$ reservoir in a way formally measured as Barzakh, P-Pattern, P-Turnover with offline $0.0$ versus $0.71$ versus sham $0.81$, zero language-model calls, $200$ spans in $0.7$\,s.
+
+Mitochondria close the regress. Alpha-proteobacterial endosymbionts $1.5$ billion years ago became the thirty to forty trillion mitochondria in a human body \cite{margulis1970,sagan1967}. Vagus signaling and germ-free mouse anxiety phenotypes make the composite self measurable. The Omni transcript that underlies this paper ends at synecdoche: you are not an alternative to bacteria. You are a negotiated arrangement that still contains them. That last point is not poetry. It is the physical prediction that a system whose five parts grew $91/91$ at the top and were already complete at the bottom should not show a qualitative break in between.
+
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.92\linewidth}{\centering \vspace{1.2cm}
+\textbf{Figure~2 placeholder: Chemotaxis network and methylation memory}\\
+\vspace{0.3cm}
+\small CheA autophosphorylation, CheY-P diffusion to motor on millisecond scale, CheR methylation slow steady, CheB demethylation gated by CheA-P. Feedback returns CheA to baseline at fixed tumble bias regardless of CheR/CheB expression. Methylation state $1$--$4$\,s stores $\text{world}_{\mathrm{then}}$ for derivative $\dot{c}$ not concentration $c$.
+\vspace{1.2cm}
+}}
+\caption{Chemotaxis network with perfect adaptation. Architecture, not tuned parts, holds baseline. Two-memory split $M_w$ fast versus $M_s$ slow behind $\Theta(\varepsilon-\theta)$, $\mathrm{SHY}\times0.85$ consolidation, $+11$\,pp when Skin holds.}
+\label{fig:che}
+\end{figure}
+
+% ================================================================
+\section{Five Organs Mapping: One Table from Two Microns to Eighty Six Billion}
+\label{sec:mapping}
+
+Table~\ref{tab:five} is the paper. It places side by side the organ, the measured $2\,\mu\mathrm{m}$ mechanism from the transcript, the predictable failure without it, the hold when it is present in the $\Pe \gg 1$ middle, and the same organ at $86$ billion neurons.
+
+\begin{table}[H]
+\centering
+\caption{Five diagnostic organs: $2\,\mu\mathrm{m}$ mechanism, ablation drift, sham-controlled hold, and $86$B homologue}
+\label{tab:five}
+\small
+\begin{tabular}{p{2.6cm} p{3.0cm} p{2.6cm} p{2.6cm} p{2.6cm}}
+\toprule
+\textbf{Organ} & \textbf{$2\,\mu\mathrm{m}$ mechanism} & \textbf{Without $\to$ drift} & \textbf{With $\to$ hold} & \textbf{Same at $86$\,B} \\
+\midrule
+1 Skin \newline $\mu \perp \eta \mid \{s,a\}$ \newline $I(s;\eta\mid a)\leq I_{\max}$ \newline $98\%$ S126 $6/7$ $+11$pp &
+$\approx 2{,}000$ Mcp hexagonal lattice $+$ CheA $+$ CheY-P $\to$ single tumble bias \newline $1$ in $10{,}000$ front/back, Brownian \newline Magnetotactic $50$\,nm chain offloads $3$D${}\to{}1$D \newline \emph{Synocystis} $3\,\mu\mathrm{m}$ lens &
+Leakage $98\%$ predictable \newline Random arrival limit &
+Cooperative $<1\%$ occupancy \newline Handful molecules \newline Physical limit \newline $+0.0338$ hold at $\Pe\gg1$ \newline $6\%$ swing &
+Lipid $2\,\mu\mathrm{m}\to$ skull \newline Ledger $0.667$ wiped $0.674 <$ intact $0.903$ \newline Ledger outside hull \\
+\midrule
+2 Two-mem $+$ Save \newline $\Theta(\varepsilon-\theta)$ \newline $M_w$ $7{\times}28$ \newline $M_s$ $K{\times}16$ \newline $\mathrm{SHY}{\times}0.85$ \newline $+10$--$20\times$ \newline $68.6\%$ $H{\approx}0.47$ &
+CheY-P ms $\to$ motor $+$ CheR slow add, CheB slow remove $\to$ methylation $1$--$4$\,s \newline Motor stator load minutes \newline Methylation inheritance &
+No derivative, only level \newline $0/5$ world-states \newline $H{\approx}0.47$ memorized when wiped &
+$M_w$ $1$\,s run at $20$--$30\,\mu\mathrm{m/s}$ $\to$ $0.1$\,s tumble \newline $M_s$ behind $\Theta$ \newline $874$dcc $\to$ $91/91$ &
+CheR/CheB $1$--$4$\,s $\to$ hippocampal consolidation \newline Verbatim reinject $30\%$ on $12$ spans \\
+\midrule
+3 Spotlight \newline $G \in [0.5,2.0]$ \newline $\sigma(W_g{\cdot}[\nabla F;A]+b)$ \newline $0/16$ skew Goodhart &
+More methyl $\to$ less sensitive \newline Gain knob before $\Delta\mu$ \newline CheA quiet vs active &
+Skew $0/16$ Goodhart \newline $+0.016$ vs IV $-0.034$ \newline $6\%$ swing $=$ Asp vs Ser rank &
+Gain before change \newline $W_g[\nabla F;A]$ \newline Valuation Monod diauxie ordered &
+\emph{Synocystis} eye $3{,}000{\times}$ \newline NE volume, DA stake \newline $G$ controls hedged rate $31\%$ \\
+\midrule
+4 Brake \newline $\Gamma_b = k\ln(1{+}n)+0.15$ \newline $n\to 0$ on halt &
+CheR $\to$ methyl $\to$ less sensitive $\to$ CheA baseline $\to$ tumbling resumes \newline Run extends only while getting better \newline Biased walk without rudder \newline $1$--$4$\,s lag &
+$22$ vs $0$ halt \newline $n$ $3{\to}120$ runaway when wiped \newline $V_m$ $10.41$ never Ms &
+$\Gamma_b$ holds $k\ln(1{+}n)+0.15$ \newline Halt $22$ vs $0$ &
+Brake floor $0.15$ \newline Regret $\propto 1/G$ \newline $+170\%$ when loop open \\
+\midrule
+5 Watcher \newline $\gamma = \int \lVert d\mu\rVert^2/(C+\delta)$ \newline $L_{\mathrm{sham}}<L_{\mathrm{real}}$ \newline $98{>}86$ on S126 &
+Vibrio AHL$\to$LuxR lux self-reinforcing \newline Quorum $10^{10}$/ml \newline AI-2 shared trade \newline $K^+$ wave S\"{u}el mm, same channel as neuron \newline MacKinnon 2003 &
+Sham vs real $0.0338$ vs $-0.010$ \newline $n=20$k cbedb522 \newline $6.93$ nats &
+Mesa $a_i{\to}$cadCAD \newline $0.30{\times}1000$ $9.7{\times}$ \newline Nengo $166{,}700$ hillock $\sum w{\cdot}s$ &
+$98{>}86$ S126 $6/7$ \newline S\"{u}el K$^+$, Levin pattern \newline $86$B $100$T vs $1$ cell quantitative \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Reading the table row by row:
+
+\paragraph{Skin} keeps the blanket. Without it the interior cannot distinguish signal from Brownian arrival. With the cooperative lattice it operates at the counting-statistics limit and holds $+0.0338$ even on a $5{\times}3$ ablation that removes the other four.
+
+\paragraph{Two-memory with Save} separates timescales and saves. CheY-P at milliseconds and methylation at seconds supply $M_w$ and $M_s$ with a threshold $\Theta(\varepsilon-\theta)$, consistent with $\mathrm{SHY}\times0.85$ and $10$--$20\times$ replay. Removing them collapses to concentration rather than derivative.
+
+\paragraph{Spotlight} is gain before change. Methylation-dependent sensitivity and the general $G \in [0.5,2.0]$ with $W_g[\nabla F; A]$ supply stake without skew. When removed, $0/16$ conditions remain skewed.
+
+\paragraph{Brake} halts. $\Gamma_b = k\ln(1+n)+H_{\mathrm{floor}}$ with $H_{\mathrm{floor}}=0.15$ holds halt at $22$ events versus $0$ when wiped, and at $2\,\mu\mathrm{m}$ the lag $1$--$4$\,s is the brake that extends only runs that are getting better.
+
+\paragraph{Watcher} watches $\int \lVert d\mu\rVert^2/(C+\delta)$ under sham control $L_{\mathrm{sham}} < L_{\mathrm{real}}$ at $0.667$, intact $0.903$ versus wiped $0.674$ versus Sham $0.667$, clean gap $+0.0338$ on $n=20$k at $6.93$ nats, with $5\to12$ at $6.96\times$ not as breadth but as one structure on many surfaces.
+
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.92\linewidth}{\centering \vspace{1.2cm}
+\textbf{Figure~3 placeholder: Quorum and biofilm K$^+$ wave}\\
+\vspace{0.3cm}
+\small AHL autoinducer in open water vs confined dense population (Vibrio, squid symbiosis). Private vs shared AI-2. Biofilm towers, channels, $K^+$ depolarization wave in \emph{Bacillus} millimeters at same K$^+$ channel family (MacKinnon) as neuronal action potential, pulsing $\approx 2$\,h settlement, timeshare between out-of-phase biofilms, cross-species recruitment.
+\vspace{1.2cm}
+}}
+\caption{Quorum sensing and biofilm electricity. Electrical coordination uses ion channels shared with neurons. Broadcast is in the language every cell already speaks. Watcher $\gamma$ under sham $0.667$ versus real, $\Delta=+0.0338$, mesa $a_i\to$ cadCAD $x\to x'$, $0.30\times1000$ at $9.7\times$.}
+\label{fig:quorum}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.92\linewidth}{\centering \vspace{1.2cm}
+\textbf{Figure~4 placeholder: Five-organ mapping table, full-page schematic}\\
+\vspace{0.3cm}
+\small Left: $2\,\mu\mathrm{m}$ cell with five annotated subsystems. Right: cortical loop with same five at $86$\,B. Center bridge: $\Pe=vL/D \gg 1$ middle where $1\to 20$ gradient surfing is cheap. Annotations: Skin $I\leq I_{\max}$, Two-mem $\Theta$, Spotlight $G$, Brake $\Gamma_b$, Watcher $\gamma$, and holds $5\times3$ ablation $+0.0338$ at $91/91$.
+\vspace{1.2cm}
+}}
+\caption{Five-organ mapping from $2\,\mu\mathrm{m}$ to $86$ billion neurons. The same type at six orders of scale. The connecting structure is $\Pe \gg 1$ in the middle, not size or substrate.}
+\label{fig:mapping}
+\end{figure}
+
+% ================================================================
+\section{Conclusion: Thinking Older Than You Thought}
+\label{sec:conclusion}
+
+Ten to the thirtieth bacterial cells, one with thirty zeros, a biomass that exceeds animals, three point five billion of four point five billion years of Earth's history. Seven eighths of that history had no animals at all. All sensing, remembering, deciding, and acting that occurred in that interval was done by single cells.
+
+The question whether bacteria think has never been the interesting question. The interesting question is what cognition is for and what it is made of. Cognition, in this paper, is the surfing of a thermodynamic gradient where order can be cheap. The P\'eclet number $\Pe = vL/D$ marks the regime. At $\Pe \to 0$ diffusion dominates and no work is extracted. At $\Pe \gg 1$ in the middle, $1$ high to $20$ low, $S = k\ln\Omega$ and $H = -\sum p\log p$ count the same thing in joules per kelvin and bits, and between zero and infinity there sits a band where coordination pays.
+
+What this paper has shown is that at the bottom of that band, at $2\,\mu\mathrm{m}$ where $\Rey \approx 1/110{,}000$ and coasting is $0.1\,\mu\mathrm{m}$ in $1\,\mu\mathrm{s}$, a cell already has the five organs that hold cognition at the top: a tight blanket, two memories with a gate, spotlighted gain, a brake, and a watcher. The mechanisms are measured. The holds are sham-controlled. The ladder from $302$ neurons to $140{,}000$ to $86$ billion to $91/91$ is not a metaphor for scale. It is the same type replicated six orders upward, wiring necessary but not sufficient, dynamics making structure live, $5\to12$ at $6.96\times$ as generality not breadth under $M_1 = \phi(M_2)$.
+
+Thinking did not start with us. Thinking is about thirty times older than nervous systems and it has not stopped. It is still $10^{30}$ cells, making up their minds by every functional measure we know how to apply. We did not invent the parts. The parts invented us.
+
+% ================================================================
+% Bibliography
+\begin{thebibliography}{99}
+
+\bibitem{purcell1977}
+E.~Purcell, ``Life at low Reynolds number,'' \emph{American Journal of Physics}, vol.~45, no.~1, pp.~3--11, 1977.
+
+\bibitem{berg1972}
+H.~C.~Berg and D.~A.~Brown, ``Chemotaxis in \emph{Escherichia coli} analysed by three-dimensional tracking,'' \emph{Nature}, vol.~239, pp.~500--504, 1972.
+
+\bibitem{berg1973}
+H.~C.~Berg, ``How to track bacteria,'' \emph{Review of Scientific Instruments}, vol.~42, pp.~868--871, 1971; and ``Chemotaxis of bacteria,'' \emph{Annual Review of Biophysics}, vol.~4, 1975.
+
+\bibitem{berg2004}
+H.~C.~Berg, \emph{E. coli in Motion}. Springer, 2004.
+
+\bibitem{barkai1997}
+N.~Barkai and S.~Leibler, ``Robustness in simple biochemical networks,'' \emph{Nature}, vol.~387, pp.~913--917, 1997.
+
+\bibitem{alon1999}
+U.~Alon, M.~G.~Surette, N.~Barkai, and S.~Leibler, ``Robustness in bacterial chemotaxis,'' \emph{Nature}, vol.~397, pp.~168--171, 1999.
+
+\bibitem{tagkopoulos2008}
+I.~Tagkopoulos, Y.-C.~Liu, and S.~Tavazoie, ``Predictive behavior within microbial genetic networks,'' \emph{Science}, vol.~320, no.~5881, pp.~1313--1317, 2008.
+
+\bibitem{mitchell2009}
+A.~Mitchell et al., ``Adaptive prediction of environmental changes by microorganisms,'' \emph{Nature}, vol.~460, pp.~220--224, 2009.
+
+\bibitem{balaban2004}
+N.~Q.~Balaban, J.~Merrin, R.~Chait, L.~Kowalik, and S.~Leibler, ``Bacterial persistence as a phenotypic switch,'' \emph{Science}, vol.~305, no.~5690, pp.~1622--1625, 2004.
+
+\bibitem{bigger1944}
+J.~W.~Bigger, ``Treatment of staphylococcal infections with penicillin by intermittent sterilisation,'' \emph{Lancet}, vol.~244, pp.~497--500, 1944.
+
+\bibitem{basler2015}
+B.~L.~Bassler and R.~Losick, ``Bacterially speaking,'' \emph{Cell}, vol.~125, pp.~237--246, 2006; and quorum program reviews, Princeton.
+
+\bibitem{nealson1970}
+K.~H.~Nealson, T.~Platt, and J.~W.~Hastings, ``Cellular control of the synthesis and activity of the bacterial luminescent system,'' \emph{Journal of Bacteriology}, vol.~104, pp.~313--322, 1970.
+
+\bibitem{fujimoto2006}
+K.~Fujimoto and S.~Leibler, ``Circulating quorum,'' \emph{Nature Reviews Microbiology}, 2006.
+
+\bibitem{diggle2007}
+S.~P.~Diggle, A.~S.~Griffin, G.~S.~Campbell, and S.~A.~West, ``Cooperation and conflict in quorum-sensing bacterial populations,'' \emph{Nature}, vol.~450, pp.~411--414, 2007.
+
+\bibitem{foster2013}
+K.~R.~Foster and C.~A.~Bellman, ``Competition and the evolution of collective signaling,'' discussed in quorum vs diffusion debate, \emph{Current Biology}, vol.~23, 2013.
+
+\bibitem{liu2015}
+J.~Liu et al. (S\"{u}el lab), ``Metabolic co-dependence gives rise to collective oscillations within biofilms,'' \emph{Nature}, vol.~523, pp.~550--554, 2015.
+
+\bibitem{prindle2015}
+A.~Prindle et al., ``Ion channels enable electrical communication in bacterial communities,'' \emph{Nature}, vol.~527, pp.~59--63, 2015.
+
+\bibitem{humphries2017}
+J.~Humphries et al., ``Species-independent attraction of biofilms by electrical signaling,'' \emph{Cell}, vol.~168, pp.~200--209, 2017.
+
+\bibitem{mackinnon2003}
+R.~MacKinnon, ``Potassium channels and the atomic basis of selective ion conduction,'' Nobel Lecture, 2003; D.~A.~Doyle et al., \emph{Science}, vol.~280, pp.~69--77, 1998.
+
+\bibitem{lyon2015}
+P.~Lyon, ``The cognitive cell: bacterial behavior reconsidered,'' \emph{Frontiers in Microbiology}, vol.~6, p.~264, 2015.
+
+\bibitem{thompson2007}
+E.~Thompson, \emph{Mind in Life: Biology, Phenomenology, and the Sciences of Mind}. Harvard University Press, 2007.
+
+\bibitem{varela1979}
+F.~Varela, \emph{Principles of Biological Autonomy}. North-Holland, 1979.
+
+\bibitem{levin2014}
+M.~Levin, ``Molecular bioelectricity: how endogenous voltage potentials control cell behavior and instruct pattern regulation in vivo,'' \emph{Molecular Biology of the Cell}, vol.~25, pp.~3835--3850, 2014.
+
+\bibitem{pezzulo2016}
+G.~Pezzulo and M.~Levin, ``Top-down models in biology: explanation and control of complex living systems above the molecular level,'' \emph{Journal of the Royal Society Interface}, vol.~13, 2016.
+
+\bibitem{margulis1970}
+L.~Margulis, \emph{Origin of Eukaryotic Cells}. Yale University Press, 1970.
+
+\bibitem{sagan1967}
+L.~Sagan (Margulis), ``On the origin of mitosing cells,'' \emph{Journal of Theoretical Biology}, vol.~14, pp.~225--274, 1967.
+
+\bibitem{schuergers2016}
+N.~Schuergers et al., ``Cyanobacteria use micro-optics to sense light direction,'' \emph{eLife}, vol.~5, p.~e12620, 2016.
+
+\bibitem{blakemore1975}
+R.~P.~Blakemore, ``Magnetotactic bacteria,'' \emph{Science}, vol.~190, pp.~377--379, 1975.
+
+\bibitem{monod1942}
+J.~Monod, \emph{Recherches sur la croissance des cultures bact\'{e}riennes}. Hermann, Paris, 1942.
+
+\bibitem{velicer2009}
+G.~J.~Velicer and H.~Mendes-Soares, ``Bacterial predators,'' \emph{Current Biology}, vol.~19, pp.~R55--R58, 2009.
+
+\bibitem{friston2013}
+K.~Friston, ``Life as we know it,'' \emph{Journal of the Royal Society Interface}, vol.~10, 2013.
+
+\bibitem{nayebi2021}
+A.~Nayebi et al., ``Unsupervised transfer learning with NESS constraints,'' and Corollaries 3--5 on modularity, regime tracking, and belief-memory separation (see harness \S\ref{app:ness}).
+
+\end{thebibliography}
+
+% ================================================================
+\appendix
+
+\section{Five-Diagnostic Matrix: Ten Allegories as Five Hold}
+\label{app:diagnostic}
+
+Table~\ref{tab:allegories} proves the five by holding them. Each allegory is a trap that collapses if any one organ is missing. The matrix shows that the harness at $86$\,B passes all ten with $91/91$ because no single organ suffices and no allegory is kind to a four-organ system. The same structure already holds at $2\,\mu\mathrm{m}$ by Table~\ref{tab:five}.
+
+\begin{table}[H]
+\centering
+\caption{Ten allegories, each demanding all five organs. A four-organ system fails predictably.}
+\label{tab:allegories}
+\small
+\begin{tabular}{p{2.2cm} p{4.0cm} p{2.0cm} p{4.2cm}}
+\toprule
+\textbf{Allegory} & \textbf{What it tests} & \textbf{Pass} & \textbf{Without which organ it collapses} \\
+\midrule
+1 Brain in a Vat &
+Envatted brain holds coherence without world input; tests whether interior model survives when blanket is severed &
+Hold: ledger outside hull $0.903$ vs $0.674$ &
+Skin: $I\leq I_{\max}$ severed $\to$ leakage $98\%$ \\
+\midrule
+2 Butterfly (Zhuangzi) &
+Dream vs waking confusion; tests regime tracking across worlds &
+Hold: $G$ tags world before belief update &
+Spotlight $G$: no tag $\to$ skew Goodhart \\
+\midrule
+3 Prince and the Pauper &
+Identity swap with identical wiring; tests whether dynamics, not wiring, make structure live &
+Hold: $34{,}691$ dynamics $\neq$ wiring &
+Watcher $\gamma$ $+$ Brake $\Gamma_b$: wiring alone $34{,}691\to0$ \\
+\midrule
+4 Swampman &
+Lightning-assembled replica with same wiring but no history; tests lineage memory &
+Hold: verbatim $0.71$ vs $0.00$ &
+Two-mem $+$ Save $\Theta(\varepsilon-\theta)$ \\
+\midrule
+5 Chinese Room &
+Syntax without semantics; tests whether symbol shuffling suffices &
+Hold: content $>$ form $8/8$ &
+Watcher's $\gamma$ sham vs real $+0.0338$ \\
+\midrule
+6 Mary (Jackson) &
+Color knowledge without experience; tests situated gain &
+Hold: memorizing streets fails when walls shuffle &
+Spotlight $G$: gain before change, not after \\
+\midrule
+7 Experience Machine &
+Pleasure without stake; tests valuation under $\Gamma_b$ &
+Hold: hedge $31\%\approx30\%$ $T{\cdot}S$ in $F=U-TS$ &
+Brake $\Gamma_b = k\ln(1+n)+0.15$ \\
+\midrule
+8 Heap (Sorites) &
+When does pile become heap; tests threshold consolidation &
+Hold: $\Theta(\varepsilon-\theta)$ with $\mathrm{SHY}{\times}0.85$ &
+Two-mem threshold $\Theta$ $+$ SHY \\
+\midrule
+9 Sisyphus &
+Endless hill; tests halting and voluntary stop &
+Hold: halt $22$ vs $0$ &
+Brake $\Gamma_b$ on halt $n\to0$ \\
+\midrule
+10 Flatland &
+Higher dimension invisible from below; tests cross-scale invariant &
+Hold: $M_1=\phi(M_2)$ at $5{\to}12$ $6.96\times$ &
+NESS $\Pe\gg1$ middle: $S=k\ln\Omega$ vs $H$ same count \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All ten hold simultaneously at $5\times3$ ablation $+0.0338$ gap, $91/91$, while any single-organ deletion drops at least one allegory to failure. That is the diagnostic claim: five are necessary and jointly sufficient. The same table collapses row by row at $2\,\mu\mathrm{m}$ when the corresponding molecular subsystem in Table~\ref{tab:five} is removed: no blanket, no derivative; no methylation or SHY, no then; no gain, skew returns; no brake, no stop; no watcher, no sham gap.
+
+\section{NESS SDE Definitions}
+\label{app:ness}
+
+We define the scaffold used in \S\ref{sec:mapping} and Table~\ref{tab:five} so holds are numerically checkable. Notation follows the harness core (build 11, Nengo, mesa/cadCAD/PySD) and maps without change to $2\,\mu\mathrm{m}$ biochemistry.
+
+\subsection{Skin}
+Markov blanket with leakage cap:
+\begin{equation}
+\mu \perp \eta \mid \{s,a\}, \quad I(s;\eta \mid a) \leq I_{\max}, \quad \sigma_{\mathrm{skin}} = I(s;\eta\mid a)/I_{\max}.
+\end{equation}
+Measured: S126 $6/7$ always-yes, $+11$\,pp when $\sigma_{\mathrm{skin}} < 1$, leakage $98\%$ predictable when skin wiped. At $2\,\mu\mathrm{m}$ the blanket is the Mcp lattice, CheA, and membrane as transduction boundary.
+
+\subsection{Two-memory with Save}
+Fast $M_w$ and slow $M_s$ stores behind a threshold:
+\begin{equation}
+M_w = 7 \times 28,\; \tau_w = 7,\quad M_s = K \times 16,\quad \text{save if } \Theta(\varepsilon - \theta)=1 \text{ with } \mathrm{SHY}\times0.85 + 10\text{--}20\times \text{ replay}.
+\end{equation}
+$H \approx 0.47$ when consolidated, $0/5$ world-states held when $M_s$ wiped. At $2\,\mu\mathrm{m}$: $M_w$ is CheY-P at milliseconds to motor, $M_s$ is methylation $1$--$4$\,s plus stator load and inherited methylation.
+
+\subsection{Spotlight}
+Gain before change:
+\begin{equation}
+G \in [0.5,2.0],\quad G = \sigma(W_g \cdot [\nabla F; A] + b)\cdot 1.5 + 0.5,
+\end{equation}
+where $W_g[\nabla F; A]$ reads free-energy gradient and affordance before belief update $\Delta\mu$. Skew $0/16$ when present, Goodhart drift $+0.016$ versus intrinsic variation $-0.034$ when wiped, $6\%$ swing. At $2\,\mu\mathrm{m}$: methylation-dependent receptor sensitivity and attractant ranking.
+
+\subsection{Brake}
+Halting with logarithmic barrier and entropy floor:
+\begin{equation}
+\Gamma_b = k\ln(1+n) + H_{\mathrm{floor}},\quad H_{\mathrm{floor}} = 0.15,\quad n \to 0 \text{ on halt}.
+\end{equation}
+Halt count $22$ versus $0$ when wiped, $n=3\to120$ runaway when removed, $Vm=10.41$ never $M_s$. At $2\,\mu\mathrm{m}$: $1$--$4$\,s adaptation lag that extends only improving runs.
+
+\subsection{Watcher}
+Rate monitoring with sham control:
+\begin{equation}
+\gamma = \int \frac{\lVert d\mu\rVert^2}{C+\delta}\, dt,\quad L_{\mathrm{sham}} < L_{\mathrm{real}},\quad C = \text{cost},\; \delta = \text{floor}.
+\end{equation}
+Sham $0.667 = $ wiped $0.674 <$ intact $0.903$, $\Delta = +0.0338$ on $n=20$k, $6.93$\,nats, $p=$ cbedb522 $7/7$. Mesa $a_i \to$ cadCAD $x \to x'$ at $0.30\times1000$ gives $9.7\times$; $10$k filament gives $62\times$; Nengo hillock $\sum w\cdot s \to$ spike if $\lVert \nabla F\rVert > \Gamma_b$ with STDP $83/500$ ($16.6\%$) at $166{,}700$ across $12$ chips. At $2\,\mu\mathrm{m}$: Vibrio AHL quorum, AI-2 shared signal, S\"{u}el $K^+$ wave, Humphries cross-species recruitment, all sham-controlled.
+
+\paragraph{Reading.} These five together enforce the NESS claimed in \S\ref{sec:intro}: near-vanishing regret forces modularity (Skin), regime tracking (Spotlight $G$), belief-memory separation (Two-mem), world-model, and convergence $M_1=\phi(M_2)$ at $S=k\ln\Omega$ versus $H=-\sum p\log p$ same counting in joules per kelvin versus bits. Where $\Pe = vL/D \gg 1$ in the middle, cheap order is available and five are the line.
+
+\end{document}

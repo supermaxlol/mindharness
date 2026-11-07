@@ -1,0 +1,88 @@
+
+{ BFF as PySD Loop Made Test -- Vensim mdl -- Wiring necessary but not sufficient, Dynamics make structure live }
+{ Filament: Mesa a_i -> cadCAD x->x' PSUB -> PySD R/B (this mdl) -> Agents.jl 10k -> Nengo hillock 166,700 -> Minecraft 15^3 0calls -> WebGPU fly 166,700 -> 34691 86B 1EB 7M ~10yr -> 5->12 6.96x M1=phi(M2) S=k lnOmega vs H }
+{ PREREG bff-pysd-loop|1024-1374-10M-zip-life|R+K-gelation|depth10-vs-20|34691-86B-1EB-7Mchips~10yr lock 5d9cbd811047a212... BEFORE first x(0) }
+{ BFF 1024 tapes 64 length 2 avg -> 1374 ops at 6M -> 10M dots phase transition -> zip entropy gas->life multifractal not fractal self-dissimilar -> lockpick 12 }
+
+Inanimate = INTEG( replication_I - competition_I + cooperation_I - fusion_loss_I + fusion_gain_I , 0.85)
+Viral = INTEG( replication_V - competition_V + cooperation_V - fusion_loss_V + fusion_gain_V , 0.15)
+Cellular = INTEG( replication_C - competition_C + cooperation_C - fusion_loss_C + fusion_gain_C , 0.0)
+CooperationDepth = INTEG( depth_gain - depth_decay , 10)
+Gelation = INTEG( gel_formation - gel_dissolution , 0)
+EntropyS = INTEG( entropy_flow , 2.0)
+ComplexityH = INTEG( complexity_flow , 1.0)
+
+replication_I = r_I * Inanimate
+replication_V = r_V * Viral
+replication_C = r_C * Cellular
+r_I = 0.18
+r_V = 0.22
+r_C = 0.28
+
+competition_I = c_IV * Inanimate * Viral + c_IC * Inanimate * Cellular
+competition_V = c_IV * Viral * Inanimate + c_VC * Viral * Cellular
+competition_C = c_IC * Cellular * Inanimate + c_VC * Cellular * Viral
+c_IV = 0.06
+c_IC = 0.04
+c_VC = 0.05
+
+cooperation_I = k_IV * Inanimate * Viral * DepthFactor
+cooperation_V = k_VC * Viral * Cellular * DepthFactor + k_VI * Viral * Inanimate * DepthFactor
+cooperation_C = k_CV * Cellular * Viral * DepthFactor
+k_IV = 0.02
+k_VI = 0.08
+k_VC = 0.12
+k_CV = 0.10
+DepthFactor = CooperationDepth / 10
+
+fusion_loss_I = K_I * Inanimate * (Inanimate + Viral + Cellular)
+fusion_loss_V = K_V * Viral * (Inanimate + Viral + Cellular)
+fusion_loss_C = K_C * Cellular * (Inanimate + Viral + Cellular)
+fusion_gain_I = 0.5 * K_II * Inanimate * Inanimate
+fusion_gain_V = K_IV * Inanimate * Viral
+fusion_gain_C = K_VV * Viral * Viral + K_VC * Viral * Cellular
+K_I = 0.015 * (1 - 0.001)
+K_V = 0.015 * (1 - 0.001)
+K_C = 0.015 * (1 - 0.001)
+K_II = 0.015 * (1 - 0.001)
+K_IV = 0.015 * (1 - 0.001)
+K_VV = 0.015 * (1 - 0.001)
+K_VC = 0.015 * (1 - 0.001)
+
+depth_gain = nu_factor * Gelation * 0.05
+depth_decay = 0.002 * CooperationDepth
+nu_factor = 1.5
+
+gel_formation = scaling_exponent * (Inanimate * Viral + Viral * Cellular) * 0.02
+gel_dissolution = 0.001 * Gelation
+scaling_exponent = 1.5
+
+entropy_flow = 0.01 * (1 - Gelation) * LN(1 + Cellular)
+complexity_flow = 0.02 * CooperationDepth * Viral * Cellular
+
+{ Lyapunov Jacobian }
+Jacobian_11 = r_I - c_IV*Viral - c_IC*Cellular
+Jacobian_22 = r_V - c_IV*Inanimate - c_VC*Cellular
+Jacobian_33 = r_C - c_IC*Inanimate - c_VC*Viral
+EigenMaxRe = (Jacobian_11 + Jacobian_22 + Jacobian_33)/3 + DepthFactor * 0.05
+
+{ Barriers }
+FlyNeurons = 166700
+HumanNeurons = 86000000000
+ReplicasStated = 34691
+ReplicasComputed = HumanNeurons / FlyNeurons
+MemoryEB = 1
+LoihiChips = 7000000
+BarrierYears = 10
+
+{ Scales }
+TinyAgent5x5_H = 0.47
+TinyAgent0of5 = 0
+Scale12_Generality = 6.96
+
+{ S=k lnΩ vs H bits same counting J/K vs bits -- M1=φ(M2) wiring φ where M1=φ(M2) possible, dynamics make R_T/T->0 actual }
+
+FINAL TIME = 600
+INITIAL TIME = 0
+TIME STEP = 1
+SAVEPER = TIME STEP

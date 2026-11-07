@@ -1,0 +1,38 @@
+{
+ "model": "nex-agi/nex-n2.5-pro:free",
+ "probes_per_seed_seeds": 2,
+ "seeds": {
+  "raw": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.6667,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 11851
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.6667,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 5153
+   }
+  },
+  "harnessed_withcheck": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.6667,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 4903
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.6667,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 4432
+   }
+  }
+ }
+}

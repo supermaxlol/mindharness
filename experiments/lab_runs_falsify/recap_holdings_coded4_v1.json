@@ -1,0 +1,35 @@
+{
+ "n_opinions": 6,
+ "coded": 4,
+ "excluded": {
+  "3679350": "false positive (color of title, not a claim case)",
+  "9327863": "minute order only (SO ORDERED, no reasoning)"
+ },
+ "holdings": [
+  {
+   "id": 8501272,
+   "case": "In re Fisher, Bankr. N.D. Ohio 2018",
+   "holding": "OBJECTION SUSTAINED (secured BONY claim defeated via statute of limitations + 11 USC 558)",
+   "class": "secured"
+  },
+  {
+   "id": 9410318,
+   "case": "Crockett v Nationstar, D.D.C. 2023",
+   "holding": "OBJECTION OVERRULED x3 affirmed (claim allowed)",
+   "class": "secured-mortgage"
+  },
+  {
+   "id": 9977529,
+   "case": "Tackett v Freedman, Ark. App. 2021",
+   "holding": "DISALLOWANCE AFFIRMED (claimant no evidence)",
+   "class": "unsecured-estate"
+  },
+  {
+   "id": 8638231,
+   "case": "Smyth v Oakland (BAP)",
+   "holding": "OBJECTION STRUCK as frivolous + Rule 9011 sanctions; suspension vacated/remanded",
+   "class": "sanction"
+  }
+ ],
+ "grade": "hand-coded published decisions (selection-biased to litigated close cases), NOT a random sample. Complements 298-docket activity counts."
+}

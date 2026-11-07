@@ -1,0 +1,37 @@
+{
+  "name": "shehzad-loop",
+  "turn_count": 3,
+  "world_accuracy": 0.0,
+  "episodic_memory": [
+    {
+      "t": 1788996616.665361,
+      "type": "input",
+      "content": "Say hello in exactly five words."
+    },
+    {
+      "t": 1788997145.31005,
+      "type": "input",
+      "content": "Say hello in exactly five words."
+    },
+    {
+      "t": 1789063672.1757498,
+      "type": "input",
+      "content": "ping from keeper verification"
+    }
+  ],
+  "semantic_memory": {},
+  "autobiographical": [],
+  "internal_state": {
+    "confidence": 0.5
+  },
+  "log_summary": [
+    {
+      "turn": 3,
+      "input_len": 29,
+      "output_len": 29,
+      "memories_recalled": 1,
+      "monitor_depth": 1,
+      "timestamp": "2026-09-11T00:11:01.855800+06:00"
+    }
+  ]
+}

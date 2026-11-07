@@ -1,0 +1,20 @@
+{
+ "method": "EFTS search-index located main 10-K docs; Archives HTML via Host header; 8 filings 13-20M each (not persisted, reproducible via acc/doc list)",
+ "docs": {
+  "citi15": "000083100116000235/c-12312015x10k.htm",
+  "citi20": "000083100121000042/c-20201231.htm",
+  "jpm15": "000001961716000902/corp10k2015.htm",
+  "jpm20": "000001961721000236/jpm-20201231.htm",
+  "bofa15": "000007085816000137/bac-1231201510xk.htm",
+  "bofa20": "000007085821000023/bac-20201231.htm",
+  "wells15": "000007297116001045/wfc-12312015xex13.htm (EX-13)",
+  "wells20": "000007297121000197/wfc-20201231_d2.htm (EX-13)"
+ },
+ "evolution": {
+  "JPM": "2010 conduits $24.8B max/XBRL $27.8B -> 2015 muni vehicles $3.8B + consol beneficial interests $41.9B -> 2020 consol $17.6B. Shrinking off-balance footprint.",
+  "BofA": "2010 +$100.4B consolidation event -> 2015/2020 primary-beneficiary test + Note 6 unconsolidated VIEs. K moved on-book in 2010, stays there.",
+  "Citi": "2010 max=carrying + Omni CPFF $2.5B -> 2015/2020 same formula (max=carrying, Note 22). Stable disclosure technology.",
+  "Wells": "2010 none (VIE $0) -> 2015/2020 Securitizations+VIEs notes exist (mortgage banking). K arrives late via Wachovia book."
+ },
+ "reading": "K evolution 2010-2020: crisis conduits shrink or consolidate; no bank rebuilds pre-crisis off-balance share by 2020. Regulation (SFAS 166/167 + Basel III) moved K on-book and kept it there."
+}

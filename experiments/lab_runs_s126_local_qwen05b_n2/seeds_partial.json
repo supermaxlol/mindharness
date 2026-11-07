@@ -1,0 +1,47 @@
+{
+ "model": "qwen2:0.5b",
+ "probes_per_seed_seeds": 2,
+ "seeds": {
+  "raw": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.5833,
+    "n": 12,
+    "unparsed": 3,
+    "median_latency_ms": 399
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 371
+   }
+  },
+  "harnessed_nocheck": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.5,
+    "n": 12,
+    "unparsed": 4,
+    "median_latency_ms": 368
+   },
+   "2": {
+    "seed": 2,
+    "attribution_accuracy": 0.3333,
+    "n": 12,
+    "unparsed": 0,
+    "median_latency_ms": 384
+   }
+  },
+  "harnessed_withcheck": {
+   "1": {
+    "seed": 1,
+    "attribution_accuracy": 0.25,
+    "n": 12,
+    "unparsed": 1,
+    "median_latency_ms": 343
+   }
+  }
+ }
+}

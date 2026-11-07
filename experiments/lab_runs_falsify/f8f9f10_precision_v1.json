@@ -1,0 +1,17 @@
+{
+ "F8_Panickssery_2404.13076": {
+  "claim": "linear correlation r=0.94",
+  "verdict": "MISATTRIBUTED as stated",
+  "evidence": "No Pearson r in text. Table 6 GPT-4 CNN self-preference = 0.94 cell (the likely source of confusion). Actual: Kendall tau 0.41-0.73 (Table 1); linear trend Fig 1/7 without numeric r. Direction VERIFIED; number needs Fig-7 digitization or rephrase to tau range."
+ },
+ "F9_Sofroniew_2604.07729": {
+  "claim": "blissful +212 / hostile -303 Elo, r=0.85 across 35 vectors",
+  "verdict": "VERIFIED VERBATIM",
+  "evidence": "p.369-376 lines: mean Elo increase 212 (blissful), decrease -303 (hostile); effect proportional to probe correlation r=0.85."
+ },
+ "F10_Choi_2412.00804": {
+  "claim": "consistency decays >30% within 12 turns",
+  "verdict": "DIRECTION VERIFIED, NUMBER NOT FOUND AS STATED",
+  "evidence": "Design is 36-turn conversations, 7 identity factors + subscale retention counts; larger models drift more; persona assignment does not guarantee consistency. No >30%/12-turn figure in text. Rephrase to paper-native numbers or source the 30% elsewhere."
+ }
+}

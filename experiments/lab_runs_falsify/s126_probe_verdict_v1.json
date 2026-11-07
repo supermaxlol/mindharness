@@ -1,0 +1,26 @@
+{
+ "probe": "S126 1-seed discriminating-subject screen, 2026-09-23",
+ "lane": "OpenRouter free (50/day shared pool)",
+ "attempts": [
+  {
+   "model": "qwen/qwen3.8-27b:free",
+   "result": "HTTP 429 upstream shared-pool rate-limited"
+  },
+  {
+   "model": "nvidia/nemotron-3.5-lightning:free",
+   "result": "full battery no output in 300s; single-call liveness read-timeout 60s"
+  },
+  {
+   "note": "Groq lane 403 Forbidden (prior session); OpenRouter llama-3.3-70b:free 404 retired slug"
+  },
+  {
+   "model": "poolside/laguna-s-2.1:free",
+   "result": "HTTP 429 upstream shared-pool rate-limited"
+  },
+  {
+   "model": "z-ai/glm-5.2:free",
+   "result": "HTTP 429 upstream shared-pool overloaded (Decart)"
+  }
+ ],
+ "verdict": "NO-GO confirmed 2026-09-24 across 4 free lanes (qwen/laguna/glm/nemotron-hang) + Groq 403x4 + Cerebras 403x2 + MiniMax 401 + cmdcli credits 0. Sham n12 needs funded lane or BYOK provider key."
+}

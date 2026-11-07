@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-30_payment/05_the_tollbooths.md",
+    "prior_sha256": "f904f062a447aa300cd180ce37bbe369630391a07550fbcf8b681d24a7d48598",
+    "current_sha256": "83d5c82e780e9db270b8165a52dad4aa028c97c0cf7531ece2e42e486e87dfae",
+    "reason": "Added tangible estate receipts, the class-pool cash sequence, and the voided/replacement-check history to distinguish recognized claims from executed distributions."
+  }
+]

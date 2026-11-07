@@ -1,0 +1,9 @@
+[
+  {
+    "path": "chapters/13_who_gets_to_amend_the_record.md",
+    "prior": "development/editorial_2026-09-30_amendment_route/13_who_gets_to_amend_the_record.md",
+    "prior_sha256": "c1f0d0e4375b608add65e4952e2059689e830f640bd80bd1989db4b729af7bae",
+    "current_sha256": "891eec1ad10661df8476ef495485fb6de746d4ce074cb9b72fef6922ba75afdd",
+    "reason": "Follow the in-system dispute barrier, separately held error logs and civil-to-CCRC-to-appeal route of effective correction."
+  }
+]

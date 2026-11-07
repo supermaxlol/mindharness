@@ -1,0 +1,30 @@
+[
+  {
+    "path": "chapters/03_cash_before_cost.md",
+    "prior": "development/editorial_2026-09-30_financial_pacing/03_cash_before_cost.md",
+    "prior_sha256": "a17ceee7a97d078c15fa059c202945bc2811aeae8fd7065431345a516ae4f9eb",
+    "current_sha256": "8e62d182350bf3a517aa2126fcdbdb5b0a8f29aef21e434a2cddfbc1e6d55783",
+    "reason": "Give the rival, comparison and credit-supply assumption separate reading steps."
+  },
+  {
+    "path": "chapters/04_the_company_that_could_disappear.md",
+    "prior": "development/editorial_2026-09-30_financial_pacing/04_the_company_that_could_disappear.md",
+    "prior_sha256": "3f245b2be8f7fa0909aebc3bd2d001906890908557689ff4f492aa2cbc2df5ff",
+    "current_sha256": "8a2fa88f2c0b41116112d595871c7499735ea2180b35cd5def6f1408d68a3c22",
+    "reason": "Make the funding passage readable as three successive questions."
+  },
+  {
+    "path": "chapters/05_the_tollbooths.md",
+    "prior": "development/editorial_2026-09-30_financial_pacing/05_the_tollbooths.md",
+    "prior_sha256": "83d5c82e780e9db270b8165a52dad4aa028c97c0cf7531ece2e42e486e87dfae",
+    "current_sha256": "eb8e8678ebe2b9a74a94e17d5b32429dc95e9ef6775a68def32e3bad740fa33f",
+    "reason": "Put the questions the reader already understands before the symbolic shorthand."
+  },
+  {
+    "path": "chapters/07_the_border_that_moved.md",
+    "prior": "development/editorial_2026-09-30_financial_pacing/07_the_border_that_moved.md",
+    "prior_sha256": "7cde062566e992863c2769c400d19ab51ca6df2d8903fb477be40fedc55b34ae",
+    "current_sha256": "a40a144ee0e87f9af8c8e2a7f492a3c9932f776ac6066950dbd5636d0ae44d52",
+    "reason": "Separate the contract baseline, upward-price protection and downward-price exposure before the illustrative month."
+  }
+]

@@ -1,0 +1,20 @@
+{
+ "pod_unwinds": {
+  "Balyasny_2018": "-7% first annual loss, 20% staff cut, postmortems, diversification rebuild $6B->$27B",
+  "Eisler_2025": "closure, talent-war costs",
+  "Balyasny_ExodusPoint_Q126": "-4.3%/-4.5% synchronized, correlation breakdown = shared-tail failure"
+ },
+ "chaebol": {
+  "KFTC_primary": "ftc.go.kr: circular ban, 20% surcharge, 6mo-3yr unwind, voting suspension",
+  "NYU_law": "1999 holdco allowance, 2002 reciprocal ban >2T won, 2007 tightening, LG/SK pyramidal",
+  "2025_designation": "92 groups/3301 affiliates, 46 restricted",
+  "mix": "LG/SK clean converted, Samsung not, <half of 102 converted"
+ },
+ "grade": "measured instances (trade press + KFTC primary + law review)",
+ "reform_cycle": {
+  "2014": "circular-shareholding ban (new formations)",
+  "after": "fresh workarounds emerge",
+  "2026": "live FTC enforcement case + proposed rule closing newest workaround (Seoul brief)",
+  "reading": "reform->bypass->reform; gate-writers favor themselves; answer is checkable records not better rules"
+ }
+}

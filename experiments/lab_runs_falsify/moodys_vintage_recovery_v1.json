@@ -1,0 +1,32 @@
+{
+ "source": "Moodys Special Comment Default and Recovery Rates of Corporate Bond Issuers 1920-2004 (free BU mirror)",
+ "exhibit": 27,
+ "unit": "price per $100 par, issuer-weighted",
+ "means": {
+  "Sr_Secured": 57.4,
+  "Sr_Unsecured": 44.9,
+  "Sr_Subordinated": 39.1,
+  "Subordinated": 32.0,
+  "Jr_Subordinated": 28.9,
+  "All": 42.2
+ },
+ "N": {
+  "Sr_Secured": 251,
+  "Sr_Unsecured": 1207,
+  "Sr_Subordinated": 478,
+  "Subordinated": 485,
+  "Jr_Subordinated": 22,
+  "All": 2443
+ },
+ "trough_1990_1991": {
+  "1990_All": 27.5,
+  "1991_All": 39.1
+ },
+ "trough_2000_2002": {
+  "2000_All": 25.7,
+  "2001_All": 34.3,
+  "2002_All": 34.6
+ },
+ "ordering": "SrSecured > SrUnsecured > SrSub > Sub > JrSub in means AND medians (55.3/45.2/43.5/33.4/23.7)",
+ "default_recovery_corr": "Recovery = 0.52 - 6.9*DefaultRate, R2=0.6521 (report Exhibit 10)"
+}

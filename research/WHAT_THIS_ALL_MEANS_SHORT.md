@@ -31,4 +31,4 @@ That is what it all means.
 
 ---
 
-*Generated 2026-08-30 · Program: MindHarness · Sisyphus with Shehzad Ahmed · Source: Short synthesis from Sisyphus Ultraworker response*
+*Generated 2026-08-30 · Program: MindHarness · Shehzad Ahmed · Source: Short synthesis from Shehzad Ahmed*

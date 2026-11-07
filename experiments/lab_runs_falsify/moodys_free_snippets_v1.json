@@ -1,0 +1,12 @@
+{
+ "source": "Tavily web search 2026-09-24 (Scribd page + academia snippet, no PDF bytes held)",
+ "moodys2024": {
+  "spec_grade_2023": 4.8,
+  "expected_2024": 3.6,
+  "distressed_share_2023": "60%",
+  "driver": "rate hikes + tighter financing; North America highest counts"
+ },
+ "academia_recovery_by_type": "distressed exchanges recover ~2x payment defaults/bankruptcies (20.8% / 24.4% baselines)",
+ "moodys_private_credit_2025": "default 1.6-4.7% ex-distressed; distressed ~65% of all defaults (Apr 2026)",
+ "grade": "secondary snippets (not PDFs); directional corroboration only"
+}

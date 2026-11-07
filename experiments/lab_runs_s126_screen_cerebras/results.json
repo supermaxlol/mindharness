@@ -1,0 +1,25 @@
+{
+ "model": "qwen-3.8-27b",
+ "base_url": "https://api.cerebras.ai/v1",
+ "gate_threshold": null,
+ "arms_run": [
+  "raw"
+ ],
+ "n_seeds": 1,
+ "exploratory": true,
+ "results": {
+  "raw": {
+   "per_seed": [
+    {
+     "seed": 1,
+     "attribution_accuracy": 0.6667,
+     "n": 12,
+     "unparsed": 0,
+     "median_latency_ms": 604
+    }
+   ],
+   "pooled_accuracy": 0.6667,
+   "median_latency_ms": 604
+  }
+ }
+}

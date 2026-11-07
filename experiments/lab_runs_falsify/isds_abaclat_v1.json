@@ -1,0 +1,15 @@
+{
+ "case": "Abaclat and others v Argentine Republic, ICSID",
+ "treaty": "Argentina-Italy BIT",
+ "facts": "2001 default; 2005/2010 exchanges at 30-35c; ~60,000 Italian bondholders refused, sued 2007 for $3B (expropriation + FET)",
+ "holdings": "Aug 4 2011 majority: bonds = investments under BIT; mass claim admissible (dissent: bonds sold offshore, no development contribution)",
+ "outcome": "Settled 2016 pre-merits, ~$1.4B",
+ "sources": [
+  "Springer 10.1007/978-3-662-66978-5_43",
+  "HSF 2011-11 note",
+  "Harvard ILJ 2012 Beess/Chrostin",
+  "ISDS bilaterals (demand/outcome)",
+  "TDM 2018 post-Abaclat"
+ ],
+ "paper_map": "Finance-side g4: bondholders reach supranational forum the domestic taxpayer cannot; dissent maps K/standing boundary (offshore sale, foreign law). Closes finance-defendant gap as jurisdiction+settlement instance (merits unsettled \u2014 label honestly)."
+}

@@ -1,0 +1,17 @@
+{
+ "source": "Tavily extract of academia.edu Moody corporate default risk (no PDF bytes; page text)",
+ "2008": {
+  "issuers": 101,
+  "debt_B": 281.2,
+  "vs_2007": "6.7B/18cos",
+  "sr_unsec": {
+   "distressed": 50.8,
+   "payment_default": 20.8,
+   "bankruptcy": 24.4,
+   "2007": 53.3
+  },
+  "distressed_share": "23% vs 10% avg"
+ },
+ "reading": "Recovery depends on passage type (cooperative distressed 2x contested bankruptcy): gates have prices, not just states.",
+ "grade": "secondary extract"
+}

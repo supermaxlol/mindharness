@@ -1,0 +1,1360 @@
+     IN THE COURT OF CHANCERY OF THE STATE OF DELAWARE
+                IN AND FOR NEW CASTLE COUNTY
+
+
+BIG LOTS STORES, INC.,                )
+                                      )
+                   Plaintiff,         )
+                                      )
+             v.                       )          C.A. No. 1081-N
+                                      )
+BAIN CAPITAL FUND VII, LLC,           )
+a Delaware Limited Liability Company; )
+BCIP ASSOCIATES II, a Delaware        )
+General Partnership; BCIP TRUST       )
+ASSOCIATES II, a Delaware General     )
+Partnership; BCIP ASSOCIATES II-B,    )
+a Delaware General Partnership; BCIP  )
+TRUST ASSOCIATES II-B, a Delaware     )
+General Partnership; SANKATY HIGH     )
+YIELD PARTNERSHIP II, L.P., a         )
+Delaware Limited Partnership; MICHAEL )
+L. GLAZER, individually; ROBERT J.    )
+FELDMAN, individually; JOSHUA         )
+BECKENSTEIN, individually;            )
+MATTHEW LEVIN, individually; and      )
+ROBERT WHITE, individually,           )
+                                      )
+                   Defendants.        )
+
+
+                  MEMORANDUM OPINION AND ORDER
+
+                         Submitted: February 6, 2006
+                           Decided: March 28, 2006
+
+Norman M. Monhait, Esquire, ROSENTHAL MONHAIT & GODDESS, P.A.
+Wilmington, Delaware; Jeff J. Marwil, Esquire, Barry Sullivan, Esquire, James A.
+McKenna, Esquire, Anders C. Wick, Esquire, JENNER & BLOCK LLP, Chicago,
+Illinois, Attorneys for the Plaintiff.
+Robert K. Payson, Esquire, Kevin R. Shannon, Esquire, Bradley W. Voss, Esquire,
+POTTER ANDERSON & CORROON LLP, Wilmington, Delaware; John K. Villa,
+Esquire, Steven M. Farina, Esquire, WILLIAMS & CONNOLLY LLP,
+Washington, D.C., Attorneys for the Bain Defendants and the Bain Director
+Defendants.
+
+Lewis H. Lazarus, Esquire, Thomas E. Hanson, Jr., Esquire, MORRIS, JAMES,
+HITCHENS & WILLIAMS LLP, Wilmington, Delaware; Thomas O. Kuhns, P.C.,
+Thomas L. Campbell, Esquire, Benjamin W. Hulse, Esquire, KIRKLAND &
+ELLIS LLP, Chicago, Illinois, Attorneys for Defendant Michael Glazer.
+
+Barry M. Klayman, Esquire, WOLF, BLOCK, SCHORR AND SOLIS-COHEN
+LLP, Wilmington, Delaware; Mitchell H. Kaplan, Esquire, Wendy S. Plotkin,
+Esquire, CHOATE, HALL & STEWART LLP, Boston, Massachusetts, Attorneys
+for Defendant Robert J. Feldman.
+
+LAMB, Vice Chancellor.
+      In December 2000, in a sponsored management buyout transaction, a
+
+corporation sold a subsidiary business that operated a chain of toy stores. It
+
+received in exchange $257.1 million in cash and a deeply subordinated $45 million
+
+pay-in-kind note due in 2010. In 2002, the new owners refinanced the business
+
+and distributed approximately $120 million to the buyout sponsor, certain of its
+
+affiliates, two officers and directors of the subsidiary who invested in the buyout,
+
+and others. In 2004, the toy business filed a bankruptcy petition under Chapter 11
+
+of the U.S. Bankruptcy Code.
+
+      As the holder of the $45 million note, the selling corporation is the largest
+
+unsecured creditor in the bankruptcy proceeding. Purporting to assert direct claims
+
+arising out of both the 2000 sale and 2002 refinancing, the seller brings this action
+
+asserting claims based on a variety of legal theories including breach of fiduciary
+
+duties, fraud, and civil conspiracy. The complaint seeks recovery for the amount
+
+due on the note and restitution for the alleged unjust enrichment of certain of the
+
+individual defendants.
+
+      In this opinion, the court concludes that it must grant the defendants’
+
+motions to dismiss. In sum, most of the plaintiff’s claims are barred as a matter of
+
+law because they are derivative in nature, not direct, and thus belong to the
+
+bankruptcy estate. In more general terms, the underlying infirmity of the
+
+complaint is that the unavoidable effect of granting relief would be to unfairly
+
+                                          1
+advantage the plaintiff, an unsecured creditor, over any number of other unsecured
+
+creditors having claims in the bankruptcy. Simply put, this case stands for the
+
+well-established proposition that derivative claims cannot be used by a single
+
+creditor to upset the structured bankruptcy process. That principle equally applies
+
+when a plaintiff has erroneously characterized various derivative claims as direct,
+
+in the hope of escaping the broad jurisdiction of the bankruptcy court and the
+
+proceedings therein.
+
+                                          I.
+
+A.    The Parties
+
+      The plaintiff in this case is Big Lots, Inc., a Ohio corporation with its
+
+principal place of business in Columbus, Ohio. Until December 2000, through its
+
+wholly owned subsidiary, KB Consolidated, Inc., Big Lots owned and operated
+
+more than 1,300 retail toy stores across the United States, Puerto Rico, and Guam
+
+under the names K*B Toys, K*B Toy Works, and K*B Toy Outlet. In addition,
+
+KB Consolidated conducted online sales of children’s products under the name
+
+Kbkids.com.
+
+      The complaint identifies three discrete sets of defendants. First, Big Lots
+
+seeks recovery against Michael L. Glazer, a long-time manager and executive of
+
+the KB Toys companies. At all relevant times, Glazer was a director of Havens
+
+Corners Corporation (“HCC”) and KB Holdings (now KB Toys, Inc.), as well as a
+
+                                          2
+chief executive officer of various of the KB companies, including HCC and KB
+
+Holdings.1 Additionally, Glazer was a director of Big Lots at all times through
+
+May 20, 2003.2
+
+       Second, Big Lots brings claims against Robert J. Feldman, who, during the
+
+challenged events, was a manager and executive of the KB Toys companies.
+
+Further, Feldman was at all relevant times a director of HCC and KB Holdings, as
+
+well as chief financial officer of various of the KB companies, including HCC and
+
+KB Holdings.
+
+       Finally, the complaint sets out certain allegations against a group of
+
+individuals and entities affiliated with Bain Capital, LLC (together known in this
+
+opinion as the Bain defendants), a private equity investment firm.3 The Bain
+
+director defendants include Joshua Beckenstein, Matthew Levin, and Robert
+
+White, who are alleged in some combination to have constituted the board of
+
+directors of KB Holdings, the ultimate parent of HCC and its affiliates.4
+
+
+
+
+1
+  Am. Compl. ¶ 11.
+2
+  Id. at ¶ 105.
+3
+  Claims have also been filed against various Bain Capital affiliates, each of which is a private
+equity investment fund or other investment vehicle. Id. at ¶ 16.
+4
+  Id. at ¶ 7.
+
+                                                 3
+B.    The Facts
+
+      During 2000, Big Lots received various indications of interest or offers for
+
+the KB Toys businesses, including an offer from one of its own directors, Glazer,
+
+to purchase KB Toys in a leveraged buyout transaction. Glazer ultimately
+
+withdrew his offer. But in December 2000, Big Lots entered into a stock purchase
+
+agreement to sell KB Consolidated and its operating subsidiaries to the Bain
+
+defendants, Glazer, Feldman, and other members of their management group. The
+
+transactional structure of this deal is complex, but is briefly summarized below.
+
+      1.     The 2000 Sale Of The KB Toys Businesses To Bain Capital
+
+      Before 2000, the KB Toys businesses were wholly owned by Big Lots, then
+
+known as Consolidated Stores, Inc. The KB Toys structure at that point consisted
+
+of a holding company called KB Consolidated, which was directly owned by
+
+Consolidated Stores, and various operating companies positioned as subsidiaries of
+
+KB Consolidated.
+
+      The sale of KB Consolidated to the defendants took the form of a
+
+complicated multi-step transaction. First, Big Lots formed HCC, to which it
+
+transferred 100% of KB Consolidated’s stock in exchange for all of the stock of
+
+HCC. This left the entire KB Toys structure described above as a subsidiary of
+
+HCC. The defendants created KB Holdings and its wholly owned subsidiary, KB
+
+Acquisition Corporation. The parties then consummated the transaction by
+
+                                         4
+transferring all of the stock of HCC to KB Acquisition for $257.1 million in cash
+
+and a $45 million pay-in-kind note issued by HCC and due in December 2010 (the
+
+“PIK Note”).
+
+       At the conclusion of all related transactions, KB Holdings owned HCC,
+
+which held all the stock of KB Consolidated, which, in turn, wholly owned the
+
+various subsidiaries that operated the KB Toys businesses. In essence, the PIK
+
+Note became the obligation of a company (HCC) with no assets other than the
+
+stock of another holding company. From its inception and by its terms, therefore,
+
+the PIK Note was subordinated to the rights and claims of creditors of the
+
+operating companies held by KB Consolidated in any Chapter 11 proceeding.5
+
+       2.      The 2002 Transaction
+
+       On April 23, 2002, KB Toys undertook a series of transactions which
+
+included the redemption and repurchase of shares of the KB Toys businesses, the
+
+restructuring of equity, and the payment of bonuses to more than 50 managers and
+
+senior executives of the KB companies.6 Briefly, KB Toys was able to do this by
+
+causing the operating subsidiaries to raise debt, part of which was paid
+
+
+5
+  Scaggs Aff., Ex. B § 5.
+6
+  The parties quibble as to what to call the set of transactions that occurred in 2002. The
+defendants prefer the label “recapitalization transactions.” At oral argument, the plaintiff argued
+that this designation was misleadingly benign, masking the defendants’ purported misconduct.
+The plaintiff’s papers therefore refer to the 2002 transaction as the “equity distribution
+transaction.” The court will avoid this tangential dispute over labeling by simply referring to
+these events as the “2002 transaction.”
+
+                                                 5
+immediately to executives as bonuses. The remaining additional funds were paid
+
+upstream to HCC, and then eventually to KB Holdings at the top of the corporate
+
+structure. KB Holdings then used these funds to repurchase 65% of its own
+
+outstanding stock from the Bain defendants, Glazer, Feldman, and other KB
+
+insiders. However the parties characterize these events, the fundamental purpose is
+
+clear–the 2002 transaction constituted a liquidity event which allowed Bain and its
+
+affiliates, as private equity investors, to withdraw certain sums of money from the
+
+KB Toys businesses.
+
+       Big Lots had no contractual rights in any capacity to block the 2002
+
+transaction.7 Nonetheless, on April 23, 2002, Feldman wrote to Charles Haubiel,
+
+General Counsel of Big Lots, certifying that following the repurchase agreement
+
+which constituted part of the 2002 transaction KB Holdings would continue to
+
+have a consolidated net worth of “not less than $20,000,000.”8 The complaint
+
+alleges that the purpose of this certification, although not required for any reason,
+
+was to induce Big Lots to “generally cooperate with and not object to or seek legal
+
+relief with respect to the [2002 transaction].”9
+
+
+
+
+7
+  Big Lots received $1.95 million in the 2002 transaction in exchange for certain warrants it had
+been issued in connection with the 2000 transaction, and which it was obligated to surrender
+under the “drag along” provision in its warrant holder agreement. Am. Compl. ¶ 35.
+8
+  Id. at ¶ 36.
+9
+  Id.
+
+                                                6
+        3.        The KB Toys Bankruptcy
+
+        The complaint goes on to allege that the 2002 transaction left HCC and the
+
+operating subsidiaries on the brink of bankruptcy, insolvent, and unable to pay
+
+their obligations as they matured. In the words of the complaint:
+
+        [t]he effect [of] the [2002 transaction] was to encumber substantially
+        all of HCC’s assets and to strip all of the value from HCC and the
+        Operating Subsidiaries. The [2002 transaction] resulted in an
+        enormous and unjustified return on the Defendants’ investment in
+        excess of . . . 900% in a mere 16 months, and ultimately resulted in
+        HCC’s default on Big Lots’ $45 million HCC Note.10
+
+        Although it is conceded that KB Toys survived through the entire holiday
+
+season of 2002, and then the entirety of 2003, the complaint alleges that the 2002
+
+transaction led directly to a Chapter 11 bankruptcy filing on January 14, 2004,
+
+some 22 months after the 2002 transaction. As a result of the bankruptcy,11 the
+
+PIK Note became due and payable in the amount of approximately $57 million,
+
+consisting of $45 million in principal plus accrued interest.12
+
+                                           II.
+
+        The amended complaint originally set out nine counts alleged against
+
+various of the defendants. Count VI, a claim of unjust enrichment against the Bain
+
+defendants, Glazer, and Feldman, has now been voluntarily dismissed. As to
+
+
+10
+   Id. at ¶ 40.
+11
+   Id. at ¶ 47.
+12
+   Id. at ¶ 42.
+
+                                            7
+those counts still at issue, Count I alleges that the Bain defendants and the Bain
+
+director defendants committed fraud by making false representations in the 2000
+
+stock purchase agreement, and in various personal representations immediately
+
+thereafter. Count II alleges that Feldman’s representation on or about April 23,
+
+2002, certifying that KB Holdings would have a consolidated net worth of not less
+
+than $20 million, was false, and that all the defendants committed fraud by
+
+allowing Big Lots to rely to its detriment on Feldman’s representation in
+
+acquiescing to the 2002 transaction, which purportedly resulted in KB Holdings
+
+being rendered insolvent. Count III alleges that Glazer and Feldman, as directors
+
+of HCC and various HCC subsidiaries, acquired fiduciary duties to Big Lots as a
+
+result of HCC’s insolvency, and breached those duties by approving the 2002
+
+transaction. Count IV makes similar allegations against the Bain director
+
+defendants. Count V alleges that the Bain defendants and the Bain director
+
+defendants aided and abetted Glazer’s and Feldman’s breaches of fiduciary duty as
+
+alleged in Count III. Count VII alleges that Glazer breached his fiduciary duties
+
+under Ohio law, as a director of Big Lots, in failing to inform Big Lots of HCC’s
+
+pending insolvency as a result of the 2000 and 2002 transactions. Count VIII
+
+alleges that the 2002 transaction, by rendering HCC’s performance of its
+
+obligations under the PIK Note impossible, constituted tortious interference with
+
+contractual relations. Finally, Count IX alleges that all the defendants engaged in a
+
+                                          8
+civil conspiracy when they agreed and conspired with each other to commit the
+
+acts alleged in Counts I through VIII.
+
+       The defendants move to dismiss the amended complaint on a number of
+
+grounds.13 First, the defendants claim that Counts II through IX are derivative and
+
+belong to the bankruptcy estate. Therefore, they argue, Big Lots has no standing to
+
+bring those claims. Second, the defendants claim that Counts I and II are barred by
+
+the statute of limitations. Third, the defendants maintain that all counts fail to state
+
+a proper claim for relief. Finally, the defendants raise a number of miscellaneous
+
+challenges to the complaint, arguing that Count I should independently be
+
+dismissed because it is contradicted by the stock purchase agreement on which it is
+
+based, and that Count II fails to allege causation.
+
+       The plaintiff argues that the complaint alleges sufficient facts to survive the
+
+defendants’ motions to dismiss.
+
+                                               III.
+
+       In order to dismiss a claim under Court of Chancery Rule 12(b)(6), a court
+
+“must determine with reasonable certainty that, under any set of facts that could be
+
+proven to support the claims asserted, the plaintiffs would not be entitled to
+
+relief.”14 A court must accept as true all well pleaded factual allegations in the
+
+13
+   The defendants have submitted three sets of briefs; one set for both the Bain defendants and
+the Bain director defendants, one set on behalf of Glazer, and one set on behalf of Feldman.
+14
+   Grobow v. Perot, 539 A.2d 180, 187 n.6 (Del. 1988).
+
+                                                9
+complaint and all reasonable inferences to be drawn from those facts. But a court
+
+need not “blindly accept as true all allegations, nor must it draw all inferences from
+
+them in plaintiffs’ favor unless they are reasonable inferences.”15
+
+A.        Derivative And Direct Claims
+
+          The defendants’ primary defense to Counts II, III, IV, V, VII, VIII, and IX is
+
+that, under Delaware law, those counts set out derivative claims, belonging to the
+
+bankruptcy estate, and that Big Lots lacks standing to advance these claims.
+
+Specifically, the defendants argue, the common element to these counts is that the
+
+fundamental injury alleged is the insolvency of HCC, and that this insolvency
+
+injured Big Lots. Thus, they argue, under the relevant Delaware precedent, these
+
+claims must all be derivative. The court agrees with the defendants as to Counts
+
+III, IV, V, VIII, and IX. However, the court finds Count VII to set out a direct
+
+claim, and dismisses Count II on other grounds.
+
+          1.       Count II
+
+          Count II alleges that the defendants fraudulently induced Big Lots to refrain
+
+from interfering in the 2002 transaction by issuing the April 23, 2002 Feldman
+
+letter assuring Big Lots that KB Holdings would continue to have a consolidated
+
+net worth of above $20 million after that transaction closed. Although the court
+
+
+
+15
+     Id. at 187.
+
+                                            10
+notes that, under the relevant precedent, similar claims have been found to be
+
+derivative (and would therefore be barred under the facts in this case), the court
+
+dismisses Count II on the alternative ground that it fails to state a cognizable legal
+
+claim.
+
+         As a threshold matter, the plaintiff is correct to note that, in the bankruptcy
+
+context, some courts have permitted individual creditors to maintain direct actions
+
+for fraudulent inducement, even when those claims, in some way, implicate injury
+
+to the corporation. In BRS Associates v. Dansker,16 for example, the court was
+
+faced with a fraudulent inducement claim by a creditor against a defendant in
+
+bankruptcy. Addressing itself to the difference between derivative claims and
+
+direct claims, the court ruled that certain RICO claims with regard to fraudulently
+
+induced investments were direct claims,17 especially where the defendants’
+
+misconduct concealed the fact that a loan was in default.18 As the court wrote in
+
+that case, this doctrine represented a “narrow exception” to the general rule that a
+
+shareholder lacks standing to bring an individual action under RICO to redress
+
+injuries to the corporation in which he owns stock.19 Similarly, in In Re Granite
+
+Partners,20 the court held that a complaint alleging that the plaintiffs were
+
+16
+   246 B.R. 755 (Bankr. S.D.N.Y 2000).
+17
+   Id. at 769.
+18
+   Id. at 761-62.
+19
+   Id. at 769.
+20
+   194 B.R. 318 (Bankr. S.D.N.Y. 1996).
+
+                                            11
+fraudulently induced to invest in a company was a direct claim, even when the
+
+plaintiffs had also made allegations, such as corporate waste, mismanagement, and
+
+breach of fiduciary duty,21 that the court dismissed as plainly derivative.22 The
+
+fraudulent inducement claim, in that case, was not premised on the corporation’s
+
+eventual bankruptcy.
+
+       The bankruptcy cases, in other words, hold that claims somewhat akin to
+
+those brought here in Count I can be brought directly. But the bankruptcy cases
+
+also make clear that fraudulent inducement claims where the only alleged injury is
+
+inextricably linked to a corporate injury are derivative claims. In In re Swallen’s,
+
+Inc.,23 for example, the court dismissed as derivative a claim by a creditor that the
+
+failure to maintain a sufficient collateral base led to the debtor’s failure to repay
+
+certain debentures.24 And in In re WorldCom,25 the court held that the
+
+shareholders’ claim that they were fraudulently induced not to sell their shares was
+
+derivative because they had failed to allege any distinct injury to themselves.26 The
+
+main dividing line between direct and derivative claims styled as “fraudulent
+
+inducement,” therefore, has been whether the plaintiff has alleged some injury
+
+
+
+21
+   Id. at 327.
+22
+   Id.
+23
+   205 B.R. 879 (Bankr. S.D. Ohio 1997).
+24
+   Id. at 883.
+25
+   323 B.R. 844 (Bankr. S.D.N.Y. 2005).
+26
+   Id. at 855.
+
+                                           12
+other than that to the corporation. As such, these cases are entirely consistent with
+
+the Delaware Supreme Court’s recent reformulation of the law on direct versus
+
+derivative claims in Tooley v. Donaldson, Lufkin, & Jenrette, Inc.27
+
+         Strictly speaking, a claim for fraudulent inducement in the context of a
+
+credit agreement usually requires that the plaintiff be fraudulently induced to
+
+extend credit. On occasion, however, plaintiffs have raised a substantially different
+
+claim under the same rubric; namely, that they were fraudulently induced to refrain
+
+from acting to collect their debt. Courts have been extremely reluctant to grant
+
+relief in those cases.
+
+       In the admittedly early case of Evans v. Burson,28 the Supreme Court of
+
+Oklahoma refused to grant relief where a seller claimed to have eschewed filing
+
+suit against a debtor on the basis of potentially fraudulent representations by the
+
+clerk overseeing a public sale. The court observed that the reason it dismissed the
+
+claim was that the “damages sought to be recovered are too remote and contingent
+
+to admit of a judgment at law therefor.”29 The plaintiff might never have had an
+
+27
+   845 A.2d 1031 (Del. 2004). Certain of these bankruptcy court cases were apparently decided
+on the basis of the “special injury” test rejected in Tooley. See, e.g., In Re Granite Partners, 194
+B.R. at 333 (“the contract claims belong to the trustee, and Primavera has not alleged a special
+injury.”). These cases have continuing relevance, a conclusion reinforced by the Supreme
+Court’s observation in Tooley, discussing Lipton v. News International, 514 A.2d 1075 (Del.
+1985), that the Lipton court “could have reached the same correct result by simply concluding
+that the manipulation directly and individually harmed the stockholders, without injuring the
+corporation.” Tooley, 845 A.2d at 1038.
+28
+   164 P. 471, 472 (Okla. 1917).
+29
+   Id.
+
+                                                13
+action; the suit might never have been brought; the court might have decided that
+
+the action did not belong to the plaintiff. As the Evans court noted, the plaintiff’s
+
+possible recovery depended on “numberless unknown contingencies, and can be
+
+nothing more than conjecture.”30
+
+       The Oklahoma Supreme Court’s decision in Evans has been recognized as
+
+the general rule by more recent case law as well as by treatise authority.31 Other
+
+courts, while not citing Evans, have identified the wildly contingent nature of the
+
+requested recovery as a bar to this kind of fraudulent inducement claim.32 On those
+
+occasions where Evans has been distinguished, furthermore, it has been
+
+distinguished on the basis of case specific facts. In O’Gorman v. Haber,33 for
+
+example, the court allowed a fraudulent inducement claim for inaction where “the
+
+plaintiff intended to attach [and thus secure payment] and had the right to attach,”
+
+
+
+
+30
+   Id.
+31
+   Sade v. Northern Natural Gas, 483 F.2d 230, 233 (10th Cir. 1973); Wilkenson v. Linnecke, 251
+Cal. App.2d 291, 293 (Cal. Ct. App. 1967); Miller v. Bank of Commerce, 387 S.W.2d 691, 692
+(Tex. App. 1965); 37 AM. JUR. 2D Fraud and Deceit § 50 (2001) (noting that “a creditor cannot
+maintain an action against a third party for fraudulent representations inducing the creditor
+merely to refrain from taking steps to collect the debt until collection has become impossible”);
+37 C.J.S. Fraud § 53 (1997) (noting that “recovery . . . cannot be had for fraudulent
+representation inducing a creditor merely to refrain from taking steps to collect a debt until
+collection has become impossible . . . ”).
+32
+   In re Worldcom, 323 B.R. at 855 (citing Crocker v. Fed. Deposit Ins. Co., 826 F.2d 347, 351
+(5th Cir. 1987) (holding that stockholders’ claims of fraudulent inducement were too speculative
+because there was no contention that any stockholder “desired specifically to sell their stock at a
+given point, but were deterred from effectuating a sale because of the misrepresentations”)).
+33
+   147 A. 882 (R.I. 1929).
+
+                                                14
+noting that the plaintiff in that case actively “g[a]ve up this right in reliance upon
+
+the defendant’s false representation . . . .”34
+
+       The facts alleged in the instant complaint set out precisely the kind of
+
+“fraudulent inducement” claim that courts have historically rejected. The
+
+gravamen of Count II is that Big Lots was injured because it refrained from
+
+bringing suit to stop the 2002 transaction as a result of a purportedly fraudulent
+
+misrepresentation by Glazer, a third party to the debt between Big Lots and HCC.
+
+Nevertheless, the complaint presents no facts to suggest that the plaintiff had any
+
+sort of legal right against the defendants, or that it gave up any legal right in
+
+reliance on the allegedly fraudulent misrepresentation. In addition, Big Lots does
+
+not allege any basis in the PIK Note or the warrants on which it could have
+
+objected to the 2002 transaction. Further, there is no reason to believe that Big
+
+Lots ever contemplated suit, or that it had even a colorable claim against the
+
+defendants at the time of the 2002 transaction. With the benefit of hindsight, Big
+
+Lots now claims it could have taken “affirmative action” to block the transaction.
+
+But the complaint does not plead any contemporaneous facts suggesting that this
+
+was so. Thus, the court will dismiss Count II for failure to adequately allege a
+
+claim of fraudulent inducement.35
+
+34
+  Id. at 883.
+35
+  Big Lots’s claim would have somewhat more force had Big Lots brought a colorable action for
+injunctive relief before the 2002 transaction, which it had then surrendered on the basis of
+
+                                             15
+          2.    Counts III, IV, V, VIII, And IX
+
+          The defendants argue that Counts III, IV, V, VIII, and IX, based on
+
+allegations of fraud and violations of fiduciary duty in approving the 2002
+
+transaction, are derivative claims and therefore must be dismissed for lack of
+
+standing. Big Lots responds that, in the context of this case, the allegations in
+
+these counts set forth direct claims for which it has standing outside the bankruptcy
+
+estate.
+
+          Any analysis of these claims must start with Tooley, the Delaware Supreme
+
+Court’s foundational opinion on the distinction between direct and derivative
+
+claims.36 Rejecting previous, and sometimes contradictory, reliance on the so-
+
+called “special injury” test, which looked to see whether the plaintiff had alleged a
+
+“special injury, in whatever form,”37 the Supreme Court refocused the relevant
+
+inquiry onto two broader prongs:
+
+          [t]he analysis must be based solely on the following questions: Who
+          suffered the alleged harm–the corporation or the suing stockholder
+          individually–and who would receive the benefit of the recovery or
+          other remedy?38
+
+
+
+
+Feldman’s letter. In that circumstance, the court would still be faced with deciding whether the
+claim would now, after KB Toys’s insolvency, be considered direct or derivative.
+36
+   845 A.2d 1031.
+37
+   Lipton, 514 A.2d at 1078.
+38
+   Tooley, 845 A.2d at 1035.
+
+                                               16
+A direct claim, in other words, is a claim on which the stockholder can prevail
+
+without showing an injury or breach of duty to the corporation,39 and one in which
+
+no relief flows to the corporation.40
+
+       Since Tooley was decided, this court has been called upon to differentiate
+
+between direct and derivative claims.41 The most relevant of these post-Tooley
+
+opinions to the facts of this case is Production Resources Group v. NCT Group,42 a
+
+suit brought by a creditor against a debtor, seeking the appointment of a receiver
+
+under 8 Del. C. § 291, and alleging that the defendant’s board and a non-director
+
+officer committed various breaches of fiduciary duty.43 The Production Resources
+
+court rejected any bright line test for determining whether claims are derivative or
+
+direct when brought by the creditor of an insolvent corporation. Although the
+
+court recognized that most such claims are likely to be derivative claims, under the
+
+standard in Tooley, the court acknowledged there might nonetheless be some
+
+circumstances in which “directors display such a marked degree of animus towards
+
+
+
+39
+   Id. at 1038.
+40
+   Id. at 1039.
+41
+   See, e.g., Albert v. Alex. Brown Mgmt. Servs., 2005 Del. Ch. LEXIS 133, *43-50 (Del. Ch.
+Aug. 26, 2005) (holding that a well-pleaded disclosure claim is a direct claim under Tooley,
+while claims for gross negligence, and failure to provide competent and active management are
+“clearly derivative”); In re Syncor Int’l Corp. S’holders Litig., 857 A.2d 994 (Del. Ch. 2004)
+(holding that injuries comprising the reduction of consideration paid to shareholders in a merger
+caused by disclosures of purported misconduct are derivative claims).
+42
+   863 A.2d 772 (Del. Ch. 2004).
+43
+   Id. at 772.
+
+                                               17
+a particular creditor with a proven entitlement to payment that they expose
+
+themselves to a direct fiduciary duty claim by that creditor.”44
+
+       The unusual allegations of the plaintiff in Production Resources vividly
+
+illustrate how such animus could be pleaded. As the court’s opinion sets out, the
+
+plaintiff had obtained a judgment against the defendant for $2 million in 1999, and
+
+had attempted to compel payment since that time. The facts alleged in the
+
+complaint established that the defendant had been insolvent for several years and,
+
+yet, had gone to extreme lengths both to avoid paying its judgment creditor and to
+
+misuse corporate power for the purpose of improperly benefitting itself and others
+
+in control.45 In the face of such extraordinary machinations, the court was
+
+unwilling to dismiss the creditor’s claims of specific injury as derivative because it
+
+seemed possible that the creditor in question was the only one that had been
+
+injured, and was thus the only one to which recovery was due. At the same time,
+
+certain other claims were dismissed as derivative, including conclusory accusations
+
+that “mismanagement and excessive salaries” had caused the company to become
+
+insolvent.46
+
+44
+   Id. at 798.
+45
+   Id. at 778.
+46
+   Id. at 780. The court dismissed these claims in part because they set out no claim, and in part
+because they were derivative claims. (“Some of PRG’s fiduciary duty claims rest largely on
+generalized and conclusory allegations that NCT’s board and officers have mismanaged the firm.
+Claims of this kind are classically derivative, in the sense that they involve an injury to the
+corporation as an entity and any harm to the stockholders and creditors is purely derivative of the
+direct financial harm to the corporation itself.”). Id. at 776.
+
+                                                18
+       Big Lots urges that the facts of this case mirror those of Production
+
+Resources, noting similar allegations of insider payments in defiance of a
+
+“legitimate, undisputed, debt obligation” owed to it, with knowledge that the 2002
+
+transaction would allegedly render HCC insolvent. However, there are
+
+fundamental differences between this case and Production Resources, a decision
+
+which relied heavily on its unique facts. As is clearly evident in Production
+
+Resources, all the challenged transactions occurred in the context of an already
+
+insolvent company. In contrast, the amended complaint in this case only attempts
+
+to allege that HCC became insolvent after, and as a result of, the 2002 transaction.
+
+       Additionally, the plaintiff in this case had no right to repayment of its debt at
+
+the time of the challenged transaction. Unlike the judgment creditor plaintiff in
+
+Production Resources, Big Lots’s entire credit agreement with HCC consisted of
+
+the unsecured PIK Note, due eight years after the 2002 transaction was set to close.
+
+The immediacy of the Production Resources defendant’s debt was a necessary
+
+underpinning of the court’s finding that the debtor’s recalcitrance might have been
+
+motivated by targeted animus towards the plaintiff.47 The PIK Note in this case sat
+
+in the distant future, making Big Lots’s argument that the defendants acted with the
+
+PIK Note in mind entirely incredible.
+
+
+47
+ As the court noted, it was the “odd” circumstances of Production Resources in concert that
+were “suggestive of . . . bad faith on the part of the NCT board members.” Id. at 797.
+
+                                              19
+       Indeed, the claims brought by Big Lots in this case, if they resemble those in
+
+Production Resources at all, resemble the claims that the court dismissed.48 Shorn
+
+of excess verbiage, Big Lots’s fundamental complaint in the counts at issue here is
+
+that the defendants caused HCC to become insolvent through what amounted to
+
+breaches of fiduciary duty. As the court noted in Production Resources, however,
+
+“claims of this type are classically derivative.”49 They do not become direct simply
+
+because they are raised by a creditor, who alleges that the breaches of fiduciary
+
+duty caused it specific harm by preventing it from recovering a debt outside of
+
+bankruptcy.
+
+       That result is directly in line with good corporate policy. As numerous
+
+commentators have observed, creditors are usually better able to protect themselves
+
+than dispersed shareholders.50 There is no doubt that Big Lots was a sophisticated
+
+
+
+48
+   Id. at 798.
+49
+   Id. at 776.
+50
+   See, e.g., Stephen M. Bainbridge, Much Ado About Little? Directors’ Fiduciary Duties in the
+Vicinity of Insolvency, J. BUS. & TECH. L.(forthcoming) http://ssrn.com/abstract=832504 at 28
+(noting, for example, that “relative to many nonshareholder constituencies, shareholders are
+poorly positioned to extract contractual protections. Unlike bondholders, for example, whose
+term-limited relationship to the firm is subject to extensive negotiations and detailed contracts,
+shareholders have an indefinite relationship that is rarely the product of detailed negotiations”);
+But see Larry E. Ribstein & Kelli A. Alces, Directors’ Duties in Failing Firms, J. BUS. & TECH.
+L. (forthcoming) http://ssrn.com/abstract=880074 at 8 (arguing that the greater protection
+generally due to debt-holders over shareholders is not an inherent characteristic of either
+instrument, because such distinctions may not apply to closely held corporations, or public
+corporations held substantially by institutional shareholders who can act collectively or through
+intermediaries).
+
+
+                                                20
+creditor which could have negotiated in the 2000 sale for protections against later
+
+transactions. However, the PIK Note is not alleged to contain any of the covenants
+
+and warranties that often bind debt contracts. Given the facts as pleaded, the
+
+absence of these otherwise standard provisions suggests strongly that the PIK Note
+
+was designed from the beginning to provide Big Lots some limited upside potential
+
+in the event that Bain was able to turn the KB Toys businesses into a profitable
+
+enterprise over the medium term. To imply further protections through fiduciary
+
+duty law would put the court in the awkward position of renegotiating a deal
+
+reached by extremely sophisticated and well represented parties, to the clear
+
+detriment of the bankruptcy estate. That kind of ex post rationalization has rarely
+
+been the practice of the Delaware judiciary, and for good reason.
+
+          Big Lots also relies on what the court may loosely designate as merger cases
+
+to bolster its argument that its current allegations represent direct claims.
+
+Specifically, it relies on Parnes v. Bally Entertainment Corp.,51 a case which held
+
+that a plaintiff that attacks the fairness of a merger alleges a direct injury rather
+
+than injury to the corporation.52 Big Lots argues that because the 2002 transaction
+
+in this case was also allegedly “unfair,” Parnes, as reaffirmed by the Delaware
+
+Supreme Court in Tooley, controls the result in this case.
+
+
+51
+     722 A.2d 1243 (Del. 1999).
+52
+     Id. at 1245.
+
+                                           21
+       Big Lots’s argument is based on a gross misreading of Parnes. That
+
+decision did not establish that every allegation of unfairness, in any transaction
+
+whatsoever, raises a direct claim. Rather, the holding in Parnes is necessarily
+
+premised on the fact that the challenged transaction was a merger, in which the
+
+plaintiffs would lose standing to bring derivative claims and the misconduct at
+
+issue was intimately bound up with the merger itself. Moreover, the Supreme
+
+Court held the claims at issue in Parnes to be direct because the purportedly unfair
+
+price paid to the shareholders in the merger did not injure the corporation in the
+
+way that mismanagement or improper self-dealing does. The facts are quite
+
+different here, where the entire injury alleged by Big Lots flows from the fact that
+
+KB Toys eventually became insolvent.
+
+       In summary, Big Lots has pleaded facts that could support a finding of
+
+injury to the corporation alone.53 Under the test laid out in Tooley, therefore, it is
+
+clear that the claims asserted in Counts III, IV, V, VIII, and IX are entirely
+
+derivative in nature and cannot be maintained by Big Lots in this proceeding.54
+
+53
+   Count VII, which alleges a breach of fiduciary duty against Glazer in his former capacity as a
+director of Big Lots, is a paradigmatically direct claim brought by an aggrieved corporation (Big
+Lots) against one of its own directors. That count, as discussed below, is nonetheless dismissed
+for failure to state a claim.
+54
+   Big Lots cites two additional lines of authority for its argument that the claims it brings in this
+case are direct. Both are inapposite. First, Big Lots claims that nondisclosure claims are
+generally direct claims, citing this court’s decision in Alex. Brown Mgmt. Servs., 2005 Del. Ch.
+LEXIS, at *44. Although the plaintiff is right to note that non-disclosure claims are direct
+claims where a defendant has “failed to disclose material information when they had a duty to
+disclose it,” the complaint alleges no well-pleaded facts that establish the defendants had any
+
+                                                 22
+B.     Count I
+
+       The plaintiff alleges in Count I that the Bain defendants and the Bain
+
+director defendants committed fraud in executing the stock purchase agreement for
+
+the 2000 transaction on behalf of KB Acquisition. This allegation is based,
+
+purportedly, on the text of Section 4.06 of the stock purchase agreement that
+
+formed part of the 2000 transaction, which provides, in pertinent part, that:
+
+       Buyer has received and delivered to Seller a letter from Fleet Retail
+       Finance Inc. and Fleet Securities Inc. . . . with respect to debt
+       financing . . . in an amount sufficient to fund the Company Dividend
+       Amount, and to enable the Buyer or its designee to pay the Share
+       Purchase Price, and make any other payments to be made by Buyer or
+       its designee under this Agreement or the transactions contemplated
+       hereby.55
+
+According to Big Lots, the italicized language above committed the defendants to
+
+ensuring that HCC would remain solvent and able to pay the PIK Note until it
+
+became due in 2010. But, Big Lots alleges, the defendants never intended to honor
+
+the purported commitment set forth in Section 4.06, and instead meant from the
+
+beginning to execute the 2002 transaction and thus render HCC insolvent.
+
+duty to disclose their intention, if any, to conduct the 2002 transaction when they signed the
+stock purchase agreement in 2000. In the absence of a specific duty to disclose, the plaintiff has
+only pleaded a set of derivative fiduciary duty claims. Second, Big Lots relies on cases based on
+the long established and common sense principle that the same set of facts can set out both direct
+and derivative claims (seeking different forms of relief) to suggest that the same is true in this
+case. See, e.g., Grimes v. Donald, 673 A.2d 1207, 1212 (Del. 1996). Had Big Lots pleaded facts
+which establish a direct claim, such as those in Production Resources, both the bankruptcy estate
+and Big Lots could have brought claims arising out of the same facts. The complaint fails,
+however, to adequately plead such facts.
+55
+   Scaggs Aff., Ex. A § 4.06.
+
+                                               23
+Therefore, Big Lots claims, the defendants fraudulently induced it to enter into the
+
+2000 transaction believing that its investment in the PIK Note was secure.56
+
+       The plaintiff’s argument entirely misconstrues Section 4.06 of the stock
+
+purchase agreement. The plain language of this provision sets out nothing more
+
+than a guarantee that the buyer, defined solely as KB Acquisition Corp.,57 had
+
+obtained a commitment letter from Fleet, that the commitment letter was for
+
+sufficient financing to meet the buyer’s obligations to close the stock purchase
+
+agreement, and that the commitment letter remained in full force and effect as of
+
+the closing. Nothing in this section imposes any obligation on HCC, or even
+
+suggests that KB Acquisition undertook therein to ensure the continued solvency
+
+of HCC for ten years into the future. Indeed, Section 4.06’s emphasis on the
+
+defined “Share Purchase Price,” which excludes the PIK Note, rather than the
+
+“Purchase Price,”58 which includes that note, makes this conclusion even more
+
+clear.59 In sum, the only reasonable reading of Section 4.06 is that it provides
+
+comfort to the seller that the buyer intends to close the transaction, and that the
+
+
+56
+   The court notes that, by alleging that the defendants committed fraud by inducing Big Lots to
+enter into a transaction based on a false statement, Big Lots has stated an unambiguously direct
+claim in the form suggested by Production Resources, 863 A.2d at 794. The defendants do not
+dispute the plaintiff’s standing to bring this claim.
+57
+   Scaggs Aff., Ex. A.
+58
+   The “Purchase Price” is defined as the “Share Purchase Price, plus the Company Dividend
+Amount, plus the HCC note . . . .” Id. at § 2.01.
+59
+   The share purchase price, as defined by the agreement, includes only the “(i) amount in cash
+equal to the Cash Consideration less the Company Dividend Amount and (ii) the warrants.” Id.
+
+                                               24
+buyer’s financial ability to do so will remain uncompromised. To turn that entirely
+
+standard promise into an all-encompassing guarantee that KB Acquisition and all
+
+its subsidiaries will continue to be solvent for ten years stretches the plain
+
+contractual language far beyond the breaking point. Section 4.06, therefore, is
+
+unambiguous, and cannot be the basis of an allegation of fraud in the inducement
+
+against the defendants.
+
+C.    Count VII
+
+      Count VII alleges that Glazer violated his fiduciary duties to Big Lots as a
+
+Big Lots director on two separate occasions. First, the plaintiff claims that Glazer
+
+violated his fiduciary duty of loyalty by approving the 2002 transaction while also
+
+serving as a Big Lots director, and by failing to disclose to Big Lots the extent of
+
+his interest in that transaction. Second, the plaintiff claims that Glazer violated his
+
+fiduciary duty of loyalty to Big Lots because he failed at the time the KB Toys
+
+businesses were sold in 2000 to disclose to Big Lots that the defendants intended to
+
+execute the 2002 transaction and thus render HCC insolvent. Big Lots claims, in
+
+essence, that Glazer’s failure to disclose caused Big Lots to approve the 2000
+
+transaction.
+
+      Both parties agree that Ohio law applies to Glazer’s actions as a director of
+
+Big Lots, an Ohio corporation. Fiduciary duty violations under Ohio law are
+
+governed by statute, requiring that a director perform his or her duties as a director:
+
+                                          25
+      in good faith, in a manner he reasonably believes to be in or not
+      opposed to the best interests of the corporation, and with the care that
+      an ordinarily prudent person in a like position would use under similar
+      circumstances.60
+
+Additional language in the statute provides that a breach of a duty as a director
+
+gives rise to an award of money damages only if clear and convincing evidence
+
+shows that:
+
+      [the] director’s action or failure to act involved an act or omission
+      undertaken with deliberate intent to cause injury to the corporation or
+      undertaken with reckless disregard for the best interests of the
+      corporation.61
+
+These two statutory provisions appear to establish a higher pleading standard for
+
+claims of monetary damages than claims for injunctive relief. Indeed, as an
+
+authority on Ohio corporate law explains:
+
+      [a]pparently, a director can be found, by clear and convincing
+      evidence, to have acted in a manner she does not reasonably believe to
+      be in, or not opposed to, the best interests of the corporation . . . i.e.,
+      the director may be found to have breached his or her duties under
+      R.C. § 1701.59(B) and still not be held liable in damages for that
+      action or inaction unless it is proved, also by clear and convincing
+      evidence, that the director acted with deliberate intent to injure the
+      corporation, or with a “reckless disregard for the best interests of the
+      corporation.”62
+
+
+
+
+60
+   OHIO REV. CODE § 1701.59(B).
+61
+   Ohio REV. CODE §§ 1701.59(C)(1), 1701.59(D); Frank Lerner & Assoc. v. Vassy, 599 N.E.2d
+734, 738 (Ohio Ct. App. 1991).
+62
+   JULIE C. SHIFMAN, OHIO CORPORATION LAW § 7.5 (2005).
+
+                                            26
+       Essentially, therefore, Ohio law establishes that in cases seeking monetary
+
+damages, a plaintiff can only succeed if it proves what, in Delaware, would amount
+
+to a lack of good faith. From this statutory foundation, Ohio courts frequently
+
+refer to Delaware case law and expertise in determining the contours of fiduciary
+
+duty.63
+
+       Delaware courts have long held that a certain duty to disclose inheres in the
+
+duty of loyalty. As this court held in Hoover Industries v. Chase,64 for example,
+
+“the intentional failure or refusal of a director to disclose to the board a defalcation
+
+or scheme to defraud the corporation of which he has learned, itself constitutes a
+
+wrong . . . .”65 But this duty to disclose is not a general duty to disclose everything
+
+the director knows about transactions in which the corporation is involved. Rather,
+
+the director disclosure cases decided in Delaware courts have implicated
+
+circumstances in which the director is personally engaged in transactions harmful
+
+to the corporation, but beneficial to the director.66 Hollinger International v.
+
+Black67 is the paradigmatic example of this claim. In that case, the controlling
+
+63
+   See, e.g, Abrahamson v. Waddell, 624 N.E.2d 1118, 1120 (Ohio Com. Pl. 1992) (citing
+Paramount Commc’ns v. Time, 571 A.2d 1140 (Del. 1989); Kelly v. Wellsville Foundry, 2000
+Ohio App. LEXIS 6287 (Ohio. Ct. App. Dec. 6, 2000) (“Delaware courts are widely renowned
+and respected for their expertise in the area of business law”).
+64
+   1988 Del. Ch. LEXIS 98 (Del. Ch. July 13, 1988).
+65
+   Id. at *7.
+66
+   Thorpe v. CERBCO, Inc., 676 A.2d 436 (Del. 1996) (finding a duty to disclose where
+controlling shareholders and directors failed to tell disinterested directors of an offer to buy the
+company, and instead arranged to sell their own shares only).
+67
+   844 A.2d 1022 (Del. Ch. 2004).
+
+                                                 27
+shareholder and director failed to disclose that he was “shopping” the company in
+
+violation of a signed contract that forbade him to do so.68 The court held this
+
+failure to disclose to be a violation of the director’s fiduciary duty. But even in
+
+that extreme circumstance, the court was careful to note that the duty to disclose
+
+this information was based on the specific facts of the case, which featured
+
+circumstances “under which . . . full disclosure was obviously expected.”69
+
+          Under this standard, Count VII’s allegations concerning the 2002 transaction
+
+fail to state a claim for relief. The simple fact is that the extent of Glazer’s interest
+
+in that transaction, in his capacities as an officer, director, or investor in KB Toys,
+
+was completely immaterial to Big Lots, which had no right to approve or
+
+disapprove either the transaction or Glazer’s participation in it. What was arguably
+
+material to Big Lots was the fact of the transaction and its size, and there is no
+
+allegation that Big Lots was ignorant of those facts. Nor can it be said that Glazer
+
+violated some fiduciary duty owed to Big Lots under Ohio law by approving the
+
+2002 transaction as a director of KB Toys, as his duties in that capacity ran entirely
+
+to KB Toys.
+
+          Count VII’s claim against Glazer with respect to the 2000 transaction is
+
+critically dependent on an allegation that Glazer either knew or should have known
+
+
+68
+     Id. at 1061.
+69
+     Id. at 1062.
+
+                                            28
+that the defendants would execute the 2002 transaction within some short time
+
+after the sale of the KB Toys businesses and, thus, that Glazer should have warned
+
+the other Big Lots directors of that fact. The court must grant the defendants’
+
+motion to dismiss this claim because Big Lots has failed to sufficiently allege that
+
+Glazer actually knew or actually had reason to know that the 2002 transaction
+
+would happen. Instead, just as Big Lots would have the court infer that the
+
+proximity of the 2002 transaction and the 2004 bankruptcy means that the two are
+
+connected, it insists that the proximity of the 2000 and 2002 transactions means
+
+that Glazer knew or should have known in 2000 that the 2002 transaction was
+
+inevitable. Much more than this effort to plead knowledge in the alternative is
+
+required where a plaintiff bases a claim on a director’s duty to disclose, a duty
+
+which our courts have only invoked in cases where the defendant had clear
+
+knowledge of the information at issue.70
+
+       To hold otherwise here would expose participants in leveraged buyout
+
+transactions, where directors or officers of the seller often emerge as directors and
+
+
+70
+  See, e.g., Int’l Equity Capital Growth Fund v. Clegg, 1997 Del. Ch. LEXIS 59, *19 (Del. Ch.
+Apr. 21, 1997) (invoking the duty to disclose where a director had induced the board to purchase
+a manufacturing plant that, at the time of the purchase, was known to manufacture defective
+products); Hoover, 1988 Del. Ch. LEXIS, at *7 (noting that a “director does breach his duty of
+loyalty if he knows that the company has been defrauded and does not report what he knows to
+the board . . . at the very least when he is involved in the fraud and keeps silent in order to escape
+detection”); Summit Investors II v. Sechrist Indus., 2002 Del. Ch. LEXIS 117, *21 (Del. Ch.
+Sept. 20, 2002) (noting, in the context of the duty to disclose, that a director’s “fiduciary duties
+do not extend to speculation concerning future events”).
+
+                                                 29
+officers of the surviving corporation, to subsequent litigation based on mere
+
+speculation that a defendant should have known of some transaction planned by the
+
+new company within a few years after the sale, and that the transaction would turn
+
+out badly. That overly broad conception of liability is not what Delaware courts
+
+meant in establishing that a director’s fiduciary duty of loyalty includes the duty to
+
+disclose known facts to his fellow directors.71
+
+                                             IV.
+
+       For the foregoing reasons, the defendants’ motions to dismiss are
+
+GRANTED as to all counts. IT IS SO ORDERED.
+
+
+
+
+71
+  As one court has held in the context of fraudulent conveyance law, such suits do not
+“constitute insurance against the ultimate failure of the company.” MFS/Sun Life Trust-High
+Yield Series v. Van Dusen Airport Servs., 910 F. Supp. 913, 944 (S.D.N.Y. 1995). See also,
+Moody v. Security Pacific Bus. Credit, 127 B.R. 958, 989 (W.D. Pa. 1991) (“[while there were
+mistakes made, and while those mistakes arguably exacerbated the difficulties Jeannette began to
+experience in late 1982, the fraudulent conveyance laws were not designed to insure creditors
+against all possible consequences of a company’s post-leveraged buyout errors in judgment or
+poor business practices”).
+
+                                              30
+

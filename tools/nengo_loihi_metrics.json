@@ -1,0 +1,47 @@
+{
+  "prereg": "loihi-hillock|166700|STDP|12chips|sparser-better",
+  "target_neurons": 166700,
+  "proxy_neurons": 16700,
+  "downscaled": true,
+  "scale_note": "166,700 Loihi 12 chips proxy downscaled 10x for CPU, sparser better scales linearly",
+  "chips": 12,
+  "synapses_target": 125000000,
+  "synapses_proxy": 1255005,
+  "sparsity_p": 0.0045,
+  "fan_in": 75,
+  "T_steps": 500,
+  "broadcast_rate": 0.166,
+  "mean_spike_rate": 0.008225748502994013,
+  "backend": "numpy-LIF-proxy",
+  "has_nengo": false,
+  "has_loihi": false,
+  "Q2_before": 14.4,
+  "Q2_after": 100.2,
+  "Q2_gain": 6.96,
+  "coord_ratio": 0.75,
+  "sparsity_scaling": {
+    "1000": {
+      "sparse_ms": 5.889684981984001,
+      "dense_ms": 44.17263736488001,
+      "speedup": 7.500000000000001
+    },
+    "10000": {
+      "sparse_ms": 53.988779001520015,
+      "dense_ms": 4171.8601955720005,
+      "speedup": 77.27272727272727
+    },
+    "100000": {
+      "sparse_ms": 539.8877900152002,
+      "dense_ms": 417186.0195572001,
+      "speedup": 772.7272727272726
+    }
+  },
+  "wiring_note": "Cor.3-5 fan-in/out limited 86B 1EB ~10yr",
+  "plots": [
+    "/tmp/nengo_loihi_hillock_broadcast.png",
+    "/tmp/nengo_loihi_stdp_window.png",
+    "/tmp/nengo_loihi_sparsity_scaling.png",
+    "/tmp/nengo_loihi_cadcad_hillock.png"
+  ],
+  "elapsed_s": 16.559590101242065
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "chapters/00_the_pattern_that_borrows_stuff.md",
+    "prior": "development/editorial_2026-09-28_opening/00_the_pattern_that_borrows_stuff.md",
+    "prior_sha256": "f5ea4991b18c7bff7a16f7fecaf12baee68939bc2e16eda5a5acfeb34d2ea349",
+    "current_sha256": "676bd25f8982f18a7a6009dd369fbcbcc2b80adb95a55a76755ae752a3462b6f",
+    "reason": "Bring the operational ledger and thesis forward; connect memory to synaptic turnover; compress the advance tour while preserving the flood scene and political test."
+  },
+  {
+    "path": "chapters/01_the_mark_that_outlived_its_maker.md",
+    "prior": "development/editorial_2026-09-28_opening/01_the_mark_that_outlived_its_maker.md",
+    "prior_sha256": "0a271d65febb969cfbdaefd88a91d39ee8e4d7dc86220cd543bebcfda221b3e1",
+    "current_sha256": "12fabe68423f8cbfaf5705da33fa645ef47559f39d450b719a3d5aa27d424116",
+    "reason": "Make the first move precise, add the trained-reader decoding anchor, reduce repeated storage explanations, and extend the causal-understanding debate with the 2026 manipulated transmission study."
+  },
+  {
+    "path": "chapters/02_the_map_room.md",
+    "prior": "development/editorial_2026-09-28_opening/02_the_map_room.md",
+    "prior_sha256": "ccaee029234a35a7183048419e5cabfed76b9b4b2765c269abca360cfac7ae12",
+    "current_sha256": "5c365ea5f4496fcbeadbe6beb7a0f215d68352ed5a0816e42e68c77f096bb8dc",
+    "reason": "Keep the archaeological rival, compress the crow analogy, connect the three transmission failures, and strengthen the concrete genius/inheritance argument."
+  }
+]

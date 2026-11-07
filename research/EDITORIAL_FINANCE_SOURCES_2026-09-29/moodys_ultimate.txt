@@ -1,0 +1,1117 @@
+Special Comment
+                                                                                                           April 2007
+
+                                                                            Contact                    Phone
+                                                                           New York
+                                                                           Kenneth Emery               1.212.553.1653
+                                                                           Richard Cantor
+                                                                           David Keisman
+                                                                           Sharon Ou
+
+
+
+
+                  Moody's Ultimate Recovery Database
+
+
+
+
+Summary
+•   Moody's ultimate recovery database includes detailed recovery information on nominal and discounted ultimate
+    recoveries for approximately 3500 loans and bonds from over 720 US non-financial corporate default events.
+•   The average discounted ultimate recovery rate on loans included in the database is 82 percent, while the median is
+    100 percent. Bonds' average and median recovery rates are 37 percent and 24 percent, respectively. The distribu-
+    tion of loan recovery rates is skewed to the right, while the distribution of bond recovery rates is skewed to the left.
+•   Ultimate discounted debt recovery rates are significantly influenced by their priority-of-claim position in the
+    defaulted corporate family's liability structure and the relative shares of debt above and debt below a particular
+    instrument within that structure.
+•   Corporate family recovery rates, which measure the enterprise value of the corporate family relative to its total lia-
+    bilities at default resolution, are widely dispersed with a mean recovery rate of 52 percent and a standard deviation
+    of 26 percent. Family recovery rates do not vary significantly across most industry types.
+•   Corporate family and bond recovery rates exhibit considerable cyclicality as measured by their correlation with
+    the US speculative-grade default rate. Loan recovery rates exhibit considerably less cyclicality.
+•   There is no observed systematic relationship between ultimate discounted family recovery rates and Moody's
+    credit-loss based corporate family ratings (CFR) prior to default, suggesting that credit fundamentals in advance
+    of default - which are the determinants of CFRs - are predictive of default but are not predictive of loss given
+    default..
+•   There exists a close association between discounted ultimate recovery rates and post-default debt trading prices.
+    In a regression context, trading prices explain approximately 50 percent of the variation in ultimate recovery rates.
+                               Moody's Ultimate Recovery Database
+                    The data underlying the research in this recovery study is available in
+                    Moody's Ultimate Recovery Database (URD). The database includes
+                    over 3,500 loans and bonds, over 720 different non-financial
+                    corporates, and over $400 billion in debt since 1987. Ideal for fine-
+                    tuning LGD models, the service provides raw data addressing three
+                    approaches to calculating recovery, including the settlement method,
+                    the trading price method, and the liquidity event method, along with a
+                    preferred method indicator. To facilitate due diligence, the database
+                    has been fully annotated and contains information related to the logic,
+                    events, and assumptions driving the recovery estimate as well as
+                    details on recovery outcomes. Ensuring the accuracy of the data, the
+                    URD is only updated by experienced credit professionals who focus on
+                    analyzing recovery information and stay current with case law. For
+                    more information about the URD, please call Norm Stewart in New York
+                    at (212) 553-4877 or Taran Kaur in London at (44 20) 7772-8714
+
+
+
+
+2   Moody’s Special Comment
+Overview
+In contrast to post-default debt trading prices, which are often used to measure creditors' recovery rates, "ultimate
+recoveries" refer to the recovery values that creditors actually receive at the resolution to default, usually at the time of
+emergence from Chapter 11 bankruptcy proceedings.1 Coincident with the introduction in 2006 of Moody's specula-
+tive-grade loss-given-default (LGD) assessments, which reference ultimate recovery, Moody's markedly increased the
+size and coverage of its ultimate recovery database, which now includes detailed recovery information on nominal and
+discounted ultimate recoveries for approximately 3500 loans and bonds taken from over 720 US non-financial corpo-
+rate default events.2 In this Special Comment, we provide an overview of this database and present summary statistics
+characterizing the ultimate recoveries included.
+     In constructing the database, the coverage is US non-financial corporates with over $50 million in debt at the time
+of default.3 Three alternative methods are used to derive nominal valuations on these obligors' debts at the time of
+resolution and an indication in the database of which method Moody's considers to be the most representative of the
+actual recovery.4 To obtain discounted ultimate recoveries, each nominal recovery is discounted back to the last time
+interest was paid using the instrument's pre-petition coupon rate. Exhibit 1 shows the annual distribution of default
+events by default date and resolution date, illustrating the database's inclusion of the high number of defaults that
+occurred during the most recent credit cycle from 1999 through 2003.
+
+              Exhibit 1
+                                                          Defaults and Resolutions by Year
+                      120
+
+                      100                                Defaults        Resolutions
+
+                          80
+
+
+             Number
+                          60
+
+                          40
+
+                          20
+
+                           0
+                          19
+                          19
+                          19
+                          19
+                          19
+                          19
+                          19
+                          1987
+                            88
+                            89
+                            90
+                            91
+                            92
+                            93
+                            94
+                          19
+                          19
+                          19
+                          19
+                          19
+                          20
+                          20
+                          2095
+                            96
+                            97
+                            98
+                            99
+                            00
+                            01
+                            02
+                          20
+                          20
+                          20
+                          2003
+                            04
+                            05
+                            06
+
+
+    Exhibit 2 shows the industry representation across default events included in the database. Consistent with the
+industry representation of the speculative-grade debt markets as a whole, the manufacturing, telecommunications,
+consumer products, and retail industries are well represented among defaulted obligors.
+
+
+
+
+1.   Resolutions also occur when distressed exchanges are consummated and when missed interest payments outside the grace period are cured. Default events are
+     defined under Moody's standard definition of default that encompasses bankruptcy, distressed exchanges, and missed interest payments.
+2.   Specifically, 721 default events are taken from 682 unique corporate families. These default events involve 3492 individual loans and bonds as part of 1611 unique
+     security classes.
+3.   The database includes both Moody's rated and unrated corporate obligors.
+4.   The three alternative valuation methods are: 1) settlement method whereby the value of the settlement instruments is taken at or close to default, 2) liquidity method
+     whereby the value of the settlement instruments is taken at the time of a liquidity event, and 3) trading price method whereby the value of the settlement instruments
+     is based on the trading prices of the defaulted instruments at or post-emergence.
+
+
+
+                                                                                                                         Moody’s Special Comment                         3
+              Exhibit 2
+                                                                             Defaults by Industry
+                        120
+
+
+                        100
+
+
+                         80
+
+
+                Count    60
+
+
+                         40
+
+
+                         20
+
+
+                          0
+                         NA TU RA DEF T
+                                  L P EN  CR
+                                     RO S E
+                                         DU   AF
+                                E
+                          FO NVI ILIT    PH
+                                         UT   CT
+                                              AR  S
+                                                  M
+                             RE RO
+                                ST NM
+                                    P R EN
+                                        OD T
+                                   CH UCT
+                                      EM S        Y
+                                   PA CAL
+                               CO CKA S   I
+                        AIR       NS GI
+                                     TR NG
+                                         U
+                                   WH CTIO
+                                      OL NES
+                                        TR EAN AL
+                                                SP
+                                 HE A U
+                            ME AL TO
+                               TA THC
+                                  LS  & RE
+                                         M    A
+                                            INI
+                               HO TE TE
+                                     L, GA H MI NG
+                                                C
+                                     SE NG
+                                         RV
+                                          ME IC ES
+                                               DI
+                                         MA
+                                        EN F
+                                      TE G YER NU A
+                                         LE
+                                    CO C O
+                                        NS M
+                                         REUM   ER
+                                              TA IL
+
+
+
+     The data in Exhibit 3 illustrate the mix of debt types across the 3492 defaulted loans and bonds in the database.5
+Overall, bonds make up approximately 60 percent of total debts with loans comprising the remaining 40 percent.
+Among loans, the data is roughly split between revolvers and term loans. Among bonds, senior unsecured bonds com-
+prise almost 45 percent of all bonds, with the other bonds split largely among senior secured bonds and subordinated
+bonds.
+
+              Exhibit 3
+                                                                            Counts of Debt Types
+                        2500
+                                                                                                                                                         2147
+                        2000
+
+
+                        1500                                                                                                               1345
+
+                Count
+                                                                                   945
+                        1000
+                                    708          637
+                                                                    441                          381
+                         500                                                                                    328
+                                                                                                                             52
+                              0
+                              Re
+                                   r        Lo                 ds              ds            Bond          onds         Bond          Lo            Bo
+                                vo            an             Bo n          dB                     s                         s            an s         nds
+                                  lve   Te              ed                   on          ted           ted         ina
+                                           rm                         cu                                   B                      To tal        To tal
+                                                      ec                re    rS               Su                     te d
+                                                        ur          ns          ub               bo
+                                                 rS                    e          or               rd          ubor
+                                                nio      Se                          di n            ina            d
+                                            Se             nio                           a             Ju
+                                                              rU           Se                            nio
+                                                                             nio                            rS
+
+
+
+5.   Many individual security classes in the database contain multiple loans and bonds. As a result, in order to avoid placing undo weight on individual security classes
+     which contain multiple debts of the same type, the debt-level recovery rate statistics that we report throughout this paper are "security-class weighted". Effectively, this
+     weighting results in 1065 bond observations and 670 loan observations that are used in calculating debt-level recovery rate statistics.
+
+
+
+4         Moody’s Special Comment
+Recovery Rates
+
+BY DEBT TYPE
+As can be seen in Exhibit 4, bank loans recover an average of 82 percent at resolution on a discounted basis with a cor-
+responding median of 100 percent. In contrast, senior secured bonds recover an average of 65 percent with a median
+of 67 percent. Discounted ultimate recovery rates on bonds vary from an average of 38 percent for senior unsecured
+bonds down to 15 percent for junior subordinated bonds. Across all bonds, the average recovery rate is 37 percent
+with a median of 24 percent.
+
+               Exhibit 4
+                                               Discounted Ultimate Recovery Rates by Debt Type
+                                      100%
+                             1.0
+                                                                                  Mean              Median
+                                   82%
+                             0.8
+                                                    67%
+                                                 65%
+
+
+
+
+             Recovery Rate
+                             0.6
+
+
+                                                                 38%                                                                        37%
+                             0.4
+                                                                       30%
+                                                                                    29%                27%                                         24%
+                                                                                          18%
+                             0.2                                                                             14%         15%
+                                                                                                                                 2%
+                             0.0
+                                   Bank Loan   Senior Secured     Senior             Senior         Subordinated          Junior            All Bonds
+                                                    Bond        Unsecured         Subordinated         Bond            Subordinated
+                                                                  Bond                Bond                                 Bond
+
+
+     Exhibit 5 shows the distributions of loan and bond recovery rates, indicating strong skewness in both distributions
+whereby the probability of full recovery for loans is relatively high and the probability of low recovery for bonds is also
+relatively high.6
+
+
+
+
+6.   Of the 1735 security-class weighted loans and bonds used in constructing the distributions shown in Exhibit 5, 78 loans and 41 bonds are non-defaulting instruments
+     of defaulting obligors incurring distressed exchanges. Excluding these non-defaulting debts does not materially alter the distributions shown in Exhibit 5.
+
+
+
+                                                                                                                       Moody’s Special Comment                        5
+                   Exhibit 5
+                                                               Loan and Bond Recovery Rate Distributions
+                                         70%
+
+
+                                         60%                        Loans    Bonds
+
+
+                                         50%
+
+
+
+
+            Probability
+                                         40%
+
+
+                                         30%
+
+
+                                         20%
+
+
+                                         10%
+
+
+                                         0%
+                                                0-9   10-19     20-29   30-39    40-49    50-59        60-69       70-79        80-89        90-99       =100
+                                                                                     Recovery Rate
+
+
+     An important determinant of security-class recovery rates is the priority position of a debt within an obligor's lia-
+bility structure. Indeed, a guiding principle underlying Moody's LGD assessments is that liability structure plays a key
+role in determining security-class recovery rates. In Exhibit 6, we construct "junior", "mezzanine", and "senior" debts
+defined by their position within an obligor's liability structure on the basis of the percentage of total liabilities above
+and below them in priority of claim status.7 As illustrated in Exhibit 6, average recovery rates vary significantly by the
+debts' priority position in the liability structure. Junior, mezzanine and senior debts recover an average of 21 percent,
+58 percent, and 93 percent, respectively.
+
+                   Exhibit 6
+                                                                            Debt Structure Matters
+                                         100%                                                                                             93%
+
+
+                                          80%
+
+
+
+
+                 Average Recovery Rate
+                                                                                             58%
+                                          60%
+
+
+                                          40%
+
+                                                              21%
+                                          20%
+
+
+                                           0%
+                                                          Junior                             Mezz                                       Senior
+                   Junior: >70% of total debt above, Mezzanine: 25% above and 25% below, Senior: >70% of below
+
+
+
+
+7.   Security classes where more than 70 percent of total liabilities are senior to it are defined as junior, mezzanine debts are defined as those where at least 25 percent of
+     total liabilities are both junior and senior to it, and senior debts are those where at least 70 percent of total liabilities are junior to it.
+
+
+
+6         Moody’s Special Comment
+      In a similar manner, Exhibits 7 and 8 demonstrate that a debt's position in the liability structure matters across
+particular debt types as well. In Exhibit 7, as the percentage of total debt junior to the bank loan increases, the average
+recovery rate increases. Loan recovery rates average 95 percent when junior debt equals at least 75 percent of total lia-
+bilities, compared to an average of 69 percent for loans with junior debt less than or equal to 25 percent of total liabili-
+ties.
+
+                    Exhibit 7
+                                                                             Debt Structure Matters: Bank Loans
+                                      100%                                                                                             95%
+                                                                                                                     90%
+
+
+
+
+        Average Recovery Rate
+                                                  80%                                 72%
+                                                                 69%
+
+                                                  60%
+
+                                                  40%
+
+                                                  20%
+
+                                                        0%
+                                                              0%<=X<=25%           25%<X<=50%                50%<X<=75%                >75%
+                                                                                                 Debt Below
+                                                                                            (as a % of total debt)
+
+
+     For senior unsecured bonds, Exhibit 8 shows that average recovery rates decline as the percentage of total liabili-
+ties senior to the bonds increases. Recovery rates average only 30 percent for those bonds with senior debt equal to at
+least 50 percent of total liabilities, compared to 43 percent for bonds with senior debt equal to less than 30 percent of
+total liabilities.
+
+                    Exhibit 8
+                                                                               Debt Structure Matters: Bonds
+                                                        50%
+                                                                       43%
+                                                                                                   40%
+
+
+
+
+                                Average Recovery Rate
+                                                                                                                                30%
+
+                                                        25%
+
+
+
+
+                                                        0%
+                                                                    <30%                          30-50%                        >50%
+                                                                                              Debt Above
+                                                                                         (as a % of total debt)
+
+
+
+
+                                                                                                                           Moody’s Special Comment   7
+CORPORATE FAMILY RECOVERY RATES
+While liability structure is one key determinant of debt recovery rates, another is the total enterprise value of the cor-
+porate family at resolution available to be distributed to creditors. Measuring this value relative to the total liabilities
+of the firm implies an overall "corporate family" recovery rate. Exhibit 9 shows the distribution of corporate family
+recovery rates for defaulted obligors that had both loans and bonds outstanding at the time of default. The mean fam-
+ily recovery rate equals 52 percent with a standard deviation of 26 percent, indicating a relatively wide dispersion in the
+range of possible outcomes.8
+
+                 Exhibit 9
+                                                       Distribution of Family Recovery Rates
+                          14%
+
+
+                          12%
+
+
+                          10%
+
+
+
+
+            Probability
+                          8%
+
+
+                          6%
+
+
+                          4%
+
+
+                          2%
+
+
+                          0%
+                                0-9    10-19        20-29       30-39        40-49    50-59    60-69              70-79       80-89       90-99        =100
+                                                                               Family Recovery Rate
+
+
+     Exhibit 10 shows average family recovery rates by industry, indicating relatively little variation in family recovery
+rates by industry. Fifteen of the twenty-three industries have average family recovery rates that fall between 40 and 60
+percent, and the industries that have average recovery rates outside this range have very few defaulted obligors com-
+prising those individual industries. The regulated utilities industry stands out as the five defaulted obligors included in
+that industry experienced an average family recovery rate of approximately 90 percent. This high recovery rate is
+likely driven by utilities' often-observed behavior of strategically choosing to default, when asset values are still rela-
+tively high, in order to seek rate relief from regulators. Although the 68 obligors comprising the telecommunications
+industry experienced an average family recovery rate of only 36 percent, the vast majority of these obligors defaulted
+during the latest credit cycle. It remains unclear whether future telecommunications defaulters would experience sim-
+ilarly low family recovery rates.
+
+
+
+
+8.   For the majority of issuers not on the precipice of default, Moody's LGD assessments methodology assumes a beta distribution of family recovery rates with mean
+     equal to 50 percent and standard deviation equal to 26 percent. In the database, loan-only families are found to have a significantly higher mean family recovery rate,
+     while bond-only families have a lower mean family recovery rate. In these cases, Moody's LGD methodology incorporates these findings by adjusting the mean of the
+     beta distribution correspondingly. Moody's LGD methodology also adjusts the mean of the beta distribution to reflect the significantly higher family recovery rates his-
+     torically experienced by regulated utilities.
+
+
+
+8         Moody’s Special Comment
+         Exhibit 10
+                                                         Family Recovery Rates by Industry
+       100%                                                                                                                         120
+                                           Mean           Count
+                                                                                                                                    100
+         80%
+
+                                                                                                                                    80
+         60%
+                                                                                                                                    60
+         40%
+                                                                                                                                    40
+
+         20%
+                                                                                                                                    20
+
+
+          0%                                                                                                                        0
+                         ON
+                       TE N T
+                          LE MECO  M
+                CO DEF H
+                   NS EN
+                      TR S E
+                  HE CTI  U   TE C
+                     AL ON
+                         TH CA
+                         TR EAN  RSP
+                          MA
+                           M AU  TO
+                                NU  F
+                   WH ED
+                HO O LE A         I
+       EN          TE S A
+                      L, GA E
+                    CH MIN
+                       EM G       L
+         VIR ME S ALS
+                TA ERV
+                   LS IC
+                       & ES
+                          M
+                    CO NING
+                         NS
+                           IC
+                          RE I
+                            UM    ER
+           FO R E EN I L
+                 ST ER
+                     P R GY
+                         OD *
+                    PA UCT     T A
+          NA TU RA LP ACK SAG
+                          PH
+                      RO RM     ING
+                          DU
+                      AIR TS
+                          CR
+                         UT T  C
+                               AF
+                            ILI TY  *
+
+
+
+    Exhibit 11, which shows the distribution of months spent in bankruptcy and associated family recovery rates, sug-
+gests that time spent in bankruptcy has a minimal effect on ultimate discounted family recovery rates. However,
+regression analysis does indicate a minor statistically significant effect with recovery rates declining as time in bank-
+ruptcy increases. The distribution of months spent in bankruptcy, as indicated by the blue bars, shows that approxi-
+mately one half of obligors spend less than twelve months in bankruptcy before emerging. The average time spent in
+bankruptcy is 15 months.
+
+         Exhibit 11
+                                             Time to Resolution and Family Recovery Rates
+                                30%                                                                               60%
+
+
+                                25%                                                                               50%
+
+
+                                20%                                                                               40%
+
+
+
+
+               % of Total BKs
+                                                                                                                        Family RR
+                                15%                                                                               30%
+
+
+                                10%                                                                               20%
+
+
+                                5%                                                                                10%
+
+
+                                0%                                                                                0%
+                                      <6          6-12        12-18      18-24       24-30   30-36        36-42
+                                                                      Months in BK
+
+
+
+
+                                                                                                     Moody’s Special Comment              9
+    In Exhibit 12, we show the impact of default and emergence types on discounted ultimate family recovery rates.
+Eighty-six distressed exchanges experienced relatively high family recoveries with an average rate of 69 percent. The
+629 bankruptcies had an average family recovery rate of 49 percent, with the average for those emerging as a going
+concern at 54 percent and those liquidating their assets at 44 percent.
+
+         Exhibit 12
+                                                   Family Recovery Rates and Default Resolution Types
+                                    100%                                                                              700
+
+
+                                                                                                                      600
+                                     80%
+                                                  69%                                                                 500
+
+
+
+
+             Family Recovery Rate
+                                     60%                                              54%                             400
+                                                                                                                            Count
+                                                                      49%
+                                                                                                         44%
+                                                                                                                      300
+                                     40%
+
+                                                                                                                      200
+                                     20%
+                                                                                                                      100
+
+
+                                     0%                                                                               0
+                                           Distressed Exchange         BK          BK--Emerged       BK--Liquidated
+
+
+
+CYCLICALITY OF ULTIMATE RECOVERY RATES
+Using post-default trading prices as the measure of recovery, Moody's has for many years documented an inverse rela-
+tionship between recovery rates and the US speculative-grade default rate, indicating significant cyclicality in recovery
+rates. Examining annual average ultimate family recovery rates, as shown in Exhibit 13, reveals that cyclicality is also
+evident in ultimate recovery rates. For example, in Exhibit 13, as the number of defaults began to increase in 1999,
+ultimate family recovery rates started to decline. And since 2002, as the number of defaults has declined, family recov-
+ery rates have been increasing.
+
+         Exhibit 13
+                                                             Family Recovery Rates by Default Year
+                                    80%                                                                               120
+
+                                    70%             Mean (L)       Count (R)
+                                                                                                                      100
+                                    60%
+
+
+
+
+           Family Recovery Rate
+                                                                                                                      80
+                                    50%
+
+                                    40%                                                                               60     Count
+
+                                    30%
+                                                                                                                      40
+                                    20%
+                                                                                                                      20
+                                    10%
+
+                                    0%                                                                                0
+                                     19
+                                     19
+                                     19
+                                     19
+                                     19
+                                     19
+                                     19
+                                     1987
+                                       88
+                                       89
+                                       90
+                                       91
+                                       92
+                                       93
+                                       94
+                                     19
+                                     19
+                                     19
+                                     19
+                                     19
+                                     20
+                                     20
+                                     2095
+                                       96
+                                       97
+                                       98
+                                       99
+                                       00
+                                       01
+                                       02
+                                     20
+                                     20
+                                     20
+                                     2003
+                                       04
+                                       05
+                                       06
+
+
+
+
+10    Moody’s Special Comment
+    In Exhibit 14, each observation shown is the average family recovery rate and average US speculative-grade
+default rate for a particular year.9 The solid line indicates the log-linear regression relationship between annual aver-
+age family recovery rates and speculative-grade default rates, indicating a strong negative relationship between the
+two. In fact, the regression results indicate that movements in the annual average speculative-grade default rate
+explain almost one-half of the variation in annual average family recovery rates.
+
+              Exhibit 14
+                                                  Family Recovery Rates and US Speculative-Grade Default Rates
+                                                                               (Annual Data)
+                                       80%
+                                       70%                                                                           y = -0.11Ln(x) + 0.19
+                                                                                                                           R2 = 0.44
+
+
+
+
+                Family Recovery Rate
+                                       60%
+                                       50%
+                                       40%
+                                       30%
+                                       20%
+                                       10%
+                                       0%
+                                             0%           2%           4%                    6%                   8%                     10%   12%
+                                                                              Spec-Grade Default Rate
+
+
+
+     Interestingly, the cyclicality observed in family recovery rates is also observed in bond recovery rates but it is
+observed in loan recovery rates to a much lesser degree. This can be seen by comparing Exhibits 15 and 16, which
+show data on ultimate bond recovery rates by year, and Exhibits 17 and 18, which show the same data for ultimate loan
+recovery rates. Clearly, the cyclicality in loan recovery rates is much less evident than for bond recovery rates. The
+most likely explanation for this difference is that within an obligor's liability structure, bonds tend to reside in the mid-
+dle or bottom half of the liabilities in terms of priority of claim, which makes their recovery rates relatively sensitive to
+movements in the realized family recovery rate. On the other hand, loans tend to reside at the top of the liability struc-
+ture in terms of priority of claim where recovery is relatively less sensitive to movements in the realized family recovery
+rate.
+
+
+
+
+9.   Effectively, this construction weights the data for each year equally, regardless of the number of defaults in a particular year.
+
+
+
+                                                                                                                             Moody’s Special Comment   11
+       Exhibit 15
+                                                  Bond Recovery Rates by Default Year
+                           80%                                                                                    180
+
+                           70%                Mean (L)   Count (R)                                                160
+                                                                                                                  140
+                           60%
+
+
+
+
+         Bond Recovery Rates
+                                                                                                                  120
+                           50%
+                                                                                                                  100
+                           40%                                                                                          Count
+                                                                                                                  80
+                           30%
+                                                                                                                  60
+                           20%
+                                                                                                                  40
+                           10%                                                                                    20
+                               0%                                                                                 0
+                               19
+                               19
+                               19
+                               19
+                               19
+                               19
+                               19
+                               1987
+                                 88
+                                 89
+                                 90
+                                 91
+                                 92
+                                 93
+                                 94
+                               19
+                               19
+                               19
+                               19
+                               19
+                               20
+                               20
+                               2095
+                                 96
+                                 97
+                                 98
+                                 99
+                                 00
+                                 01
+                                 02
+                               20
+                               20
+                               20
+                               2003
+                                 04
+                                 05
+                                 06
+
+
+
+       Exhibit 16
+                                    Bond Recovery Rates and US Speculative-Grade Default Rates
+                                                                (Annual Data)
+       80%
+       70%
+       60%                                                                              y = -0.143Ln(x) - 0.037
+                                                                                               R2 = 0.48
+       50%
+       40%
+       30%
+       20%
+       10%
+         0%
+                               0%        2%              4%            6%               8%            10%               12%
+                                                              Spec-Grade Default Rate
+
+
+
+
+12   Moody’s Special Comment
+Exhibit 17
+                                                                Loan Recovery Rates by Default Year
+                                                         Mean (L)
+                           100%                                                                                            120
+                                                         Count (R)
+
+                                                                                                                           100
+                                   80%
+
+
+
+
+ Loan Recovery Rates
+                                                                                                                           80
+                                   60%
+                                                                                                                           60       Count
+                                   40%
+                                                                                                                           40
+
+                                   20%
+                                                                                                                           20
+
+
+                                        0%                                                                                 0
+                                        19
+                                        19
+                                        19
+                                        19
+                                        19
+                                        19
+                                        19
+                                        1987
+                                          88
+                                          89
+                                          90
+                                          91
+                                          92
+                                          93
+                                          94
+                                        19
+                                        19
+                                        19
+                                        19
+                                        19
+                                        20
+                                        20
+                                        2095
+                                          96
+                                          97
+                                          98
+                                          99
+                                          00
+                                          01
+                                          02
+                                        20
+                                        20
+                                        20
+                                        2003
+                                          04
+                                          05
+                                          06
+
+
+
+
+Exhibit 18
+                                                   Loan Recovery Rates and US Speculative-Grade Default Rates
+                                                                            (Annual Data)
+                                        120%
+                                                                                                   y = -0.04Ln(x) + 0.68
+                                        100%                                                             R2 = 0.22
+
+
+
+
+                   Loan Recovery Rate
+                                         80%
+
+                                         60%
+
+                                         40%
+
+                                         20%
+
+                                             0%
+                                                  0%     1%          2%    3%        4%       5%          6%        7%         8%
+                                                                           Spec-Grade Default Rate
+
+
+
+
+                                                                                                          Moody’s Special Comment           13
+MOODY'S RATINGS AND ULTIMATE RECOVERY RATES
+An important issue is whether family LGD rates vary systematically with an individual obligor's credit fundamentals
+and the probability of default in advance of default.10 Moody's corporate family ratings (CFRs) are expected credit-
+loss based ratings which incorporate expectations of both the probability of default and family LGD. While probabil-
+ity of default is unambiguously higher at lower rating levels, it is less clear whether the same credit fundamentals, like
+leverage and interest coverage, that drive default probability also drive expected family LGD. The data in Exhibit 19
+shows there has historically been no systematic relationship between ultimate discounted family recovery rates and
+CFRs, either at origination (when the issuer first obtains a Moody's rating) or immediately prior to default.11 This
+suggests that credit fundamentals speak mainly to probability of default rather than LGD.
+
+             Exhibit 19
+                                               Family Recovery Rates and Moody's Corporate Family Ratings
+                                         1.0
+
+
+                                                       At default           Orig.
+                                         0.8
+
+
+
+
+                  Family Recovery Rate
+                                         0.6
+
+
+
+                                         0.4
+
+
+
+                                         0.2
+
+
+
+                                         0.0
+                                               Ba1   Ba2     Ba3    B1      B2          B3       Caa1       Caa2       Caa3        Ca          C
+
+
+ULTIMATE RECOVERY RATES VERSUS POST-DEFAULT TRADING PRICES
+The data in Exhibit 20 indicate that average discounted ultimate recovery rates and post-default trading prices across
+debt types are relatively close to each other. For example, bank loans have an average discounted ultimate recovery
+rate of 70 percent, while the average post-default trading price recovery rate is 65 percent. Note, however, that this
+analysis is based on the 809 security classes for which we have trading prices, versus the total of 1735 security classes
+included in the database.12
+
+
+
+
+10. This is a firm-specific microeconomic issue that is distinct from the observed macroeconomic phenomenon that recovery rates vary inversely with the overall specula-
+    tive-grade default rate.
+11. This lack of a systematic relationship is also found at other horizons, including one, two, and three years prior to default
+12. Seven hundred of these are bond prices and 109 are loan prices.
+
+
+
+14       Moody’s Special Comment
+         Exhibit 20
+                                                 Ultimate versus Post-Default Trading Price Recovery Rates
+                                 100%
+
+
+                                     80%                                                 Ultimate           Trading Price
+                                             70%
+                                                   65%
+
+
+
+
+            Recovery Rate
+                                     60%                  55% 52%
+
+
+                                                                         38% 35%
+                                     40%                                                                                           35% 33%
+                                                                                                      30% 28%
+                                                                                       27% 28%
+                                                                                                                            17%
+                                     20%                                                                             16%
+
+
+
+                                     0%
+                                             Bank Loan   Sr. Secured   Sr. Unsecured     Sr.         Subordinated       Jr.        All Bonds
+                                                             Bond           Bond     Subordinated       Bond        Subordinated
+                                                                                        Bond                           Bond
+
+
+    Exhibit 21 presents regression results indicating the predictive power of post-default trading prices for ultimate
+discounted recoveries received at emergence. The results suggest that trading prices are highly significant and explain
+approximately 50 percent of the variation in discounted ultimate debt recovery rates.
+
+         Exhibit 21
+                                              Ultimate versus Post-Default Trading Price Recovery Rates
+                                           Post-Default Trading Prices Predictive of Ultimate Recovery Rates
+                                                            (Ultimate=.90 * trading price + .06, R2=.50)
+                                     100%
+
+                                      80%
+
+
+
+
+                 Ultimate Recovery
+                                      60%
+
+                                      40%
+
+                                      20%
+
+                                       0%
+                                            0%             20%                40%                   60%               80%              100%
+                                                                            Post-Default Trading Price
+
+
+
+
+                                                                                                                    Moody’s Special Comment    15
+Related Research
+Special Comments:
+Corporate Default and Recovery Rates, 1920-2006, February 2007 (102071)
+Determinants of Recovery Rates on Defaulted Bonds and Loans for North American Corporate Issuers: 1983-2003,
+December 2004 (90593)
+Recovery Rates On North American Syndicated Bank Loans, 1989-2003, March 2004 (81684)
+Rating Methodology:
+Probability of Default Ratings and Loss Given Default Assessments for Non-Financial Speculative-Grade Corporate
+Obligors in the United States and Canada, August 2006 (98771)
+
+To access any of these reports, click on the entry above. Note that these references are current as of the date of publication of this report
+and that more recent reports may be available. All research may not be available to all clients.
+
+
+
+
+To order reprints of this report (100 copies minimum), please call 1.212.553.1658.
+Report Number: 102664
+
+Author                                                                                          Senior Production Associate
+Kenneth Emery                                                                                   Yelena Ponirovskaya
+
+
+
+
+© Copyright 2007, Moody’s Investors Service, Inc. and/or its licensors and affiliates including Moody’s Assurance Company, Inc. (together, "MOODY’S"). All rights reserved. ALL
+INFORMATION CONTAINED HEREIN IS PROTECTED BY COPYRIGHT LAW AND NONE OF SUCH INFORMATION MAY BE COPIED OR OTHERWISE REPRODUCED, REPACKAGED,
+FURTHER TRANSMITTED, TRANSFERRED, DISSEMINATED, REDISTRIBUTED OR RESOLD, OR STORED FOR SUBSEQUENT USE FOR ANY SUCH PURPOSE, IN WHOLE OR IN PART, IN
+ANY FORM OR MANNER OR BY ANY MEANS WHATSOEVER, BY ANY PERSON WITHOUT MOODY’S PRIOR WRITTEN CONSENT. All information contained herein is obtained by
+MOODY’S from sources believed by it to be accurate and reliable. Because of the possibility of human or mechanical error as well as other factors, however, such information is provided “as
+is” without warranty of any kind and MOODY’S, in particular, makes no representation or warranty, express or implied, as to the accuracy, timeliness, completeness, merchantability or fitness
+for any particular purpose of any such information. Under no circumstances shall MOODY’S have any liability to any person or entity for (a) any loss or damage in whole or in part caused by,
+resulting from, or relating to, any error (negligent or otherwise) or other circumstance or contingency within or outside the control of MOODY’S or any of its directors, officers, employees or
+agents in connection with the procurement, collection, compilation, analysis, interpretation, communication, publication or delivery of any such information, or (b) any direct, indirect,
+special, consequential, compensatory or incidental damages whatsoever (including without limitation, lost profits), even if MOODY’S is advised in advance of the possibility of such
+damages, resulting from the use of or inability to use, any such information. The credit ratings and financial reporting analysis observations, if any, constituting part of the information
+contained herein are, and must be construed solely as, statements of opinion and not statements of fact or recommendations to purchase, sell or hold any securities. NO WARRANTY,
+EXPRESS OR IMPLIED, AS TO THE ACCURACY, TIMELINESS, COMPLETENESS, MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OF ANY SUCH RATING OR OTHER
+OPINION OR INFORMATION IS GIVEN OR MADE BY MOODY’S IN ANY FORM OR MANNER WHATSOEVER. Each rating or other opinion must be weighed solely as one factor in any
+investment decision made by or on behalf of any user of the information contained herein, and each such user must accordingly make its own study and evaluation of each security and of
+each issuer and guarantor of, and each provider of credit support for, each security that it may consider purchasing, holding or selling.
+     MOODY’S hereby discloses that most issuers of debt securities (including corporate and municipal bonds, debentures, notes and commercial paper) and preferred stock rated by
+MOODY’S have, prior to assignment of any rating, agreed to pay to MOODY’S for appraisal and rating services rendered by it fees ranging from $1,500 to approximately $2,400,000.
+Moody’s Corporation (MCO) and its wholly-owned credit rating agency subsidiary, Moody’s Investors Service (MIS), also maintain policies and procedures to address the independence of
+MIS’s ratings and rating processes. Information regarding certain affiliations that may exist between directors of MCO and rated entities, and between entities who hold ratings from MIS and
+have also publicly reported to the SEC an ownership interest in MCO of more than 5%, is posted annually on Moody’s website at www.moodys.com under the heading “Shareholder
+Relations — Corporate Governance — Director and Shareholder Affiliation Policy.”
+
+
+
+
+16        Moody’s Special Comment
+

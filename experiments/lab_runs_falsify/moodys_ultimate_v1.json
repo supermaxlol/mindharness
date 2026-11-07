@@ -1,0 +1,27 @@
+{
+ "source": "Moodys Ultimate Recovery Database Special Comment (free PDF held)",
+ "ultimate_discounted": {
+  "bank_loans": [
+   82,
+   100
+  ],
+  "sr_secured_bond": [
+   65,
+   67
+  ],
+  "sr_unsec_bond": [
+   38,
+   null
+  ],
+  "jr_sub_bond": [
+   15,
+   null
+  ],
+  "all_bonds": [
+   37,
+   24
+  ]
+ },
+ "validation": "trading prices explain ~50% of ultimate variation (regression); priority-of-claim drives ultimate; no family-rating relationship",
+ "grade": "measured primary (full PDF held)"
+}

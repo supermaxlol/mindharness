@@ -1,6 +1,6 @@
 # Literature Review — We Are This Pattern
 ## What Stays Alive When Everything Changes — Plain Review of Papers Mentioned in Our Files + Web Verification
-### 2026-09-07 · Sisyphus · 5906021 · 4f343dc · 292 commits · 36pp · 91/91 · 19 locks · verify 6/6 · γ_program 2.11
+### 2026-09-07 · 5906021 · 4f343dc · 292 commits · 36pp · 91/91 · 19 locks · verify 6/6 · γ_program 2.11
 ### Two lanes: Disk (papers we cited in md + bib) meets Web (live verification 2026-09-08)
 
 > **How to read this review:** Each row is `Paper — What it says in one plain sentence — How it relates to our idea — Link — Where we cited it on disk`. No special words needed. `Skin` = fence that decides whose loan counts. `Two-mem` = fast sticky note + slow diary + night move. `Spotlight` = volume knob half to double before content. `Brake` = when to stop, floor fifteen percent. `Watcher` = slower loop checking faster loop (changed / checked). `Pe` = middle where flows swirl, not uniform. `1→20` = one high twenty low loan (5,800K → 255K). `R_T/T→0` = generalizing, not memorizing. `Horizon` = help only inside window.
@@ -177,6 +177,6 @@ The language-as-middle-step section rests on four ape/child language sources bel
 
 ---
 
-*Literature review built 2026-09-07 23:53 → 2026-09-08 03:20 by Sisyphus · disk first (refs.bib + md where cited) then web (live websearch + webfetch 2026-09-08) → merged plain review `LITERATURE_REVIEW_2026-09-07.md` · keep desktop clean D → research/ holds 7 shores · every link re-derived, see DIAGNOSTIC_FRAMEWORK_NESS_FIVE_ORGANS_FORMAL.md 142 lines, verify_artifacts.py:201-252, HANDOFF.sh 49/49.*
+*Literature review built 2026-09-07 23:53 → 2026-09-08 03:20 by disk first (refs.bib + md where cited) then web (live websearch + webfetch 2026-09-08) → merged plain review `LITERATURE_REVIEW_2026-09-07.md` · keep desktop clean D → research/ holds 7 shores · every link re-derived, see DIAGNOSTIC_FRAMEWORK_NESS_FIVE_ORGANS_FORMAL.md 142 lines, verify_artifacts.py:201-252, HANDOFF.sh 49/49.*
 *How to cite this file: Shehzad Ahmed (2026). We Are This Pattern: What Stays Alive When Everything Changes — Literature Review. mindharness/research/LITERATURE_REVIEW_2026-09-07.md · 7 shores → One Loop → whirlpool not rock · 5906021 · 91/91 · 19 locks.*
 

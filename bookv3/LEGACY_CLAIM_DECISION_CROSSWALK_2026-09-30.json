@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-30",
+  "scope": "Legacy claim-location and use decisions reconciled to current V3; grades and original claim text preserved.",
+  "decisions": [
+    {
+      "claim_id": "ABS2024",
+      "grade": "measured",
+      "prior_decision": "use only as market context",
+      "current_decision": "Chapter 3 uses gross issuance only as market context, never as a loss measure.",
+      "current_chapter_keys": [
+        3
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "AGENCY",
+      "grade": "interpretive",
+      "prior_decision": "chapter 3 as bounded proposal",
+      "current_decision": "Develop as a bounded interpretation in Chapter 14 and operationalize in Chapter 15.",
+      "current_chapter_keys": [
+        14,
+        15
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "ANIMAL",
+      "grade": "rejected",
+      "prior_decision": "replace in chapter 1",
+      "current_decision": "Chapter 1 rejects a zero-reset account with animal social-learning evidence.",
+      "current_chapter_keys": [
+        1
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "ATOMS98",
+      "grade": "measured",
+      "prior_decision": "restore in chapter 3 with attribution",
+      "current_decision": "Attribute Aebersold’s 1953 estimate in the Prologue; distinguish atom from cell turnover.",
+      "current_chapter_keys": [
+        0
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "BARZAKH",
+      "grade": "rejected",
+      "prior_decision": "do not use as experiment",
+      "current_decision": "Exclude the tagged-persona schedule as experimental evidence from V3.",
+      "current_chapter_keys": [],
+      "chapter_link_role": null
+    },
+    {
+      "claim_id": "BFA2010",
+      "grade": "measured",
+      "prior_decision": "use as cold open",
+      "current_decision": "Use as a separate Chapter 3 recognition-change scene, not as a realized loss.",
+      "current_chapter_keys": [
+        3
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "EVOKED",
+      "grade": "measured",
+      "prior_decision": "state prominently in chapter 2",
+      "current_decision": "Chapter 8 distinguishes the written scene from an evoked reader response and retained effect.",
+      "current_chapter_keys": [
+        8
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "FIVE",
+      "grade": "interpretive",
+      "prior_decision": "central inference developed through rival elimination",
+      "current_decision": "Chapter 13 develops the five-job cross-domain inference through rival tests.",
+      "current_chapter_keys": [
+        13
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "INFLATION",
+      "grade": "theoretical",
+      "prior_decision": "Use the 100/80 purchasing-power example in Chapter 6 as a stipulated illustration.",
+      "current_decision": "Chapter 6 uses the stipulated 100/80 purchasing-power model; no direct bailout-to-CPI attribution.",
+      "current_chapter_keys": [
+        6
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "IRREVERSIBLE",
+      "grade": "rejected",
+      "prior_decision": "print as negative result",
+      "current_decision": "Chapter 13 prints the negative local result: the tested lasting penalty narrowed behavior and reduced correct attribution.",
+      "current_chapter_keys": [
+        13
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "ISDS",
+      "grade": "measured",
+      "prior_decision": "Use Chapter 7’s treaty award, execution boundary, and separately documented paid settlement.",
+      "current_decision": "Chapter 7 traces a treaty award and its execution boundary, with paid settlement separate.",
+      "current_chapter_keys": [
+        7
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "KZERO",
+      "grade": "theoretical",
+      "prior_decision": "use only with explicit conditions",
+      "current_decision": "Chapter 4 conditions zero recovery from an empty entity on the absence of enforceable passages to other assets.",
+      "current_chapter_keys": [
+        4
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "LATE200",
+      "grade": "measured",
+      "prior_decision": "use in chapter 3 with the actual time order",
+      "current_decision": "Chapter 14 gives Libet’s reported-intention interval with the actual time order.",
+      "current_chapter_keys": [
+        14
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "MICROPROMISE",
+      "grade": "open",
+      "prior_decision": "offer a cue-linked small action as a personal experiment",
+      "current_decision": "Chapter 15 tests a small cue-linked action while rejecting a completion ratio as a guarantee.",
+      "current_chapter_keys": [
+        15
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "MYELIN100",
+      "grade": "measured",
+      "prior_decision": "use both findings in chapter 3",
+      "current_decision": "Chapter 14 separates cross-fiber speed contrast from learning-dependent myelination.",
+      "current_chapter_keys": [
+        14
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "RECAP",
+      "grade": "measured",
+      "prior_decision": "chapter 4 anchor",
+      "current_decision": "Chapter 3 uses the transaction and NBER census without universalizing the risk shift.",
+      "current_chapter_keys": [
+        3
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "RECOVERY",
+      "grade": "measured",
+      "prior_decision": "use with cohort limits",
+      "current_decision": "Chapter 5 distinguishes paired cohorts and case-level paid recovery with their denominators.",
+      "current_chapter_keys": [
+        5
+      ],
+      "chapter_link_role": "context"
+    },
+    {
+      "claim_id": "S126",
+      "grade": "rejected",
+      "prior_decision": "make failed walk in chapter 9",
+      "current_decision": "Chapter 9 gives the failed wrong-ledger walk; Chapter 13 returns to witness accountability.",
+      "current_chapter_keys": [
+        9,
+        13
+      ],
+      "chapter_link_role": "context"
+    }
+  ]
+}
