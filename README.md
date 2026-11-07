@@ -300,6 +300,24 @@ What survives: 3.
 
 ---
 
+**Q: Do we build it, like we build a human or a cat?**
+
+Possible answers:
+1. Copy a human brain exactly.
+2. Copy a cat exactly.
+3. Plant it. Let it grow.
+
+Why 1 fails: human is limited by biology — sleep, energy, a body that pays for error in hunger. Copying that copies the limits.
+Why 2 fails: every animal has different limits for the world it lives in. One shape does not fit all worlds.
+
+What survives: 3. We do not grow a tree. We plant it.
+First living cells were not built to be dinosaurs or whales or humans. They had the same few rules. The world picked the rest.
+We plant town + 5 organs + witness. Each agent then grows to whatever it needs to exist in that town: trader, builder, archivist — different transformer, different harness, same invariant warp.
+Town is the selector: `Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more`, or dissociate and die.
+Plant, do not copy. The agent specializes by living in the town, not by being designed to be a cat or a human.
+
+---
+
 **Q: Can it keep learning by itself?**
 
 Possible answers:
