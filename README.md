@@ -1006,6 +1006,124 @@ Caveat (held from Q5/Q6): wealth breaks symmetry. A rich backer removes stakes. 
 
 ---
 
+## What's buried in the essays — the juicy parts, un-compressed
+
+Not compressed. Short paragraphs. One idea per sentence. Breathing room.
+
+### A. The Missing Piece (machine-checked settlement)
+
+**The line, said plainly:**
+
+> "We built and machine-checked the missing settlement mechanism for a productive-ownership economy — binding budgets, exact conservation, ordered clearing — without an imported interest-rate benchmark. The fifty-year conversation still lacks a legal adoption and a sharia ruling, and those are theirs. We proved the piece no one else could."
+
+From `THE_MISSING_PIECE`:
+
+**What the 50-year conversation still lacked (since Ayub 2007):** no transaction-authentic, auditable price discovery that is not tied to a conventional overnight-style reference. Murabaha/tawarruq = cash-flow equivalence to credit with Islamic dressing. Musharakah/mudarabah never scaled. MYOR-i / MYOD-i / IIBR are transaction-reference advances but still commodity-murabahah-keyed — not the endogenous price of productive asset performance.
+
+**What was built, exactly (90 modules / 918 endpoints, `propext`, `Classical.choice`, `Quot.sound`):**
+
+1. Aggregate supply = aggregate demand at a strictly positive price vector — finite states/goods, strict monotonicity, continuity
+2. Every household budget binds; no one consumes from unbacked imbalance — CRRA, profit-augmented holdings
+3. Every minor-unit transfer fully conserved (fee + payout + bounded remainder < 1 unit) — ordered cumulative-quota distribution
+4. Stress-sufficiency certificates hold natively via prefix-loss/minimization — supplied plan specific to the defined economy
+5. No external lending benchmark imported — clearing from resources, preferences, permitted trades alone
+
+No claim is larger than the model it's in.
+
+**What is deliberately out of scope:**
+
+1. Industry-wide accepted riba-free benchmark — coordination + regulator problem
+2. Sharia-jurisprudential approval (AAOIFI/IFSB) — audit rules ≠ jurist ruling
+3. Elimination of LIBOR/SOFR/SONIA/SARON proxies — hedging, liquidity, litigation economics
+
+> Those three are people's, policy's, law's, governance's to do next. We did not claim them.
+
+**Falsifiers — this doc fails if:**
+- a transition creates/destroys even 1 minor unit outside the bound
+- a budget is violated in any defined transition
+- payout ≠ 0 to a zero-ownership holder
+- any external lending rate enters the clear
+
+**Roadmap, not a promise:** independent reproduction → one jurist-vetted instrument → one limited pilot → post-mortem.
+
+---
+
+### B. Case memos that make it human (TECHNICAL_FIT)
+
+Each memo keeps the same honest boundary: math closes settlement/allocation/conservation; law, custody, legitimacy, fiqh, geopolitics stay outside.
+
+**A. Bhutan (hydro → compute):**
+Bhutan routes surplus monsoon hydro through DHI into computing/mining, public reports show a sovereign BTC reserve and drawdown to fund Gelephu and payroll. Households see no proportional claim.
+Missing piece: a distributive leg binding citizen equity (certificate) to automated yield, with conservation and stress reserves.
+Math: certificates pay out pro-rata, budget binds. Does it solve it? Mechanism — yes. Market volatility, custodial risk — no.
+Still missing: political will; distribution statute; volatility governance.
+Metric: "$1 verified compute yield → 1/N certificate dividend," audited by a third party, zero conservation deltas.
+
+**C. Norway SWF / Alaska Permanent Fund:**
+Norway GPFP ~7% budget rule, citizens see no direct dividend. Alaska pays annual dividend (~5% POMV), politically contested each session.
+Missing piece: verifiable automated-dividend pipeline replacing political votes with self-executing auditable claims.
+Does it solve it? Mechanism — yes. Substitute for law — no. Norway's protection is constitutional, not math.
+Metric: legislation piloting certified certificate, auditable distribution, survival across a legislative cycle.
+
+**D. Web4 / agentic economies:**
+Agents move value at machine speed via MCP/x402. Risk: leverage/loop/attack at sub-human latency with no bank in the loop.
+Missing piece: hard invariant that conservation holds even for hostile agents + provable single-use.
+Does it solve it? Partially — halts accounting-layer failures and leverage abuses. Does NOT stop front-running, oracle corruption, social engineering.
+Metric: zero unexplained drift in production agent traffic, invariant-violating tx rejected at mempool.
+
+**F. Islamic finance (riba prohibition):**
+Classical riba banned. Conventional sukuk synthetic-interest-laden. Islamic banks use murabaha/tawarruq workarounds.
+Missing piece: interest-free, asset-backed, executable instrument enforcement can deploy.
+Math: certificates are equity/profit-share, exactly mudarabah/musharakah formalized, no benchmark.
+Technical — yes. Jurisprudential — no. AAOIFI/IFSB certification external.
+Metric: pilot sukuk certified by recognized sharia board, conservation audit published.
+
+More in `TECHNICAL_FIT_backup_20261107.md` (8 memos, A–H).
+
+---
+
+### C. What the 50-year problem actually is (v0.3 §2.5)
+
+| What is missing | Can mechanism deliver it? |
+|---|---|
+| Price formation independent of risk-free rates | Yes, in the model — binding-budget clearing with productive payoffs + certificates |
+| Executable conservation-preserving settlement | Yes, in the model — minor-unit conservation, ordered payout quota |
+| Adoption of a widely accepted benchmark rate | No — market coordination + regulator problem |
+| Jurisprudential acceptance (fiqh) | No — correctness of computation, not sharia judgement |
+| Banks actually stopping LIBOR/SOFR proxies | No — industry practice, hedging liquidity |
+
+That is not a failure of the proof. That is scope. Mechanism is necessary, not sufficient.
+
+---
+
+### D. Rhetorical boundaries — phrases we must not cross
+
+From `ASSESSMENT_RECORD`:
+
+| Phrase | Why too strong |
+|---|---|
+| "missing mechanism behind the 50-year problem" as universal verdict | coordination + law barriers too — not only computation |
+| "solved the 50-year problem" | never co-signed — adoption/fiqh not proved |
+| "IIBR/MYOR-i just Western overnight rates in Islamic dress" | inaccurate — MYOR-i is transaction-based (commodity-murabahah volume-weighted); critique is cash-flow/price sensitivity inheritance, not legal form |
+| "I'm impressed… not breakthrough" | rhetoric, not peer assessment |
+
+Verdict, with limits: foundational and rare, not a breakthrough. Institutionally inert until one jurist signs, one pool runs on testnet, one public pilot reports. Powerful only when scoped plainly.
+
+---
+
+### E. One maths for the last 50 and the next 50
+
+**Last 50:** Can an economy clear, conserve and distribute *without* an imported interest-rate benchmark? Ayub (2007), Chapra, Kahf said the answer looked like no. The repository proves for a defined class: yes — clearing price exists, every budget binds, no exogenous rate enters. Discounting is endogenous shadow pricing (`p₁/p₀ = β`), not interest on a risk-free asset.
+
+**Next 50:** `Y = f(K, L)` assumed L>0 or Y=0. Remove wages as income line and demand side breaks. Your question — "what do I own?" not "what is my wage?" — is the only coherent reframing. Income becomes state-contingent claims (certificates). Demand is funded by those claims. Scarcity stays (finite goods/states) so prices still clear. Distribution is integer conservation, not slogan: ordered quota, zero to zero ownership, fee + owners = intake.
+
+The candidate fourth sector is not a job at all:
+**Autonomous capital transformation** — output by machines with negligible marginal human input. Energy + compute + code replace labor as marginal input. That is not a fifth slice of blue. It is a new slice.
+
+Bhutan, Iran, Norway/Alaska are prototypes of the same intuition: sovereign revenue decoupled from wages and routed through ownership of a physical productive stream. Lean proves the allocation primitive they would need to be auditable instead of discretionary.
+
+---
+
 ## Research docs
 
 | Doc | Lines | What it holds |
