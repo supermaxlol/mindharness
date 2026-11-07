@@ -57,6 +57,25 @@ L0 Frozen LLM            Any OpenAI-compatible API (backend-agnostic)
 
 Five invariants — boundary, two-speed memory, salience gate, damping, internal observer — appear at every scale (cell → mind → market → model → car) and are mandatory per selection theorems (Nayebi UAI 2026). The harness is one weave on that warp; Cordis is the loom.
 
+### The one line Nayebi proves
+
+**Anything that must stay itself while changing in a changing world must have the 5 — or be exploited.**
+
+We see the same pattern everywhere because the constraint is the same:
+cell, animal, living things, humans, business, countries — all are a dynamic reflexive loop maintaining itself.
+
+- Boundary holds it together (skin / ledger) or it leaks.
+- Two speeds let it change without forgetting (fast / slow).
+- Salience decides what to keep (attention / price).
+- Damping stops runaway (brake).
+- Observer corrects it (watcher).
+
+Lose one and the world exploits the gap: confabulation, forgetting, saturation, runaway, inert watching — same five failures at every scale.
+
+To last, it must also **borrow to survive** — energy, material, rent, tokens. `Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more`, or dissolve. Borrowing is not a flaw. It is the price of staying a pattern.
+
+That is why we are all a pattern with these 5, maintaining itself in a world that is changing — and why the harness is only the artificial version of a much older trick.
+
 > **Failure mode that proves damping matters:** without damping, compression runs away — frontier models pack more information per token, stacking nouns and long dependencies that drain human working memory (arXiv 2610.29162). Density without damping = reader fatigue. Damping is the brake that keeps compression readable.
 
 ---
