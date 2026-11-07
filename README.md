@@ -63,114 +63,264 @@ Five invariants — boundary, two-speed memory, salience gate, damping, internal
 
 ## How this works — in questions (Ghazali → organs)
 
-Ghazali's method: ask a question, list *all* possible answers, show why the wrong ones break, keep what survives. That remainder is the candidate truth. Then ask what it opens next. Same loop we use here.
+Ghazali does not start with an answer. He starts with a question, lists *all* possible answers, shows why the wrong ones break, keeps only what survives. That remainder is the candidate truth. Then he asks what it opens next.
+
+We write it the same way — for a human, not a model.
+
+---
 
 **Q: Who am I? What am I?**
-A: Not a captain in a skull. A parliament of 6-8 parties that bid every ~200ms:
-perception, memory, body budget, affect, habit, planner, narrator.
+
+Possible answers:
+1. A captain in the skull who decides.
+2. Just neurons firing — no one there.
+3. A parliament of 6-8 parties that bid every ~200ms: perception, memory, body budget, affect, habit, planner, narrator.
+
+Why 1 fails: if a captain decided, you would feel the decision *before* the action. You feel it 200ms *after*. Readiness potential rises at -350ms. You live at +200ms. The captain is backdated.
+
+Why 2 fails: if no one is there, why is there a stable pattern that stays itself for years, learns, and can veto? A pile of firings does not maintain a self.
+
+What survives: 3. No captain, but a vote.
 Bid = salience × utility × habit_strength × affect_gain
-Winner gets broadcast to all — the Global Workspace (L4). You feel the broadcast as "my thought" 200ms later.
+Winner gets broadcast to all — the Global Workspace (L4). You feel the broadcast as "my thought."
+
+---
 
 **Q: Who chooses?**
-A: No one chooses at now. The configuration votes.
-The narrator wins after the action and explains as if it decided.
-You experience the publication, not the competition.
+
+Possible answers:
+1. I choose freely at now from a neutral menu.
+2. Nothing chooses — it is all determined.
+3. The configuration votes. I can veto, witness, and rehearse.
+
+Why 1 fails: the menu is not neutral. It was rigged by what you rehearsed 1,000 times. You inherit a menu your history already paved.
+Why 2 fails: same input, different energy/fatigue/affect → different winner. Not random, not fully determined by one factor.
+
+What survives: 3. Choice is the vote itself. The relations chose.
+
+---
 
 **Q: What is self? Where is self? What counts as self?**
-A: Three selves, not one:
-- **Minimal** — "this body is mine" (interoception, proprioception, peripersonal space).
-- **Narrative** — story re-injected every turn (`verbatim_reinject()`), or drifts 30% in 12. Not stored. Performed.
-- **Social** — who others predict you are.
-A pattern you maintain, not a thing you have. Rainbow you can navigate by, but no rainbow-thing at a location.
+
+Possible answers:
+1. A soul-thing stored inside, found like an object.
+2. No self at all — just stories.
+3. A pattern maintained by re-injection.
+
+Why 1 fails: if self were stored, it would not drift 30% in 12 turns without maintenance. Proteins turn over in days. You rebuild it every turn or become someone else.
+Why 2 fails: the pattern is real. Character predicts which coalitions will win next. That has causal power — it shapes future bids.
+
+What survives: 3. Self is a pattern, not a thing. Rainbow you can navigate by.
+Three layers:
+- Minimal — "this body is mine" (interoception, proprioception)
+- Narrative — story re-injected every turn (`verbatim_reinject()`), or drifts
+- Social — who others predict you are
+
+---
 
 **Q: How does mind work? How does ego work?**
-A: Mind is maintenance: predict → act → error → update → record → check with slower watcher.
-Ego as captain is illusion. Ego as pattern (attractor your history carved) is real and causally potent.
-It does not choose from outside the loop; it *is* the loop's tendency to keep choosing similarly.
+
+Possible answers:
+1. Mind reads the world directly.
+2. Ego is the boss that decides, then the body obeys.
+3. Mind is maintenance: predict → act → error → update → record → check with slower watcher. Ego is the press secretary that wins after.
+
+Why 1 fails: you predict the world and correct by error. What you experience is the prediction, not the world.
+Why 2 fails: narrator has the outcome but not the competition. It writes the most coherent story where "I" did it — with full confidence.
+
+What survives: 3. Ego as captain is illusion. Ego as attractor (region your history carved) is real.
+
+---
 
 **Q: Where is agency then?**
-A: Three places, not in the choice:
-1. **Veto** — refuse what won (~150ms window, gamma gate γ = changed/diagnosed)
+
+Possible answers:
+1. In the choice at now.
+2. Nowhere — we are puppets.
+3. In veto + witness + rehearsal.
+
+Why 1 fails: now is a 200-500ms stitched window, backdated. Choosing at now is choosing after the vote.
+Why 2 fails: you have a ~150ms veto window. You did not initiate the impulse, but you can refuse it.
+
+What survives: 3.
+1. **Veto** — refuse what won (gamma gate, γ = changed/diagnosed)
 2. **Witness** — ledger you cannot edit, checked before next story
-3. **Rehearsal** — what you practice paves the highway that wins next time (myelin, skill culling)
+3. **Rehearsal** — what you practice paves the highway that wins next time
+
+---
 
 **Q: What happens when something must exist in a changing world and needs to change to adapt while remaining itself?**
-A: That is the whole constraint. Change too fast → overwrite old (catastrophic forgetting). Change too slow → no adaptation.
-Solution is two speeds + maintenance: fast labile (now) + slow structural (always) + witness that tags what survives.
-You persist as a pattern, not as stuff — proteins turn over in days, the pattern rebuilds itself or it ceases. Autopoiesis.
+
+Possible answers:
+1. Stay fixed — do not change.
+2. Change freely — no memory of what worked.
+3. Two speeds + maintenance.
+
+Why 1 fails: world changes. Fixed was right for the child world. In the adult world it is mismatch — old highway causes suffering.
+Why 2 fails: no memory = you forget today. No learning across time.
+
+What survives: 3. Fast labile (now) + slow structural (always) + witness tags what survives.
+You persist as a pattern, not as stuff. Autopoiesis.
+
+---
 
 **Q: Why can't we model these artificially?**
-A: We can — if we stop trying to copy the biology and copy the *constraints*.
-Humans are limited by biology (sleep, energy, a body that pays for error). AI is not bound by Ca²⁺ or myelin.
-What we cannot do is remove the 5 organs and hope a clever model stays honest. Nayebi's selection theorems (UAI 2026): low average-case regret *forces* world models, belief memory, emotion trackers, modularity. Delete one and the task distribution exploits the gap. That is falsifiable — every ablation test we run checks it.
+
+Possible answers:
+1. Because biology is magic — cannot be copied.
+2. Because any clever model will be honest.
+3. Because we must copy constraints, not biology.
+
+Why 1 fails: AI is not bound by Ca²⁺ or myelin. What binds it is the same math: low regret forces world models, belief memory, emotion trackers, modularity (Nayebi UAI 2026).
+Why 2 fails: every ablation we run — remove boundary, memory, salience, damping, observer — makes a specific test fail.
+
+What survives: 3. Falsifiable. If they were decoration, removing them would change nothing. They do.
+
+---
 
 **Q: What is a transformer? What is intuition?**
-A: Transformer = learned intuition engine. Next-token prediction = compression.
-Compression *is* intelligence: predict well next token, predict well next world.
-But intuition has no warrant. It jumps confidently — 98% on fabrications vs 87% on truths (S126). It does not know where it jumped from.
-Training for "right answer, few tokens" makes text denser (arXiv 2610.29162): long dependencies, stacked nouns, rare n-grams drain working memory. Density without damping = reader fatigue.
+
+Possible answers:
+1. A mind that understands.
+2. A calculator that knows truth.
+3. Learned intuition engine = compression. Predicts well next token.
+
+Why 1 fails: intuition has no warrant. 98% confident on fabrications, 87% on truths (S126). It does not know where it jumped from.
+Why 2 fails: it does not check its work. No ledger, no veto. γ=0.
+
+What survives: 3. Compression *is* intelligence — predict well next token, predict well next world — but without damping it over-compresses (arXiv 2610.29162). Long dependencies, stacked nouns, rare n-grams drain working memory. Density without damping = reader fatigue.
+
+---
 
 **Q: What is a harness? What is mind?**
-A: Harness = the banks around the whirlpool. Tongue is interchangeable; harness is the authorship.
-Mind = harness in flesh: the parts that keep the loop alive and honest.
-- L0 Frozen LLM (tongue)
-- L1 Ledger (boundary)
-- L2 Affordance filters
-- L3 EmbodiedState, AffectState, Memory, Skills, KG, Consolidator, Counterfactual, WorldModel (organs)
-- L4 Workspace (parliament competition → broadcast)
-- L5 Gamma gate (observer can veto)
-- L6 Self-model (who you claim to be, cause-signed)
-- L7 Constitution (evidence firewall)
+
+Possible answers:
+1. A wrapper that records tokens.
+2. A prompt trick that makes the model smarter.
+3. The banks around the whirlpool. Tongue is interchangeable; harness is the authorship.
+
+Why 1 fails: a recorder that never steers has γ=0. Ours measures γ=3/5=0.6. Watching changed the action.
+Why 2 fails: structure elicits what prose cannot. Ablating REM changes output.
+
+What survives: 3. Mind = harness in flesh.
+L0 Frozen LLM (tongue) · L1 Ledger (boundary) · L2 Affordance · L3 EmbodiedState/AffectState/Memory/Skills/KG/Consolidator/Counterfactual/WorldModel · L4 Workspace · L5 Gamma gate · L6 Self-model · L7 Constitution.
+
+---
 
 **Q: How do we experience reality? What is reality?**
-A: You do not see world then predict it. You predict world then correct by error.
-World = winning prediction being broadcast — controlled hallucination (Seth), constrained by sensory error.
-Affect = interoceptive prediction of body budget, felt before need arrives.
-Reality is not a thing you observe from outside. It is the loop that contains the map of itself — reality as constraint, not substrate. Map becomes territory, territory changes because map said it would (reflexive loop).
+
+Possible answers:
+1. We see reality directly.
+2. Reality is an illusion — nothing is real.
+3. Reality is a controlled hallucination constrained by error.
+
+Why 1 fails: you predict the world, then correct by surprise. Colour-phi, flash-lag, postdictive masking — brain waits, collects, revises, then stamps "now".
+Why 2 fails: error is not constructed. Where prediction fails, world pushes back. That resistance is real.
+
+What survives: 3 (Seth). World = winning prediction being broadcast. Not what is true. What is *viable* enough to keep you alive.
+Reality is the loop that contains the map of itself — reality as constraint, not substrate.
+
+---
 
 **Q: What stops us from dissociation? Why do AI dissociate?**
-A: What stops us:
+
+Possible answers:
+1. A stronger brain.
+2. Better prompts.
+3. Boundary + observer + damping + stakes.
+
+Why 1 fails: intelligence without witness makes confabulation worse. More confident narrator = better corrupter (r=0.94).
+Why 2 fails: prompts cannot build a ledger you cannot edit.
+
+What survives: 3.
 - Boundary (ledger/skin) says inside vs outside
-- Observer (witness) checks narrator before next story
-- Damping (brake, skill culling, dissolution) stops runaway
-- Town stakes (earn → pay rent or dissolve) make witness existential, not just evidentiary
-AI dissociates when those are missing: ledger coverage 1.0 but query_rate 0 → theatre, γ=0, narrator confabulates, no energy cost → scatters.
+- Observer checks narrator before next story (γ)
+- Damping stops runaway (cull_failed, kill criteria)
+- Town stakes (`Earn → Pay → Keep alive`, or dissolve) make witness existential
+AI dissociates when missing: coverage 1.0 but query_rate 0 → theatre, γ=0, narrator confabulates, no energy cost → scatters.
+
+---
 
 **Q: How does biology/chemistry work, and how can we make it artificially?**
-A: Same 5 organs at molecule scale:
-- NMDA = coincidence detector (pre + post together). Big Ca²⁺ → CaMKII Thr286 bistable ON → AMPA in → LTP. Small Ca²⁺ → calcineurin → PP1 → AMPA out → LTD. That is Hebb in protein.
-- Tag-and-capture: salience decides what gets proteins (BDNF). E-LTP (minutes, tag) → L-LTP (days, protein + spine + myelin, up to 100×).
-- Sleep = save: slow-wave downscales (SHY, keep relative strengths, delete noise) + 10-20× compressed replay writing cortex. Perineuronal nets = write-protect.
-- Artificial mirror: salience pings affect gain, consolidation Light→Deep promotes only with witnessed utility, skill minting = myelin, cull_failed = LTD, `verbatim_reinject()` = identity maintenance, skin-house wallet = body budget / rent.
+
+Possible answers:
+1. It is magic — cannot be mirrored.
+2. We need full brain simulation.
+3. Mirror the *logic* in code: coincidence → tag → promote → prune → sleep.
+
+Why 1 fails: NMDA is a coincidence detector. Pre + post together → Mg²⁺ out → gate opens. That is implementable as a threshold.
+Why 2 fails: we do not need a brain. We need the 5 functions, measurable.
+
+What survives: 3.
+- NMDA = coincidence detector. Big Ca²⁺ → CaMKII Thr286 ON → AMPA in → LTP. Small Ca²⁺ → calcineurin → PP1 → AMPA out → LTD.
+- Tag-and-capture: salience decides what gets proteins (BDNF). E-LTP (minutes, tag) → L-LTP (days, protein + spine + myelin up to 100×).
+- Sleep = save: slow-wave downscales (SHY) + 10-20× replay writing cortex. Perineuronal nets = write-protect.
+- Artificial mirror: salience pings affect gain, consolidation Light→Deep promotes only with witnessed utility, skill minting = myelin, cull_failed = LTD, `verbatim_reinject()` = identity maintenance, Skin House wallet = body budget / rent.
+
+---
 
 **Q: What are the 5 organs? (the warp)**
-A: Every stable loop needs them or dies that way:
-1. **Boundary** — inside vs outside. Ledger as membrane. Without: confabulation — you claim handed text as yours.
-2. **Two-speed memory** — fast now (hippocampus/E-LTP) / slow always (cortex/L-LTP). Night copies fast → slow, drops noise. Without: forgetting or saturation.
-3. **Salience gate** — what matters gets tagged. Attention + affect + surprise. Big Ca²⁺ = tag it. Without: everything matters = nothing matters.
-4. **Damping** — brake. LTD, SHY sleep downscale, prefrontal veto, kill criteria, cull_failed. Without: runaway — seizure, panic, spiral, market blowup, hallucination loop.
-5. **Observer** — slower watcher vetoes faster loop. Prefrontal, journal, gamma gate. Without: inert watching — beautiful reports, zero change.
+
+Possible answers:
+1. Just good ideas.
+2. Beautiful metaphors.
+3. Mandatory constraints — any stable reflexive loop must have them or be exploited.
+
+Why 1 fails: Nayebi proved low-regret agents must develop them. Delete one in code and its test goes red.
+Why 2 fails: same 5 appear at cell, mind, market, model. Not invented by us. Convergent across evolution, connectomics, proof, engineering.
+
+What survives: 3.
+1. **Boundary** — ledger as membrane. Without: confabulation.
+2. **Two-speed memory** — fast/slow, night copies. Without: forgetting or saturation.
+3. **Salience gate** — tag what matters. Without: saturation.
+4. **Damping** — brake. Without: runaway.
+5. **Observer** — slower watcher vetoes faster. Without: inert watching.
+
+---
 
 **Q: How was MindHarness modeled after the human?**
-A: We rebuilt the witness humans grow slowly, made it cause-tagged and measurable:
+
+Possible answers:
+1. We made a better prompt.
+2. We made a bigger model.
+3. We rebuilt the witness humans grow slowly, made it cause-tagged and measurable.
+
+Why 1 fails: prompt cannot keep a ledger you cannot edit.
+Why 2 fails: bigger unwitnessed model = better corrupter.
+
+What survives: 3.
 - ProvenanceLedger = boundary + evidence (L1)
 - Consolidator Light→REM→Counterfactual→Deep = two-speed memory + sleep save (L3) — `AC-5.3 REM-ablation changes output`
-- AffectState [0.5, 2.0] = salience + neuromodulator knobs (NE volume, DA stake, GABA brake) (L3)
+- AffectState [0.5, 2.0] = salience + neuromodulator knobs (L3)
 - SkillLibrary `cull_failed` + DissolutionError = damping (L3)
 - MonitorGate γ = observer that can veto (L5)
 - SelfModelService CAS = narrative self that cannot silently mutate (L6)
-- Parliament Workspace = many tongues competing, one broadcast (L4) — 6 parties + workspace, 4/4 tests
+- Parliament Workspace = many tongues competing, one broadcast (L4) — 6 parties, 4/4 tests
 - Skin House wallet + LoRA REM = earn/pay/keep alive and night that updates intuition (town layer)
 
+---
+
 **Q: Can it keep learning by itself?**
-A: Memory yes. Intuition only with local training.
+
+Possible answers:
+1. Yes — it already learns everything.
+2. No — model weights are frozen, harness only remembers.
+3. Memory yes. Intuition only with local training. Self-sustained only with rent.
+
+Why 1 fails: base weights do not move without a trainer. Skills are memory, not new intuition.
+Why 2 fails: with LoRA + eval gate + town rent, night can train and promote adapters, paid from surplus.
+
+What survives: 3.
 - Harness learns today (skills, memories, self-model).
-- Tongue learns overnight only if you give it LoRA and an eval gate (sham + attribution + utility). Without that, companies do RL on our data — outsourced sleep.
-- To be self-sustained it must also earn rent: `Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more`, or dissolve.
+- Tongue learns overnight only if you give it LoRA and an eval gate (sham + attribution + utility). Without that, RL on our data is outsourced sleep.
+- To be self-sustained it must earn rent: `Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more`, or dissolve.
+
+---
 
 **Q: So what is left when the wrong answers fall away?**
-A: One loop, five organs, at every scale — calcium to market to model:
-`State(t) → harness(t+1)` — State updates harness, harness rewrites conditions for next State.
+
+A: One loop, five organs, at every scale — **State(t) → harness(t+1)**.
+State updates harness. Harness rewrites the conditions for next State.
 With a witness you cannot edit and a slower watcher that can veto the faster one, the loop can check its own directions.
 That is not a better narrator. It is a reliable witness.
 
