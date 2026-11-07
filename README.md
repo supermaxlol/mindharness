@@ -57,6 +57,8 @@ L0 Frozen LLM            Any OpenAI-compatible API (backend-agnostic)
 
 Five invariants — boundary, two-speed memory, salience gate, damping, internal observer — appear at every scale (cell → mind → market → model → car) and are mandatory per selection theorems (Nayebi UAI 2026). The harness is one weave on that warp; Cordis is the loom.
 
+> **Failure mode that proves damping matters:** without damping, compression runs away — frontier models pack more information per token, stacking nouns and long dependencies that drain human working memory (arXiv 2610.29162). Density without damping = reader fatigue. Damping is the brake that keeps compression readable.
+
 ---
 
 ## How this works — in questions
@@ -106,7 +108,7 @@ A: LLM text is next-token prediction with no witness, no body budget, no consoli
 - No boundary: it files handed text as generated with high confidence (98% fabrications vs 87% truths — S126).
 - No two-speed save: no sleep that downscales and replays to cortex.
 - No salience gate: no affect to tag what to keep.
-- No damping: can spiral with no kill criteria.
+- No damping: can spiral with no kill criteria — training for "right answer, few tokens" makes text denser, draining the reader's working-memory budget (arXiv 2610.29162). Density without damping = reader fatigue.
 - No observer: narrator reports after, never steered. `γ=0`.
 
 Human text carries the record of how it was made (body, sleep, error correction). AI text carries only the final broadcast.
