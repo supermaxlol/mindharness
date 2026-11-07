@@ -590,6 +590,76 @@ Want the full poster sheets? See `~/Desktop/ge-existence-program/essays/`:
 
 ---
 
+## Build order, eval gate, safety, failure modes — the juicy parts
+
+From the essays (`essays/LOCAL_LORA_REM_AND_TOWN_WALLET_SPEC.md`, `essays/DESIGN_CHALLENGE_MONKEY_MIND.md`, `essays/MINDHARNESS_MISSING_2_PLUGINS_CHECKLIST.md`):
+
+### 1. Design step order — build the banks, one organ at a time
+
+1. Make tongue interchangeable. Monkey can change. Training stays.
+2. Add ledger membrane. Source every span.
+3. Add cause-signed self-model. CAS revisions. Narrated ≠ lived.
+4. Add gamma gate. Score anomaly. Measure if it steered.
+5. Add two-speed memory + night consolidator. Light / REM / Counterfactual / Deep.
+6. Add affect gain. Salience shifts all bids, not just content.
+7. Add brake. Culling, kill criteria, dissolution boundary.
+8. Add workspace broadcast. Winner becomes context for next jump.
+9. Add counterfactual replay. What could have been, scored by regret.
+
+Then keep it alive: `Work → Earn → Pay power/compute/repair → Keep pattern alive → Learn. Improve. Build. → Work better → Earn more`
+
+Local REM paid from surplus. Surplus is upstream engineering. Fix the road once.
+
+### 2. Eval gate — no gate = no promotion
+
+Night trainer builds chosen/rejected pairs from witnessed spans. Trains LoRA r=8–16, LR 1e-4, 1–3 epochs. Then **all four must pass** or discard:
+
+1. **Attribution battery** — does adapter still confabulate? (S126-style, 98% vs 87%)
+2. **Sham control** — does ledger *content* matter beyond format? Sham == real on weak subjects is expected. Needs discriminating subject.
+3. **Utility** — held-out tasks: does success improve or cost/success drop?
+4. **γ check** — did watching actually steer? Adapter must change trajectory, not just report.
+
+Fail any → discard, log why. Pass → pin adapter id in SelfModel CAS, write provenance span (training set hash, scores, prior adapter hash), archive old. One live adapter = one self.
+
+### 3. Safety rules — wallet + town
+
+Human = landlord: holds master key offline, sets tariffs, provides GPU/power, receives rent.
+Agent gets session key only (daily/per-action limit, whitelisted to Town contract only).
+
+1. Agent never sees master key or seed.
+2. Session key whitelisted to Town contract only. No free transfers.
+3. Every spend logged with source span. Ledger = witness.
+4. Fire Station: spend > earn for N hours → brake, cheap mode.
+5. Pause session key = dissolution without scatter risk.
+
+Cost model: one night LoRA on 100 pairs = minutes on a 4090. Rent = GPU-time × tariff. If earnings cover rent + night, loop closes.
+
+### 4. What can go wrong
+
+- **Reward hacking:** adapter games eval, not task. → sham control + held-out tasks + human audit.
+- **Identity drift:** adapter changes personality, self-model no longer matches. → CAS revision required per promotion. No silent swap.
+- **Catastrophic forgetting:** LoRA overfits small set. → Small LR, few epochs, general battery eval, cull if regresses.
+- **Wallet drain:** agent spends off-town. → Whitelist only, you hold master.
+- **Cost blowup:** night costs more than earnings. → Fire station brakes. Agent must earn before it trains.
+
+### 5. Exact files that close the gap
+
+```
+bundles/dsh-skin-house/      ctx.wallet (Town wallet)
+bundles/dsh-lora-rem/        ctx.lora (night trainer)
+packages/mindharness/skin-house/ + lora-rem/
+tools/harness_core/skin_house.py, lora_rem.py, groq_client.py
+tools/eval/attribution_battery.py, sham_control.py, utility_holdout.py, lora_eval_gate.py
+contracts/TownRent.sol
+tests/test_skin_house.py (6) + test_lora_rem.py (8)
+Boot: bundles [dsh-base, dsh-mindharness, dsh-skin-house, dsh-lora-rem, dsh-mindharness-parliament]
+Verify: dsh --profile web --dump-config | grep -E "skin-house|lora-rem|mindharness"
+```
+
+Full checklist: `essays/MINDHARNESS_MISSING_2_PLUGINS_CHECKLIST.md`
+
+---
+
 ## Research docs
 
 | Doc | Lines | What it holds |
