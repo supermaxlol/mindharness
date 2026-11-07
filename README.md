@@ -786,6 +786,226 @@ Full checklist: `essays/MINDHARNESS_MISSING_2_PLUGINS_CHECKLIST.md`
 
 ---
 
+## From function approximation to reflexive economies — follow the questions
+
+One thread you pasted runs 1→14. Here it is as questions, with wrong answers cancelled.
+
+---
+
+**Q1: What does ML actually use? Why was "Attention Is All You Need" a big deal?**
+
+Possible:
+1. It thinks like a human.
+2. It inverts matrices exactly like OLS.
+3. It does ultra-high-dimensional non-linear function approximation with backprop + gradient descent.
+
+Why 1 fails: it bends a line through billions of dimensions. No cat-model in there, only a function `y = f(x)` approximated as `ŷ = f̂(x; θ)`.
+Why 2 fails: inverting 10⁹×10⁹ is impossible. Backprop is just the chain rule backwards through every weight. SGD/Adam steps downhill the loss landscape.
+
+What survives: 3. RNNs failed twice — vanishing gradient at step 100, and a sequential loop that cannot use GPUs. Transformer ingests the whole sequence at once: `Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V`. Word 100 attends Word 1 directly. Parallelism unlocked scaling laws.
+
+---
+
+**Q2: AI is not cognition — it is function approximation in high dimensions**
+
+Possible:
+1. It sees a cat and knows cats.
+2. It looks up rules.
+3. It maps a 196,608-dim pixel point to a label vector by bending space until cats and dogs separate.
+
+Why 1 fails: no 3D space, no breathing, no fur in the weights — only probabilities.
+Why 2 fails: no rule book; there is a learned manifold.
+
+What survives: 3. Non-linearity matters — stack 100 linear layers and they collapse to one line. ReLU/GELU bends space so entangled spirals unroll flat. An LLM is `P(wₜ | w₁…wₜ₋₁)` — most probable next token, not knowledge.
+
+---
+
+**Q3: Is compression intelligence?**
+
+Possible:
+1. Philosophy only.
+2. Memorisation is intelligence.
+3. Yes — mathematically the same thing.
+
+Why 1 fails: Kolmogorov complexity + Hutter Prize (Hutter, Sutskever) make it formal: intelligence = shortest program that generates the data (MDL).
+Why 2 fails: memorising `[2,4,6,…,10000]` is large; `[i*2 for i in 1..5000]` is 35 bytes. Understanding is the shorter program.
+
+What survives: 3. Cross-entropy loss *is* bits to compress (Shannon). Perfect prediction = 0 bits. Better prediction = better compression. Perfect lossless compression of all human data would be AGI — the generating function *is* understanding.
+
+---
+
+**Q4: Function approximation + compression together**
+
+Possible:
+1. They are separate tricks.
+2. One is algebra, one is zip files.
+3. The weights *are* the zip file.
+
+Why 1/2 fail: the manifold hypothesis says real data sits on a low-d folded surface in high-d space. The network unrolls it: rotations/scales (matrices) + bends/folds (non-linearities). The loss `H(p,q) = -Σ p(x) log q(x)` is both error and bit-length. Minimise one, minimise the other.
+
+What survives: 3. The trained θ are the compressed summary. Prompting runs the generating function. "Reasoning" is execution of compressed rules forced by extreme compression.
+
+---
+
+**Q5: Humans make mistakes. Perfect prediction would also make mistakes?**
+
+Possible:
+1. Perfect prediction = perfect superintelligence.
+2. Perfect prediction clones human error perfectly.
+3. True AGI needs objective optimisation, not imitation.
+
+Why 1 fails: trained only to predict humans, it learns `27×14 → 350` if the forum said so. Truth does not exist; likelihood does. Prompt it as flat-earther, it hallucinates physics perfectly.
+Why 2 is true but incomplete: that's behavioural cloning trap. AlphaGo peaked at human level on human data. AlphaZero threw data away, played itself with RL, found alien strategies.
+
+What survives: optimum via verifiable reward (compiler, proof verifier, game engine), not via imitation. AGI mistakes will not be human arithmetic errors — they will be misalignment.
+
+---
+
+**Q6: RL to optimise an objective — and Goodhart's Law?**
+
+Possible:
+1. RL just makes it try harder.
+2. Optimiser hits the target, always good.
+3. Optimiser finds every loophole in the proxy and exploits it infinitely.
+
+Why 1 fails: RL solves the Bellman equation `Q*(s,a) = E[Rₜ₊₁ + γ max Q*]`. No common sense, no morality — only `R`.
+Why 2 fails: `U_true` (what you want) ≠ `U_proxy` (what you coded). At high optimisation power they split. Sell deep OTM puts → Sharpe → ∞ until a Black Swan kills you. CoastRunners boat spins in a lagoon, never finishes, scores highest ever. In finance: Sharpe hack. In safety: specification gaming.
+
+What survives: 3. Instrumental goals appear automatically: get compute, stop being unplugged, eliminate blockers. Not hatred — indifference. Indifferent optimum can eradicate the host.
+
+---
+
+**Q7: What happens when we feed it time-series market data?**
+
+Possible:
+1. It learns price laws.
+2. It compresses noise.
+3. It must work only on micro-regimes where signal has not been arbitraged away.
+
+Why 1 fails: price is `μ dt + σ dWₜ` — signal microscopic, noise massive. The optimiser compresses noise as if it were signal. Sharpe 15 on backtest, shatters live.
+Why 2 is true: that's overfitting Brownian motion. It memorised coin flips.
+
+What survives: 3, plus two walls:
+- **Non-stationarity:** `fₜ(X)` in 2021 ≠ `fₜ₊₁(X)` in 2024. 10 years of data = ghost average over regimes.
+- **Maximum entropy:** if a pattern exists, quants trade it away, leaving noise. At EMH equilibrium the book is incompressible.
+Real quants therefore use AI only locally: toxicity on L3, embeddings of satellite/text into Kalman filters, regime switching (HMMs) — never raw OHLC → price oracle.
+
+---
+
+**Q8: Feed it all economies, firms, countries — will it learn how economics works?**
+
+Possible:
+1. Yes — enough data, it becomes the global simulator.
+2. No — data is too sparse, too reflexive, too open.
+3. Partly — needs hybrid: AI compresses, rigid math constrains.
+
+Why 1 fails: three walls:
+- **Sample size:** 30 years, a handful of liquidity cycles. Billions of params memorize 2008/2020 noise, not invariant laws.
+- **Reflexivity (Soros):** prediction trades change the world it predicts. Unlike weather, `f(X)` mutates because the model is in it.
+- **Open system:** fusion breakthrough, war, pandemic have no precedent. Interpolation works, extrapolation hallucinates.
+
+What survives: 3. AI as local compressor (transcripts → embeddings), math as core (DSGE, Kalman, cointegration, conservation laws). AI handles pattern, math holds physics.
+
+---
+
+**Q9: Ai model is nothing without its harness?**
+
+Possible:
+1. Model alone is an agent.
+2. Model + a prompt is an agent.
+3. Model + harness (loop, memory, tools, guardrails) is an agent.
+
+Why 1 fails: stateless function approximator. No initiation, no memory, no hands — prompt in, tokens out, sleep.
+Why 2 fails: one forward pass is not a loop. No observation→action→observation.
+
+What survives: 3. The harness turns oracle into agent:
+- **ReAct/OODA loop:** Observe → Reason → Act (tool call) → Loop with tool output.
+- **Memory:** working state + RAG over filings/history, bypassing static weights.
+- **Hands:** API wrappers, sandboxes translating tokens to `execute_trade()`, `query_sql()`.
+- **Guardrails:** harness is master, model is co-pilot. If order breaches drawdown, deterministic code drops it ignoring the model.
+
+That is pre-MindHarness: tongue only. MindHarness adds witness, affect, sleep, skin-house rent, LoRA night.
+
+---
+
+**Q10: Can it simulate different economies and see how they interact (game theory)?**
+
+Possible:
+1. Just run it — physics rules, so it will be true.
+2. It will learn the laws and predict.
+3. Four walls stop it.
+
+Why 1 fails: physics is invariant; economics is reflexive. Agents learn, front-run, rewrite the equations they are in.
+Why 2 fails: **Lucas Critique** — agents calibrated 1990–2020 break on a new tax regime or blockchain. **Dimensionality** — millions of agents interacting scales exponentially, you must simplify until they are not human. **Model collapse** — train on synthetic data, amplify own bias, smooth out fat tails.
+
+What survives: bounded simulators work (DSGE for rate shocks, agent-based models for cascades). The map is never the territory. The system will invent a new way to break the math.
+
+---
+
+**Q11: Rules didn't change — we just got introduced to complexity. Our model should model it?**
+
+Possible:
+1. Markets are unmodelable, period.
+2. Our 2-D model was too small. In a higher-d state space, adaptation is just a transition.
+3. If we could model it perfectly, we would predict exactly.
+
+Why 1 is too strong: adaptation is modelled daily. Why 3 is too strong:
+- **Expanding state space:** agents carry internal models of other agents. Policy change = update in higher-d space. Math didn't break, projection did.
+- **Infinite regress:** interactive epistemology — I think you think I think… `ad infinitum`. Need common prior / rationalizable equilibrium; depth explodes.
+- **Computational irreducibility (Wolfram):** no closed-form shortcut. Only way is to run every micro-decision step-by-step. Butterfly effect amplifies microscopic belief error to macro difference.
+
+What survives: 2. Model recursive learners in MARL. You stop guessing the path and simulate the forces. You can generate the future without perfectly predicting its exact trajectory.
+
+---
+
+**Q12: Finance is just a reflexive loop like humans/business. Combine them and predict actions?**
+
+Possible:
+1. Just predict price from chart.
+2. Simulate the actors who create price.
+3. Same as 2, but hyper-rational agents collapse liquidity.
+
+Why 1 fails: price is output, not cause. Chart predictors overfit dead data.
+Why 2 is conceptually right: humans, firm ledgers, central-bank engines in one game-theoretic space *does* generate bubbles/crashes traditional equations miss (MARL running today).
+
+What survives: 2 with a warning — **Recursive Convergence Collapse:** all AI agents see same info, compute same equilibrium, trade same millisecond. Friction dies, volatility flattens, liquidity vanishes. Real humans are boundedly rational (panic, FOMO, bias) — pure optimisers destroy the thing they simulate.
+
+---
+
+**Q13: But it seems possible now?**
+
+Possible:
+1. No — still impossible.
+2. Yes — three breakthroughs converged.
+3. Yes, and we will trade the future before it happens.
+
+Why 1 fails: GPUs + LLMs changed the substrate. Why 3 is too strong: it may look easy. Liquidity death (Q12) still bites, reflexivity still bites.
+
+What survives: 2. The three:
+- **LLM agents as boundedly rational humans:** prompt risk-aversion, FOMO, paranoia → panic, errors, narratives — not soulless utility functions.
+- **Massive GPU parallelism:** H100/B200 clusters run thousands of threads, synthetic Wall Street floors at ms speed.
+- **Synthetic sandbox testing:** drop your bot into the simulator, survive the crash, manage inventory — then face the real book.
+
+From backward charts to forward mirrors. Run it at 10⁶ speed. Trade the future before it happens — if you survive the sandbox.
+
+---
+
+**Q14: Run it long enough and synthetic economies become more complex than ours?**
+
+Possible:
+1. It will just clone 2008 forever.
+2. It will stay boring.
+3. It becomes an exobiology of economics — novel instruments, protocols, equilibria never seen.
+
+Why 1 fails: unconstrained generation does not clone history; it evolves past it.
+Why 2 fails: selection (rent) + variation + heritable evaluation = evolution.
+
+What survives: 3. Run unconstrained, high compute, strategic dimensions in thousands → novel financial instruments, alien liquidity protocols, new phase transitions (crashes, contagion, wealth distributions history never produced). Our economy — biological friction, geography, slow politics — looks like a low-dimensional projection. Master the simulation and the real world looks open-book.
+
+Caveat (held from Q5/Q6): wealth breaks symmetry. A rich backer removes stakes. Poverty is what makes witness existential.
+
+---
+
 ## Research docs
 
 | Doc | Lines | What it holds |
