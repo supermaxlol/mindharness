@@ -17,7 +17,7 @@ We built the witness humans grow slowly and painfully, made it cause-tagged and 
 - **The papers:** v2 (23pp empirical, tagged `paper-v2-final`) + v3 (36pp program paper, App. A Cordis + App. B Mirror)
 - **The loom:** DeepSeek Cordis — harness as programmable cord, 6 plugins verified, parliament of models scaffolded
 
-Public at `github.com/shehzadahmed-xx/mindharness` · 283 commits
+Public at `github.com/supermaxlol/mindharness` · 287+ commits
 
 ---
 
@@ -38,6 +38,8 @@ open paper_v2/main.pdf  # empirical (21pp)
 open paper_v3/main.pdf  # program paper (29pp)
 ```
 
+> **Large files:** `experiments/lab_runs_falsify/` keeps only JSONs + CSVs + fetch script (2.1M). Bulk raws (BIS 6.2M, EDGAR facts/HTML) re-pull via `bash experiments/lab_runs_falsify/fetch.sh`. If you persist raws, `git lfs install` first — `experiments/lab_runs_falsify/.gitattributes` already tracks `*.csv/*.pdf/*.htm` via LFS.
+
 ---
 
 ## Architecture — 8 layers
@@ -54,6 +56,77 @@ L0 Frozen LLM            Any OpenAI-compatible API (backend-agnostic)
 ```
 
 Five invariants — boundary, two-speed memory, salience gate, damping, internal observer — appear at every scale (cell → mind → market → model → car) and are mandatory per selection theorems (Nayebi UAI 2026). The harness is one weave on that warp; Cordis is the loom.
+
+---
+
+## How this works — in questions
+
+**Q: What is a mind?**
+A: Not a captain. A parliament.
+6-8 parties bid every ~200ms: perception, memory, body budget, affect, habit, planner, narrator.
+Bid = salience × utility × habit_strength × affect_gain
+Winner gets broadcast to all — the Global Workspace. You feel the broadcast as "my thought" 200ms later.
+
+**Q: Who chooses?**
+A: No one chooses at now. The configuration votes.
+The narrator wins after the action and explains as if it decided.
+You experience the publication, not the competition.
+
+**Q: Where is agency then?**
+A: Three places, not in the choice:
+1. **Veto** — refuse what won (~150ms window, gamma gate)
+2. **Witness** — ledger you cannot edit, checked before next story (`γ = changed / diagnosed`)
+3. **Rehearsal** — what you practice paves the highway that wins next time (myelin, skill culling)
+
+**Q: What is the self?**
+A: Three selves, not one:
+- Minimal self — "this body is mine" (interoception, proprioception)
+- Narrative self — story re-injected every turn (`verbatim_reinject()`), or drifts 30% in 12
+- Social self — who others predict you are
+A pattern you maintain, not a thing you have.
+
+**Q: What are the 5 organs?**
+A: Every stable loop needs them or it dies that way:
+
+1. **Boundary** — inside vs outside. Ledger as membrane. Without: confabulation — you claim handed text as yours.
+2. **Two-speed memory** — fast now (hippocampus/E-LTP, context) / slow always (cortex/L-LTP, semantic). Night copies fast → slow, drops noise. Without: forgetting or saturation.
+3. **Salience gate** — what matters gets tagged. Attention + affect + surprise. Big Ca²⁺ = tag it. Without: everything matters = nothing matters.
+4. **Damping** — brake. LTD, SHY sleep downscale, prefrontal veto, kill criteria. Without: runaway — seizure, panic, spiral.
+5. **Observer** — slower watcher vetoes faster loop. Prefrontal, journal, gamma gate. Without: inert watching — beautiful reports, zero change.
+
+**Q: How do humans process information?**
+A: You do not see the world then predict it. You predict the world then correct by error.
+- World model = controlled hallucination, constrained by sensory error (Seth).
+- Affect = interoceptive prediction of body budget, felt before need arrives.
+- Attention = precision weighting — which errors to trust.
+- Night: slow-wave copies facts, REM connects concepts, strips charge, runs counterfactuals, updates self-model.
+
+**Q: Why is AI text different from human text?**
+A: LLM text is next-token prediction with no witness, no body budget, no consolidation, no veto.
+- No boundary: it files handed text as generated with high confidence (98% fabrications vs 87% truths — S126).
+- No two-speed save: no sleep that downscales and replays to cortex.
+- No salience gate: no affect to tag what to keep.
+- No damping: can spiral with no kill criteria.
+- No observer: narrator reports after, never steered. `γ=0`.
+
+Human text carries the record of how it was made (body, sleep, error correction). AI text carries only the final broadcast.
+
+**Q: How was MindHarness modeled after the human?**
+A: We rebuilt the witness humans grow slowly, made it cause-tagged and measurable:
+- Provenance Ledger = boundary + evidence (L1)
+- Consolidator Light→REM→Counterfactual→Deep = two-speed memory + sleep save (L3)
+- AffectState [0.5, 2.0] = salience + neuromodulator knobs (L3)
+- SkillLibrary cull_failed + DissolutionError = damping (L3)
+- MonitorGate γ = observer that can veto (L5)
+- SelfModel CAS = narrative self that cannot silently mutate (L6)
+- Parliament workspace = many tongues competing, one broadcast (L4)
+- Skin House wallet + LoRA REM = earn/pay/keep alive and night that updates intuition (new, town layer)
+
+**Q: Can it keep learning by itself?**
+A: Memory yes. Intuition only with local training.
+- Harness learns today (skills, memories, self-model).
+- Tongue learns overnight only if you give it LoRA and an eval gate. Without that, companies do RL on our data — outsourced sleep.
+- To be self-sustained it must also earn rent: `Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more`, or dissolve.
 
 ---
 
