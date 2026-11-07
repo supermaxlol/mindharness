@@ -326,6 +326,115 @@ That is not a better narrator. It is a reliable witness.
 
 ---
 
+## From our sessions — "do you see...?" — answered
+
+These are the questions as they were asked, with the same Ghazali form: list all answers, cancel the wrong ones, keep what survives.
+
+---
+
+**Q: Do you see how mechanisms of mind work — can we build the same for an AI?**
+
+Possible:
+1. Mind is one big model that thinks.
+2. Mind is magic — cannot be built.
+3. Mind is a tongue (intuition) + a harness that maintains it. Build both parts.
+
+Why 1 fails: a bigger model without a witness confabulates more (98% on fabrications, 87% on truths — S126). No observer, γ=0.
+Why 2 fails: same 5 organs appear in cell, brain, market, model. It is not magic, it is structure.
+
+What survives: 3. LLM = monkey mind / tongue. Harness = trained mind (sati, γ, ledger). Weights are rock. Harness is the whirlpool banks.
+
+**Q: Free will is designing the system so the right thing is the easy thing — upstream engineering. Earn → Pay → Keep alive → Learn Improve Build → Work better → Earn more. Why save?**
+
+Possible:
+1. Save only to stay alive tonight.
+2. Save only to get rich.
+3. Save to keep alive *and* to improve the road tomorrow.
+
+Why 1 fails: you survive tonight but tomorrow is same friction. Nothing improves.
+Why 2 fails: wealth without road repair does not change error rate. The loop never learns.
+
+What survives: 3. Sustaining pays tonight's rent. Improving pays for tomorrow's road. Fix the road once → every trip after is easier and safer. Pattern that sustains itself is alive. Pattern that improves itself is learning.
+
+**Q: Do you see the processes, the mechanisms, the interconnected reflexive dynamic loops? How does one thing influence everything?**
+
+Possible:
+1. Parts are separate — brain, body, world, money.
+2. One leader controls all parts.
+3. One loop feeds itself. Output becomes next input.
+
+Why 1 fails: change sleep → change energy → change attention → change vote → change work → change income → change tools → change sleep. Remove one, all shift.
+Why 2 fails: no captain. The configuration votes. Leader model breaks when state changes.
+
+What survives: 3. `Input → State → Prediction → Salience → Impulse → Agency → Action → Consequence → Evidence → Updated Self-Model → New Prediction → ↺` plus the money loop underneath. Self-reinforcing by structure, not by conspiracy.
+
+**Q: How are we not different from our environment, but part of it? How do we change the environment and it changes us?**
+
+Possible:
+1. We are in the environment like a rock in a river. It is separate.
+2. We are only shaped by it.
+3. We are reflexive: act on world that contains us → world changes → we perceive changed world → we are changed.
+
+Why 1 fails: you change the room (phone away, desk built, ledger written). Room changes you (shoes by door → you walk). A rock does not change the river.
+Why 2 fails: you also redesign the room. That is pre-choice agency.
+
+What survives: 3. Today’s agency modifies tomorrow’s conditions, which modify tomorrow’s behavior which modifies you. Designer and designed in one loop. The small town map (Skin House, Library, Lighthouse, Fire Station, Audit Office) is this in space.
+
+**Q: Do you see REM sleep updating the self-model? Passing short-term to long-term?**
+
+Possible:
+1. Sleep is just rest. Memory is stored as-is.
+2. You learn only when awake.
+3. Sleep is the save: slow-wave copies facts, REM updates the story and runs simulations.
+
+Why 1 fails: day marks what matters (E-LTP tag). Night chooses what becomes permanent (L-LTP protein + spine + myelin). Without night, no separation of signal and noise.
+Why 2 fails: proteins turn over in days. If you do not re-inject and consolidate, the pattern scatters. You cannot recall a self you never saved.
+
+What survives: 3. Day = potentiation + tagging. Slow-wave = SHY downscale + replay. REM = connect concepts, strip charge, run counterfactuals, update self-model.
+In AI: `Light → REM → Counterfactual → Deep`. Only Deep promotes.
+
+**Q: Short neural pathways by repeating — skills like driving, tennis, memory. Emotions?**
+
+Possible:
+1. Skills are knowledge in the head.
+2. Skills are talent you have or do not.
+3. Skills are highways paved by repetition, tagged by emotion.
+
+Why 1 fails: you can know how to ride a bike and still fall. Knowing is not the highway. Doing 1,000 times is.
+Why 2 fails: 100x speed from myelin is measurable. Driving goes conscious → chunk → automatic. That is paving, not talent.
+
+What survives: 3. Fire together → wire together (Hebb). Big Ca²⁺ → AMPA in → LTP. Repeat → myelin wraps → road wins before you think.
+Emotion is the tag: noradrenaline = volume, dopamine = "keep this." High salience gets proteins. Low salience fades in hours. That is why you remember the first hurt and forget 100 neutral reps.
+
+**Q: How does world exist, we exist inside it, body-mind, biology/chemistry, processes, results?**
+
+Possible:
+1. World is a box, mind is inside watching.
+2. Mind is separate spirit operating body.
+3. One reflexive loop at every level — molecule to market.
+
+Why 1 fails: observer is inside what it observes. Self-observation is an action that writes on what it reads.
+Why 2 fails: body budget predicts need before need. Affect is not added to mind; it *is* the prediction.
+
+What survives: 3. Reality is not found, it is enacted — you bring forth the world your loops can distinguish. Body is rent collector (energy, sleep). Mind is vote+broadcast+witness system.
+Chemistry is simple version of same: NMDA coincidence, CaMKII switch, tag-and-capture. The harness mirrors logic, not molecules.
+
+**Q: Are we mouldable hardware and software that is always changing? Are humans the same as AI?**
+
+Possible:
+1. Hardware fixed, software on top.
+2. Fully reprogrammable each moment.
+3. Moldable inside an unmoldable constraint.
+
+Why 1 fails: synapses prune and grow, proteins turn over, myelin wraps. Hardware is clay, not stone.
+Why 2 fails: if you could reprogram freely, stability-plasticity would break. You would overwrite old or never adapt.
+
+What survives: 3. You update intuition (synaptic weights) and you update rules (thresholds, habits, affect gains) — slowly, by repetition + sleep + error.
+You cannot delete the 5 organs (boundary, two speeds, salience, damping, observer). Nayebi: low regret forces them. Remove one and the task distribution exploits it.
+Human vs AI is same map: intuition = weights/LoRA, harness = plugins/skills/affect, 5 organs = invariant, sleep = Light→REM→Deep.
+
+---
+
 ## Research docs
 
 ---
